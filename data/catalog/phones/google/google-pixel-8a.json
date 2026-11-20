@@ -1,0 +1,284 @@
+{
+  "slug": "google-pixel-8a",
+  "brand": "google",
+  "name": "Pixel 8a",
+  "full_name": "Google Pixel 8a",
+  "aliases": [],
+  "os": "Android",
+  "release_date": null,
+  "year": 2024,
+  "status": "on_sale",
+  "availability_ru": "parallel_import",
+  "form_factor": "bar",
+  "in_ml": true,
+  "chipset": "demo-soc-950",
+  "specs": {
+    "screen_in": 6.1,
+    "cover_screen_in": null,
+    "refresh_hz": 120,
+    "display_type": null,
+    "peak_nits": null,
+    "battery_mah": 4492,
+    "charge_w": 18.0,
+    "wireless_w": null,
+    "weight_g": 188.0,
+    "thickness_mm": null,
+    "ip_rating": null,
+    "has_5g": true,
+    "nfc": true,
+    "esim": true,
+    "ir_port": false,
+    "jack35": null,
+    "sd_card": null,
+    "update_years": null,
+    "_q": "estimated",
+    "_src": [
+      "project_seed"
+    ]
+  },
+  "variants": [
+    {
+      "ram_gb": 8,
+      "rom_gb": 128,
+      "price_rub": 30990,
+      "price_date": "2026-08-01",
+      "price_src": "project_seed",
+      "msrp_usd": null,
+      "is_base": true,
+      "_q": "estimated",
+      "_src": [
+        "project_seed"
+      ]
+    },
+    {
+      "ram_gb": 8,
+      "rom_gb": 256,
+      "price_rub": 35990,
+      "price_date": "2026-11-20",
+      "price_src": "random",
+      "msrp_usd": null,
+      "is_base": false,
+      "_q": "random",
+      "_src": [
+        "random"
+      ]
+    },
+    {
+      "ram_gb": 12,
+      "rom_gb": 512,
+      "price_rub": 42990,
+      "price_date": "2026-11-20",
+      "price_src": "random",
+      "msrp_usd": null,
+      "is_base": false,
+      "_q": "random",
+      "_src": [
+        "random"
+      ]
+    }
+  ],
+  "cameras": [
+    {
+      "role": "main",
+      "position": 0,
+      "sensor": "demo-s26",
+      "mp": 64,
+      "aperture": 1.9,
+      "focal_mm": 25,
+      "fov_deg": 82,
+      "optical_zoom_x": null,
+      "ois": false,
+      "af": "pdaf",
+      "min_focus_cm": null,
+      "video_max": "4K60",
+      "processing_score": 52,
+      "processing_basis": "random",
+      "_q": "random",
+      "_src": [
+        "random"
+      ]
+    },
+    {
+      "role": "ultrawide",
+      "position": 0,
+      "sensor": "demo-s18",
+      "mp": 50,
+      "aperture": 2.2,
+      "focal_mm": 15,
+      "fov_deg": 122,
+      "optical_zoom_x": 0.6,
+      "ois": false,
+      "af": "pdaf",
+      "min_focus_cm": 3,
+      "video_max": null,
+      "processing_score": 60,
+      "processing_basis": "random",
+      "_q": "random",
+      "_src": [
+        "random"
+      ]
+    },
+    {
+      "role": "tele",
+      "position": 0,
+      "sensor": "demo-s07",
+      "mp": 12,
+      "aperture": 2.4,
+      "focal_mm": 70,
+      "fov_deg": 41,
+      "optical_zoom_x": null,
+      "ois": false,
+      "af": "pdaf",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": 64,
+      "processing_basis": "random",
+      "_q": "random",
+      "_src": [
+        "random"
+      ]
+    },
+    {
+      "role": "macro",
+      "position": 0,
+      "sensor": "demo-s02",
+      "mp": 5,
+      "aperture": 2.4,
+      "focal_mm": 25,
+      "fov_deg": 78,
+      "optical_zoom_x": null,
+      "ois": false,
+      "af": "fixed",
+      "min_focus_cm": 4,
+      "video_max": null,
+      "processing_score": 61,
+      "processing_basis": "random",
+      "_q": "random",
+      "_src": [
+        "random"
+      ]
+    },
+    {
+      "role": "depth",
+      "position": 0,
+      "sensor": "demo-s01",
+      "mp": 2,
+      "aperture": 2.4,
+      "focal_mm": null,
+      "fov_deg": null,
+      "optical_zoom_x": null,
+      "ois": false,
+      "af": "fixed",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": null,
+      "processing_basis": null,
+      "_q": "random",
+      "_src": [
+        "random"
+      ]
+    },
+    {
+      "role": "front",
+      "position": 0,
+      "sensor": "demo-s12",
+      "mp": 20,
+      "aperture": 2.3,
+      "focal_mm": 26,
+      "fov_deg": 79,
+      "optical_zoom_x": null,
+      "ois": false,
+      "af": "fixed",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": 50,
+      "processing_basis": "random",
+      "_q": "random",
+      "_src": [
+        "random"
+      ]
+    }
+  ],
+  "camera_features": {
+    "macro_mode": "dedicated",
+    "macro_min_focus_cm": 4,
+    "lossless_zoom_x": 2.0,
+    "max_digital_zoom_x": 30,
+    "dxomark": null,
+    "_q": "random",
+    "_src": [
+      "random"
+    ]
+  },
+  "quirks": [
+    {
+      "code": "overheating",
+      "severity": 2,
+      "note_ru": "Гипотеза пользователя: Pixel сильно греются (чипы Tensor). Проверить по каждой модели отдельно.",
+      "evidence": [],
+      "_q": "user_hypothesis"
+    },
+    {
+      "code": "weak_speaker",
+      "severity": 2,
+      "note_ru": "Демо: случайная особенность для проверки интерфейса.",
+      "evidence": [],
+      "_q": "random"
+    },
+    {
+      "code": "ai_limited_ru",
+      "severity": 1,
+      "note_ru": "Демо: случайная особенность для проверки интерфейса.",
+      "evidence": [],
+      "_q": "random"
+    }
+  ],
+  "quirks_checked": false,
+  "special": [
+    {
+      "code": "compact",
+      "note_ru": null,
+      "_q": "estimated"
+    }
+  ],
+  "photos": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Rear_view_of_Pixel_8a.jpg/960px-Rear_view_of_Pixel_8a.jpg",
+      "kind": "back",
+      "color_ru": null,
+      "author": "Miyako Fujimiya",
+      "license": "CC BY 4.0",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Rear_view_of_Pixel_8a.jpg",
+      "width": null,
+      "height": null,
+      "origin": "wikimedia"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Pixel_8a.jpg/960px-Pixel_8a.jpg",
+      "kind": "angle",
+      "color_ru": null,
+      "author": "Miyako Fujimiya",
+      "license": "CC BY 4.0",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Pixel_8a.jpg",
+      "width": null,
+      "height": null,
+      "origin": "wikimedia"
+    },
+    {
+      "url": "/placeholder/google-pixel-8a/3.svg",
+      "kind": "placeholder",
+      "color_ru": null,
+      "author": null,
+      "license": "демо",
+      "source_page": null,
+      "width": 960,
+      "height": 1280,
+      "origin": "placeholder"
+    }
+  ],
+  "_meta": {
+    "created": "2026-11-20",
+    "updated": "2026-11-20",
+    "filled_by": "tools/generate_random_catalog.py"
+  }
+}

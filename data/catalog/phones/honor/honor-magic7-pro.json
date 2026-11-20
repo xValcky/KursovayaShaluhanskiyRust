@@ -1,0 +1,218 @@
+{
+  "slug": "honor-magic7-pro",
+  "brand": "honor",
+  "name": "Magic7 Pro",
+  "full_name": "Honor Magic7 Pro",
+  "aliases": [],
+  "os": "Android",
+  "release_date": null,
+  "year": 2025,
+  "status": "on_sale",
+  "availability_ru": "official",
+  "form_factor": "bar",
+  "in_ml": true,
+  "chipset": "demo-soc-2600",
+  "specs": {
+    "screen_in": 6.8,
+    "cover_screen_in": null,
+    "refresh_hz": 120,
+    "display_type": null,
+    "peak_nits": null,
+    "battery_mah": 5850,
+    "charge_w": 100.0,
+    "wireless_w": null,
+    "weight_g": 223.0,
+    "thickness_mm": null,
+    "ip_rating": null,
+    "has_5g": true,
+    "nfc": true,
+    "esim": true,
+    "ir_port": true,
+    "jack35": null,
+    "sd_card": null,
+    "update_years": null,
+    "_q": "estimated",
+    "_src": [
+      "project_seed"
+    ]
+  },
+  "variants": [
+    {
+      "ram_gb": 12,
+      "rom_gb": 512,
+      "price_rub": 53900,
+      "price_date": "2026-11-05",
+      "price_src": "project_seed",
+      "msrp_usd": null,
+      "is_base": true,
+      "_q": "estimated",
+      "_src": [
+        "project_seed"
+      ]
+    },
+    {
+      "ram_gb": 16,
+      "rom_gb": 1024,
+      "price_rub": 63990,
+      "price_date": "2026-11-20",
+      "price_src": "random",
+      "msrp_usd": null,
+      "is_base": false,
+      "_q": "random",
+      "_src": [
+        "random"
+      ]
+    }
+  ],
+  "cameras": [
+    {
+      "role": "main",
+      "position": 0,
+      "sensor": "demo-s32",
+      "mp": 200,
+      "aperture": 1.6,
+      "focal_mm": 24,
+      "fov_deg": 84,
+      "optical_zoom_x": null,
+      "ois": true,
+      "af": "dual_pixel",
+      "min_focus_cm": null,
+      "video_max": "4K120",
+      "processing_score": 79,
+      "processing_basis": "random",
+      "_q": "random",
+      "_src": [
+        "random"
+      ]
+    },
+    {
+      "role": "ultrawide",
+      "position": 0,
+      "sensor": "demo-s19",
+      "mp": 50,
+      "aperture": 2.1,
+      "focal_mm": 14,
+      "fov_deg": 122,
+      "optical_zoom_x": 0.6,
+      "ois": false,
+      "af": "fixed",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": 58,
+      "processing_basis": "random",
+      "_q": "random",
+      "_src": [
+        "random"
+      ]
+    },
+    {
+      "role": "tele",
+      "position": 0,
+      "sensor": "demo-s19",
+      "mp": 50,
+      "aperture": 2.4,
+      "focal_mm": 75,
+      "fov_deg": 35,
+      "optical_zoom_x": null,
+      "ois": true,
+      "af": "pdaf",
+      "min_focus_cm": 10,
+      "video_max": null,
+      "processing_score": 93,
+      "processing_basis": "random",
+      "_q": "random",
+      "_src": [
+        "random"
+      ]
+    },
+    {
+      "role": "front",
+      "position": 0,
+      "sensor": "demo-s13",
+      "mp": 32,
+      "aperture": 2.0,
+      "focal_mm": 21,
+      "fov_deg": 79,
+      "optical_zoom_x": null,
+      "ois": false,
+      "af": "pdaf",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": 83,
+      "processing_basis": "random",
+      "_q": "random",
+      "_src": [
+        "random"
+      ]
+    }
+  ],
+  "camera_features": {
+    "macro_mode": "tele_macro",
+    "macro_min_focus_cm": 10,
+    "lossless_zoom_x": 4.0,
+    "max_digital_zoom_x": 30,
+    "dxomark": null,
+    "_q": "random",
+    "_src": [
+      "random"
+    ]
+  },
+  "quirks": [
+    {
+      "code": "dim_display",
+      "severity": 3,
+      "note_ru": "Демо: случайная особенность для проверки интерфейса.",
+      "evidence": [],
+      "_q": "random"
+    },
+    {
+      "code": "good_ai_assistant",
+      "severity": 1,
+      "note_ru": "Демо: случайная особенность для проверки интерфейса.",
+      "evidence": [],
+      "_q": "random"
+    }
+  ],
+  "quirks_checked": false,
+  "special": [],
+  "photos": [
+    {
+      "url": "/placeholder/honor-magic7-pro/1.svg",
+      "kind": "placeholder",
+      "color_ru": null,
+      "author": null,
+      "license": "демо",
+      "source_page": null,
+      "width": 960,
+      "height": 1280,
+      "origin": "placeholder"
+    },
+    {
+      "url": "/placeholder/honor-magic7-pro/2.svg",
+      "kind": "placeholder",
+      "color_ru": null,
+      "author": null,
+      "license": "демо",
+      "source_page": null,
+      "width": 960,
+      "height": 1280,
+      "origin": "placeholder"
+    },
+    {
+      "url": "/placeholder/honor-magic7-pro/3.svg",
+      "kind": "placeholder",
+      "color_ru": null,
+      "author": null,
+      "license": "демо",
+      "source_page": null,
+      "width": 960,
+      "height": 1280,
+      "origin": "placeholder"
+    }
+  ],
+  "_meta": {
+    "created": "2026-11-20",
+    "updated": "2026-11-20",
+    "filled_by": "tools/generate_random_catalog.py"
+  }
+}

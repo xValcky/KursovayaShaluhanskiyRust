@@ -20,11 +20,16 @@ pub const DEAL_THRESHOLD: f64 = 0.15;
 pub const OVERPRICE_THRESHOLD: f64 = 0.20;
 const AFFINITY_T: f64 = 0.5;
 
-/// Ключи жёстких требований (кроме бюджета) в порядке REQUIREMENT_TITLES.
-pub const REQ_KEYS: [&str; 8] = ["floor", "os", "nfc", "esim", "ir", "screen", "hz", "rom"];
-pub const REQ_TITLES: [&str; 8] = [
+/// Число жёстких требований: 8 исходных + 5 из каталога v2 (ОЗУ, зум, макро, минусы, интересные возможности).
+pub const N_REQ: usize = 13;
+/// Ключи жёстких требований (кроме бюджета) в порядке REQUIREMENT_TITLES; новые — в конце, чтобы при нулевых
+/// значениях выбор подсказки и все результаты совпадали с Python (golden-тест).
+pub const REQ_KEYS: [&str; N_REQ] =
+    ["floor", "os", "nfc", "esim", "ir", "screen", "hz", "rom", "ram", "zoom", "macro", "quirks", "special"];
+pub const REQ_TITLES: [&str; N_REQ] = [
     "цена от", "система", "NFC", "eSIM — обязательно", "ИК-порт — обязательно", "размер экрана",
-    "частота экрана", "объём памяти",
+    "частота экрана", "объём памяти", "объём ОЗУ", "оптический зум", "макросъёмка", "серьёзные минусы",
+    "интересные возможности",
 ];
 /// Диапазон диагонали для screen_pref 0..4 (дюймы).
 const SCREEN_RANGE: [(f64, f64); 5] = [(0.0, 99.0), (0.0, 6.3), (6.3, 6.75), (6.7, 99.0), (6.88, 99.0)];
@@ -60,6 +65,19 @@ pub struct Survey {
     pub screen_pref: f64,
     pub min_hz: f64,
     pub min_rom: f64,
+    // ── каталог v2 (0 — не учитывать; старые анкеты и golden-тест их не содержат) ──
+    /// ОЗУ от, ГБ: подходит модель, у которой есть такая конфигурация
+    pub min_ram: f64,
+    /// оптический зум от, крат (по телевикам)
+    pub min_optical_zoom: f64,
+    /// 1 — нужна макросъёмка (отдельный модуль, ширик с автофокусом или телемакро)
+    pub need_macro: f64,
+    /// 1 — скрыть модели с отрицательными «приколами» тяжести ≥ 2
+    pub hide_bad_quirks: f64,
+    /// 1 — только «Смартфоны с интересными возможностями»
+    pub special_only: f64,
+    /// коды категорий (trifold, book_fold, flip…); пусто — любая категория
+    pub special: Vec<String>,
 }
 
 impl Default for Survey {
@@ -70,6 +88,8 @@ impl Default for Survey {
             imp_charge: 4.0, imp_storage: 4.0, imp_new: 3.0, imp_value: 5.0, imp_rugged: 0.0,
             gaming: 0.0, photo: 0.0, work: 0.0, os_pref: 0.0, need_nfc: 1.0, esim_pref: 0.0, ir_pref: 0.0,
             screen_pref: 0.0, min_hz: 0.0, min_rom: 128.0,
+            min_ram: 0.0, min_optical_zoom: 0.0, need_macro: 0.0, hide_bad_quirks: 0.0, special_only: 0.0,
+            special: Vec::new(),
         }
     }
 }
@@ -87,7 +107,10 @@ impl Survey {
         ] {
             *v = fix(*v, 0.0, 10.0);
         }
-        for v in [&mut self.gaming, &mut self.photo, &mut self.work, &mut self.need_nfc, &mut self.strict_range] {
+        for v in [
+            &mut self.gaming, &mut self.photo, &mut self.work, &mut self.need_nfc, &mut self.strict_range,
+            &mut self.need_macro, &mut self.hide_bad_quirks, &mut self.special_only,
+        ] {
             *v = fix(v.round(), 0.0, 1.0);
         }
         self.os_pref = fix(self.os_pref.round(), 0.0, 2.0);
@@ -96,6 +119,9 @@ impl Survey {
         self.screen_pref = fix(self.screen_pref.round(), 0.0, 4.0);
         self.min_hz = fix(self.min_hz, 0.0, 1000.0);
         self.min_rom = fix(self.min_rom, 1.0, 1e5);
+        self.min_ram = fix(self.min_ram, 0.0, 64.0);
+        self.min_optical_zoom = fix(self.min_optical_zoom, 0.0, 20.0);
+        self.special.truncate(32);
         self
     }
 
@@ -116,6 +142,47 @@ impl Survey {
     /// Нижняя граница цены: «цена от» − 10% (в строгом режиме сегментов — ровно «от»).
     fn floor_price(&self) -> f64 {
         if self.strict() { self.budget_min } else { 0.9 * self.budget_min }
+    }
+}
+
+/// Данные моделей для одного запроса: цена и память выбранной конфигурации + признаки каталога v2.
+///
+/// `Ext::base` — ровно данные из model.json: так считает прежний подбор (`recommend`), его сверяет golden-тест.
+/// `Catalog::ext` — цена/память конфигурации, подходящей под ОЗУ/ПЗУ анкеты, и камеры/«приколы»/категории.
+#[derive(Clone, Debug)]
+pub struct Ext {
+    pub price: Vec<f64>,
+    pub ram: Vec<f64>,
+    pub rom: Vec<f64>,
+    /// оптический зум (лучший телевик), 1.0 — телевика нет
+    pub zoom: Vec<f64>,
+    pub macro_ok: Vec<bool>,
+    /// есть отрицательный «прикол» тяжести ≥ 2
+    pub bad_quirk: Vec<bool>,
+    /// битовая маска категорий «интересных возможностей»
+    pub special: Vec<u32>,
+    /// какие категории ищет пользователь при special_only: 0 — любая
+    pub special_req: u32,
+    /// одна модель каталога может соответствовать нескольким строкам model.json («iPhone 17 Pro» и «… 512GB»)
+    pub group: Vec<usize>,
+    /// оставлять в выдаче одну строку на группу (лучшую по оценке)
+    pub dedupe: bool,
+}
+
+impl Ext {
+    pub fn base(m: &Model) -> Ext {
+        Ext {
+            price: m.phones.iter().map(|p| p.price_rub).collect(),
+            ram: m.phones.iter().map(|p| p.ram_gb).collect(),
+            rom: m.phones.iter().map(|p| p.rom_gb).collect(),
+            zoom: vec![1.0; m.n],
+            macro_ok: vec![true; m.n],
+            bad_quirk: vec![false; m.n],
+            special: vec![0; m.n],
+            special_req: 0,
+            group: (0..m.n).collect(),
+            dedupe: false,
+        }
     }
 }
 
@@ -147,7 +214,7 @@ pub fn preference_weights(m: &Model, a: &Survey) -> Vec<f64> {
 }
 
 /// Штрафы за жёсткие требования (кроме бюджета) для одного телефона — порядок REQ_KEYS.
-fn penalties(a: &Survey, p: &Phone, floor: f64) -> [f64; 8] {
+fn penalties(a: &Survey, p: &Phone, floor: f64, e: &Ext, i: usize) -> [f64; N_REQ] {
     let os_bad = match a.os_pref as u8 {
         1 => p.os != "Android",
         2 => p.os != "iOS",
@@ -156,15 +223,21 @@ fn penalties(a: &Survey, p: &Phone, floor: f64) -> [f64; 8] {
     let (lo, hi) = SCREEN_RANGE[a.screen_pref as usize];
     let miss = (lo - p.screen_in).max(0.0) + (p.screen_in - hi).max(0.0);
     let b = |c: bool, v: f64| if c { v } else { 0.0 };
+    let special_miss = if e.special_req == 0 { e.special[i] == 0 } else { e.special[i] & e.special_req == 0 };
     [
-        if floor > 0.0 { 30.0 * (1.0 - p.price_rub / floor).max(0.0) } else { 0.0 },
+        if floor > 0.0 { 30.0 * (1.0 - e.price[i] / floor).max(0.0) } else { 0.0 },
         b(os_bad, 6.0),
         b(a.need_nfc != 0.0 && p.nfc == 0.0, 6.0),
         b(a.esim_pref == 2.0 && p.esim == 0.0, 6.0),
         b(a.ir_pref == 2.0 && p.ir_port == 0.0, 6.0),
         15.0 * miss + b(miss > 0.0, 3.0),
         b(p.refresh_hz < a.min_hz, 5.0),
-        b(p.rom_gb < a.min_rom, 3.0),
+        b(e.rom[i] < a.min_rom, 3.0),
+        b(e.ram[i] < a.min_ram, 3.0),
+        b(a.min_optical_zoom > 0.0 && e.zoom[i] + 1e-9 < a.min_optical_zoom, 4.0),
+        b(a.need_macro != 0.0 && !e.macro_ok[i], 3.0),
+        b(a.hide_bad_quirks != 0.0 && e.bad_quirk[i], 4.0),
+        b(a.special_only != 0.0 && special_miss, 6.0),
     ]
 }
 
@@ -172,33 +245,35 @@ fn penalties(a: &Survey, p: &Phone, floor: f64) -> [f64; 8] {
 pub struct Scored {
     pub proba: Vec<f64>,
     pub score: Vec<f64>,
-    pub pen: Vec<[f64; 8]>,
+    pub pen: Vec<[f64; N_REQ]>,
     pub feasible: Vec<bool>,
     pub best_cluster: usize,
     pub weights: Vec<f64>,
 }
 
-fn feasible_with(m: &Model, a: &Survey, pen: &[[f64; 8]], mut slack: f64) -> Vec<bool> {
+fn feasible_with(m: &Model, a: &Survey, pen: &[[f64; N_REQ]], mut slack: f64, e: &Ext) -> Vec<bool> {
     if a.strict() && slack < 2.0 {
         slack = 1.0;
     }
-    (0..m.n)
-        .map(|i| pen[i].iter().sum::<f64>() == 0.0 && m.phones[i].price_rub <= a.budget_rub * slack)
-        .collect()
+    (0..m.n).map(|i| pen[i].iter().sum::<f64>() == 0.0 && e.price[i] <= a.budget_rub * slack).collect()
 }
 
 pub fn score(m: &Model, a: &Survey) -> Scored {
+    score_ext(m, a, &Ext::base(m))
+}
+
+pub fn score_ext(m: &Model, a: &Survey, e: &Ext) -> Scored {
     let w = preference_weights(m, a);
     let floor = a.floor_price();
-    let pen: Vec<[f64; 8]> = m.phones.iter().map(|p| penalties(a, p, floor)).collect();
+    let pen: Vec<[f64; N_REQ]> =
+        m.phones.iter().enumerate().map(|(i, p)| penalties(a, p, floor, e, i)).collect();
     let value_k = 0.3 + 2.0 * a.imp_value / 10.0;
     let rugged_k = a.imp_rugged / 10.0 * 1.2;
     // полезность u_i
     let u: Vec<f64> = (0..m.n)
         .map(|i| {
-            let p = &m.phones[i];
             let zi = &m.z[i * m.nf..(i + 1) * m.nf];
-            let ratio = p.price_rub / a.budget_rub;
+            let ratio = e.price[i] / a.budget_rub;
             let mut v: f64 = zi.iter().zip(&w).map(|(z, w)| z * w).sum();
             v -= value_k * ratio;
             if m.rugged[i] {
@@ -214,12 +289,12 @@ pub fn score(m: &Model, a: &Survey) -> Scored {
         input.push(mem.iter().map(|&i| u[i]).fold(f64::NEG_INFINITY, f64::max));
     }
     for mem in &m.members {
-        let ok = mem.iter().filter(|&&i| m.phones[i].price_rub <= a.budget_rub).count();
+        let ok = mem.iter().filter(|&&i| e.price[i] <= a.budget_rub).count();
         input.push(ok as f64 / mem.len() as f64);
     }
     let proba = m.mlp.predict_proba(&input);
 
-    let feasible = feasible_with(m, a, &pen, 1.1);
+    let feasible = feasible_with(m, a, &pen, 1.1, e);
     let nfeas = feasible.iter().filter(|&&f| f).count();
     let refv: Vec<f64> = if nfeas >= 5 {
         (0..m.n).filter(|&i| feasible[i]).map(|i| u[i]).collect()
@@ -312,6 +387,9 @@ pub struct Row {
     pub badges: Vec<String>,
     pub unmet: Vec<String>,
     pub ok: bool,
+    /// поля каталога v2 (slug, конфигурации, камеры, «приколы», категории) — дописывает `Catalog::decorate`
+    #[serde(flatten, skip_serializing_if = "Option::is_none")]
+    pub extra: Option<serde_json::Map<String, serde_json::Value>>,
 }
 
 #[derive(Serialize, Clone, Debug)]
@@ -367,7 +445,7 @@ pub fn rub(x: f64) -> String {
     if r < 0 { format!("-{out}") } else { out }
 }
 
-fn plain_pros(p: &Phone, top: &[&str]) -> Vec<String> {
+fn plain_pros(p: &Phone, top: &[&str], ram: f64, rom: f64) -> Vec<String> {
     let mut out: Vec<String> = top
         .iter()
         .filter_map(|f| {
@@ -379,8 +457,8 @@ fn plain_pros(p: &Phone, top: &[&str]) -> Vec<String> {
                 "antutu_k" => format!("мощный чип (AnTuTu {:.0} тыс.)", p.antutu_k),
                 "refresh_hz" => format!("плавный экран {:.0} Гц", p.refresh_hz),
                 "charge_w" => format!("зарядка {:.0} Вт", p.charge_w),
-                "rom_gb" => format!("память {:.0} ГБ", p.rom_gb),
-                "ram_gb" => format!("ОЗУ {:.0} ГБ", p.ram_gb),
+                "rom_gb" => format!("память {:.0} ГБ", rom),
+                "ram_gb" => format!("ОЗУ {:.0} ГБ", ram),
                 "screen_in" => format!("экран {}″", p.screen_in),
                 "weight_g" => format!("лёгкий, {:.0} г", p.weight_g),
                 "year" => format!("модель {:.0} года", p.year),
@@ -421,17 +499,18 @@ fn price_badges(p: &Phone, fair: Option<f64>) -> Vec<String> {
 }
 
 /// Какие жёсткие требования телефон не выполняет (подпись «не подходит: …»).
-fn unmet(a: &Survey, p: &Phone, pen: &[f64; 8]) -> Vec<String> {
+fn unmet(a: &Survey, price: f64, pen: &[f64; N_REQ]) -> Vec<String> {
     let mut v: Vec<String> =
         pen.iter().zip(REQ_TITLES).filter(|(x, _)| **x > 0.0).map(|(_, t)| t.to_string()).collect();
-    if p.price_rub > a.budget_rub * 1.1 {
+    if price > a.budget_rub * 1.1 {
         v.push("бюджет".into());
     }
     v
 }
 
-fn make_row(m: &Model, s: &Scored, a: &Survey, i: usize, with_unmet: bool) -> Row {
+fn make_row(m: &Model, s: &Scored, a: &Survey, i: usize, with_unmet: bool, e: &Ext) -> Row {
     let p = &m.phones[i];
+    let price = e.price[i];
     let zi = &m.z[i * m.nf..(i + 1) * m.nf];
     let contrib: Vec<f64> = zi.iter().zip(&s.weights).map(|(z, w)| z * w).collect();
     let mut idx: Vec<usize> = (0..m.nf).collect();
@@ -439,10 +518,10 @@ fn make_row(m: &Model, s: &Scored, a: &Survey, i: usize, with_unmet: bool) -> Ro
     let top: Vec<usize> = idx.into_iter().take(4).filter(|&j| contrib[j] > 0.0).collect();
     let mut reasons =
         top.iter().take(3).map(|&j| m.feature_names_ru[j].as_str()).collect::<Vec<_>>().join(", ");
-    if p.price_rub > a.budget_rub {
-        reasons += &format!("; дороже бюджета на {} ₽", rub(p.price_rub - a.budget_rub));
+    if price > a.budget_rub {
+        reasons += &format!("; дороже бюджета на {} ₽", rub(price - a.budget_rub));
     }
-    let unmet_list = if with_unmet { unmet(a, p, &s.pen[i]) } else { Vec::new() };
+    let unmet_list = if with_unmet { unmet(a, price, &s.pen[i]) } else { Vec::new() };
     if !unmet_list.is_empty() {
         reasons += &format!("; не подходит: {}", unmet_list.join(", "));
     }
@@ -456,32 +535,33 @@ fn make_row(m: &Model, s: &Scored, a: &Survey, i: usize, with_unmet: bool) -> Ro
         name: p.full_name.clone(),
         brand: p.brand.clone(),
         os: p.os.clone(),
-        price: p.price_rub.round() as i64,
+        price: price.round() as i64,
         fair: fair.map(|f| ((f / 100.0).round() * 100.0) as i64),
         class_id: m.labels[i],
         class_name: m.class_names[m.labels[i]].clone(),
         cluster: m.cluster_names[m.clusters[i]].clone(),
-        ram_gb: p.ram_gb, rom_gb: p.rom_gb, screen_in: p.screen_in, refresh_hz: p.refresh_hz,
+        ram_gb: e.ram[i], rom_gb: e.rom[i], screen_in: p.screen_in, refresh_hz: p.refresh_hz,
         battery_mah: p.battery_mah, charge_w: p.charge_w, weight_g: p.weight_g, camera_mp: p.camera_mp,
         antutu_k: p.antutu_k, active_h: p.active_h, standby_d: p.standby_d, year: p.year,
         nfc: p.nfc != 0.0, esim: p.esim != 0.0, ir: p.ir_port != 0.0, g5: p.has_5g != 0.0,
         score: (s.score[i] * 100.0).round() / 100.0,
         reasons,
-        pros: plain_pros(p, &top_names),
+        pros: plain_pros(p, &top_names, e.ram[i], e.rom[i]),
         badges: price_badges(p, fair),
         ok: unmet_list.is_empty(),
         unmet: unmet_list,
+        extra: None,
     }
 }
 
-fn weak_result_hint(m: &Model, a: &Survey, s: &Scored) -> Option<Hint> {
+fn weak_result_hint(m: &Model, a: &Survey, s: &Scored, e: &Ext) -> Option<Hint> {
     let count = s.feasible.iter().filter(|&&f| f).count();
     if count >= 8 {
         return None;
     }
-    let mut cut = [0usize; 8];
+    let mut cut = [0usize; N_REQ];
     for i in 0..m.n {
-        if m.phones[i].price_rub <= a.budget_rub * 1.1 {
+        if e.price[i] <= a.budget_rub * 1.1 {
             for (c, v) in cut.iter_mut().zip(&s.pen[i]) {
                 if *v > 0.0 {
                     *c += 1;
@@ -493,12 +573,12 @@ fn weak_result_hint(m: &Model, a: &Survey, s: &Scored) -> Option<Hint> {
     // самый дешёвый телефон, который проходит все требования, кроме бюджета и «цены от»
     let cheapest_ok = (0..m.n)
         .filter(|&i| s.pen[i][1..].iter().all(|v| *v == 0.0))
-        .map(|i| m.phones[i].price_rub)
+        .map(|i| e.price[i])
         .fold(f64::INFINITY, f64::min);
     let cheapest = cheapest_ok.is_finite().then(|| cheapest_ok.round() as i64);
     if cut[best] == 0 {
-        let any = feasible_with(m, a, &s.pen, 99.0);
-        let cheap_any = (0..m.n).filter(|&i| any[i]).map(|i| m.phones[i].price_rub).fold(f64::INFINITY, f64::min);
+        let any = feasible_with(m, a, &s.pen, 99.0, e);
+        let cheap_any = (0..m.n).filter(|&i| any[i]).map(|i| e.price[i]).fold(f64::INFINITY, f64::min);
         let text = if cheap_any.is_finite() {
             format!("Подходящих телефонов всего {count}: мал бюджет. Самый дешёвый подходящий — {} ₽.", rub(cheap_any))
         } else {
@@ -516,25 +596,34 @@ fn weak_result_hint(m: &Model, a: &Survey, s: &Scored) -> Option<Hint> {
     Some(Hint { key: REQ_KEYS[best].into(), count, text, cheapest })
 }
 
-fn result_blocks(m: &Model, a: &Survey, s: &Scored, picked: &[usize]) -> Vec<Block> {
+fn result_blocks(m: &Model, a: &Survey, s: &Scored, picked: &[usize], e: &Ext) -> Vec<Block> {
     let any_feas = s.feasible.iter().any(|&f| f);
     let allowed: Vec<bool> = if any_feas { s.feasible.clone() } else { vec![true; m.n] };
-    let allowed_premium = if any_feas { feasible_with(m, a, &s.pen, 1.25) } else { allowed.clone() };
+    let allowed_premium = if any_feas { feasible_with(m, a, &s.pen, 1.25, e) } else { allowed.clone() };
     let order = order_desc(&s.score);
     let best = picked[0];
-    let price = |i: usize| m.phones[i].price_rub;
-    let mut used: HashSet<usize> = HashSet::from([best]);
+    let price = |i: usize| e.price[i];
+    // занятые группы (в базовом режиме группа = сама модель, как раньше)
+    let mut used: HashSet<usize> = HashSet::from([e.group[best]]);
     let mut blocks =
-        vec![Block { title: "Лучший выбор".into(), note: None, rows: vec![make_row(m, s, a, best, false)] }];
+        vec![Block { title: "Лучший выбор".into(), note: None, rows: vec![make_row(m, s, a, best, false, e)] }];
 
     let mut take = |blocks: &mut Vec<Block>, mask: &dyn Fn(usize) -> bool, ok: &[bool], title: &str, note: &str| {
-        let cand: Vec<usize> = order.iter().copied().filter(|&i| mask(i) && ok[i] && !used.contains(&i)).take(2).collect();
+        let mut cand: Vec<usize> = Vec::new();
+        for i in order.iter().copied() {
+            if cand.len() == 2 {
+                break;
+            }
+            if mask(i) && ok[i] && !used.contains(&e.group[i]) && !cand.iter().any(|&c| e.group[c] == e.group[i]) {
+                cand.push(i);
+            }
+        }
         if !cand.is_empty() {
-            used.extend(&cand);
+            used.extend(cand.iter().map(|&i| e.group[i]));
             blocks.push(Block {
                 title: title.into(),
                 note: Some(note.into()),
-                rows: cand.iter().map(|&i| make_row(m, s, a, i, false)).collect(),
+                rows: cand.iter().map(|&i| make_row(m, s, a, i, false, e)).collect(),
             });
         }
     };
@@ -551,11 +640,21 @@ fn result_blocks(m: &Model, a: &Survey, s: &Scored, picked: &[usize]) -> Vec<Blo
 }
 
 pub fn recommend(m: &Model, a: &Survey, top_n: usize, diverse: bool, pad: bool) -> Recommendation {
-    let s = score(m, a);
+    recommend_ext(m, a, top_n, diverse, pad, &Ext::base(m))
+}
+
+/// Подбор с данными каталога v2 (конфигурации памяти, камеры, «приколы», категории).
+pub fn recommend_ext(m: &Model, a: &Survey, top_n: usize, diverse: bool, pad: bool, e: &Ext) -> Recommendation {
+    let s = score_ext(m, a, e);
     let pred_class = (0..s.proba.len()).fold(0, |b, j| if s.proba[j] > s.proba[b] { j } else { b });
     let order = order_desc(&s.score);
-    let ok: Vec<usize> = order.iter().copied().filter(|&i| s.feasible[i]).collect();
-    let bad: Vec<usize> = order.iter().copied().filter(|&i| !s.feasible[i]).collect();
+    let mut ok: Vec<usize> = order.iter().copied().filter(|&i| s.feasible[i]).collect();
+    let mut bad: Vec<usize> = order.iter().copied().filter(|&i| !s.feasible[i]).collect();
+    if e.dedupe {
+        let mut seen = HashSet::new();
+        ok.retain(|&i| seen.insert(e.group[i]));
+        bad.retain(|&i| seen.insert(e.group[i]));
+    }
     let limit_brands = a.os_pref != 2.0; // iOS — это только Apple
     let mut picked =
         if diverse { diversify(m, &ok, top_n, limit_brands) } else { ok.iter().copied().take(top_n).collect() };
@@ -563,15 +662,16 @@ pub fn recommend(m: &Model, a: &Survey, top_n: usize, diverse: bool, pad: bool) 
         let need = top_n.saturating_sub(picked.len());
         picked.extend(bad.iter().take(need));
     }
-    let table = picked.iter().map(|&i| make_row(m, &s, a, i, true)).collect();
-    let blocks = if picked.is_empty() { Vec::new() } else { result_blocks(m, a, &s, &picked) };
+    let table = picked.iter().map(|&i| make_row(m, &s, a, i, true, e)).collect();
+    let blocks = if picked.is_empty() { Vec::new() } else { result_blocks(m, a, &s, &picked, e) };
+    let feasible = if e.dedupe { ok.len() } else { s.feasible.iter().filter(|&&f| f).count() };
     Recommendation {
         pred_class,
         class_name: m.class_names[pred_class].clone(),
         best_cluster: s.best_cluster,
         cluster_name: m.cluster_names[s.best_cluster].clone(),
-        feasible: s.feasible.iter().filter(|&&f| f).count(),
-        hint: weak_result_hint(m, a, &s),
+        feasible,
+        hint: weak_result_hint(m, a, &s, e),
         proba: s.proba,
         table,
         blocks,
@@ -592,6 +692,10 @@ pub fn price_segments(bmin: f64, bmax: f64) -> Vec<(f64, f64, &'static str)> {
 
 /// Если вилка задевает 2+ сегмента — отдельная выдача по каждому (recommend_by_segments).
 pub fn recommend_by_segments(m: &Model, a: &Survey, top_n: usize, diverse: bool) -> Vec<Segment> {
+    recommend_by_segments_ext(m, a, top_n, diverse, &Ext::base(m))
+}
+
+pub fn recommend_by_segments_ext(m: &Model, a: &Survey, top_n: usize, diverse: bool, e: &Ext) -> Vec<Segment> {
     let segs = price_segments(a.budget_min, a.budget_rub);
     if segs.len() < 2 {
         return Vec::new();
@@ -606,7 +710,7 @@ pub fn recommend_by_segments(m: &Model, a: &Survey, top_n: usize, diverse: bool)
                 range: format!("{} – {}", rub(lo_v), hi_txt),
                 lo,
                 hi,
-                result: recommend(m, &sa, top_n, diverse, false),
+                result: recommend_ext(m, &sa, top_n, diverse, false, e),
             }
         })
         .collect()

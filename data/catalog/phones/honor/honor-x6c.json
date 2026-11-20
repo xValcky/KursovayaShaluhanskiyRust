@@ -1,0 +1,218 @@
+{
+  "slug": "honor-x6c",
+  "brand": "honor",
+  "name": "X6c",
+  "full_name": "Honor X6c",
+  "aliases": [],
+  "os": "Android",
+  "release_date": null,
+  "year": 2025,
+  "status": "on_sale",
+  "availability_ru": "official",
+  "form_factor": "bar",
+  "in_ml": true,
+  "chipset": "demo-soc-250",
+  "specs": {
+    "screen_in": 6.61,
+    "cover_screen_in": null,
+    "refresh_hz": 90,
+    "display_type": null,
+    "peak_nits": null,
+    "battery_mah": 6000,
+    "charge_w": 15.0,
+    "wireless_w": null,
+    "weight_g": 194.0,
+    "thickness_mm": null,
+    "ip_rating": null,
+    "has_5g": false,
+    "nfc": true,
+    "esim": false,
+    "ir_port": false,
+    "jack35": null,
+    "sd_card": null,
+    "update_years": null,
+    "_q": "estimated",
+    "_src": [
+      "project_seed"
+    ]
+  },
+  "variants": [
+    {
+      "ram_gb": 6,
+      "rom_gb": 128,
+      "price_rub": 9990,
+      "price_date": "2026-08-01",
+      "price_src": "project_seed",
+      "msrp_usd": null,
+      "is_base": true,
+      "_q": "estimated",
+      "_src": [
+        "project_seed"
+      ]
+    },
+    {
+      "ram_gb": 6,
+      "rom_gb": 256,
+      "price_rub": 10990,
+      "price_date": "2026-11-20",
+      "price_src": "random",
+      "msrp_usd": null,
+      "is_base": false,
+      "_q": "random",
+      "_src": [
+        "random"
+      ]
+    },
+    {
+      "ram_gb": 8,
+      "rom_gb": 512,
+      "price_rub": 12990,
+      "price_date": "2026-11-20",
+      "price_src": "random",
+      "msrp_usd": null,
+      "is_base": false,
+      "_q": "random",
+      "_src": [
+        "random"
+      ]
+    }
+  ],
+  "cameras": [
+    {
+      "role": "main",
+      "position": 0,
+      "sensor": "demo-s18",
+      "mp": 50,
+      "aperture": 1.9,
+      "focal_mm": 25,
+      "fov_deg": 86,
+      "optical_zoom_x": null,
+      "ois": false,
+      "af": "pdaf",
+      "min_focus_cm": null,
+      "video_max": "4K30",
+      "processing_score": 42,
+      "processing_basis": "random",
+      "_q": "random",
+      "_src": [
+        "random"
+      ]
+    },
+    {
+      "role": "ultrawide",
+      "position": 0,
+      "sensor": "demo-s18",
+      "mp": 50,
+      "aperture": 2.2,
+      "focal_mm": 15,
+      "fov_deg": 113,
+      "optical_zoom_x": 0.6,
+      "ois": false,
+      "af": "fixed",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": 49,
+      "processing_basis": "random",
+      "_q": "random",
+      "_src": [
+        "random"
+      ]
+    },
+    {
+      "role": "front",
+      "position": 0,
+      "sensor": "demo-s11",
+      "mp": 16,
+      "aperture": 2.1,
+      "focal_mm": 24,
+      "fov_deg": 80,
+      "optical_zoom_x": null,
+      "ois": false,
+      "af": "fixed",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": 46,
+      "processing_basis": "random",
+      "_q": "random",
+      "_src": [
+        "random"
+      ]
+    }
+  ],
+  "camera_features": {
+    "macro_mode": "none",
+    "macro_min_focus_cm": null,
+    "lossless_zoom_x": 2.0,
+    "max_digital_zoom_x": 20,
+    "dxomark": null,
+    "_q": "random",
+    "_src": [
+      "random"
+    ]
+  },
+  "quirks": [
+    {
+      "code": "excellent_battery",
+      "severity": 2,
+      "note_ru": "Демо: случайная особенность для проверки интерфейса.",
+      "evidence": [],
+      "_q": "random"
+    },
+    {
+      "code": "pwm_flicker",
+      "severity": 3,
+      "note_ru": "Демо: случайная особенность для проверки интерфейса.",
+      "evidence": [],
+      "_q": "random"
+    },
+    {
+      "code": "loud_stereo",
+      "severity": 2,
+      "note_ru": "Демо: случайная особенность для проверки интерфейса.",
+      "evidence": [],
+      "_q": "random"
+    }
+  ],
+  "quirks_checked": false,
+  "special": [],
+  "photos": [
+    {
+      "url": "/placeholder/honor-x6c/1.svg",
+      "kind": "placeholder",
+      "color_ru": null,
+      "author": null,
+      "license": "демо",
+      "source_page": null,
+      "width": 960,
+      "height": 1280,
+      "origin": "placeholder"
+    },
+    {
+      "url": "/placeholder/honor-x6c/2.svg",
+      "kind": "placeholder",
+      "color_ru": null,
+      "author": null,
+      "license": "демо",
+      "source_page": null,
+      "width": 960,
+      "height": 1280,
+      "origin": "placeholder"
+    },
+    {
+      "url": "/placeholder/honor-x6c/3.svg",
+      "kind": "placeholder",
+      "color_ru": null,
+      "author": null,
+      "license": "демо",
+      "source_page": null,
+      "width": 960,
+      "height": 1280,
+      "origin": "placeholder"
+    }
+  ],
+  "_meta": {
+    "created": "2026-11-20",
+    "updated": "2026-11-20",
+    "filled_by": "tools/generate_random_catalog.py"
+  }
+}

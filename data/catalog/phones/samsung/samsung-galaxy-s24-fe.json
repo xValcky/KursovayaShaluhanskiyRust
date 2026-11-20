@@ -1,0 +1,185 @@
+{
+  "slug": "samsung-galaxy-s24-fe",
+  "brand": "samsung",
+  "name": "Galaxy S24 FE",
+  "full_name": "Samsung Galaxy S24 FE",
+  "aliases": [],
+  "os": "Android",
+  "release_date": null,
+  "year": 2024,
+  "status": "on_sale",
+  "availability_ru": "parallel_import",
+  "form_factor": "bar",
+  "in_ml": true,
+  "chipset": "demo-soc-1150",
+  "specs": {
+    "screen_in": 6.7,
+    "cover_screen_in": null,
+    "refresh_hz": 120,
+    "display_type": null,
+    "peak_nits": null,
+    "battery_mah": 4700,
+    "charge_w": 25.0,
+    "wireless_w": null,
+    "weight_g": 213.0,
+    "thickness_mm": null,
+    "ip_rating": null,
+    "has_5g": true,
+    "nfc": true,
+    "esim": true,
+    "ir_port": false,
+    "jack35": null,
+    "sd_card": null,
+    "update_years": null,
+    "_q": "estimated",
+    "_src": [
+      "project_seed"
+    ]
+  },
+  "variants": [
+    {
+      "ram_gb": 8,
+      "rom_gb": 128,
+      "price_rub": 36990,
+      "price_date": "2026-08-01",
+      "price_src": "project_seed",
+      "msrp_usd": null,
+      "is_base": true,
+      "_q": "estimated",
+      "_src": [
+        "project_seed"
+      ]
+    }
+  ],
+  "cameras": [
+    {
+      "role": "main",
+      "position": 0,
+      "sensor": "demo-s19",
+      "mp": 50,
+      "aperture": 1.9,
+      "focal_mm": 23,
+      "fov_deg": 82,
+      "optical_zoom_x": null,
+      "ois": true,
+      "af": "pdaf",
+      "min_focus_cm": null,
+      "video_max": "4K30",
+      "processing_score": 57,
+      "processing_basis": "random",
+      "_q": "random",
+      "_src": [
+        "random"
+      ]
+    },
+    {
+      "role": "ultrawide",
+      "position": 0,
+      "sensor": "demo-s18",
+      "mp": 50,
+      "aperture": 2.2,
+      "focal_mm": 13,
+      "fov_deg": 120,
+      "optical_zoom_x": 0.6,
+      "ois": false,
+      "af": "fixed",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": 77,
+      "processing_basis": "random",
+      "_q": "random",
+      "_src": [
+        "random"
+      ]
+    },
+    {
+      "role": "front",
+      "position": 0,
+      "sensor": "demo-s11",
+      "mp": 16,
+      "aperture": 2.3,
+      "focal_mm": 23,
+      "fov_deg": 90,
+      "optical_zoom_x": null,
+      "ois": false,
+      "af": "fixed",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": 73,
+      "processing_basis": "random",
+      "_q": "random",
+      "_src": [
+        "random"
+      ]
+    }
+  ],
+  "camera_features": {
+    "macro_mode": "none",
+    "macro_min_focus_cm": null,
+    "lossless_zoom_x": 2.0,
+    "max_digital_zoom_x": 10,
+    "dxomark": null,
+    "_q": "random",
+    "_src": [
+      "random"
+    ]
+  },
+  "quirks": [
+    {
+      "code": "good_ai_assistant",
+      "severity": 2,
+      "note_ru": "Со слов пользователя: хороший встроенный ИИ-ассистент (Galaxy AI). Проверить список функций для модели и что работает в РФ.",
+      "evidence": [],
+      "_q": "user_hypothesis"
+    },
+    {
+      "code": "no_google_services",
+      "severity": 1,
+      "note_ru": "Демо: случайная особенность для проверки интерфейса.",
+      "evidence": [],
+      "_q": "random"
+    }
+  ],
+  "quirks_checked": false,
+  "special": [],
+  "photos": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Samsung_Galaxy_S24_FE_2024.jpg/960px-Samsung_Galaxy_S24_FE_2024.jpg",
+      "kind": "angle",
+      "color_ru": null,
+      "author": "Captainmorlypogi1959",
+      "license": "CC BY-SA 4.0",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_S24_FE_2024.jpg",
+      "width": null,
+      "height": null,
+      "origin": "wikimedia"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Galaxy_S24_FE.png",
+      "kind": "angle",
+      "color_ru": null,
+      "author": "mgsmpl",
+      "license": "CC BY 3.0",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Galaxy_S24_FE.png",
+      "width": null,
+      "height": null,
+      "origin": "wikimedia"
+    },
+    {
+      "url": "/placeholder/samsung-galaxy-s24-fe/3.svg",
+      "kind": "placeholder",
+      "color_ru": null,
+      "author": null,
+      "license": "демо",
+      "source_page": null,
+      "width": 960,
+      "height": 1280,
+      "origin": "placeholder"
+    }
+  ],
+  "_meta": {
+    "created": "2026-11-20",
+    "updated": "2026-11-20",
+    "filled_by": "tools/generate_random_catalog.py"
+  }
+}

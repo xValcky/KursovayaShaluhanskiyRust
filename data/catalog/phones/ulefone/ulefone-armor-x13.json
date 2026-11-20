@@ -1,0 +1,237 @@
+{
+  "slug": "ulefone-armor-x13",
+  "brand": "ulefone",
+  "name": "Armor X13",
+  "full_name": "Ulefone Armor X13",
+  "aliases": [],
+  "os": "Android",
+  "release_date": null,
+  "year": 2023,
+  "status": "on_sale",
+  "availability_ru": "official",
+  "form_factor": "rugged",
+  "in_ml": true,
+  "chipset": "demo-soc-250",
+  "specs": {
+    "screen_in": 6.52,
+    "cover_screen_in": null,
+    "refresh_hz": 60,
+    "display_type": null,
+    "peak_nits": null,
+    "battery_mah": 6500,
+    "charge_w": 10.0,
+    "wireless_w": null,
+    "weight_g": 320.0,
+    "thickness_mm": null,
+    "ip_rating": null,
+    "has_5g": false,
+    "nfc": true,
+    "esim": false,
+    "ir_port": false,
+    "jack35": null,
+    "sd_card": null,
+    "update_years": null,
+    "_q": "estimated",
+    "_src": [
+      "project_seed"
+    ]
+  },
+  "variants": [
+    {
+      "ram_gb": 6,
+      "rom_gb": 64,
+      "price_rub": 13990,
+      "price_date": "2026-08-01",
+      "price_src": "project_seed",
+      "msrp_usd": null,
+      "is_base": true,
+      "_q": "estimated",
+      "_src": [
+        "project_seed"
+      ]
+    },
+    {
+      "ram_gb": 6,
+      "rom_gb": 128,
+      "price_rub": 15990,
+      "price_date": "2026-11-20",
+      "price_src": "random",
+      "msrp_usd": null,
+      "is_base": false,
+      "_q": "random",
+      "_src": [
+        "random"
+      ]
+    },
+    {
+      "ram_gb": 8,
+      "rom_gb": 256,
+      "price_rub": 19990,
+      "price_date": "2026-11-20",
+      "price_src": "random",
+      "msrp_usd": null,
+      "is_base": false,
+      "_q": "random",
+      "_src": [
+        "random"
+      ]
+    }
+  ],
+  "cameras": [
+    {
+      "role": "main",
+      "position": 0,
+      "sensor": "demo-s10",
+      "mp": 13,
+      "aperture": 1.8,
+      "focal_mm": 23,
+      "fov_deg": 81,
+      "optical_zoom_x": null,
+      "ois": false,
+      "af": "pdaf",
+      "min_focus_cm": null,
+      "video_max": "1080p30",
+      "processing_score": 44,
+      "processing_basis": "random",
+      "_q": "random",
+      "_src": [
+        "random"
+      ]
+    },
+    {
+      "role": "ultrawide",
+      "position": 0,
+      "sensor": "demo-s04",
+      "mp": 8,
+      "aperture": 2.2,
+      "focal_mm": 15,
+      "fov_deg": 117,
+      "optical_zoom_x": 0.6,
+      "ois": false,
+      "af": "pdaf",
+      "min_focus_cm": 4,
+      "video_max": null,
+      "processing_score": 57,
+      "processing_basis": "random",
+      "_q": "random",
+      "_src": [
+        "random"
+      ]
+    },
+    {
+      "role": "depth",
+      "position": 0,
+      "sensor": "demo-s01",
+      "mp": 2,
+      "aperture": 2.4,
+      "focal_mm": null,
+      "fov_deg": null,
+      "optical_zoom_x": null,
+      "ois": false,
+      "af": "fixed",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": null,
+      "processing_basis": null,
+      "_q": "random",
+      "_src": [
+        "random"
+      ]
+    },
+    {
+      "role": "front",
+      "position": 0,
+      "sensor": "demo-s11",
+      "mp": 16,
+      "aperture": 2.1,
+      "focal_mm": 24,
+      "fov_deg": 90,
+      "optical_zoom_x": null,
+      "ois": false,
+      "af": "fixed",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": 52,
+      "processing_basis": "random",
+      "_q": "random",
+      "_src": [
+        "random"
+      ]
+    }
+  ],
+  "camera_features": {
+    "macro_mode": "ultrawide_af",
+    "macro_min_focus_cm": 4,
+    "lossless_zoom_x": null,
+    "max_digital_zoom_x": 8,
+    "dxomark": null,
+    "_q": "random",
+    "_src": [
+      "random"
+    ]
+  },
+  "quirks": [
+    {
+      "code": "green_tint",
+      "severity": 2,
+      "note_ru": "Демо: случайная особенность для проверки интерфейса.",
+      "evidence": [],
+      "_q": "random"
+    },
+    {
+      "code": "cool_running",
+      "severity": 2,
+      "note_ru": "Демо: случайная особенность для проверки интерфейса.",
+      "evidence": [],
+      "_q": "random"
+    }
+  ],
+  "quirks_checked": false,
+  "special": [
+    {
+      "code": "rugged",
+      "note_ru": null,
+      "_q": "estimated"
+    }
+  ],
+  "photos": [
+    {
+      "url": "/placeholder/ulefone-armor-x13/1.svg",
+      "kind": "placeholder",
+      "color_ru": null,
+      "author": null,
+      "license": "демо",
+      "source_page": null,
+      "width": 960,
+      "height": 1280,
+      "origin": "placeholder"
+    },
+    {
+      "url": "/placeholder/ulefone-armor-x13/2.svg",
+      "kind": "placeholder",
+      "color_ru": null,
+      "author": null,
+      "license": "демо",
+      "source_page": null,
+      "width": 960,
+      "height": 1280,
+      "origin": "placeholder"
+    },
+    {
+      "url": "/placeholder/ulefone-armor-x13/3.svg",
+      "kind": "placeholder",
+      "color_ru": null,
+      "author": null,
+      "license": "демо",
+      "source_page": null,
+      "width": 960,
+      "height": 1280,
+      "origin": "placeholder"
+    }
+  ],
+  "_meta": {
+    "created": "2026-11-20",
+    "updated": "2026-11-20",
+    "filled_by": "tools/generate_random_catalog.py"
+  }
+}

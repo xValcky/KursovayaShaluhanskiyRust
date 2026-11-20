@@ -1,3 +1,4 @@
+pub mod catalog;
 pub mod engine;
 pub mod model;
 
@@ -36,6 +37,7 @@ pub mod bench {
             screen_pref: r.int(5),
             min_hz: [0.0, 90.0, 120.0, 144.0][r.int(4) as usize],
             min_rom: [64.0, 128.0, 256.0, 512.0][r.int(4) as usize],
+            ..Default::default()
         }
     }
 }

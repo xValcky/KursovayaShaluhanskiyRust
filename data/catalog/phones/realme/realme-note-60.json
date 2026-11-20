@@ -1,0 +1,184 @@
+{
+  "slug": "realme-note-60",
+  "brand": "realme",
+  "name": "Note 60",
+  "full_name": "realme Note 60",
+  "aliases": [],
+  "os": "Android",
+  "release_date": null,
+  "year": 2024,
+  "status": "on_sale",
+  "availability_ru": "official",
+  "form_factor": "bar",
+  "in_ml": true,
+  "chipset": "demo-soc-240",
+  "specs": {
+    "screen_in": 6.74,
+    "cover_screen_in": null,
+    "refresh_hz": 90,
+    "display_type": null,
+    "peak_nits": null,
+    "battery_mah": 5000,
+    "charge_w": 10.0,
+    "wireless_w": null,
+    "weight_g": 187.0,
+    "thickness_mm": null,
+    "ip_rating": null,
+    "has_5g": false,
+    "nfc": true,
+    "esim": false,
+    "ir_port": false,
+    "jack35": null,
+    "sd_card": null,
+    "update_years": null,
+    "_q": "estimated",
+    "_src": [
+      "project_seed"
+    ]
+  },
+  "variants": [
+    {
+      "ram_gb": 4,
+      "rom_gb": 128,
+      "price_rub": 7990,
+      "price_date": "2026-08-01",
+      "price_src": "project_seed",
+      "msrp_usd": null,
+      "is_base": true,
+      "_q": "estimated",
+      "_src": [
+        "project_seed"
+      ]
+    },
+    {
+      "ram_gb": 4,
+      "rom_gb": 256,
+      "price_rub": 8990,
+      "price_date": "2026-11-20",
+      "price_src": "random",
+      "msrp_usd": null,
+      "is_base": false,
+      "_q": "random",
+      "_src": [
+        "random"
+      ]
+    },
+    {
+      "ram_gb": 6,
+      "rom_gb": 512,
+      "price_rub": 10990,
+      "price_date": "2026-11-20",
+      "price_src": "random",
+      "msrp_usd": null,
+      "is_base": false,
+      "_q": "random",
+      "_src": [
+        "random"
+      ]
+    }
+  ],
+  "cameras": [
+    {
+      "role": "main",
+      "position": 0,
+      "sensor": "demo-s14",
+      "mp": 32,
+      "aperture": 2.0,
+      "focal_mm": 26,
+      "fov_deg": 82,
+      "optical_zoom_x": null,
+      "ois": true,
+      "af": "pdaf",
+      "min_focus_cm": null,
+      "video_max": "1080p30",
+      "processing_score": 56,
+      "processing_basis": "random",
+      "_q": "random",
+      "_src": [
+        "random"
+      ]
+    },
+    {
+      "role": "front",
+      "position": 0,
+      "sensor": "demo-s11",
+      "mp": 16,
+      "aperture": 2.1,
+      "focal_mm": 22,
+      "fov_deg": 87,
+      "optical_zoom_x": null,
+      "ois": false,
+      "af": "fixed",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": 49,
+      "processing_basis": "random",
+      "_q": "random",
+      "_src": [
+        "random"
+      ]
+    }
+  ],
+  "camera_features": {
+    "macro_mode": "none",
+    "macro_min_focus_cm": null,
+    "lossless_zoom_x": null,
+    "max_digital_zoom_x": 8,
+    "dxomark": null,
+    "_q": "random",
+    "_src": [
+      "random"
+    ]
+  },
+  "quirks": [
+    {
+      "code": "short_updates",
+      "severity": 1,
+      "note_ru": "Демо: случайная особенность для проверки интерфейса.",
+      "evidence": [],
+      "_q": "random"
+    }
+  ],
+  "quirks_checked": false,
+  "special": [],
+  "photos": [
+    {
+      "url": "/placeholder/realme-note-60/1.svg",
+      "kind": "placeholder",
+      "color_ru": null,
+      "author": null,
+      "license": "демо",
+      "source_page": null,
+      "width": 960,
+      "height": 1280,
+      "origin": "placeholder"
+    },
+    {
+      "url": "/placeholder/realme-note-60/2.svg",
+      "kind": "placeholder",
+      "color_ru": null,
+      "author": null,
+      "license": "демо",
+      "source_page": null,
+      "width": 960,
+      "height": 1280,
+      "origin": "placeholder"
+    },
+    {
+      "url": "/placeholder/realme-note-60/3.svg",
+      "kind": "placeholder",
+      "color_ru": null,
+      "author": null,
+      "license": "демо",
+      "source_page": null,
+      "width": 960,
+      "height": 1280,
+      "origin": "placeholder"
+    }
+  ],
+  "_meta": {
+    "created": "2026-11-20",
+    "updated": "2026-11-20",
+    "filled_by": "tools/generate_random_catalog.py"
+  }
+}

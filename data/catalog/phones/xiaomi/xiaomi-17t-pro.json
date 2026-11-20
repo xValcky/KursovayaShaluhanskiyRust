@@ -1,0 +1,231 @@
+{
+  "slug": "xiaomi-17t-pro",
+  "brand": "xiaomi",
+  "name": "17T Pro",
+  "full_name": "Xiaomi 17T Pro",
+  "aliases": [],
+  "os": "Android",
+  "release_date": null,
+  "year": 2026,
+  "status": "on_sale",
+  "availability_ru": "official",
+  "form_factor": "bar",
+  "in_ml": true,
+  "chipset": "demo-soc-3400",
+  "specs": {
+    "screen_in": 6.83,
+    "cover_screen_in": null,
+    "refresh_hz": 144,
+    "display_type": null,
+    "peak_nits": null,
+    "battery_mah": 7000,
+    "charge_w": 100.0,
+    "wireless_w": null,
+    "weight_g": 215.0,
+    "thickness_mm": null,
+    "ip_rating": null,
+    "has_5g": true,
+    "nfc": true,
+    "esim": true,
+    "ir_port": true,
+    "jack35": null,
+    "sd_card": null,
+    "update_years": null,
+    "_q": "estimated",
+    "_src": [
+      "project_seed"
+    ]
+  },
+  "variants": [
+    {
+      "ram_gb": 12,
+      "rom_gb": 256,
+      "price_rub": 44900,
+      "price_date": "2026-11-05",
+      "price_src": "project_seed",
+      "msrp_usd": null,
+      "is_base": true,
+      "_q": "estimated",
+      "_src": [
+        "project_seed"
+      ]
+    },
+    {
+      "ram_gb": 12,
+      "rom_gb": 512,
+      "price_rub": 49990,
+      "price_date": "2026-11-20",
+      "price_src": "random",
+      "msrp_usd": null,
+      "is_base": false,
+      "_q": "random",
+      "_src": [
+        "random"
+      ]
+    },
+    {
+      "ram_gb": 12,
+      "rom_gb": 1024,
+      "price_rub": 55990,
+      "price_date": "2026-11-20",
+      "price_src": "random",
+      "msrp_usd": null,
+      "is_base": false,
+      "_q": "random",
+      "_src": [
+        "random"
+      ]
+    }
+  ],
+  "cameras": [
+    {
+      "role": "main",
+      "position": 0,
+      "sensor": "demo-s22",
+      "mp": 50,
+      "aperture": 1.9,
+      "focal_mm": 23,
+      "fov_deg": 81,
+      "optical_zoom_x": null,
+      "ois": false,
+      "af": "pdaf",
+      "min_focus_cm": null,
+      "video_max": "4K30",
+      "processing_score": 73,
+      "processing_basis": "random",
+      "_q": "random",
+      "_src": [
+        "random"
+      ]
+    },
+    {
+      "role": "ultrawide",
+      "position": 0,
+      "sensor": "demo-s19",
+      "mp": 50,
+      "aperture": 2.0,
+      "focal_mm": 15,
+      "fov_deg": 115,
+      "optical_zoom_x": 0.6,
+      "ois": false,
+      "af": "fixed",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": 56,
+      "processing_basis": "random",
+      "_q": "random",
+      "_src": [
+        "random"
+      ]
+    },
+    {
+      "role": "tele",
+      "position": 0,
+      "sensor": "demo-s03",
+      "mp": 8,
+      "aperture": 2.5,
+      "focal_mm": 52,
+      "fov_deg": 36,
+      "optical_zoom_x": null,
+      "ois": false,
+      "af": "pdaf",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": 71,
+      "processing_basis": "random",
+      "_q": "random",
+      "_src": [
+        "random"
+      ]
+    },
+    {
+      "role": "front",
+      "position": 0,
+      "sensor": "demo-s11",
+      "mp": 16,
+      "aperture": 2.1,
+      "focal_mm": 26,
+      "fov_deg": 87,
+      "optical_zoom_x": null,
+      "ois": false,
+      "af": "fixed",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": 80,
+      "processing_basis": "random",
+      "_q": "random",
+      "_src": [
+        "random"
+      ]
+    }
+  ],
+  "camera_features": {
+    "macro_mode": "none",
+    "macro_min_focus_cm": null,
+    "lossless_zoom_x": 2.0,
+    "max_digital_zoom_x": 30,
+    "dxomark": null,
+    "_q": "random",
+    "_src": [
+      "random"
+    ]
+  },
+  "quirks": [
+    {
+      "code": "pwm_flicker",
+      "severity": 2,
+      "note_ru": "Демо: случайная особенность для проверки интерфейса.",
+      "evidence": [],
+      "_q": "random"
+    },
+    {
+      "code": "oversharpening",
+      "severity": 1,
+      "note_ru": "Демо: случайная особенность для проверки интерфейса.",
+      "evidence": [],
+      "_q": "random"
+    }
+  ],
+  "quirks_checked": false,
+  "special": [],
+  "photos": [
+    {
+      "url": "/placeholder/xiaomi-17t-pro/1.svg",
+      "kind": "placeholder",
+      "color_ru": null,
+      "author": null,
+      "license": "демо",
+      "source_page": null,
+      "width": 960,
+      "height": 1280,
+      "origin": "placeholder"
+    },
+    {
+      "url": "/placeholder/xiaomi-17t-pro/2.svg",
+      "kind": "placeholder",
+      "color_ru": null,
+      "author": null,
+      "license": "демо",
+      "source_page": null,
+      "width": 960,
+      "height": 1280,
+      "origin": "placeholder"
+    },
+    {
+      "url": "/placeholder/xiaomi-17t-pro/3.svg",
+      "kind": "placeholder",
+      "color_ru": null,
+      "author": null,
+      "license": "демо",
+      "source_page": null,
+      "width": 960,
+      "height": 1280,
+      "origin": "placeholder"
+    }
+  ],
+  "_meta": {
+    "created": "2026-11-20",
+    "updated": "2026-11-20",
+    "filled_by": "tools/generate_random_catalog.py"
+  }
+}

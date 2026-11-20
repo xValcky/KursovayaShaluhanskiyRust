@@ -1,0 +1,116 @@
+[
+  {
+    "slug": "apple",
+    "name": "Apple",
+    "parent": null,
+    "country": null
+  },
+  {
+    "slug": "asus",
+    "name": "ASUS",
+    "parent": null,
+    "country": null
+  },
+  {
+    "slug": "blackview",
+    "name": "Blackview",
+    "parent": null,
+    "country": null
+  },
+  {
+    "slug": "fairphone",
+    "name": "Fairphone",
+    "parent": null,
+    "country": null
+  },
+  {
+    "slug": "google",
+    "name": "Google",
+    "parent": null,
+    "country": null
+  },
+  {
+    "slug": "honor",
+    "name": "Honor",
+    "parent": null,
+    "country": null
+  },
+  {
+    "slug": "lenovo",
+    "name": "Lenovo",
+    "parent": null,
+    "country": null
+  },
+  {
+    "slug": "motorola",
+    "name": "Motorola",
+    "parent": null,
+    "country": null
+  },
+  {
+    "slug": "nothing",
+    "name": "Nothing",
+    "parent": null,
+    "country": null
+  },
+  {
+    "slug": "nubia",
+    "name": "nubia",
+    "parent": null,
+    "country": null
+  },
+  {
+    "slug": "oneplus",
+    "name": "OnePlus",
+    "parent": null,
+    "country": null
+  },
+  {
+    "slug": "oppo",
+    "name": "Oppo",
+    "parent": null,
+    "country": null
+  },
+  {
+    "slug": "poco",
+    "name": "POCO",
+    "parent": null,
+    "country": null
+  },
+  {
+    "slug": "realme",
+    "name": "Realme",
+    "parent": null,
+    "country": null
+  },
+  {
+    "slug": "redmagic",
+    "name": "RedMagic",
+    "parent": null,
+    "country": null
+  },
+  {
+    "slug": "samsung",
+    "name": "Samsung",
+    "parent": null,
+    "country": null
+  },
+  {
+    "slug": "ulefone",
+    "name": "Ulefone",
+    "parent": null,
+    "country": null
+  },
+  {
+    "slug": "vivo",
+    "name": "Vivo",
+    "parent": null,
+    "country": null
+  },
+  {
+    "slug": "xiaomi",
+    "name": "Xiaomi",
+    "parent": null,
+    "country": null
+  }
+]

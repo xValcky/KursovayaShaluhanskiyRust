@@ -1,0 +1,237 @@
+{
+  "slug": "xiaomi-redmi-note-13",
+  "brand": "xiaomi",
+  "name": "Redmi Note 13",
+  "full_name": "Xiaomi Redmi Note 13",
+  "aliases": [],
+  "os": "Android",
+  "release_date": null,
+  "year": 2024,
+  "status": "on_sale",
+  "availability_ru": "official",
+  "form_factor": "bar",
+  "in_ml": true,
+  "chipset": "demo-soc-420",
+  "specs": {
+    "screen_in": 6.67,
+    "cover_screen_in": null,
+    "refresh_hz": 120,
+    "display_type": null,
+    "peak_nits": null,
+    "battery_mah": 5000,
+    "charge_w": 33.0,
+    "wireless_w": null,
+    "weight_g": 188.0,
+    "thickness_mm": null,
+    "ip_rating": null,
+    "has_5g": false,
+    "nfc": true,
+    "esim": false,
+    "ir_port": true,
+    "jack35": null,
+    "sd_card": null,
+    "update_years": null,
+    "_q": "estimated",
+    "_src": [
+      "project_seed"
+    ]
+  },
+  "variants": [
+    {
+      "ram_gb": 6,
+      "rom_gb": 128,
+      "price_rub": 13990,
+      "price_date": "2026-08-01",
+      "price_src": "project_seed",
+      "msrp_usd": null,
+      "is_base": true,
+      "_q": "estimated",
+      "_src": [
+        "project_seed"
+      ]
+    },
+    {
+      "ram_gb": 6,
+      "rom_gb": 256,
+      "price_rub": 14990,
+      "price_date": "2026-11-20",
+      "price_src": "random",
+      "msrp_usd": null,
+      "is_base": false,
+      "_q": "random",
+      "_src": [
+        "random"
+      ]
+    },
+    {
+      "ram_gb": 6,
+      "rom_gb": 512,
+      "price_rub": 17990,
+      "price_date": "2026-11-20",
+      "price_src": "random",
+      "msrp_usd": null,
+      "is_base": false,
+      "_q": "random",
+      "_src": [
+        "random"
+      ]
+    },
+    {
+      "ram_gb": 6,
+      "rom_gb": 1024,
+      "price_rub": 20990,
+      "price_date": "2026-11-20",
+      "price_src": "random",
+      "msrp_usd": null,
+      "is_base": false,
+      "_q": "random",
+      "_src": [
+        "random"
+      ]
+    }
+  ],
+  "cameras": [
+    {
+      "role": "main",
+      "position": 0,
+      "sensor": "demo-s28",
+      "mp": 108,
+      "aperture": 2.0,
+      "focal_mm": 26,
+      "fov_deg": 84,
+      "optical_zoom_x": null,
+      "ois": true,
+      "af": "pdaf",
+      "min_focus_cm": null,
+      "video_max": "1080p30",
+      "processing_score": 64,
+      "processing_basis": "random",
+      "_q": "random",
+      "_src": [
+        "random"
+      ]
+    },
+    {
+      "role": "ultrawide",
+      "position": 0,
+      "sensor": "demo-s04",
+      "mp": 8,
+      "aperture": 2.1,
+      "focal_mm": 16,
+      "fov_deg": 122,
+      "optical_zoom_x": 0.6,
+      "ois": false,
+      "af": "fixed",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": 50,
+      "processing_basis": "random",
+      "_q": "random",
+      "_src": [
+        "random"
+      ]
+    },
+    {
+      "role": "depth",
+      "position": 0,
+      "sensor": "demo-s01",
+      "mp": 2,
+      "aperture": 2.4,
+      "focal_mm": null,
+      "fov_deg": null,
+      "optical_zoom_x": null,
+      "ois": false,
+      "af": "fixed",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": null,
+      "processing_basis": null,
+      "_q": "random",
+      "_src": [
+        "random"
+      ]
+    },
+    {
+      "role": "front",
+      "position": 0,
+      "sensor": "demo-s11",
+      "mp": 16,
+      "aperture": 2.4,
+      "focal_mm": 23,
+      "fov_deg": 82,
+      "optical_zoom_x": null,
+      "ois": false,
+      "af": "fixed",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": 53,
+      "processing_basis": "random",
+      "_q": "random",
+      "_src": [
+        "random"
+      ]
+    }
+  ],
+  "camera_features": {
+    "macro_mode": "none",
+    "macro_min_focus_cm": null,
+    "lossless_zoom_x": 2.0,
+    "max_digital_zoom_x": 10,
+    "dxomark": null,
+    "_q": "random",
+    "_src": [
+      "random"
+    ]
+  },
+  "quirks": [
+    {
+      "code": "desktop_mode",
+      "severity": 2,
+      "note_ru": "Демо: случайная особенность для проверки интерфейса.",
+      "evidence": [],
+      "_q": "random"
+    }
+  ],
+  "quirks_checked": false,
+  "special": [],
+  "photos": [
+    {
+      "url": "/placeholder/xiaomi-redmi-note-13/1.svg",
+      "kind": "placeholder",
+      "color_ru": null,
+      "author": null,
+      "license": "демо",
+      "source_page": null,
+      "width": 960,
+      "height": 1280,
+      "origin": "placeholder"
+    },
+    {
+      "url": "/placeholder/xiaomi-redmi-note-13/2.svg",
+      "kind": "placeholder",
+      "color_ru": null,
+      "author": null,
+      "license": "демо",
+      "source_page": null,
+      "width": 960,
+      "height": 1280,
+      "origin": "placeholder"
+    },
+    {
+      "url": "/placeholder/xiaomi-redmi-note-13/3.svg",
+      "kind": "placeholder",
+      "color_ru": null,
+      "author": null,
+      "license": "демо",
+      "source_page": null,
+      "width": 960,
+      "height": 1280,
+      "origin": "placeholder"
+    }
+  ],
+  "_meta": {
+    "created": "2026-11-20",
+    "updated": "2026-11-20",
+    "filled_by": "tools/generate_random_catalog.py"
+  }
+}

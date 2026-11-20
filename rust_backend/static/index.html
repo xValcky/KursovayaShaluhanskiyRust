@@ -303,6 +303,114 @@ footer { padding: 0 var(--pad) 32px; color: var(--ink-soft); font-size: 13px; }
   .mini strong { font: 800 20px/1 var(--display); white-space: nowrap; }
   footer { padding-bottom: 96px; }
 }
+/* ---------- каталог v2: плашка версии, конфигурации, камеры, «приколы», категории ---------- */
+.demo-banner {
+  margin: 10px var(--pad) 0; padding: 10px 16px; border-radius: 14px; border: 1px dashed var(--tag-edge);
+  background: color-mix(in srgb, var(--tag) 12%, var(--panel)); font-size: 14px; color: var(--ink);
+}
+.demo-banner b { font-weight: 700; }
+.demo-banner span { color: var(--ink-soft); }
+.gallery { touch-action: pan-y; }
+.gallery:focus-visible { outline-offset: -3px; }
+.gallery .demo-tag {
+  position: absolute; right: 12px; top: 12px; z-index: 1; padding: 3px 10px; border-radius: 999px;
+  background: var(--tag); color: #1c2230; font: 700 11px/1.4 var(--ui); letter-spacing: .04em;
+}
+.vchips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
+.vchip {
+  border: 1px solid var(--line); background: var(--paper); border-radius: 10px; padding: 5px 10px; cursor: pointer;
+  font-size: 13px; font-variant-numeric: tabular-nums; line-height: 1.3; text-align: left;
+}
+.vchip small { display: block; color: var(--ink-soft); font-size: 11px; }
+.vchip:hover { border-color: var(--ink-soft); }
+.vchip[aria-pressed="true"] { border-color: var(--tag-edge); box-shadow: inset 0 0 0 1px var(--tag-edge); background: color-mix(in srgb, var(--tag) 14%, var(--paper)); }
+.vchip.nofit { opacity: .45; }
+.badge.sp { background: color-mix(in srgb, var(--blue) 26%, var(--panel)); color: var(--ink); }
+.qpills { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
+.qpill { font-size: 12px; padding: 3px 9px; border-radius: 999px; border: 1px solid transparent; background: var(--paper); cursor: pointer; color: var(--ink); }
+.qpill.neg { border-color: color-mix(in srgb, var(--over) 60%, transparent); color: var(--over); }
+.qpill.pos { border-color: color-mix(in srgb, var(--deal) 60%, transparent); color: var(--deal); }
+.qpill.more { color: var(--ink-soft); }
+.sev { letter-spacing: -1px; margin-left: 3px; font-style: normal; }
+.camline { margin-top: 12px; font-size: 14px; }
+.camline .cbar { display: grid; grid-template-columns: 1fr auto; gap: 8px; align-items: center; margin-top: 4px; font-size: 12px; color: var(--ink-soft); }
+.bar6 { height: 6px; border-radius: 3px; background: var(--paper); overflow: hidden; }
+.bar6 b { display: block; height: 100%; background: var(--blue); border-radius: 3px; }
+.qtag { font-size: 11px; padding: 1px 7px; border-radius: 999px; background: var(--paper); color: var(--ink-soft); white-space: nowrap; }
+.qtag.random { background: color-mix(in srgb, var(--tag) 22%, var(--panel)); color: var(--tag); }
+.qtag.verified { background: color-mix(in srgb, var(--deal) 20%, var(--panel)); color: var(--deal); }
+.qtag.user_hypothesis { background: color-mix(in srgb, var(--blue) 22%, var(--panel)); color: var(--blue); }
+.more-btn { margin-top: 12px; border: 1px solid var(--line); background: transparent; border-radius: 12px; padding: 9px 12px; cursor: pointer; font-weight: 600; width: 100%; }
+.more-btn:hover { border-color: var(--ink-soft); }
+.views { display: flex; gap: 8px; margin-bottom: 14px; flex-wrap: wrap; }
+.views button { border: 1px solid var(--line); background: var(--panel); border-radius: 12px; padding: 9px 16px; cursor: pointer; font-weight: 600; }
+.views button[aria-pressed="true"] { background: var(--ink); color: var(--panel); border-color: var(--ink); }
+.spchips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
+.spchips[hidden] { display: none; }
+.spchips .chip { font-size: 13px; padding: 5px 11px; }
+.spcat { margin-top: 22px; }
+.spcat h3 { margin: 0; font: 600 20px/1.3 var(--ui); }
+.spcat > p { margin: 4px 0 10px; color: var(--ink-soft); font-size: 14px; max-width: 80ch; }
+.card .note { font-size: 13px; color: var(--ink-soft); margin: 8px 0 0; }
+.card .notml { font-size: 12px; color: var(--tag); margin-top: 6px; }
+
+/* ---------- окно «Все характеристики» ---------- */
+dialog.dlg {
+  width: min(980px, calc(100vw - 32px)); max-height: calc(100vh - 32px); padding: 0; border: 1px solid var(--line);
+  border-radius: 22px; background: var(--panel); color: var(--ink); overflow: hidden;
+}
+dialog.dlg::backdrop { background: rgba(5, 8, 14, .7); }
+.dlg-in { display: flex; flex-direction: column; max-height: calc(100vh - 34px); }
+.dlg-head { display: flex; align-items: start; gap: 16px; padding: 18px 20px 10px; }
+.dlg-head h2 { margin: 0; font: 700 22px/1.25 var(--display); }
+.dlg-head p { margin: 4px 0 0; color: var(--ink-soft); font-size: 14px; }
+.dlg-x { margin-left: auto; width: 40px; height: 40px; flex: none; border-radius: 50%; border: 1px solid var(--line); background: transparent; cursor: pointer; font-size: 20px; line-height: 1; }
+.dlg-tabs { display: flex; gap: 4px; padding: 0 20px; border-bottom: 1px solid var(--line); overflow-x: auto; scrollbar-width: none; }
+.dlg-tabs button { border: 0; background: transparent; padding: 10px 12px; cursor: pointer; color: var(--ink-soft); font-weight: 600; white-space: nowrap; border-bottom: 2px solid transparent; }
+.dlg-tabs button[aria-selected="true"] { color: var(--ink); border-bottom-color: var(--tag); }
+.dlg-body { padding: 18px 20px 22px; overflow: auto; }
+.big-gal { position: relative; background: var(--photo-bg); border-radius: 16px; aspect-ratio: 4 / 3; overflow: hidden; }
+.big-gal img { width: 100%; height: 100%; object-fit: contain; display: block; }
+.big-gal .gbtn { opacity: .9; }
+.thumbs { display: flex; gap: 8px; margin-top: 10px; overflow-x: auto; padding-bottom: 4px; }
+.thumbs button { flex: none; width: 76px; height: 76px; border-radius: 10px; border: 2px solid transparent; padding: 0; overflow: hidden; background: var(--photo-bg); cursor: pointer; }
+.thumbs button[aria-current="true"] { border-color: var(--tag); }
+.thumbs img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.dcredit { font-size: 12px; color: var(--ink-soft); margin-top: 8px; }
+.dcredit a { color: inherit; }
+table.vt { width: 100%; border-collapse: collapse; font-size: 14px; font-variant-numeric: tabular-nums; }
+table.vt th, table.vt td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--line); }
+table.vt th { color: var(--ink-soft); font-weight: 600; font-size: 12px; }
+table.vt tr.sel td { background: color-mix(in srgb, var(--tag) 10%, transparent); }
+table.vt tbody tr { cursor: pointer; }
+.chart { margin-top: 16px; background: var(--paper); border-radius: 14px; padding: 12px; }
+.chart svg { width: 100%; height: 180px; display: block; }
+.chart p { margin: 0 0 6px; font-size: 13px; color: var(--ink-soft); }
+.camsum { display: flex; flex-wrap: wrap; gap: 8px 18px; font-size: 14px; margin-bottom: 14px; }
+.camsum b { font-variant-numeric: tabular-nums; }
+.cams { display: grid; gap: 10px; }
+.cam { background: var(--paper); border-radius: 14px; padding: 12px 14px; display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(220px, 1fr); gap: 8px 18px; }
+.cam h4 { margin: 0; font-size: 15px; }
+.cam p { margin: 2px 0 0; font-size: 13px; color: var(--ink-soft); }
+.cam .bars { display: grid; gap: 5px; font-size: 12px; }
+.cam .bars div { display: grid; grid-template-columns: 6.5em 1fr 2.2em; gap: 8px; align-items: center; }
+.cam .bars em { font-style: normal; text-align: right; font-variant-numeric: tabular-nums; }
+.bar6.hw b { background: var(--ink-soft); } .bar6.pr b { background: var(--blue); } .bar6.tt b { background: var(--tag); }
+@media (max-width: 700px) {
+  dialog.dlg { width: 100vw; max-width: 100vw; height: 100dvh; max-height: 100dvh; border-radius: 0; margin: 0; }
+  .dlg-in { max-height: 100dvh; height: 100%; }
+  .cam { grid-template-columns: 1fr; }
+}
+.qlist { display: grid; gap: 10px; }
+.qitem { background: var(--paper); border-radius: 14px; padding: 12px 14px; border-left: 4px solid var(--line); }
+.qitem.neg { border-left-color: var(--over); } .qitem.pos { border-left-color: var(--deal); }
+.qitem h4 { margin: 0; font-size: 15px; display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+.qitem p { margin: 4px 0 0; font-size: 14px; color: var(--ink-soft); }
+.qitem a { color: var(--blue); font-size: 13px; margin-right: 10px; }
+.specgrid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 10px 18px; margin: 0; }
+.specgrid div { border-bottom: 1px solid var(--line); padding-bottom: 6px; }
+.specgrid dt { font-size: 12px; color: var(--ink-soft); }
+.specgrid dd { margin: 0; font-weight: 600; }
 @media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; scroll-behavior: auto !important; } }
 </style>
 </head>
@@ -311,6 +419,8 @@ footer { padding: 0 var(--pad) 32px; color: var(--ink-soft); font-size: 13px; }
   <h1>Подбор смартфона</h1>
   <p id="lead">Отвечайте на вопросы — подборка обновляется сразу.</p>
 </header>
+<div class="demo-banner" id="demo-banner" hidden></div>
+<dialog class="dlg" id="dlg" aria-labelledby="dlg-title"><div class="dlg-in" id="dlg-in"></div></dialog>
 
 <div class="bug" id="bug">
   <button type="button" class="bug-btn" id="bug-btn" aria-expanded="false" aria-controls="bug-pop" aria-label="Сводка работы нейросети">
@@ -353,7 +463,18 @@ footer { padding: 0 var(--pad) 32px; color: var(--ink-soft); font-size: 13px; }
       <h2>Обязательные условия</h2>
       <div class="field"><span>Система</span>
         <div class="seg" data-key="os_pref" data-options='[[0,"Неважно"],[1,"Android"],[2,"iOS"]]'></div></div>
+      <div class="field"><span>Оперативная память (ОЗУ) от</span>
+        <div class="seg" data-key="min_ram" data-options='[[0,"Любая"],[6,"6 ГБ"],[8,"8"],[12,"12"],[16,"16+"]]'></div></div>
       <label class="check"><input type="checkbox" id="need_nfc" checked> NFC — оплата телефоном</label>
+    </div>
+    <div class="group">
+      <h2>Камера и особенности</h2>
+      <div class="field"><span>Оптический зум от</span>
+        <div class="seg" data-key="min_optical_zoom" data-options='[[0,"Не важно"],[2,"2×"],[3,"3×"],[5,"5×"]]'></div></div>
+      <label class="check"><input type="checkbox" data-check="need_macro"> Нужна макросъёмка</label>
+      <label class="check"><input type="checkbox" data-check="hide_bad_quirks"> Скрыть модели с серьёзными минусами</label>
+      <label class="check"><input type="checkbox" data-check="special_only"> Только смартфоны с интересными возможностями</label>
+      <div class="spchips" id="spchips" hidden role="group" aria-label="Какие возможности"></div>
     </div>
     <details class="more" id="more">
       <summary>Ещё параметры</summary>
@@ -405,6 +526,9 @@ const PHOTO_ICON = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" s
 let META = null, PHOTOS = {}, state = {}, activePreset = null, activeSeg = 0, segSig = "", activeCol = "top";
 let lastData = null, lastRtt = 0, benchResult = null;
 const photoIdx = {}; // какое фото сейчас показано у каждого телефона
+const varSel = {};   // конфигурация, выбранная на карточке вручную (slug → номер)
+const phoneCache = {}; // карточки /api/phone/{slug}
+let view = "pick", SPECIAL = null; // вкладка: подбор или «интересные возможности»
 
 // ---------- бюджет: шкала ползунка логарифмическая (5 000 – 250 000 ₽) ----------
 const B_LO = 5000, B_HI = 250000;
@@ -414,7 +538,9 @@ const parseRub = s => Number(String(s).replace(/[^\d]/g, "")) || 0;
 
 function defaults() {
   const d = {budget_rub: 35000, budget_min: 0, gaming: 0, photo: 0, work: 0, os_pref: 0, need_nfc: 1,
-             esim_pref: 0, ir_pref: 0, screen_pref: 0, min_hz: 0, min_rom: 128};
+             esim_pref: 0, ir_pref: 0, screen_pref: 0, min_hz: 0, min_rom: 128,
+             // каталог v2
+             min_ram: 0, min_optical_zoom: 0, need_macro: 0, hide_bad_quirks: 0, special_only: 0, special: []};
   for (const s of META.ui.importance) d[s.key] = s.default;
   return d;
 }
@@ -444,6 +570,17 @@ function buildForm() {
   });
   document.querySelectorAll("[data-flag]").forEach(b => b.onclick = () => set(b.dataset.flag, state[b.dataset.flag] ? 0 : 1));
   $("#need_nfc").onchange = e => set("need_nfc", e.target.checked ? 1 : 0);
+  document.querySelectorAll("[data-check]").forEach(c => c.onchange = () => set(c.dataset.check, c.checked ? 1 : 0));
+  for (const c of (META.catalog?.categories || []).filter(c => c.count > 0)) {
+    const b = document.createElement("button");
+    b.type = "button"; b.className = "chip"; b.dataset.special = c.code; b.title = c.description || "";
+    b.textContent = `${c.title} · ${c.count}`;
+    b.onclick = () => {
+      const cur = state.special || [];
+      set("special", cur.includes(c.code) ? cur.filter(x => x !== c.code) : [...cur, c.code]);
+    };
+    $("#spchips").append(b);
+  }
   $("#split").onchange = e => set("split", e.target.checked ? 1 : 0);
   $("#budget_slider").oninput = e => {
     const v = sliderToRub(+e.target.value);
@@ -486,7 +623,10 @@ function prioFromValues() {
 }
 
 function applyPreset(p) {
-  state = {...defaults(), ...p.values, budget_rub: state.budget_rub, budget_min: state.budget_min, split: state.split};
+  const keep = {};
+  for (const k of ["budget_rub", "budget_min", "split", "min_ram", "min_optical_zoom", "need_macro", "hide_bad_quirks",
+                   "special_only", "special"]) keep[k] = state[k];
+  state = {...defaults(), ...p.values, ...keep};
   prioFromValues();
   activePreset = p.name;
   syncForm(); request();
@@ -515,6 +655,10 @@ function syncForm(opts = {}) {
     b.setAttribute("aria-pressed", String(+b.dataset.value === +state[seg.dataset.key]))));
   document.querySelectorAll("[data-flag]").forEach(b => b.setAttribute("aria-pressed", String(!!state[b.dataset.flag])));
   $("#need_nfc").checked = !!state.need_nfc;
+  document.querySelectorAll("[data-check]").forEach(c => { c.checked = !!state[c.dataset.check]; });
+  $("#spchips").hidden = !state.special_only;
+  document.querySelectorAll("[data-special]").forEach(b =>
+    b.setAttribute("aria-pressed", String((state.special || []).includes(b.dataset.special))));
   if (!opts.keepInput) { $("#budget_rub").value = rub(state.budget_rub); $("#budget_min").value = rub(state.budget_min); }
   if (!opts.keepSlider) $("#budget_slider").value = rubToSlider(state.budget_rub);
   document.querySelectorAll("#presets .chip").forEach(b => b.setAttribute("aria-pressed", String(b.textContent === activePreset)));
@@ -531,9 +675,12 @@ function request() {
     const t0 = performance.now();
     try {
       const r = await fetch(API + "/api/recommend", {method: "POST", signal: ctrl.signal,
-        headers: {"Content-Type": "application/json"}, body: JSON.stringify({...state, strict_range: 1, split: !!state.split, top_n: 10})}); // strict_range: бюджет «до» — строгий потолок, без допуска +10%
+        headers: {"Content-Type": "application/json"},
+        // strict_range: бюджет «до» — строгий потолок; variants: подбирать конфигурацию памяти под анкету
+        body: JSON.stringify({...state, strict_range: 1, split: !!state.split, top_n: 10, variants: true})});
       if (!r.ok) throw new Error("HTTP " + r.status);
       const data = await r.json();
+      for (const k in varSel) delete varSel[k]; // новая выдача — снова показываем подобранную конфигурацию
       lastRtt = performance.now() - t0;
       const sig = data.segments.map(x => x.title).join("|");
       if (sig !== segSig) { // новый набор сегментов — открываем первый, где есть подходящие модели
@@ -550,57 +697,119 @@ function request() {
 }
 
 // ---------- карточка телефона ----------
+// выбранная на карточке конфигурация памяти: по умолчанию та, что подобрал сервер (chosen)
+function curVariant(r) {
+  const vs = r.variants || [];
+  if (!vs.length) return {ram: r.ram_gb, rom: r.rom_gb, price: r.price};
+  const k = varSel[r.slug];
+  return vs[k] || vs.find(v => v.chosen) || vs[0];
+}
+const priceText = v => v.price ? `${rub(v.price)} ₽` : v.msrp_usd ? `нет в РФ · $${rub(v.msrp_usd)}` : "нет в РФ";
 function specs(r) {
+  const v = curVariant(r);
   const s = [
-    ["Память", `${r.ram_gb}/${r.rom_gb} ГБ`], ["Экран", `${String(r.screen_in).replace(".", ",")}″, ${r.refresh_hz} Гц`],
+    ["Память", `${v.ram}/${v.rom} ГБ`], ["Экран", `${String(r.screen_in).replace(".", ",")}″, ${r.refresh_hz} Гц`],
     ["Камера", `${r.camera_mp} МП`], ["AnTuTu", `${nf.format(r.antutu_k)} тыс.`],
     ["Без розетки", `≈${Math.round(r.active_h)} ч`], ["Вес", `${r.weight_g} г`],
   ];
   return `<div class="specs">${s.map(([k, v]) => `<div><span>${k}</span><b>${v}</b></div>`).join("")}</div>`;
 }
+function variantChips(r) {
+  const vs = r.variants || [];
+  if (vs.length < 2) return "";
+  const cur = curVariant(r);
+  return `<div class="vchips" role="group" aria-label="Конфигурации памяти">${vs.map((v, k) =>
+    `<button type="button" class="vchip${v.fits ? "" : " nofit"}" data-slug="${esc(r.slug)}" data-v="${k}" aria-pressed="${v === cur}"
+      title="${v.fits ? "Подходит под анкету" : "Не подходит под анкету (память или бюджет)"}${v.q === "random" ? " · демо-цена" : ""}">${v.ram}/${v.rom}<small>${esc(priceText(v))}</small></button>`).join("")}</div>`;
+}
+const SEV = n => `<i class="sev" aria-label="тяжесть ${n} из 3">${"●".repeat(n)}${"○".repeat(3 - n)}</i>`;
+function quirkPills(r) {
+  const qs = r.quirks || [];
+  if (!qs.length) return "";
+  const more = (r.quirks_total || 0) - qs.length;
+  return `<div class="qpills">${qs.map(q => `<button type="button" class="qpill ${q.polarity < 0 ? "neg" : q.polarity > 0 ? "pos" : ""}" data-open="${esc(r.slug)}" data-tab="quirks"
+      title="${q.q === "random" ? "демо-данные" : q.q === "user_hypothesis" ? "гипотеза пользователя, требует проверки" : ""}">${q.polarity < 0 ? "−" : q.polarity > 0 ? "+" : "·"} ${esc(q.title)}${q.polarity < 0 ? SEV(q.severity) : ""}</button>`).join("")}
+    ${more > 0 ? `<button type="button" class="qpill more" data-open="${esc(r.slug)}" data-tab="quirks">ещё ${more}</button>` : ""}</div>`;
+}
+const MACRO_RU = {dedicated: "макро-модуль", ultrawide_af: "макро ширик", tele_macro: "телемакро", none: ""};
+function camLine(r) {
+  const c = r.camera;
+  if (!c) return "";
+  const parts = [`${c.rear} ${c.rear === 1 ? "камера" : c.rear < 5 ? "камеры" : "камер"}`];
+  if (c.optical_x > 1.05) parts.push(`опт. ${dec(c.optical_x, 1)}×`);
+  if (c.digital_x) parts.push(`цифр. ${c.digital_x}×`);
+  if (MACRO_RU[c.macro]) parts.push(MACRO_RU[c.macro]);
+  return `<div class="camline">Камеры: ${esc(parts.join(" · "))}
+    <div class="cbar"><div class="bar6"><b style="width:${c.overall}%"></b></div><span>оценка ${c.overall}/100${c.q === "random" ? " · демо" : ""}</span></div></div>`;
+}
 function badges(r) {
   const cls = b => b.startsWith("выгодно") ? "deal" : b.startsWith("переплата") ? "over" : b === "защищённый" ? "rug" : "";
   const list = r.badges.map(b => `<span class="badge ${cls(b)}">${esc(b)}</span>`);
   if (!r.ok && r.unmet.length) list.push(`<span class="badge no">не подходит: ${esc(r.unmet.join(", "))}</span>`);
+  for (const s of r.special || []) list.unshift(`<span class="badge sp" title="${esc(s.note || "Смартфон с интересными возможностями")}">✦ ${esc(s.title)}</span>`);
   return list.join("");
 }
-function gallery(r, rank, best) {
-  const list = PHOTOS[r.id] || [];
-  const rankHtml = `<span class="rank" title="${best ? "Лучший выбор" : "Место в подборке"}">${best ? "Лучший выбор" : rank}</span>`;
-  if (!list.length) return `<div class="gallery empty">${rankHtml}<div class="slot">${PHOTO_ICON}<b>Место для фото</b><small>файл photos/${r.id}.jpg</small></div></div>`;
-  const i = Math.min(photoIdx[r.id] || 0, list.length - 1);
+const src = ph => ph.src.startsWith("/") ? API + ph.src : ph.src;
+// листалка фото; key — id модели (PHOTOS[id]) или «s:slug» для моделей вне подбора
+function gallery(key, name, rankHtml = "") {
+  const list = PHOTOS[key] || [];
+  if (!list.length) return `<div class="gallery empty">${rankHtml}<div class="slot">${PHOTO_ICON}<b>Место для фото</b><small>фото пока нет</small></div></div>`;
+  const i = Math.min(photoIdx[key] || 0, list.length - 1);
   const ph = list[i];
-  const credit = ph.local ? "" : `<a class="credit" href="${esc(ph.page)}" target="_blank" rel="noopener">Фото: ${esc(ph.artist || "Wikimedia Commons")}, ${esc(ph.license || "свободная лицензия")}</a>`;
+  const credit = ph.local ? "" : ph.placeholder
+    ? `<span class="credit">Демо-заглушка: настоящего фото этой модели пока нет</span>`
+    : `<a class="credit" href="${esc(ph.page || "#")}" target="_blank" rel="noopener">Фото: ${esc(ph.artist || "Wikimedia Commons")}, ${esc(ph.license || "свободная лицензия")}</a>`;
   const nav = list.length > 1 ? `
     <button type="button" class="gbtn prev" data-step="-1" aria-label="Предыдущее фото">${LEFT}</button>
     <button type="button" class="gbtn next" data-step="1" aria-label="Следующее фото">${RIGHT}</button>
     <div class="dots">${list.map((_, k) => `<button type="button" data-k="${k}" aria-label="Фото ${k + 1} из ${list.length}" aria-current="${k === i}"></button>`).join("")}</div>` : "";
-  return `<div class="gallery" data-id="${r.id}">
-    <img src="${esc(ph.src.startsWith("/") ? API + ph.src : ph.src)}" alt="${esc(r.name)}, фото ${i + 1} из ${list.length}" loading="lazy" decoding="async" draggable="false" onerror="photoFailed(this, ${r.id})">
-    ${rankHtml}${nav}${credit}</div>`;
+  return `<div class="gallery" data-key="${esc(key)}" data-name="${esc(name)}" tabindex="0" aria-label="${esc(name)}: фото ${i + 1} из ${list.length}, листайте стрелками">
+    <img src="${esc(src(ph))}" alt="${esc(name)}, фото ${i + 1} из ${list.length}" loading="lazy" decoding="async" draggable="false" onerror="photoFailed(this)">
+    ${rankHtml}${ph.placeholder ? `<span class="demo-tag">ДЕМО</span>` : ""}${nav}${credit}</div>`;
+}
+// листание: стрелки, точки, свайп, клавиши ←/→; соседнее фото подгружается заранее
+function stepPhoto(g, step, to) {
+  const key = g.dataset.key, list = PHOTOS[key] || [];
+  if (list.length < 2) return;
+  const cur = photoIdx[key] || 0;
+  photoIdx[key] = to !== undefined ? to : (cur + step + list.length) % list.length;
+  const rank = g.querySelector(".rank");
+  const fresh = document.createElement("div");
+  fresh.innerHTML = gallery(key, g.dataset.name, rank ? rank.outerHTML : "");
+  const el = fresh.firstElementChild;
+  g.replaceWith(el);
+  if (document.activeElement === document.body || g.contains(document.activeElement)) el.focus({preventScroll: true});
+  const next = list[(photoIdx[key] + (step < 0 ? -1 : 1) + list.length) % list.length];
+  if (next) new Image().src = src(next);
 }
 // фото не загрузилось (нет интернета, файл удалён) — показываем место под фото, а не битую картинку
-function photoFailed(img, id) {
+function photoFailed(img) {
   const g = img.closest(".gallery"); if (!g) return;
   const rank = g.querySelector(".rank");
   g.className = "gallery empty";
-  g.innerHTML = `<div class="slot">${PHOTO_ICON}<b>Фото не загрузилось</b><small>файл photos/${id}.jpg</small></div>`;
+  g.innerHTML = `<div class="slot">${PHOTO_ICON}<b>Фото не загрузилось</b><small>нет связи с источником фото</small></div>`;
   if (rank) g.prepend(rank);
 }
 
 function card(r, rank, best) {
   const brand = r.name.toLowerCase().startsWith(r.brand.toLowerCase()) ? "" : r.brand + ", ";
-  return `<article class="card${best ? " best" : ""}" data-id="${r.id}" aria-label="${esc(r.name)}, ${rub(r.price)} рублей">
-    ${gallery(r, rank, best)}
+  const v = curVariant(r);
+  const rankHtml = `<span class="rank" title="${best ? "Лучший выбор" : "Место в подборке"}">${best ? "Лучший выбор" : rank}</span>`;
+  return `<article class="card${best ? " best" : ""}" data-id="${r.id}" aria-label="${esc(r.name)}, ${esc(priceText(v))}">
+    ${gallery(r.id, r.name, rankHtml)}
     <div class="cbody">
-      <div class="cmeta">${esc(brand)}класс: ${esc(r.class_name.toLowerCase())}</div>
+      <div class="cmeta">${esc(brand)}класс: ${esc(r.class_name.toLowerCase())}${r.camera && r.camera.q === "random" ? ` · <span class="qtag random" title="Камеры, обработка, «приколы» и доп. конфигурации — случайные демо-числа">демо-данные</span>` : ""}</div>
       <h3 class="cname">${esc(r.name)}</h3>
-      <div class="pricetag">${rub(r.price)} <small>₽</small></div>
-      ${r.fair ? `<div class="fair">Справедливая цена по модели ≈ ${rub(r.fair)} ₽</div>` : ""}
+      <div class="pricetag">${v.price ? `${rub(v.price)} <small>₽</small>` : `<small>${esc(priceText(v))}</small>`}</div>
+      ${variantChips(r)}
+      ${r.fair ? `<div class="fair">Справедливая цена базовой версии по модели ≈ ${rub(r.fair)} ₽</div>` : ""}
       <div class="badges">${badges(r)}</div>
+      ${quirkPills(r)}
+      ${camLine(r)}
       <ul class="pros">${r.pros.map(p => `<li>${esc(p)}</li>`).join("")}</ul>
       ${specs(r)}
       <p class="why">Сильнее всего для ваших ответов: ${esc(r.reasons)}. Группа «${esc(r.cluster)}».</p>
+      ${r.slug ? `<button type="button" class="more-btn" data-open="${esc(r.slug)}">Все характеристики</button>` : ""}
     </div>
   </article>`;
 }
@@ -616,13 +825,21 @@ function currentResult() {
   return lastData.segments.length ? lastData.segments[activeSeg].result : lastData;
 }
 
+function viewsHtml() {
+  const n = (META.catalog?.categories || []).reduce((s, c) => s + (c.count ? 1 : 0), 0);
+  return `<div class="views" role="group" aria-label="Раздел">
+    <button type="button" data-view="pick" aria-pressed="${view === "pick"}">Подбор</button>
+    <button type="button" data-view="special" aria-pressed="${view === "special"}">✦ Смартфоны с интересными возможностями${n ? ` · ${n} категорий` : ""}</button></div>`;
+}
+
 function render() {
   const data = lastData, res = currentResult();
   updateBug();
   const root = $("#results");
   root.setAttribute("aria-busy", "false");
+  if (view === "special") { renderSpecial(); return; }
   const p = data.proba;
-  let html = `<div class="verdict">
+  let html = viewsHtml() + `<div class="verdict">
       <div><h2>Вам подойдёт класс «${esc(data.class_name)}»</h2><p>Ближайшая группа: ${esc(data.cluster_name)}</p></div>
       <div class="proba" aria-label="Вероятности классов"><div class="bar">${p.map((v, i) => `<i class="c${i}" style="width:${(v * 100).toFixed(1)}%"></i>`).join("")}</div>
         <div class="legend">${CLASSES.map((c, i) => `<span><span class="dot c${i}"></span>${c} <em>${Math.round(p[i] * 100)}%</em></span>`).join("")}</div></div>
@@ -663,6 +880,7 @@ function render() {
 
 function bindResults() {
   const root = $("#results");
+  root.querySelectorAll("[data-view]").forEach(b => b.onclick = () => { view = b.dataset.view; render(); });
   root.querySelectorAll("[data-seg]").forEach(b => b.onclick = () => { activeSeg = +b.dataset.seg; render(); });
   root.querySelectorAll("[data-fix]").forEach(b => b.onclick = () => {
     Object.assign(state, fixes[+b.dataset.fix][1]);
@@ -675,7 +893,10 @@ function bindResults() {
 const FIX = {floor: ["Убрать «цена от»", {budget_min: 0}], os: ["Любая система", {os_pref: 0}],
   nfc: ["Можно без NFC", {need_nfc: 0}], esim: ["eSIM — желательно, а не обязательно", {esim_pref: 1}],
   ir: ["ИК-порт — желательно, а не обязательно", {ir_pref: 1}], screen: ["Любой размер экрана", {screen_pref: 0}],
-  hz: ["Любая частота экрана", {min_hz: 0}], rom: ["Память от 64 ГБ", {min_rom: 64}]};
+  hz: ["Любая частота экрана", {min_hz: 0}], rom: ["Память от 64 ГБ", {min_rom: 64}],
+  ram: ["Любая ОЗУ", {min_ram: 0}], zoom: ["Зум не важен", {min_optical_zoom: 0}], macro: ["Можно без макро", {need_macro: 0}],
+  quirks: ["Показать и модели с минусами", {hide_bad_quirks: 0}],
+  special: ["Все смартфоны, не только интересные", {special_only: 0, special: []}]};
 let fixes = [];
 function fixButtons(h) {
   fixes = [];
@@ -703,7 +924,7 @@ function wireTrack() {
   $("#next").onclick = () => go(1);
   track.addEventListener("scroll", update, {passive: true});
   track.addEventListener("keydown", e => {
-    if (e.target.closest(".gallery button")) return;
+    if (e.target.closest(".gallery")) return; // ←/→ на фото листают фото, а не ленту
     if (e.key === "ArrowRight") { go(1); e.preventDefault(); }
     if (e.key === "ArrowLeft") { go(-1); e.preventDefault(); }
   });
@@ -713,21 +934,51 @@ function wireTrack() {
     drag = {track, x: e.clientX, left: track.scrollLeft}; moved = false;
   });
   track.addEventListener("click", e => {
-    if (moved) { e.preventDefault(); e.stopPropagation(); moved = false; return; }
-    const g = e.target.closest(".gallery[data-id]"); if (!g) return;
-    const id = g.dataset.id, list = PHOTOS[id] || [];
-    const btn = e.target.closest("button");
-    if (!btn || list.length < 2) return;
-    const cur = photoIdx[id] || 0;
-    photoIdx[id] = btn.dataset.k !== undefined ? +btn.dataset.k : (cur + +btn.dataset.step + list.length) % list.length;
-    const r = findRow(+id);
-    const best = g.closest(".card").classList.contains("best");
-    const rank = g.querySelector(".rank").textContent;
-    const fresh = document.createElement("div");
-    fresh.innerHTML = gallery(r, rank, best);
-    g.replaceWith(fresh.firstElementChild);
+    if (moved) { e.preventDefault(); e.stopPropagation(); moved = false; }
   }, true);
+  wireCards(track);
   update();
+}
+// общие обработчики карточек (лента подбора и раздел «интересные возможности»)
+function wireCards(root) {
+  root.addEventListener("click", e => {
+    const g = e.target.closest(".gallery[data-key]");
+    const btn = e.target.closest("button");
+    if (g && btn && g.contains(btn)) { stepPhoto(g, +(btn.dataset.step || 0), btn.dataset.k !== undefined ? +btn.dataset.k : undefined); return; }
+    const vc = e.target.closest(".vchip");
+    if (vc) { varSel[vc.dataset.slug] = +vc.dataset.v; rerenderCard(vc.closest(".card")); return; }
+    const op = e.target.closest("[data-open]");
+    if (op) openPhone(op.dataset.open, op.dataset.tab);
+  });
+  root.addEventListener("keydown", e => {
+    const g = e.target.closest(".gallery[data-key]");
+    if (!g || (e.key !== "ArrowLeft" && e.key !== "ArrowRight")) return;
+    e.preventDefault(); e.stopPropagation();
+    stepPhoto(g, e.key === "ArrowRight" ? 1 : -1);
+  });
+  // свайп по фото пальцем листает фото (лента при этом не прокручивается: touch-action: pan-y)
+  let sw = null;
+  root.addEventListener("pointerdown", e => {
+    const g = e.target.closest(".gallery[data-key]");
+    if (!g || e.pointerType === "mouse") return;
+    sw = {g, x: e.clientX, y: e.clientY};
+  });
+  root.addEventListener("pointerup", e => {
+    if (!sw) return;
+    const dx = e.clientX - sw.x, dy = e.clientY - sw.y, g = sw.g;
+    sw = null;
+    if (Math.abs(dx) > 40 && Math.abs(dx) > 1.5 * Math.abs(dy)) stepPhoto(g, dx < 0 ? 1 : -1);
+  });
+  root.addEventListener("pointercancel", () => { sw = null; });
+}
+function rerenderCard(el) {
+  if (!el) return;
+  const r = findRow(+el.dataset.id); if (!r) return;
+  const rank = el.querySelector(".rank");
+  const best = el.classList.contains("best");
+  const fresh = document.createElement("div");
+  fresh.innerHTML = card(r, rank ? rank.textContent : "", best);
+  el.replaceWith(fresh.firstElementChild);
 }
 let drag = null, moved = false; // слушатели окна вешаются один раз, лента меняется при каждой отрисовке
 window.addEventListener("pointermove", e => {
@@ -749,6 +1000,199 @@ function findRow(id) {
   const res = currentResult();
   return res.table.find(r => r.id === id) || res.blocks.flatMap(b => b.rows).find(r => r.id === id);
 }
+
+// ---------- подписи каталога v2 ----------
+const AVAIL_RU = {official: "официально в РФ", parallel_import: "параллельный импорт", not_sold: "не продаётся в РФ"};
+const STATUS_RU = {on_sale: "в продаже", discontinued: "снят с продажи", announced: "анонсирован", china_only: "только в Китае"};
+const FORM_RU = {bar: "моноблок", book_fold: "складной-книжка", flip: "раскладушка", trifold: "трифолд", rugged: "защищённый", other: "другое"};
+const Q_RU = {verified: "проверено", estimated: "оценка", user_hypothesis: "гипотеза пользователя", random: "демо", unknown: "нет данных"};
+const ROLE_RU = {main: "Основная", ultrawide: "Сверхширокоугольная", tele: "Телевик", periscope: "Перископ", macro: "Макро",
+  depth: "Датчик глубины", mono: "Монохромная", front: "Фронтальная", front_ultrawide: "Фронтальная широкая", cover: "Камера внешнего экрана"};
+const qtag = q => `<span class="qtag ${esc(q)}">${esc(Q_RU[q] || q)}</span>`;
+const SRC_RU = {project_seed: "база проекта", random: "демо-генератор", telegram_ishopper: "Telegram: ishopper",
+  telegram_polzaskidki: "Telegram: polzaskidki", yandex_market: "Яндекс Маркет", dns: "DNS", mvideo: "М.Видео",
+  citilink: "Ситилинк", ozon: "Ozon", wildberries: "Wildberries", manufacturer: "производитель"};
+const srcText = s => s ? (SRC_RU[s] || s) : "—";
+const memText = rom => rom >= 1024 ? `${rom / 1024} ТБ` : `${rom} ГБ`;
+
+// ---------- раздел «Смартфоны с интересными возможностями» ----------
+async function renderSpecial() {
+  const root = $("#results");
+  if (!SPECIAL) {
+    root.innerHTML = viewsHtml() + `<p class="deck-note">Загружаем…</p>`;
+    bindResults();
+    try { SPECIAL = await (await fetch(API + "/api/special")).json(); } catch (e) { renderError(e); return; }
+    if (view !== "special") return;
+  }
+  let html = viewsHtml() + `<p class="deck-note">Модели необычной формы и с необычными функциями. Сюда входят и модели,
+    которых нет в продаже в России, — они пока не участвуют в подборе нейросетью.</p>`;
+  for (const c of SPECIAL.categories.filter(c => c.phones.length)) {
+    html += `<section class="spcat" aria-label="${esc(c.title)}"><h3>${esc(c.title)} <span class="qtag">${c.phones.length}</span></h3>
+      <p>${esc(c.description || "")}</p>
+      <div class="track sptrack" tabindex="0" aria-label="${esc(c.title)}: листайте вбок">${c.phones.map(spCard).join("")}</div></section>`;
+  }
+  root.innerHTML = html;
+  bindResults();
+  root.querySelectorAll(".sptrack").forEach(wireCards);
+}
+function spCard(p) {
+  const key = "s:" + p.slug;
+  PHOTOS[key] = p.photos;
+  const price = p.price_from ? `от ${rub(p.price_from)} ₽` : p.msrp_usd ? `нет в РФ · $${rub(p.msrp_usd)}` : "нет в РФ";
+  return `<article class="card" data-slug="${esc(p.slug)}">
+    ${gallery(key, p.full_name)}
+    <div class="cbody">
+      <div class="cmeta">${esc(p.brand)} · ${p.year} · ${esc(AVAIL_RU[p.availability_ru] || "")}${p.q === "random" ? ` · ${qtag("random")}` : ""}</div>
+      <h3 class="cname">${esc(p.full_name)}</h3>
+      <div class="pricetag"><small>${esc(price)}</small></div>
+      ${p.note ? `<p class="note">${esc(p.note)}</p>` : ""}
+      ${p.in_ml ? "" : `<div class="notml">Пока не участвует в подборе нейросетью</div>`}
+      <button type="button" class="more-btn" data-open="${esc(p.slug)}">Все характеристики</button>
+    </div></article>`;
+}
+
+// ---------- окно «Все характеристики» ----------
+const TABS = [["photos", "Фото"], ["prices", "Память и цены"], ["cameras", "Камеры"], ["quirks", "Особенности"], ["specs", "Характеристики"]];
+let dlgState = {slug: null, tab: "photos", photo: 0, variant: null};
+async function openPhone(slug, tab) {
+  const dlg = $("#dlg");
+  dlgState = {slug, tab: tab || "photos", photo: 0, variant: null};
+  if (!phoneCache[slug]) {
+    $("#dlg-in").innerHTML = `<div class="dlg-head"><h2 id="dlg-title">Загружаем…</h2><button type="button" class="dlg-x" data-close aria-label="Закрыть">×</button></div>`;
+    if (!dlg.open) dlg.showModal();
+    try {
+      const r = await fetch(API + "/api/phone/" + encodeURIComponent(slug));
+      if (!r.ok) throw new Error("HTTP " + r.status);
+      phoneCache[slug] = await r.json();
+    } catch (e) {
+      $("#dlg-in").insertAdjacentHTML("beforeend", `<div class="dlg-body">Не удалось загрузить: ${esc(e.message)}</div>`);
+      return;
+    }
+  }
+  if (!dlg.open) dlg.showModal();
+  renderDlg();
+}
+function renderDlg() {
+  const p = phoneCache[dlgState.slug]; if (!p) return;
+  const t = dlgState.tab;
+  const body = {photos: dlgPhotos, prices: dlgPrices, cameras: dlgCameras, quirks: dlgQuirks, specs: dlgSpecs}[t](p);
+  const sub = [p.brand, p.year, FORM_RU[p.form_factor], STATUS_RU[p.status], AVAIL_RU[p.availability_ru]].filter(Boolean).join(" · ");
+  $("#dlg-in").innerHTML = `<div class="dlg-head"><div><h2 id="dlg-title">${esc(p.full_name)}</h2>
+      <p>${esc(sub)} ${p.special.map(s => `<span class="badge sp">✦ ${esc(s.title)}</span>`).join(" ")}
+        ${p.in_ml ? "" : `<span class="qtag">не участвует в подборе</span>`}</p></div>
+      <button type="button" class="dlg-x" data-close aria-label="Закрыть">×</button></div>
+    <div class="dlg-tabs" role="tablist">${TABS.map(([k, title]) =>
+      `<button type="button" role="tab" data-dtab="${k}" aria-selected="${k === t}">${title}${k === "quirks" && p.quirks.length ? ` · ${p.quirks.length}` : ""}</button>`).join("")}</div>
+    <div class="dlg-body" role="tabpanel">${body}</div>`;
+}
+function dlgPhotos(p) {
+  const list = p.photos;
+  if (!list.length) return "<p>Фото пока нет.</p>";
+  const i = Math.min(dlgState.photo, list.length - 1), ph = list[i];
+  const credit = ph.placeholder ? "Демо-заглушка: настоящего фото этой модели пока нет."
+    : `Фото: ${ph.page ? `<a href="${esc(ph.page)}" target="_blank" rel="noopener">${esc(ph.artist || "источник")}</a>` : esc(ph.artist || "")}, ${esc(ph.license || "")}`;
+  return `<div class="big-gal"><img src="${esc(src(ph))}" alt="${esc(p.full_name)}, фото ${i + 1} из ${list.length}">
+      ${list.length > 1 ? `<button type="button" class="gbtn prev" data-dstep="-1" aria-label="Предыдущее фото">${LEFT}</button>
+      <button type="button" class="gbtn next" data-dstep="1" aria-label="Следующее фото">${RIGHT}</button>` : ""}</div>
+    <div class="dcredit">Фото ${i + 1} из ${list.length}. ${credit}${ph.color ? ` · цвет: ${esc(ph.color)}` : ""}</div>
+    <div class="thumbs">${list.map((x, k) => `<button type="button" data-dph="${k}" aria-current="${k === i}" aria-label="Фото ${k + 1}"><img src="${esc(src(x))}" alt="" loading="lazy"></button>`).join("")}</div>`;
+}
+function dlgPrices(p) {
+  const vs = p.variants;
+  const sel = dlgState.variant ?? Math.max(vs.findIndex(v => v.base), 0);
+  const rows = vs.map((v, k) => `<tr data-dvar="${k}" class="${k === sel ? "sel" : ""}" tabindex="0">
+      <td>${v.ram} ГБ</td><td>${memText(v.rom)}</td>
+      <td><b>${v.price ? rub(v.price) + " ₽" : "нет в РФ"}</b>${v.msrp_usd ? ` <span class="qtag">$${rub(v.msrp_usd)}</span>` : ""}</td>
+      <td>${esc(v.date || "—")}</td><td>${esc(srcText(v.source))}</td><td>${qtag(v.q)}${v.base ? ` <span class="qtag">базовая</span>` : ""}</td></tr>`).join("");
+  return `<table class="vt"><thead><tr><th>ОЗУ</th><th>Память</th><th>Цена</th><th>Дата цены</th><th>Источник</th><th>Данные</th></tr></thead>
+    <tbody>${rows}</tbody></table>${priceChart(vs[sel])}`;
+}
+function priceChart(v) {
+  const h = (v && v.history) || [];
+  const what = v ? `${v.ram}/${memText(v.rom)}` : "";
+  if (h.length < 2) return `<div class="chart"><p>История цены ${what}: ${h.length ? `одна точка — ${rub(h[0].price)} ₽ (${esc(h[0].date)})` : "пока нет (выберите строку в таблице)"}.</p></div>`;
+  const W = 600, H = 180, pad = 28;
+  const ts = h.map(x => Date.parse(x.date)), ps = h.map(x => x.price);
+  const t0 = Math.min(...ts), t1 = Math.max(...ts), p0 = Math.min(...ps), p1 = Math.max(...ps);
+  const X = t => pad + (t1 > t0 ? (t - t0) / (t1 - t0) : .5) * (W - 2 * pad);
+  const Y = q => H - pad - (p1 > p0 ? (q - p0) / (p1 - p0) : .5) * (H - 2 * pad);
+  const pts = h.map((x, i) => `${X(ts[i]).toFixed(1)},${Y(ps[i]).toFixed(1)}`).join(" ");
+  return `<div class="chart"><p>История цены ${what}: ${h.length} изменений, от ${rub(p0)} до ${rub(p1)} ₽</p>
+    <svg viewBox="0 0 ${W} ${H}" role="img" aria-label="График цены ${what}">
+      <line x1="${pad}" y1="${H - pad}" x2="${W - pad}" y2="${H - pad}" stroke="var(--line)"/>
+      <polyline points="${pts}" fill="none" stroke="var(--tag)" stroke-width="2.5" stroke-linejoin="round"/>
+      ${h.map((x, i) => `<circle cx="${X(ts[i]).toFixed(1)}" cy="${Y(ps[i]).toFixed(1)}" r="3.5" fill="var(--tag)"><title>${esc(x.date)}: ${rub(x.price)} ₽ (${esc(srcText(x.source))})</title></circle>`).join("")}
+      <text x="${pad}" y="${H - 8}" fill="var(--ink-soft)" font-size="12">${esc(h[0].date)}</text>
+      <text x="${W - pad}" y="${H - 8}" fill="var(--ink-soft)" font-size="12" text-anchor="end">${esc(h[h.length - 1].date)}</text>
+      <text x="${pad}" y="16" fill="var(--ink-soft)" font-size="12">${rub(p1)} ₽</text>
+    </svg></div>`;
+}
+function dlgCameras(p) {
+  const c = p.camera;
+  const sum = `<div class="camsum">
+    <span>Задних камер: <b>${c.rear}</b></span>
+    <span>Оптический зум: <b>${c.optical_x > 1.05 ? dec(c.optical_x, 1) + "×" : "нет"}</b></span>
+    <span>Без потерь: <b>${c.lossless_x ? dec(c.lossless_x, 1) + "×" : "—"}</b></span>
+    <span>Цифровой: <b>${c.digital_x ? c.digital_x + "×" : "—"}</b></span>
+    <span>Макро: <b>${MACRO_RU[c.macro] || "нет"}</b>${c.macro !== "none" ? ` (${c.macro_score}/100)` : ""}</span>
+    <span>Итог камер: <b>${c.overall}/100</b></span>${c.dxomark ? `<span>DXOMARK: <b>${c.dxomark}</b></span>` : ""} ${qtag(c.q)}</div>`;
+  const bar = (cls, label, v) => `<div><span>${label}</span><div class="bar6 ${cls}"><b style="width:${v ?? 0}%"></b></div><em>${v ?? "—"}</em></div>`;
+  return sum + `<div class="cams">${p.cameras.map(k => {
+    const af = k.af && k.af !== "fixed" && k.af !== "none" ? `автофокус ${k.af}` : "фикс-фокус";
+    const facts = [k.sensor || "сенсор неизвестен", `${dec(k.mp, k.mp % 1 ? 1 : 0)} МП`, k.aperture ? `f/${dec(k.aperture, 1)}` : null,
+      k.focal_mm ? `${Math.round(k.focal_mm)} мм` : null, k.zoom && !["main", "front", "front_ultrawide", "cover"].includes(k.role) ? `${dec(k.zoom, 1)}×` : null,
+      k.ois ? "OIS" : null, af, k.min_focus_cm ? `от ${dec(k.min_focus_cm, 1)} см` : null, k.video].filter(Boolean).join(" · ");
+    return `<div class="cam"><div><h4>${esc(ROLE_RU[k.role] || k.role)} ${qtag(k.q)}</h4><p>${esc(facts)}</p>
+        ${k.sensor_size ? `<p>Формат ${esc(k.sensor_size)}″${k.pixel_um ? `, пиксель ${dec(k.pixel_um, 2)} мкм` : ""}</p>` : ""}</div>
+      ${k.role === "depth" ? `<div class="bars"><p>Вспомогательный датчик — не оценивается</p></div>`
+        : `<div class="bars">${bar("hw", "Железо", k.hw)}${bar("pr", "Обработка", k.processing)}${bar("tt", "Итог", k.total)}</div>`}</div>`;
+  }).join("")}</div>`;
+}
+function dlgQuirks(p) {
+  if (!p.quirks.length) return `<p>${p.quirks_checked ? "Особенностей не найдено." : "Особенности ещё не проверены по источникам."}</p>`;
+  const group = (pol, title) => {
+    const list = p.quirks.filter(q => Math.sign(q.polarity) === pol);
+    return list.length ? `<h3>${title}</h3><div class="qlist">${list.map(q => `<div class="qitem ${pol < 0 ? "neg" : pol > 0 ? "pos" : ""}">
+        <h4>${esc(q.title)} ${pol < 0 ? SEV(q.severity) : ""} ${qtag(q.q)}</h4>
+        <p>${esc(q.note || q.description || "")}</p>
+        ${q.evidence.length ? `<p>${q.evidence.map((u, i) => `<a href="${esc(u)}" target="_blank" rel="noopener">источник ${i + 1}</a>`).join("")}</p>` : ""}</div>`).join("")}</div>` : "";
+  };
+  return group(-1, "Минусы") + group(1, "Плюсы") + group(0, "Нейтрально")
+    + (p.quirks_checked ? "" : `<p class="dcredit">Особенности ещё не проверены по источникам ТЗ.</p>`);
+}
+function dlgSpecs(p) {
+  const s = p.specs, m = s.more || {};
+  const yes = v => v === true ? "есть" : v === false ? "нет" : "—";
+  const rows = [["Система", p.os], ["Год", p.year], ["Статус", STATUS_RU[p.status]], ["В России", AVAIL_RU[p.availability_ru]],
+    ["Форма", FORM_RU[p.form_factor]], ["Чип", p.chipset || "—"], ["AnTuTu", p.antutu_k ? nf.format(p.antutu_k) + " тыс." : "—"],
+    ["Экран", `${dec(s.screen_in, 2)}″, ${s.refresh_hz} Гц`], ["Внешний экран", m.cover_screen_in ? dec(m.cover_screen_in, 1) + "″" : "—"],
+    ["Тип экрана", m.display_type || "—"], ["Яркость", m.peak_nits ? nf.format(m.peak_nits) + " нит" : "—"],
+    ["Батарея", nf.format(s.battery_mah) + " мА·ч"], ["Зарядка", `${s.charge_w} Вт`], ["Беспроводная", m.wireless_w ? m.wireless_w + " Вт" : "—"],
+    ["Вес", `${s.weight_g} г`], ["Толщина", m.thickness_mm ? dec(m.thickness_mm, 1) + " мм" : "—"], ["Защита", m.ip_rating || "—"],
+    ["5G", yes(s.has_5g)], ["NFC", yes(s.nfc)], ["eSIM", yes(s.esim)], ["ИК-порт", yes(s.ir_port)], ["3,5 мм", yes(m.jack35)],
+    ["Карта памяти", yes(m.sd_card)], ["Обновления", m.update_years ? m.update_years + " лет" : "—"], ["Дата выхода", m.release_date || "—"]];
+  return `<dl class="specgrid">${rows.map(([k, v]) => `<div><dt>${k}</dt><dd>${esc(v ?? "—")}</dd></div>`).join("")}</dl>
+    <p class="dcredit">Достоверность характеристик: ${esc(Q_RU[p.q] || p.q)}. «—» — данных пока нет.</p>`;
+}
+(() => { // обработчики окна вешаются один раз
+  const dlg = $("#dlg");
+  dlg.addEventListener("click", e => {
+    if (e.target === dlg || e.target.closest("[data-close]")) { dlg.close(); return; }
+    const tab = e.target.closest("[data-dtab]");
+    if (tab) { dlgState.tab = tab.dataset.dtab; renderDlg(); $(`[data-dtab="${dlgState.tab}"]`)?.focus(); return; }
+    const p = phoneCache[dlgState.slug]; if (!p) return;
+    const st = e.target.closest("[data-dstep]"), th = e.target.closest("[data-dph]"), vr = e.target.closest("[data-dvar]");
+    if (st) { dlgState.photo = (dlgState.photo + +st.dataset.dstep + p.photos.length) % p.photos.length; renderDlg(); }
+    else if (th) { dlgState.photo = +th.dataset.dph; renderDlg(); }
+    else if (vr) { dlgState.variant = +vr.dataset.dvar; renderDlg(); }
+  });
+  dlg.addEventListener("keydown", e => {
+    const p = phoneCache[dlgState.slug];
+    if (!p || dlgState.tab !== "photos" || !["ArrowLeft", "ArrowRight"].includes(e.key) || e.target.closest("[role=tab]")) return;
+    dlgState.photo = (dlgState.photo + (e.key === "ArrowRight" ? 1 : -1) + p.photos.length) % p.photos.length;
+    renderDlg(); e.preventDefault();
+  });
+})();
 
 // ---------- «жучок»: сводка о работе нейросети ----------
 function updateBug() {
@@ -827,10 +1271,16 @@ function renderError(e) {
       fetch(API + "/api/photos").then(r => r.ok ? r.json() : {}).catch(() => ({})),
     ]);
   } catch (e) { renderError(e); return; }
-  const m = META.metrics;
-  const withPhoto = Object.keys(PHOTOS).length;
-  $("#lead").textContent = `${META.phones} моделей, ${META.groups.length} групп. Отвечайте на вопросы — подборка обновляется сразу.`;
-  $("#foot").textContent = `Модель обучена ${META.trained_at.replace("T", " ")} на ${nf.format(m.surveys)} анкетах. Цены — из Telegram-каналов и маркетплейсов, автономность расчётная. Фото: Wikimedia Commons под свободными лицензиями (авторы указаны на фото), есть у ${withPhoto} моделей из ${META.phones}.`;
+  const m = META.metrics, cat = META.catalog || {};
+  $("#lead").textContent = `${cat.phones_in_ml || META.phones} моделей в подборе, ${nf.format(cat.variants || 0)} конфигураций памяти, ${META.groups.length} групп. Отвечайте на вопросы — подборка обновляется сразу.`;
+  if (cat.phones_with_random_data) {
+    const b = $("#demo-banner");
+    b.hidden = false;
+    b.innerHTML = `<b>Версия «${esc(META.version_name)}»</b> (${esc(META.version)}). <span>Камеры, качество обработки, «приколы»,
+      дополнительные конфигурации памяти и заглушки фото — случайные демо-числа для проверки интерфейса и структуры базы.
+      Реальные данные заполняются по ТЗ (docs/ТЗ_БД_v2_промт_для_нейросети.md); у демо-данных стоит пометка «демо».</span>`;
+  }
+  $("#foot").textContent = `Модель обучена ${META.trained_at.replace("T", " ")} на ${nf.format(m.surveys)} анкетах. Каталог: ${cat.phones} моделей, ${cat.cameras} модулей камер. Цены базовых конфигураций — из Telegram-каналов и маркетплейсов, автономность расчётная. Фото: Wikimedia Commons под свободными лицензиями (авторы указаны на фото) — у ${cat.phones_with_real_photo} моделей, у остальных демо-заглушки.`;
   state = defaults(); prioFromValues();
   buildForm(); syncForm(); request();
 })();

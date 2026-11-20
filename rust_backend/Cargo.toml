@@ -1,8 +1,8 @@
 [package]
 name = "phonepicker-server"
-version = "0.1.0"
+version = "0.2.0"
 edition = "2021"
-description = "Быстрый подбор смартфона: Rust-бэкенд для моделей, обученных в Python"
+description = "Быстрый подбор смартфона: Rust-бэкенд для моделей, обученных в Python. Версия «рандом цифры по камерам и всему-всему-всему на будущее»"
 
 [dependencies]
 axum = "0.8"
@@ -10,6 +10,8 @@ tokio = { version = "1", features = ["rt-multi-thread", "macros", "net"] }
 serde = { version = "1", features = ["derive"] }
 serde_json = "1"
 tower-http = { version = "0.6", features = ["cors", "compression-gzip"] }
+# каталог v2 (SQLite, собирается tools/build_catalog.py); bundled — SQLite встроен, внешняя библиотека не нужна
+rusqlite = { version = "0.32", features = ["bundled"] }
 
 [profile.release]
 opt-level = 3

@@ -1,0 +1,185 @@
+{
+  "slug": "poco-f6-pro",
+  "brand": "poco",
+  "name": "F6 Pro",
+  "full_name": "POCO F6 Pro",
+  "aliases": [],
+  "os": "Android",
+  "release_date": null,
+  "year": 2024,
+  "status": "on_sale",
+  "availability_ru": "official",
+  "form_factor": "bar",
+  "in_ml": true,
+  "chipset": "demo-soc-1400",
+  "specs": {
+    "screen_in": 6.67,
+    "cover_screen_in": null,
+    "refresh_hz": 120,
+    "display_type": null,
+    "peak_nits": null,
+    "battery_mah": 5000,
+    "charge_w": 120.0,
+    "wireless_w": null,
+    "weight_g": 209.0,
+    "thickness_mm": null,
+    "ip_rating": null,
+    "has_5g": true,
+    "nfc": true,
+    "esim": false,
+    "ir_port": true,
+    "jack35": null,
+    "sd_card": null,
+    "update_years": null,
+    "_q": "estimated",
+    "_src": [
+      "project_seed"
+    ]
+  },
+  "variants": [
+    {
+      "ram_gb": 12,
+      "rom_gb": 512,
+      "price_rub": 33990,
+      "price_date": "2026-08-01",
+      "price_src": "project_seed",
+      "msrp_usd": null,
+      "is_base": true,
+      "_q": "estimated",
+      "_src": [
+        "project_seed"
+      ]
+    }
+  ],
+  "cameras": [
+    {
+      "role": "main",
+      "position": 0,
+      "sensor": "demo-s22",
+      "mp": 50,
+      "aperture": 1.8,
+      "focal_mm": 25,
+      "fov_deg": 80,
+      "optical_zoom_x": null,
+      "ois": true,
+      "af": "pdaf",
+      "min_focus_cm": null,
+      "video_max": "4K30",
+      "processing_score": 77,
+      "processing_basis": "random",
+      "_q": "random",
+      "_src": [
+        "random"
+      ]
+    },
+    {
+      "role": "ultrawide",
+      "position": 0,
+      "sensor": "demo-s15",
+      "mp": 48,
+      "aperture": 2.3,
+      "focal_mm": 15,
+      "fov_deg": 121,
+      "optical_zoom_x": 0.6,
+      "ois": false,
+      "af": "pdaf",
+      "min_focus_cm": 3,
+      "video_max": null,
+      "processing_score": 71,
+      "processing_basis": "random",
+      "_q": "random",
+      "_src": [
+        "random"
+      ]
+    },
+    {
+      "role": "front",
+      "position": 0,
+      "sensor": "demo-s13",
+      "mp": 32,
+      "aperture": 2.3,
+      "focal_mm": 26,
+      "fov_deg": 78,
+      "optical_zoom_x": null,
+      "ois": false,
+      "af": "fixed",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": 69,
+      "processing_basis": "random",
+      "_q": "random",
+      "_src": [
+        "random"
+      ]
+    }
+  ],
+  "camera_features": {
+    "macro_mode": "ultrawide_af",
+    "macro_min_focus_cm": 3,
+    "lossless_zoom_x": 2.0,
+    "max_digital_zoom_x": 8,
+    "dxomark": null,
+    "_q": "random",
+    "_src": [
+      "random"
+    ]
+  },
+  "quirks": [
+    {
+      "code": "excellent_haptics",
+      "severity": 1,
+      "note_ru": "Демо: случайная особенность для проверки интерфейса.",
+      "evidence": [],
+      "_q": "random"
+    },
+    {
+      "code": "inconsistent_colors",
+      "severity": 2,
+      "note_ru": "Демо: случайная особенность для проверки интерфейса.",
+      "evidence": [],
+      "_q": "random"
+    }
+  ],
+  "quirks_checked": false,
+  "special": [],
+  "photos": [
+    {
+      "url": "/placeholder/poco-f6-pro/1.svg",
+      "kind": "placeholder",
+      "color_ru": null,
+      "author": null,
+      "license": "демо",
+      "source_page": null,
+      "width": 960,
+      "height": 1280,
+      "origin": "placeholder"
+    },
+    {
+      "url": "/placeholder/poco-f6-pro/2.svg",
+      "kind": "placeholder",
+      "color_ru": null,
+      "author": null,
+      "license": "демо",
+      "source_page": null,
+      "width": 960,
+      "height": 1280,
+      "origin": "placeholder"
+    },
+    {
+      "url": "/placeholder/poco-f6-pro/3.svg",
+      "kind": "placeholder",
+      "color_ru": null,
+      "author": null,
+      "license": "демо",
+      "source_page": null,
+      "width": 960,
+      "height": 1280,
+      "origin": "placeholder"
+    }
+  ],
+  "_meta": {
+    "created": "2026-11-20",
+    "updated": "2026-11-20",
+    "filled_by": "tools/generate_random_catalog.py"
+  }
+}

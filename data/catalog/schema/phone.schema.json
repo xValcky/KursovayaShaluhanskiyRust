@@ -1,0 +1,193 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "phonepicker/catalog/phone.schema.json",
+  "title": "Файл одной модели смартфона (каталог v2)",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["slug", "brand", "name", "full_name", "os", "year", "status", "availability_ru", "form_factor",
+               "in_ml", "chipset", "specs", "variants", "cameras", "camera_features", "quirks", "quirks_checked",
+               "special", "photos"],
+  "properties": {
+    "$schema": {"type": "string"},
+    "slug": {"$ref": "#/$defs/slug", "description": "Стабильный ключ: бренд + модель латиницей через дефис, совпадает с именем файла."},
+    "brand": {"$ref": "#/$defs/slug", "description": "slug бренда из brands.json"},
+    "name": {"type": "string", "minLength": 1, "description": "Модель без бренда, как в маркетинге: «Galaxy S25 Ultra»."},
+    "full_name": {"type": "string", "minLength": 1, "description": "Бренд + модель без повтора бренда: «Samsung Galaxy S25 Ultra», «POCO F7»."},
+    "aliases": {"type": "array", "items": {"type": "string"}, "uniqueItems": true,
+                "description": "Другие написания для сопоставления цен из магазинов. НЕ названия других моделей."},
+    "os": {"enum": ["Android", "iOS", "HarmonyOS"]},
+    "release_date": {"type": ["string", "null"], "pattern": "^\\d{4}-\\d{2}(-\\d{2})?$"},
+    "year": {"type": "integer", "minimum": 2015, "maximum": 2030},
+    "status": {"enum": ["on_sale", "discontinued", "announced", "china_only"]},
+    "availability_ru": {"enum": ["official", "parallel_import", "not_sold"]},
+    "form_factor": {"enum": ["bar", "book_fold", "flip", "trifold", "rugged", "other"]},
+    "in_ml": {"type": "boolean", "description": "true — модель участвует в подборе нейросетью."},
+    "chipset": {"anyOf": [{"$ref": "#/$defs/slug"}, {"type": "null"}], "description": "slug из chipsets.json"},
+    "specs": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["screen_in", "refresh_hz", "battery_mah", "charge_w", "weight_g", "has_5g", "nfc", "esim", "ir_port", "_q", "_src"],
+      "properties": {
+        "screen_in": {"type": "number", "minimum": 3, "maximum": 12, "description": "Диагональ основного (для складных — внутреннего) экрана, дюймы."},
+        "cover_screen_in": {"type": ["number", "null"], "minimum": 1, "maximum": 8, "description": "Внешний экран складного, иначе null."},
+        "refresh_hz": {"type": "integer", "minimum": 50, "maximum": 240},
+        "display_type": {"type": ["string", "null"], "description": "«LTPO AMOLED», «OLED», «IPS LCD»…"},
+        "peak_nits": {"type": ["integer", "null"], "minimum": 100, "maximum": 10000},
+        "battery_mah": {"type": "integer", "minimum": 1000, "maximum": 25000},
+        "charge_w": {"type": "number", "minimum": 0, "maximum": 300},
+        "wireless_w": {"type": ["number", "null"], "minimum": 0, "maximum": 150},
+        "weight_g": {"type": "number", "minimum": 80, "maximum": 800},
+        "thickness_mm": {"type": ["number", "null"], "minimum": 3, "maximum": 30},
+        "ip_rating": {"type": ["string", "null"], "pattern": "^IP[0-9X]{2}(/IP[0-9X]{2})*$"},
+        "has_5g": {"type": "boolean"},
+        "nfc": {"type": "boolean"},
+        "esim": {"type": "boolean"},
+        "ir_port": {"type": "boolean"},
+        "jack35": {"type": ["boolean", "null"]},
+        "sd_card": {"type": ["boolean", "null"]},
+        "update_years": {"type": ["integer", "null"], "minimum": 0, "maximum": 10, "description": "Сколько лет обновлений обещает производитель."},
+        "_q": {"$ref": "#/$defs/q"},
+        "_src": {"$ref": "#/$defs/src"}
+      }
+    },
+    "variants": {
+      "type": "array", "minItems": 1,
+      "description": "ВСЕ официальные конфигурации памяти. Ровно одна с is_base=true — самая продаваемая/дешёвая в РФ.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["ram_gb", "rom_gb", "price_rub", "price_date", "price_src", "is_base", "_q"],
+        "properties": {
+          "ram_gb": {"type": "integer", "enum": [1, 2, 3, 4, 6, 8, 10, 12, 16, 18, 20, 24, 32], "description": "Физическая ОЗУ. Виртуальную («+8 ГБ расширение») НЕ учитывать."},
+          "rom_gb": {"type": "integer", "enum": [16, 32, 64, 128, 256, 512, 1024, 2048], "description": "1 ТБ = 1024."},
+          "price_rub": {"type": ["integer", "null"], "minimum": 1000, "maximum": 1000000, "description": "Цена в РФ, ₽. Нет в продаже в РФ — null."},
+          "price_date": {"type": ["string", "null"], "pattern": "^\\d{4}-\\d{2}-\\d{2}$"},
+          "price_src": {"type": ["string", "null"], "description": "id из sources.json"},
+          "msrp_usd": {"type": ["integer", "null"], "minimum": 50, "maximum": 10000, "description": "Официальная стартовая цена в США/мире, $ (если известна)."},
+          "is_base": {"type": "boolean"},
+          "_q": {"$ref": "#/$defs/q"},
+          "_src": {"$ref": "#/$defs/src"}
+        }
+      }
+    },
+    "cameras": {
+      "type": "array", "minItems": 1,
+      "description": "Каждый физический модуль отдельно, включая фронтальные. position — порядок внутри роли (0, 1…).",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["role", "mp", "aperture", "focal_mm", "ois", "af", "processing_score", "processing_basis", "_q", "_src"],
+        "properties": {
+          "role": {"enum": ["main", "ultrawide", "tele", "periscope", "macro", "depth", "mono", "front", "front_ultrawide", "cover"]},
+          "position": {"type": "integer", "minimum": 0, "maximum": 5},
+          "sensor": {"anyOf": [{"$ref": "#/$defs/slug"}, {"type": "null"}], "description": "slug из sensors.json; неизвестен — null (НЕ выдумывать)."},
+          "mp": {"type": "number", "minimum": 0.3, "maximum": 320},
+          "aperture": {"type": ["number", "null"], "minimum": 0.9, "maximum": 5, "description": "Число f: 1.8 для f/1.8."},
+          "focal_mm": {"type": ["number", "null"], "minimum": 8, "maximum": 400, "description": "ЭКВИВАЛЕНТНОЕ фокусное расстояние (35 мм), мм."},
+          "fov_deg": {"type": ["number", "null"], "minimum": 5, "maximum": 130},
+          "optical_zoom_x": {"type": ["number", "null"], "minimum": 0.4, "maximum": 20, "description": "Заявленная кратность модуля относительно основной (0.6 для ширика, 3 для телевика)."},
+          "ois": {"type": ["boolean", "null"]},
+          "af": {"enum": ["none", "fixed", "contrast", "pdaf", "dual_pixel", "laser", null]},
+          "min_focus_cm": {"type": ["number", "null"], "minimum": 1, "maximum": 200},
+          "video_max": {"type": ["string", "null"], "pattern": "^(720p|1080p|4K|8K)(30|60|120|240)?$"},
+          "processing_score": {"type": ["integer", "null"], "minimum": 0, "maximum": 100, "description": "Качество обработки ЭТОГО модуля на ЭТОМ телефоне по рубрике ТЗ (раздел 7)."},
+          "processing_basis": {"enum": ["reviews_rubric", "dxomark", "random", null]},
+          "_q": {"$ref": "#/$defs/q"},
+          "_src": {"$ref": "#/$defs/src"}
+        }
+      }
+    },
+    "camera_features": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["macro_mode", "lossless_zoom_x", "max_digital_zoom_x", "dxomark", "_q", "_src"],
+      "properties": {
+        "macro_mode": {"enum": ["none", "dedicated", "ultrawide_af", "tele_macro"]},
+        "macro_min_focus_cm": {"type": ["number", "null"], "minimum": 1, "maximum": 50},
+        "lossless_zoom_x": {"type": ["number", "null"], "minimum": 1, "maximum": 20, "description": "Заявленный «оптического качества» зум кропом с сенсора (in-sensor zoom)."},
+        "max_digital_zoom_x": {"type": ["integer", "null"], "minimum": 1, "maximum": 200, "description": "Максимальный цифровой зум по спецификации производителя."},
+        "dxomark": {
+          "type": ["object", "null"],
+          "additionalProperties": false,
+          "required": ["camera", "protocol", "url"],
+          "properties": {
+            "camera": {"type": ["integer", "null"]},
+            "photo": {"type": ["integer", "null"]},
+            "video": {"type": ["integer", "null"]},
+            "zoom_tele": {"type": ["integer", "null"]},
+            "zoom_wide": {"type": ["integer", "null"]},
+            "bokeh": {"type": ["integer", "null"]},
+            "selfie": {"type": ["integer", "null"]},
+            "protocol": {"type": ["string", "null"], "description": "Версия протокола DXOMARK (v5, v6) — оценки разных версий напрямую не сравнивать."},
+            "url": {"type": "string"}
+          }
+        },
+        "_q": {"$ref": "#/$defs/q"},
+        "_src": {"$ref": "#/$defs/src"}
+      }
+    },
+    "quirks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["code", "severity", "note_ru", "evidence", "_q"],
+        "properties": {
+          "code": {"type": "string", "description": "code из quirk_types.json"},
+          "severity": {"type": "integer", "minimum": 1, "maximum": 3, "description": "1 — мелочь/редко; 2 — заметно многим; 3 — серьёзно мешает."},
+          "note_ru": {"type": "string", "minLength": 3, "maxLength": 300},
+          "evidence": {"type": "array", "items": {"type": "string"}, "description": "Прямые ссылки на замер/обзор/ветку. Для отрицательных — минимум 2 или 1 замер."},
+          "_q": {"$ref": "#/$defs/q"}
+        }
+      }
+    },
+    "quirks_checked": {"type": "boolean", "description": "true — обязательные источники проверены (даже если особенностей нет)."},
+    "special": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["code", "_q"],
+        "properties": {
+          "code": {"type": "string", "description": "code из special_categories.json"},
+          "note_ru": {"type": ["string", "null"], "maxLength": 300},
+          "_q": {"$ref": "#/$defs/q"}
+        }
+      }
+    },
+    "photos": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["url", "kind", "license", "origin"],
+        "properties": {
+          "url": {"type": "string", "pattern": "^(https://|/)"},
+          "kind": {"enum": ["front", "back", "side", "angle", "open", "color", "lifestyle", "placeholder"]},
+          "color_ru": {"type": ["string", "null"]},
+          "author": {"type": ["string", "null"]},
+          "license": {"type": "string", "description": "«CC BY-SA 4.0», «CC0», «press», «демо»…"},
+          "source_page": {"type": ["string", "null"]},
+          "width": {"type": ["integer", "null"], "minimum": 100},
+          "height": {"type": ["integer", "null"], "minimum": 100},
+          "origin": {"enum": ["wikimedia", "press", "manufacturer", "user", "seed", "placeholder"]}
+        }
+      }
+    },
+    "_meta": {
+      "type": "object",
+      "properties": {
+        "created": {"type": "string"},
+        "updated": {"type": "string"},
+        "filled_by": {"type": "string"}
+      }
+    }
+  },
+  "$defs": {
+    "slug": {"type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$", "maxLength": 80},
+    "q": {"enum": ["verified", "estimated", "user_hypothesis", "random", "unknown"],
+          "description": "verified — подтверждено источником; estimated — расчёт/косвенные данные; user_hypothesis — со слов пользователя, требует проверки; random — демо-число; unknown — не найдено."},
+    "src": {"type": "array", "items": {"type": "string"},
+            "description": "id из sources.json, можно с уточнением после двоеточия: «gsmarena:samsung_galaxy_s25_ultra-13322»."}
+  }
+}

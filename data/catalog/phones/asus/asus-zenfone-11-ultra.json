@@ -1,0 +1,232 @@
+{
+  "slug": "asus-zenfone-11-ultra",
+  "brand": "asus",
+  "name": "Zenfone 11 Ultra",
+  "full_name": "ASUS Zenfone 11 Ultra",
+  "aliases": [],
+  "os": "Android",
+  "release_date": null,
+  "year": 2024,
+  "status": "on_sale",
+  "availability_ru": "parallel_import",
+  "form_factor": "bar",
+  "in_ml": true,
+  "chipset": "demo-soc-2000",
+  "specs": {
+    "screen_in": 6.78,
+    "cover_screen_in": null,
+    "refresh_hz": 144,
+    "display_type": null,
+    "peak_nits": null,
+    "battery_mah": 5500,
+    "charge_w": 65.0,
+    "wireless_w": null,
+    "weight_g": 224.0,
+    "thickness_mm": null,
+    "ip_rating": null,
+    "has_5g": true,
+    "nfc": true,
+    "esim": true,
+    "ir_port": false,
+    "jack35": null,
+    "sd_card": null,
+    "update_years": null,
+    "_q": "estimated",
+    "_src": [
+      "project_seed"
+    ]
+  },
+  "variants": [
+    {
+      "ram_gb": 12,
+      "rom_gb": 256,
+      "price_rub": 54990,
+      "price_date": "2026-08-01",
+      "price_src": "project_seed",
+      "msrp_usd": null,
+      "is_base": true,
+      "_q": "estimated",
+      "_src": [
+        "project_seed"
+      ]
+    }
+  ],
+  "cameras": [
+    {
+      "role": "main",
+      "position": 0,
+      "sensor": "demo-s22",
+      "mp": 50,
+      "aperture": 1.8,
+      "focal_mm": 25,
+      "fov_deg": 86,
+      "optical_zoom_x": null,
+      "ois": true,
+      "af": "pdaf",
+      "min_focus_cm": null,
+      "video_max": "8K30",
+      "processing_score": 79,
+      "processing_basis": "random",
+      "_q": "random",
+      "_src": [
+        "random"
+      ]
+    },
+    {
+      "role": "ultrawide",
+      "position": 0,
+      "sensor": "demo-s23",
+      "mp": 50,
+      "aperture": 2.3,
+      "focal_mm": 16,
+      "fov_deg": 117,
+      "optical_zoom_x": 0.6,
+      "ois": false,
+      "af": "pdaf",
+      "min_focus_cm": 4,
+      "video_max": null,
+      "processing_score": 83,
+      "processing_basis": "random",
+      "_q": "random",
+      "_src": [
+        "random"
+      ]
+    },
+    {
+      "role": "tele",
+      "position": 0,
+      "sensor": "demo-s05",
+      "mp": 10,
+      "aperture": 2.0,
+      "focal_mm": 69,
+      "fov_deg": 30,
+      "optical_zoom_x": null,
+      "ois": true,
+      "af": "pdaf",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": 77,
+      "processing_basis": "random",
+      "_q": "random",
+      "_src": [
+        "random"
+      ]
+    },
+    {
+      "role": "periscope",
+      "position": 0,
+      "sensor": "demo-s31",
+      "mp": 200,
+      "aperture": 3.1,
+      "focal_mm": 128,
+      "fov_deg": 19,
+      "optical_zoom_x": null,
+      "ois": true,
+      "af": "pdaf",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": 82,
+      "processing_basis": "random",
+      "_q": "random",
+      "_src": [
+        "random"
+      ]
+    },
+    {
+      "role": "front",
+      "position": 0,
+      "sensor": "demo-s12",
+      "mp": 20,
+      "aperture": 2.3,
+      "focal_mm": 21,
+      "fov_deg": 80,
+      "optical_zoom_x": null,
+      "ois": false,
+      "af": "fixed",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": 60,
+      "processing_basis": "random",
+      "_q": "random",
+      "_src": [
+        "random"
+      ]
+    }
+  ],
+  "camera_features": {
+    "macro_mode": "ultrawide_af",
+    "macro_min_focus_cm": 4,
+    "lossless_zoom_x": 2.0,
+    "max_digital_zoom_x": 100,
+    "dxomark": null,
+    "_q": "random",
+    "_src": [
+      "random"
+    ]
+  },
+  "quirks": [
+    {
+      "code": "dim_display",
+      "severity": 1,
+      "note_ru": "Демо: случайная особенность для проверки интерфейса.",
+      "evidence": [],
+      "_q": "random"
+    },
+    {
+      "code": "weak_speaker",
+      "severity": 1,
+      "note_ru": "Демо: случайная особенность для проверки интерфейса.",
+      "evidence": [],
+      "_q": "random"
+    },
+    {
+      "code": "fragile_build",
+      "severity": 2,
+      "note_ru": "Демо: случайная особенность для проверки интерфейса.",
+      "evidence": [],
+      "_q": "random"
+    }
+  ],
+  "quirks_checked": false,
+  "special": [],
+  "photos": [
+    {
+      "url": "/placeholder/asus-zenfone-11-ultra/1.svg",
+      "kind": "placeholder",
+      "color_ru": null,
+      "author": null,
+      "license": "демо",
+      "source_page": null,
+      "width": 960,
+      "height": 1280,
+      "origin": "placeholder"
+    },
+    {
+      "url": "/placeholder/asus-zenfone-11-ultra/2.svg",
+      "kind": "placeholder",
+      "color_ru": null,
+      "author": null,
+      "license": "демо",
+      "source_page": null,
+      "width": 960,
+      "height": 1280,
+      "origin": "placeholder"
+    },
+    {
+      "url": "/placeholder/asus-zenfone-11-ultra/3.svg",
+      "kind": "placeholder",
+      "color_ru": null,
+      "author": null,
+      "license": "демо",
+      "source_page": null,
+      "width": 960,
+      "height": 1280,
+      "origin": "placeholder"
+    }
+  ],
+  "_meta": {
+    "created": "2026-11-20",
+    "updated": "2026-11-20",
+    "filled_by": "tools/generate_random_catalog.py"
+  }
+}

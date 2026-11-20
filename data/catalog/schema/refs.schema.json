@@ -1,0 +1,61 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "phonepicker/catalog/refs.schema.json",
+  "title": "Справочники каталога v2: brands.json, chipsets.json, sensors.json",
+  "$defs": {
+    "slug": {"type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$", "maxLength": 80},
+    "q": {"enum": ["verified", "estimated", "user_hypothesis", "random", "unknown"]},
+    "src": {"type": "array", "items": {"type": "string"}},
+    "brands": {
+      "type": "array",
+      "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["slug", "name"],
+        "properties": {
+          "slug": {"$ref": "#/$defs/slug"},
+          "name": {"type": "string", "description": "Как пишет производитель: «Xiaomi», «POCO», «realme», «REDMAGIC»."},
+          "parent": {"type": ["string", "null"], "description": "slug материнского бренда: poco → xiaomi, redmagic → nubia."},
+          "country": {"type": ["string", "null"]}
+        }
+      }
+    },
+    "chipsets": {
+      "type": "array",
+      "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["slug", "name", "vendor", "antutu_k", "_q", "_src"],
+        "properties": {
+          "slug": {"$ref": "#/$defs/slug"},
+          "name": {"type": "string", "description": "«Snapdragon 8 Elite for Galaxy», «Dimensity 8400-Ultra», «Apple A19 Pro»."},
+          "vendor": {"type": "string"},
+          "process_nm": {"type": ["number", "null"]},
+          "antutu_k": {"type": ["integer", "null"], "minimum": 50, "maximum": 6000, "description": "AnTuTu v10/v11 в тысячах — указывай версию в _src."},
+          "geekbench_sc": {"type": ["integer", "null"]},
+          "geekbench_mc": {"type": ["integer", "null"]},
+          "year": {"type": ["integer", "null"]},
+          "_q": {"$ref": "#/$defs/q"},
+          "_src": {"$ref": "#/$defs/src"}
+        }
+      }
+    },
+    "sensors": {
+      "type": "array",
+      "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["slug", "name", "vendor", "mp", "size_inch", "_q", "_src"],
+        "properties": {
+          "slug": {"$ref": "#/$defs/slug"},
+          "name": {"type": "string", "description": "Точное название: «Sony LYT-900», «Samsung ISOCELL HP2», «OmniVision OV50H»."},
+          "vendor": {"type": "string"},
+          "mp": {"type": "number"},
+          "size_inch": {"type": "string", "pattern": "^(1|1/\\d+(\\.\\d+)?)$", "description": "Оптический формат: «1», «1/1.3», «1/2.76»."},
+          "diag_mm": {"type": ["number", "null"], "description": "Реальная диагональ светочувствительной области, мм (если производитель её даёт)."},
+          "pixel_um": {"type": ["number", "null"]},
+          "tech": {"type": "array", "items": {"enum": ["stacked", "dcg", "lofic", "quad_bayer", "tetra2pixel", "nonacell", "dual_pixel_pro", "hdr_dol"]}},
+          "_q": {"$ref": "#/$defs/q"},
+          "_src": {"$ref": "#/$defs/src"}
+        }
+      }
+    }
+  }
+}

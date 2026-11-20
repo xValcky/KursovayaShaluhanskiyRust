@@ -1,0 +1,224 @@
+{
+  "slug": "nothing-cmf-phone-2-pro",
+  "brand": "nothing",
+  "name": "CMF Phone 2 Pro",
+  "full_name": "Nothing CMF Phone 2 Pro",
+  "aliases": [],
+  "os": "Android",
+  "release_date": null,
+  "year": 2025,
+  "status": "on_sale",
+  "availability_ru": "parallel_import",
+  "form_factor": "bar",
+  "in_ml": true,
+  "chipset": "demo-soc-750",
+  "specs": {
+    "screen_in": 6.77,
+    "cover_screen_in": null,
+    "refresh_hz": 120,
+    "display_type": null,
+    "peak_nits": null,
+    "battery_mah": 5000,
+    "charge_w": 33.0,
+    "wireless_w": null,
+    "weight_g": 185.0,
+    "thickness_mm": null,
+    "ip_rating": null,
+    "has_5g": true,
+    "nfc": true,
+    "esim": false,
+    "ir_port": false,
+    "jack35": null,
+    "sd_card": null,
+    "update_years": null,
+    "_q": "estimated",
+    "_src": [
+      "project_seed"
+    ]
+  },
+  "variants": [
+    {
+      "ram_gb": 8,
+      "rom_gb": 256,
+      "price_rub": 23990,
+      "price_date": "2026-08-01",
+      "price_src": "project_seed",
+      "msrp_usd": null,
+      "is_base": true,
+      "_q": "estimated",
+      "_src": [
+        "project_seed"
+      ]
+    },
+    {
+      "ram_gb": 8,
+      "rom_gb": 512,
+      "price_rub": 27990,
+      "price_date": "2026-11-20",
+      "price_src": "random",
+      "msrp_usd": null,
+      "is_base": false,
+      "_q": "random",
+      "_src": [
+        "random"
+      ]
+    },
+    {
+      "ram_gb": 8,
+      "rom_gb": 1024,
+      "price_rub": 32990,
+      "price_date": "2026-11-20",
+      "price_src": "random",
+      "msrp_usd": null,
+      "is_base": false,
+      "_q": "random",
+      "_src": [
+        "random"
+      ]
+    }
+  ],
+  "cameras": [
+    {
+      "role": "main",
+      "position": 0,
+      "sensor": "demo-s23",
+      "mp": 50,
+      "aperture": 1.8,
+      "focal_mm": 26,
+      "fov_deg": 81,
+      "optical_zoom_x": null,
+      "ois": true,
+      "af": "pdaf",
+      "min_focus_cm": null,
+      "video_max": "4K30",
+      "processing_score": 55,
+      "processing_basis": "random",
+      "_q": "random",
+      "_src": [
+        "random"
+      ]
+    },
+    {
+      "role": "ultrawide",
+      "position": 0,
+      "sensor": "demo-s20",
+      "mp": 50,
+      "aperture": 2.4,
+      "focal_mm": 13,
+      "fov_deg": 114,
+      "optical_zoom_x": 0.6,
+      "ois": false,
+      "af": "pdaf",
+      "min_focus_cm": 3,
+      "video_max": null,
+      "processing_score": 58,
+      "processing_basis": "random",
+      "_q": "random",
+      "_src": [
+        "random"
+      ]
+    },
+    {
+      "role": "tele",
+      "position": 0,
+      "sensor": "demo-s05",
+      "mp": 10,
+      "aperture": 2.6,
+      "focal_mm": 50,
+      "fov_deg": 33,
+      "optical_zoom_x": null,
+      "ois": true,
+      "af": "pdaf",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": 79,
+      "processing_basis": "random",
+      "_q": "random",
+      "_src": [
+        "random"
+      ]
+    },
+    {
+      "role": "front",
+      "position": 0,
+      "sensor": "demo-s13",
+      "mp": 32,
+      "aperture": 2.3,
+      "focal_mm": 24,
+      "fov_deg": 86,
+      "optical_zoom_x": null,
+      "ois": false,
+      "af": "fixed",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": 61,
+      "processing_basis": "random",
+      "_q": "random",
+      "_src": [
+        "random"
+      ]
+    }
+  ],
+  "camera_features": {
+    "macro_mode": "ultrawide_af",
+    "macro_min_focus_cm": 3,
+    "lossless_zoom_x": 2.0,
+    "max_digital_zoom_x": 20,
+    "dxomark": null,
+    "_q": "random",
+    "_src": [
+      "random"
+    ]
+  },
+  "quirks": [
+    {
+      "code": "excellent_battery",
+      "severity": 3,
+      "note_ru": "Демо: случайная особенность для проверки интерфейса.",
+      "evidence": [],
+      "_q": "random"
+    }
+  ],
+  "quirks_checked": false,
+  "special": [],
+  "photos": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/CMF_Phone_2_Pro_%28white%29_2025-05-08.jpg/960px-CMF_Phone_2_Pro_%28white%29_2025-05-08.jpg",
+      "kind": "angle",
+      "color_ru": null,
+      "author": "Suntooooth",
+      "license": "CC BY-SA 4.0",
+      "source_page": "https://commons.wikimedia.org/wiki/File:CMF_Phone_2_Pro_(white)_2025-05-08.jpg",
+      "width": null,
+      "height": null,
+      "origin": "wikimedia"
+    },
+    {
+      "url": "/placeholder/nothing-cmf-phone-2-pro/2.svg",
+      "kind": "placeholder",
+      "color_ru": null,
+      "author": null,
+      "license": "демо",
+      "source_page": null,
+      "width": 960,
+      "height": 1280,
+      "origin": "placeholder"
+    },
+    {
+      "url": "/placeholder/nothing-cmf-phone-2-pro/3.svg",
+      "kind": "placeholder",
+      "color_ru": null,
+      "author": null,
+      "license": "демо",
+      "source_page": null,
+      "width": 960,
+      "height": 1280,
+      "origin": "placeholder"
+    }
+  ],
+  "_meta": {
+    "created": "2026-11-20",
+    "updated": "2026-11-20",
+    "filled_by": "tools/generate_random_catalog.py"
+  }
+}

@@ -1,0 +1,224 @@
+{
+  "slug": "honor-robot-phone",
+  "brand": "honor",
+  "name": "Robot Phone",
+  "full_name": "Honor Robot Phone",
+  "aliases": [],
+  "os": "Android",
+  "release_date": "2026-08",
+  "year": 2026,
+  "status": "china_only",
+  "availability_ru": "not_sold",
+  "form_factor": "bar",
+  "in_ml": false,
+  "chipset": null,
+  "specs": {
+    "screen_in": 6.8,
+    "cover_screen_in": null,
+    "refresh_hz": 120,
+    "display_type": null,
+    "peak_nits": null,
+    "battery_mah": 5400,
+    "charge_w": 66.0,
+    "wireless_w": null,
+    "weight_g": 270.0,
+    "thickness_mm": null,
+    "ip_rating": null,
+    "has_5g": true,
+    "nfc": true,
+    "esim": false,
+    "ir_port": false,
+    "jack35": null,
+    "sd_card": null,
+    "update_years": null,
+    "_q": "random",
+    "_src": [
+      "random"
+    ]
+  },
+  "variants": [
+    {
+      "ram_gb": 12,
+      "rom_gb": 512,
+      "price_rub": null,
+      "price_date": null,
+      "price_src": null,
+      "msrp_usd": 1480,
+      "is_base": true,
+      "_q": "random",
+      "_src": [
+        "random"
+      ]
+    },
+    {
+      "ram_gb": 16,
+      "rom_gb": 1024,
+      "price_rub": null,
+      "price_date": null,
+      "price_src": null,
+      "msrp_usd": 1930,
+      "is_base": false,
+      "_q": "random",
+      "_src": [
+        "random"
+      ]
+    }
+  ],
+  "cameras": [
+    {
+      "role": "main",
+      "position": 0,
+      "sensor": "demo-s31",
+      "mp": 200,
+      "aperture": 1.7,
+      "focal_mm": 25,
+      "fov_deg": 83,
+      "optical_zoom_x": null,
+      "ois": true,
+      "af": "pdaf",
+      "min_focus_cm": null,
+      "video_max": "4K120",
+      "processing_score": 71,
+      "processing_basis": "random",
+      "_q": "random",
+      "_src": [
+        "random"
+      ]
+    },
+    {
+      "role": "ultrawide",
+      "position": 0,
+      "sensor": "demo-s20",
+      "mp": 50,
+      "aperture": 2.4,
+      "focal_mm": 14,
+      "fov_deg": 115,
+      "optical_zoom_x": 0.6,
+      "ois": false,
+      "af": "pdaf",
+      "min_focus_cm": 4,
+      "video_max": null,
+      "processing_score": 76,
+      "processing_basis": "random",
+      "_q": "random",
+      "_src": [
+        "random"
+      ]
+    },
+    {
+      "role": "tele",
+      "position": 0,
+      "sensor": "demo-s05",
+      "mp": 10,
+      "aperture": 2.5,
+      "focal_mm": 67,
+      "fov_deg": 32,
+      "optical_zoom_x": null,
+      "ois": true,
+      "af": "pdaf",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": 80,
+      "processing_basis": "random",
+      "_q": "random",
+      "_src": [
+        "random"
+      ]
+    },
+    {
+      "role": "front",
+      "position": 0,
+      "sensor": "demo-s12",
+      "mp": 20,
+      "aperture": 2.1,
+      "focal_mm": 24,
+      "fov_deg": 78,
+      "optical_zoom_x": null,
+      "ois": false,
+      "af": "pdaf",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": 81,
+      "processing_basis": "random",
+      "_q": "random",
+      "_src": [
+        "random"
+      ]
+    }
+  ],
+  "camera_features": {
+    "macro_mode": "ultrawide_af",
+    "macro_min_focus_cm": 4,
+    "lossless_zoom_x": 4.0,
+    "max_digital_zoom_x": 20,
+    "dxomark": null,
+    "_q": "random",
+    "_src": [
+      "random"
+    ]
+  },
+  "quirks": [
+    {
+      "code": "loud_stereo",
+      "severity": 1,
+      "note_ru": "Демо: случайная особенность для проверки интерфейса.",
+      "evidence": [],
+      "_q": "random"
+    },
+    {
+      "code": "inconsistent_colors",
+      "severity": 3,
+      "note_ru": "Демо: случайная особенность для проверки интерфейса.",
+      "evidence": [],
+      "_q": "random"
+    }
+  ],
+  "quirks_checked": false,
+  "special": [
+    {
+      "code": "gimbal_camera",
+      "note_ru": "Основная камера 200 МП на механическом подвесе; продажи в Китае с августа 2026.",
+      "_q": "verified"
+    }
+  ],
+  "photos": [
+    {
+      "url": "/placeholder/honor-robot-phone/1.svg",
+      "kind": "placeholder",
+      "color_ru": null,
+      "author": null,
+      "license": "демо",
+      "source_page": null,
+      "width": 960,
+      "height": 1280,
+      "origin": "placeholder"
+    },
+    {
+      "url": "/placeholder/honor-robot-phone/2.svg",
+      "kind": "placeholder",
+      "color_ru": null,
+      "author": null,
+      "license": "демо",
+      "source_page": null,
+      "width": 960,
+      "height": 1280,
+      "origin": "placeholder"
+    },
+    {
+      "url": "/placeholder/honor-robot-phone/3.svg",
+      "kind": "placeholder",
+      "color_ru": null,
+      "author": null,
+      "license": "демо",
+      "source_page": null,
+      "width": 960,
+      "height": 1280,
+      "origin": "placeholder"
+    }
+  ],
+  "_meta": {
+    "created": "2026-11-20",
+    "updated": "2026-11-20",
+    "filled_by": "tools/generate_random_catalog.py"
+  }
+}

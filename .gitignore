@@ -8,6 +8,9 @@ dist/
 
 # Генерируется при запуске: база с анкетами/отзывами, обученные модели, ключи
 data/phones.db
+# каталог v2 собирается tools/build_catalog.py; в git хранится только копия rust_backend/catalog.db
+data/catalog.db
+data/catalog.tmp
 models/
 PhonePicker_data/
 .env

@@ -1,7 +1,9 @@
 @echo off
 chcp 65001 >nul
 cd /d "%~dp0"
-title PhonePicker
+title PhonePicker — рандом цифры по камерам и всему-всему-всему на будущее
+rem эта версия работает на порту 8081, чтобы не мешать основной (8080)
+set PORT=8081
 
 where cargo >nul 2>nul
 if errorlevel 1 (
@@ -13,6 +15,14 @@ if errorlevel 1 (
   exit /b 1
 )
 
+rem если есть Python — пересобрать каталог из data\catalog (иначе используется готовый catalog.db)
+where python >nul 2>nul
+if not errorlevel 1 (
+  pushd ..
+  python tools\build_catalog.py
+  popd
+)
+
 echo Сборка (первый раз 1-3 минуты, потом пара секунд)...
 cargo build --release
 if errorlevel 1 (
@@ -21,12 +31,12 @@ if errorlevel 1 (
   exit /b 1
 )
 
-rem старый сервер держит порт 8080 и отдаёт старую страницу — останавливаем его
-taskkill /IM phonepicker-server.exe /F >nul 2>nul
+rem старый сервер этой версии держит порт 8081 — останавливаем только его (основная версия на 8080 не трогается)
+for /f "tokens=5" %%p in ('netstat -ano ^| findstr ":8081 " ^| findstr LISTENING') do taskkill /PID %%p /F >nul 2>nul
 timeout /t 1 /nobreak >nul
-start "PhonePicker server" target\release\phonepicker-server.exe
+start "PhonePicker random server" target\release\phonepicker-server.exe
 timeout /t 2 /nobreak >nul
-start "" http://localhost:8080
-echo Сервер запущен в отдельном окне: http://localhost:8080
-echo Чтобы остановить, закройте окно "PhonePicker server".
+start "" http://localhost:8081
+echo Сервер запущен в отдельном окне: http://localhost:8081
+echo Чтобы остановить, закройте окно "PhonePicker random server".
 timeout /t 5 >nul

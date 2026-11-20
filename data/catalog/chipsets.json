@@ -1,0 +1,884 @@
+[
+  {
+    "slug": "demo-soc-150",
+    "name": "DEMO SoC · AnTuTu 150 тыс.",
+    "vendor": "Демо",
+    "process_nm": 6,
+    "antutu_k": 150,
+    "geekbench_sc": null,
+    "geekbench_mc": null,
+    "year": null,
+    "_q": "estimated",
+    "_src": [
+      "project_seed"
+    ]
+  },
+  {
+    "slug": "demo-soc-180",
+    "name": "DEMO SoC · AnTuTu 180 тыс.",
+    "vendor": "Демо",
+    "process_nm": 3,
+    "antutu_k": 180,
+    "geekbench_sc": null,
+    "geekbench_mc": null,
+    "year": null,
+    "_q": "estimated",
+    "_src": [
+      "project_seed"
+    ]
+  },
+  {
+    "slug": "demo-soc-200",
+    "name": "DEMO SoC · AnTuTu 200 тыс.",
+    "vendor": "Демо",
+    "process_nm": 6,
+    "antutu_k": 200,
+    "geekbench_sc": null,
+    "geekbench_mc": null,
+    "year": null,
+    "_q": "estimated",
+    "_src": [
+      "project_seed"
+    ]
+  },
+  {
+    "slug": "demo-soc-220",
+    "name": "DEMO SoC · AnTuTu 220 тыс.",
+    "vendor": "Демо",
+    "process_nm": 3,
+    "antutu_k": 220,
+    "geekbench_sc": null,
+    "geekbench_mc": null,
+    "year": null,
+    "_q": "estimated",
+    "_src": [
+      "project_seed"
+    ]
+  },
+  {
+    "slug": "demo-soc-240",
+    "name": "DEMO SoC · AnTuTu 240 тыс.",
+    "vendor": "Демо",
+    "process_nm": 6,
+    "antutu_k": 240,
+    "geekbench_sc": null,
+    "geekbench_mc": null,
+    "year": null,
+    "_q": "estimated",
+    "_src": [
+      "project_seed"
+    ]
+  },
+  {
+    "slug": "demo-soc-250",
+    "name": "DEMO SoC · AnTuTu 250 тыс.",
+    "vendor": "Демо",
+    "process_nm": 3,
+    "antutu_k": 250,
+    "geekbench_sc": null,
+    "geekbench_mc": null,
+    "year": null,
+    "_q": "estimated",
+    "_src": [
+      "project_seed"
+    ]
+  },
+  {
+    "slug": "demo-soc-260",
+    "name": "DEMO SoC · AnTuTu 260 тыс.",
+    "vendor": "Демо",
+    "process_nm": 3,
+    "antutu_k": 260,
+    "geekbench_sc": null,
+    "geekbench_mc": null,
+    "year": null,
+    "_q": "estimated",
+    "_src": [
+      "project_seed"
+    ]
+  },
+  {
+    "slug": "demo-soc-280",
+    "name": "DEMO SoC · AnTuTu 280 тыс.",
+    "vendor": "Демо",
+    "process_nm": 6,
+    "antutu_k": 280,
+    "geekbench_sc": null,
+    "geekbench_mc": null,
+    "year": null,
+    "_q": "estimated",
+    "_src": [
+      "project_seed"
+    ]
+  },
+  {
+    "slug": "demo-soc-300",
+    "name": "DEMO SoC · AnTuTu 300 тыс.",
+    "vendor": "Демо",
+    "process_nm": 5,
+    "antutu_k": 300,
+    "geekbench_sc": null,
+    "geekbench_mc": null,
+    "year": null,
+    "_q": "estimated",
+    "_src": [
+      "project_seed"
+    ]
+  },
+  {
+    "slug": "demo-soc-350",
+    "name": "DEMO SoC · AnTuTu 350 тыс.",
+    "vendor": "Демо",
+    "process_nm": 5,
+    "antutu_k": 350,
+    "geekbench_sc": null,
+    "geekbench_mc": null,
+    "year": null,
+    "_q": "estimated",
+    "_src": [
+      "project_seed"
+    ]
+  },
+  {
+    "slug": "demo-soc-400",
+    "name": "DEMO SoC · AnTuTu 400 тыс.",
+    "vendor": "Демо",
+    "process_nm": 6,
+    "antutu_k": 400,
+    "geekbench_sc": null,
+    "geekbench_mc": null,
+    "year": null,
+    "_q": "estimated",
+    "_src": [
+      "project_seed"
+    ]
+  },
+  {
+    "slug": "demo-soc-420",
+    "name": "DEMO SoC · AnTuTu 420 тыс.",
+    "vendor": "Демо",
+    "process_nm": 3,
+    "antutu_k": 420,
+    "geekbench_sc": null,
+    "geekbench_mc": null,
+    "year": null,
+    "_q": "estimated",
+    "_src": [
+      "project_seed"
+    ]
+  },
+  {
+    "slug": "demo-soc-450",
+    "name": "DEMO SoC · AnTuTu 450 тыс.",
+    "vendor": "Демо",
+    "process_nm": 5,
+    "antutu_k": 450,
+    "geekbench_sc": null,
+    "geekbench_mc": null,
+    "year": null,
+    "_q": "estimated",
+    "_src": [
+      "project_seed"
+    ]
+  },
+  {
+    "slug": "demo-soc-500",
+    "name": "DEMO SoC · AnTuTu 500 тыс.",
+    "vendor": "Демо",
+    "process_nm": 5,
+    "antutu_k": 500,
+    "geekbench_sc": null,
+    "geekbench_mc": null,
+    "year": null,
+    "_q": "estimated",
+    "_src": [
+      "project_seed"
+    ]
+  },
+  {
+    "slug": "demo-soc-550",
+    "name": "DEMO SoC · AnTuTu 550 тыс.",
+    "vendor": "Демо",
+    "process_nm": 4,
+    "antutu_k": 550,
+    "geekbench_sc": null,
+    "geekbench_mc": null,
+    "year": null,
+    "_q": "estimated",
+    "_src": [
+      "project_seed"
+    ]
+  },
+  {
+    "slug": "demo-soc-600",
+    "name": "DEMO SoC · AnTuTu 600 тыс.",
+    "vendor": "Демо",
+    "process_nm": 5,
+    "antutu_k": 600,
+    "geekbench_sc": null,
+    "geekbench_mc": null,
+    "year": null,
+    "_q": "estimated",
+    "_src": [
+      "project_seed"
+    ]
+  },
+  {
+    "slug": "demo-soc-650",
+    "name": "DEMO SoC · AnTuTu 650 тыс.",
+    "vendor": "Демо",
+    "process_nm": 5,
+    "antutu_k": 650,
+    "geekbench_sc": null,
+    "geekbench_mc": null,
+    "year": null,
+    "_q": "estimated",
+    "_src": [
+      "project_seed"
+    ]
+  },
+  {
+    "slug": "demo-soc-700",
+    "name": "DEMO SoC · AnTuTu 700 тыс.",
+    "vendor": "Демо",
+    "process_nm": 4,
+    "antutu_k": 700,
+    "geekbench_sc": null,
+    "geekbench_mc": null,
+    "year": null,
+    "_q": "estimated",
+    "_src": [
+      "project_seed"
+    ]
+  },
+  {
+    "slug": "demo-soc-750",
+    "name": "DEMO SoC · AnTuTu 750 тыс.",
+    "vendor": "Демо",
+    "process_nm": 3,
+    "antutu_k": 750,
+    "geekbench_sc": null,
+    "geekbench_mc": null,
+    "year": null,
+    "_q": "estimated",
+    "_src": [
+      "project_seed"
+    ]
+  },
+  {
+    "slug": "demo-soc-800",
+    "name": "DEMO SoC · AnTuTu 800 тыс.",
+    "vendor": "Демо",
+    "process_nm": 5,
+    "antutu_k": 800,
+    "geekbench_sc": null,
+    "geekbench_mc": null,
+    "year": null,
+    "_q": "estimated",
+    "_src": [
+      "project_seed"
+    ]
+  },
+  {
+    "slug": "demo-soc-850",
+    "name": "DEMO SoC · AnTuTu 850 тыс.",
+    "vendor": "Демо",
+    "process_nm": 4,
+    "antutu_k": 850,
+    "geekbench_sc": null,
+    "geekbench_mc": null,
+    "year": null,
+    "_q": "estimated",
+    "_src": [
+      "project_seed"
+    ]
+  },
+  {
+    "slug": "demo-soc-880",
+    "name": "DEMO SoC · AnTuTu 880 тыс.",
+    "vendor": "Демо",
+    "process_nm": 6,
+    "antutu_k": 880,
+    "geekbench_sc": null,
+    "geekbench_mc": null,
+    "year": null,
+    "_q": "estimated",
+    "_src": [
+      "project_seed"
+    ]
+  },
+  {
+    "slug": "demo-soc-900",
+    "name": "DEMO SoC · AnTuTu 900 тыс.",
+    "vendor": "Демо",
+    "process_nm": 3,
+    "antutu_k": 900,
+    "geekbench_sc": null,
+    "geekbench_mc": null,
+    "year": null,
+    "_q": "estimated",
+    "_src": [
+      "project_seed"
+    ]
+  },
+  {
+    "slug": "demo-soc-950",
+    "name": "DEMO SoC · AnTuTu 950 тыс.",
+    "vendor": "Демо",
+    "process_nm": 5,
+    "antutu_k": 950,
+    "geekbench_sc": null,
+    "geekbench_mc": null,
+    "year": null,
+    "_q": "estimated",
+    "_src": [
+      "project_seed"
+    ]
+  },
+  {
+    "slug": "demo-soc-1000",
+    "name": "DEMO SoC · AnTuTu 1000 тыс.",
+    "vendor": "Демо",
+    "process_nm": 4,
+    "antutu_k": 1000,
+    "geekbench_sc": null,
+    "geekbench_mc": null,
+    "year": null,
+    "_q": "estimated",
+    "_src": [
+      "project_seed"
+    ]
+  },
+  {
+    "slug": "demo-soc-1050",
+    "name": "DEMO SoC · AnTuTu 1050 тыс.",
+    "vendor": "Демо",
+    "process_nm": 5,
+    "antutu_k": 1050,
+    "geekbench_sc": null,
+    "geekbench_mc": null,
+    "year": null,
+    "_q": "estimated",
+    "_src": [
+      "project_seed"
+    ]
+  },
+  {
+    "slug": "demo-soc-1100",
+    "name": "DEMO SoC · AnTuTu 1100 тыс.",
+    "vendor": "Демо",
+    "process_nm": 4,
+    "antutu_k": 1100,
+    "geekbench_sc": null,
+    "geekbench_mc": null,
+    "year": null,
+    "_q": "estimated",
+    "_src": [
+      "project_seed"
+    ]
+  },
+  {
+    "slug": "demo-soc-1150",
+    "name": "DEMO SoC · AnTuTu 1150 тыс.",
+    "vendor": "Демо",
+    "process_nm": 3,
+    "antutu_k": 1150,
+    "geekbench_sc": null,
+    "geekbench_mc": null,
+    "year": null,
+    "_q": "estimated",
+    "_src": [
+      "project_seed"
+    ]
+  },
+  {
+    "slug": "demo-soc-1200",
+    "name": "DEMO SoC · AnTuTu 1200 тыс.",
+    "vendor": "Демо",
+    "process_nm": 3,
+    "antutu_k": 1200,
+    "geekbench_sc": null,
+    "geekbench_mc": null,
+    "year": null,
+    "_q": "estimated",
+    "_src": [
+      "project_seed"
+    ]
+  },
+  {
+    "slug": "demo-soc-1250",
+    "name": "DEMO SoC · AnTuTu 1250 тыс.",
+    "vendor": "Демо",
+    "process_nm": 6,
+    "antutu_k": 1250,
+    "geekbench_sc": null,
+    "geekbench_mc": null,
+    "year": null,
+    "_q": "estimated",
+    "_src": [
+      "project_seed"
+    ]
+  },
+  {
+    "slug": "demo-soc-1300",
+    "name": "DEMO SoC · AnTuTu 1300 тыс.",
+    "vendor": "Демо",
+    "process_nm": 3,
+    "antutu_k": 1300,
+    "geekbench_sc": null,
+    "geekbench_mc": null,
+    "year": null,
+    "_q": "estimated",
+    "_src": [
+      "project_seed"
+    ]
+  },
+  {
+    "slug": "demo-soc-1350",
+    "name": "DEMO SoC · AnTuTu 1350 тыс.",
+    "vendor": "Демо",
+    "process_nm": 5,
+    "antutu_k": 1350,
+    "geekbench_sc": null,
+    "geekbench_mc": null,
+    "year": null,
+    "_q": "estimated",
+    "_src": [
+      "project_seed"
+    ]
+  },
+  {
+    "slug": "demo-soc-1400",
+    "name": "DEMO SoC · AnTuTu 1400 тыс.",
+    "vendor": "Демо",
+    "process_nm": 6,
+    "antutu_k": 1400,
+    "geekbench_sc": null,
+    "geekbench_mc": null,
+    "year": null,
+    "_q": "estimated",
+    "_src": [
+      "project_seed"
+    ]
+  },
+  {
+    "slug": "demo-soc-1450",
+    "name": "DEMO SoC · AnTuTu 1450 тыс.",
+    "vendor": "Демо",
+    "process_nm": 3,
+    "antutu_k": 1450,
+    "geekbench_sc": null,
+    "geekbench_mc": null,
+    "year": null,
+    "_q": "estimated",
+    "_src": [
+      "project_seed"
+    ]
+  },
+  {
+    "slug": "demo-soc-1500",
+    "name": "DEMO SoC · AnTuTu 1500 тыс.",
+    "vendor": "Демо",
+    "process_nm": 6,
+    "antutu_k": 1500,
+    "geekbench_sc": null,
+    "geekbench_mc": null,
+    "year": null,
+    "_q": "estimated",
+    "_src": [
+      "project_seed"
+    ]
+  },
+  {
+    "slug": "demo-soc-1550",
+    "name": "DEMO SoC · AnTuTu 1550 тыс.",
+    "vendor": "Демо",
+    "process_nm": 4,
+    "antutu_k": 1550,
+    "geekbench_sc": null,
+    "geekbench_mc": null,
+    "year": null,
+    "_q": "estimated",
+    "_src": [
+      "project_seed"
+    ]
+  },
+  {
+    "slug": "demo-soc-1600",
+    "name": "DEMO SoC · AnTuTu 1600 тыс.",
+    "vendor": "Демо",
+    "process_nm": 6,
+    "antutu_k": 1600,
+    "geekbench_sc": null,
+    "geekbench_mc": null,
+    "year": null,
+    "_q": "estimated",
+    "_src": [
+      "project_seed"
+    ]
+  },
+  {
+    "slug": "demo-soc-1650",
+    "name": "DEMO SoC · AnTuTu 1650 тыс.",
+    "vendor": "Демо",
+    "process_nm": 5,
+    "antutu_k": 1650,
+    "geekbench_sc": null,
+    "geekbench_mc": null,
+    "year": null,
+    "_q": "estimated",
+    "_src": [
+      "project_seed"
+    ]
+  },
+  {
+    "slug": "demo-soc-1700",
+    "name": "DEMO SoC · AnTuTu 1700 тыс.",
+    "vendor": "Демо",
+    "process_nm": 3,
+    "antutu_k": 1700,
+    "geekbench_sc": null,
+    "geekbench_mc": null,
+    "year": null,
+    "_q": "estimated",
+    "_src": [
+      "project_seed"
+    ]
+  },
+  {
+    "slug": "demo-soc-1750",
+    "name": "DEMO SoC · AnTuTu 1750 тыс.",
+    "vendor": "Демо",
+    "process_nm": 4,
+    "antutu_k": 1750,
+    "geekbench_sc": null,
+    "geekbench_mc": null,
+    "year": null,
+    "_q": "estimated",
+    "_src": [
+      "project_seed"
+    ]
+  },
+  {
+    "slug": "demo-soc-1800",
+    "name": "DEMO SoC · AnTuTu 1800 тыс.",
+    "vendor": "Демо",
+    "process_nm": 5,
+    "antutu_k": 1800,
+    "geekbench_sc": null,
+    "geekbench_mc": null,
+    "year": null,
+    "_q": "estimated",
+    "_src": [
+      "project_seed"
+    ]
+  },
+  {
+    "slug": "demo-soc-1900",
+    "name": "DEMO SoC · AnTuTu 1900 тыс.",
+    "vendor": "Демо",
+    "process_nm": 6,
+    "antutu_k": 1900,
+    "geekbench_sc": null,
+    "geekbench_mc": null,
+    "year": null,
+    "_q": "estimated",
+    "_src": [
+      "project_seed"
+    ]
+  },
+  {
+    "slug": "demo-soc-2000",
+    "name": "DEMO SoC · AnTuTu 2000 тыс.",
+    "vendor": "Демо",
+    "process_nm": 4,
+    "antutu_k": 2000,
+    "geekbench_sc": null,
+    "geekbench_mc": null,
+    "year": null,
+    "_q": "estimated",
+    "_src": [
+      "project_seed"
+    ]
+  },
+  {
+    "slug": "demo-soc-2050",
+    "name": "DEMO SoC · AnTuTu 2050 тыс.",
+    "vendor": "Демо",
+    "process_nm": 5,
+    "antutu_k": 2050,
+    "geekbench_sc": null,
+    "geekbench_mc": null,
+    "year": null,
+    "_q": "estimated",
+    "_src": [
+      "project_seed"
+    ]
+  },
+  {
+    "slug": "demo-soc-2100",
+    "name": "DEMO SoC · AnTuTu 2100 тыс.",
+    "vendor": "Демо",
+    "process_nm": 6,
+    "antutu_k": 2100,
+    "geekbench_sc": null,
+    "geekbench_mc": null,
+    "year": null,
+    "_q": "estimated",
+    "_src": [
+      "project_seed"
+    ]
+  },
+  {
+    "slug": "demo-soc-2150",
+    "name": "DEMO SoC · AnTuTu 2150 тыс.",
+    "vendor": "Демо",
+    "process_nm": 6,
+    "antutu_k": 2150,
+    "geekbench_sc": null,
+    "geekbench_mc": null,
+    "year": null,
+    "_q": "estimated",
+    "_src": [
+      "project_seed"
+    ]
+  },
+  {
+    "slug": "demo-soc-2200",
+    "name": "DEMO SoC · AnTuTu 2200 тыс.",
+    "vendor": "Демо",
+    "process_nm": 6,
+    "antutu_k": 2200,
+    "geekbench_sc": null,
+    "geekbench_mc": null,
+    "year": null,
+    "_q": "estimated",
+    "_src": [
+      "project_seed"
+    ]
+  },
+  {
+    "slug": "demo-soc-2300",
+    "name": "DEMO SoC · AnTuTu 2300 тыс.",
+    "vendor": "Демо",
+    "process_nm": 5,
+    "antutu_k": 2300,
+    "geekbench_sc": null,
+    "geekbench_mc": null,
+    "year": null,
+    "_q": "estimated",
+    "_src": [
+      "project_seed"
+    ]
+  },
+  {
+    "slug": "demo-soc-2350",
+    "name": "DEMO SoC · AnTuTu 2350 тыс.",
+    "vendor": "Демо",
+    "process_nm": 6,
+    "antutu_k": 2350,
+    "geekbench_sc": null,
+    "geekbench_mc": null,
+    "year": null,
+    "_q": "estimated",
+    "_src": [
+      "project_seed"
+    ]
+  },
+  {
+    "slug": "demo-soc-2400",
+    "name": "DEMO SoC · AnTuTu 2400 тыс.",
+    "vendor": "Демо",
+    "process_nm": 6,
+    "antutu_k": 2400,
+    "geekbench_sc": null,
+    "geekbench_mc": null,
+    "year": null,
+    "_q": "estimated",
+    "_src": [
+      "project_seed"
+    ]
+  },
+  {
+    "slug": "demo-soc-2500",
+    "name": "DEMO SoC · AnTuTu 2500 тыс.",
+    "vendor": "Демо",
+    "process_nm": 6,
+    "antutu_k": 2500,
+    "geekbench_sc": null,
+    "geekbench_mc": null,
+    "year": null,
+    "_q": "estimated",
+    "_src": [
+      "project_seed"
+    ]
+  },
+  {
+    "slug": "demo-soc-2600",
+    "name": "DEMO SoC · AnTuTu 2600 тыс.",
+    "vendor": "Демо",
+    "process_nm": 5,
+    "antutu_k": 2600,
+    "geekbench_sc": null,
+    "geekbench_mc": null,
+    "year": null,
+    "_q": "estimated",
+    "_src": [
+      "project_seed"
+    ]
+  },
+  {
+    "slug": "demo-soc-2650",
+    "name": "DEMO SoC · AnTuTu 2650 тыс.",
+    "vendor": "Демо",
+    "process_nm": 3,
+    "antutu_k": 2650,
+    "geekbench_sc": null,
+    "geekbench_mc": null,
+    "year": null,
+    "_q": "estimated",
+    "_src": [
+      "project_seed"
+    ]
+  },
+  {
+    "slug": "demo-soc-2700",
+    "name": "DEMO SoC · AnTuTu 2700 тыс.",
+    "vendor": "Демо",
+    "process_nm": 6,
+    "antutu_k": 2700,
+    "geekbench_sc": null,
+    "geekbench_mc": null,
+    "year": null,
+    "_q": "estimated",
+    "_src": [
+      "project_seed"
+    ]
+  },
+  {
+    "slug": "demo-soc-2850",
+    "name": "DEMO SoC · AnTuTu 2850 тыс.",
+    "vendor": "Демо",
+    "process_nm": 5,
+    "antutu_k": 2850,
+    "geekbench_sc": null,
+    "geekbench_mc": null,
+    "year": null,
+    "_q": "estimated",
+    "_src": [
+      "project_seed"
+    ]
+  },
+  {
+    "slug": "demo-soc-2900",
+    "name": "DEMO SoC · AnTuTu 2900 тыс.",
+    "vendor": "Демо",
+    "process_nm": 6,
+    "antutu_k": 2900,
+    "geekbench_sc": null,
+    "geekbench_mc": null,
+    "year": null,
+    "_q": "estimated",
+    "_src": [
+      "project_seed"
+    ]
+  },
+  {
+    "slug": "demo-soc-3000",
+    "name": "DEMO SoC · AnTuTu 3000 тыс.",
+    "vendor": "Демо",
+    "process_nm": 5,
+    "antutu_k": 3000,
+    "geekbench_sc": null,
+    "geekbench_mc": null,
+    "year": null,
+    "_q": "estimated",
+    "_src": [
+      "project_seed"
+    ]
+  },
+  {
+    "slug": "demo-soc-3300",
+    "name": "DEMO SoC · AnTuTu 3300 тыс.",
+    "vendor": "Демо",
+    "process_nm": 3,
+    "antutu_k": 3300,
+    "geekbench_sc": null,
+    "geekbench_mc": null,
+    "year": null,
+    "_q": "estimated",
+    "_src": [
+      "project_seed"
+    ]
+  },
+  {
+    "slug": "demo-soc-3400",
+    "name": "DEMO SoC · AnTuTu 3400 тыс.",
+    "vendor": "Демо",
+    "process_nm": 5,
+    "antutu_k": 3400,
+    "geekbench_sc": null,
+    "geekbench_mc": null,
+    "year": null,
+    "_q": "estimated",
+    "_src": [
+      "project_seed"
+    ]
+  },
+  {
+    "slug": "demo-soc-3500",
+    "name": "DEMO SoC · AnTuTu 3500 тыс.",
+    "vendor": "Демо",
+    "process_nm": 6,
+    "antutu_k": 3500,
+    "geekbench_sc": null,
+    "geekbench_mc": null,
+    "year": null,
+    "_q": "estimated",
+    "_src": [
+      "project_seed"
+    ]
+  },
+  {
+    "slug": "demo-soc-3600",
+    "name": "DEMO SoC · AnTuTu 3600 тыс.",
+    "vendor": "Демо",
+    "process_nm": 3,
+    "antutu_k": 3600,
+    "geekbench_sc": null,
+    "geekbench_mc": null,
+    "year": null,
+    "_q": "estimated",
+    "_src": [
+      "project_seed"
+    ]
+  },
+  {
+    "slug": "demo-soc-3700",
+    "name": "DEMO SoC · AnTuTu 3700 тыс.",
+    "vendor": "Демо",
+    "process_nm": 6,
+    "antutu_k": 3700,
+    "geekbench_sc": null,
+    "geekbench_mc": null,
+    "year": null,
+    "_q": "estimated",
+    "_src": [
+      "project_seed"
+    ]
+  },
+  {
+    "slug": "demo-soc-4200",
+    "name": "DEMO SoC · AnTuTu 4200 тыс.",
+    "vendor": "Демо",
+    "process_nm": 4,
+    "antutu_k": 4200,
+    "geekbench_sc": null,
+    "geekbench_mc": null,
+    "year": null,
+    "_q": "estimated",
+    "_src": [
+      "project_seed"
+    ]
+  }
+]

@@ -1,0 +1,216 @@
+{
+  "slug": "ulefone-armor-28-ultra",
+  "brand": "ulefone",
+  "name": "Armor 28 Ultra",
+  "full_name": "Ulefone Armor 28 Ultra",
+  "aliases": [],
+  "os": "Android",
+  "release_date": null,
+  "year": 2024,
+  "status": "on_sale",
+  "availability_ru": "official",
+  "form_factor": "rugged",
+  "in_ml": true,
+  "chipset": "demo-soc-1500",
+  "specs": {
+    "screen_in": 6.81,
+    "cover_screen_in": null,
+    "refresh_hz": 120,
+    "display_type": null,
+    "peak_nits": null,
+    "battery_mah": 10600,
+    "charge_w": 120.0,
+    "wireless_w": null,
+    "weight_g": 450.0,
+    "thickness_mm": null,
+    "ip_rating": null,
+    "has_5g": true,
+    "nfc": true,
+    "esim": false,
+    "ir_port": false,
+    "jack35": null,
+    "sd_card": null,
+    "update_years": null,
+    "_q": "estimated",
+    "_src": [
+      "project_seed"
+    ]
+  },
+  "variants": [
+    {
+      "ram_gb": 16,
+      "rom_gb": 1024,
+      "price_rub": 50990,
+      "price_date": "2026-08-01",
+      "price_src": "project_seed",
+      "msrp_usd": null,
+      "is_base": true,
+      "_q": "estimated",
+      "_src": [
+        "project_seed"
+      ]
+    }
+  ],
+  "cameras": [
+    {
+      "role": "main",
+      "position": 0,
+      "sensor": "demo-s22",
+      "mp": 50,
+      "aperture": 1.6,
+      "focal_mm": 23,
+      "fov_deg": 85,
+      "optical_zoom_x": null,
+      "ois": true,
+      "af": "pdaf",
+      "min_focus_cm": null,
+      "video_max": "4K60",
+      "processing_score": 73,
+      "processing_basis": "random",
+      "_q": "random",
+      "_src": [
+        "random"
+      ]
+    },
+    {
+      "role": "ultrawide",
+      "position": 0,
+      "sensor": "demo-s19",
+      "mp": 50,
+      "aperture": 2.1,
+      "focal_mm": 13,
+      "fov_deg": 118,
+      "optical_zoom_x": 0.6,
+      "ois": false,
+      "af": "pdaf",
+      "min_focus_cm": 5,
+      "video_max": null,
+      "processing_score": 66,
+      "processing_basis": "random",
+      "_q": "random",
+      "_src": [
+        "random"
+      ]
+    },
+    {
+      "role": "tele",
+      "position": 0,
+      "sensor": "demo-s19",
+      "mp": 50,
+      "aperture": 2.1,
+      "focal_mm": 66,
+      "fov_deg": 34,
+      "optical_zoom_x": null,
+      "ois": true,
+      "af": "pdaf",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": 79,
+      "processing_basis": "random",
+      "_q": "random",
+      "_src": [
+        "random"
+      ]
+    },
+    {
+      "role": "periscope",
+      "position": 0,
+      "sensor": "demo-s31",
+      "mp": 200,
+      "aperture": 2.7,
+      "focal_mm": 135,
+      "fov_deg": 19,
+      "optical_zoom_x": null,
+      "ois": true,
+      "af": "pdaf",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": 65,
+      "processing_basis": "random",
+      "_q": "random",
+      "_src": [
+        "random"
+      ]
+    },
+    {
+      "role": "front",
+      "position": 0,
+      "sensor": "demo-s12",
+      "mp": 20,
+      "aperture": 2.0,
+      "focal_mm": 23,
+      "fov_deg": 84,
+      "optical_zoom_x": null,
+      "ois": false,
+      "af": "pdaf",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": 73,
+      "processing_basis": "random",
+      "_q": "random",
+      "_src": [
+        "random"
+      ]
+    }
+  ],
+  "camera_features": {
+    "macro_mode": "ultrawide_af",
+    "macro_min_focus_cm": 5,
+    "lossless_zoom_x": 2.0,
+    "max_digital_zoom_x": 100,
+    "dxomark": null,
+    "_q": "random",
+    "_src": [
+      "random"
+    ]
+  },
+  "quirks": [],
+  "quirks_checked": false,
+  "special": [
+    {
+      "code": "rugged",
+      "note_ru": null,
+      "_q": "estimated"
+    }
+  ],
+  "photos": [
+    {
+      "url": "/placeholder/ulefone-armor-28-ultra/1.svg",
+      "kind": "placeholder",
+      "color_ru": null,
+      "author": null,
+      "license": "демо",
+      "source_page": null,
+      "width": 960,
+      "height": 1280,
+      "origin": "placeholder"
+    },
+    {
+      "url": "/placeholder/ulefone-armor-28-ultra/2.svg",
+      "kind": "placeholder",
+      "color_ru": null,
+      "author": null,
+      "license": "демо",
+      "source_page": null,
+      "width": 960,
+      "height": 1280,
+      "origin": "placeholder"
+    },
+    {
+      "url": "/placeholder/ulefone-armor-28-ultra/3.svg",
+      "kind": "placeholder",
+      "color_ru": null,
+      "author": null,
+      "license": "демо",
+      "source_page": null,
+      "width": 960,
+      "height": 1280,
+      "origin": "placeholder"
+    }
+  ],
+  "_meta": {
+    "created": "2026-11-20",
+    "updated": "2026-11-20",
+    "filled_by": "tools/generate_random_catalog.py"
+  }
+}

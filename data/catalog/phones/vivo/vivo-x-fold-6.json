@@ -1,0 +1,237 @@
+{
+  "slug": "vivo-x-fold-6",
+  "brand": "vivo",
+  "name": "X Fold 6",
+  "full_name": "vivo X Fold 6",
+  "aliases": [],
+  "os": "Android",
+  "release_date": null,
+  "year": 2026,
+  "status": "on_sale",
+  "availability_ru": "official",
+  "form_factor": "book_fold",
+  "in_ml": true,
+  "chipset": "demo-soc-3300",
+  "specs": {
+    "screen_in": 8.02,
+    "cover_screen_in": null,
+    "refresh_hz": 120,
+    "display_type": null,
+    "peak_nits": null,
+    "battery_mah": 6900,
+    "charge_w": 80.0,
+    "wireless_w": null,
+    "weight_g": 228.0,
+    "thickness_mm": null,
+    "ip_rating": null,
+    "has_5g": true,
+    "nfc": true,
+    "esim": true,
+    "ir_port": false,
+    "jack35": null,
+    "sd_card": null,
+    "update_years": null,
+    "_q": "estimated",
+    "_src": [
+      "project_seed"
+    ]
+  },
+  "variants": [
+    {
+      "ram_gb": 12,
+      "rom_gb": 256,
+      "price_rub": 92140,
+      "price_date": "2026-11-05",
+      "price_src": "project_seed",
+      "msrp_usd": null,
+      "is_base": true,
+      "_q": "estimated",
+      "_src": [
+        "project_seed"
+      ]
+    },
+    {
+      "ram_gb": 16,
+      "rom_gb": 512,
+      "price_rub": 112990,
+      "price_date": "2026-11-20",
+      "price_src": "random",
+      "msrp_usd": null,
+      "is_base": false,
+      "_q": "random",
+      "_src": [
+        "random"
+      ]
+    }
+  ],
+  "cameras": [
+    {
+      "role": "main",
+      "position": 0,
+      "sensor": "demo-s32",
+      "mp": 200,
+      "aperture": 1.7,
+      "focal_mm": 24,
+      "fov_deg": 84,
+      "optical_zoom_x": null,
+      "ois": true,
+      "af": "dual_pixel",
+      "min_focus_cm": null,
+      "video_max": "4K120",
+      "processing_score": 74,
+      "processing_basis": "random",
+      "_q": "random",
+      "_src": [
+        "random"
+      ]
+    },
+    {
+      "role": "ultrawide",
+      "position": 0,
+      "sensor": "demo-s15",
+      "mp": 48,
+      "aperture": 2.1,
+      "focal_mm": 15,
+      "fov_deg": 117,
+      "optical_zoom_x": 0.6,
+      "ois": false,
+      "af": "pdaf",
+      "min_focus_cm": 4,
+      "video_max": null,
+      "processing_score": 80,
+      "processing_basis": "random",
+      "_q": "random",
+      "_src": [
+        "random"
+      ]
+    },
+    {
+      "role": "tele",
+      "position": 0,
+      "sensor": "demo-s07",
+      "mp": 12,
+      "aperture": 2.3,
+      "focal_mm": 68,
+      "fov_deg": 33,
+      "optical_zoom_x": null,
+      "ois": true,
+      "af": "pdaf",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": 77,
+      "processing_basis": "random",
+      "_q": "random",
+      "_src": [
+        "random"
+      ]
+    },
+    {
+      "role": "front",
+      "position": 0,
+      "sensor": "demo-s13",
+      "mp": 32,
+      "aperture": 2.2,
+      "focal_mm": 26,
+      "fov_deg": 87,
+      "optical_zoom_x": null,
+      "ois": false,
+      "af": "pdaf",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": 59,
+      "processing_basis": "random",
+      "_q": "random",
+      "_src": [
+        "random"
+      ]
+    },
+    {
+      "role": "cover",
+      "position": 0,
+      "sensor": "demo-s12",
+      "mp": 20,
+      "aperture": 2.3,
+      "focal_mm": 24,
+      "fov_deg": 80,
+      "optical_zoom_x": null,
+      "ois": false,
+      "af": "fixed",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": 72,
+      "processing_basis": "random",
+      "_q": "random",
+      "_src": [
+        "random"
+      ]
+    }
+  ],
+  "camera_features": {
+    "macro_mode": "ultrawide_af",
+    "macro_min_focus_cm": 4,
+    "lossless_zoom_x": 4.0,
+    "max_digital_zoom_x": 30,
+    "dxomark": null,
+    "_q": "random",
+    "_src": [
+      "random"
+    ]
+  },
+  "quirks": [
+    {
+      "code": "no_google_services",
+      "severity": 2,
+      "note_ru": "Демо: случайная особенность для проверки интерфейса.",
+      "evidence": [],
+      "_q": "random"
+    }
+  ],
+  "quirks_checked": false,
+  "special": [
+    {
+      "code": "book_fold",
+      "note_ru": null,
+      "_q": "estimated"
+    }
+  ],
+  "photos": [
+    {
+      "url": "/placeholder/vivo-x-fold-6/1.svg",
+      "kind": "placeholder",
+      "color_ru": null,
+      "author": null,
+      "license": "демо",
+      "source_page": null,
+      "width": 960,
+      "height": 1280,
+      "origin": "placeholder"
+    },
+    {
+      "url": "/placeholder/vivo-x-fold-6/2.svg",
+      "kind": "placeholder",
+      "color_ru": null,
+      "author": null,
+      "license": "демо",
+      "source_page": null,
+      "width": 960,
+      "height": 1280,
+      "origin": "placeholder"
+    },
+    {
+      "url": "/placeholder/vivo-x-fold-6/3.svg",
+      "kind": "placeholder",
+      "color_ru": null,
+      "author": null,
+      "license": "демо",
+      "source_page": null,
+      "width": 960,
+      "height": 1280,
+      "origin": "placeholder"
+    }
+  ],
+  "_meta": {
+    "created": "2026-11-20",
+    "updated": "2026-11-20",
+    "filled_by": "tools/generate_random_catalog.py"
+  }
+}

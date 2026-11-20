@@ -1,0 +1,220 @@
+{
+  "slug": "xiaomi-redmi-15c",
+  "brand": "xiaomi",
+  "name": "Redmi 15C",
+  "full_name": "Xiaomi Redmi 15C",
+  "aliases": [],
+  "os": "Android",
+  "release_date": null,
+  "year": 2025,
+  "status": "on_sale",
+  "availability_ru": "official",
+  "form_factor": "bar",
+  "in_ml": true,
+  "chipset": "demo-soc-280",
+  "specs": {
+    "screen_in": 6.9,
+    "cover_screen_in": null,
+    "refresh_hz": 120,
+    "display_type": null,
+    "peak_nits": null,
+    "battery_mah": 6000,
+    "charge_w": 33.0,
+    "wireless_w": null,
+    "weight_g": 205.0,
+    "thickness_mm": null,
+    "ip_rating": null,
+    "has_5g": false,
+    "nfc": true,
+    "esim": false,
+    "ir_port": false,
+    "jack35": null,
+    "sd_card": null,
+    "update_years": null,
+    "_q": "estimated",
+    "_src": [
+      "project_seed"
+    ]
+  },
+  "variants": [
+    {
+      "ram_gb": 4,
+      "rom_gb": 128,
+      "price_rub": 10990,
+      "price_date": "2026-08-01",
+      "price_src": "project_seed",
+      "msrp_usd": null,
+      "is_base": true,
+      "_q": "estimated",
+      "_src": [
+        "project_seed"
+      ]
+    },
+    {
+      "ram_gb": 6,
+      "rom_gb": 256,
+      "price_rub": 12990,
+      "price_date": "2026-11-20",
+      "price_src": "random",
+      "msrp_usd": null,
+      "is_base": false,
+      "_q": "random",
+      "_src": [
+        "random"
+      ]
+    },
+    {
+      "ram_gb": 6,
+      "rom_gb": 512,
+      "price_rub": 14990,
+      "price_date": "2026-11-20",
+      "price_src": "random",
+      "msrp_usd": null,
+      "is_base": false,
+      "_q": "random",
+      "_src": [
+        "random"
+      ]
+    },
+    {
+      "ram_gb": 8,
+      "rom_gb": 1024,
+      "price_rub": 17990,
+      "price_date": "2026-11-20",
+      "price_src": "random",
+      "msrp_usd": null,
+      "is_base": false,
+      "_q": "random",
+      "_src": [
+        "random"
+      ]
+    }
+  ],
+  "cameras": [
+    {
+      "role": "main",
+      "position": 0,
+      "sensor": "demo-s19",
+      "mp": 50,
+      "aperture": 1.8,
+      "focal_mm": 25,
+      "fov_deg": 81,
+      "optical_zoom_x": null,
+      "ois": true,
+      "af": "pdaf",
+      "min_focus_cm": null,
+      "video_max": "4K30",
+      "processing_score": 24,
+      "processing_basis": "random",
+      "_q": "random",
+      "_src": [
+        "random"
+      ]
+    },
+    {
+      "role": "macro",
+      "position": 0,
+      "sensor": "demo-s02",
+      "mp": 5,
+      "aperture": 2.4,
+      "focal_mm": 25,
+      "fov_deg": 79,
+      "optical_zoom_x": null,
+      "ois": false,
+      "af": "fixed",
+      "min_focus_cm": 4,
+      "video_max": null,
+      "processing_score": 62,
+      "processing_basis": "random",
+      "_q": "random",
+      "_src": [
+        "random"
+      ]
+    },
+    {
+      "role": "front",
+      "position": 0,
+      "sensor": "demo-s06",
+      "mp": 12,
+      "aperture": 2.4,
+      "focal_mm": 26,
+      "fov_deg": 82,
+      "optical_zoom_x": null,
+      "ois": false,
+      "af": "fixed",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": 46,
+      "processing_basis": "random",
+      "_q": "random",
+      "_src": [
+        "random"
+      ]
+    }
+  ],
+  "camera_features": {
+    "macro_mode": "dedicated",
+    "macro_min_focus_cm": 4,
+    "lossless_zoom_x": 2.0,
+    "max_digital_zoom_x": 10,
+    "dxomark": null,
+    "_q": "random",
+    "_src": [
+      "random"
+    ]
+  },
+  "quirks": [],
+  "quirks_checked": false,
+  "special": [],
+  "photos": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Front_of_the_Redmi_15C.jpg/960px-Front_of_the_Redmi_15C.jpg",
+      "kind": "front",
+      "color_ru": null,
+      "author": "JGBlue1509",
+      "license": "CC0",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Front_of_the_Redmi_15C.jpg",
+      "width": null,
+      "height": null,
+      "origin": "wikimedia"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Redmi_15C_front.jpg/960px-Redmi_15C_front.jpg",
+      "kind": "front",
+      "color_ru": null,
+      "author": "Maksdroider",
+      "license": "CC BY-SA 4.0",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Redmi_15C_front.jpg",
+      "width": null,
+      "height": null,
+      "origin": "wikimedia"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Redmi_15C_back.jpg/960px-Redmi_15C_back.jpg",
+      "kind": "back",
+      "color_ru": null,
+      "author": "Maksdroider",
+      "license": "CC BY-SA 4.0",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Redmi_15C_back.jpg",
+      "width": null,
+      "height": null,
+      "origin": "wikimedia"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Rear_of_the_Redmi_15C.jpg/960px-Rear_of_the_Redmi_15C.jpg",
+      "kind": "back",
+      "color_ru": null,
+      "author": "JGBlue1509",
+      "license": "CC0",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Rear_of_the_Redmi_15C.jpg",
+      "width": null,
+      "height": null,
+      "origin": "wikimedia"
+    }
+  ],
+  "_meta": {
+    "created": "2026-11-20",
+    "updated": "2026-11-20",
+    "filled_by": "tools/generate_random_catalog.py"
+  }
+}
