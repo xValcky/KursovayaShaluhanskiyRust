@@ -15,6 +15,11 @@ if errorlevel 1 (
   exit /b 1
 )
 
+rem запущенный сервер этой версии держит exe-файл, и сборка не сможет его заменить — сначала останавливаем его
+rem (только процесс на порту 8081; основная версия на 8080 не трогается)
+for /f "tokens=5" %%p in ('netstat -ano ^| findstr ":8081 " ^| findstr LISTENING') do taskkill /PID %%p /F >nul 2>nul
+timeout /t 1 /nobreak >nul
+
 rem если есть Python — пересобрать каталог из data\catalog (иначе используется готовый catalog.db)
 where python >nul 2>nul
 if not errorlevel 1 (
@@ -31,9 +36,6 @@ if errorlevel 1 (
   exit /b 1
 )
 
-rem старый сервер этой версии держит порт 8081 — останавливаем только его (основная версия на 8080 не трогается)
-for /f "tokens=5" %%p in ('netstat -ano ^| findstr ":8081 " ^| findstr LISTENING') do taskkill /PID %%p /F >nul 2>nul
-timeout /t 1 /nobreak >nul
 start "PhonePicker random server" target\release\phonepicker-server.exe
 timeout /t 2 /nobreak >nul
 start "" http://localhost:8081

@@ -217,7 +217,7 @@ def files_hash(paths: list[Path]) -> str:
     h = hashlib.sha256()
     for p in paths:
         h.update(p.relative_to(CAT).as_posix().encode())
-        h.update(p.read_bytes())
+        h.update(p.read_bytes().replace(b"\r\n", b"\n"))  # git на Windows может выдать файлы с CRLF
     return h.hexdigest()[:16]
 
 
@@ -389,11 +389,15 @@ def build(files, refs_raw, rep: Report) -> dict:
     conn.execute("VACUUM")
     conn.close()
     if not rep.errors:
-        tmp.replace(OUT_DB)
-        RUST_DB.parent.mkdir(parents=True, exist_ok=True)
-        shutil.copyfile(OUT_DB, RUST_DB)
-    else:
-        tmp.unlink()
+        # одинаковые данные дают байт в байт одинаковую БД; не трогаем файлы без изменений, иначе меняется дата
+        # rust_backend/catalog.db, cargo пересобирает сервер при каждом запуске run.bat и упирается в занятый exe
+        fresh = tmp.read_bytes()
+        for dst in (OUT_DB, RUST_DB):
+            if not dst.exists() or dst.read_bytes() != fresh:
+                dst.parent.mkdir(parents=True, exist_ok=True)
+                shutil.copyfile(tmp, dst)
+                stats.setdefault("updated", []).append(str(dst.relative_to(ROOT)))
+    tmp.unlink()
     stats["price_history_input"] = hist_rows
     return stats
 
@@ -460,9 +464,12 @@ def main():
     for line in coverage(files) if files else []:
         print("  " + line)
     if stats:
+        updated = stats.pop("updated", [])
         print("  в БД: " + ", ".join(f"{k}={v}" for k, v in stats.items()))
-        print(f"  записано: {OUT_DB.relative_to(ROOT)} и {RUST_DB.relative_to(ROOT)} "
-              f"({OUT_DB.stat().st_size / 1024:.0f} КБ)")
+        if updated:
+            print(f"  записано: {' и '.join(updated)} ({OUT_DB.stat().st_size / 1024:.0f} КБ)")
+        elif OUT_DB.exists():
+            print(f"  данные не изменились — {OUT_DB.relative_to(ROOT)} и {RUST_DB.relative_to(ROOT)} не перезаписаны")
     print(f"  проверка JSON Schema: {'да' if used_schema else 'нет (pip install jsonschema — по желанию)'}")
     print(f"  предупреждений: {len(rep.warnings)}, ошибок: {len(rep.errors)}")
     for line in rep.warnings[:15]:
