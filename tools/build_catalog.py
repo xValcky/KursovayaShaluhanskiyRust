@@ -53,9 +53,12 @@ class Report:
     def __init__(self):
         self.errors: list[str] = []
         self.warnings: list[str] = []
+        self.rules: Counter = Counter()  # сколько нарушений по каждому правилу честности (H1…H11, R1)
 
-    def err(self, where: str, msg: str):
+    def err(self, where: str, msg: str, rule: str | None = None):
         self.errors.append(f"{where}: {msg}")
+        if rule:
+            self.rules[rule] += 1
 
     def warn(self, where: str, msg: str):
         self.warnings.append(f"{where}: {msg}")
@@ -198,6 +201,169 @@ def validate_phone(rep: Report, path: Path, d: dict, refs: dict):
             rep.err(w, f"ссылка на фото должна начинаться с https:// или /: {p.get('url')}")
         if not p.get("license"):
             rep.err(w, "у фото нет лицензии")
+
+
+# ── Проверки честности (раздел 0.1 ТЗ): ловят случайные числа под видом проверенных, угадывание и выдумки ──
+RULES = {
+    "H1": "оценка обработки случайная (processing_basis: random), а пометка не random",
+    "H2": "демо-данные (текст «демо», источник random) под пометкой не random",
+    "H3": "пометка verified без ссылки на конкретную страницу источника (id:страница)",
+    "H4": "«прикол» verified без доказательств в evidence",
+    "H5": "quirks_checked: true, но остались непроверенные «приколы»",
+    "H6": "в заметке написано «проверено», а доказательств нет",
+    "H7": "мегапиксели модуля не совпадают с сенсором из справочника (сенсор угадан?)",
+    "H8": "slug или full_name не по правилу раздела 4.2",
+    "H9": "возможный дубль уже существующей модели",
+    "H10": "msrp_usd пересчитан из рублёвой цены, а не взят у производителя",
+    "H11": "даты выхода похожи на заглушку (у многих моделей одинаковые месяц и день)",
+    "R1": "справочник не по схеме refs.schema.json (нет обязательного или лишнее поле)",
+}
+NOT_REAL_SRC = {"project_seed", "random"}
+REF_FIELDS = {  # обязательные / допустимые поля справочников (refs.schema.json)
+    "brands": ({"slug", "name"}, {"slug", "name", "parent", "country"}),
+    "chipsets": ({"slug", "name", "vendor", "antutu_k", "_q", "_src"},
+                 {"slug", "name", "vendor", "process_nm", "antutu_k", "geekbench_sc", "geekbench_mc", "year", "_q", "_src"}),
+    "sensors": ({"slug", "name", "vendor", "mp", "size_inch", "_q", "_src"},
+                {"slug", "name", "vendor", "mp", "size_inch", "diag_mm", "pixel_um", "tech", "_q", "_src"}),
+}
+
+
+def slugify(text: str) -> str:
+    """Правило 4.2 ТЗ (то же в tools/generate_random_catalog.py и rust_backend/src/catalog.rs)."""
+    import re
+    return re.sub(r"[^a-z0-9]+", "-", text.lower().replace("+", " plus ")).strip("-")
+
+
+def has_page_src(src) -> bool:
+    return any(":" in s and s.split(":")[0] not in NOT_REAL_SRC for s in (src or []))
+
+
+def check_refs(rep: Report, refs_raw: dict):
+    for name, (required, allowed) in REF_FIELDS.items():
+        for item in refs_raw[name]:
+            where = f"{name}.json/{item.get('slug', '?')}"
+            miss, extra = required - item.keys(), item.keys() - allowed
+            if miss:
+                rep.err(where, f"нет обязательных полей {sorted(miss)}", "R1")
+            if extra:
+                rep.err(where, f"лишние поля {sorted(extra)} — схему не расширяют, идеи пишут в отчёт", "R1")
+            if item.get("_q") == "verified" and not has_page_src(item.get("_src")):
+                rep.err(where, RULES["H3"], "H3")
+
+
+def check_honesty(rep: Report, path: Path, d: dict, sensor_mp: dict, brand_name: dict):
+    w = f"{path.parent.name}/{path.name}"
+    # H8: slug и full_name по правилу 4.2
+    brand = brand_name.get(d.get("brand"), "")
+    expect_full = d["name"] if d["name"].lower().startswith(brand.lower()) else f"{brand} {d['name']}"
+    if d["full_name"].lower() != expect_full.lower():
+        rep.err(w, f"full_name «{d['full_name']}», по правилу 4.2 — «{expect_full}»", "H8")
+    if d["slug"] != slugify(d["full_name"]):
+        rep.err(w, f"slug по правилу 4.2 — «{slugify(d['full_name'])}»", "H8")
+    blocks = [("specs", d["specs"]), ("camera_features", d["camera_features"])]
+    blocks += [(f"конфигурация {v['ram_gb']}/{v['rom_gb']}", v) for v in d["variants"]]
+    blocks += [(f"камера {c['role']}", c) for c in d["cameras"]]
+    for name, b in blocks:
+        q = b.get("_q")
+        if q != "random" and ("random" in (b.get("_src") or []) or b.get("price_src") == "random"):
+            rep.err(w, f"{name}: источник random, а пометка {q}", "H2")
+        if q == "verified" and not has_page_src(b.get("_src")):
+            rep.err(w, f"{name}: {RULES['H3']}", "H3")
+    for c in d["cameras"]:
+        if c.get("processing_basis") == "random" and c.get("_q") != "random":
+            rep.err(w, f"камера {c['role']}: {RULES['H1']} ({c.get('_q')})", "H1")
+        smp = sensor_mp.get(c.get("sensor"))
+        if smp and c.get("mp") and abs(smp - c["mp"]) > 0.15 * max(smp, c["mp"]):
+            rep.err(w, f"камера {c['role']} {c['mp']} МП, а сенсор {c['sensor']} — {smp} МП", "H7")
+    unchecked = 0
+    for qk in d["quirks"]:
+        note, q, ev = qk.get("note_ru") or "", qk.get("_q"), qk.get("evidence") or []
+        if "демо" in note.lower() and q != "random":
+            rep.err(w, f"«прикол» {qk['code']}: в заметке «демо», а пометка {q}", "H2")
+        if q == "verified" and not ev:
+            rep.err(w, f"«прикол» {qk['code']}: {RULES['H4']}", "H4")
+        if "проверено" in note.lower() and not ev:
+            rep.err(w, f"«прикол» {qk['code']}: {RULES['H6']}", "H6")
+        if q != "verified" or not ev:
+            unchecked += 1
+    if d.get("quirks_checked") and unchecked:
+        rep.err(w, f"{RULES['H5']}: {unchecked} шт. (нужны _q verified и ссылки в evidence)", "H5")
+
+
+def check_dataset(rep: Report, files: list[tuple[Path, dict]]):
+    # H9: дубли — одинаковый slug без дефисов или slug, который целиком содержится в другом после бренда
+    compact: dict[str, str] = {}
+    slugs = {d["slug"] for _, d in files}
+    for _, d in files:
+        key = d["slug"].replace("-", "")
+        if key in compact and compact[key] != d["slug"]:
+            rep.err(f"phones/{d['slug']}", f"{RULES['H9']}: {compact[key]}", "H9")
+        compact.setdefault(key, d["slug"])
+        parts = d["slug"].split("-")
+        for k in range(1, len(parts) - 1):
+            tail = "-".join(parts[k:])
+            if tail in slugs and len(parts[k:]) >= 2:
+                rep.err(f"phones/{tail}", f"{RULES['H9']}: {d['slug']}", "H9")
+    # H10: msrp_usd = цена в рублях / курс — у многих конфигураций одно и то же отношение
+    ratios = Counter(round(v["price_rub"] / v["msrp_usd"]) for _, d in files for v in d["variants"]
+                     if v.get("price_rub") and v.get("msrp_usd"))
+    both = sum(ratios.values())
+    if both >= 5:
+        r, cnt = ratios.most_common(1)[0]
+        if cnt >= 0.5 * both:
+            rep.err("variants", f"{RULES['H10']}: у {cnt} из {both} конфигураций цена ₽ / $ ≈ {r}", "H10")
+    # H11: одинаковые месяц-день у многих дат выхода
+    days = Counter(d["release_date"][5:] for _, d in files if d.get("release_date") and len(d["release_date"]) == 10)
+    dated = sum(days.values())
+    if dated >= 5:
+        md, cnt = days.most_common(1)[0]
+        if cnt >= 0.4 * dated:
+            rep.err("release_date", f"{RULES['H11']}: «…-{md}» у {cnt} из {dated} моделей — неизвестную дату ставят null", "H11")
+
+
+# ── Критерии готовности (раздел 16 ТЗ): python tools/build_catalog.py --final ──
+FINAL_MUST_HAVE = ["samsung-galaxy-z-trifold", "apple-iphone-duo", "honor-robot-phone"]
+FINAL_CATEGORIES = ["trifold", "book_fold", "flip", "gimbal_camera"]
+
+
+def final_criteria(files: list[tuple[Path, dict]], refs_raw: dict) -> list[tuple[str, str, bool]]:
+    ds = [d for _, d in files]
+    n = len(ds) or 1
+    share = lambda k: k / n  # noqa: E731
+    pc = lambda x: f"{100 * x:.0f}%"  # noqa: E731
+    random_models = sum(1 for d in ds if '"random"' in json.dumps(d))
+    placeholders = sum(1 for d in ds for p in d["photos"] if p["origin"] == "placeholder")
+    demo_refs = sum(1 for c in refs_raw["chipsets"] + refs_raw["sensors"] if c["slug"].startswith("demo"))
+    sold = [d for d in ds if d["availability_ru"] != "not_sold"]
+    base_price = sum(1 for d in sold if next((v for v in d["variants"] if v["is_base"]), {}).get("price_rub"))
+    mains = [next((c for c in d["cameras"] if c["role"] == "main"), {}) for d in ds]
+    mods = [c for d in ds for c in d["cameras"] if c["role"] != "depth"]
+    real = lambda d: sum(p["origin"] != "placeholder" for p in d["photos"])  # noqa: E731
+    vq = sum(1 for d in ds if any(q["_q"] == "verified" and q["evidence"] for q in d["quirks"]))
+    have = {d["slug"] for d in ds}
+    cats = Counter(s["code"] for d in ds for s in d["special"])
+    return [
+        ("моделей в каталоге", f"{len(ds)} (нужно ≥ 950)", len(ds) >= 950),
+        ("моделей с _q random", f"{random_models} (нужно 0)", random_models == 0),
+        ("заглушек фото", f"{placeholders} (нужно 0)", placeholders == 0),
+        ("демо-чипов и демо-сенсоров", f"{demo_refs} (нужно 0)", demo_refs == 0),
+        ("цена базовой конфигурации у продающихся в РФ", pc(base_price / (len(sold) or 1)),
+         base_price == len(sold)),
+        ("основная камера с focal_mm и aperture", pc(share(sum(1 for c in mains if c.get("focal_mm") and c.get("aperture")))),
+         share(sum(1 for c in mains if c.get("focal_mm") and c.get("aperture"))) >= 0.95),
+        ("сенсор основной камеры известен", pc(share(sum(1 for c in mains if c.get("sensor")))),
+         share(sum(1 for c in mains if c.get("sensor"))) >= 0.70),
+        ("processing_score у модулей (кроме depth)", pc(sum(1 for c in mods if c.get("processing_score") is not None) / (len(mods) or 1)),
+         all(c.get("processing_score") is not None for c in mods)),
+        ("≥ 3 настоящих фото", pc(share(sum(1 for d in ds if real(d) >= 3))), share(sum(1 for d in ds if real(d) >= 3)) >= 0.90),
+        ("≥ 1 настоящее фото", pc(share(sum(1 for d in ds if real(d) >= 1))), all(real(d) >= 1 for d in ds)),
+        ("≥ 1 подтверждённый «прикол» (verified + ссылки)", pc(share(vq)), share(vq) >= 0.80),
+        ("quirks_checked", pc(share(sum(1 for d in ds if d["quirks_checked"]))), all(d["quirks_checked"] for d in ds)),
+        ("обязательные модели раздела 9", ", ".join(s for s in FINAL_MUST_HAVE if s not in have) or "все есть",
+         all(s in have for s in FINAL_MUST_HAVE)),
+        ("категории раздела 9 заполнены", ", ".join(c for c in FINAL_CATEGORIES if not cats[c]) or "все есть",
+         all(cats[c] for c in FINAL_CATEGORIES)),
+    ]
 
 
 def jsonschema_check(rep: Report, files: list[tuple[Path, dict]]):
@@ -427,6 +593,8 @@ def coverage(files) -> list[str]:
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--check", action="store_true", help="только проверить, БД не писать")
+    ap.add_argument("--final", action="store_true",
+                    help="проверить критерии готовности раздела 16 ТЗ (для сдачи реальных данных; демо-набор их не пройдёт)")
     args = ap.parse_args()
     rep = Report()
     refs_raw = {name: load(f"{name}.json") for name in
@@ -443,6 +611,9 @@ def main():
             rep.err(f"{name}.json", f"повтор ключа {dup}")
     for s in refs_raw["sensors"]:
         src_ok(rep, "sensors.json", s.get("_src"), refs["sources"])
+    check_refs(rep, refs_raw)
+    sensor_mp = {s["slug"]: s.get("mp") for s in refs_raw["sensors"]}
+    brand_name = {b["slug"]: b.get("name", "") for b in refs_raw["brands"]}
     files = []
     for path in sorted((CAT / "phones").rglob("*.json")):
         try:
@@ -450,12 +621,20 @@ def main():
         except json.JSONDecodeError as e:
             rep.err(path.name, f"битый JSON: {e}")
             continue
+        n_err = len(rep.errors)
         validate_phone(rep, path, d, refs)
+        if not any(e.endswith(("нет поля specs", "нет поля name", "нет поля cameras")) for e in rep.errors[n_err:]):
+            check_honesty(rep, path, d, sensor_mp, brand_name)
         files.append((path, d))
     slugs = [d.get("slug") for _, d in files]
     for dup in {s for s in slugs if slugs.count(s) > 1}:
         rep.err("phones", f"повтор slug {dup}")
+    check_dataset(rep, files)
     used_schema = jsonschema_check(rep, files)
+    final = final_criteria(files, refs_raw) if args.final else []
+    for title, value, ok in final:
+        if not ok:
+            rep.err("критерии готовности", f"{title}: {value}", "D16")
 
     stats = None
     if not rep.errors and not args.check:
@@ -471,11 +650,21 @@ def main():
         elif OUT_DB.exists():
             print(f"  данные не изменились — {OUT_DB.relative_to(ROOT)} и {RUST_DB.relative_to(ROOT)} не перезаписаны")
     print(f"  проверка JSON Schema: {'да' if used_schema else 'нет (pip install jsonschema — по желанию)'}")
+    if final:
+        print("  критерии готовности (раздел 16 ТЗ):")
+        for title, value, ok in final:
+            print(f"    {'✓' if ok else '✗'} {title}: {value}")
     print(f"  предупреждений: {len(rep.warnings)}, ошибок: {len(rep.errors)}")
+    if rep.rules:
+        print("  нарушения по правилам (раздел 0.1 ТЗ):")
+        for rule, cnt in sorted(rep.rules.items(), key=lambda x: -x[1]):
+            print(f"    {rule} × {cnt}: {RULES.get(rule, 'критерий готовности не выполнен')}")
     for line in rep.warnings[:15]:
         print("  ! " + line)
     for line in rep.errors[:40]:
         print("  ✗ " + line)
+    if len(rep.errors) > 40:
+        print(f"  … и ещё {len(rep.errors) - 40} ошибок")
     sys.exit(1 if rep.errors else 0)
 
 
