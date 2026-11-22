@@ -5,75 +5,63 @@
   "full_name": "Nothing Phone (3)",
   "aliases": [],
   "os": "Android",
-  "release_date": null,
+  "release_date": "2025-07",
   "year": 2025,
   "status": "on_sale",
   "availability_ru": "parallel_import",
   "form_factor": "bar",
   "in_ml": true,
-  "chipset": "demo-soc-2100",
+  "chipset": "snapdragon-8s-gen-4",
   "specs": {
     "screen_in": 6.67,
     "cover_screen_in": null,
     "refresh_hz": 120,
-    "display_type": null,
-    "peak_nits": null,
+    "display_type": "AMOLED",
+    "peak_nits": 4500,
     "battery_mah": 5150,
-    "charge_w": 65.0,
-    "wireless_w": null,
-    "weight_g": 218.0,
-    "thickness_mm": null,
-    "ip_rating": null,
+    "charge_w": 65,
+    "wireless_w": 15,
+    "weight_g": 218,
+    "thickness_mm": 8.99,
+    "ip_rating": "IP68",
     "has_5g": true,
     "nfc": true,
     "esim": true,
     "ir_port": false,
-    "jack35": null,
-    "sd_card": null,
-    "update_years": null,
+    "jack35": false,
+    "sd_card": false,
+    "update_years": 7,
     "_q": "estimated",
     "_src": [
-      "project_seed"
+      "wikipedia:Nothing_Phone_3",
+      "ai_knowledge"
     ]
   },
   "variants": [
     {
       "ram_gb": 12,
       "rom_gb": 256,
-      "price_rub": 31593,
-      "price_date": "2026-11-05",
-      "price_src": "project_seed",
+      "price_rub": 31460,
+      "price_date": "2026-11-21",
+      "price_src": "telegram_ishopper",
       "msrp_usd": null,
       "is_base": true,
+      "_q": "verified",
+      "_src": [
+        "telegram_ishopper:t.me/ishopper/8892"
+      ]
+    },
+    {
+      "ram_gb": 16,
+      "rom_gb": 512,
+      "price_rub": 36790,
+      "price_date": null,
+      "price_src": "price_model",
+      "msrp_usd": null,
+      "is_base": false,
       "_q": "estimated",
       "_src": [
-        "project_seed"
-      ]
-    },
-    {
-      "ram_gb": 12,
-      "rom_gb": 512,
-      "price_rub": 34990,
-      "price_date": "2026-11-20",
-      "price_src": "random",
-      "msrp_usd": null,
-      "is_base": false,
-      "_q": "random",
-      "_src": [
-        "random"
-      ]
-    },
-    {
-      "ram_gb": 12,
-      "rom_gb": 1024,
-      "price_rub": 40990,
-      "price_date": "2026-11-20",
-      "price_src": "random",
-      "msrp_usd": null,
-      "is_base": false,
-      "_q": "random",
-      "_src": [
-        "random"
+        "price_model"
       ]
     }
   ],
@@ -81,29 +69,69 @@
     {
       "role": "main",
       "position": 0,
-      "sensor": "demo-s20",
+      "sensor": null,
       "mp": 50,
-      "aperture": 1.7,
-      "focal_mm": 26,
-      "fov_deg": 83,
+      "aperture": 1.68,
+      "focal_mm": 24,
+      "fov_deg": null,
       "optical_zoom_x": null,
       "ois": true,
       "af": "pdaf",
       "min_focus_cm": null,
-      "video_max": "4K30",
-      "processing_score": 67,
-      "processing_basis": "random",
-      "_q": "random",
+      "video_max": null,
+      "processing_score": 72,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "ai_knowledge"
       ]
     },
     {
-      "role": "depth",
+      "role": "ultrawide",
       "position": 0,
-      "sensor": "demo-s01",
-      "mp": 2,
-      "aperture": 2.4,
+      "sensor": "samsung-isocell-jn1",
+      "mp": 50,
+      "aperture": 2.2,
+      "focal_mm": null,
+      "fov_deg": null,
+      "optical_zoom_x": null,
+      "ois": false,
+      "af": "pdaf",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": 60,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
+      "_src": [
+        "ai_knowledge"
+      ]
+    },
+    {
+      "role": "periscope",
+      "position": 0,
+      "sensor": "samsung-isocell-jn5",
+      "mp": 50,
+      "aperture": 2.68,
+      "focal_mm": 70,
+      "fov_deg": null,
+      "optical_zoom_x": 3.0,
+      "ois": true,
+      "af": "pdaf",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": 68,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
+      "_src": [
+        "ai_knowledge"
+      ]
+    },
+    {
+      "role": "front",
+      "position": 0,
+      "sensor": null,
+      "mp": 50,
+      "aperture": 2.2,
       "focal_mm": null,
       "fov_deg": null,
       "optical_zoom_x": null,
@@ -111,100 +139,53 @@
       "af": "fixed",
       "min_focus_cm": null,
       "video_max": null,
-      "processing_score": null,
-      "processing_basis": null,
-      "_q": "random",
-      "_src": [
-        "random"
-      ]
-    },
-    {
-      "role": "front",
-      "position": 0,
-      "sensor": "demo-s12",
-      "mp": 20,
-      "aperture": 2.3,
-      "focal_mm": 25,
-      "fov_deg": 81,
-      "optical_zoom_x": null,
-      "ois": false,
-      "af": "fixed",
-      "min_focus_cm": null,
-      "video_max": null,
       "processing_score": 56,
-      "processing_basis": "random",
-      "_q": "random",
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "ai_knowledge"
       ]
     }
   ],
   "camera_features": {
-    "macro_mode": "none",
+    "macro_mode": "ultrawide_af",
     "macro_min_focus_cm": null,
-    "lossless_zoom_x": 2.0,
-    "max_digital_zoom_x": 10,
+    "lossless_zoom_x": null,
+    "max_digital_zoom_x": 60,
     "dxomark": null,
-    "_q": "random",
+    "_q": "estimated",
     "_src": [
-      "random"
+      "ai_knowledge"
     ]
   },
   "quirks": [
     {
-      "code": "oversharpening",
-      "severity": 3,
-      "note_ru": "Демо: случайная особенность для проверки интерфейса.",
+      "code": "clean_android",
+      "severity": 2,
+      "note_ru": "Почти чистый Android без лишних оболочек.",
       "evidence": [],
-      "_q": "random"
+      "_q": "estimated"
+    },
+    {
+      "code": "long_updates",
+      "severity": 2,
+      "note_ru": "5 крупных обновлений Android и 7 лет патчей по политике Nothing.",
+      "evidence": [],
+      "_q": "estimated"
     }
   ],
   "quirks_checked": false,
   "special": [
     {
       "code": "led_interface",
-      "note_ru": "Glyph-подсветка на спинке (по правилу для серии Nothing Phone — проверить модель).",
+      "note_ru": "Точечный LED-дисплей Glyph Matrix на спинке.",
       "_q": "estimated"
     }
   ],
-  "photos": [
-    {
-      "url": "/placeholder/nothing-phone-3/1.svg",
-      "kind": "placeholder",
-      "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
-      "width": 960,
-      "height": 1280,
-      "origin": "placeholder"
-    },
-    {
-      "url": "/placeholder/nothing-phone-3/2.svg",
-      "kind": "placeholder",
-      "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
-      "width": 960,
-      "height": 1280,
-      "origin": "placeholder"
-    },
-    {
-      "url": "/placeholder/nothing-phone-3/3.svg",
-      "kind": "placeholder",
-      "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
-      "width": 960,
-      "height": 1280,
-      "origin": "placeholder"
-    }
-  ],
+  "photos": [],
   "_meta": {
-    "created": "2026-11-20",
-    "updated": "2026-11-20",
-    "filled_by": "tools/generate_random_catalog.py"
+    "created": "2026-11-21",
+    "updated": "2026-11-21",
+    "filled_by": "Claude Opus 5.5 (сведения до 2026-06) + tools/import_catalog_data.py"
   }
 }

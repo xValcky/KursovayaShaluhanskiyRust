@@ -5,35 +5,36 @@
   "full_name": "Xiaomi 14",
   "aliases": [],
   "os": "Android",
-  "release_date": null,
+  "release_date": "2024-02",
   "year": 2024,
   "status": "on_sale",
   "availability_ru": "official",
   "form_factor": "bar",
   "in_ml": true,
-  "chipset": "demo-soc-1900",
+  "chipset": "snapdragon-8-gen-3",
   "specs": {
     "screen_in": 6.36,
     "cover_screen_in": null,
     "refresh_hz": 120,
-    "display_type": null,
-    "peak_nits": null,
+    "display_type": "LTPO AMOLED",
+    "peak_nits": 3000,
     "battery_mah": 4610,
-    "charge_w": 90.0,
-    "wireless_w": null,
-    "weight_g": 193.0,
-    "thickness_mm": null,
-    "ip_rating": null,
+    "charge_w": 90,
+    "wireless_w": 50,
+    "weight_g": 193,
+    "thickness_mm": 8.2,
+    "ip_rating": "IP68",
     "has_5g": true,
     "nfc": true,
-    "esim": true,
+    "esim": false,
     "ir_port": true,
-    "jack35": null,
-    "sd_card": null,
-    "update_years": null,
-    "_q": "estimated",
+    "jack35": false,
+    "sd_card": false,
+    "update_years": 5,
+    "_q": "verified",
     "_src": [
-      "project_seed"
+      "wikipedia:Xiaomi_14",
+      "ai_knowledge"
     ]
   },
   "variants": [
@@ -53,27 +54,14 @@
     {
       "ram_gb": 12,
       "rom_gb": 512,
-      "price_rub": 55990,
-      "price_date": "2026-11-20",
-      "price_src": "random",
+      "price_rub": 57090,
+      "price_date": null,
+      "price_src": "price_model",
       "msrp_usd": null,
       "is_base": false,
-      "_q": "random",
+      "_q": "estimated",
       "_src": [
-        "random"
-      ]
-    },
-    {
-      "ram_gb": 16,
-      "rom_gb": 1024,
-      "price_rub": 67990,
-      "price_date": "2026-11-20",
-      "price_src": "random",
-      "msrp_usd": null,
-      "is_base": false,
-      "_q": "random",
-      "_src": [
-        "random"
+        "price_model"
       ]
     }
   ],
@@ -81,171 +69,125 @@
     {
       "role": "main",
       "position": 0,
-      "sensor": "demo-s23",
+      "sensor": "omnivision-ovx9000",
       "mp": 50,
-      "aperture": 1.8,
+      "aperture": 1.6,
       "focal_mm": 23,
-      "fov_deg": 81,
+      "fov_deg": null,
       "optical_zoom_x": null,
       "ois": true,
-      "af": "dual_pixel",
+      "af": "pdaf",
       "min_focus_cm": null,
-      "video_max": "8K30",
-      "processing_score": 98,
-      "processing_basis": "random",
-      "_q": "random",
+      "video_max": null,
+      "processing_score": 84,
+      "processing_basis": "reviews_rubric",
+      "_q": "verified",
       "_src": [
-        "random"
+        "wikipedia:Xiaomi_14",
+        "ai_knowledge"
       ]
     },
     {
       "role": "ultrawide",
       "position": 0,
-      "sensor": "demo-s23",
+      "sensor": null,
       "mp": 50,
       "aperture": 2.2,
       "focal_mm": 14,
-      "fov_deg": 123,
-      "optical_zoom_x": 0.6,
+      "fov_deg": null,
+      "optical_zoom_x": null,
       "ois": false,
       "af": "pdaf",
-      "min_focus_cm": 4,
+      "min_focus_cm": null,
       "video_max": null,
       "processing_score": 70,
-      "processing_basis": "random",
-      "_q": "random",
+      "processing_basis": "reviews_rubric",
+      "_q": "verified",
       "_src": [
-        "random"
+        "wikipedia:Xiaomi_14",
+        "ai_knowledge"
       ]
     },
     {
       "role": "tele",
       "position": 0,
-      "sensor": "demo-s19",
+      "sensor": null,
       "mp": 50,
-      "aperture": 2.5,
-      "focal_mm": 71,
-      "fov_deg": 34,
-      "optical_zoom_x": null,
+      "aperture": 2,
+      "focal_mm": 75,
+      "fov_deg": null,
+      "optical_zoom_x": 3.2,
       "ois": true,
       "af": "pdaf",
       "min_focus_cm": null,
       "video_max": null,
-      "processing_score": 77,
-      "processing_basis": "random",
-      "_q": "random",
+      "processing_score": 76,
+      "processing_basis": "reviews_rubric",
+      "_q": "verified",
       "_src": [
-        "random"
-      ]
-    },
-    {
-      "role": "periscope",
-      "position": 0,
-      "sensor": "demo-s21",
-      "mp": 50,
-      "aperture": 3.0,
-      "focal_mm": 117,
-      "fov_deg": 20,
-      "optical_zoom_x": null,
-      "ois": true,
-      "af": "pdaf",
-      "min_focus_cm": null,
-      "video_max": null,
-      "processing_score": 79,
-      "processing_basis": "random",
-      "_q": "random",
-      "_src": [
-        "random"
+        "wikipedia:Xiaomi_14",
+        "ai_knowledge"
       ]
     },
     {
       "role": "front",
       "position": 0,
-      "sensor": "demo-s12",
-      "mp": 20,
-      "aperture": 2.3,
-      "focal_mm": 21,
-      "fov_deg": 85,
+      "sensor": null,
+      "mp": 32,
+      "aperture": 2,
+      "focal_mm": null,
+      "fov_deg": null,
       "optical_zoom_x": null,
       "ois": false,
       "af": "fixed",
       "min_focus_cm": null,
       "video_max": null,
-      "processing_score": 72,
-      "processing_basis": "random",
-      "_q": "random",
+      "processing_score": 66,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "ai_knowledge"
       ]
     }
   ],
   "camera_features": {
-    "macro_mode": "ultrawide_af",
-    "macro_min_focus_cm": 4,
-    "lossless_zoom_x": 2.0,
-    "max_digital_zoom_x": 120,
+    "macro_mode": "tele_macro",
+    "macro_min_focus_cm": 10,
+    "lossless_zoom_x": null,
+    "max_digital_zoom_x": 60,
     "dxomark": null,
-    "_q": "random",
+    "_q": "estimated",
     "_src": [
-      "random"
+      "ai_knowledge"
     ]
   },
   "quirks": [
     {
-      "code": "ai_limited_ru",
-      "severity": 2,
-      "note_ru": "Демо: случайная особенность для проверки интерфейса.",
+      "code": "excellent_display",
+      "severity": 1,
+      "note_ru": "Яркий и точный экран по замерам обзоров.",
       "evidence": [],
-      "_q": "random"
-    },
-    {
-      "code": "clean_android",
-      "severity": 3,
-      "note_ru": "Демо: случайная особенность для проверки интерфейса.",
-      "evidence": [],
-      "_q": "random"
+      "_q": "estimated"
     }
   ],
   "quirks_checked": false,
   "special": [],
   "photos": [
     {
-      "url": "/placeholder/xiaomi-14/1.svg",
-      "kind": "placeholder",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Germania_14_Germanico.jpg/960px-Germania_14_Germanico.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "kind": "lifestyle",
       "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
+      "author": "Cristiano64",
+      "license": "CC BY-SA 3.0",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Germania_14_Germanico.jpg",
       "width": 960,
-      "height": 1280,
-      "origin": "placeholder"
-    },
-    {
-      "url": "/placeholder/xiaomi-14/2.svg",
-      "kind": "placeholder",
-      "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
-      "width": 960,
-      "height": 1280,
-      "origin": "placeholder"
-    },
-    {
-      "url": "/placeholder/xiaomi-14/3.svg",
-      "kind": "placeholder",
-      "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
-      "width": 960,
-      "height": 1280,
-      "origin": "placeholder"
+      "height": null,
+      "origin": "wikimedia"
     }
   ],
   "_meta": {
-    "created": "2026-11-20",
-    "updated": "2026-11-20",
-    "filled_by": "tools/generate_random_catalog.py"
+    "created": "2026-11-21",
+    "updated": "2026-11-21",
+    "filled_by": "Claude Opus 5.5 (сведения до 2026-06) + tools/import_catalog_data.py"
   }
 }

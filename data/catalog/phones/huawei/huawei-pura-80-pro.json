@@ -1,0 +1,222 @@
+{
+  "slug": "huawei-pura-80-pro",
+  "brand": "huawei",
+  "name": "Pura 80 Pro",
+  "full_name": "Huawei Pura 80 Pro",
+  "aliases": [],
+  "os": "Android",
+  "release_date": "2025-07",
+  "year": 2025,
+  "status": "on_sale",
+  "availability_ru": "official",
+  "form_factor": "bar",
+  "in_ml": true,
+  "chipset": "kirin-9020",
+  "specs": {
+    "screen_in": 6.8,
+    "cover_screen_in": null,
+    "refresh_hz": 120,
+    "display_type": "LTPO OLED",
+    "peak_nits": 3000,
+    "battery_mah": 5170,
+    "charge_w": 100,
+    "wireless_w": 80,
+    "weight_g": 214,
+    "thickness_mm": 8.4,
+    "ip_rating": "IP69",
+    "has_5g": true,
+    "nfc": true,
+    "esim": false,
+    "ir_port": true,
+    "jack35": false,
+    "sd_card": false,
+    "update_years": null,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge"
+    ]
+  },
+  "variants": [
+    {
+      "ram_gb": 12,
+      "rom_gb": 512,
+      "price_rub": 89990,
+      "price_date": null,
+      "price_src": "ai_knowledge",
+      "msrp_usd": null,
+      "is_base": true,
+      "_q": "estimated",
+      "_src": [
+        "ai_knowledge"
+      ]
+    }
+  ],
+  "cameras": [
+    {
+      "role": "main",
+      "position": 0,
+      "sensor": null,
+      "mp": 50,
+      "aperture": 1.6,
+      "focal_mm": null,
+      "fov_deg": null,
+      "optical_zoom_x": null,
+      "ois": true,
+      "af": "pdaf",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": 84,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
+      "_src": [
+        "ai_knowledge"
+      ]
+    },
+    {
+      "role": "ultrawide",
+      "position": 0,
+      "sensor": null,
+      "mp": 40,
+      "aperture": 2.2,
+      "focal_mm": null,
+      "fov_deg": null,
+      "optical_zoom_x": null,
+      "ois": false,
+      "af": "pdaf",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": 66,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
+      "_src": [
+        "ai_knowledge"
+      ]
+    },
+    {
+      "role": "periscope",
+      "position": 0,
+      "sensor": null,
+      "mp": 48,
+      "aperture": 2.1,
+      "focal_mm": null,
+      "fov_deg": null,
+      "optical_zoom_x": 4.0,
+      "ois": true,
+      "af": "pdaf",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": 80,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
+      "_src": [
+        "ai_knowledge"
+      ]
+    },
+    {
+      "role": "front",
+      "position": 0,
+      "sensor": null,
+      "mp": 13,
+      "aperture": 2.4,
+      "focal_mm": null,
+      "fov_deg": null,
+      "optical_zoom_x": null,
+      "ois": false,
+      "af": "fixed",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": 60,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
+      "_src": [
+        "ai_knowledge"
+      ]
+    }
+  ],
+  "camera_features": {
+    "macro_mode": "tele_macro",
+    "macro_min_focus_cm": null,
+    "lossless_zoom_x": null,
+    "max_digital_zoom_x": 100,
+    "dxomark": null,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge"
+    ]
+  },
+  "quirks": [
+    {
+      "code": "no_google_services",
+      "severity": 3,
+      "note_ru": "Нет сервисов Google: с 2019 г. Huawei выпускает смартфоны с Huawei Mobile Services и AppGallery вместо Google Play.",
+      "evidence": [
+        "https://en.wikipedia.org/wiki/Huawei_Mobile_Services"
+      ],
+      "_q": "verified"
+    }
+  ],
+  "quirks_checked": false,
+  "special": [],
+  "photos": [
+    {
+      "author": "茅野ふたば",
+      "color_ru": null,
+      "height": 1280,
+      "kind": "back",
+      "license": "CC BY-SA 4.0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Huawei_Pura_80_Pro_backside.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Huawei_Pura_80_Pro_backside.jpg/960px-Huawei_Pura_80_Pro_backside.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
+    },
+    {
+      "author": "毕明明",
+      "color_ru": null,
+      "height": 1706,
+      "kind": "lifestyle",
+      "license": "CC BY-SA 4.0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Huawei_Pura80_Pro_001.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Huawei_Pura80_Pro_001.jpg/960px-Huawei_Pura80_Pro_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
+    },
+    {
+      "author": "毕明明",
+      "color_ru": null,
+      "height": 660,
+      "kind": "lifestyle",
+      "license": "CC BY-SA 4.0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Huawei_Pura80_Pro_002.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Huawei_Pura80_Pro_002.jpg/960px-Huawei_Pura80_Pro_002.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
+    },
+    {
+      "author": "茅野ふたば",
+      "color_ru": null,
+      "height": 1280,
+      "kind": "lifestyle",
+      "license": "CC BY-SA 4.0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Huawei_Pura_80_Pro.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Huawei_Pura_80_Pro.jpg/960px-Huawei_Pura_80_Pro.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
+    },
+    {
+      "author": "Leongyy02",
+      "color_ru": null,
+      "height": 1629,
+      "kind": "lifestyle",
+      "license": "CC BY-SA 4.0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Huawei_Pura_80_Pro_Glazed_Red.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Huawei_Pura_80_Pro_Glazed_Red.jpg/960px-Huawei_Pura_80_Pro_Glazed_Red.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
+    }
+  ],
+  "_meta": {
+    "created": "2026-11-21",
+    "updated": "2026-11-21",
+    "filled_by": "Claude Opus 5.5 (сведения до 2026-06) + tools/import_catalog_data.py"
+  }
+}

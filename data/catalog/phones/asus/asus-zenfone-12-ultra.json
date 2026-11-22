@@ -5,35 +5,36 @@
   "full_name": "ASUS Zenfone 12 Ultra",
   "aliases": [],
   "os": "Android",
-  "release_date": null,
+  "release_date": "2025-02",
   "year": 2025,
   "status": "on_sale",
   "availability_ru": "parallel_import",
   "form_factor": "bar",
   "in_ml": true,
-  "chipset": "demo-soc-2700",
+  "chipset": "snapdragon-8-elite",
   "specs": {
     "screen_in": 6.78,
     "cover_screen_in": null,
     "refresh_hz": 144,
-    "display_type": null,
-    "peak_nits": null,
+    "display_type": "AMOLED",
+    "peak_nits": 2500,
     "battery_mah": 5500,
-    "charge_w": 65.0,
-    "wireless_w": null,
-    "weight_g": 220.0,
-    "thickness_mm": null,
-    "ip_rating": null,
+    "charge_w": 65,
+    "wireless_w": 15,
+    "weight_g": 220,
+    "thickness_mm": 8.9,
+    "ip_rating": "IP68",
     "has_5g": true,
     "nfc": true,
     "esim": false,
     "ir_port": false,
-    "jack35": null,
-    "sd_card": null,
-    "update_years": null,
+    "jack35": true,
+    "sd_card": false,
+    "update_years": 4,
     "_q": "estimated",
     "_src": [
-      "project_seed"
+      "wikipedia:Asus_Zenfone_12_Ultra",
+      "ai_knowledge"
     ]
   },
   "variants": [
@@ -53,27 +54,14 @@
     {
       "ram_gb": 16,
       "rom_gb": 512,
-      "price_rub": 81990,
-      "price_date": "2026-11-20",
-      "price_src": "random",
+      "price_rub": 79490,
+      "price_date": null,
+      "price_src": "price_model",
       "msrp_usd": null,
       "is_base": false,
-      "_q": "random",
+      "_q": "estimated",
       "_src": [
-        "random"
-      ]
-    },
-    {
-      "ram_gb": 24,
-      "rom_gb": 1024,
-      "price_rub": 102990,
-      "price_date": "2026-11-20",
-      "price_src": "random",
-      "msrp_usd": null,
-      "is_base": false,
-      "_q": "random",
-      "_src": [
-        "random"
+        "price_model"
       ]
     }
   ],
@@ -81,164 +69,102 @@
     {
       "role": "main",
       "position": 0,
-      "sensor": "demo-s21",
+      "sensor": "sony-lyt-700",
       "mp": 50,
-      "aperture": 1.8,
-      "focal_mm": 23,
-      "fov_deg": 83,
+      "aperture": 1.9,
+      "focal_mm": null,
+      "fov_deg": null,
       "optical_zoom_x": null,
       "ois": true,
-      "af": "dual_pixel",
+      "af": "pdaf",
       "min_focus_cm": null,
-      "video_max": "4K120",
-      "processing_score": 87,
-      "processing_basis": "random",
-      "_q": "random",
+      "video_max": null,
+      "processing_score": 70,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "ai_knowledge"
       ]
     },
     {
       "role": "ultrawide",
       "position": 0,
-      "sensor": "demo-s20",
-      "mp": 50,
-      "aperture": 2.3,
-      "focal_mm": 13,
-      "fov_deg": 121,
-      "optical_zoom_x": 0.6,
+      "sensor": null,
+      "mp": 13,
+      "aperture": 2.2,
+      "focal_mm": null,
+      "fov_deg": null,
+      "optical_zoom_x": null,
       "ois": false,
       "af": "fixed",
       "min_focus_cm": null,
       "video_max": null,
-      "processing_score": 66,
-      "processing_basis": "random",
-      "_q": "random",
+      "processing_score": 44,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "ai_knowledge"
       ]
     },
     {
       "role": "tele",
       "position": 0,
-      "sensor": "demo-s25",
-      "mp": 64,
-      "aperture": 2.5,
-      "focal_mm": 69,
-      "fov_deg": 30,
-      "optical_zoom_x": null,
-      "ois": true,
-      "af": "pdaf",
-      "min_focus_cm": 15,
-      "video_max": null,
-      "processing_score": 76,
-      "processing_basis": "random",
-      "_q": "random",
-      "_src": [
-        "random"
-      ]
-    },
-    {
-      "role": "periscope",
-      "position": 0,
-      "sensor": "demo-s21",
-      "mp": 50,
-      "aperture": 3.3,
-      "focal_mm": 111,
-      "fov_deg": 18,
-      "optical_zoom_x": null,
-      "ois": true,
+      "sensor": null,
+      "mp": 32,
+      "aperture": 2.4,
+      "focal_mm": null,
+      "fov_deg": null,
+      "optical_zoom_x": 3.0,
+      "ois": false,
       "af": "pdaf",
       "min_focus_cm": null,
       "video_max": null,
-      "processing_score": 86,
-      "processing_basis": "random",
-      "_q": "random",
+      "processing_score": 56,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "ai_knowledge"
       ]
     },
     {
       "role": "front",
       "position": 0,
-      "sensor": "demo-s19",
-      "mp": 50,
-      "aperture": 2.1,
-      "focal_mm": 23,
-      "fov_deg": 81,
+      "sensor": null,
+      "mp": 32,
+      "aperture": 2.45,
+      "focal_mm": null,
+      "fov_deg": null,
       "optical_zoom_x": null,
       "ois": false,
-      "af": "pdaf",
+      "af": "fixed",
       "min_focus_cm": null,
       "video_max": null,
-      "processing_score": 59,
-      "processing_basis": "random",
-      "_q": "random",
+      "processing_score": 50,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "ai_knowledge"
       ]
     }
   ],
   "camera_features": {
-    "macro_mode": "tele_macro",
-    "macro_min_focus_cm": 15,
-    "lossless_zoom_x": 2.0,
-    "max_digital_zoom_x": 60,
+    "macro_mode": "none",
+    "macro_min_focus_cm": null,
+    "lossless_zoom_x": null,
+    "max_digital_zoom_x": 30,
     "dxomark": null,
-    "_q": "random",
+    "_q": "estimated",
     "_src": [
-      "random"
+      "ai_knowledge"
     ]
   },
-  "quirks": [
-    {
-      "code": "ads_in_system",
-      "severity": 3,
-      "note_ru": "Демо: случайная особенность для проверки интерфейса.",
-      "evidence": [],
-      "_q": "random"
-    }
-  ],
+  "quirks": [],
   "quirks_checked": false,
   "special": [],
-  "photos": [
-    {
-      "url": "/placeholder/asus-zenfone-12-ultra/1.svg",
-      "kind": "placeholder",
-      "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
-      "width": 960,
-      "height": 1280,
-      "origin": "placeholder"
-    },
-    {
-      "url": "/placeholder/asus-zenfone-12-ultra/2.svg",
-      "kind": "placeholder",
-      "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
-      "width": 960,
-      "height": 1280,
-      "origin": "placeholder"
-    },
-    {
-      "url": "/placeholder/asus-zenfone-12-ultra/3.svg",
-      "kind": "placeholder",
-      "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
-      "width": 960,
-      "height": 1280,
-      "origin": "placeholder"
-    }
-  ],
+  "photos": [],
   "_meta": {
-    "created": "2026-11-20",
-    "updated": "2026-11-20",
-    "filled_by": "tools/generate_random_catalog.py"
+    "created": "2026-11-21",
+    "updated": "2026-11-21",
+    "filled_by": "Claude Opus 5.5 (сведения до 2026-06) + tools/import_catalog_data.py"
   }
 }

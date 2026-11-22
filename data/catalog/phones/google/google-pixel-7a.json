@@ -1,0 +1,192 @@
+{
+  "slug": "google-pixel-7a",
+  "brand": "google",
+  "name": "Pixel 7a",
+  "full_name": "Google Pixel 7a",
+  "aliases": [],
+  "os": "Android",
+  "release_date": "2023-05-10",
+  "year": 2023,
+  "status": "discontinued",
+  "availability_ru": "not_sold",
+  "form_factor": "bar",
+  "in_ml": false,
+  "chipset": "google-tensor-g2",
+  "specs": {
+    "screen_in": 6.1,
+    "cover_screen_in": null,
+    "refresh_hz": 90,
+    "display_type": "OLED",
+    "peak_nits": 1000,
+    "battery_mah": 4385,
+    "charge_w": 18,
+    "wireless_w": 7.5,
+    "weight_g": 193.5,
+    "thickness_mm": 9,
+    "ip_rating": "IP67",
+    "has_5g": true,
+    "nfc": true,
+    "esim": true,
+    "ir_port": false,
+    "jack35": false,
+    "sd_card": false,
+    "update_years": 5,
+    "_q": "verified",
+    "_src": [
+      "wikipedia:Pixel_7a",
+      "ai_knowledge"
+    ]
+  },
+  "variants": [
+    {
+      "ram_gb": 8,
+      "rom_gb": 128,
+      "price_rub": null,
+      "price_date": null,
+      "price_src": null,
+      "msrp_usd": 499,
+      "is_base": true,
+      "_q": "unknown",
+      "_src": [
+        "ai_knowledge"
+      ]
+    }
+  ],
+  "cameras": [
+    {
+      "role": "main",
+      "position": 0,
+      "sensor": "sony-imx787",
+      "mp": 64,
+      "aperture": 1.89,
+      "focal_mm": 26,
+      "fov_deg": null,
+      "optical_zoom_x": null,
+      "ois": true,
+      "af": "pdaf",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": 76,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
+      "_src": [
+        "ai_knowledge"
+      ]
+    },
+    {
+      "role": "ultrawide",
+      "position": 0,
+      "sensor": null,
+      "mp": 13,
+      "aperture": 2.2,
+      "focal_mm": null,
+      "fov_deg": null,
+      "optical_zoom_x": null,
+      "ois": false,
+      "af": "fixed",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": 62,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
+      "_src": [
+        "ai_knowledge"
+      ]
+    },
+    {
+      "role": "front",
+      "position": 0,
+      "sensor": null,
+      "mp": 13,
+      "aperture": 2.2,
+      "focal_mm": null,
+      "fov_deg": null,
+      "optical_zoom_x": null,
+      "ois": false,
+      "af": "fixed",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": 64,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
+      "_src": [
+        "ai_knowledge"
+      ]
+    }
+  ],
+  "camera_features": {
+    "macro_mode": "none",
+    "macro_min_focus_cm": null,
+    "lossless_zoom_x": 2,
+    "max_digital_zoom_x": 8,
+    "dxomark": null,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge"
+    ]
+  },
+  "quirks": [
+    {
+      "code": "clean_android",
+      "severity": 2,
+      "note_ru": "Почти чистый Android без лишних оболочек.",
+      "evidence": [],
+      "_q": "estimated"
+    },
+    {
+      "code": "overheating",
+      "severity": 2,
+      "note_ru": "Нагрев при зарядке и в играх отмечали многие обзоры.",
+      "evidence": [],
+      "_q": "estimated"
+    }
+  ],
+  "quirks_checked": false,
+  "special": [
+    {
+      "code": "compact",
+      "note_ru": "Компактный моноблок с экраном до 6,1″.",
+      "_q": "estimated"
+    }
+  ],
+  "photos": [
+    {
+      "author": "Eavesdropper6735",
+      "color_ru": null,
+      "height": 721,
+      "kind": "front",
+      "license": "CC BY 4.0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Google_Pixel_7a_with_a_cracked_display.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Google_Pixel_7a_with_a_cracked_display.jpg/960px-Google_Pixel_7a_with_a_cracked_display.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
+    },
+    {
+      "author": "Syced",
+      "color_ru": null,
+      "height": 1275,
+      "kind": "lifestyle",
+      "license": "CC0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Google_Pixel_7a,_shown_in_Shibuya_Stream.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Google_Pixel_7a%2C_shown_in_Shibuya_Stream.jpg/960px-Google_Pixel_7a%2C_shown_in_Shibuya_Stream.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
+    },
+    {
+      "author": "Tatsuo Yamashita",
+      "color_ru": null,
+      "height": 720,
+      "kind": "lifestyle",
+      "license": "CC BY 2.0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Google_Pixel_7A.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Google_Pixel_7A.jpg/960px-Google_Pixel_7A.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
+    }
+  ],
+  "_meta": {
+    "created": "2026-11-21",
+    "updated": "2026-11-21",
+    "filled_by": "Claude Opus 5.5 (сведения до 2026-06) + tools/import_catalog_data.py"
+  }
+}

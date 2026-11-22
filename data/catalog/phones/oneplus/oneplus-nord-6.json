@@ -11,7 +11,7 @@
   "availability_ru": "parallel_import",
   "form_factor": "bar",
   "in_ml": true,
-  "chipset": "demo-soc-2000",
+  "chipset": null,
   "specs": {
     "screen_in": 6.78,
     "cover_screen_in": null,
@@ -19,17 +19,17 @@
     "display_type": null,
     "peak_nits": null,
     "battery_mah": 7800,
-    "charge_w": 80.0,
+    "charge_w": 80,
     "wireless_w": null,
-    "weight_g": 210.0,
+    "weight_g": 210,
     "thickness_mm": null,
     "ip_rating": null,
     "has_5g": true,
     "nfc": true,
     "esim": false,
     "ir_port": false,
-    "jack35": null,
-    "sd_card": null,
+    "jack35": false,
+    "sd_card": false,
     "update_years": null,
     "_q": "estimated",
     "_src": [
@@ -40,14 +40,14 @@
     {
       "ram_gb": 12,
       "rom_gb": 256,
-      "price_rub": 30355,
-      "price_date": "2026-11-05",
-      "price_src": "project_seed",
+      "price_rub": 30000,
+      "price_date": "2026-11-12",
+      "price_src": "telegram_ishopper",
       "msrp_usd": null,
       "is_base": true,
-      "_q": "estimated",
+      "_q": "verified",
       "_src": [
-        "project_seed"
+        "telegram_ishopper:t.me/ishopper/8796"
       ]
     }
   ],
@@ -55,124 +55,63 @@
     {
       "role": "main",
       "position": 0,
-      "sensor": "demo-s20",
+      "sensor": null,
       "mp": 50,
-      "aperture": 1.8,
-      "focal_mm": 24,
-      "fov_deg": 86,
+      "aperture": null,
+      "focal_mm": null,
+      "fov_deg": null,
       "optical_zoom_x": null,
       "ois": false,
       "af": "pdaf",
       "min_focus_cm": null,
-      "video_max": "4K60",
-      "processing_score": 60,
-      "processing_basis": "random",
-      "_q": "random",
-      "_src": [
-        "random"
-      ]
-    },
-    {
-      "role": "ultrawide",
-      "position": 0,
-      "sensor": "demo-s08",
-      "mp": 12,
-      "aperture": 2.1,
-      "focal_mm": 16,
-      "fov_deg": 116,
-      "optical_zoom_x": 0.6,
-      "ois": false,
-      "af": "fixed",
-      "min_focus_cm": null,
       "video_max": null,
-      "processing_score": 67,
-      "processing_basis": "random",
-      "_q": "random",
+      "processing_score": null,
+      "processing_basis": null,
+      "_q": "estimated",
       "_src": [
-        "random"
-      ]
-    },
-    {
-      "role": "front",
-      "position": 0,
-      "sensor": "demo-s06",
-      "mp": 12,
-      "aperture": 2.0,
-      "focal_mm": 22,
-      "fov_deg": 89,
-      "optical_zoom_x": null,
-      "ois": false,
-      "af": "fixed",
-      "min_focus_cm": null,
-      "video_max": null,
-      "processing_score": 69,
-      "processing_basis": "random",
-      "_q": "random",
-      "_src": [
-        "random"
+        "project_seed"
       ]
     }
   ],
   "camera_features": {
     "macro_mode": "none",
     "macro_min_focus_cm": null,
-    "lossless_zoom_x": 2.0,
-    "max_digital_zoom_x": 10,
+    "lossless_zoom_x": null,
+    "max_digital_zoom_x": null,
     "dxomark": null,
-    "_q": "random",
-    "_src": [
-      "random"
-    ]
+    "_q": "unknown",
+    "_src": []
   },
-  "quirks": [
-    {
-      "code": "oversharpening",
-      "severity": 3,
-      "note_ru": "Демо: случайная особенность для проверки интерфейса.",
-      "evidence": [],
-      "_q": "random"
-    }
-  ],
+  "quirks": [],
   "quirks_checked": false,
   "special": [],
   "photos": [
     {
-      "url": "/placeholder/oneplus-nord-6/1.svg",
-      "kind": "placeholder",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Biesdorfer_Promenade%2C_Biesdorf_Nord_%286%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "kind": "lifestyle",
       "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
+      "author": "Auto1234",
+      "license": "CC BY-SA 3.0",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Biesdorfer_Promenade,_Biesdorf_Nord_(6).jpg",
       "width": 960,
-      "height": 1280,
-      "origin": "placeholder"
+      "height": null,
+      "origin": "wikimedia"
     },
     {
-      "url": "/placeholder/oneplus-nord-6/2.svg",
-      "kind": "placeholder",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Voies_Arenc_nord_6.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "kind": "lifestyle",
       "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
+      "author": "Fr.Latreille",
+      "license": "CC BY-SA 4.0",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Voies_Arenc_nord_6.jpg",
       "width": 960,
-      "height": 1280,
-      "origin": "placeholder"
-    },
-    {
-      "url": "/placeholder/oneplus-nord-6/3.svg",
-      "kind": "placeholder",
-      "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
-      "width": 960,
-      "height": 1280,
-      "origin": "placeholder"
+      "height": null,
+      "origin": "wikimedia"
     }
   ],
   "_meta": {
-    "created": "2026-11-20",
-    "updated": "2026-11-20",
-    "filled_by": "tools/generate_random_catalog.py"
+    "created": "2026-11-21",
+    "updated": "2026-11-21",
+    "filled_by": "Claude Opus 5.5 (сведения до 2026-06) + tools/import_catalog_data.py"
   }
 }

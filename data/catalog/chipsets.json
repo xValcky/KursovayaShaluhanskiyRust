@@ -1,884 +1,2278 @@
 [
   {
-    "slug": "demo-soc-150",
-    "name": "DEMO SoC · AnTuTu 150 тыс.",
-    "vendor": "Демо",
-    "process_nm": 6,
-    "antutu_k": 150,
-    "geekbench_sc": null,
-    "geekbench_mc": null,
-    "year": null,
-    "_q": "estimated",
-    "_src": [
-      "project_seed"
-    ]
-  },
-  {
-    "slug": "demo-soc-180",
-    "name": "DEMO SoC · AnTuTu 180 тыс.",
-    "vendor": "Демо",
-    "process_nm": 3,
-    "antutu_k": 180,
-    "geekbench_sc": null,
-    "geekbench_mc": null,
-    "year": null,
-    "_q": "estimated",
-    "_src": [
-      "project_seed"
-    ]
-  },
-  {
-    "slug": "demo-soc-200",
-    "name": "DEMO SoC · AnTuTu 200 тыс.",
-    "vendor": "Демо",
-    "process_nm": 6,
-    "antutu_k": 200,
-    "geekbench_sc": null,
-    "geekbench_mc": null,
-    "year": null,
-    "_q": "estimated",
-    "_src": [
-      "project_seed"
-    ]
-  },
-  {
-    "slug": "demo-soc-220",
-    "name": "DEMO SoC · AnTuTu 220 тыс.",
-    "vendor": "Демо",
-    "process_nm": 3,
-    "antutu_k": 220,
-    "geekbench_sc": null,
-    "geekbench_mc": null,
-    "year": null,
-    "_q": "estimated",
-    "_src": [
-      "project_seed"
-    ]
-  },
-  {
-    "slug": "demo-soc-240",
-    "name": "DEMO SoC · AnTuTu 240 тыс.",
-    "vendor": "Демо",
-    "process_nm": 6,
-    "antutu_k": 240,
-    "geekbench_sc": null,
-    "geekbench_mc": null,
-    "year": null,
-    "_q": "estimated",
-    "_src": [
-      "project_seed"
-    ]
-  },
-  {
-    "slug": "demo-soc-250",
-    "name": "DEMO SoC · AnTuTu 250 тыс.",
-    "vendor": "Демо",
-    "process_nm": 3,
-    "antutu_k": 250,
-    "geekbench_sc": null,
-    "geekbench_mc": null,
-    "year": null,
-    "_q": "estimated",
-    "_src": [
-      "project_seed"
-    ]
-  },
-  {
-    "slug": "demo-soc-260",
-    "name": "DEMO SoC · AnTuTu 260 тыс.",
-    "vendor": "Демо",
-    "process_nm": 3,
-    "antutu_k": 260,
-    "geekbench_sc": null,
-    "geekbench_mc": null,
-    "year": null,
-    "_q": "estimated",
-    "_src": [
-      "project_seed"
-    ]
-  },
-  {
-    "slug": "demo-soc-280",
-    "name": "DEMO SoC · AnTuTu 280 тыс.",
-    "vendor": "Демо",
-    "process_nm": 6,
-    "antutu_k": 280,
-    "geekbench_sc": null,
-    "geekbench_mc": null,
-    "year": null,
-    "_q": "estimated",
-    "_src": [
-      "project_seed"
-    ]
-  },
-  {
-    "slug": "demo-soc-300",
-    "name": "DEMO SoC · AnTuTu 300 тыс.",
-    "vendor": "Демо",
-    "process_nm": 5,
-    "antutu_k": 300,
-    "geekbench_sc": null,
-    "geekbench_mc": null,
-    "year": null,
-    "_q": "estimated",
-    "_src": [
-      "project_seed"
-    ]
-  },
-  {
-    "slug": "demo-soc-350",
-    "name": "DEMO SoC · AnTuTu 350 тыс.",
-    "vendor": "Демо",
-    "process_nm": 5,
-    "antutu_k": 350,
-    "geekbench_sc": null,
-    "geekbench_mc": null,
-    "year": null,
-    "_q": "estimated",
-    "_src": [
-      "project_seed"
-    ]
-  },
-  {
-    "slug": "demo-soc-400",
-    "name": "DEMO SoC · AnTuTu 400 тыс.",
-    "vendor": "Демо",
-    "process_nm": 6,
-    "antutu_k": 400,
-    "geekbench_sc": null,
-    "geekbench_mc": null,
-    "year": null,
-    "_q": "estimated",
-    "_src": [
-      "project_seed"
-    ]
-  },
-  {
-    "slug": "demo-soc-420",
-    "name": "DEMO SoC · AnTuTu 420 тыс.",
-    "vendor": "Демо",
-    "process_nm": 3,
-    "antutu_k": 420,
-    "geekbench_sc": null,
-    "geekbench_mc": null,
-    "year": null,
-    "_q": "estimated",
-    "_src": [
-      "project_seed"
-    ]
-  },
-  {
-    "slug": "demo-soc-450",
-    "name": "DEMO SoC · AnTuTu 450 тыс.",
-    "vendor": "Демо",
-    "process_nm": 5,
-    "antutu_k": 450,
-    "geekbench_sc": null,
-    "geekbench_mc": null,
-    "year": null,
-    "_q": "estimated",
-    "_src": [
-      "project_seed"
-    ]
-  },
-  {
-    "slug": "demo-soc-500",
-    "name": "DEMO SoC · AnTuTu 500 тыс.",
-    "vendor": "Демо",
-    "process_nm": 5,
-    "antutu_k": 500,
-    "geekbench_sc": null,
-    "geekbench_mc": null,
-    "year": null,
-    "_q": "estimated",
-    "_src": [
-      "project_seed"
-    ]
-  },
-  {
-    "slug": "demo-soc-550",
-    "name": "DEMO SoC · AnTuTu 550 тыс.",
-    "vendor": "Демо",
-    "process_nm": 4,
-    "antutu_k": 550,
-    "geekbench_sc": null,
-    "geekbench_mc": null,
-    "year": null,
-    "_q": "estimated",
-    "_src": [
-      "project_seed"
-    ]
-  },
-  {
-    "slug": "demo-soc-600",
-    "name": "DEMO SoC · AnTuTu 600 тыс.",
-    "vendor": "Демо",
-    "process_nm": 5,
-    "antutu_k": 600,
-    "geekbench_sc": null,
-    "geekbench_mc": null,
-    "year": null,
-    "_q": "estimated",
-    "_src": [
-      "project_seed"
-    ]
-  },
-  {
-    "slug": "demo-soc-650",
-    "name": "DEMO SoC · AnTuTu 650 тыс.",
-    "vendor": "Демо",
-    "process_nm": 5,
-    "antutu_k": 650,
-    "geekbench_sc": null,
-    "geekbench_mc": null,
-    "year": null,
-    "_q": "estimated",
-    "_src": [
-      "project_seed"
-    ]
-  },
-  {
-    "slug": "demo-soc-700",
-    "name": "DEMO SoC · AnTuTu 700 тыс.",
-    "vendor": "Демо",
-    "process_nm": 4,
-    "antutu_k": 700,
-    "geekbench_sc": null,
-    "geekbench_mc": null,
-    "year": null,
-    "_q": "estimated",
-    "_src": [
-      "project_seed"
-    ]
-  },
-  {
-    "slug": "demo-soc-750",
-    "name": "DEMO SoC · AnTuTu 750 тыс.",
-    "vendor": "Демо",
-    "process_nm": 3,
-    "antutu_k": 750,
-    "geekbench_sc": null,
-    "geekbench_mc": null,
-    "year": null,
-    "_q": "estimated",
-    "_src": [
-      "project_seed"
-    ]
-  },
-  {
-    "slug": "demo-soc-800",
-    "name": "DEMO SoC · AnTuTu 800 тыс.",
-    "vendor": "Демо",
-    "process_nm": 5,
-    "antutu_k": 800,
-    "geekbench_sc": null,
-    "geekbench_mc": null,
-    "year": null,
-    "_q": "estimated",
-    "_src": [
-      "project_seed"
-    ]
-  },
-  {
-    "slug": "demo-soc-850",
-    "name": "DEMO SoC · AnTuTu 850 тыс.",
-    "vendor": "Демо",
-    "process_nm": 4,
-    "antutu_k": 850,
-    "geekbench_sc": null,
-    "geekbench_mc": null,
-    "year": null,
-    "_q": "estimated",
-    "_src": [
-      "project_seed"
-    ]
-  },
-  {
-    "slug": "demo-soc-880",
-    "name": "DEMO SoC · AnTuTu 880 тыс.",
-    "vendor": "Демо",
-    "process_nm": 6,
-    "antutu_k": 880,
-    "geekbench_sc": null,
-    "geekbench_mc": null,
-    "year": null,
-    "_q": "estimated",
-    "_src": [
-      "project_seed"
-    ]
-  },
-  {
-    "slug": "demo-soc-900",
-    "name": "DEMO SoC · AnTuTu 900 тыс.",
-    "vendor": "Демо",
-    "process_nm": 3,
-    "antutu_k": 900,
-    "geekbench_sc": null,
-    "geekbench_mc": null,
-    "year": null,
-    "_q": "estimated",
-    "_src": [
-      "project_seed"
-    ]
-  },
-  {
-    "slug": "demo-soc-950",
-    "name": "DEMO SoC · AnTuTu 950 тыс.",
-    "vendor": "Демо",
-    "process_nm": 5,
-    "antutu_k": 950,
-    "geekbench_sc": null,
-    "geekbench_mc": null,
-    "year": null,
-    "_q": "estimated",
-    "_src": [
-      "project_seed"
-    ]
-  },
-  {
-    "slug": "demo-soc-1000",
-    "name": "DEMO SoC · AnTuTu 1000 тыс.",
-    "vendor": "Демо",
-    "process_nm": 4,
-    "antutu_k": 1000,
-    "geekbench_sc": null,
-    "geekbench_mc": null,
-    "year": null,
-    "_q": "estimated",
-    "_src": [
-      "project_seed"
-    ]
-  },
-  {
-    "slug": "demo-soc-1050",
-    "name": "DEMO SoC · AnTuTu 1050 тыс.",
-    "vendor": "Демо",
-    "process_nm": 5,
-    "antutu_k": 1050,
-    "geekbench_sc": null,
-    "geekbench_mc": null,
-    "year": null,
-    "_q": "estimated",
-    "_src": [
-      "project_seed"
-    ]
-  },
-  {
-    "slug": "demo-soc-1100",
-    "name": "DEMO SoC · AnTuTu 1100 тыс.",
-    "vendor": "Демо",
-    "process_nm": 4,
-    "antutu_k": 1100,
-    "geekbench_sc": null,
-    "geekbench_mc": null,
-    "year": null,
-    "_q": "estimated",
-    "_src": [
-      "project_seed"
-    ]
-  },
-  {
-    "slug": "demo-soc-1150",
-    "name": "DEMO SoC · AnTuTu 1150 тыс.",
-    "vendor": "Демо",
-    "process_nm": 3,
-    "antutu_k": 1150,
-    "geekbench_sc": null,
-    "geekbench_mc": null,
-    "year": null,
-    "_q": "estimated",
-    "_src": [
-      "project_seed"
-    ]
-  },
-  {
-    "slug": "demo-soc-1200",
-    "name": "DEMO SoC · AnTuTu 1200 тыс.",
-    "vendor": "Демо",
-    "process_nm": 3,
-    "antutu_k": 1200,
-    "geekbench_sc": null,
-    "geekbench_mc": null,
-    "year": null,
-    "_q": "estimated",
-    "_src": [
-      "project_seed"
-    ]
-  },
-  {
-    "slug": "demo-soc-1250",
-    "name": "DEMO SoC · AnTuTu 1250 тыс.",
-    "vendor": "Демо",
-    "process_nm": 6,
-    "antutu_k": 1250,
-    "geekbench_sc": null,
-    "geekbench_mc": null,
-    "year": null,
-    "_q": "estimated",
-    "_src": [
-      "project_seed"
-    ]
-  },
-  {
-    "slug": "demo-soc-1300",
-    "name": "DEMO SoC · AnTuTu 1300 тыс.",
-    "vendor": "Демо",
-    "process_nm": 3,
-    "antutu_k": 1300,
-    "geekbench_sc": null,
-    "geekbench_mc": null,
-    "year": null,
-    "_q": "estimated",
-    "_src": [
-      "project_seed"
-    ]
-  },
-  {
-    "slug": "demo-soc-1350",
-    "name": "DEMO SoC · AnTuTu 1350 тыс.",
-    "vendor": "Демо",
-    "process_nm": 5,
-    "antutu_k": 1350,
-    "geekbench_sc": null,
-    "geekbench_mc": null,
-    "year": null,
-    "_q": "estimated",
-    "_src": [
-      "project_seed"
-    ]
-  },
-  {
-    "slug": "demo-soc-1400",
-    "name": "DEMO SoC · AnTuTu 1400 тыс.",
-    "vendor": "Демо",
-    "process_nm": 6,
-    "antutu_k": 1400,
-    "geekbench_sc": null,
-    "geekbench_mc": null,
-    "year": null,
-    "_q": "estimated",
-    "_src": [
-      "project_seed"
-    ]
-  },
-  {
-    "slug": "demo-soc-1450",
-    "name": "DEMO SoC · AnTuTu 1450 тыс.",
-    "vendor": "Демо",
-    "process_nm": 3,
-    "antutu_k": 1450,
-    "geekbench_sc": null,
-    "geekbench_mc": null,
-    "year": null,
-    "_q": "estimated",
-    "_src": [
-      "project_seed"
-    ]
-  },
-  {
-    "slug": "demo-soc-1500",
-    "name": "DEMO SoC · AnTuTu 1500 тыс.",
-    "vendor": "Демо",
-    "process_nm": 6,
-    "antutu_k": 1500,
-    "geekbench_sc": null,
-    "geekbench_mc": null,
-    "year": null,
-    "_q": "estimated",
-    "_src": [
-      "project_seed"
-    ]
-  },
-  {
-    "slug": "demo-soc-1550",
-    "name": "DEMO SoC · AnTuTu 1550 тыс.",
-    "vendor": "Демо",
-    "process_nm": 4,
-    "antutu_k": 1550,
-    "geekbench_sc": null,
-    "geekbench_mc": null,
-    "year": null,
-    "_q": "estimated",
-    "_src": [
-      "project_seed"
-    ]
-  },
-  {
-    "slug": "demo-soc-1600",
-    "name": "DEMO SoC · AnTuTu 1600 тыс.",
-    "vendor": "Демо",
-    "process_nm": 6,
-    "antutu_k": 1600,
-    "geekbench_sc": null,
-    "geekbench_mc": null,
-    "year": null,
-    "_q": "estimated",
-    "_src": [
-      "project_seed"
-    ]
-  },
-  {
-    "slug": "demo-soc-1650",
-    "name": "DEMO SoC · AnTuTu 1650 тыс.",
-    "vendor": "Демо",
-    "process_nm": 5,
-    "antutu_k": 1650,
-    "geekbench_sc": null,
-    "geekbench_mc": null,
-    "year": null,
-    "_q": "estimated",
-    "_src": [
-      "project_seed"
-    ]
-  },
-  {
-    "slug": "demo-soc-1700",
-    "name": "DEMO SoC · AnTuTu 1700 тыс.",
-    "vendor": "Демо",
-    "process_nm": 3,
-    "antutu_k": 1700,
-    "geekbench_sc": null,
-    "geekbench_mc": null,
-    "year": null,
-    "_q": "estimated",
-    "_src": [
-      "project_seed"
-    ]
-  },
-  {
-    "slug": "demo-soc-1750",
-    "name": "DEMO SoC · AnTuTu 1750 тыс.",
-    "vendor": "Демо",
-    "process_nm": 4,
-    "antutu_k": 1750,
-    "geekbench_sc": null,
-    "geekbench_mc": null,
-    "year": null,
-    "_q": "estimated",
-    "_src": [
-      "project_seed"
-    ]
-  },
-  {
-    "slug": "demo-soc-1800",
-    "name": "DEMO SoC · AnTuTu 1800 тыс.",
-    "vendor": "Демо",
-    "process_nm": 5,
-    "antutu_k": 1800,
-    "geekbench_sc": null,
-    "geekbench_mc": null,
-    "year": null,
-    "_q": "estimated",
-    "_src": [
-      "project_seed"
-    ]
-  },
-  {
-    "slug": "demo-soc-1900",
-    "name": "DEMO SoC · AnTuTu 1900 тыс.",
-    "vendor": "Демо",
-    "process_nm": 6,
-    "antutu_k": 1900,
-    "geekbench_sc": null,
-    "geekbench_mc": null,
-    "year": null,
-    "_q": "estimated",
-    "_src": [
-      "project_seed"
-    ]
-  },
-  {
-    "slug": "demo-soc-2000",
-    "name": "DEMO SoC · AnTuTu 2000 тыс.",
-    "vendor": "Демо",
-    "process_nm": 4,
-    "antutu_k": 2000,
-    "geekbench_sc": null,
-    "geekbench_mc": null,
-    "year": null,
-    "_q": "estimated",
-    "_src": [
-      "project_seed"
-    ]
-  },
-  {
-    "slug": "demo-soc-2050",
-    "name": "DEMO SoC · AnTuTu 2050 тыс.",
-    "vendor": "Демо",
-    "process_nm": 5,
-    "antutu_k": 2050,
-    "geekbench_sc": null,
-    "geekbench_mc": null,
-    "year": null,
-    "_q": "estimated",
-    "_src": [
-      "project_seed"
-    ]
-  },
-  {
-    "slug": "demo-soc-2100",
-    "name": "DEMO SoC · AnTuTu 2100 тыс.",
-    "vendor": "Демо",
-    "process_nm": 6,
-    "antutu_k": 2100,
-    "geekbench_sc": null,
-    "geekbench_mc": null,
-    "year": null,
-    "_q": "estimated",
-    "_src": [
-      "project_seed"
-    ]
-  },
-  {
-    "slug": "demo-soc-2150",
-    "name": "DEMO SoC · AnTuTu 2150 тыс.",
-    "vendor": "Демо",
-    "process_nm": 6,
-    "antutu_k": 2150,
-    "geekbench_sc": null,
-    "geekbench_mc": null,
-    "year": null,
-    "_q": "estimated",
-    "_src": [
-      "project_seed"
-    ]
-  },
-  {
-    "slug": "demo-soc-2200",
-    "name": "DEMO SoC · AnTuTu 2200 тыс.",
-    "vendor": "Демо",
-    "process_nm": 6,
-    "antutu_k": 2200,
-    "geekbench_sc": null,
-    "geekbench_mc": null,
-    "year": null,
-    "_q": "estimated",
-    "_src": [
-      "project_seed"
-    ]
-  },
-  {
-    "slug": "demo-soc-2300",
-    "name": "DEMO SoC · AnTuTu 2300 тыс.",
-    "vendor": "Демо",
-    "process_nm": 5,
-    "antutu_k": 2300,
-    "geekbench_sc": null,
-    "geekbench_mc": null,
-    "year": null,
-    "_q": "estimated",
-    "_src": [
-      "project_seed"
-    ]
-  },
-  {
-    "slug": "demo-soc-2350",
-    "name": "DEMO SoC · AnTuTu 2350 тыс.",
-    "vendor": "Демо",
-    "process_nm": 6,
-    "antutu_k": 2350,
-    "geekbench_sc": null,
-    "geekbench_mc": null,
-    "year": null,
-    "_q": "estimated",
-    "_src": [
-      "project_seed"
-    ]
-  },
-  {
-    "slug": "demo-soc-2400",
-    "name": "DEMO SoC · AnTuTu 2400 тыс.",
-    "vendor": "Демо",
-    "process_nm": 6,
-    "antutu_k": 2400,
-    "geekbench_sc": null,
-    "geekbench_mc": null,
-    "year": null,
-    "_q": "estimated",
-    "_src": [
-      "project_seed"
-    ]
-  },
-  {
-    "slug": "demo-soc-2500",
-    "name": "DEMO SoC · AnTuTu 2500 тыс.",
-    "vendor": "Демо",
-    "process_nm": 6,
-    "antutu_k": 2500,
-    "geekbench_sc": null,
-    "geekbench_mc": null,
-    "year": null,
-    "_q": "estimated",
-    "_src": [
-      "project_seed"
-    ]
-  },
-  {
-    "slug": "demo-soc-2600",
-    "name": "DEMO SoC · AnTuTu 2600 тыс.",
-    "vendor": "Демо",
-    "process_nm": 5,
-    "antutu_k": 2600,
-    "geekbench_sc": null,
-    "geekbench_mc": null,
-    "year": null,
-    "_q": "estimated",
-    "_src": [
-      "project_seed"
-    ]
-  },
-  {
-    "slug": "demo-soc-2650",
-    "name": "DEMO SoC · AnTuTu 2650 тыс.",
-    "vendor": "Демо",
-    "process_nm": 3,
-    "antutu_k": 2650,
-    "geekbench_sc": null,
-    "geekbench_mc": null,
-    "year": null,
-    "_q": "estimated",
-    "_src": [
-      "project_seed"
-    ]
-  },
-  {
-    "slug": "demo-soc-2700",
-    "name": "DEMO SoC · AnTuTu 2700 тыс.",
-    "vendor": "Демо",
-    "process_nm": 6,
-    "antutu_k": 2700,
-    "geekbench_sc": null,
-    "geekbench_mc": null,
-    "year": null,
-    "_q": "estimated",
-    "_src": [
-      "project_seed"
-    ]
-  },
-  {
-    "slug": "demo-soc-2850",
-    "name": "DEMO SoC · AnTuTu 2850 тыс.",
-    "vendor": "Демо",
-    "process_nm": 5,
-    "antutu_k": 2850,
-    "geekbench_sc": null,
-    "geekbench_mc": null,
-    "year": null,
-    "_q": "estimated",
-    "_src": [
-      "project_seed"
-    ]
-  },
-  {
-    "slug": "demo-soc-2900",
-    "name": "DEMO SoC · AnTuTu 2900 тыс.",
-    "vendor": "Демо",
-    "process_nm": 6,
-    "antutu_k": 2900,
-    "geekbench_sc": null,
-    "geekbench_mc": null,
-    "year": null,
-    "_q": "estimated",
-    "_src": [
-      "project_seed"
-    ]
-  },
-  {
-    "slug": "demo-soc-3000",
-    "name": "DEMO SoC · AnTuTu 3000 тыс.",
-    "vendor": "Демо",
-    "process_nm": 5,
-    "antutu_k": 3000,
-    "geekbench_sc": null,
-    "geekbench_mc": null,
-    "year": null,
-    "_q": "estimated",
-    "_src": [
-      "project_seed"
-    ]
-  },
-  {
-    "slug": "demo-soc-3300",
-    "name": "DEMO SoC · AnTuTu 3300 тыс.",
-    "vendor": "Демо",
-    "process_nm": 3,
-    "antutu_k": 3300,
-    "geekbench_sc": null,
-    "geekbench_mc": null,
-    "year": null,
-    "_q": "estimated",
-    "_src": [
-      "project_seed"
-    ]
-  },
-  {
-    "slug": "demo-soc-3400",
-    "name": "DEMO SoC · AnTuTu 3400 тыс.",
-    "vendor": "Демо",
-    "process_nm": 5,
-    "antutu_k": 3400,
-    "geekbench_sc": null,
-    "geekbench_mc": null,
-    "year": null,
-    "_q": "estimated",
-    "_src": [
-      "project_seed"
-    ]
-  },
-  {
-    "slug": "demo-soc-3500",
-    "name": "DEMO SoC · AnTuTu 3500 тыс.",
-    "vendor": "Демо",
-    "process_nm": 6,
-    "antutu_k": 3500,
-    "geekbench_sc": null,
-    "geekbench_mc": null,
-    "year": null,
-    "_q": "estimated",
-    "_src": [
-      "project_seed"
-    ]
-  },
-  {
-    "slug": "demo-soc-3600",
-    "name": "DEMO SoC · AnTuTu 3600 тыс.",
-    "vendor": "Демо",
+    "slug": "snapdragon-8-elite-gen-5",
+    "name": "Snapdragon 8 Elite Gen 5",
+    "vendor": "Qualcomm",
     "process_nm": 3,
     "antutu_k": 3600,
-    "geekbench_sc": null,
-    "geekbench_mc": null,
-    "year": null,
+    "geekbench_sc": 3700,
+    "geekbench_mc": 11000,
+    "year": 2025,
     "_q": "estimated",
     "_src": [
-      "project_seed"
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
     ]
   },
   {
-    "slug": "demo-soc-3700",
-    "name": "DEMO SoC · AnTuTu 3700 тыс.",
-    "vendor": "Демо",
-    "process_nm": 6,
-    "antutu_k": 3700,
-    "geekbench_sc": null,
-    "geekbench_mc": null,
-    "year": null,
+    "slug": "snapdragon-8-elite-gen-5-for-galaxy",
+    "name": "Snapdragon 8 Elite Gen 5 for Galaxy",
+    "vendor": "Qualcomm",
+    "process_nm": 3,
+    "antutu_k": 3650,
+    "geekbench_sc": 3750,
+    "geekbench_mc": 11200,
+    "year": 2026,
     "_q": "estimated",
     "_src": [
-      "project_seed"
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
     ]
   },
   {
-    "slug": "demo-soc-4200",
-    "name": "DEMO SoC · AnTuTu 4200 тыс.",
-    "vendor": "Демо",
+    "slug": "snapdragon-8-gen-5",
+    "name": "Snapdragon 8 Gen 5",
+    "vendor": "Qualcomm",
+    "process_nm": 3,
+    "antutu_k": 3000,
+    "geekbench_sc": 3200,
+    "geekbench_mc": 9500,
+    "year": 2025,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "snapdragon-8-elite",
+    "name": "Snapdragon 8 Elite",
+    "vendor": "Qualcomm",
+    "process_nm": 3,
+    "antutu_k": 2800,
+    "geekbench_sc": 3100,
+    "geekbench_mc": 9600,
+    "year": 2024,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "snapdragon-8-elite-for-galaxy",
+    "name": "Snapdragon 8 Elite for Galaxy",
+    "vendor": "Qualcomm",
+    "process_nm": 3,
+    "antutu_k": 2900,
+    "geekbench_sc": 3150,
+    "geekbench_mc": 9900,
+    "year": 2025,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "snapdragon-8-gen-3",
+    "name": "Snapdragon 8 Gen 3",
+    "vendor": "Qualcomm",
     "process_nm": 4,
-    "antutu_k": 4200,
-    "geekbench_sc": null,
-    "geekbench_mc": null,
-    "year": null,
+    "antutu_k": 2050,
+    "geekbench_sc": 2250,
+    "geekbench_mc": 7000,
+    "year": 2023,
     "_q": "estimated",
     "_src": [
-      "project_seed"
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "snapdragon-8-gen-3-for-galaxy",
+    "name": "Snapdragon 8 Gen 3 for Galaxy",
+    "vendor": "Qualcomm",
+    "process_nm": 4,
+    "antutu_k": 2100,
+    "geekbench_sc": 2300,
+    "geekbench_mc": 7100,
+    "year": 2024,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "snapdragon-8s-gen-4",
+    "name": "Snapdragon 8s Gen 4",
+    "vendor": "Qualcomm",
+    "process_nm": 4,
+    "antutu_k": 1950,
+    "geekbench_sc": 2100,
+    "geekbench_mc": 6800,
+    "year": 2025,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "snapdragon-8s-gen-3",
+    "name": "Snapdragon 8s Gen 3",
+    "vendor": "Qualcomm",
+    "process_nm": 4,
+    "antutu_k": 1500,
+    "geekbench_sc": 1950,
+    "geekbench_mc": 5000,
+    "year": 2024,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "snapdragon-8-gen-2",
+    "name": "Snapdragon 8 Gen 2",
+    "vendor": "Qualcomm",
+    "process_nm": 4,
+    "antutu_k": 1550,
+    "geekbench_sc": 2000,
+    "geekbench_mc": 5300,
+    "year": 2022,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "snapdragon-8-gen-2-for-galaxy",
+    "name": "Snapdragon 8 Gen 2 for Galaxy",
+    "vendor": "Qualcomm",
+    "process_nm": 4,
+    "antutu_k": 1600,
+    "geekbench_sc": 2050,
+    "geekbench_mc": 5400,
+    "year": 2023,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "snapdragon-8-plus-gen-1",
+    "name": "Snapdragon 8+ Gen 1",
+    "vendor": "Qualcomm",
+    "process_nm": 4,
+    "antutu_k": 1250,
+    "geekbench_sc": 1700,
+    "geekbench_mc": 4500,
+    "year": 2022,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "snapdragon-8-gen-1",
+    "name": "Snapdragon 8 Gen 1",
+    "vendor": "Qualcomm",
+    "process_nm": 4,
+    "antutu_k": 1150,
+    "geekbench_sc": 1650,
+    "geekbench_mc": 4000,
+    "year": 2021,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "snapdragon-888",
+    "name": "Snapdragon 888",
+    "vendor": "Qualcomm",
+    "process_nm": 5,
+    "antutu_k": 950,
+    "geekbench_sc": 1350,
+    "geekbench_mc": 3600,
+    "year": 2020,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "snapdragon-870",
+    "name": "Snapdragon 870",
+    "vendor": "Qualcomm",
+    "process_nm": 7,
+    "antutu_k": 800,
+    "geekbench_sc": 1250,
+    "geekbench_mc": 3300,
+    "year": 2021,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "snapdragon-7-plus-gen-3",
+    "name": "Snapdragon 7+ Gen 3",
+    "vendor": "Qualcomm",
+    "process_nm": 4,
+    "antutu_k": 1400,
+    "geekbench_sc": 1900,
+    "geekbench_mc": 5000,
+    "year": 2024,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "snapdragon-7-plus-gen-2",
+    "name": "Snapdragon 7+ Gen 2",
+    "vendor": "Qualcomm",
+    "process_nm": 4,
+    "antutu_k": 1050,
+    "geekbench_sc": 1650,
+    "geekbench_mc": 4300,
+    "year": 2023,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "snapdragon-7-gen-4",
+    "name": "Snapdragon 7 Gen 4",
+    "vendor": "Qualcomm",
+    "process_nm": 4,
+    "antutu_k": 950,
+    "geekbench_sc": 1350,
+    "geekbench_mc": 4000,
+    "year": 2025,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "snapdragon-7-gen-3",
+    "name": "Snapdragon 7 Gen 3",
+    "vendor": "Qualcomm",
+    "process_nm": 4,
+    "antutu_k": 800,
+    "geekbench_sc": 1150,
+    "geekbench_mc": 3200,
+    "year": 2023,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "snapdragon-7s-gen-4",
+    "name": "Snapdragon 7s Gen 4",
+    "vendor": "Qualcomm",
+    "process_nm": 4,
+    "antutu_k": 850,
+    "geekbench_sc": 1150,
+    "geekbench_mc": 3300,
+    "year": 2025,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "snapdragon-7s-gen-3",
+    "name": "Snapdragon 7s Gen 3",
+    "vendor": "Qualcomm",
+    "process_nm": 4,
+    "antutu_k": 750,
+    "geekbench_sc": 1100,
+    "geekbench_mc": 3000,
+    "year": 2024,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "snapdragon-7s-gen-2",
+    "name": "Snapdragon 7s Gen 2",
+    "vendor": "Qualcomm",
+    "process_nm": 4,
+    "antutu_k": 600,
+    "geekbench_sc": 1000,
+    "geekbench_mc": 2900,
+    "year": 2023,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "snapdragon-7-gen-1",
+    "name": "Snapdragon 7 Gen 1",
+    "vendor": "Qualcomm",
+    "process_nm": 4,
+    "antutu_k": 600,
+    "geekbench_sc": 1050,
+    "geekbench_mc": 2900,
+    "year": 2022,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "snapdragon-6-gen-4",
+    "name": "Snapdragon 6 Gen 4",
+    "vendor": "Qualcomm",
+    "process_nm": 4,
+    "antutu_k": 800,
+    "geekbench_sc": 1150,
+    "geekbench_mc": 3200,
+    "year": 2025,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "snapdragon-6-gen-3",
+    "name": "Snapdragon 6 Gen 3",
+    "vendor": "Qualcomm",
+    "process_nm": 4,
+    "antutu_k": 600,
+    "geekbench_sc": 1000,
+    "geekbench_mc": 2900,
+    "year": 2024,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "snapdragon-6s-gen-3",
+    "name": "Snapdragon 6s Gen 3",
+    "vendor": "Qualcomm",
+    "process_nm": 6,
+    "antutu_k": 480,
+    "geekbench_sc": 950,
+    "geekbench_mc": 2100,
+    "year": 2024,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "snapdragon-6-gen-1",
+    "name": "Snapdragon 6 Gen 1",
+    "vendor": "Qualcomm",
+    "process_nm": 4,
+    "antutu_k": 560,
+    "geekbench_sc": 950,
+    "geekbench_mc": 2800,
+    "year": 2022,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "snapdragon-4-gen-2",
+    "name": "Snapdragon 4 Gen 2",
+    "vendor": "Qualcomm",
+    "process_nm": 4,
+    "antutu_k": 420,
+    "geekbench_sc": 900,
+    "geekbench_mc": 2100,
+    "year": 2023,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "snapdragon-4s-gen-2",
+    "name": "Snapdragon 4s Gen 2",
+    "vendor": "Qualcomm",
+    "process_nm": 4,
+    "antutu_k": 400,
+    "geekbench_sc": 900,
+    "geekbench_mc": 2000,
+    "year": 2024,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "snapdragon-4-gen-1",
+    "name": "Snapdragon 4 Gen 1",
+    "vendor": "Qualcomm",
+    "process_nm": 6,
+    "antutu_k": 400,
+    "geekbench_sc": 880,
+    "geekbench_mc": 2000,
+    "year": 2022,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "snapdragon-782g",
+    "name": "Snapdragon 782G",
+    "vendor": "Qualcomm",
+    "process_nm": 6,
+    "antutu_k": 650,
+    "geekbench_sc": 1100,
+    "geekbench_mc": 3000,
+    "year": 2022,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "snapdragon-778g-plus",
+    "name": "Snapdragon 778G+",
+    "vendor": "Qualcomm",
+    "process_nm": 6,
+    "antutu_k": 640,
+    "geekbench_sc": 1080,
+    "geekbench_mc": 2950,
+    "year": 2021,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "snapdragon-778g",
+    "name": "Snapdragon 778G",
+    "vendor": "Qualcomm",
+    "process_nm": 6,
+    "antutu_k": 620,
+    "geekbench_sc": 1050,
+    "geekbench_mc": 2900,
+    "year": 2021,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "snapdragon-695",
+    "name": "Snapdragon 695",
+    "vendor": "Qualcomm",
+    "process_nm": 6,
+    "antutu_k": 430,
+    "geekbench_sc": 900,
+    "geekbench_mc": 2050,
+    "year": 2021,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "snapdragon-685",
+    "name": "Snapdragon 685",
+    "vendor": "Qualcomm",
+    "process_nm": 6,
+    "antutu_k": 330,
+    "geekbench_sc": 450,
+    "geekbench_mc": 1600,
+    "year": 2023,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "snapdragon-680",
+    "name": "Snapdragon 680",
+    "vendor": "Qualcomm",
+    "process_nm": 6,
+    "antutu_k": 300,
+    "geekbench_sc": 420,
+    "geekbench_mc": 1550,
+    "year": 2021,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "snapdragon-8-plus-gen-1-4g",
+    "name": "Snapdragon 8+ Gen 1 4G",
+    "vendor": "Qualcomm",
+    "process_nm": 4,
+    "antutu_k": 1200,
+    "geekbench_sc": 1700,
+    "geekbench_mc": 4400,
+    "year": 2022,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "snapdragon-8-gen-3-4g",
+    "name": "Snapdragon 8 Gen 3 4G",
+    "vendor": "Qualcomm",
+    "process_nm": 4,
+    "antutu_k": 2000,
+    "geekbench_sc": 2200,
+    "geekbench_mc": 6900,
+    "year": 2024,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "snapdragon-778g-4g",
+    "name": "Snapdragon 778G 4G",
+    "vendor": "Qualcomm",
+    "process_nm": 6,
+    "antutu_k": 600,
+    "geekbench_sc": 1050,
+    "geekbench_mc": 2900,
+    "year": 2022,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "xring-o1",
+    "name": "XRING O1",
+    "vendor": "Xiaomi",
+    "process_nm": 3,
+    "antutu_k": 3000,
+    "geekbench_sc": 3100,
+    "geekbench_mc": 9800,
+    "year": 2025,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "dimensity-9500",
+    "name": "Dimensity 9500",
+    "vendor": "MediaTek",
+    "process_nm": 3,
+    "antutu_k": 3500,
+    "geekbench_sc": 3500,
+    "geekbench_mc": 10500,
+    "year": 2025,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "dimensity-9400-plus",
+    "name": "Dimensity 9400+",
+    "vendor": "MediaTek",
+    "process_nm": 3,
+    "antutu_k": 3000,
+    "geekbench_sc": 2900,
+    "geekbench_mc": 9200,
+    "year": 2025,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "dimensity-9400",
+    "name": "Dimensity 9400",
+    "vendor": "MediaTek",
+    "process_nm": 3,
+    "antutu_k": 2850,
+    "geekbench_sc": 2800,
+    "geekbench_mc": 8800,
+    "year": 2024,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "dimensity-9400e",
+    "name": "Dimensity 9400e",
+    "vendor": "MediaTek",
+    "process_nm": 4,
+    "antutu_k": 2300,
+    "geekbench_sc": 2200,
+    "geekbench_mc": 7400,
+    "year": 2025,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "dimensity-9300-plus",
+    "name": "Dimensity 9300+",
+    "vendor": "MediaTek",
+    "process_nm": 4,
+    "antutu_k": 2250,
+    "geekbench_sc": 2250,
+    "geekbench_mc": 7500,
+    "year": 2024,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "dimensity-9300",
+    "name": "Dimensity 9300",
+    "vendor": "MediaTek",
+    "process_nm": 4,
+    "antutu_k": 2150,
+    "geekbench_sc": 2150,
+    "geekbench_mc": 7300,
+    "year": 2023,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "dimensity-9200-plus",
+    "name": "Dimensity 9200+",
+    "vendor": "MediaTek",
+    "process_nm": 4,
+    "antutu_k": 1650,
+    "geekbench_sc": 1900,
+    "geekbench_mc": 5400,
+    "year": 2023,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "dimensity-9200",
+    "name": "Dimensity 9200",
+    "vendor": "MediaTek",
+    "process_nm": 4,
+    "antutu_k": 1550,
+    "geekbench_sc": 1850,
+    "geekbench_mc": 5200,
+    "year": 2022,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "dimensity-9000-plus",
+    "name": "Dimensity 9000+",
+    "vendor": "MediaTek",
+    "process_nm": 4,
+    "antutu_k": 1250,
+    "geekbench_sc": 1700,
+    "geekbench_mc": 4500,
+    "year": 2022,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "dimensity-9000",
+    "name": "Dimensity 9000",
+    "vendor": "MediaTek",
+    "process_nm": 4,
+    "antutu_k": 1150,
+    "geekbench_sc": 1650,
+    "geekbench_mc": 4200,
+    "year": 2021,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "dimensity-8450",
+    "name": "Dimensity 8450",
+    "vendor": "MediaTek",
+    "process_nm": 4,
+    "antutu_k": 1700,
+    "geekbench_sc": 1650,
+    "geekbench_mc": 6200,
+    "year": 2025,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "dimensity-8400-ultra",
+    "name": "Dimensity 8400-Ultra",
+    "vendor": "MediaTek",
+    "process_nm": 4,
+    "antutu_k": 1650,
+    "geekbench_sc": 1600,
+    "geekbench_mc": 6000,
+    "year": 2024,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "dimensity-8350",
+    "name": "Dimensity 8350",
+    "vendor": "MediaTek",
+    "process_nm": 4,
+    "antutu_k": 1350,
+    "geekbench_sc": 1450,
+    "geekbench_mc": 4700,
+    "year": 2024,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "dimensity-8300-ultra",
+    "name": "Dimensity 8300-Ultra",
+    "vendor": "MediaTek",
+    "process_nm": 4,
+    "antutu_k": 1450,
+    "geekbench_sc": 1450,
+    "geekbench_mc": 4600,
+    "year": 2023,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "dimensity-8250",
+    "name": "Dimensity 8250",
+    "vendor": "MediaTek",
+    "process_nm": 4,
+    "antutu_k": 1100,
+    "geekbench_sc": 1250,
+    "geekbench_mc": 4000,
+    "year": 2024,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "dimensity-8200-ultra",
+    "name": "Dimensity 8200-Ultra",
+    "vendor": "MediaTek",
+    "process_nm": 4,
+    "antutu_k": 1000,
+    "geekbench_sc": 1250,
+    "geekbench_mc": 3900,
+    "year": 2022,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "dimensity-8100-ultra",
+    "name": "Dimensity 8100-Ultra",
+    "vendor": "MediaTek",
+    "process_nm": 5,
+    "antutu_k": 900,
+    "geekbench_sc": 1100,
+    "geekbench_mc": 3600,
+    "year": 2022,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "dimensity-8050",
+    "name": "Dimensity 8050",
+    "vendor": "MediaTek",
+    "process_nm": 6,
+    "antutu_k": 780,
+    "geekbench_sc": 1100,
+    "geekbench_mc": 3300,
+    "year": 2023,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "dimensity-8020",
+    "name": "Dimensity 8020",
+    "vendor": "MediaTek",
+    "process_nm": 6,
+    "antutu_k": 720,
+    "geekbench_sc": 1050,
+    "geekbench_mc": 3200,
+    "year": 2023,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "dimensity-7400",
+    "name": "Dimensity 7400",
+    "vendor": "MediaTek",
+    "process_nm": 4,
+    "antutu_k": 720,
+    "geekbench_sc": 1050,
+    "geekbench_mc": 3000,
+    "year": 2025,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "dimensity-7360-turbo",
+    "name": "Dimensity 7360-Turbo",
+    "vendor": "MediaTek",
+    "process_nm": 4,
+    "antutu_k": 720,
+    "geekbench_sc": 1050,
+    "geekbench_mc": 3000,
+    "year": 2025,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "dimensity-7350-pro",
+    "name": "Dimensity 7350 Pro",
+    "vendor": "MediaTek",
+    "process_nm": 4,
+    "antutu_k": 700,
+    "geekbench_sc": 1050,
+    "geekbench_mc": 3000,
+    "year": 2024,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "dimensity-7300",
+    "name": "Dimensity 7300",
+    "vendor": "MediaTek",
+    "process_nm": 4,
+    "antutu_k": 680,
+    "geekbench_sc": 1000,
+    "geekbench_mc": 2900,
+    "year": 2024,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "dimensity-7300-energy",
+    "name": "Dimensity 7300-Energy",
+    "vendor": "MediaTek",
+    "process_nm": 4,
+    "antutu_k": 670,
+    "geekbench_sc": 1000,
+    "geekbench_mc": 2900,
+    "year": 2024,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "dimensity-7300-ultra",
+    "name": "Dimensity 7300-Ultra",
+    "vendor": "MediaTek",
+    "process_nm": 4,
+    "antutu_k": 700,
+    "geekbench_sc": 1020,
+    "geekbench_mc": 2950,
+    "year": 2024,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "dimensity-7200-ultra",
+    "name": "Dimensity 7200-Ultra",
+    "vendor": "MediaTek",
+    "process_nm": 4,
+    "antutu_k": 750,
+    "geekbench_sc": 1150,
+    "geekbench_mc": 2900,
+    "year": 2023,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "dimensity-7200-pro",
+    "name": "Dimensity 7200 Pro",
+    "vendor": "MediaTek",
+    "process_nm": 4,
+    "antutu_k": 740,
+    "geekbench_sc": 1150,
+    "geekbench_mc": 2900,
+    "year": 2023,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "dimensity-7050",
+    "name": "Dimensity 7050",
+    "vendor": "MediaTek",
+    "process_nm": 6,
+    "antutu_k": 600,
+    "geekbench_sc": 900,
+    "geekbench_mc": 2200,
+    "year": 2023,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "dimensity-7030",
+    "name": "Dimensity 7030",
+    "vendor": "MediaTek",
+    "process_nm": 6,
+    "antutu_k": 520,
+    "geekbench_sc": 850,
+    "geekbench_mc": 2000,
+    "year": 2023,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "dimensity-7025-ultra",
+    "name": "Dimensity 7025-Ultra",
+    "vendor": "MediaTek",
+    "process_nm": 6,
+    "antutu_k": 500,
+    "geekbench_sc": 850,
+    "geekbench_mc": 2000,
+    "year": 2024,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "dimensity-6400",
+    "name": "Dimensity 6400",
+    "vendor": "MediaTek",
+    "process_nm": 6,
+    "antutu_k": 440,
+    "geekbench_sc": 750,
+    "geekbench_mc": 1900,
+    "year": 2025,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "dimensity-6300",
+    "name": "Dimensity 6300",
+    "vendor": "MediaTek",
+    "process_nm": 6,
+    "antutu_k": 420,
+    "geekbench_sc": 750,
+    "geekbench_mc": 1800,
+    "year": 2024,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "dimensity-6100-plus",
+    "name": "Dimensity 6100+",
+    "vendor": "MediaTek",
+    "process_nm": 6,
+    "antutu_k": 400,
+    "geekbench_sc": 700,
+    "geekbench_mc": 1800,
+    "year": 2023,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "dimensity-6080",
+    "name": "Dimensity 6080",
+    "vendor": "MediaTek",
+    "process_nm": 6,
+    "antutu_k": 420,
+    "geekbench_sc": 720,
+    "geekbench_mc": 1850,
+    "year": 2023,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "dimensity-6020",
+    "name": "Dimensity 6020",
+    "vendor": "MediaTek",
+    "process_nm": 7,
+    "antutu_k": 390,
+    "geekbench_sc": 700,
+    "geekbench_mc": 1700,
+    "year": 2023,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "dimensity-1080",
+    "name": "Dimensity 1080",
+    "vendor": "MediaTek",
+    "process_nm": 6,
+    "antutu_k": 520,
+    "geekbench_sc": 900,
+    "geekbench_mc": 2200,
+    "year": 2022,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "dimensity-930",
+    "name": "Dimensity 930",
+    "vendor": "MediaTek",
+    "process_nm": 6,
+    "antutu_k": 450,
+    "geekbench_sc": 800,
+    "geekbench_mc": 2000,
+    "year": 2022,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "dimensity-920",
+    "name": "Dimensity 920",
+    "vendor": "MediaTek",
+    "process_nm": 6,
+    "antutu_k": 520,
+    "geekbench_sc": 850,
+    "geekbench_mc": 2200,
+    "year": 2021,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "dimensity-810",
+    "name": "Dimensity 810",
+    "vendor": "MediaTek",
+    "process_nm": 6,
+    "antutu_k": 420,
+    "geekbench_sc": 750,
+    "geekbench_mc": 1800,
+    "year": 2021,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "dimensity-700",
+    "name": "Dimensity 700",
+    "vendor": "MediaTek",
+    "process_nm": 7,
+    "antutu_k": 380,
+    "geekbench_sc": 600,
+    "geekbench_mc": 1700,
+    "year": 2020,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "helio-g200",
+    "name": "Helio G200",
+    "vendor": "MediaTek",
+    "process_nm": 6,
+    "antutu_k": 470,
+    "geekbench_sc": 750,
+    "geekbench_mc": 2000,
+    "year": 2025,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "helio-g100",
+    "name": "Helio G100",
+    "vendor": "MediaTek",
+    "process_nm": 6,
+    "antutu_k": 450,
+    "geekbench_sc": 730,
+    "geekbench_mc": 1950,
+    "year": 2024,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "helio-g99",
+    "name": "Helio G99",
+    "vendor": "MediaTek",
+    "process_nm": 6,
+    "antutu_k": 420,
+    "geekbench_sc": 720,
+    "geekbench_mc": 1950,
+    "year": 2022,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "helio-g96",
+    "name": "Helio G96",
+    "vendor": "MediaTek",
+    "process_nm": 12,
+    "antutu_k": 330,
+    "geekbench_sc": 520,
+    "geekbench_mc": 1600,
+    "year": 2021,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "helio-g92",
+    "name": "Helio G92",
+    "vendor": "MediaTek",
+    "process_nm": 12,
+    "antutu_k": 300,
+    "geekbench_sc": 440,
+    "geekbench_mc": 1450,
+    "year": 2025,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "helio-g91",
+    "name": "Helio G91",
+    "vendor": "MediaTek",
+    "process_nm": 12,
+    "antutu_k": 290,
+    "geekbench_sc": 430,
+    "geekbench_mc": 1400,
+    "year": 2024,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "helio-g88",
+    "name": "Helio G88",
+    "vendor": "MediaTek",
+    "process_nm": 12,
+    "antutu_k": 270,
+    "geekbench_sc": 410,
+    "geekbench_mc": 1350,
+    "year": 2021,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "helio-g85",
+    "name": "Helio G85",
+    "vendor": "MediaTek",
+    "process_nm": 12,
+    "antutu_k": 260,
+    "geekbench_sc": 400,
+    "geekbench_mc": 1300,
+    "year": 2020,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "helio-g80",
+    "name": "Helio G80",
+    "vendor": "MediaTek",
+    "process_nm": 12,
+    "antutu_k": 250,
+    "geekbench_sc": 380,
+    "geekbench_mc": 1250,
+    "year": 2020,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "helio-g81",
+    "name": "Helio G81",
+    "vendor": "MediaTek",
+    "process_nm": 12,
+    "antutu_k": 260,
+    "geekbench_sc": 400,
+    "geekbench_mc": 1300,
+    "year": 2024,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "helio-g37",
+    "name": "Helio G37",
+    "vendor": "MediaTek",
+    "process_nm": 12,
+    "antutu_k": 140,
+    "geekbench_sc": 200,
+    "geekbench_mc": 900,
+    "year": 2021,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "helio-g36",
+    "name": "Helio G36",
+    "vendor": "MediaTek",
+    "process_nm": 12,
+    "antutu_k": 130,
+    "geekbench_sc": 190,
+    "geekbench_mc": 850,
+    "year": 2022,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "helio-g35",
+    "name": "Helio G35",
+    "vendor": "MediaTek",
+    "process_nm": 12,
+    "antutu_k": 120,
+    "geekbench_sc": 180,
+    "geekbench_mc": 800,
+    "year": 2020,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "helio-p35",
+    "name": "Helio P35",
+    "vendor": "MediaTek",
+    "process_nm": 12,
+    "antutu_k": 110,
+    "geekbench_sc": 170,
+    "geekbench_mc": 750,
+    "year": 2018,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "exynos-2600",
+    "name": "Exynos 2600",
+    "vendor": "Samsung",
+    "process_nm": 2,
+    "antutu_k": 3000,
+    "geekbench_sc": 3300,
+    "geekbench_mc": 10200,
+    "year": 2026,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "exynos-2500",
+    "name": "Exynos 2500",
+    "vendor": "Samsung",
+    "process_nm": 3,
+    "antutu_k": 2200,
+    "geekbench_sc": 2350,
+    "geekbench_mc": 8000,
+    "year": 2025,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "exynos-2400",
+    "name": "Exynos 2400",
+    "vendor": "Samsung",
+    "process_nm": 4,
+    "antutu_k": 1800,
+    "geekbench_sc": 2150,
+    "geekbench_mc": 6700,
+    "year": 2024,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "exynos-2400e",
+    "name": "Exynos 2400e",
+    "vendor": "Samsung",
+    "process_nm": 4,
+    "antutu_k": 1750,
+    "geekbench_sc": 2100,
+    "geekbench_mc": 6500,
+    "year": 2024,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "exynos-2200",
+    "name": "Exynos 2200",
+    "vendor": "Samsung",
+    "process_nm": 4,
+    "antutu_k": 1100,
+    "geekbench_sc": 1650,
+    "geekbench_mc": 3900,
+    "year": 2022,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "exynos-1580",
+    "name": "Exynos 1580",
+    "vendor": "Samsung",
+    "process_nm": 4,
+    "antutu_k": 950,
+    "geekbench_sc": 1350,
+    "geekbench_mc": 4000,
+    "year": 2025,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "exynos-1480",
+    "name": "Exynos 1480",
+    "vendor": "Samsung",
+    "process_nm": 4,
+    "antutu_k": 720,
+    "geekbench_sc": 1150,
+    "geekbench_mc": 3400,
+    "year": 2024,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "exynos-1380",
+    "name": "Exynos 1380",
+    "vendor": "Samsung",
+    "process_nm": 5,
+    "antutu_k": 560,
+    "geekbench_sc": 1000,
+    "geekbench_mc": 2900,
+    "year": 2023,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "exynos-1330",
+    "name": "Exynos 1330",
+    "vendor": "Samsung",
+    "process_nm": 5,
+    "antutu_k": 450,
+    "geekbench_sc": 950,
+    "geekbench_mc": 2100,
+    "year": 2023,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "exynos-1280",
+    "name": "Exynos 1280",
+    "vendor": "Samsung",
+    "process_nm": 5,
+    "antutu_k": 430,
+    "geekbench_sc": 900,
+    "geekbench_mc": 1900,
+    "year": 2022,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "exynos-850",
+    "name": "Exynos 850",
+    "vendor": "Samsung",
+    "process_nm": 8,
+    "antutu_k": 150,
+    "geekbench_sc": 230,
+    "geekbench_mc": 850,
+    "year": 2020,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "google-tensor",
+    "name": "Google Tensor",
+    "vendor": "Google",
+    "process_nm": 5,
+    "antutu_k": 800,
+    "geekbench_sc": 1050,
+    "geekbench_mc": 2800,
+    "year": 2021,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "google-tensor-g2",
+    "name": "Google Tensor G2",
+    "vendor": "Google",
+    "process_nm": 5,
+    "antutu_k": 850,
+    "geekbench_sc": 1050,
+    "geekbench_mc": 3200,
+    "year": 2022,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "google-tensor-g3",
+    "name": "Google Tensor G3",
+    "vendor": "Google",
+    "process_nm": 4,
+    "antutu_k": 1100,
+    "geekbench_sc": 1750,
+    "geekbench_mc": 4400,
+    "year": 2023,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "google-tensor-g4",
+    "name": "Google Tensor G4",
+    "vendor": "Google",
+    "process_nm": 4,
+    "antutu_k": 1200,
+    "geekbench_sc": 1950,
+    "geekbench_mc": 4700,
+    "year": 2024,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "google-tensor-g5",
+    "name": "Google Tensor G5",
+    "vendor": "Google",
+    "process_nm": 3,
+    "antutu_k": 1400,
+    "geekbench_sc": 2300,
+    "geekbench_mc": 6200,
+    "year": 2025,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "apple-a15-bionic",
+    "name": "Apple A15 Bionic",
+    "vendor": "Apple",
+    "process_nm": 5,
+    "antutu_k": 1150,
+    "geekbench_sc": 2250,
+    "geekbench_mc": 5500,
+    "year": 2021,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "apple-a16-bionic",
+    "name": "Apple A16 Bionic",
+    "vendor": "Apple",
+    "process_nm": 4,
+    "antutu_k": 1450,
+    "geekbench_sc": 2550,
+    "geekbench_mc": 6300,
+    "year": 2022,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "apple-a17-pro",
+    "name": "Apple A17 Pro",
+    "vendor": "Apple",
+    "process_nm": 3,
+    "antutu_k": 1550,
+    "geekbench_sc": 2900,
+    "geekbench_mc": 7200,
+    "year": 2023,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "apple-a18",
+    "name": "Apple A18",
+    "vendor": "Apple",
+    "process_nm": 3,
+    "antutu_k": 1700,
+    "geekbench_sc": 3300,
+    "geekbench_mc": 8000,
+    "year": 2024,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "apple-a18-pro",
+    "name": "Apple A18 Pro",
+    "vendor": "Apple",
+    "process_nm": 3,
+    "antutu_k": 1800,
+    "geekbench_sc": 3400,
+    "geekbench_mc": 8500,
+    "year": 2024,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "apple-a19",
+    "name": "Apple A19",
+    "vendor": "Apple",
+    "process_nm": 3,
+    "antutu_k": 2000,
+    "geekbench_sc": 3600,
+    "geekbench_mc": 9000,
+    "year": 2025,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "apple-a19-pro",
+    "name": "Apple A19 Pro",
+    "vendor": "Apple",
+    "process_nm": 3,
+    "antutu_k": 2300,
+    "geekbench_sc": 3800,
+    "geekbench_mc": 9700,
+    "year": 2025,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "kirin-9030-pro",
+    "name": "Kirin 9030 Pro",
+    "vendor": "HiSilicon",
+    "process_nm": 5,
+    "antutu_k": 1400,
+    "geekbench_sc": 1500,
+    "geekbench_mc": 5200,
+    "year": 2025,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "kirin-9030",
+    "name": "Kirin 9030",
+    "vendor": "HiSilicon",
+    "process_nm": 5,
+    "antutu_k": 1300,
+    "geekbench_sc": 1450,
+    "geekbench_mc": 4900,
+    "year": 2025,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "kirin-9020",
+    "name": "Kirin 9020",
+    "vendor": "HiSilicon",
+    "process_nm": 7,
+    "antutu_k": 1150,
+    "geekbench_sc": 1450,
+    "geekbench_mc": 4500,
+    "year": 2024,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "kirin-9010",
+    "name": "Kirin 9010",
+    "vendor": "HiSilicon",
+    "process_nm": 7,
+    "antutu_k": 1000,
+    "geekbench_sc": 1400,
+    "geekbench_mc": 4200,
+    "year": 2024,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "kirin-9000s",
+    "name": "Kirin 9000S",
+    "vendor": "HiSilicon",
+    "process_nm": 7,
+    "antutu_k": 900,
+    "geekbench_sc": 1300,
+    "geekbench_mc": 4000,
+    "year": 2023,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "kirin-9000sl",
+    "name": "Kirin 9000SL",
+    "vendor": "HiSilicon",
+    "process_nm": 7,
+    "antutu_k": 800,
+    "geekbench_sc": 1200,
+    "geekbench_mc": 3600,
+    "year": 2023,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "kirin-8020",
+    "name": "Kirin 8020",
+    "vendor": "HiSilicon",
+    "process_nm": 7,
+    "antutu_k": 800,
+    "geekbench_sc": 1150,
+    "geekbench_mc": 3500,
+    "year": 2025,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "kirin-8000",
+    "name": "Kirin 8000",
+    "vendor": "HiSilicon",
+    "process_nm": 7,
+    "antutu_k": 700,
+    "geekbench_sc": 1100,
+    "geekbench_mc": 3300,
+    "year": 2024,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "kirin-9000",
+    "name": "Kirin 9000",
+    "vendor": "HiSilicon",
+    "process_nm": 5,
+    "antutu_k": 900,
+    "geekbench_sc": 1250,
+    "geekbench_mc": 3700,
+    "year": 2020,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "kirin-710a",
+    "name": "Kirin 710A",
+    "vendor": "HiSilicon",
+    "process_nm": 14,
+    "antutu_k": 200,
+    "geekbench_sc": 300,
+    "geekbench_mc": 1100,
+    "year": 2020,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "unisoc-t760",
+    "name": "Unisoc T760",
+    "vendor": "Unisoc",
+    "process_nm": 6,
+    "antutu_k": 450,
+    "geekbench_sc": 750,
+    "geekbench_mc": 2000,
+    "year": 2021,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "unisoc-t8200",
+    "name": "Unisoc T8200",
+    "vendor": "Unisoc",
+    "process_nm": 6,
+    "antutu_k": 520,
+    "geekbench_sc": 800,
+    "geekbench_mc": 2200,
+    "year": 2024,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "unisoc-t7250",
+    "name": "Unisoc T7250",
+    "vendor": "Unisoc",
+    "process_nm": 12,
+    "antutu_k": 270,
+    "geekbench_sc": 420,
+    "geekbench_mc": 1400,
+    "year": 2024,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "unisoc-t7225",
+    "name": "Unisoc T7225",
+    "vendor": "Unisoc",
+    "process_nm": 12,
+    "antutu_k": 250,
+    "geekbench_sc": 400,
+    "geekbench_mc": 1350,
+    "year": 2024,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "unisoc-t616",
+    "name": "Unisoc T616",
+    "vendor": "Unisoc",
+    "process_nm": 12,
+    "antutu_k": 260,
+    "geekbench_sc": 410,
+    "geekbench_mc": 1350,
+    "year": 2021,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "unisoc-t612",
+    "name": "Unisoc T612",
+    "vendor": "Unisoc",
+    "process_nm": 12,
+    "antutu_k": 240,
+    "geekbench_sc": 380,
+    "geekbench_mc": 1300,
+    "year": 2021,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "unisoc-t606",
+    "name": "Unisoc T606",
+    "vendor": "Unisoc",
+    "process_nm": 12,
+    "antutu_k": 230,
+    "geekbench_sc": 360,
+    "geekbench_mc": 1250,
+    "year": 2021,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "unisoc-t7200",
+    "name": "Unisoc T7200",
+    "vendor": "Unisoc",
+    "process_nm": 12,
+    "antutu_k": 230,
+    "geekbench_sc": 360,
+    "geekbench_mc": 1250,
+    "year": 2024,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "unisoc-t7100",
+    "name": "Unisoc T7100",
+    "vendor": "Unisoc",
+    "process_nm": 12,
+    "antutu_k": 200,
+    "geekbench_sc": 330,
+    "geekbench_mc": 1100,
+    "year": 2025,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "unisoc-sc9863a",
+    "name": "Unisoc SC9863A",
+    "vendor": "Unisoc",
+    "process_nm": 28,
+    "antutu_k": 120,
+    "geekbench_sc": 170,
+    "geekbench_mc": 700,
+    "year": 2018,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "dimensity-7060",
+    "name": "Dimensity 7060",
+    "vendor": "MediaTek",
+    "process_nm": 6,
+    "antutu_k": 450,
+    "geekbench_sc": 750,
+    "geekbench_mc": 2000,
+    "year": 2025,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "dimensity-7300x",
+    "name": "Dimensity 7300X",
+    "vendor": "MediaTek",
+    "process_nm": 4,
+    "antutu_k": 680,
+    "geekbench_sc": 1000,
+    "geekbench_mc": 2900,
+    "year": 2024,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "dimensity-7400x",
+    "name": "Dimensity 7400X",
+    "vendor": "MediaTek",
+    "process_nm": 4,
+    "antutu_k": 720,
+    "geekbench_sc": 1050,
+    "geekbench_mc": 3000,
+    "year": 2025,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "unisoc-t603",
+    "name": "Unisoc T603",
+    "vendor": "Unisoc",
+    "process_nm": 12,
+    "antutu_k": 180,
+    "geekbench_sc": 300,
+    "geekbench_mc": 1000,
+    "year": 2023,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "qualcomm-qcm6490",
+    "name": "Qualcomm QCM6490",
+    "vendor": "Qualcomm",
+    "process_nm": 6,
+    "antutu_k": 550,
+    "geekbench_sc": 1150,
+    "geekbench_mc": 2900,
+    "year": 2021,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "helio-p70",
+    "name": "Helio P70",
+    "vendor": "MediaTek",
+    "process_nm": 12,
+    "antutu_k": 230,
+    "geekbench_sc": 300,
+    "geekbench_mc": 1300,
+    "year": 2018,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "helio-p22",
+    "name": "Helio P22",
+    "vendor": "MediaTek",
+    "process_nm": 12,
+    "antutu_k": 100,
+    "geekbench_sc": 150,
+    "geekbench_mc": 600,
+    "year": 2018,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "helio-g25",
+    "name": "Helio G25",
+    "vendor": "MediaTek",
+    "process_nm": 12,
+    "antutu_k": 110,
+    "geekbench_sc": 150,
+    "geekbench_mc": 650,
+    "year": 2020,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "snapdragon-480-plus",
+    "name": "Snapdragon 480+",
+    "vendor": "Qualcomm",
+    "process_nm": 8,
+    "antutu_k": 330,
+    "geekbench_sc": 700,
+    "geekbench_mc": 1700,
+    "year": 2021,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "snapdragon-732g",
+    "name": "Snapdragon 732G",
+    "vendor": "Qualcomm",
+    "process_nm": 8,
+    "antutu_k": 380,
+    "geekbench_sc": 600,
+    "geekbench_mc": 1700,
+    "year": 2020,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "dimensity-7020",
+    "name": "Dimensity 7020",
+    "vendor": "MediaTek",
+    "process_nm": 6,
+    "antutu_k": 420,
+    "geekbench_sc": 750,
+    "geekbench_mc": 1900,
+    "year": 2023,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10",
+      "ai_knowledge:geekbench-6"
+    ]
+  },
+  {
+    "slug": "apple-a20-pro",
+    "name": "Apple A20 Pro",
+    "vendor": "Apple",
+    "process_nm": 2,
+    "antutu_k": null,
+    "geekbench_sc": null,
+    "geekbench_mc": null,
+    "year": 2026,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10"
+    ]
+  },
+  {
+    "slug": "google-tensor-g6",
+    "name": "Google Tensor G6",
+    "vendor": "Google",
+    "process_nm": 2,
+    "antutu_k": null,
+    "geekbench_sc": null,
+    "geekbench_mc": null,
+    "year": 2026,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10"
+    ]
+  },
+  {
+    "slug": "exynos-1680",
+    "name": "Exynos 1680",
+    "vendor": "Samsung",
+    "process_nm": 4,
+    "antutu_k": null,
+    "geekbench_sc": null,
+    "geekbench_mc": null,
+    "year": 2026,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10"
+    ]
+  },
+  {
+    "slug": "dimensity-8500-ultra",
+    "name": "Dimensity 8500-Ultra",
+    "vendor": "MediaTek",
+    "process_nm": 4,
+    "antutu_k": null,
+    "geekbench_sc": null,
+    "geekbench_mc": null,
+    "year": 2026,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge:antutu-v10"
     ]
   }
 ]

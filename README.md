@@ -1,11 +1,42 @@
 # Подбор смартфона с помощью машинного обучения
 
-> **Ветка `random-future` — версия «рандом цифры по камерам и всему-всему-всему на будущее».**
-> Каркас новой базы данных (каталог v2) по ТЗ [docs/ТЗ_БД_v2_промт_для_нейросети.md](docs/ТЗ_БД_v2_промт_для_нейросети.md):
-> файл на модель в `data/catalog/phones/`, справочники, сборка SQLite `tools/build_catalog.py`, сайт на Rust
-> (`rust_backend/run.bat`, порт 8081) показывает конфигурации памяти, камеры, «приколы» и интересные возможности.
-> Всё новое пока заполнено **случайными демо-числами** (`tools/generate_random_catalog.py`). Подробности —
-> в `rust_backend/README.md`. Python-приложение и обучение нейросети в этой ветке не менялись.
+> **Ветка `catalog-real` — каталог v2 с настоящими данными** вместо случайных чисел ветки `random-future`.
+> Наполнение по ТЗ [docs/ТЗ_БД_v2_промт_для_нейросети.md](docs/ТЗ_БД_v2_промт_для_нейросети.md): модели всех
+> заметных брендов 2022–2026 (Apple, Samsung, Xiaomi/Redmi/POCO, Honor, Huawei, realme, OPPO, OnePlus, vivo/iQOO,
+> Google, Nothing, Motorola, Sony, ASUS, nubia/REDMAGIC, Tecno, Infinix, itel, Meizu, Fairphone, защищённые и др.).
+> Порядок сборки:
+> ```
+> python tools/fetch_wikipedia.py && python tools/verify_wikipedia.py   # сверка с карточками Wikipedia
+> python tools/scrape_telegram.py && python tools/match_telegram_prices.py   # свежие цены с датой и ссылкой
+> python tools/fetch_commons_photos.py        # свободные фото Wikimedia Commons
+> python tools/check_quirk_evidence.py        # «приколы» по официальным страницам
+> python tools/import_catalog_data.py         # таблицы tools/catalog_data/*.txt → data/catalog/phones/**.json
+> python tools/build_catalog.py --check --final   # проверка и критерии готовности раздела 16 ТЗ
+> ```
+> Честность данных: значения из сведений нейросети помечены `_q: estimated` (источник `ai_knowledge`),
+> подтверждённые страницей — `verified` со ссылкой.
+
+## Переобучение нейросети на каталоге
+
+Источник правды — каталог `data/catalog/`. Обучающая база Python (`data/phones_seed.csv`, история цен и фото)
+теперь **выгружается из каталога**, руками её не правят. Порядок после любых изменений каталога (новые модели, цены):
+
+```
+python tools/import_catalog_data.py        # 1. таблицы tools/catalog_data/*.txt → файлы моделей (если правили таблицы)
+python tools/build_catalog.py              # 2. проверка и сборка data/catalog.db + rust_backend/catalog.db
+python tools/catalog_to_seed.py            # 3. каталог → phones_seed.csv, price_history_seed.csv, phone_photos_seed.csv
+python tools/export_for_rust.py --golden 60   # 4. обучение (метки, KMeans, MLP, справедливая цена) → model.json, golden.json
+cd rust_backend && cargo test --release    # 5. Rust совпадает с Python (60 анкет из 60) + тесты каталога
+python -m pytest -q                        # 6. тесты Python-приложения
+```
+
+- В подбор попадают модели с `in_ml: true` и ценой базовой конфигурации; одна строка обучающей базы — одна модель
+  (признаки по базовой конфигурации). Чтобы модель попала в подбор, ей нужна цена в РФ.
+- Шаг 4 переобучает сам, если число моделей изменилось. Если число то же, а данные другие, — удалите сохранённый
+  конвейер `models/pipeline.joblib` — тогда шаг 4 обучит заново.
+- Число групп KMeans подбирается заново при каждом обучении (на 429 моделях — 12), поэтому выдача меняется.
+- Прежняя база до перехода на каталог сохранена в `data/sources/phones_seed_v1.csv` (из неё берётся AnTuTu,
+  если у чипа в справочнике его нет).
 
 ## Запуск
 ```

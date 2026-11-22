@@ -1,0 +1,222 @@
+{
+  "slug": "xiaomi-13-ultra",
+  "brand": "xiaomi",
+  "name": "Xiaomi 13 Ultra",
+  "full_name": "Xiaomi 13 Ultra",
+  "aliases": [],
+  "os": "Android",
+  "release_date": "2023-06",
+  "year": 2023,
+  "status": "discontinued",
+  "availability_ru": "not_sold",
+  "form_factor": "bar",
+  "in_ml": false,
+  "chipset": "snapdragon-8-gen-2",
+  "specs": {
+    "screen_in": 6.73,
+    "cover_screen_in": null,
+    "refresh_hz": 120,
+    "display_type": "LTPO AMOLED",
+    "peak_nits": 2600,
+    "battery_mah": 5000,
+    "charge_w": 90,
+    "wireless_w": 50,
+    "weight_g": 227,
+    "thickness_mm": 9.1,
+    "ip_rating": "IP68",
+    "has_5g": true,
+    "nfc": true,
+    "esim": false,
+    "ir_port": true,
+    "jack35": false,
+    "sd_card": false,
+    "update_years": 5,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge"
+    ]
+  },
+  "variants": [
+    {
+      "ram_gb": 12,
+      "rom_gb": 256,
+      "price_rub": null,
+      "price_date": null,
+      "price_src": null,
+      "msrp_usd": null,
+      "is_base": false,
+      "_q": "unknown",
+      "_src": []
+    },
+    {
+      "ram_gb": 16,
+      "rom_gb": 512,
+      "price_rub": null,
+      "price_date": null,
+      "price_src": null,
+      "msrp_usd": null,
+      "is_base": true,
+      "_q": "unknown",
+      "_src": []
+    }
+  ],
+  "cameras": [
+    {
+      "role": "main",
+      "position": 0,
+      "sensor": "sony-imx989",
+      "mp": 50.3,
+      "aperture": 1.9,
+      "focal_mm": 23,
+      "fov_deg": null,
+      "optical_zoom_x": null,
+      "ois": true,
+      "af": "pdaf",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": 86,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
+      "_src": [
+        "ai_knowledge"
+      ]
+    },
+    {
+      "role": "ultrawide",
+      "position": 0,
+      "sensor": "sony-imx858",
+      "mp": 50,
+      "aperture": 1.8,
+      "focal_mm": 12,
+      "fov_deg": null,
+      "optical_zoom_x": null,
+      "ois": false,
+      "af": "pdaf",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": 70,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
+      "_src": [
+        "ai_knowledge"
+      ]
+    },
+    {
+      "role": "tele",
+      "position": 0,
+      "sensor": "sony-imx858",
+      "mp": 50,
+      "aperture": 1.8,
+      "focal_mm": 75,
+      "fov_deg": null,
+      "optical_zoom_x": 3.2,
+      "ois": true,
+      "af": "pdaf",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": 74,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
+      "_src": [
+        "ai_knowledge"
+      ]
+    },
+    {
+      "role": "periscope",
+      "position": 0,
+      "sensor": "sony-imx858",
+      "mp": 50,
+      "aperture": 3,
+      "focal_mm": 120,
+      "fov_deg": null,
+      "optical_zoom_x": null,
+      "ois": true,
+      "af": "pdaf",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": 76,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
+      "_src": [
+        "ai_knowledge"
+      ]
+    },
+    {
+      "role": "front",
+      "position": 0,
+      "sensor": null,
+      "mp": 32,
+      "aperture": 2,
+      "focal_mm": null,
+      "fov_deg": null,
+      "optical_zoom_x": null,
+      "ois": false,
+      "af": "fixed",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": 64,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
+      "_src": [
+        "ai_knowledge"
+      ]
+    }
+  ],
+  "camera_features": {
+    "macro_mode": "ultrawide_af",
+    "macro_min_focus_cm": null,
+    "lossless_zoom_x": null,
+    "max_digital_zoom_x": 120,
+    "dxomark": null,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge"
+    ]
+  },
+  "quirks": [
+    {
+      "code": "great_video",
+      "severity": 2,
+      "note_ru": "Обзоры отмечают сильное видео (стабилизация, динамический диапазон).",
+      "evidence": [],
+      "_q": "estimated"
+    }
+  ],
+  "quirks_checked": false,
+  "special": [
+    {
+      "code": "camera_kit",
+      "note_ru": "Официальный фотокит: рукоятка с кнопкой затвора и насадки.",
+      "_q": "estimated"
+    }
+  ],
+  "photos": [
+    {
+      "author": "X-SHLIED",
+      "color_ru": null,
+      "height": 631,
+      "kind": "lifestyle",
+      "license": "CC BY-SA 4.0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Xiaomi_13_Ultra.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Xiaomi_13_Ultra.jpg/960px-Xiaomi_13_Ultra.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
+    },
+    {
+      "author": "メイド理世",
+      "color_ru": null,
+      "height": 539,
+      "kind": "lifestyle",
+      "license": "CC BY-SA 4.0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Xiaomi_13_Ultra_20240220.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Xiaomi_13_Ultra_20240220.jpg/960px-Xiaomi_13_Ultra_20240220.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
+    }
+  ],
+  "_meta": {
+    "created": "2026-11-21",
+    "updated": "2026-11-21",
+    "filled_by": "Claude Opus 5.5 (сведения до 2026-06) + tools/import_catalog_data.py"
+  }
+}

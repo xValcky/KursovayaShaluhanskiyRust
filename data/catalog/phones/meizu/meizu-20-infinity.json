@@ -1,0 +1,176 @@
+{
+  "slug": "meizu-20-infinity",
+  "brand": "meizu",
+  "name": "Meizu 20 Infinity",
+  "full_name": "Meizu 20 Infinity",
+  "aliases": [],
+  "os": "Android",
+  "release_date": "2023-03",
+  "year": 2023,
+  "status": "china_only",
+  "availability_ru": "not_sold",
+  "form_factor": "bar",
+  "in_ml": false,
+  "chipset": "snapdragon-8-gen-2",
+  "specs": {
+    "screen_in": 6.79,
+    "cover_screen_in": null,
+    "refresh_hz": 120,
+    "display_type": "AMOLED",
+    "peak_nits": null,
+    "battery_mah": 4800,
+    "charge_w": 65,
+    "wireless_w": 50,
+    "weight_g": 215,
+    "thickness_mm": null,
+    "ip_rating": null,
+    "has_5g": true,
+    "nfc": true,
+    "esim": false,
+    "ir_port": false,
+    "jack35": false,
+    "sd_card": false,
+    "update_years": null,
+    "_q": "estimated",
+    "_src": [
+      "wikipedia:Meizu_20_Infinity"
+    ]
+  },
+  "variants": [
+    {
+      "ram_gb": 12,
+      "rom_gb": 256,
+      "price_rub": null,
+      "price_date": null,
+      "price_src": null,
+      "msrp_usd": null,
+      "is_base": true,
+      "_q": "unknown",
+      "_src": []
+    },
+    {
+      "ram_gb": 16,
+      "rom_gb": 512,
+      "price_rub": null,
+      "price_date": null,
+      "price_src": null,
+      "msrp_usd": null,
+      "is_base": false,
+      "_q": "unknown",
+      "_src": []
+    },
+    {
+      "ram_gb": 16,
+      "rom_gb": 1024,
+      "price_rub": null,
+      "price_date": null,
+      "price_src": null,
+      "msrp_usd": null,
+      "is_base": false,
+      "_q": "unknown",
+      "_src": []
+    }
+  ],
+  "cameras": [
+    {
+      "role": "main",
+      "position": 0,
+      "sensor": null,
+      "mp": 50,
+      "aperture": null,
+      "focal_mm": 23,
+      "fov_deg": null,
+      "optical_zoom_x": null,
+      "ois": true,
+      "af": "pdaf",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": null,
+      "processing_basis": null,
+      "_q": "estimated",
+      "_src": [
+        "wikipedia:Meizu_20_Infinity"
+      ]
+    },
+    {
+      "role": "tele",
+      "position": 0,
+      "sensor": null,
+      "mp": 12,
+      "aperture": null,
+      "focal_mm": 50,
+      "fov_deg": null,
+      "optical_zoom_x": null,
+      "ois": true,
+      "af": "pdaf",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": null,
+      "processing_basis": null,
+      "_q": "estimated",
+      "_src": [
+        "wikipedia:Meizu_20_Infinity"
+      ]
+    },
+    {
+      "role": "ultrawide",
+      "position": 0,
+      "sensor": null,
+      "mp": 12,
+      "aperture": null,
+      "focal_mm": 13,
+      "fov_deg": null,
+      "optical_zoom_x": null,
+      "ois": false,
+      "af": "pdaf",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": null,
+      "processing_basis": null,
+      "_q": "estimated",
+      "_src": [
+        "wikipedia:Meizu_20_Infinity"
+      ]
+    },
+    {
+      "role": "front",
+      "position": 0,
+      "sensor": null,
+      "mp": 32,
+      "aperture": null,
+      "focal_mm": null,
+      "fov_deg": null,
+      "optical_zoom_x": null,
+      "ois": false,
+      "af": "fixed",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": null,
+      "processing_basis": null,
+      "_q": "estimated",
+      "_src": [
+        "wikipedia:Meizu_20_Infinity"
+      ]
+    }
+  ],
+  "camera_features": {
+    "macro_mode": "none",
+    "macro_min_focus_cm": null,
+    "lossless_zoom_x": null,
+    "max_digital_zoom_x": null,
+    "dxomark": null,
+    "_q": "estimated",
+    "_src": [
+      "wikipedia:Meizu_20_Infinity"
+    ]
+  },
+  "quirks": [],
+  "quirks_checked": false,
+  "special": [],
+  "photos": [],
+  "_meta": {
+    "created": "2026-11-21",
+    "updated": "2026-11-21",
+    "filled_by": "Claude Opus 5.5 (сведения до 2026-06) + tools/import_catalog_data.py"
+  }
+}

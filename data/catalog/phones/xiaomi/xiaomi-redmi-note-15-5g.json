@@ -11,7 +11,7 @@
   "availability_ru": "official",
   "form_factor": "bar",
   "in_ml": true,
-  "chipset": "demo-soc-600",
+  "chipset": null,
   "specs": {
     "screen_in": 6.77,
     "cover_screen_in": null,
@@ -19,17 +19,17 @@
     "display_type": null,
     "peak_nits": null,
     "battery_mah": 5520,
-    "charge_w": 45.0,
+    "charge_w": 45,
     "wireless_w": null,
-    "weight_g": 178.0,
+    "weight_g": 178,
     "thickness_mm": null,
     "ip_rating": null,
     "has_5g": true,
     "nfc": true,
     "esim": false,
     "ir_port": true,
-    "jack35": null,
-    "sd_card": null,
+    "jack35": false,
+    "sd_card": false,
     "update_years": null,
     "_q": "estimated",
     "_src": [
@@ -40,40 +40,14 @@
     {
       "ram_gb": 8,
       "rom_gb": 256,
-      "price_rub": 11300,
-      "price_date": "2026-11-05",
-      "price_src": "project_seed",
+      "price_rub": 15565,
+      "price_date": "2026-10-28",
+      "price_src": "telegram_polzaskidki",
       "msrp_usd": null,
       "is_base": true,
-      "_q": "estimated",
+      "_q": "verified",
       "_src": [
-        "project_seed"
-      ]
-    },
-    {
-      "ram_gb": 12,
-      "rom_gb": 512,
-      "price_rub": 13990,
-      "price_date": "2026-11-20",
-      "price_src": "random",
-      "msrp_usd": null,
-      "is_base": false,
-      "_q": "random",
-      "_src": [
-        "random"
-      ]
-    },
-    {
-      "ram_gb": 12,
-      "rom_gb": 1024,
-      "price_rub": 15990,
-      "price_date": "2026-11-20",
-      "price_src": "random",
-      "msrp_usd": null,
-      "is_base": false,
-      "_q": "random",
-      "_src": [
-        "random"
+        "telegram_polzaskidki:t.me/polzaSKIDKI/31134"
       ]
     }
   ],
@@ -81,104 +55,34 @@
     {
       "role": "main",
       "position": 0,
-      "sensor": "demo-s28",
+      "sensor": null,
       "mp": 108,
-      "aperture": 1.9,
-      "focal_mm": 25,
-      "fov_deg": 84,
-      "optical_zoom_x": null,
-      "ois": true,
-      "af": "pdaf",
-      "min_focus_cm": null,
-      "video_max": "4K30",
-      "processing_score": 64,
-      "processing_basis": "random",
-      "_q": "random",
-      "_src": [
-        "random"
-      ]
-    },
-    {
-      "role": "macro",
-      "position": 0,
-      "sensor": "demo-s02",
-      "mp": 5,
-      "aperture": 2.4,
-      "focal_mm": 23,
-      "fov_deg": 74,
-      "optical_zoom_x": null,
-      "ois": false,
-      "af": "fixed",
-      "min_focus_cm": 4,
-      "video_max": null,
-      "processing_score": 52,
-      "processing_basis": "random",
-      "_q": "random",
-      "_src": [
-        "random"
-      ]
-    },
-    {
-      "role": "depth",
-      "position": 0,
-      "sensor": "demo-s01",
-      "mp": 2,
-      "aperture": 2.4,
+      "aperture": null,
       "focal_mm": null,
       "fov_deg": null,
       "optical_zoom_x": null,
       "ois": false,
-      "af": "fixed",
+      "af": "pdaf",
       "min_focus_cm": null,
       "video_max": null,
       "processing_score": null,
       "processing_basis": null,
-      "_q": "random",
+      "_q": "estimated",
       "_src": [
-        "random"
-      ]
-    },
-    {
-      "role": "front",
-      "position": 0,
-      "sensor": "demo-s11",
-      "mp": 16,
-      "aperture": 2.4,
-      "focal_mm": 26,
-      "fov_deg": 89,
-      "optical_zoom_x": null,
-      "ois": false,
-      "af": "fixed",
-      "min_focus_cm": null,
-      "video_max": null,
-      "processing_score": 49,
-      "processing_basis": "random",
-      "_q": "random",
-      "_src": [
-        "random"
+        "project_seed"
       ]
     }
   ],
   "camera_features": {
-    "macro_mode": "dedicated",
-    "macro_min_focus_cm": 4,
-    "lossless_zoom_x": 2.0,
-    "max_digital_zoom_x": 10,
+    "macro_mode": "none",
+    "macro_min_focus_cm": null,
+    "lossless_zoom_x": null,
+    "max_digital_zoom_x": null,
     "dxomark": null,
-    "_q": "random",
-    "_src": [
-      "random"
-    ]
+    "_q": "unknown",
+    "_src": []
   },
-  "quirks": [
-    {
-      "code": "green_tint",
-      "severity": 3,
-      "note_ru": "Демо: случайная особенность для проверки интерфейса.",
-      "evidence": [],
-      "_q": "random"
-    }
-  ],
+  "quirks": [],
   "quirks_checked": false,
   "special": [],
   "photos": [
@@ -189,7 +93,7 @@
       "author": "Maksdroider",
       "license": "CC BY-SA 4.0",
       "source_page": "https://commons.wikimedia.org/wiki/File:REDMI_Note_15_5G_back.jpg",
-      "width": null,
+      "width": 960,
       "height": null,
       "origin": "wikimedia"
     },
@@ -200,25 +104,69 @@
       "author": "Maksdroider",
       "license": "CC BY-SA 4.0",
       "source_page": "https://commons.wikimedia.org/wiki/File:REDMI_Note_15_5G_camera_island.jpg",
-      "width": null,
+      "width": 960,
       "height": null,
       "origin": "wikimedia"
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/REDMI_Note_15_5G_bottom.jpg/960px-REDMI_Note_15_5G_bottom.jpg",
-      "kind": "angle",
+      "kind": "lifestyle",
       "color_ru": null,
       "author": "Maksdroider",
       "license": "CC BY-SA 4.0",
       "source_page": "https://commons.wikimedia.org/wiki/File:REDMI_Note_15_5G_bottom.jpg",
-      "width": null,
+      "width": 960,
       "height": null,
       "origin": "wikimedia"
+    },
+    {
+      "author": "茅野ふたば",
+      "color_ru": null,
+      "height": 1280,
+      "kind": "back",
+      "license": "CC BY-SA 4.0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Redmi_Note_15_backside.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Redmi_Note_15_backside.jpg/960px-Redmi_Note_15_backside.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
+    },
+    {
+      "author": "Maksdroider",
+      "color_ru": null,
+      "height": 540,
+      "kind": "back",
+      "license": "CC BY-SA 4.0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:REDMI_Note_15_and_REDMI_Note_15_5G_camera_island.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/REDMI_Note_15_and_REDMI_Note_15_5G_camera_island.jpg/960px-REDMI_Note_15_and_REDMI_Note_15_5G_camera_island.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
+    },
+    {
+      "author": "Maksdroider",
+      "color_ru": null,
+      "height": 960,
+      "kind": "back",
+      "license": "CC BY-SA 4.0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:REDMI_Note_15_and_REDMI_Note_15_5G_back.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/REDMI_Note_15_and_REDMI_Note_15_5G_back.jpg/960px-REDMI_Note_15_and_REDMI_Note_15_5G_back.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
+    },
+    {
+      "author": "Maksdroider",
+      "color_ru": null,
+      "height": 540,
+      "kind": "back",
+      "license": "CC BY-SA 4.0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:REDMI_Note_15_5G_camera_island_(1).jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/REDMI_Note_15_5G_camera_island_%281%29.jpg/960px-REDMI_Note_15_5G_camera_island_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
     }
   ],
   "_meta": {
-    "created": "2026-11-20",
-    "updated": "2026-11-20",
-    "filled_by": "tools/generate_random_catalog.py"
+    "created": "2026-11-21",
+    "updated": "2026-11-21",
+    "filled_by": "Claude Opus 5.5 (сведения до 2026-06) + tools/import_catalog_data.py"
   }
 }

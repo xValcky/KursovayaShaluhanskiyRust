@@ -5,35 +5,35 @@
   "full_name": "Samsung Galaxy S24 FE",
   "aliases": [],
   "os": "Android",
-  "release_date": null,
+  "release_date": "2024-10",
   "year": 2024,
   "status": "on_sale",
   "availability_ru": "parallel_import",
   "form_factor": "bar",
   "in_ml": true,
-  "chipset": "demo-soc-1150",
+  "chipset": "exynos-2400e",
   "specs": {
     "screen_in": 6.7,
     "cover_screen_in": null,
     "refresh_hz": 120,
-    "display_type": null,
-    "peak_nits": null,
+    "display_type": "Dynamic AMOLED 2X",
+    "peak_nits": 1900,
     "battery_mah": 4700,
-    "charge_w": 25.0,
-    "wireless_w": null,
-    "weight_g": 213.0,
-    "thickness_mm": null,
-    "ip_rating": null,
+    "charge_w": 25,
+    "wireless_w": 15,
+    "weight_g": 213,
+    "thickness_mm": 8,
+    "ip_rating": "IP68",
     "has_5g": true,
     "nfc": true,
     "esim": true,
     "ir_port": false,
-    "jack35": null,
-    "sd_card": null,
-    "update_years": null,
+    "jack35": false,
+    "sd_card": false,
+    "update_years": 7,
     "_q": "estimated",
     "_src": [
-      "project_seed"
+      "ai_knowledge"
     ]
   },
   "variants": [
@@ -43,11 +43,39 @@
       "price_rub": 36990,
       "price_date": "2026-08-01",
       "price_src": "project_seed",
-      "msrp_usd": null,
+      "msrp_usd": 649,
       "is_base": true,
       "_q": "estimated",
       "_src": [
-        "project_seed"
+        "project_seed",
+        "ai_knowledge"
+      ]
+    },
+    {
+      "ram_gb": 8,
+      "rom_gb": 256,
+      "price_rub": 40390,
+      "price_date": null,
+      "price_src": "price_model",
+      "msrp_usd": 709,
+      "is_base": false,
+      "_q": "estimated",
+      "_src": [
+        "price_model",
+        "ai_knowledge"
+      ]
+    },
+    {
+      "ram_gb": 8,
+      "rom_gb": 512,
+      "price_rub": 45890,
+      "price_date": null,
+      "price_src": "price_model",
+      "msrp_usd": null,
+      "is_base": false,
+      "_q": "estimated",
+      "_src": [
+        "price_model"
       ]
     }
   ],
@@ -55,89 +83,109 @@
     {
       "role": "main",
       "position": 0,
-      "sensor": "demo-s19",
+      "sensor": null,
       "mp": 50,
-      "aperture": 1.9,
-      "focal_mm": 23,
-      "fov_deg": 82,
+      "aperture": 1.8,
+      "focal_mm": 24,
+      "fov_deg": null,
       "optical_zoom_x": null,
       "ois": true,
       "af": "pdaf",
       "min_focus_cm": null,
-      "video_max": "4K30",
-      "processing_score": 57,
-      "processing_basis": "random",
-      "_q": "random",
+      "video_max": null,
+      "processing_score": 72,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "ai_knowledge"
       ]
     },
     {
       "role": "ultrawide",
       "position": 0,
-      "sensor": "demo-s18",
-      "mp": 50,
+      "sensor": null,
+      "mp": 12,
       "aperture": 2.2,
       "focal_mm": 13,
-      "fov_deg": 120,
-      "optical_zoom_x": 0.6,
-      "ois": false,
-      "af": "fixed",
-      "min_focus_cm": null,
-      "video_max": null,
-      "processing_score": 77,
-      "processing_basis": "random",
-      "_q": "random",
-      "_src": [
-        "random"
-      ]
-    },
-    {
-      "role": "front",
-      "position": 0,
-      "sensor": "demo-s11",
-      "mp": 16,
-      "aperture": 2.3,
-      "focal_mm": 23,
-      "fov_deg": 90,
+      "fov_deg": null,
       "optical_zoom_x": null,
       "ois": false,
       "af": "fixed",
       "min_focus_cm": null,
       "video_max": null,
-      "processing_score": 73,
-      "processing_basis": "random",
-      "_q": "random",
+      "processing_score": 58,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "ai_knowledge"
+      ]
+    },
+    {
+      "role": "tele",
+      "position": 0,
+      "sensor": null,
+      "mp": 8,
+      "aperture": 2.4,
+      "focal_mm": null,
+      "fov_deg": null,
+      "optical_zoom_x": 3.0,
+      "ois": true,
+      "af": "pdaf",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": 60,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
+      "_src": [
+        "ai_knowledge"
+      ]
+    },
+    {
+      "role": "front",
+      "position": 0,
+      "sensor": null,
+      "mp": 10,
+      "aperture": 2.4,
+      "focal_mm": 26,
+      "fov_deg": null,
+      "optical_zoom_x": null,
+      "ois": false,
+      "af": "fixed",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": 64,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
+      "_src": [
+        "ai_knowledge"
       ]
     }
   ],
   "camera_features": {
     "macro_mode": "none",
     "macro_min_focus_cm": null,
-    "lossless_zoom_x": 2.0,
-    "max_digital_zoom_x": 10,
+    "lossless_zoom_x": null,
+    "max_digital_zoom_x": 30,
     "dxomark": null,
-    "_q": "random",
+    "_q": "estimated",
     "_src": [
-      "random"
+      "ai_knowledge"
     ]
   },
   "quirks": [
     {
-      "code": "good_ai_assistant",
-      "severity": 2,
-      "note_ru": "Со слов пользователя: хороший встроенный ИИ-ассистент (Galaxy AI). Проверить список функций для модели и что работает в РФ.",
+      "code": "long_updates",
+      "severity": 3,
+      "note_ru": "7 лет обновлений по официальной политике Samsung.",
       "evidence": [],
-      "_q": "user_hypothesis"
+      "_q": "estimated"
     },
     {
-      "code": "no_google_services",
-      "severity": 1,
-      "note_ru": "Демо: случайная особенность для проверки интерфейса.",
+      "code": "good_ai_assistant",
+      "severity": 2,
+      "note_ru": "Набор ИИ-функций производителя: перевод звонков, правка фото, сводки; часть зависит от региона.",
       "evidence": [],
-      "_q": "random"
+      "_q": "estimated"
     }
   ],
   "quirks_checked": false,
@@ -145,41 +193,41 @@
   "photos": [
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Samsung_Galaxy_S24_FE_2024.jpg/960px-Samsung_Galaxy_S24_FE_2024.jpg",
-      "kind": "angle",
+      "kind": "lifestyle",
       "color_ru": null,
       "author": "Captainmorlypogi1959",
       "license": "CC BY-SA 4.0",
       "source_page": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_S24_FE_2024.jpg",
-      "width": null,
+      "width": 960,
       "height": null,
       "origin": "wikimedia"
     },
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Galaxy_S24_FE.png",
-      "kind": "angle",
+      "kind": "lifestyle",
       "color_ru": null,
       "author": "mgsmpl",
       "license": "CC BY 3.0",
       "source_page": "https://commons.wikimedia.org/wiki/File:Galaxy_S24_FE.png",
-      "width": null,
+      "width": 960,
       "height": null,
       "origin": "wikimedia"
     },
     {
-      "url": "/placeholder/samsung-galaxy-s24-fe/3.svg",
-      "kind": "placeholder",
+      "author": "Captainmorlypogi1959",
       "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
-      "width": 960,
-      "height": 1280,
-      "origin": "placeholder"
+      "height": 1549,
+      "kind": "lifestyle",
+      "license": "CC BY-SA 4.0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_S24_FE_2024_(cropped).jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Samsung_Galaxy_S24_FE_2024_%28cropped%29.jpg/960px-Samsung_Galaxy_S24_FE_2024_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
     }
   ],
   "_meta": {
-    "created": "2026-11-20",
-    "updated": "2026-11-20",
-    "filled_by": "tools/generate_random_catalog.py"
+    "created": "2026-11-21",
+    "updated": "2026-11-21",
+    "filled_by": "Claude Opus 5.5 (сведения до 2026-06) + tools/import_catalog_data.py"
   }
 }

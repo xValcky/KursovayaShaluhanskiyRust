@@ -11,7 +11,7 @@
   "availability_ru": "official",
   "form_factor": "bar",
   "in_ml": true,
-  "chipset": "demo-soc-250",
+  "chipset": null,
   "specs": {
     "screen_in": 6.74,
     "cover_screen_in": null,
@@ -19,17 +19,17 @@
     "display_type": null,
     "peak_nits": null,
     "battery_mah": 5000,
-    "charge_w": 15.0,
+    "charge_w": 15,
     "wireless_w": null,
-    "weight_g": 190.0,
+    "weight_g": 190,
     "thickness_mm": null,
     "ip_rating": null,
     "has_5g": false,
     "nfc": false,
     "esim": false,
     "ir_port": false,
-    "jack35": null,
-    "sd_card": null,
+    "jack35": false,
+    "sd_card": false,
     "update_years": null,
     "_q": "estimated",
     "_src": [
@@ -41,26 +41,13 @@
       "ram_gb": 4,
       "rom_gb": 128,
       "price_rub": 9676,
-      "price_date": "2026-11-05",
-      "price_src": "project_seed",
+      "price_date": "2026-11-02",
+      "price_src": "telegram_polzaskidki",
       "msrp_usd": null,
       "is_base": true,
-      "_q": "estimated",
+      "_q": "verified",
       "_src": [
-        "project_seed"
-      ]
-    },
-    {
-      "ram_gb": 6,
-      "rom_gb": 256,
-      "price_rub": 11990,
-      "price_date": "2026-11-20",
-      "price_src": "random",
-      "msrp_usd": null,
-      "is_base": false,
-      "_q": "random",
-      "_src": [
-        "random"
+        "telegram_polzaskidki:t.me/polzaSKIDKI/31465"
       ]
     }
   ],
@@ -68,41 +55,21 @@
     {
       "role": "main",
       "position": 0,
-      "sensor": "demo-s10",
+      "sensor": null,
       "mp": 13,
-      "aperture": 1.8,
-      "focal_mm": 25,
-      "fov_deg": 84,
-      "optical_zoom_x": null,
-      "ois": true,
-      "af": "pdaf",
-      "min_focus_cm": null,
-      "video_max": "4K30",
-      "processing_score": 45,
-      "processing_basis": "random",
-      "_q": "random",
-      "_src": [
-        "random"
-      ]
-    },
-    {
-      "role": "front",
-      "position": 0,
-      "sensor": "demo-s11",
-      "mp": 16,
-      "aperture": 2.4,
-      "focal_mm": 22,
-      "fov_deg": 90,
+      "aperture": null,
+      "focal_mm": null,
+      "fov_deg": null,
       "optical_zoom_x": null,
       "ois": false,
-      "af": "fixed",
+      "af": "pdaf",
       "min_focus_cm": null,
       "video_max": null,
-      "processing_score": 37,
-      "processing_basis": "random",
-      "_q": "random",
+      "processing_score": null,
+      "processing_basis": null,
+      "_q": "estimated",
       "_src": [
-        "random"
+        "project_seed"
       ]
     }
   ],
@@ -110,62 +77,18 @@
     "macro_mode": "none",
     "macro_min_focus_cm": null,
     "lossless_zoom_x": null,
-    "max_digital_zoom_x": 8,
+    "max_digital_zoom_x": null,
     "dxomark": null,
-    "_q": "random",
-    "_src": [
-      "random"
-    ]
+    "_q": "unknown",
+    "_src": []
   },
-  "quirks": [
-    {
-      "code": "short_updates",
-      "severity": 2,
-      "note_ru": "Демо: случайная особенность для проверки интерфейса.",
-      "evidence": [],
-      "_q": "random"
-    }
-  ],
+  "quirks": [],
   "quirks_checked": false,
   "special": [],
-  "photos": [
-    {
-      "url": "/placeholder/realme-note-80/1.svg",
-      "kind": "placeholder",
-      "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
-      "width": 960,
-      "height": 1280,
-      "origin": "placeholder"
-    },
-    {
-      "url": "/placeholder/realme-note-80/2.svg",
-      "kind": "placeholder",
-      "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
-      "width": 960,
-      "height": 1280,
-      "origin": "placeholder"
-    },
-    {
-      "url": "/placeholder/realme-note-80/3.svg",
-      "kind": "placeholder",
-      "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
-      "width": 960,
-      "height": 1280,
-      "origin": "placeholder"
-    }
-  ],
+  "photos": [],
   "_meta": {
-    "created": "2026-11-20",
-    "updated": "2026-11-20",
-    "filled_by": "tools/generate_random_catalog.py"
+    "created": "2026-11-21",
+    "updated": "2026-11-21",
+    "filled_by": "Claude Opus 5.5 (сведения до 2026-06) + tools/import_catalog_data.py"
   }
 }

@@ -1,8 +1,8 @@
 [package]
 name = "phonepicker-server"
-version = "0.2.0"
+version = "0.3.0"
 edition = "2021"
-description = "Быстрый подбор смартфона: Rust-бэкенд для моделей, обученных в Python. Версия «рандом цифры по камерам и всему-всему-всему на будущее»"
+description = "Быстрый подбор смартфона: Rust-бэкенд для моделей, обученных в Python. Версия «каталог v2 — настоящие данные»"
 
 [dependencies]
 axum = "0.8"

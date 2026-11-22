@@ -1,0 +1,227 @@
+{
+  "slug": "xiaomi-12",
+  "brand": "xiaomi",
+  "name": "Xiaomi 12",
+  "full_name": "Xiaomi 12",
+  "aliases": [],
+  "os": "Android",
+  "release_date": "2022-03",
+  "year": 2022,
+  "status": "discontinued",
+  "availability_ru": "not_sold",
+  "form_factor": "bar",
+  "in_ml": false,
+  "chipset": "snapdragon-8-gen-1",
+  "specs": {
+    "screen_in": 6.28,
+    "cover_screen_in": null,
+    "refresh_hz": 120,
+    "display_type": "AMOLED",
+    "peak_nits": 1100,
+    "battery_mah": 4500,
+    "charge_w": 67,
+    "wireless_w": 50,
+    "weight_g": 179,
+    "thickness_mm": 8.16,
+    "ip_rating": null,
+    "has_5g": true,
+    "nfc": true,
+    "esim": false,
+    "ir_port": true,
+    "jack35": false,
+    "sd_card": false,
+    "update_years": 3,
+    "_q": "estimated",
+    "_src": [
+      "wikipedia:Xiaomi_12",
+      "ai_knowledge"
+    ]
+  },
+  "variants": [
+    {
+      "ram_gb": 8,
+      "rom_gb": 128,
+      "price_rub": null,
+      "price_date": null,
+      "price_src": null,
+      "msrp_usd": null,
+      "is_base": true,
+      "_q": "unknown",
+      "_src": []
+    },
+    {
+      "ram_gb": 8,
+      "rom_gb": 256,
+      "price_rub": null,
+      "price_date": null,
+      "price_src": null,
+      "msrp_usd": null,
+      "is_base": false,
+      "_q": "unknown",
+      "_src": []
+    },
+    {
+      "ram_gb": 12,
+      "rom_gb": 256,
+      "price_rub": null,
+      "price_date": null,
+      "price_src": null,
+      "msrp_usd": null,
+      "is_base": false,
+      "_q": "unknown",
+      "_src": []
+    }
+  ],
+  "cameras": [
+    {
+      "role": "main",
+      "position": 0,
+      "sensor": "sony-imx766",
+      "mp": 50,
+      "aperture": 1.88,
+      "focal_mm": 26,
+      "fov_deg": null,
+      "optical_zoom_x": null,
+      "ois": true,
+      "af": "pdaf",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": 70,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
+      "_src": [
+        "ai_knowledge"
+      ]
+    },
+    {
+      "role": "ultrawide",
+      "position": 0,
+      "sensor": null,
+      "mp": 13,
+      "aperture": 2.4,
+      "focal_mm": 12,
+      "fov_deg": null,
+      "optical_zoom_x": null,
+      "ois": false,
+      "af": "fixed",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": 56,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
+      "_src": [
+        "ai_knowledge"
+      ]
+    },
+    {
+      "role": "macro",
+      "position": 0,
+      "sensor": null,
+      "mp": 5,
+      "aperture": 2.4,
+      "focal_mm": null,
+      "fov_deg": null,
+      "optical_zoom_x": null,
+      "ois": false,
+      "af": "fixed",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": 28,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
+      "_src": [
+        "ai_knowledge"
+      ]
+    },
+    {
+      "role": "front",
+      "position": 0,
+      "sensor": null,
+      "mp": 32,
+      "aperture": 2.45,
+      "focal_mm": null,
+      "fov_deg": null,
+      "optical_zoom_x": null,
+      "ois": false,
+      "af": "fixed",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": 60,
+      "processing_basis": "reviews_rubric",
+      "_q": "verified",
+      "_src": [
+        "wikipedia:Xiaomi_12",
+        "ai_knowledge"
+      ]
+    }
+  ],
+  "camera_features": {
+    "macro_mode": "dedicated",
+    "macro_min_focus_cm": null,
+    "lossless_zoom_x": null,
+    "max_digital_zoom_x": 10,
+    "dxomark": null,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge"
+    ]
+  },
+  "quirks": [
+    {
+      "code": "overheating",
+      "severity": 2,
+      "note_ru": "Заметно греется под нагрузкой и при съёмке.",
+      "evidence": [],
+      "_q": "estimated"
+    },
+    {
+      "code": "throttling",
+      "severity": 2,
+      "note_ru": "Под долгой нагрузкой сбрасывает частоты.",
+      "evidence": [],
+      "_q": "estimated"
+    }
+  ],
+  "quirks_checked": false,
+  "special": [],
+  "photos": [
+    {
+      "author": "洛微",
+      "color_ru": null,
+      "height": 1280,
+      "kind": "back",
+      "license": "CC BY-SA 4.0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:The_back_of_Xiaomi_12.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/The_back_of_Xiaomi_12.jpg/960px-The_back_of_Xiaomi_12.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
+    },
+    {
+      "author": "洛微",
+      "color_ru": null,
+      "height": 1280,
+      "kind": "lifestyle",
+      "license": "CC BY-SA 4.0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Xiaomi_12.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Xiaomi_12.jpg/960px-Xiaomi_12.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
+    },
+    {
+      "author": "Matti Blume",
+      "color_ru": null,
+      "height": 1280,
+      "kind": "lifestyle",
+      "license": "CC BY-SA 4.0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:InnoTrans_2024,_Berlin_(P1200413).jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/InnoTrans_2024%2C_Berlin_%28P1200413%29.jpg/960px-InnoTrans_2024%2C_Berlin_%28P1200413%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
+    }
+  ],
+  "_meta": {
+    "created": "2026-11-21",
+    "updated": "2026-11-21",
+    "filled_by": "Claude Opus 5.5 (сведения до 2026-06) + tools/import_catalog_data.py"
+  }
+}

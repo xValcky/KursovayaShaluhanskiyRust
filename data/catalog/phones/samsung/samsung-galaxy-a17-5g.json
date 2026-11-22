@@ -5,88 +5,75 @@
   "full_name": "Samsung Galaxy A17 5G",
   "aliases": [],
   "os": "Android",
-  "release_date": null,
+  "release_date": "2025-08",
   "year": 2025,
   "status": "on_sale",
   "availability_ru": "parallel_import",
   "form_factor": "bar",
   "in_ml": true,
-  "chipset": "demo-soc-450",
+  "chipset": "exynos-1330",
   "specs": {
     "screen_in": 6.7,
     "cover_screen_in": null,
     "refresh_hz": 90,
-    "display_type": null,
-    "peak_nits": null,
+    "display_type": "Super AMOLED",
+    "peak_nits": 1100,
     "battery_mah": 5000,
-    "charge_w": 25.0,
-    "wireless_w": null,
-    "weight_g": 192.0,
-    "thickness_mm": null,
-    "ip_rating": null,
+    "charge_w": 25,
+    "wireless_w": 0,
+    "weight_g": 192,
+    "thickness_mm": 7.5,
+    "ip_rating": "IP54",
     "has_5g": true,
     "nfc": true,
     "esim": false,
     "ir_port": false,
-    "jack35": null,
-    "sd_card": null,
-    "update_years": null,
+    "jack35": false,
+    "sd_card": true,
+    "update_years": 6,
     "_q": "estimated",
     "_src": [
-      "project_seed"
+      "ai_knowledge"
     ]
   },
   "variants": [
     {
+      "ram_gb": 4,
+      "rom_gb": 128,
+      "price_rub": 13127,
+      "price_date": "2026-11-19",
+      "price_src": "telegram_polzaskidki",
+      "msrp_usd": null,
+      "is_base": false,
+      "_q": "verified",
+      "_src": [
+        "telegram_polzaskidki:t.me/polzaSKIDKI/32963"
+      ]
+    },
+    {
       "ram_gb": 6,
       "rom_gb": 128,
       "price_rub": 12693,
-      "price_date": "2026-11-05",
-      "price_src": "project_seed",
+      "price_date": "2026-11-01",
+      "price_src": "telegram_polzaskidki",
       "msrp_usd": null,
       "is_base": true,
-      "_q": "estimated",
+      "_q": "verified",
       "_src": [
-        "project_seed"
+        "telegram_polzaskidki:t.me/polzaSKIDKI/31395"
       ]
     },
     {
       "ram_gb": 8,
       "rom_gb": 256,
-      "price_rub": 14990,
-      "price_date": "2026-11-20",
-      "price_src": "random",
+      "price_rub": 14490,
+      "price_date": null,
+      "price_src": "price_model",
       "msrp_usd": null,
       "is_base": false,
-      "_q": "random",
+      "_q": "estimated",
       "_src": [
-        "random"
-      ]
-    },
-    {
-      "ram_gb": 8,
-      "rom_gb": 512,
-      "price_rub": 16990,
-      "price_date": "2026-11-20",
-      "price_src": "random",
-      "msrp_usd": null,
-      "is_base": false,
-      "_q": "random",
-      "_src": [
-        "random"
-      ]
-    },
-    {
-      "ram_gb": 8,
-      "rom_gb": 1024,
-      "price_rub": 18990,
-      "price_date": "2026-11-20",
-      "price_src": "random",
-      "msrp_usd": null,
-      "is_base": false,
-      "_q": "random",
-      "_src": [
-        "random"
+        "price_model"
       ]
     }
   ],
@@ -94,27 +81,47 @@
     {
       "role": "main",
       "position": 0,
-      "sensor": "demo-s21",
+      "sensor": null,
       "mp": 50,
       "aperture": 1.8,
-      "focal_mm": 25,
-      "fov_deg": 80,
+      "focal_mm": null,
+      "fov_deg": null,
       "optical_zoom_x": null,
       "ois": true,
       "af": "pdaf",
       "min_focus_cm": null,
-      "video_max": "1080p30",
-      "processing_score": 43,
-      "processing_basis": "random",
-      "_q": "random",
+      "video_max": null,
+      "processing_score": 54,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "ai_knowledge"
       ]
     },
     {
-      "role": "depth",
+      "role": "ultrawide",
       "position": 0,
-      "sensor": "demo-s01",
+      "sensor": null,
+      "mp": 5,
+      "aperture": 2.2,
+      "focal_mm": null,
+      "fov_deg": null,
+      "optical_zoom_x": null,
+      "ois": false,
+      "af": "fixed",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": 30,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
+      "_src": [
+        "ai_knowledge"
+      ]
+    },
+    {
+      "role": "macro",
+      "position": 0,
+      "sensor": null,
       "mp": 2,
       "aperture": 2.4,
       "focal_mm": null,
@@ -124,59 +131,52 @@
       "af": "fixed",
       "min_focus_cm": null,
       "video_max": null,
-      "processing_score": null,
-      "processing_basis": null,
-      "_q": "random",
+      "processing_score": 18,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "ai_knowledge"
       ]
     },
     {
       "role": "front",
       "position": 0,
-      "sensor": "demo-s04",
-      "mp": 8,
-      "aperture": 2.3,
-      "focal_mm": 26,
-      "fov_deg": 86,
+      "sensor": null,
+      "mp": 13,
+      "aperture": 2,
+      "focal_mm": null,
+      "fov_deg": null,
       "optical_zoom_x": null,
       "ois": false,
       "af": "fixed",
       "min_focus_cm": null,
       "video_max": null,
-      "processing_score": 38,
-      "processing_basis": "random",
-      "_q": "random",
+      "processing_score": 46,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "ai_knowledge"
       ]
     }
   ],
   "camera_features": {
-    "macro_mode": "none",
+    "macro_mode": "dedicated",
     "macro_min_focus_cm": null,
-    "lossless_zoom_x": 2.0,
+    "lossless_zoom_x": null,
     "max_digital_zoom_x": 10,
     "dxomark": null,
-    "_q": "random",
+    "_q": "estimated",
     "_src": [
-      "random"
+      "ai_knowledge"
     ]
   },
   "quirks": [
     {
-      "code": "good_ai_assistant",
+      "code": "long_updates",
       "severity": 2,
-      "note_ru": "Со слов пользователя: хороший встроенный ИИ-ассистент (Galaxy AI). Проверить список функций для модели и что работает в РФ.",
+      "note_ru": "6 лет обновлений по официальной политике Samsung.",
       "evidence": [],
-      "_q": "user_hypothesis"
-    },
-    {
-      "code": "dim_display",
-      "severity": 2,
-      "note_ru": "Демо: случайная особенность для проверки интерфейса.",
-      "evidence": [],
-      "_q": "random"
+      "_q": "estimated"
     }
   ],
   "quirks_checked": false,
@@ -184,41 +184,63 @@
   "photos": [
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Samsung_Galaxy_A17_5G_2026_%281%29.jpg/960px-Samsung_Galaxy_A17_5G_2026_%281%29.jpg",
-      "kind": "angle",
+      "kind": "lifestyle",
       "color_ru": null,
       "author": "Captainmorlypogi1959",
       "license": "CC BY-SA 4.0",
       "source_page": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_A17_5G_2026_(1).jpg",
-      "width": null,
+      "width": 960,
       "height": null,
       "origin": "wikimedia"
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Samsung_Galaxy_A17_5G_2026.jpg/960px-Samsung_Galaxy_A17_5G_2026.jpg",
-      "kind": "angle",
+      "kind": "lifestyle",
       "color_ru": null,
       "author": "Captainmorlypogi1959",
       "license": "CC BY-SA 4.0",
       "source_page": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_A17_5G_2026.jpg",
-      "width": null,
+      "width": 960,
       "height": null,
       "origin": "wikimedia"
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Samsung_Galaxy_A17_5G_2026_%282%29.jpg/960px-Samsung_Galaxy_A17_5G_2026_%282%29.jpg",
-      "kind": "angle",
+      "kind": "lifestyle",
       "color_ru": null,
       "author": "Captainmorlypogi1959",
       "license": "CC BY-SA 4.0",
       "source_page": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_A17_5G_2026_(2).jpg",
-      "width": null,
+      "width": 960,
       "height": null,
       "origin": "wikimedia"
+    },
+    {
+      "author": "Captainmorlypogi1959",
+      "color_ru": null,
+      "height": 1280,
+      "kind": "lifestyle",
+      "license": "CC BY-SA 4.0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_A17_5G_2026_(3).jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Samsung_Galaxy_A17_5G_2026_%283%29.jpg/960px-Samsung_Galaxy_A17_5G_2026_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
+    },
+    {
+      "author": "Captainmorlypogi1959",
+      "color_ru": null,
+      "height": 1280,
+      "kind": "lifestyle",
+      "license": "CC BY-SA 4.0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_A17_5G_2026_(4).jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Samsung_Galaxy_A17_5G_2026_%284%29.jpg/960px-Samsung_Galaxy_A17_5G_2026_%284%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
     }
   ],
   "_meta": {
-    "created": "2026-11-20",
-    "updated": "2026-11-20",
-    "filled_by": "tools/generate_random_catalog.py"
+    "created": "2026-11-21",
+    "updated": "2026-11-21",
+    "filled_by": "Claude Opus 5.5 (сведения до 2026-06) + tools/import_catalog_data.py"
   }
 }

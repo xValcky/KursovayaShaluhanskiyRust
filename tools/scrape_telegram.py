@@ -58,8 +58,16 @@ def fetch_channel(channel: str, since: str) -> list[dict]:
     posts, before = {}, None
     while True:
         url = f"https://t.me/s/{channel}" + (f"?before={before}" if before else "")
-        r = requests.get(url, headers=HEADERS, timeout=30)
-        r.raise_for_status()
+        for attempt in range(6):  # t.me иногда долго отвечает — повторить с паузой
+            try:
+                r = requests.get(url, headers=HEADERS, timeout=60)
+                r.raise_for_status()
+                break
+            except requests.RequestException as e:
+                print(f"  повтор {attempt + 1}: {type(e).__name__}", flush=True)
+                time.sleep(10 * (attempt + 1))
+        else:
+            raise RuntimeError(f"t.me не ответил: {url}")
         p = _Posts()
         p.feed(r.text)
         page = [x for x in p.posts if x["date"]]
@@ -85,15 +93,24 @@ NOT_PHONE = re.compile(r"(watch|buds|наушник|часы|band |брасле�
                        r"клавиатур|мышь|кофевар|утюг|пылик|термос|рюкзак|мини-пк|gpu|видеокарт)", re.I)
 
 
+MODEL_LINE = re.compile(r"(смартфон|iphone|galaxy|xiaomi|redmi|poco|realme|oneplus|nothing|vivo|iqoo|oppo|honor|moto|"
+                        r"pixel|tecno|infinix|nubia|redmagic|lenovo|zte|meizu|huawei|xperia|asus|rog|cmf)", re.I)
+
+
 def extract_items(post: dict) -> list[dict]:
     """Строки вида «🛒 Модель от 30.7K RUB» или «▪️ Модель 8 256 25 467 ₽»."""
     items = []
+    prev = ""  # строка перед ценой: в постах вида «Смартфон Vivo X500, 12/256ГБ» + «ЦЕНА 58 400 ₽» модель стоит выше
     for chunk in re.split(r"🛒|▪️|▪|•|\n", post["text"]):
         chunk = " ".join(chunk.split())
         m = PRICE_RE.search(chunk)
         if not m or m.start() < 3:
+            if MODEL_LINE.search(chunk):
+                prev = chunk[:140]
             continue
         name = chunk[:m.start()].strip(" -—:·")
+        if re.fullmatch(r"(?i)(цена|цена со скидкой|от|price|стоимость)[:\s]*", name) and prev:
+            name = f"{prev} {name}"
         if NOT_PHONE.search(name) or len(name) > 140:
             continue
         raw = m.group(1).replace(" ", " ").replace(" ", " ")

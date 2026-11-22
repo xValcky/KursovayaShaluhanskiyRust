@@ -5,38 +5,52 @@
   "full_name": "Xiaomi 14 Ultra",
   "aliases": [],
   "os": "Android",
-  "release_date": null,
+  "release_date": "2024-02-22",
   "year": 2024,
   "status": "on_sale",
   "availability_ru": "official",
   "form_factor": "bar",
   "in_ml": true,
-  "chipset": "demo-soc-2000",
+  "chipset": "snapdragon-8-gen-3",
   "specs": {
     "screen_in": 6.73,
     "cover_screen_in": null,
     "refresh_hz": 120,
-    "display_type": null,
-    "peak_nits": null,
+    "display_type": "LTPO AMOLED",
+    "peak_nits": 3000,
     "battery_mah": 5000,
-    "charge_w": 90.0,
-    "wireless_w": null,
-    "weight_g": 219.0,
-    "thickness_mm": null,
-    "ip_rating": null,
+    "charge_w": 90,
+    "wireless_w": 80,
+    "weight_g": 224.4,
+    "thickness_mm": 9.2,
+    "ip_rating": "IP68",
     "has_5g": true,
     "nfc": true,
-    "esim": true,
+    "esim": false,
     "ir_port": true,
-    "jack35": null,
-    "sd_card": null,
-    "update_years": null,
+    "jack35": false,
+    "sd_card": false,
+    "update_years": 5,
     "_q": "estimated",
     "_src": [
-      "project_seed"
+      "wikipedia:Xiaomi_14",
+      "ai_knowledge"
     ]
   },
   "variants": [
+    {
+      "ram_gb": 12,
+      "rom_gb": 256,
+      "price_rub": 49927,
+      "price_date": "2026-10-01",
+      "price_src": "telegram_polzaskidki",
+      "msrp_usd": null,
+      "is_base": false,
+      "_q": "verified",
+      "_src": [
+        "telegram_polzaskidki:t.me/polzaSKIDKI/30391"
+      ]
+    },
     {
       "ram_gb": 16,
       "rom_gb": 512,
@@ -53,14 +67,14 @@
     {
       "ram_gb": 16,
       "rom_gb": 1024,
-      "price_rub": 56990,
-      "price_date": "2026-11-20",
-      "price_src": "random",
+      "price_rub": 55890,
+      "price_date": null,
+      "price_src": "price_model",
       "msrp_usd": null,
       "is_base": false,
-      "_q": "random",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "price_model"
       ]
     }
   ],
@@ -68,151 +82,136 @@
     {
       "role": "main",
       "position": 0,
-      "sensor": "demo-s22",
+      "sensor": "sony-lyt-900",
       "mp": 50,
-      "aperture": 1.8,
-      "focal_mm": 26,
-      "fov_deg": 80,
+      "aperture": 1.63,
+      "focal_mm": 23,
+      "fov_deg": null,
       "optical_zoom_x": null,
       "ois": true,
       "af": "pdaf",
       "min_focus_cm": null,
-      "video_max": "4K60",
-      "processing_score": 67,
-      "processing_basis": "random",
-      "_q": "random",
+      "video_max": null,
+      "processing_score": 88,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "ai_knowledge"
       ]
     },
     {
       "role": "ultrawide",
       "position": 0,
-      "sensor": "demo-s19",
+      "sensor": "sony-imx858",
       "mp": 50,
-      "aperture": 2.1,
-      "focal_mm": 15,
-      "fov_deg": 112,
-      "optical_zoom_x": 0.6,
+      "aperture": 1.8,
+      "focal_mm": 12,
+      "fov_deg": null,
+      "optical_zoom_x": null,
       "ois": false,
-      "af": "fixed",
+      "af": "pdaf",
       "min_focus_cm": null,
       "video_max": null,
-      "processing_score": 56,
-      "processing_basis": "random",
-      "_q": "random",
+      "processing_score": 74,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "ai_knowledge"
       ]
     },
     {
-      "role": "macro",
+      "role": "tele",
       "position": 0,
-      "sensor": "demo-s01",
-      "mp": 2,
-      "aperture": 2.4,
-      "focal_mm": 24,
-      "fov_deg": 78,
-      "optical_zoom_x": null,
-      "ois": false,
-      "af": "fixed",
-      "min_focus_cm": 4,
+      "sensor": "sony-imx858",
+      "mp": 50,
+      "aperture": 1.8,
+      "focal_mm": 75,
+      "fov_deg": null,
+      "optical_zoom_x": 3.2,
+      "ois": true,
+      "af": "pdaf",
+      "min_focus_cm": null,
       "video_max": null,
-      "processing_score": 59,
-      "processing_basis": "random",
-      "_q": "random",
+      "processing_score": 78,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "ai_knowledge"
+      ]
+    },
+    {
+      "role": "periscope",
+      "position": 0,
+      "sensor": "sony-imx858",
+      "mp": 50,
+      "aperture": 2.5,
+      "focal_mm": 120,
+      "fov_deg": null,
+      "optical_zoom_x": null,
+      "ois": true,
+      "af": "pdaf",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": 80,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
+      "_src": [
+        "ai_knowledge"
       ]
     },
     {
       "role": "front",
       "position": 0,
-      "sensor": "demo-s11",
-      "mp": 16,
-      "aperture": 2.0,
-      "focal_mm": 23,
-      "fov_deg": 85,
+      "sensor": null,
+      "mp": 32,
+      "aperture": 2,
+      "focal_mm": null,
+      "fov_deg": null,
       "optical_zoom_x": null,
       "ois": false,
       "af": "fixed",
       "min_focus_cm": null,
       "video_max": null,
-      "processing_score": 68,
-      "processing_basis": "random",
-      "_q": "random",
+      "processing_score": 66,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "ai_knowledge"
       ]
     }
   ],
   "camera_features": {
-    "macro_mode": "dedicated",
-    "macro_min_focus_cm": 4,
-    "lossless_zoom_x": 2.0,
-    "max_digital_zoom_x": 20,
+    "macro_mode": "tele_macro",
+    "macro_min_focus_cm": 10,
+    "lossless_zoom_x": null,
+    "max_digital_zoom_x": 120,
     "dxomark": null,
-    "_q": "random",
+    "_q": "estimated",
     "_src": [
-      "random"
+      "ai_knowledge"
     ]
   },
   "quirks": [
     {
-      "code": "throttling",
-      "severity": 1,
-      "note_ru": "Демо: случайная особенность для проверки интерфейса.",
-      "evidence": [],
-      "_q": "random"
-    },
-    {
-      "code": "short_updates",
+      "code": "great_video",
       "severity": 2,
-      "note_ru": "Демо: случайная особенность для проверки интерфейса.",
+      "note_ru": "Обзоры отмечают сильное видео (стабилизация, динамический диапазон).",
       "evidence": [],
-      "_q": "random"
+      "_q": "estimated"
     }
   ],
   "quirks_checked": false,
-  "special": [],
-  "photos": [
+  "special": [
     {
-      "url": "/placeholder/xiaomi-14-ultra/1.svg",
-      "kind": "placeholder",
-      "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
-      "width": 960,
-      "height": 1280,
-      "origin": "placeholder"
-    },
-    {
-      "url": "/placeholder/xiaomi-14-ultra/2.svg",
-      "kind": "placeholder",
-      "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
-      "width": 960,
-      "height": 1280,
-      "origin": "placeholder"
-    },
-    {
-      "url": "/placeholder/xiaomi-14-ultra/3.svg",
-      "kind": "placeholder",
-      "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
-      "width": 960,
-      "height": 1280,
-      "origin": "placeholder"
+      "code": "camera_kit",
+      "note_ru": "Официальный фотокит: рукоятка с кнопкой затвора и насадки.",
+      "_q": "estimated"
     }
   ],
+  "photos": [],
   "_meta": {
-    "created": "2026-11-20",
-    "updated": "2026-11-20",
-    "filled_by": "tools/generate_random_catalog.py"
+    "created": "2026-11-21",
+    "updated": "2026-11-21",
+    "filled_by": "Claude Opus 5.5 (сведения до 2026-06) + tools/import_catalog_data.py"
   }
 }

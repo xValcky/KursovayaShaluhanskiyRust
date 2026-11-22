@@ -192,7 +192,7 @@ def validate_phone(rep: Report, path: Path, d: dict, refs: dict):
             rep.err(w, f"категория {s.get('code')} не найдена в special_categories.json")
     # фото
     if not d["photos"]:
-        rep.err(w, "нет ни одного фото")
+        rep.warn(w, "нет ни одного фото (интерфейс покажет «Место для фото»; критерий 100% — в --final)")
     urls = [p.get("url", "") for p in d["photos"]]
     if len(set(urls)) != len(urls):
         rep.err(w, "повтор ссылки на фото")
@@ -490,6 +490,8 @@ def build(files, refs_raw, rep: Report) -> dict:
             total = None
             if hw is not None:
                 total = hw if proc is None else int(round(0.5 * hw + 0.5 * proc))
+            elif proc is not None:  # сенсор не назван — «железо» не оценить, итог по обработке
+                total = proc
             conn.execute(
                 "INSERT INTO phone_cameras (phone_id, role, position, sensor_id, mp, aperture, focal_mm, fov_deg, "
                 "optical_zoom_x, ois, af, min_focus_cm, video_max, module_hw_score, processing_score, "
@@ -507,7 +509,8 @@ def build(files, refs_raw, rep: Report) -> dict:
         front_s = best("front", "front_ultrawide")
         macro_s = {"dedicated": best("macro"), "ultrawide_af": uw_s and int(round(uw_s * 0.9)),
                    "tele_macro": tele_s, "none": 0}[cf["macro_mode"]] or 0
-        overall = int(round(0.5 * (main_s or 0) + 0.2 * (uw_s or 0) + 0.2 * (tele_s or 0) + 0.1 * (front_s or 0)))
+        overall = None if main_s is None else int(round(0.5 * main_s + 0.2 * (uw_s or 0) + 0.2 * (tele_s or 0)
+                                                         + 0.1 * (front_s or 0)))
         opt = max((c["_zoom"] or 1.0 for c in cams if c["role"] in ("tele", "periscope")), default=1.0)
         conn.execute("INSERT INTO camera_summary VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
                      (pid, sum(1 for c in cams if c["role"] in REAR), opt, cf.get("lossless_zoom_x"),

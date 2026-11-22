@@ -1,0 +1,151 @@
+{
+  "slug": "honor-magic-v-flip-2",
+  "brand": "honor",
+  "name": "Honor Magic V Flip 2",
+  "full_name": "Honor Magic V Flip 2",
+  "aliases": [],
+  "os": "Android",
+  "release_date": "2025-08",
+  "year": 2025,
+  "status": "china_only",
+  "availability_ru": "not_sold",
+  "form_factor": "flip",
+  "in_ml": false,
+  "chipset": "snapdragon-8-gen-3",
+  "specs": {
+    "screen_in": 6.82,
+    "cover_screen_in": 4.0,
+    "refresh_hz": 120,
+    "display_type": "LTPO OLED",
+    "peak_nits": 5000,
+    "battery_mah": 5500,
+    "charge_w": 80,
+    "wireless_w": 50,
+    "weight_g": 197,
+    "thickness_mm": 7.7,
+    "ip_rating": null,
+    "has_5g": true,
+    "nfc": true,
+    "esim": false,
+    "ir_port": false,
+    "jack35": false,
+    "sd_card": false,
+    "update_years": null,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge"
+    ]
+  },
+  "variants": [
+    {
+      "ram_gb": 12,
+      "rom_gb": 256,
+      "price_rub": null,
+      "price_date": null,
+      "price_src": null,
+      "msrp_usd": null,
+      "is_base": true,
+      "_q": "unknown",
+      "_src": []
+    },
+    {
+      "ram_gb": 16,
+      "rom_gb": 512,
+      "price_rub": null,
+      "price_date": null,
+      "price_src": null,
+      "msrp_usd": null,
+      "is_base": false,
+      "_q": "unknown",
+      "_src": []
+    }
+  ],
+  "cameras": [
+    {
+      "role": "main",
+      "position": 0,
+      "sensor": null,
+      "mp": 200,
+      "aperture": 1.9,
+      "focal_mm": null,
+      "fov_deg": null,
+      "optical_zoom_x": null,
+      "ois": true,
+      "af": "pdaf",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": 72,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
+      "_src": [
+        "ai_knowledge"
+      ]
+    },
+    {
+      "role": "ultrawide",
+      "position": 0,
+      "sensor": null,
+      "mp": 50,
+      "aperture": 2.2,
+      "focal_mm": null,
+      "fov_deg": null,
+      "optical_zoom_x": null,
+      "ois": false,
+      "af": "pdaf",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": 58,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
+      "_src": [
+        "ai_knowledge"
+      ]
+    },
+    {
+      "role": "front",
+      "position": 0,
+      "sensor": null,
+      "mp": 50,
+      "aperture": 2.2,
+      "focal_mm": null,
+      "fov_deg": null,
+      "optical_zoom_x": null,
+      "ois": false,
+      "af": "fixed",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": 60,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
+      "_src": [
+        "ai_knowledge"
+      ]
+    }
+  ],
+  "camera_features": {
+    "macro_mode": "ultrawide_af",
+    "macro_min_focus_cm": null,
+    "lossless_zoom_x": null,
+    "max_digital_zoom_x": 10,
+    "dxomark": null,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge"
+    ]
+  },
+  "quirks": [],
+  "quirks_checked": false,
+  "special": [
+    {
+      "code": "flip",
+      "note_ru": "Раскладушка с внешним экраном.",
+      "_q": "estimated"
+    }
+  ],
+  "photos": [],
+  "_meta": {
+    "created": "2026-11-21",
+    "updated": "2026-11-21",
+    "filled_by": "Claude Opus 5.5 (сведения до 2026-06) + tools/import_catalog_data.py"
+  }
+}

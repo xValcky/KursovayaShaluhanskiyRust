@@ -1,0 +1,219 @@
+{
+  "slug": "fairphone-5",
+  "brand": "fairphone",
+  "name": "Fairphone 5",
+  "full_name": "Fairphone 5",
+  "aliases": [],
+  "os": "Android",
+  "release_date": "2023-09",
+  "year": 2023,
+  "status": "discontinued",
+  "availability_ru": "parallel_import",
+  "form_factor": "bar",
+  "in_ml": true,
+  "chipset": "qualcomm-qcm6490",
+  "specs": {
+    "screen_in": 6.46,
+    "cover_screen_in": null,
+    "refresh_hz": 90,
+    "display_type": "OLED",
+    "peak_nits": 1300,
+    "battery_mah": 4200,
+    "charge_w": 30,
+    "wireless_w": 0,
+    "weight_g": 212,
+    "thickness_mm": 9.6,
+    "ip_rating": "IP55",
+    "has_5g": true,
+    "nfc": true,
+    "esim": true,
+    "ir_port": false,
+    "jack35": false,
+    "sd_card": true,
+    "update_years": 8,
+    "_q": "verified",
+    "_src": [
+      "wikipedia:Fairphone_5",
+      "ai_knowledge"
+    ]
+  },
+  "variants": [
+    {
+      "ram_gb": 8,
+      "rom_gb": 256,
+      "price_rub": 49990,
+      "price_date": null,
+      "price_src": "ai_knowledge",
+      "msrp_usd": null,
+      "is_base": true,
+      "_q": "estimated",
+      "_src": [
+        "ai_knowledge"
+      ]
+    }
+  ],
+  "cameras": [
+    {
+      "role": "main",
+      "position": 0,
+      "sensor": null,
+      "mp": 50,
+      "aperture": 1.88,
+      "focal_mm": null,
+      "fov_deg": null,
+      "optical_zoom_x": null,
+      "ois": true,
+      "af": "pdaf",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": 56,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
+      "_src": [
+        "ai_knowledge"
+      ]
+    },
+    {
+      "role": "ultrawide",
+      "position": 0,
+      "sensor": null,
+      "mp": 50,
+      "aperture": 2.2,
+      "focal_mm": null,
+      "fov_deg": null,
+      "optical_zoom_x": null,
+      "ois": false,
+      "af": "pdaf",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": 48,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
+      "_src": [
+        "ai_knowledge"
+      ]
+    },
+    {
+      "role": "front",
+      "position": 0,
+      "sensor": null,
+      "mp": 50,
+      "aperture": 2.45,
+      "focal_mm": null,
+      "fov_deg": null,
+      "optical_zoom_x": null,
+      "ois": false,
+      "af": "fixed",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": 50,
+      "processing_basis": "reviews_rubric",
+      "_q": "verified",
+      "_src": [
+        "wikipedia:Fairphone_5",
+        "ai_knowledge"
+      ]
+    }
+  ],
+  "camera_features": {
+    "macro_mode": "ultrawide_af",
+    "macro_min_focus_cm": null,
+    "lossless_zoom_x": null,
+    "max_digital_zoom_x": 8,
+    "dxomark": null,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge"
+    ]
+  },
+  "quirks": [
+    {
+      "code": "long_updates",
+      "severity": 3,
+      "note_ru": "Обновления до 2031 г. (8 лет) по политике Fairphone.",
+      "evidence": [],
+      "_q": "estimated"
+    }
+  ],
+  "quirks_checked": false,
+  "special": [
+    {
+      "code": "repairable",
+      "note_ru": "Модульная конструкция, легко ремонтировать.",
+      "_q": "estimated"
+    }
+  ],
+  "photos": [
+    {
+      "author": "S03311251",
+      "color_ru": null,
+      "height": 1280,
+      "kind": "front",
+      "license": "CC BY 4.0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Fairphone_5_front.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Fairphone_5_front.jpg/960px-Fairphone_5_front.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
+    },
+    {
+      "author": "Valerio Bozzolan",
+      "color_ru": null,
+      "height": 1893,
+      "kind": "front",
+      "license": "CC0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Fairphone_5_-_boot_screen.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Fairphone_5_-_boot_screen.jpg/960px-Fairphone_5_-_boot_screen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
+    },
+    {
+      "author": "Valerio Bozzolan",
+      "color_ru": null,
+      "height": 1194,
+      "kind": "front",
+      "license": "CC0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Fairphone_5_-_box_front.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Fairphone_5_-_box_front.jpg/960px-Fairphone_5_-_box_front.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
+    },
+    {
+      "author": "Fairphone",
+      "color_ru": null,
+      "height": 891,
+      "kind": "lifestyle",
+      "license": "CC BY-SA 2.0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Fairphone_5_Modularity.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Fairphone_5_Modularity.jpg/960px-Fairphone_5_Modularity.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
+    },
+    {
+      "author": "Fairphone",
+      "color_ru": null,
+      "height": 960,
+      "kind": "lifestyle",
+      "license": "CC BY-SA 2.0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Fairphone_5.png",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Fairphone_5.png/960px-Fairphone_5.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
+    },
+    {
+      "author": "Valerio Bozzolan",
+      "color_ru": null,
+      "height": 1270,
+      "kind": "lifestyle",
+      "license": "CC0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Fairphone_5_-_box_retro_-_plastic-free_info.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Fairphone_5_-_box_retro_-_plastic-free_info.jpg/960px-Fairphone_5_-_box_retro_-_plastic-free_info.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
+    }
+  ],
+  "_meta": {
+    "created": "2026-11-21",
+    "updated": "2026-11-21",
+    "filled_by": "Claude Opus 5.5 (сведения до 2026-06) + tools/import_catalog_data.py"
+  }
+}

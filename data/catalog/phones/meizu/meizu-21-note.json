@@ -1,0 +1,145 @@
+{
+  "slug": "meizu-21-note",
+  "brand": "meizu",
+  "name": "Meizu 21 Note",
+  "full_name": "Meizu 21 Note",
+  "aliases": [],
+  "os": "Android",
+  "release_date": "2024-05",
+  "year": 2024,
+  "status": "china_only",
+  "availability_ru": "not_sold",
+  "form_factor": "bar",
+  "in_ml": false,
+  "chipset": "snapdragon-8-gen-2",
+  "specs": {
+    "screen_in": 6.78,
+    "cover_screen_in": null,
+    "refresh_hz": 144,
+    "display_type": "AMOLED",
+    "peak_nits": 1800,
+    "battery_mah": 5500,
+    "charge_w": 66,
+    "wireless_w": 0,
+    "weight_g": 199,
+    "thickness_mm": 8.3,
+    "ip_rating": null,
+    "has_5g": true,
+    "nfc": true,
+    "esim": false,
+    "ir_port": false,
+    "jack35": false,
+    "sd_card": false,
+    "update_years": 3,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge"
+    ]
+  },
+  "variants": [
+    {
+      "ram_gb": 12,
+      "rom_gb": 256,
+      "price_rub": null,
+      "price_date": null,
+      "price_src": null,
+      "msrp_usd": null,
+      "is_base": true,
+      "_q": "unknown",
+      "_src": []
+    },
+    {
+      "ram_gb": 16,
+      "rom_gb": 512,
+      "price_rub": null,
+      "price_date": null,
+      "price_src": null,
+      "msrp_usd": null,
+      "is_base": false,
+      "_q": "unknown",
+      "_src": []
+    }
+  ],
+  "cameras": [
+    {
+      "role": "main",
+      "position": 0,
+      "sensor": null,
+      "mp": 50,
+      "aperture": 1.9,
+      "focal_mm": null,
+      "fov_deg": null,
+      "optical_zoom_x": null,
+      "ois": true,
+      "af": "pdaf",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": 66,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
+      "_src": [
+        "ai_knowledge"
+      ]
+    },
+    {
+      "role": "ultrawide",
+      "position": 0,
+      "sensor": null,
+      "mp": 16,
+      "aperture": 2.2,
+      "focal_mm": null,
+      "fov_deg": null,
+      "optical_zoom_x": null,
+      "ois": false,
+      "af": "pdaf",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": 46,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
+      "_src": [
+        "ai_knowledge"
+      ]
+    },
+    {
+      "role": "front",
+      "position": 0,
+      "sensor": null,
+      "mp": 16,
+      "aperture": 2.2,
+      "focal_mm": null,
+      "fov_deg": null,
+      "optical_zoom_x": null,
+      "ois": false,
+      "af": "fixed",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": 44,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
+      "_src": [
+        "ai_knowledge"
+      ]
+    }
+  ],
+  "camera_features": {
+    "macro_mode": "ultrawide_af",
+    "macro_min_focus_cm": null,
+    "lossless_zoom_x": null,
+    "max_digital_zoom_x": 10,
+    "dxomark": null,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge"
+    ]
+  },
+  "quirks": [],
+  "quirks_checked": false,
+  "special": [],
+  "photos": [],
+  "_meta": {
+    "created": "2026-11-21",
+    "updated": "2026-11-21",
+    "filled_by": "Claude Opus 5.5 (сведения до 2026-06) + tools/import_catalog_data.py"
+  }
+}

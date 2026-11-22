@@ -66,7 +66,7 @@ pub struct Summary {
     pub ultrawide: Option<u8>,
     pub tele: Option<u8>,
     pub front: Option<u8>,
-    pub overall: u8,
+    pub overall: Option<u8>,
     pub dxomark: Option<u16>,
     pub q: String,
 }
@@ -477,7 +477,7 @@ impl Catalog {
                         ultrawide: u8o(r.get(8)?),
                         tele: u8o(r.get(9)?),
                         front: u8o(r.get(10)?),
-                        overall: r.get::<_, i64>(11)? as u8,
+                        overall: u8o(r.get(11)?),
                         dxomark: r.get::<_, Option<i64>>(12)?.map(|v| v as u16),
                         q: r.get(13)?,
                     },

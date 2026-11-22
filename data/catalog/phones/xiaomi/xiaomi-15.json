@@ -5,49 +5,76 @@
   "full_name": "Xiaomi 15",
   "aliases": [],
   "os": "Android",
-  "release_date": null,
+  "release_date": "2025-03",
   "year": 2025,
   "status": "on_sale",
   "availability_ru": "official",
   "form_factor": "bar",
   "in_ml": true,
-  "chipset": "demo-soc-2700",
+  "chipset": "snapdragon-8-elite",
   "specs": {
     "screen_in": 6.36,
     "cover_screen_in": null,
     "refresh_hz": 120,
-    "display_type": null,
-    "peak_nits": null,
+    "display_type": "LTPO AMOLED",
+    "peak_nits": 3200,
     "battery_mah": 5240,
-    "charge_w": 90.0,
-    "wireless_w": null,
-    "weight_g": 191.0,
-    "thickness_mm": null,
-    "ip_rating": null,
+    "charge_w": 90,
+    "wireless_w": 50,
+    "weight_g": 191,
+    "thickness_mm": 8.08,
+    "ip_rating": "IP68",
     "has_5g": true,
     "nfc": true,
-    "esim": true,
+    "esim": false,
     "ir_port": true,
-    "jack35": null,
-    "sd_card": null,
-    "update_years": null,
+    "jack35": false,
+    "sd_card": false,
+    "update_years": 6,
     "_q": "estimated",
     "_src": [
-      "project_seed"
+      "wikipedia:Xiaomi_15",
+      "ai_knowledge"
     ]
   },
   "variants": [
     {
       "ram_gb": 12,
       "rom_gb": 256,
-      "price_rub": 54990,
-      "price_date": "2026-08-01",
-      "price_src": "project_seed",
+      "price_rub": 31535,
+      "price_date": "2026-11-21",
+      "price_src": "telegram_polzaskidki",
       "msrp_usd": null,
       "is_base": true,
+      "_q": "verified",
+      "_src": [
+        "telegram_polzaskidki:t.me/polzaSKIDKI/33121"
+      ]
+    },
+    {
+      "ram_gb": 12,
+      "rom_gb": 512,
+      "price_rub": 35290,
+      "price_date": null,
+      "price_src": "price_model",
+      "msrp_usd": null,
+      "is_base": false,
       "_q": "estimated",
       "_src": [
-        "project_seed"
+        "price_model"
+      ]
+    },
+    {
+      "ram_gb": 16,
+      "rom_gb": 1024,
+      "price_rub": 40690,
+      "price_date": null,
+      "price_src": "price_model",
+      "msrp_usd": null,
+      "is_base": false,
+      "_q": "estimated",
+      "_src": [
+        "price_model"
       ]
     }
   ],
@@ -55,151 +82,133 @@
     {
       "role": "main",
       "position": 0,
-      "sensor": "demo-s22",
+      "sensor": "omnivision-ovx9000",
       "mp": 50,
-      "aperture": 1.6,
-      "focal_mm": 24,
-      "fov_deg": 82,
+      "aperture": 1.62,
+      "focal_mm": 23,
+      "fov_deg": null,
       "optical_zoom_x": null,
       "ois": true,
-      "af": "dual_pixel",
+      "af": "pdaf",
       "min_focus_cm": null,
-      "video_max": "4K60",
-      "processing_score": 72,
-      "processing_basis": "random",
-      "_q": "random",
+      "video_max": null,
+      "processing_score": 84,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "ai_knowledge"
       ]
     },
     {
       "role": "ultrawide",
       "position": 0,
-      "sensor": "demo-s20",
+      "sensor": null,
       "mp": 50,
-      "aperture": 2.3,
+      "aperture": 2.2,
       "focal_mm": 14,
-      "fov_deg": 120,
-      "optical_zoom_x": 0.6,
+      "fov_deg": null,
+      "optical_zoom_x": null,
       "ois": false,
       "af": "pdaf",
-      "min_focus_cm": 5,
+      "min_focus_cm": null,
       "video_max": null,
-      "processing_score": 77,
-      "processing_basis": "random",
-      "_q": "random",
+      "processing_score": 72,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "ai_knowledge"
       ]
     },
     {
       "role": "tele",
       "position": 0,
-      "sensor": "demo-s07",
-      "mp": 12,
-      "aperture": 2.4,
-      "focal_mm": 75,
-      "fov_deg": 36,
-      "optical_zoom_x": null,
+      "sensor": null,
+      "mp": 50,
+      "aperture": 2,
+      "focal_mm": 60,
+      "fov_deg": null,
+      "optical_zoom_x": 2.6,
       "ois": true,
       "af": "pdaf",
       "min_focus_cm": null,
       "video_max": null,
-      "processing_score": 82,
-      "processing_basis": "random",
-      "_q": "random",
+      "processing_score": 76,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "ai_knowledge"
       ]
     },
     {
       "role": "front",
       "position": 0,
-      "sensor": "demo-s12",
-      "mp": 20,
-      "aperture": 2.1,
-      "focal_mm": 26,
-      "fov_deg": 89,
+      "sensor": null,
+      "mp": 32,
+      "aperture": 2,
+      "focal_mm": null,
+      "fov_deg": null,
       "optical_zoom_x": null,
       "ois": false,
-      "af": "pdaf",
+      "af": "fixed",
       "min_focus_cm": null,
       "video_max": null,
-      "processing_score": 63,
-      "processing_basis": "random",
-      "_q": "random",
+      "processing_score": 66,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "ai_knowledge"
       ]
     }
   ],
   "camera_features": {
-    "macro_mode": "ultrawide_af",
-    "macro_min_focus_cm": 5,
-    "lossless_zoom_x": 2.0,
-    "max_digital_zoom_x": 30,
+    "macro_mode": "tele_macro",
+    "macro_min_focus_cm": 10,
+    "lossless_zoom_x": null,
+    "max_digital_zoom_x": 60,
     "dxomark": null,
-    "_q": "random",
+    "_q": "estimated",
     "_src": [
-      "random"
+      "ai_knowledge"
     ]
   },
   "quirks": [
     {
-      "code": "pwm_flicker",
-      "severity": 1,
-      "note_ru": "Демо: случайная особенность для проверки интерфейса.",
-      "evidence": [],
-      "_q": "random"
-    },
-    {
-      "code": "excellent_battery",
+      "code": "long_updates",
       "severity": 2,
-      "note_ru": "Демо: случайная особенность для проверки интерфейса.",
+      "note_ru": "4 крупных обновления Android и 6 лет патчей по политике Xiaomi.",
       "evidence": [],
-      "_q": "random"
+      "_q": "estimated"
     }
   ],
   "quirks_checked": false,
   "special": [],
   "photos": [
     {
-      "url": "/placeholder/xiaomi-15/1.svg",
-      "kind": "placeholder",
+      "author": "茅野ふたば",
       "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
-      "width": 960,
-      "height": 1280,
-      "origin": "placeholder"
+      "height": 720,
+      "kind": "lifestyle",
+      "license": "CC BY-SA 4.0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Xiaomi_15_(1).jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Xiaomi_15_%281%29.jpg/960px-Xiaomi_15_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
     },
     {
-      "url": "/placeholder/xiaomi-15/2.svg",
-      "kind": "placeholder",
+      "author": "茅野ふたば",
       "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
-      "width": 960,
-      "height": 1280,
-      "origin": "placeholder"
-    },
-    {
-      "url": "/placeholder/xiaomi-15/3.svg",
-      "kind": "placeholder",
-      "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
-      "width": 960,
-      "height": 1280,
-      "origin": "placeholder"
+      "height": 720,
+      "kind": "lifestyle",
+      "license": "CC BY-SA 4.0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Xiaomi_15_(2).jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Xiaomi_15_%282%29.jpg/960px-Xiaomi_15_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
     }
   ],
   "_meta": {
-    "created": "2026-11-20",
-    "updated": "2026-11-20",
-    "filled_by": "tools/generate_random_catalog.py"
+    "created": "2026-11-21",
+    "updated": "2026-11-21",
+    "filled_by": "Claude Opus 5.5 (сведения до 2026-06) + tools/import_catalog_data.py"
   }
 }

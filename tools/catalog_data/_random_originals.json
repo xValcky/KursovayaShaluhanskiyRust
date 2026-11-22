@@ -1,0 +1,9987 @@
+{
+ "apple-iphone-13-mini": {
+  "brand": "apple",
+  "name": "iPhone 13 mini",
+  "full_name": "Apple iPhone 13 mini",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 4,
+    "rom_gb": 128,
+    "price_rub": 32990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 5.4,
+   "refresh_hz": 60,
+   "battery_mah": 2438,
+   "charge_w": 20.0,
+   "weight_g": 141.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": true,
+   "ir_port": false
+  },
+  "seed_main_mp": 12,
+  "year": 2021,
+  "os": "iOS"
+ },
+ "apple-iphone-13": {
+  "brand": "apple",
+  "name": "iPhone 13",
+  "full_name": "Apple iPhone 13",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 4,
+    "rom_gb": 128,
+    "price_rub": 37990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.1,
+   "refresh_hz": 60,
+   "battery_mah": 3240,
+   "charge_w": 20.0,
+   "weight_g": 174.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": true,
+   "ir_port": false
+  },
+  "seed_main_mp": 12,
+  "year": 2021,
+  "os": "iOS"
+ },
+ "apple-iphone-14-plus": {
+  "brand": "apple",
+  "name": "iPhone 14 Plus",
+  "full_name": "Apple iPhone 14 Plus",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 6,
+    "rom_gb": 128,
+    "price_rub": 49990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.7,
+   "refresh_hz": 60,
+   "battery_mah": 4325,
+   "charge_w": 20.0,
+   "weight_g": 203.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": true,
+   "ir_port": false
+  },
+  "seed_main_mp": 12,
+  "year": 2022,
+  "os": "iOS"
+ },
+ "apple-iphone-14": {
+  "brand": "apple",
+  "name": "iPhone 14",
+  "full_name": "Apple iPhone 14",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 6,
+    "rom_gb": 128,
+    "price_rub": 44990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.1,
+   "refresh_hz": 60,
+   "battery_mah": 3279,
+   "charge_w": 20.0,
+   "weight_g": 172.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": true,
+   "ir_port": false
+  },
+  "seed_main_mp": 12,
+  "year": 2022,
+  "os": "iOS"
+ },
+ "apple-iphone-15-plus": {
+  "brand": "apple",
+  "name": "iPhone 15 Plus",
+  "full_name": "Apple iPhone 15 Plus",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 6,
+    "rom_gb": 128,
+    "price_rub": 59990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.7,
+   "refresh_hz": 60,
+   "battery_mah": 4383,
+   "charge_w": 20.0,
+   "weight_g": 201.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": true,
+   "ir_port": false
+  },
+  "seed_main_mp": 48,
+  "year": 2023,
+  "os": "iOS"
+ },
+ "apple-iphone-15-pro-max": {
+  "brand": "apple",
+  "name": "iPhone 15 Pro Max",
+  "full_name": "Apple iPhone 15 Pro Max",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 8,
+    "rom_gb": 256,
+    "price_rub": 79990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.7,
+   "refresh_hz": 120,
+   "battery_mah": 4441,
+   "charge_w": 27.0,
+   "weight_g": 221.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": true,
+   "ir_port": false
+  },
+  "seed_main_mp": 48,
+  "year": 2023,
+  "os": "iOS"
+ },
+ "apple-iphone-15-pro": {
+  "brand": "apple",
+  "name": "iPhone 15 Pro",
+  "full_name": "Apple iPhone 15 Pro",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 8,
+    "rom_gb": 128,
+    "price_rub": 69990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.1,
+   "refresh_hz": 120,
+   "battery_mah": 3274,
+   "charge_w": 27.0,
+   "weight_g": 187.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": true,
+   "ir_port": false
+  },
+  "seed_main_mp": 48,
+  "year": 2023,
+  "os": "iOS"
+ },
+ "apple-iphone-15": {
+  "brand": "apple",
+  "name": "iPhone 15",
+  "full_name": "Apple iPhone 15",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 6,
+    "rom_gb": 128,
+    "price_rub": 52990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.1,
+   "refresh_hz": 60,
+   "battery_mah": 3349,
+   "charge_w": 20.0,
+   "weight_g": 171.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": true,
+   "ir_port": false
+  },
+  "seed_main_mp": 48,
+  "year": 2023,
+  "os": "iOS"
+ },
+ "apple-iphone-16-plus": {
+  "brand": "apple",
+  "name": "iPhone 16 Plus",
+  "full_name": "Apple iPhone 16 Plus",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 8,
+    "rom_gb": 128,
+    "price_rub": 71990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.7,
+   "refresh_hz": 60,
+   "battery_mah": 4674,
+   "charge_w": 25.0,
+   "weight_g": 199.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": true,
+   "ir_port": false
+  },
+  "seed_main_mp": 48,
+  "year": 2024,
+  "os": "iOS"
+ },
+ "apple-iphone-16-pro-max": {
+  "brand": "apple",
+  "name": "iPhone 16 Pro Max",
+  "full_name": "Apple iPhone 16 Pro Max",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 8,
+    "rom_gb": 256,
+    "price_rub": 94990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   },
+   {
+    "ram_gb": 8,
+    "rom_gb": 512,
+    "price_rub": 109990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": false,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.9,
+   "refresh_hz": 120,
+   "battery_mah": 4685,
+   "charge_w": 30.0,
+   "weight_g": 227.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": true,
+   "ir_port": false
+  },
+  "seed_main_mp": 48,
+  "year": 2024,
+  "os": "iOS"
+ },
+ "apple-iphone-16-pro": {
+  "brand": "apple",
+  "name": "iPhone 16 Pro",
+  "full_name": "Apple iPhone 16 Pro",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 8,
+    "rom_gb": 128,
+    "price_rub": 84990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.3,
+   "refresh_hz": 120,
+   "battery_mah": 3582,
+   "charge_w": 30.0,
+   "weight_g": 199.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": true,
+   "ir_port": false
+  },
+  "seed_main_mp": 48,
+  "year": 2024,
+  "os": "iOS"
+ },
+ "apple-iphone-16": {
+  "brand": "apple",
+  "name": "iPhone 16",
+  "full_name": "Apple iPhone 16",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 8,
+    "rom_gb": 128,
+    "price_rub": 66599,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.1,
+   "refresh_hz": 60,
+   "battery_mah": 3561,
+   "charge_w": 25.0,
+   "weight_g": 170.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": true,
+   "ir_port": false
+  },
+  "seed_main_mp": 48,
+  "year": 2024,
+  "os": "iOS"
+ },
+ "apple-iphone-16e": {
+  "brand": "apple",
+  "name": "iPhone 16e",
+  "full_name": "Apple iPhone 16e",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 8,
+    "rom_gb": 128,
+    "price_rub": 49990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.1,
+   "refresh_hz": 60,
+   "battery_mah": 4005,
+   "charge_w": 20.0,
+   "weight_g": 167.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": true,
+   "ir_port": false
+  },
+  "seed_main_mp": 48,
+  "year": 2025,
+  "os": "iOS"
+ },
+ "apple-iphone-17-pro-max": {
+  "brand": "apple",
+  "name": "iPhone 17 Pro Max",
+  "full_name": "Apple iPhone 17 Pro Max",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 12,
+    "rom_gb": 256,
+    "price_rub": 100400,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.9,
+   "refresh_hz": 120,
+   "battery_mah": 4832,
+   "charge_w": 40.0,
+   "weight_g": 233.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": true,
+   "ir_port": false
+  },
+  "seed_main_mp": 48,
+  "year": 2025,
+  "os": "iOS"
+ },
+ "apple-iphone-17-pro": {
+  "brand": "apple",
+  "name": "iPhone 17 Pro",
+  "full_name": "Apple iPhone 17 Pro",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 12,
+    "rom_gb": 256,
+    "price_rub": 97739,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   },
+   {
+    "ram_gb": 12,
+    "rom_gb": 512,
+    "price_rub": 114990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": false,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.3,
+   "refresh_hz": 120,
+   "battery_mah": 4252,
+   "charge_w": 40.0,
+   "weight_g": 206.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": true,
+   "ir_port": false
+  },
+  "seed_main_mp": 48,
+  "year": 2025,
+  "os": "iOS"
+ },
+ "apple-iphone-17": {
+  "brand": "apple",
+  "name": "iPhone 17",
+  "full_name": "Apple iPhone 17",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 8,
+    "rom_gb": 256,
+    "price_rub": 71639,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   },
+   {
+    "ram_gb": 8,
+    "rom_gb": 512,
+    "price_rub": 84990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": false,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.3,
+   "refresh_hz": 120,
+   "battery_mah": 3692,
+   "charge_w": 40.0,
+   "weight_g": 177.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": true,
+   "ir_port": false
+  },
+  "seed_main_mp": 48,
+  "year": 2025,
+  "os": "iOS"
+ },
+ "apple-iphone-17e": {
+  "brand": "apple",
+  "name": "iPhone 17e",
+  "full_name": "Apple iPhone 17e",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 8,
+    "rom_gb": 256,
+    "price_rub": 57990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.1,
+   "refresh_hz": 60,
+   "battery_mah": 4005,
+   "charge_w": 20.0,
+   "weight_g": 167.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": true,
+   "ir_port": false
+  },
+  "seed_main_mp": 48,
+  "year": 2026,
+  "os": "iOS"
+ },
+ "apple-iphone-air": {
+  "brand": "apple",
+  "name": "iPhone Air",
+  "full_name": "Apple iPhone Air",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 12,
+    "rom_gb": 256,
+    "price_rub": 74990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.5,
+   "refresh_hz": 120,
+   "battery_mah": 3149,
+   "charge_w": 20.0,
+   "weight_g": 165.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": true,
+   "ir_port": false
+  },
+  "seed_main_mp": 48,
+  "year": 2025,
+  "os": "iOS"
+ },
+ "apple-iphone-duo": {
+  "brand": "apple",
+  "name": "iPhone Duo",
+  "full_name": "Apple iPhone Duo",
+  "in_ml": false,
+  "seed_variants": [],
+  "seed_specs": {
+   "screen_in": 7.6,
+   "refresh_hz": 120,
+   "battery_mah": 5400,
+   "charge_w": 25.0,
+   "weight_g": 296.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": false
+  },
+  "seed_main_mp": 48,
+  "year": 2026,
+  "os": "iOS"
+ },
+ "apple-iphone-se-2022": {
+  "brand": "apple",
+  "name": "iPhone SE 2022",
+  "full_name": "Apple iPhone SE 2022",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 4,
+    "rom_gb": 64,
+    "price_rub": 22990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 4.7,
+   "refresh_hz": 60,
+   "battery_mah": 2018,
+   "charge_w": 20.0,
+   "weight_g": 144.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": true,
+   "ir_port": false
+  },
+  "seed_main_mp": 12,
+  "year": 2022,
+  "os": "iOS"
+ },
+ "asus-rog-phone-8": {
+  "brand": "asus",
+  "name": "ROG Phone 8",
+  "full_name": "ASUS ROG Phone 8",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 12,
+    "rom_gb": 256,
+    "price_rub": 55990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.78,
+   "refresh_hz": 165,
+   "battery_mah": 5500,
+   "charge_w": 65.0,
+   "weight_g": 225.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": false
+  },
+  "seed_main_mp": 50,
+  "year": 2024,
+  "os": "Android"
+ },
+ "asus-rog-phone-9-pro": {
+  "brand": "asus",
+  "name": "ROG Phone 9 Pro",
+  "full_name": "ASUS ROG Phone 9 Pro",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 24,
+    "rom_gb": 1024,
+    "price_rub": 87990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.78,
+   "refresh_hz": 185,
+   "battery_mah": 5800,
+   "charge_w": 65.0,
+   "weight_g": 227.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": false
+  },
+  "seed_main_mp": 50,
+  "year": 2025,
+  "os": "Android"
+ },
+ "asus-zenfone-11-ultra": {
+  "brand": "asus",
+  "name": "Zenfone 11 Ultra",
+  "full_name": "ASUS Zenfone 11 Ultra",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 12,
+    "rom_gb": 256,
+    "price_rub": 54990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.78,
+   "refresh_hz": 144,
+   "battery_mah": 5500,
+   "charge_w": 65.0,
+   "weight_g": 224.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": true,
+   "ir_port": false
+  },
+  "seed_main_mp": 50,
+  "year": 2024,
+  "os": "Android"
+ },
+ "asus-zenfone-12-ultra": {
+  "brand": "asus",
+  "name": "Zenfone 12 Ultra",
+  "full_name": "ASUS Zenfone 12 Ultra",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 12,
+    "rom_gb": 256,
+    "price_rub": 67990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.78,
+   "refresh_hz": 144,
+   "battery_mah": 5500,
+   "charge_w": 65.0,
+   "weight_g": 220.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": false
+  },
+  "seed_main_mp": 50,
+  "year": 2025,
+  "os": "Android"
+ },
+ "blackview-bv8100": {
+  "brand": "blackview",
+  "name": "BV8100",
+  "full_name": "Blackview BV8100",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 8,
+    "rom_gb": 256,
+    "price_rub": 17990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.5,
+   "refresh_hz": 90,
+   "battery_mah": 8800,
+   "charge_w": 33.0,
+   "weight_g": 375.0,
+   "has_5g": false,
+   "nfc": true,
+   "esim": false,
+   "ir_port": false
+  },
+  "seed_main_mp": 50,
+  "year": 2024,
+  "os": "Android"
+ },
+ "blackview-bv9300-pro": {
+  "brand": "blackview",
+  "name": "BV9300 Pro",
+  "full_name": "Blackview BV9300 Pro",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 12,
+    "rom_gb": 256,
+    "price_rub": 24990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.7,
+   "refresh_hz": 120,
+   "battery_mah": 15080,
+   "charge_w": 33.0,
+   "weight_g": 495.0,
+   "has_5g": false,
+   "nfc": true,
+   "esim": false,
+   "ir_port": false
+  },
+  "seed_main_mp": 64,
+  "year": 2024,
+  "os": "Android"
+ },
+ "fairphone-6": {
+  "brand": "fairphone",
+  "name": "6",
+  "full_name": "Fairphone 6",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 8,
+    "rom_gb": 256,
+    "price_rub": 57990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.31,
+   "refresh_hz": 120,
+   "battery_mah": 4415,
+   "charge_w": 30.0,
+   "weight_g": 193.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": true,
+   "ir_port": false
+  },
+  "seed_main_mp": 50,
+  "year": 2025,
+  "os": "Android"
+ },
+ "google-pixel-10-pro-fold": {
+  "brand": "google",
+  "name": "Pixel 10 Pro Fold",
+  "full_name": "Google Pixel 10 Pro Fold",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 16,
+    "rom_gb": 256,
+    "price_rub": 135990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 8.0,
+   "refresh_hz": 120,
+   "battery_mah": 5015,
+   "charge_w": 30.0,
+   "weight_g": 258.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": true,
+   "ir_port": false
+  },
+  "seed_main_mp": 48,
+  "year": 2025,
+  "os": "Android"
+ },
+ "google-pixel-10-pro-xl": {
+  "brand": "google",
+  "name": "Pixel 10 Pro XL",
+  "full_name": "Google Pixel 10 Pro XL",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 16,
+    "rom_gb": 256,
+    "price_rub": 95990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.8,
+   "refresh_hz": 120,
+   "battery_mah": 5200,
+   "charge_w": 45.0,
+   "weight_g": 232.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": true,
+   "ir_port": false
+  },
+  "seed_main_mp": 50,
+  "year": 2025,
+  "os": "Android"
+ },
+ "google-pixel-10-pro": {
+  "brand": "google",
+  "name": "Pixel 10 Pro",
+  "full_name": "Google Pixel 10 Pro",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 16,
+    "rom_gb": 128,
+    "price_rub": 83990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.3,
+   "refresh_hz": 120,
+   "battery_mah": 4870,
+   "charge_w": 30.0,
+   "weight_g": 207.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": true,
+   "ir_port": false
+  },
+  "seed_main_mp": 50,
+  "year": 2025,
+  "os": "Android"
+ },
+ "google-pixel-10": {
+  "brand": "google",
+  "name": "Pixel 10",
+  "full_name": "Google Pixel 10",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 12,
+    "rom_gb": 128,
+    "price_rub": 63990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.3,
+   "refresh_hz": 120,
+   "battery_mah": 4970,
+   "charge_w": 30.0,
+   "weight_g": 204.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": true,
+   "ir_port": false
+  },
+  "seed_main_mp": 48,
+  "year": 2025,
+  "os": "Android"
+ },
+ "google-pixel-10a": {
+  "brand": "google",
+  "name": "Pixel 10a",
+  "full_name": "Google Pixel 10a",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 8,
+    "rom_gb": 128,
+    "price_rub": 28000,
+    "price_date": "2026-11-05",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.3,
+   "refresh_hz": 120,
+   "battery_mah": 5100,
+   "charge_w": 30.0,
+   "weight_g": 183.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": true,
+   "ir_port": false
+  },
+  "seed_main_mp": 48,
+  "year": 2026,
+  "os": "Android"
+ },
+ "google-pixel-11": {
+  "brand": "google",
+  "name": "Pixel 11",
+  "full_name": "Google Pixel 11",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 12,
+    "rom_gb": 256,
+    "price_rub": 49000,
+    "price_date": "2026-11-05",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.3,
+   "refresh_hz": 120,
+   "battery_mah": 4970,
+   "charge_w": 30.0,
+   "weight_g": 200.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": true,
+   "ir_port": false
+  },
+  "seed_main_mp": 50,
+  "year": 2026,
+  "os": "Android"
+ },
+ "google-pixel-8-pro": {
+  "brand": "google",
+  "name": "Pixel 8 Pro",
+  "full_name": "Google Pixel 8 Pro",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 12,
+    "rom_gb": 128,
+    "price_rub": 50990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.7,
+   "refresh_hz": 120,
+   "battery_mah": 5050,
+   "charge_w": 30.0,
+   "weight_g": 213.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": true,
+   "ir_port": false
+  },
+  "seed_main_mp": 50,
+  "year": 2023,
+  "os": "Android"
+ },
+ "google-pixel-8": {
+  "brand": "google",
+  "name": "Pixel 8",
+  "full_name": "Google Pixel 8",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 8,
+    "rom_gb": 128,
+    "price_rub": 37990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.2,
+   "refresh_hz": 120,
+   "battery_mah": 4575,
+   "charge_w": 27.0,
+   "weight_g": 187.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": true,
+   "ir_port": false
+  },
+  "seed_main_mp": 50,
+  "year": 2023,
+  "os": "Android"
+ },
+ "google-pixel-8a": {
+  "brand": "google",
+  "name": "Pixel 8a",
+  "full_name": "Google Pixel 8a",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 8,
+    "rom_gb": 128,
+    "price_rub": 30990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.1,
+   "refresh_hz": 120,
+   "battery_mah": 4492,
+   "charge_w": 18.0,
+   "weight_g": 188.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": true,
+   "ir_port": false
+  },
+  "seed_main_mp": 64,
+  "year": 2024,
+  "os": "Android"
+ },
+ "google-pixel-9-pro-xl": {
+  "brand": "google",
+  "name": "Pixel 9 Pro XL",
+  "full_name": "Google Pixel 9 Pro XL",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 16,
+    "rom_gb": 256,
+    "price_rub": 70990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.8,
+   "refresh_hz": 120,
+   "battery_mah": 5060,
+   "charge_w": 37.0,
+   "weight_g": 221.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": true,
+   "ir_port": false
+  },
+  "seed_main_mp": 50,
+  "year": 2024,
+  "os": "Android"
+ },
+ "google-pixel-9-pro": {
+  "brand": "google",
+  "name": "Pixel 9 Pro",
+  "full_name": "Google Pixel 9 Pro",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 16,
+    "rom_gb": 128,
+    "price_rub": 63990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.3,
+   "refresh_hz": 120,
+   "battery_mah": 4700,
+   "charge_w": 27.0,
+   "weight_g": 199.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": true,
+   "ir_port": false
+  },
+  "seed_main_mp": 50,
+  "year": 2024,
+  "os": "Android"
+ },
+ "google-pixel-9": {
+  "brand": "google",
+  "name": "Pixel 9",
+  "full_name": "Google Pixel 9",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 12,
+    "rom_gb": 128,
+    "price_rub": 54990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.3,
+   "refresh_hz": 120,
+   "battery_mah": 4700,
+   "charge_w": 27.0,
+   "weight_g": 198.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": true,
+   "ir_port": false
+  },
+  "seed_main_mp": 50,
+  "year": 2024,
+  "os": "Android"
+ },
+ "google-pixel-9a": {
+  "brand": "google",
+  "name": "Pixel 9a",
+  "full_name": "Google Pixel 9a",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 8,
+    "rom_gb": 128,
+    "price_rub": 44990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.3,
+   "refresh_hz": 120,
+   "battery_mah": 5100,
+   "charge_w": 23.0,
+   "weight_g": 186.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": true,
+   "ir_port": false
+  },
+  "seed_main_mp": 48,
+  "year": 2025,
+  "os": "Android"
+ },
+ "honor-200-pro": {
+  "brand": "honor",
+  "name": "200 Pro",
+  "full_name": "Honor 200 Pro",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 12,
+    "rom_gb": 512,
+    "price_rub": 41990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.78,
+   "refresh_hz": 120,
+   "battery_mah": 5200,
+   "charge_w": 100.0,
+   "weight_g": 199.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": true
+  },
+  "seed_main_mp": 50,
+  "year": 2024,
+  "os": "Android"
+ },
+ "honor-200-smart": {
+  "brand": "honor",
+  "name": "200 Smart",
+  "full_name": "Honor 200 Smart",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 8,
+    "rom_gb": 256,
+    "price_rub": 16990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.8,
+   "refresh_hz": 120,
+   "battery_mah": 5200,
+   "charge_w": 35.0,
+   "weight_g": 192.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": false
+  },
+  "seed_main_mp": 50,
+  "year": 2024,
+  "os": "Android"
+ },
+ "honor-200": {
+  "brand": "honor",
+  "name": "200",
+  "full_name": "Honor 200",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 12,
+    "rom_gb": 256,
+    "price_rub": 30990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.7,
+   "refresh_hz": 120,
+   "battery_mah": 5200,
+   "charge_w": 100.0,
+   "weight_g": 187.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": true
+  },
+  "seed_main_mp": 50,
+  "year": 2024,
+  "os": "Android"
+ },
+ "honor-400-pro": {
+  "brand": "honor",
+  "name": "400 Pro",
+  "full_name": "Honor 400 Pro",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 12,
+    "rom_gb": 512,
+    "price_rub": 40811,
+    "price_date": "2026-11-05",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.7,
+   "refresh_hz": 120,
+   "battery_mah": 5300,
+   "charge_w": 100.0,
+   "weight_g": 205.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": true
+  },
+  "seed_main_mp": 200,
+  "year": 2025,
+  "os": "Android"
+ },
+ "honor-400": {
+  "brand": "honor",
+  "name": "400",
+  "full_name": "Honor 400",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 12,
+    "rom_gb": 256,
+    "price_rub": 39990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.55,
+   "refresh_hz": 120,
+   "battery_mah": 5300,
+   "charge_w": 66.0,
+   "weight_g": 184.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": true
+  },
+  "seed_main_mp": 200,
+  "year": 2025,
+  "os": "Android"
+ },
+ "honor-600-lite": {
+  "brand": "honor",
+  "name": "600 Lite",
+  "full_name": "Honor 600 Lite",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 8,
+    "rom_gb": 256,
+    "price_rub": 19834,
+    "price_date": "2026-11-05",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.6,
+   "refresh_hz": 120,
+   "battery_mah": 6520,
+   "charge_w": 45.0,
+   "weight_g": 180.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": false
+  },
+  "seed_main_mp": 50,
+  "year": 2026,
+  "os": "Android"
+ },
+ "honor-600-pro": {
+  "brand": "honor",
+  "name": "600 Pro",
+  "full_name": "Honor 600 Pro",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 12,
+    "rom_gb": 512,
+    "price_rub": 47000,
+    "price_date": "2026-11-05",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.57,
+   "refresh_hz": 120,
+   "battery_mah": 7000,
+   "charge_w": 80.0,
+   "weight_g": 205.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": true,
+   "ir_port": true
+  },
+  "seed_main_mp": 200,
+  "year": 2026,
+  "os": "Android"
+ },
+ "honor-600": {
+  "brand": "honor",
+  "name": "600",
+  "full_name": "Honor 600",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 8,
+    "rom_gb": 256,
+    "price_rub": 31000,
+    "price_date": "2026-11-05",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.57,
+   "refresh_hz": 120,
+   "battery_mah": 7000,
+   "charge_w": 80.0,
+   "weight_g": 190.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": true,
+   "ir_port": true
+  },
+  "seed_main_mp": 200,
+  "year": 2026,
+  "os": "Android"
+ },
+ "honor-90-lite": {
+  "brand": "honor",
+  "name": "90 Lite",
+  "full_name": "Honor 90 Lite",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 8,
+    "rom_gb": 256,
+    "price_rub": 14990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.7,
+   "refresh_hz": 90,
+   "battery_mah": 4500,
+   "charge_w": 35.0,
+   "weight_g": 179.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": false
+  },
+  "seed_main_mp": 100,
+  "year": 2023,
+  "os": "Android"
+ },
+ "honor-magic-v3": {
+  "brand": "honor",
+  "name": "Magic V3",
+  "full_name": "Honor Magic V3",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 12,
+    "rom_gb": 512,
+    "price_rub": 66808,
+    "price_date": "2026-11-05",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 7.92,
+   "refresh_hz": 120,
+   "battery_mah": 5150,
+   "charge_w": 66.0,
+   "weight_g": 226.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": true,
+   "ir_port": true
+  },
+  "seed_main_mp": 50,
+  "year": 2024,
+  "os": "Android"
+ },
+ "honor-magic-v5": {
+  "brand": "honor",
+  "name": "Magic V5",
+  "full_name": "Honor Magic V5",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 16,
+    "rom_gb": 512,
+    "price_rub": 84600,
+    "price_date": "2026-11-05",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 7.95,
+   "refresh_hz": 120,
+   "battery_mah": 5820,
+   "charge_w": 66.0,
+   "weight_g": 217.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": true,
+   "ir_port": true
+  },
+  "seed_main_mp": 50,
+  "year": 2025,
+  "os": "Android"
+ },
+ "honor-magic-v6": {
+  "brand": "honor",
+  "name": "Magic V6",
+  "full_name": "Honor Magic V6",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 16,
+    "rom_gb": 512,
+    "price_rub": 88111,
+    "price_date": "2026-11-05",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 7.95,
+   "refresh_hz": 120,
+   "battery_mah": 6600,
+   "charge_w": 80.0,
+   "weight_g": 225.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": true,
+   "ir_port": true
+  },
+  "seed_main_mp": 200,
+  "year": 2026,
+  "os": "Android"
+ },
+ "honor-magic6-pro": {
+  "brand": "honor",
+  "name": "Magic6 Pro",
+  "full_name": "Honor Magic6 Pro",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 12,
+    "rom_gb": 512,
+    "price_rub": 59990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.8,
+   "refresh_hz": 120,
+   "battery_mah": 5600,
+   "charge_w": 80.0,
+   "weight_g": 229.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": true,
+   "ir_port": true
+  },
+  "seed_main_mp": 50,
+  "year": 2024,
+  "os": "Android"
+ },
+ "honor-magic7-pro": {
+  "brand": "honor",
+  "name": "Magic7 Pro",
+  "full_name": "Honor Magic7 Pro",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 12,
+    "rom_gb": 512,
+    "price_rub": 53900,
+    "price_date": "2026-11-05",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.8,
+   "refresh_hz": 120,
+   "battery_mah": 5850,
+   "charge_w": 100.0,
+   "weight_g": 223.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": true,
+   "ir_port": true
+  },
+  "seed_main_mp": 200,
+  "year": 2025,
+  "os": "Android"
+ },
+ "honor-magic8-pro": {
+  "brand": "honor",
+  "name": "Magic8 Pro",
+  "full_name": "Honor Magic8 Pro",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 12,
+    "rom_gb": 512,
+    "price_rub": 61981,
+    "price_date": "2026-11-05",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.71,
+   "refresh_hz": 120,
+   "battery_mah": 6270,
+   "charge_w": 100.0,
+   "weight_g": 219.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": true,
+   "ir_port": true
+  },
+  "seed_main_mp": 200,
+  "year": 2026,
+  "os": "Android"
+ },
+ "honor-robot-phone": {
+  "brand": "honor",
+  "name": "Robot Phone",
+  "full_name": "Honor Robot Phone",
+  "in_ml": false,
+  "seed_variants": [],
+  "seed_specs": {
+   "screen_in": 6.8,
+   "refresh_hz": 120,
+   "battery_mah": 5400,
+   "charge_w": 66.0,
+   "weight_g": 270.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": false
+  },
+  "seed_main_mp": 200,
+  "year": 2026,
+  "os": "Android"
+ },
+ "honor-turbo": {
+  "brand": "honor",
+  "name": "Turbo",
+  "full_name": "Honor Turbo",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 8,
+    "rom_gb": 256,
+    "price_rub": 21000,
+    "price_date": "2026-11-05",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.79,
+   "refresh_hz": 120,
+   "battery_mah": 8560,
+   "charge_w": 80.0,
+   "weight_g": 205.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": true
+  },
+  "seed_main_mp": 50,
+  "year": 2026,
+  "os": "Android"
+ },
+ "honor-x6c": {
+  "brand": "honor",
+  "name": "X6c",
+  "full_name": "Honor X6c",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 6,
+    "rom_gb": 128,
+    "price_rub": 9990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.61,
+   "refresh_hz": 90,
+   "battery_mah": 6000,
+   "charge_w": 15.0,
+   "weight_g": 194.0,
+   "has_5g": false,
+   "nfc": true,
+   "esim": false,
+   "ir_port": false
+  },
+  "seed_main_mp": 50,
+  "year": 2025,
+  "os": "Android"
+ },
+ "honor-x7c": {
+  "brand": "honor",
+  "name": "X7c",
+  "full_name": "Honor X7c",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 8,
+    "rom_gb": 128,
+    "price_rub": 14990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.77,
+   "refresh_hz": 120,
+   "battery_mah": 6000,
+   "charge_w": 35.0,
+   "weight_g": 201.0,
+   "has_5g": false,
+   "nfc": true,
+   "esim": false,
+   "ir_port": false
+  },
+  "seed_main_mp": 108,
+  "year": 2025,
+  "os": "Android"
+ },
+ "honor-x8b": {
+  "brand": "honor",
+  "name": "X8b",
+  "full_name": "Honor X8b",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 8,
+    "rom_gb": 256,
+    "price_rub": 16990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.7,
+   "refresh_hz": 90,
+   "battery_mah": 4500,
+   "charge_w": 35.0,
+   "weight_g": 166.0,
+   "has_5g": false,
+   "nfc": true,
+   "esim": false,
+   "ir_port": false
+  },
+  "seed_main_mp": 108,
+  "year": 2024,
+  "os": "Android"
+ },
+ "honor-x8c": {
+  "brand": "honor",
+  "name": "X8c",
+  "full_name": "Honor X8c",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 8,
+    "rom_gb": 256,
+    "price_rub": 20990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.7,
+   "refresh_hz": 120,
+   "battery_mah": 5800,
+   "charge_w": 35.0,
+   "weight_g": 177.0,
+   "has_5g": false,
+   "nfc": true,
+   "esim": false,
+   "ir_port": false
+  },
+  "seed_main_mp": 108,
+  "year": 2025,
+  "os": "Android"
+ },
+ "honor-x9b": {
+  "brand": "honor",
+  "name": "X9b",
+  "full_name": "Honor X9b",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 12,
+    "rom_gb": 256,
+    "price_rub": 21990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.78,
+   "refresh_hz": 120,
+   "battery_mah": 5800,
+   "charge_w": 35.0,
+   "weight_g": 185.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": false
+  },
+  "seed_main_mp": 108,
+  "year": 2024,
+  "os": "Android"
+ },
+ "honor-x9c": {
+  "brand": "honor",
+  "name": "X9c",
+  "full_name": "Honor X9c",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 8,
+    "rom_gb": 256,
+    "price_rub": 29990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.78,
+   "refresh_hz": 120,
+   "battery_mah": 6600,
+   "charge_w": 66.0,
+   "weight_g": 189.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": false
+  },
+  "seed_main_mp": 108,
+  "year": 2025,
+  "os": "Android"
+ },
+ "honor-x9d": {
+  "brand": "honor",
+  "name": "X9d",
+  "full_name": "Honor X9d",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 12,
+    "rom_gb": 256,
+    "price_rub": 22998,
+    "price_date": "2026-11-05",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.79,
+   "refresh_hz": 120,
+   "battery_mah": 8300,
+   "charge_w": 66.0,
+   "weight_g": 196.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": false
+  },
+  "seed_main_mp": 108,
+  "year": 2025,
+  "os": "Android"
+ },
+ "honor-x9e-pro": {
+  "brand": "honor",
+  "name": "X9e Pro",
+  "full_name": "Honor X9e Pro",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 6,
+    "rom_gb": 256,
+    "price_rub": 29000,
+    "price_date": "2026-11-05",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.8,
+   "refresh_hz": 120,
+   "battery_mah": 11000,
+   "charge_w": 80.0,
+   "weight_g": 215.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": false
+  },
+  "seed_main_mp": 108,
+  "year": 2026,
+  "os": "Android"
+ },
+ "lenovo-legion-y70-2026": {
+  "brand": "lenovo",
+  "name": "Legion Y70 (2026)",
+  "full_name": "Lenovo Legion Y70 (2026)",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 12,
+    "rom_gb": 256,
+    "price_rub": 28000,
+    "price_date": "2026-11-05",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.82,
+   "refresh_hz": 144,
+   "battery_mah": 8000,
+   "charge_w": 90.0,
+   "weight_g": 210.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": false
+  },
+  "seed_main_mp": 50,
+  "year": 2026,
+  "os": "Android"
+ },
+ "motorola-edge-50-neo": {
+  "brand": "motorola",
+  "name": "edge 50 neo",
+  "full_name": "motorola edge 50 neo",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 12,
+    "rom_gb": 512,
+    "price_rub": 24990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.4,
+   "refresh_hz": 120,
+   "battery_mah": 4310,
+   "charge_w": 68.0,
+   "weight_g": 171.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": true,
+   "ir_port": false
+  },
+  "seed_main_mp": 50,
+  "year": 2024,
+  "os": "Android"
+ },
+ "motorola-edge-50-ultra": {
+  "brand": "motorola",
+  "name": "edge 50 ultra",
+  "full_name": "motorola edge 50 ultra",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 12,
+    "rom_gb": 512,
+    "price_rub": 41990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.7,
+   "refresh_hz": 144,
+   "battery_mah": 4500,
+   "charge_w": 125.0,
+   "weight_g": 197.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": true,
+   "ir_port": false
+  },
+  "seed_main_mp": 50,
+  "year": 2024,
+  "os": "Android"
+ },
+ "motorola-edge-60-fusion": {
+  "brand": "motorola",
+  "name": "edge 60 fusion",
+  "full_name": "motorola edge 60 fusion",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 8,
+    "rom_gb": 256,
+    "price_rub": 30990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.67,
+   "refresh_hz": 120,
+   "battery_mah": 5500,
+   "charge_w": 68.0,
+   "weight_g": 180.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": false
+  },
+  "seed_main_mp": 50,
+  "year": 2025,
+  "os": "Android"
+ },
+ "motorola-edge-60-pro": {
+  "brand": "motorola",
+  "name": "edge 60 Pro",
+  "full_name": "motorola edge 60 Pro",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 12,
+    "rom_gb": 256,
+    "price_rub": 44990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.7,
+   "refresh_hz": 120,
+   "battery_mah": 6000,
+   "charge_w": 90.0,
+   "weight_g": 186.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": true,
+   "ir_port": false
+  },
+  "seed_main_mp": 50,
+  "year": 2025,
+  "os": "Android"
+ },
+ "motorola-edge-60": {
+  "brand": "motorola",
+  "name": "edge 60",
+  "full_name": "motorola edge 60",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 8,
+    "rom_gb": 256,
+    "price_rub": 18000,
+    "price_date": "2026-11-05",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.67,
+   "refresh_hz": 120,
+   "battery_mah": 5200,
+   "charge_w": 68.0,
+   "weight_g": 179.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": false
+  },
+  "seed_main_mp": 50,
+  "year": 2025,
+  "os": "Android"
+ },
+ "motorola-edge-70-fusion": {
+  "brand": "motorola",
+  "name": "edge 70 fusion",
+  "full_name": "motorola edge 70 fusion",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 8,
+    "rom_gb": 256,
+    "price_rub": 20406,
+    "price_date": "2026-11-05",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.7,
+   "refresh_hz": 120,
+   "battery_mah": 5500,
+   "charge_w": 68.0,
+   "weight_g": 180.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": false
+  },
+  "seed_main_mp": 50,
+  "year": 2026,
+  "os": "Android"
+ },
+ "motorola-edge-70-pro": {
+  "brand": "motorola",
+  "name": "edge 70 pro",
+  "full_name": "motorola edge 70 pro",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 12,
+    "rom_gb": 512,
+    "price_rub": 42925,
+    "price_date": "2026-11-05",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.7,
+   "refresh_hz": 144,
+   "battery_mah": 6000,
+   "charge_w": 90.0,
+   "weight_g": 190.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": true,
+   "ir_port": false
+  },
+  "seed_main_mp": 50,
+  "year": 2026,
+  "os": "Android"
+ },
+ "motorola-moto-g05": {
+  "brand": "motorola",
+  "name": "moto g05",
+  "full_name": "Motorola moto g05",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 4,
+    "rom_gb": 128,
+    "price_rub": 8990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.67,
+   "refresh_hz": 90,
+   "battery_mah": 5200,
+   "charge_w": 18.0,
+   "weight_g": 188.0,
+   "has_5g": false,
+   "nfc": false,
+   "esim": false,
+   "ir_port": false
+  },
+  "seed_main_mp": 50,
+  "year": 2025,
+  "os": "Android"
+ },
+ "motorola-moto-g100s": {
+  "brand": "motorola",
+  "name": "moto g100s",
+  "full_name": "Motorola moto g100s",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 8,
+    "rom_gb": 128,
+    "price_rub": 11000,
+    "price_date": "2026-11-05",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.72,
+   "refresh_hz": 120,
+   "battery_mah": 7000,
+   "charge_w": 30.0,
+   "weight_g": 210.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": false
+  },
+  "seed_main_mp": 50,
+  "year": 2026,
+  "os": "Android"
+ },
+ "motorola-moto-g34": {
+  "brand": "motorola",
+  "name": "moto g34",
+  "full_name": "Motorola moto g34",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 8,
+    "rom_gb": 128,
+    "price_rub": 12990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.5,
+   "refresh_hz": 120,
+   "battery_mah": 5000,
+   "charge_w": 20.0,
+   "weight_g": 180.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": false
+  },
+  "seed_main_mp": 50,
+  "year": 2024,
+  "os": "Android"
+ },
+ "motorola-moto-g56": {
+  "brand": "motorola",
+  "name": "moto g56",
+  "full_name": "Motorola moto g56",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 8,
+    "rom_gb": 256,
+    "price_rub": 18990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.72,
+   "refresh_hz": 120,
+   "battery_mah": 5200,
+   "charge_w": 30.0,
+   "weight_g": 200.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": false
+  },
+  "seed_main_mp": 50,
+  "year": 2025,
+  "os": "Android"
+ },
+ "motorola-moto-g85": {
+  "brand": "motorola",
+  "name": "moto g85",
+  "full_name": "Motorola moto g85",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 8,
+    "rom_gb": 256,
+    "price_rub": 19990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.67,
+   "refresh_hz": 120,
+   "battery_mah": 5000,
+   "charge_w": 30.0,
+   "weight_g": 172.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": false
+  },
+  "seed_main_mp": 50,
+  "year": 2024,
+  "os": "Android"
+ },
+ "motorola-moto-g86": {
+  "brand": "motorola",
+  "name": "moto g86",
+  "full_name": "Motorola moto g86",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 8,
+    "rom_gb": 256,
+    "price_rub": 23990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.67,
+   "refresh_hz": 120,
+   "battery_mah": 5200,
+   "charge_w": 30.0,
+   "weight_g": 185.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": false
+  },
+  "seed_main_mp": 50,
+  "year": 2025,
+  "os": "Android"
+ },
+ "motorola-razr-50": {
+  "brand": "motorola",
+  "name": "razr 50",
+  "full_name": "Motorola razr 50",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 8,
+    "rom_gb": 256,
+    "price_rub": 50990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.9,
+   "refresh_hz": 120,
+   "battery_mah": 4200,
+   "charge_w": 30.0,
+   "weight_g": 188.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": true,
+   "ir_port": false
+  },
+  "seed_main_mp": 50,
+  "year": 2024,
+  "os": "Android"
+ },
+ "motorola-razr-60-ultra": {
+  "brand": "motorola",
+  "name": "razr 60 ultra",
+  "full_name": "Motorola razr 60 ultra",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 16,
+    "rom_gb": 512,
+    "price_rub": 79990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 7.0,
+   "refresh_hz": 165,
+   "battery_mah": 4700,
+   "charge_w": 68.0,
+   "weight_g": 199.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": true,
+   "ir_port": false
+  },
+  "seed_main_mp": 50,
+  "year": 2025,
+  "os": "Android"
+ },
+ "motorola-razr-60": {
+  "brand": "motorola",
+  "name": "razr 60",
+  "full_name": "Motorola razr 60",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 8,
+    "rom_gb": 256,
+    "price_rub": 31529,
+    "price_date": "2026-11-05",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.96,
+   "refresh_hz": 120,
+   "battery_mah": 4500,
+   "charge_w": 30.0,
+   "weight_g": 188.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": true,
+   "ir_port": false
+  },
+  "seed_main_mp": 50,
+  "year": 2025,
+  "os": "Android"
+ },
+ "motorola-x70-air": {
+  "brand": "motorola",
+  "name": "X70 Air",
+  "full_name": "motorola X70 Air",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 12,
+    "rom_gb": 256,
+    "price_rub": 22700,
+    "price_date": "2026-11-05",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.7,
+   "refresh_hz": 120,
+   "battery_mah": 4800,
+   "charge_w": 68.0,
+   "weight_g": 159.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": false
+  },
+  "seed_main_mp": 50,
+  "year": 2026,
+  "os": "Android"
+ },
+ "nothing-cmf-phone-1": {
+  "brand": "nothing",
+  "name": "CMF Phone 1",
+  "full_name": "Nothing CMF Phone 1",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 6,
+    "rom_gb": 128,
+    "price_rub": 15990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.67,
+   "refresh_hz": 120,
+   "battery_mah": 5000,
+   "charge_w": 33.0,
+   "weight_g": 197.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": false
+  },
+  "seed_main_mp": 50,
+  "year": 2024,
+  "os": "Android"
+ },
+ "nothing-cmf-phone-2-pro-lite": {
+  "brand": "nothing",
+  "name": "CMF Phone 2 Pro Lite",
+  "full_name": "Nothing CMF Phone 2 Pro Lite",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 6,
+    "rom_gb": 128,
+    "price_rub": 17990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.77,
+   "refresh_hz": 120,
+   "battery_mah": 5000,
+   "charge_w": 33.0,
+   "weight_g": 185.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": false
+  },
+  "seed_main_mp": 50,
+  "year": 2025,
+  "os": "Android"
+ },
+ "nothing-cmf-phone-2-pro": {
+  "brand": "nothing",
+  "name": "CMF Phone 2 Pro",
+  "full_name": "Nothing CMF Phone 2 Pro",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 8,
+    "rom_gb": 256,
+    "price_rub": 23990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.77,
+   "refresh_hz": 120,
+   "battery_mah": 5000,
+   "charge_w": 33.0,
+   "weight_g": 185.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": false
+  },
+  "seed_main_mp": 50,
+  "year": 2025,
+  "os": "Android"
+ },
+ "nothing-phone-2": {
+  "brand": "nothing",
+  "name": "Phone (2)",
+  "full_name": "Nothing Phone (2)",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 12,
+    "rom_gb": 256,
+    "price_rub": 33990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.7,
+   "refresh_hz": 120,
+   "battery_mah": 4700,
+   "charge_w": 45.0,
+   "weight_g": 201.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": false
+  },
+  "seed_main_mp": 50,
+  "year": 2023,
+  "os": "Android"
+ },
+ "nothing-phone-2a": {
+  "brand": "nothing",
+  "name": "Phone (2a)",
+  "full_name": "Nothing Phone (2a)",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 8,
+    "rom_gb": 128,
+    "price_rub": 22990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.7,
+   "refresh_hz": 120,
+   "battery_mah": 5000,
+   "charge_w": 45.0,
+   "weight_g": 190.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": false
+  },
+  "seed_main_mp": 50,
+  "year": 2024,
+  "os": "Android"
+ },
+ "nothing-phone-3": {
+  "brand": "nothing",
+  "name": "Phone (3)",
+  "full_name": "Nothing Phone (3)",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 12,
+    "rom_gb": 256,
+    "price_rub": 31593,
+    "price_date": "2026-11-05",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.67,
+   "refresh_hz": 120,
+   "battery_mah": 5150,
+   "charge_w": 65.0,
+   "weight_g": 218.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": true,
+   "ir_port": false
+  },
+  "seed_main_mp": 50,
+  "year": 2025,
+  "os": "Android"
+ },
+ "nothing-phone-3a-lite": {
+  "brand": "nothing",
+  "name": "Phone (3a) Lite",
+  "full_name": "Nothing Phone (3a) Lite",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 8,
+    "rom_gb": 128,
+    "price_rub": 21489,
+    "price_date": "2026-11-05",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.77,
+   "refresh_hz": 120,
+   "battery_mah": 5000,
+   "charge_w": 33.0,
+   "weight_g": 199.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": false
+  },
+  "seed_main_mp": 50,
+  "year": 2025,
+  "os": "Android"
+ },
+ "nothing-phone-3a-pro": {
+  "brand": "nothing",
+  "name": "Phone (3a) Pro",
+  "full_name": "Nothing Phone (3a) Pro",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 12,
+    "rom_gb": 256,
+    "price_rub": 26365,
+    "price_date": "2026-11-05",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.77,
+   "refresh_hz": 120,
+   "battery_mah": 5000,
+   "charge_w": 50.0,
+   "weight_g": 211.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": false
+  },
+  "seed_main_mp": 50,
+  "year": 2025,
+  "os": "Android"
+ },
+ "nothing-phone-3a": {
+  "brand": "nothing",
+  "name": "Phone (3a)",
+  "full_name": "Nothing Phone (3a)",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 8,
+    "rom_gb": 256,
+    "price_rub": 22300,
+    "price_date": "2026-11-05",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.77,
+   "refresh_hz": 120,
+   "battery_mah": 5000,
+   "charge_w": 50.0,
+   "weight_g": 201.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": false
+  },
+  "seed_main_mp": 50,
+  "year": 2025,
+  "os": "Android"
+ },
+ "nothing-phone-4a-pro": {
+  "brand": "nothing",
+  "name": "Phone (4a) Pro",
+  "full_name": "Nothing Phone (4a) Pro",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 12,
+    "rom_gb": 256,
+    "price_rub": 38503,
+    "price_date": "2026-11-05",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.83,
+   "refresh_hz": 144,
+   "battery_mah": 5080,
+   "charge_w": 50.0,
+   "weight_g": 210.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": false
+  },
+  "seed_main_mp": 50,
+  "year": 2026,
+  "os": "Android"
+ },
+ "nothing-phone-4a": {
+  "brand": "nothing",
+  "name": "Phone (4a)",
+  "full_name": "Nothing Phone (4a)",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 8,
+    "rom_gb": 128,
+    "price_rub": 28786,
+    "price_date": "2026-11-05",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.78,
+   "refresh_hz": 120,
+   "battery_mah": 5080,
+   "charge_w": 50.0,
+   "weight_g": 205.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": false
+  },
+  "seed_main_mp": 50,
+  "year": 2026,
+  "os": "Android"
+ },
+ "nothing-phone-4b": {
+  "brand": "nothing",
+  "name": "Phone (4b)",
+  "full_name": "Nothing Phone (4b)",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 8,
+    "rom_gb": 128,
+    "price_rub": 24866,
+    "price_date": "2026-11-05",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.77,
+   "refresh_hz": 120,
+   "battery_mah": 5000,
+   "charge_w": 45.0,
+   "weight_g": 200.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": false
+  },
+  "seed_main_mp": 50,
+  "year": 2026,
+  "os": "Android"
+ },
+ "nubia-z70-ultra": {
+  "brand": "nubia",
+  "name": "Z70 Ultra",
+  "full_name": "nubia Z70 Ultra",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 16,
+    "rom_gb": 512,
+    "price_rub": 36835,
+    "price_date": "2026-11-05",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.85,
+   "refresh_hz": 144,
+   "battery_mah": 6150,
+   "charge_w": 80.0,
+   "weight_g": 247.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": false
+  },
+  "seed_main_mp": 50,
+  "year": 2025,
+  "os": "Android"
+ },
+ "nubia-z70s-ultra": {
+  "brand": "nubia",
+  "name": "Z70S Ultra",
+  "full_name": "nubia Z70S Ultra",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 12,
+    "rom_gb": 256,
+    "price_rub": 36927,
+    "price_date": "2026-11-05",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.85,
+   "refresh_hz": 144,
+   "battery_mah": 6600,
+   "charge_w": 80.0,
+   "weight_g": 240.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": false
+  },
+  "seed_main_mp": 50,
+  "year": 2025,
+  "os": "Android"
+ },
+ "nubia-z80-ultra": {
+  "brand": "nubia",
+  "name": "Z80 Ultra",
+  "full_name": "nubia Z80 Ultra",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 16,
+    "rom_gb": 512,
+    "price_rub": 49439,
+    "price_date": "2026-11-05",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.85,
+   "refresh_hz": 144,
+   "battery_mah": 7200,
+   "charge_w": 90.0,
+   "weight_g": 230.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": false
+  },
+  "seed_main_mp": 50,
+  "year": 2026,
+  "os": "Android"
+ },
+ "oneplus-12": {
+  "brand": "oneplus",
+  "name": "12",
+  "full_name": "OnePlus 12",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 12,
+    "rom_gb": 256,
+    "price_rub": 50990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.82,
+   "refresh_hz": 120,
+   "battery_mah": 5400,
+   "charge_w": 80.0,
+   "weight_g": 220.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": true
+  },
+  "seed_main_mp": 50,
+  "year": 2024,
+  "os": "Android"
+ },
+ "oneplus-12r": {
+  "brand": "oneplus",
+  "name": "12R",
+  "full_name": "OnePlus 12R",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 8,
+    "rom_gb": 128,
+    "price_rub": 33990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.78,
+   "refresh_hz": 120,
+   "battery_mah": 5500,
+   "charge_w": 80.0,
+   "weight_g": 207.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": true
+  },
+  "seed_main_mp": 50,
+  "year": 2024,
+  "os": "Android"
+ },
+ "oneplus-13": {
+  "brand": "oneplus",
+  "name": "13",
+  "full_name": "OnePlus 13",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 12,
+    "rom_gb": 256,
+    "price_rub": 63990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.82,
+   "refresh_hz": 120,
+   "battery_mah": 6000,
+   "charge_w": 100.0,
+   "weight_g": 213.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": true,
+   "ir_port": true
+  },
+  "seed_main_mp": 50,
+  "year": 2025,
+  "os": "Android"
+ },
+ "oneplus-13r": {
+  "brand": "oneplus",
+  "name": "13R",
+  "full_name": "OnePlus 13R",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 12,
+    "rom_gb": 256,
+    "price_rub": 48990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.78,
+   "refresh_hz": 120,
+   "battery_mah": 6000,
+   "charge_w": 80.0,
+   "weight_g": 206.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": true
+  },
+  "seed_main_mp": 50,
+  "year": 2025,
+  "os": "Android"
+ },
+ "oneplus-13s": {
+  "brand": "oneplus",
+  "name": "13s",
+  "full_name": "OnePlus 13s",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 16,
+    "rom_gb": 512,
+    "price_rub": 37728,
+    "price_date": "2026-11-05",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.32,
+   "refresh_hz": 120,
+   "battery_mah": 5850,
+   "charge_w": 80.0,
+   "weight_g": 189.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": true
+  },
+  "seed_main_mp": 50,
+  "year": 2025,
+  "os": "Android"
+ },
+ "oneplus-15": {
+  "brand": "oneplus",
+  "name": "15",
+  "full_name": "OnePlus 15",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 12,
+    "rom_gb": 256,
+    "price_rub": 57000,
+    "price_date": "2026-11-05",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.78,
+   "refresh_hz": 165,
+   "battery_mah": 7300,
+   "charge_w": 80.0,
+   "weight_g": 211.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": true,
+   "ir_port": true
+  },
+  "seed_main_mp": 50,
+  "year": 2025,
+  "os": "Android"
+ },
+ "oneplus-15r": {
+  "brand": "oneplus",
+  "name": "15R",
+  "full_name": "OnePlus 15R",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 12,
+    "rom_gb": 256,
+    "price_rub": 40000,
+    "price_date": "2026-11-05",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.83,
+   "refresh_hz": 165,
+   "battery_mah": 7400,
+   "charge_w": 80.0,
+   "weight_g": 213.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": true
+  },
+  "seed_main_mp": 50,
+  "year": 2026,
+  "os": "Android"
+ },
+ "oneplus-15t": {
+  "brand": "oneplus",
+  "name": "15T",
+  "full_name": "OnePlus 15T",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 12,
+    "rom_gb": 256,
+    "price_rub": 38368,
+    "price_date": "2026-11-05",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.32,
+   "refresh_hz": 165,
+   "battery_mah": 7500,
+   "charge_w": 100.0,
+   "weight_g": 195.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": true
+  },
+  "seed_main_mp": 50,
+  "year": 2026,
+  "os": "Android"
+ },
+ "oneplus-16": {
+  "brand": "oneplus",
+  "name": "16",
+  "full_name": "OnePlus 16",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 12,
+    "rom_gb": 256,
+    "price_rub": 62900,
+    "price_date": "2026-11-05",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.78,
+   "refresh_hz": 185,
+   "battery_mah": 9000,
+   "charge_w": 100.0,
+   "weight_g": 220.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": true
+  },
+  "seed_main_mp": 200,
+  "year": 2026,
+  "os": "Android"
+ },
+ "oneplus-ace-6t": {
+  "brand": "oneplus",
+  "name": "Ace 6T",
+  "full_name": "OnePlus Ace 6T",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 12,
+    "rom_gb": 256,
+    "price_rub": 26721,
+    "price_date": "2026-11-05",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.83,
+   "refresh_hz": 165,
+   "battery_mah": 8300,
+   "charge_w": 100.0,
+   "weight_g": 213.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": true
+  },
+  "seed_main_mp": 50,
+  "year": 2026,
+  "os": "Android"
+ },
+ "oneplus-nord-4": {
+  "brand": "oneplus",
+  "name": "Nord 4",
+  "full_name": "OnePlus Nord 4",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 8,
+    "rom_gb": 256,
+    "price_rub": 27990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.74,
+   "refresh_hz": 120,
+   "battery_mah": 5500,
+   "charge_w": 100.0,
+   "weight_g": 199.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": false
+  },
+  "seed_main_mp": 50,
+  "year": 2024,
+  "os": "Android"
+ },
+ "oneplus-nord-5": {
+  "brand": "oneplus",
+  "name": "Nord 5",
+  "full_name": "OnePlus Nord 5",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 8,
+    "rom_gb": 256,
+    "price_rub": 25100,
+    "price_date": "2026-11-05",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.83,
+   "refresh_hz": 144,
+   "battery_mah": 6800,
+   "charge_w": 80.0,
+   "weight_g": 211.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": false
+  },
+  "seed_main_mp": 50,
+  "year": 2025,
+  "os": "Android"
+ },
+ "oneplus-nord-6": {
+  "brand": "oneplus",
+  "name": "Nord 6",
+  "full_name": "OnePlus Nord 6",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 12,
+    "rom_gb": 256,
+    "price_rub": 30355,
+    "price_date": "2026-11-05",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.78,
+   "refresh_hz": 165,
+   "battery_mah": 7800,
+   "charge_w": 80.0,
+   "weight_g": 210.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": false
+  },
+  "seed_main_mp": 50,
+  "year": 2026,
+  "os": "Android"
+ },
+ "oneplus-nord-ce4-lite": {
+  "brand": "oneplus",
+  "name": "Nord CE4 Lite",
+  "full_name": "OnePlus Nord CE4 Lite",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 8,
+    "rom_gb": 128,
+    "price_rub": 17990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.67,
+   "refresh_hz": 120,
+   "battery_mah": 5110,
+   "charge_w": 80.0,
+   "weight_g": 191.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": false
+  },
+  "seed_main_mp": 50,
+  "year": 2024,
+  "os": "Android"
+ },
+ "oneplus-nord-ce5": {
+  "brand": "oneplus",
+  "name": "Nord CE5",
+  "full_name": "OnePlus Nord CE5",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 8,
+    "rom_gb": 256,
+    "price_rub": 19785,
+    "price_date": "2026-11-05",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.77,
+   "refresh_hz": 120,
+   "battery_mah": 7100,
+   "charge_w": 80.0,
+   "weight_g": 199.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": false
+  },
+  "seed_main_mp": 50,
+  "year": 2025,
+  "os": "Android"
+ },
+ "oneplus-nord-ce6": {
+  "brand": "oneplus",
+  "name": "Nord CE6",
+  "full_name": "OnePlus Nord CE6",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 8,
+    "rom_gb": 256,
+    "price_rub": 24384,
+    "price_date": "2026-11-05",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.78,
+   "refresh_hz": 144,
+   "battery_mah": 8000,
+   "charge_w": 80.0,
+   "weight_g": 205.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": false
+  },
+  "seed_main_mp": 50,
+  "year": 2026,
+  "os": "Android"
+ },
+ "oppo-a3x": {
+  "brand": "oppo",
+  "name": "A3x",
+  "full_name": "OPPO A3x",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 4,
+    "rom_gb": 128,
+    "price_rub": 9990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.67,
+   "refresh_hz": 90,
+   "battery_mah": 5100,
+   "charge_w": 45.0,
+   "weight_g": 186.0,
+   "has_5g": false,
+   "nfc": false,
+   "esim": false,
+   "ir_port": false
+  },
+  "seed_main_mp": 8,
+  "year": 2024,
+  "os": "Android"
+ },
+ "oppo-a5-pro": {
+  "brand": "oppo",
+  "name": "A5 Pro",
+  "full_name": "OPPO A5 Pro",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 8,
+    "rom_gb": 256,
+    "price_rub": 20990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.67,
+   "refresh_hz": 120,
+   "battery_mah": 5800,
+   "charge_w": 45.0,
+   "weight_g": 195.0,
+   "has_5g": false,
+   "nfc": true,
+   "esim": false,
+   "ir_port": false
+  },
+  "seed_main_mp": 50,
+  "year": 2025,
+  "os": "Android"
+ },
+ "oppo-a6-pro-4g": {
+  "brand": "oppo",
+  "name": "A6 Pro 4G",
+  "full_name": "OPPO A6 Pro 4G",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 8,
+    "rom_gb": 256,
+    "price_rub": 16774,
+    "price_date": "2026-11-05",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.67,
+   "refresh_hz": 120,
+   "battery_mah": 7000,
+   "charge_w": 45.0,
+   "weight_g": 205.0,
+   "has_5g": false,
+   "nfc": true,
+   "esim": false,
+   "ir_port": false
+  },
+  "seed_main_mp": 50,
+  "year": 2026,
+  "os": "Android"
+ },
+ "oppo-a80": {
+  "brand": "oppo",
+  "name": "A80",
+  "full_name": "OPPO A80",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 8,
+    "rom_gb": 256,
+    "price_rub": 17990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.67,
+   "refresh_hz": 120,
+   "battery_mah": 5000,
+   "charge_w": 45.0,
+   "weight_g": 186.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": false
+  },
+  "seed_main_mp": 50,
+  "year": 2024,
+  "os": "Android"
+ },
+ "oppo-find-n3-flip": {
+  "brand": "oppo",
+  "name": "Find N3 Flip",
+  "full_name": "OPPO Find N3 Flip",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 12,
+    "rom_gb": 256,
+    "price_rub": 58990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.8,
+   "refresh_hz": 120,
+   "battery_mah": 4300,
+   "charge_w": 44.0,
+   "weight_g": 198.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": true,
+   "ir_port": false
+  },
+  "seed_main_mp": 50,
+  "year": 2023,
+  "os": "Android"
+ },
+ "oppo-find-x10-pro-max": {
+  "brand": "oppo",
+  "name": "Find X10 Pro Max",
+  "full_name": "OPPO Find X10 Pro Max",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 16,
+    "rom_gb": 512,
+    "price_rub": 95900,
+    "price_date": "2026-11-05",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.78,
+   "refresh_hz": 144,
+   "battery_mah": 8000,
+   "charge_w": 80.0,
+   "weight_g": 225.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": true,
+   "ir_port": true
+  },
+  "seed_main_mp": 200,
+  "year": 2026,
+  "os": "Android"
+ },
+ "oppo-find-x10": {
+  "brand": "oppo",
+  "name": "Find X10",
+  "full_name": "OPPO Find X10",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 12,
+    "rom_gb": 256,
+    "price_rub": 68900,
+    "price_date": "2026-11-05",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.59,
+   "refresh_hz": 144,
+   "battery_mah": 8000,
+   "charge_w": 80.0,
+   "weight_g": 205.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": true,
+   "ir_port": true
+  },
+  "seed_main_mp": 200,
+  "year": 2026,
+  "os": "Android"
+ },
+ "oppo-find-x8-pro": {
+  "brand": "oppo",
+  "name": "Find X8 Pro",
+  "full_name": "OPPO Find X8 Pro",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 16,
+    "rom_gb": 512,
+    "price_rub": 83990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.78,
+   "refresh_hz": 120,
+   "battery_mah": 5910,
+   "charge_w": 80.0,
+   "weight_g": 215.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": true,
+   "ir_port": true
+  },
+  "seed_main_mp": 50,
+  "year": 2025,
+  "os": "Android"
+ },
+ "oppo-find-x9-pro": {
+  "brand": "oppo",
+  "name": "Find X9 Pro",
+  "full_name": "OPPO Find X9 Pro",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 16,
+    "rom_gb": 512,
+    "price_rub": 52702,
+    "price_date": "2026-11-05",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.78,
+   "refresh_hz": 120,
+   "battery_mah": 7500,
+   "charge_w": 80.0,
+   "weight_g": 224.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": true,
+   "ir_port": true
+  },
+  "seed_main_mp": 200,
+  "year": 2026,
+  "os": "Android"
+ },
+ "oppo-find-x9-ultra": {
+  "brand": "oppo",
+  "name": "Find X9 Ultra",
+  "full_name": "OPPO Find X9 Ultra",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 12,
+    "rom_gb": 256,
+    "price_rub": 95730,
+    "price_date": "2026-11-05",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.82,
+   "refresh_hz": 144,
+   "battery_mah": 7050,
+   "charge_w": 100.0,
+   "weight_g": 235.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": true,
+   "ir_port": true
+  },
+  "seed_main_mp": 200,
+  "year": 2026,
+  "os": "Android"
+ },
+ "oppo-find-x9": {
+  "brand": "oppo",
+  "name": "Find X9",
+  "full_name": "OPPO Find X9",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 12,
+    "rom_gb": 256,
+    "price_rub": 69990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.59,
+   "refresh_hz": 120,
+   "battery_mah": 7025,
+   "charge_w": 80.0,
+   "weight_g": 203.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": true,
+   "ir_port": true
+  },
+  "seed_main_mp": 50,
+  "year": 2026,
+  "os": "Android"
+ },
+ "oppo-find-x9s-pro": {
+  "brand": "oppo",
+  "name": "Find X9s Pro",
+  "full_name": "OPPO Find X9s Pro",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 12,
+    "rom_gb": 256,
+    "price_rub": 48400,
+    "price_date": "2026-11-05",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.32,
+   "refresh_hz": 144,
+   "battery_mah": 7000,
+   "charge_w": 80.0,
+   "weight_g": 195.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": true
+  },
+  "seed_main_mp": 200,
+  "year": 2026,
+  "os": "Android"
+ },
+ "oppo-k13-turbo-pro": {
+  "brand": "oppo",
+  "name": "K13 Turbo Pro",
+  "full_name": "OPPO K13 Turbo Pro",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 12,
+    "rom_gb": 256,
+    "price_rub": 30353,
+    "price_date": "2026-11-05",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.8,
+   "refresh_hz": 144,
+   "battery_mah": 7000,
+   "charge_w": 80.0,
+   "weight_g": 210.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": true
+  },
+  "seed_main_mp": 50,
+  "year": 2025,
+  "os": "Android"
+ },
+ "oppo-k15-pro-plus": {
+  "brand": "oppo",
+  "name": "K15 Pro+",
+  "full_name": "OPPO K15 Pro+",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 12,
+    "rom_gb": 512,
+    "price_rub": 47641,
+    "price_date": "2026-11-05",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.78,
+   "refresh_hz": 144,
+   "battery_mah": 7500,
+   "charge_w": 100.0,
+   "weight_g": 215.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": true
+  },
+  "seed_main_mp": 50,
+  "year": 2026,
+  "os": "Android"
+ },
+ "oppo-reno12-pro": {
+  "brand": "oppo",
+  "name": "Reno12 Pro",
+  "full_name": "OPPO Reno12 Pro",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 12,
+    "rom_gb": 512,
+    "price_rub": 37990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.7,
+   "refresh_hz": 120,
+   "battery_mah": 5000,
+   "charge_w": 80.0,
+   "weight_g": 180.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": true
+  },
+  "seed_main_mp": 50,
+  "year": 2024,
+  "os": "Android"
+ },
+ "oppo-reno12": {
+  "brand": "oppo",
+  "name": "Reno12",
+  "full_name": "OPPO Reno12",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 12,
+    "rom_gb": 256,
+    "price_rub": 30990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.7,
+   "refresh_hz": 120,
+   "battery_mah": 5000,
+   "charge_w": 80.0,
+   "weight_g": 177.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": true
+  },
+  "seed_main_mp": 50,
+  "year": 2024,
+  "os": "Android"
+ },
+ "oppo-reno14-f": {
+  "brand": "oppo",
+  "name": "Reno14 F",
+  "full_name": "OPPO Reno14 F",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 8,
+    "rom_gb": 256,
+    "price_rub": 30990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.57,
+   "refresh_hz": 120,
+   "battery_mah": 6000,
+   "charge_w": 45.0,
+   "weight_g": 180.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": false
+  },
+  "seed_main_mp": 50,
+  "year": 2025,
+  "os": "Android"
+ },
+ "oppo-reno15": {
+  "brand": "oppo",
+  "name": "Reno15",
+  "full_name": "OPPO Reno15",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 8,
+    "rom_gb": 256,
+    "price_rub": 33300,
+    "price_date": "2026-11-05",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.59,
+   "refresh_hz": 120,
+   "battery_mah": 6500,
+   "charge_w": 80.0,
+   "weight_g": 190.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": true
+  },
+  "seed_main_mp": 50,
+  "year": 2026,
+  "os": "Android"
+ },
+ "oppo-reno16-f": {
+  "brand": "oppo",
+  "name": "Reno16 F",
+  "full_name": "OPPO Reno16 F",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 8,
+    "rom_gb": 256,
+    "price_rub": 27238,
+    "price_date": "2026-11-05",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.57,
+   "refresh_hz": 120,
+   "battery_mah": 7000,
+   "charge_w": 80.0,
+   "weight_g": 190.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": false
+  },
+  "seed_main_mp": 50,
+  "year": 2026,
+  "os": "Android"
+ },
+ "oppo-reno16-pro": {
+  "brand": "oppo",
+  "name": "Reno16 Pro",
+  "full_name": "OPPO Reno16 Pro",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 12,
+    "rom_gb": 256,
+    "price_rub": 48140,
+    "price_date": "2026-11-05",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.32,
+   "refresh_hz": 144,
+   "battery_mah": 6700,
+   "charge_w": 80.0,
+   "weight_g": 185.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": true
+  },
+  "seed_main_mp": 200,
+  "year": 2026,
+  "os": "Android"
+ },
+ "oppo-reno16": {
+  "brand": "oppo",
+  "name": "Reno16",
+  "full_name": "OPPO Reno16",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 12,
+    "rom_gb": 256,
+    "price_rub": 33800,
+    "price_date": "2026-11-05",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.32,
+   "refresh_hz": 120,
+   "battery_mah": 6700,
+   "charge_w": 80.0,
+   "weight_g": 180.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": true
+  },
+  "seed_main_mp": 50,
+  "year": 2026,
+  "os": "Android"
+ },
+ "poco-c65": {
+  "brand": "poco",
+  "name": "C65",
+  "full_name": "POCO C65",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 6,
+    "rom_gb": 128,
+    "price_rub": 7990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.74,
+   "refresh_hz": 90,
+   "battery_mah": 5000,
+   "charge_w": 18.0,
+   "weight_g": 192.0,
+   "has_5g": false,
+   "nfc": true,
+   "esim": false,
+   "ir_port": false
+  },
+  "seed_main_mp": 50,
+  "year": 2023,
+  "os": "Android"
+ },
+ "poco-c75": {
+  "brand": "poco",
+  "name": "C75",
+  "full_name": "POCO C75",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 6,
+    "rom_gb": 128,
+    "price_rub": 8990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.88,
+   "refresh_hz": 120,
+   "battery_mah": 5160,
+   "charge_w": 18.0,
+   "weight_g": 205.0,
+   "has_5g": false,
+   "nfc": true,
+   "esim": false,
+   "ir_port": false
+  },
+  "seed_main_mp": 50,
+  "year": 2024,
+  "os": "Android"
+ },
+ "poco-f6-pro": {
+  "brand": "poco",
+  "name": "F6 Pro",
+  "full_name": "POCO F6 Pro",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 12,
+    "rom_gb": 512,
+    "price_rub": 33990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.67,
+   "refresh_hz": 120,
+   "battery_mah": 5000,
+   "charge_w": 120.0,
+   "weight_g": 209.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": true
+  },
+  "seed_main_mp": 50,
+  "year": 2024,
+  "os": "Android"
+ },
+ "poco-f6": {
+  "brand": "poco",
+  "name": "F6",
+  "full_name": "POCO F6",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 12,
+    "rom_gb": 512,
+    "price_rub": 21100,
+    "price_date": "2026-11-05",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.67,
+   "refresh_hz": 120,
+   "battery_mah": 5000,
+   "charge_w": 90.0,
+   "weight_g": 179.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": true
+  },
+  "seed_main_mp": 50,
+  "year": 2024,
+  "os": "Android"
+ },
+ "poco-f7-pro": {
+  "brand": "poco",
+  "name": "F7 Pro",
+  "full_name": "POCO F7 Pro",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 12,
+    "rom_gb": 256,
+    "price_rub": 39990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.67,
+   "refresh_hz": 120,
+   "battery_mah": 6000,
+   "charge_w": 90.0,
+   "weight_g": 206.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": true
+  },
+  "seed_main_mp": 50,
+  "year": 2025,
+  "os": "Android"
+ },
+ "poco-f7-ultra": {
+  "brand": "poco",
+  "name": "F7 Ultra",
+  "full_name": "POCO F7 Ultra",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 12,
+    "rom_gb": 256,
+    "price_rub": 53990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.67,
+   "refresh_hz": 120,
+   "battery_mah": 5300,
+   "charge_w": 120.0,
+   "weight_g": 212.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": true
+  },
+  "seed_main_mp": 50,
+  "year": 2025,
+  "os": "Android"
+ },
+ "poco-f7": {
+  "brand": "poco",
+  "name": "F7",
+  "full_name": "POCO F7",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 12,
+    "rom_gb": 256,
+    "price_rub": 32990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.83,
+   "refresh_hz": 120,
+   "battery_mah": 7550,
+   "charge_w": 90.0,
+   "weight_g": 215.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": true
+  },
+  "seed_main_mp": 50,
+  "year": 2025,
+  "os": "Android"
+ },
+ "poco-f8-pro": {
+  "brand": "poco",
+  "name": "F8 Pro",
+  "full_name": "POCO F8 Pro",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 12,
+    "rom_gb": 256,
+    "price_rub": 33000,
+    "price_date": "2026-11-05",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.59,
+   "refresh_hz": 120,
+   "battery_mah": 6210,
+   "charge_w": 100.0,
+   "weight_g": 199.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": true,
+   "ir_port": true
+  },
+  "seed_main_mp": 50,
+  "year": 2026,
+  "os": "Android"
+ },
+ "poco-f8-ultra": {
+  "brand": "poco",
+  "name": "F8 Ultra",
+  "full_name": "POCO F8 Ultra",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 12,
+    "rom_gb": 256,
+    "price_rub": 43900,
+    "price_date": "2026-11-05",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.9,
+   "refresh_hz": 120,
+   "battery_mah": 6500,
+   "charge_w": 100.0,
+   "weight_g": 220.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": true,
+   "ir_port": true
+  },
+  "seed_main_mp": 50,
+  "year": 2026,
+  "os": "Android"
+ },
+ "poco-f9-pro": {
+  "brand": "poco",
+  "name": "F9 Pro",
+  "full_name": "POCO F9 Pro",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 12,
+    "rom_gb": 256,
+    "price_rub": 42861,
+    "price_date": "2026-11-05",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.59,
+   "refresh_hz": 185,
+   "battery_mah": 6330,
+   "charge_w": 100.0,
+   "weight_g": 200.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": true,
+   "ir_port": true
+  },
+  "seed_main_mp": 200,
+  "year": 2026,
+  "os": "Android"
+ },
+ "poco-f9-ultra": {
+  "brand": "poco",
+  "name": "F9 Ultra",
+  "full_name": "POCO F9 Ultra",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 12,
+    "rom_gb": 256,
+    "price_rub": 53400,
+    "price_date": "2026-11-05",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.9,
+   "refresh_hz": 185,
+   "battery_mah": 8050,
+   "charge_w": 100.0,
+   "weight_g": 225.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": true,
+   "ir_port": true
+  },
+  "seed_main_mp": 200,
+  "year": 2026,
+  "os": "Android"
+ },
+ "poco-m6-pro": {
+  "brand": "poco",
+  "name": "M6 Pro",
+  "full_name": "POCO M6 Pro",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 8,
+    "rom_gb": 256,
+    "price_rub": 13990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.67,
+   "refresh_hz": 120,
+   "battery_mah": 5000,
+   "charge_w": 67.0,
+   "weight_g": 179.0,
+   "has_5g": false,
+   "nfc": true,
+   "esim": false,
+   "ir_port": true
+  },
+  "seed_main_mp": 64,
+  "year": 2024,
+  "os": "Android"
+ },
+ "poco-m7-pro-5g": {
+  "brand": "poco",
+  "name": "M7 Pro 5G",
+  "full_name": "POCO M7 Pro 5G",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 8,
+    "rom_gb": 256,
+    "price_rub": 16990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.67,
+   "refresh_hz": 120,
+   "battery_mah": 5110,
+   "charge_w": 45.0,
+   "weight_g": 190.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": true
+  },
+  "seed_main_mp": 50,
+  "year": 2025,
+  "os": "Android"
+ },
+ "poco-m7": {
+  "brand": "poco",
+  "name": "M7",
+  "full_name": "POCO M7",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 8,
+    "rom_gb": 256,
+    "price_rub": 11209,
+    "price_date": "2026-11-05",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.88,
+   "refresh_hz": 120,
+   "battery_mah": 7000,
+   "charge_w": 18.0,
+   "weight_g": 205.0,
+   "has_5g": false,
+   "nfc": true,
+   "esim": false,
+   "ir_port": true
+  },
+  "seed_main_mp": 50,
+  "year": 2025,
+  "os": "Android"
+ },
+ "poco-m8-pro": {
+  "brand": "poco",
+  "name": "M8 Pro",
+  "full_name": "POCO M8 Pro",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 8,
+    "rom_gb": 256,
+    "price_rub": 18900,
+    "price_date": "2026-11-05",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.83,
+   "refresh_hz": 120,
+   "battery_mah": 6500,
+   "charge_w": 100.0,
+   "weight_g": 200.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": true
+  },
+  "seed_main_mp": 50,
+  "year": 2026,
+  "os": "Android"
+ },
+ "poco-m8": {
+  "brand": "poco",
+  "name": "M8",
+  "full_name": "POCO M8",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 8,
+    "rom_gb": 256,
+    "price_rub": 16950,
+    "price_date": "2026-11-05",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.77,
+   "refresh_hz": 120,
+   "battery_mah": 7000,
+   "charge_w": 45.0,
+   "weight_g": 190.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": true
+  },
+  "seed_main_mp": 50,
+  "year": 2026,
+  "os": "Android"
+ },
+ "poco-x6-pro": {
+  "brand": "poco",
+  "name": "X6 Pro",
+  "full_name": "POCO X6 Pro",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 8,
+    "rom_gb": 256,
+    "price_rub": 22990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.67,
+   "refresh_hz": 120,
+   "battery_mah": 5000,
+   "charge_w": 67.0,
+   "weight_g": 186.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": true
+  },
+  "seed_main_mp": 64,
+  "year": 2024,
+  "os": "Android"
+ },
+ "poco-x7-pro": {
+  "brand": "poco",
+  "name": "X7 Pro",
+  "full_name": "POCO X7 Pro",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 8,
+    "rom_gb": 256,
+    "price_rub": 19000,
+    "price_date": "2026-11-05",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.67,
+   "refresh_hz": 120,
+   "battery_mah": 6000,
+   "charge_w": 90.0,
+   "weight_g": 195.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": true
+  },
+  "seed_main_mp": 50,
+  "year": 2025,
+  "os": "Android"
+ },
+ "poco-x7": {
+  "brand": "poco",
+  "name": "X7",
+  "full_name": "POCO X7",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 8,
+    "rom_gb": 256,
+    "price_rub": 22990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.67,
+   "refresh_hz": 120,
+   "battery_mah": 5110,
+   "charge_w": 45.0,
+   "weight_g": 190.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": true
+  },
+  "seed_main_mp": 50,
+  "year": 2025,
+  "os": "Android"
+ },
+ "poco-x8-pro-max": {
+  "brand": "poco",
+  "name": "X8 Pro Max",
+  "full_name": "POCO X8 Pro Max",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 12,
+    "rom_gb": 256,
+    "price_rub": 35000,
+    "price_date": "2026-11-05",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.83,
+   "refresh_hz": 120,
+   "battery_mah": 8500,
+   "charge_w": 100.0,
+   "weight_g": 220.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": true,
+   "ir_port": true
+  },
+  "seed_main_mp": 50,
+  "year": 2026,
+  "os": "Android"
+ },
+ "poco-x8-pro": {
+  "brand": "poco",
+  "name": "X8 Pro",
+  "full_name": "POCO X8 Pro",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 8,
+    "rom_gb": 256,
+    "price_rub": 27000,
+    "price_date": "2026-11-05",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.59,
+   "refresh_hz": 120,
+   "battery_mah": 6500,
+   "charge_w": 100.0,
+   "weight_g": 200.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": true
+  },
+  "seed_main_mp": 50,
+  "year": 2026,
+  "os": "Android"
+ },
+ "poco-x8": {
+  "brand": "poco",
+  "name": "X8",
+  "full_name": "POCO X8",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 8,
+    "rom_gb": 256,
+    "price_rub": 16845,
+    "price_date": "2026-11-05",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.83,
+   "refresh_hz": 120,
+   "battery_mah": 8340,
+   "charge_w": 67.0,
+   "weight_g": 205.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": true
+  },
+  "seed_main_mp": 50,
+  "year": 2026,
+  "os": "Android"
+ },
+ "realme-12": {
+  "brand": "realme",
+  "name": "12",
+  "full_name": "realme 12",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 8,
+    "rom_gb": 256,
+    "price_rub": 16990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.72,
+   "refresh_hz": 90,
+   "battery_mah": 5000,
+   "charge_w": 67.0,
+   "weight_g": 188.0,
+   "has_5g": false,
+   "nfc": true,
+   "esim": false,
+   "ir_port": false
+  },
+  "seed_main_mp": 50,
+  "year": 2024,
+  "os": "Android"
+ },
+ "realme-13-pro-plus": {
+  "brand": "realme",
+  "name": "13 Pro+",
+  "full_name": "realme 13 Pro+",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 12,
+    "rom_gb": 512,
+    "price_rub": 27990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.7,
+   "refresh_hz": 120,
+   "battery_mah": 5200,
+   "charge_w": 80.0,
+   "weight_g": 190.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": false
+  },
+  "seed_main_mp": 50,
+  "year": 2024,
+  "os": "Android"
+ },
+ "realme-14-pro-plus": {
+  "brand": "realme",
+  "name": "14 Pro+",
+  "full_name": "realme 14 Pro+",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 12,
+    "rom_gb": 256,
+    "price_rub": 33990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.83,
+   "refresh_hz": 120,
+   "battery_mah": 6000,
+   "charge_w": 80.0,
+   "weight_g": 196.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": true
+  },
+  "seed_main_mp": 50,
+  "year": 2025,
+  "os": "Android"
+ },
+ "realme-14t": {
+  "brand": "realme",
+  "name": "14T",
+  "full_name": "realme 14T",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 8,
+    "rom_gb": 256,
+    "price_rub": 17900,
+    "price_date": "2026-11-05",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.67,
+   "refresh_hz": 120,
+   "battery_mah": 6000,
+   "charge_w": 45.0,
+   "weight_g": 196.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": false
+  },
+  "seed_main_mp": 50,
+  "year": 2025,
+  "os": "Android"
+ },
+ "realme-15-pro": {
+  "brand": "realme",
+  "name": "15 Pro",
+  "full_name": "realme 15 Pro",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 8,
+    "rom_gb": 256,
+    "price_rub": 22934,
+    "price_date": "2026-11-05",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.8,
+   "refresh_hz": 144,
+   "battery_mah": 7000,
+   "charge_w": 80.0,
+   "weight_g": 187.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": true
+  },
+  "seed_main_mp": 50,
+  "year": 2025,
+  "os": "Android"
+ },
+ "realme-15t": {
+  "brand": "realme",
+  "name": "15T",
+  "full_name": "realme 15T",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 8,
+    "rom_gb": 256,
+    "price_rub": 14498,
+    "price_date": "2026-11-05",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.57,
+   "refresh_hz": 120,
+   "battery_mah": 7000,
+   "charge_w": 60.0,
+   "weight_g": 181.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": false
+  },
+  "seed_main_mp": 50,
+  "year": 2025,
+  "os": "Android"
+ },
+ "realme-16-pro-plus": {
+  "brand": "realme",
+  "name": "16 Pro+",
+  "full_name": "realme 16 Pro+",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 12,
+    "rom_gb": 256,
+    "price_rub": 29100,
+    "price_date": "2026-11-05",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.78,
+   "refresh_hz": 144,
+   "battery_mah": 7000,
+   "charge_w": 80.0,
+   "weight_g": 205.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": true
+  },
+  "seed_main_mp": 200,
+  "year": 2026,
+  "os": "Android"
+ },
+ "realme-16": {
+  "brand": "realme",
+  "name": "16",
+  "full_name": "realme 16",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 8,
+    "rom_gb": 256,
+    "price_rub": 20573,
+    "price_date": "2026-11-05",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.57,
+   "refresh_hz": 120,
+   "battery_mah": 7000,
+   "charge_w": 60.0,
+   "weight_g": 190.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": false
+  },
+  "seed_main_mp": 50,
+  "year": 2026,
+  "os": "Android"
+ },
+ "realme-c100i": {
+  "brand": "realme",
+  "name": "C100i",
+  "full_name": "realme C100i",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 4,
+    "rom_gb": 64,
+    "price_rub": 9137,
+    "price_date": "2026-11-05",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.7,
+   "refresh_hz": 90,
+   "battery_mah": 6000,
+   "charge_w": 15.0,
+   "weight_g": 196.0,
+   "has_5g": false,
+   "nfc": false,
+   "esim": false,
+   "ir_port": false
+  },
+  "seed_main_mp": 13,
+  "year": 2026,
+  "os": "Android"
+ },
+ "realme-c100x": {
+  "brand": "realme",
+  "name": "C100x",
+  "full_name": "realme C100x",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 4,
+    "rom_gb": 128,
+    "price_rub": 11537,
+    "price_date": "2026-11-05",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.7,
+   "refresh_hz": 120,
+   "battery_mah": 6000,
+   "charge_w": 45.0,
+   "weight_g": 196.0,
+   "has_5g": false,
+   "nfc": true,
+   "esim": false,
+   "ir_port": false
+  },
+  "seed_main_mp": 50,
+  "year": 2026,
+  "os": "Android"
+ },
+ "realme-c61": {
+  "brand": "realme",
+  "name": "C61",
+  "full_name": "realme C61",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 6,
+    "rom_gb": 128,
+    "price_rub": 8990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.74,
+   "refresh_hz": 90,
+   "battery_mah": 5000,
+   "charge_w": 15.0,
+   "weight_g": 190.0,
+   "has_5g": false,
+   "nfc": true,
+   "esim": false,
+   "ir_port": false
+  },
+  "seed_main_mp": 50,
+  "year": 2024,
+  "os": "Android"
+ },
+ "realme-c67": {
+  "brand": "realme",
+  "name": "C67",
+  "full_name": "realme C67",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 8,
+    "rom_gb": 256,
+    "price_rub": 11990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.72,
+   "refresh_hz": 90,
+   "battery_mah": 5000,
+   "charge_w": 33.0,
+   "weight_g": 185.0,
+   "has_5g": false,
+   "nfc": true,
+   "esim": false,
+   "ir_port": false
+  },
+  "seed_main_mp": 108,
+  "year": 2024,
+  "os": "Android"
+ },
+ "realme-c75": {
+  "brand": "realme",
+  "name": "C75",
+  "full_name": "realme C75",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 8,
+    "rom_gb": 256,
+    "price_rub": 13990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.72,
+   "refresh_hz": 90,
+   "battery_mah": 6000,
+   "charge_w": 45.0,
+   "weight_g": 196.0,
+   "has_5g": false,
+   "nfc": true,
+   "esim": false,
+   "ir_port": false
+  },
+  "seed_main_mp": 50,
+  "year": 2024,
+  "os": "Android"
+ },
+ "realme-c85": {
+  "brand": "realme",
+  "name": "C85",
+  "full_name": "realme C85",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 6,
+    "rom_gb": 128,
+    "price_rub": 13187,
+    "price_date": "2026-11-05",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.8,
+   "refresh_hz": 144,
+   "battery_mah": 7000,
+   "charge_w": 45.0,
+   "weight_g": 210.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": false
+  },
+  "seed_main_mp": 50,
+  "year": 2026,
+  "os": "Android"
+ },
+ "realme-gt-6": {
+  "brand": "realme",
+  "name": "GT 6",
+  "full_name": "realme GT 6",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 12,
+    "rom_gb": 256,
+    "price_rub": 33990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.78,
+   "refresh_hz": 120,
+   "battery_mah": 5500,
+   "charge_w": 120.0,
+   "weight_g": 199.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": true
+  },
+  "seed_main_mp": 50,
+  "year": 2024,
+  "os": "Android"
+ },
+ "realme-gt-7-pro": {
+  "brand": "realme",
+  "name": "GT 7 Pro",
+  "full_name": "realme GT 7 Pro",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 12,
+    "rom_gb": 256,
+    "price_rub": 57990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.78,
+   "refresh_hz": 120,
+   "battery_mah": 6500,
+   "charge_w": 120.0,
+   "weight_g": 222.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": true
+  },
+  "seed_main_mp": 50,
+  "year": 2025,
+  "os": "Android"
+ },
+ "realme-gt-7": {
+  "brand": "realme",
+  "name": "GT 7",
+  "full_name": "realme GT 7",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 12,
+    "rom_gb": 256,
+    "price_rub": 33700,
+    "price_date": "2026-11-05",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.78,
+   "refresh_hz": 144,
+   "battery_mah": 7000,
+   "charge_w": 120.0,
+   "weight_g": 206.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": true
+  },
+  "seed_main_mp": 50,
+  "year": 2025,
+  "os": "Android"
+ },
+ "realme-gt-7t": {
+  "brand": "realme",
+  "name": "GT 7T",
+  "full_name": "realme GT 7T",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 12,
+    "rom_gb": 256,
+    "price_rub": 27100,
+    "price_date": "2026-11-05",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.8,
+   "refresh_hz": 120,
+   "battery_mah": 7000,
+   "charge_w": 120.0,
+   "weight_g": 205.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": true
+  },
+  "seed_main_mp": 50,
+  "year": 2025,
+  "os": "Android"
+ },
+ "realme-gt-8-pro": {
+  "brand": "realme",
+  "name": "GT 8 Pro",
+  "full_name": "realme GT 8 Pro",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 12,
+    "rom_gb": 256,
+    "price_rub": 51600,
+    "price_date": "2026-11-05",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.79,
+   "refresh_hz": 144,
+   "battery_mah": 7000,
+   "charge_w": 120.0,
+   "weight_g": 214.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": true,
+   "ir_port": true
+  },
+  "seed_main_mp": 200,
+  "year": 2026,
+  "os": "Android"
+ },
+ "realme-note-50": {
+  "brand": "realme",
+  "name": "Note 50",
+  "full_name": "realme Note 50",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 3,
+    "rom_gb": 64,
+    "price_rub": 5990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.74,
+   "refresh_hz": 90,
+   "battery_mah": 5000,
+   "charge_w": 10.0,
+   "weight_g": 186.0,
+   "has_5g": false,
+   "nfc": false,
+   "esim": false,
+   "ir_port": false
+  },
+  "seed_main_mp": 13,
+  "year": 2024,
+  "os": "Android"
+ },
+ "realme-note-60": {
+  "brand": "realme",
+  "name": "Note 60",
+  "full_name": "realme Note 60",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 4,
+    "rom_gb": 128,
+    "price_rub": 7990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.74,
+   "refresh_hz": 90,
+   "battery_mah": 5000,
+   "charge_w": 10.0,
+   "weight_g": 187.0,
+   "has_5g": false,
+   "nfc": true,
+   "esim": false,
+   "ir_port": false
+  },
+  "seed_main_mp": 32,
+  "year": 2024,
+  "os": "Android"
+ },
+ "realme-note-80": {
+  "brand": "realme",
+  "name": "Note 80",
+  "full_name": "realme Note 80",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 4,
+    "rom_gb": 128,
+    "price_rub": 9676,
+    "price_date": "2026-11-05",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.74,
+   "refresh_hz": 90,
+   "battery_mah": 5000,
+   "charge_w": 15.0,
+   "weight_g": 190.0,
+   "has_5g": false,
+   "nfc": false,
+   "esim": false,
+   "ir_port": false
+  },
+  "seed_main_mp": 13,
+  "year": 2026,
+  "os": "Android"
+ },
+ "realme-p3": {
+  "brand": "realme",
+  "name": "P3",
+  "full_name": "realme P3",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 8,
+    "rom_gb": 128,
+    "price_rub": 16100,
+    "price_date": "2026-11-05",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.67,
+   "refresh_hz": 120,
+   "battery_mah": 6000,
+   "charge_w": 45.0,
+   "weight_g": 190.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": false
+  },
+  "seed_main_mp": 50,
+  "year": 2025,
+  "os": "Android"
+ },
+ "realme-p4-lite": {
+  "brand": "realme",
+  "name": "P4 Lite",
+  "full_name": "realme P4 Lite",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 4,
+    "rom_gb": 64,
+    "price_rub": 8810,
+    "price_date": "2026-11-05",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.7,
+   "refresh_hz": 90,
+   "battery_mah": 6000,
+   "charge_w": 15.0,
+   "weight_g": 196.0,
+   "has_5g": false,
+   "nfc": false,
+   "esim": false,
+   "ir_port": false
+  },
+  "seed_main_mp": 13,
+  "year": 2026,
+  "os": "Android"
+ },
+ "realme-p4-power": {
+  "brand": "realme",
+  "name": "P4 Power",
+  "full_name": "realme P4 Power",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 8,
+    "rom_gb": 256,
+    "price_rub": 22800,
+    "price_date": "2026-11-05",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.78,
+   "refresh_hz": 144,
+   "battery_mah": 10001,
+   "charge_w": 80.0,
+   "weight_g": 218.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": false
+  },
+  "seed_main_mp": 50,
+  "year": 2026,
+  "os": "Android"
+ },
+ "realme-p4x": {
+  "brand": "realme",
+  "name": "P4x",
+  "full_name": "realme P4x",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 4,
+    "rom_gb": 128,
+    "price_rub": 9932,
+    "price_date": "2026-11-05",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.72,
+   "refresh_hz": 120,
+   "battery_mah": 7000,
+   "charge_w": 45.0,
+   "weight_g": 200.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": false
+  },
+  "seed_main_mp": 50,
+  "year": 2026,
+  "os": "Android"
+ },
+ "redmagic-10-pro": {
+  "brand": "redmagic",
+  "name": "10 Pro",
+  "full_name": "REDMAGIC 10 Pro",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 12,
+    "rom_gb": 256,
+    "price_rub": 63990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.85,
+   "refresh_hz": 144,
+   "battery_mah": 7050,
+   "charge_w": 80.0,
+   "weight_g": 229.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": false
+  },
+  "seed_main_mp": 50,
+  "year": 2025,
+  "os": "Android"
+ },
+ "redmagic-10s-pro": {
+  "brand": "redmagic",
+  "name": "10S Pro",
+  "full_name": "REDMAGIC 10S Pro",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 16,
+    "rom_gb": 512,
+    "price_rub": 71990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.85,
+   "refresh_hz": 144,
+   "battery_mah": 7050,
+   "charge_w": 80.0,
+   "weight_g": 230.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": false
+  },
+  "seed_main_mp": 50,
+  "year": 2025,
+  "os": "Android"
+ },
+ "samsung-galaxy-a05s": {
+  "brand": "samsung",
+  "name": "Galaxy A05s",
+  "full_name": "Samsung Galaxy A05s",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 4,
+    "rom_gb": 64,
+    "price_rub": 9990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.7,
+   "refresh_hz": 90,
+   "battery_mah": 5000,
+   "charge_w": 25.0,
+   "weight_g": 194.0,
+   "has_5g": false,
+   "nfc": true,
+   "esim": false,
+   "ir_port": false
+  },
+  "seed_main_mp": 50,
+  "year": 2023,
+  "os": "Android"
+ },
+ "samsung-galaxy-a06": {
+  "brand": "samsung",
+  "name": "Galaxy A06",
+  "full_name": "Samsung Galaxy A06",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 4,
+    "rom_gb": 64,
+    "price_rub": 8990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.7,
+   "refresh_hz": 60,
+   "battery_mah": 5000,
+   "charge_w": 25.0,
+   "weight_g": 189.0,
+   "has_5g": false,
+   "nfc": true,
+   "esim": false,
+   "ir_port": false
+  },
+  "seed_main_mp": 50,
+  "year": 2024,
+  "os": "Android"
+ },
+ "samsung-galaxy-a07": {
+  "brand": "samsung",
+  "name": "Galaxy A07",
+  "full_name": "Samsung Galaxy A07",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 4,
+    "rom_gb": 64,
+    "price_rub": 8990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.7,
+   "refresh_hz": 90,
+   "battery_mah": 5000,
+   "charge_w": 25.0,
+   "weight_g": 184.0,
+   "has_5g": false,
+   "nfc": true,
+   "esim": false,
+   "ir_port": false
+  },
+  "seed_main_mp": 50,
+  "year": 2025,
+  "os": "Android"
+ },
+ "samsung-galaxy-a15": {
+  "brand": "samsung",
+  "name": "Galaxy A15",
+  "full_name": "Samsung Galaxy A15",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 4,
+    "rom_gb": 128,
+    "price_rub": 12990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.5,
+   "refresh_hz": 90,
+   "battery_mah": 5000,
+   "charge_w": 25.0,
+   "weight_g": 200.0,
+   "has_5g": false,
+   "nfc": true,
+   "esim": false,
+   "ir_port": false
+  },
+  "seed_main_mp": 50,
+  "year": 2024,
+  "os": "Android"
+ },
+ "samsung-galaxy-a16": {
+  "brand": "samsung",
+  "name": "Galaxy A16",
+  "full_name": "Samsung Galaxy A16",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 4,
+    "rom_gb": 128,
+    "price_rub": 14990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.7,
+   "refresh_hz": 90,
+   "battery_mah": 5000,
+   "charge_w": 25.0,
+   "weight_g": 200.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": false
+  },
+  "seed_main_mp": 50,
+  "year": 2024,
+  "os": "Android"
+ },
+ "samsung-galaxy-a17-5g": {
+  "brand": "samsung",
+  "name": "Galaxy A17 5G",
+  "full_name": "Samsung Galaxy A17 5G",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 6,
+    "rom_gb": 128,
+    "price_rub": 12693,
+    "price_date": "2026-11-05",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.7,
+   "refresh_hz": 90,
+   "battery_mah": 5000,
+   "charge_w": 25.0,
+   "weight_g": 192.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": false
+  },
+  "seed_main_mp": 50,
+  "year": 2025,
+  "os": "Android"
+ },
+ "samsung-galaxy-a25": {
+  "brand": "samsung",
+  "name": "Galaxy A25",
+  "full_name": "Samsung Galaxy A25",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 6,
+    "rom_gb": 128,
+    "price_rub": 17990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.5,
+   "refresh_hz": 120,
+   "battery_mah": 5000,
+   "charge_w": 25.0,
+   "weight_g": 197.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": false
+  },
+  "seed_main_mp": 50,
+  "year": 2024,
+  "os": "Android"
+ },
+ "samsung-galaxy-a26": {
+  "brand": "samsung",
+  "name": "Galaxy A26",
+  "full_name": "Samsung Galaxy A26",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 6,
+    "rom_gb": 128,
+    "price_rub": 21990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.7,
+   "refresh_hz": 120,
+   "battery_mah": 5000,
+   "charge_w": 25.0,
+   "weight_g": 200.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": false
+  },
+  "seed_main_mp": 50,
+  "year": 2025,
+  "os": "Android"
+ },
+ "samsung-galaxy-a35": {
+  "brand": "samsung",
+  "name": "Galaxy A35",
+  "full_name": "Samsung Galaxy A35",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 8,
+    "rom_gb": 128,
+    "price_rub": 22990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.6,
+   "refresh_hz": 120,
+   "battery_mah": 5000,
+   "charge_w": 25.0,
+   "weight_g": 209.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": false
+  },
+  "seed_main_mp": 50,
+  "year": 2024,
+  "os": "Android"
+ },
+ "samsung-galaxy-a36": {
+  "brand": "samsung",
+  "name": "Galaxy A36",
+  "full_name": "Samsung Galaxy A36",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 8,
+    "rom_gb": 128,
+    "price_rub": 26990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.7,
+   "refresh_hz": 120,
+   "battery_mah": 5000,
+   "charge_w": 45.0,
+   "weight_g": 195.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": false
+  },
+  "seed_main_mp": 50,
+  "year": 2025,
+  "os": "Android"
+ },
+ "samsung-galaxy-a37": {
+  "brand": "samsung",
+  "name": "Galaxy A37",
+  "full_name": "Samsung Galaxy A37",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 8,
+    "rom_gb": 128,
+    "price_rub": 31990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.7,
+   "refresh_hz": 120,
+   "battery_mah": 5000,
+   "charge_w": 45.0,
+   "weight_g": 196.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": false
+  },
+  "seed_main_mp": 50,
+  "year": 2026,
+  "os": "Android"
+ },
+ "samsung-galaxy-a55": {
+  "brand": "samsung",
+  "name": "Galaxy A55",
+  "full_name": "Samsung Galaxy A55",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 8,
+    "rom_gb": 256,
+    "price_rub": 27990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.6,
+   "refresh_hz": 120,
+   "battery_mah": 5000,
+   "charge_w": 25.0,
+   "weight_g": 213.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": false
+  },
+  "seed_main_mp": 50,
+  "year": 2024,
+  "os": "Android"
+ },
+ "samsung-galaxy-a56": {
+  "brand": "samsung",
+  "name": "Galaxy A56",
+  "full_name": "Samsung Galaxy A56",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 8,
+    "rom_gb": 128,
+    "price_rub": 31990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": false,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   },
+   {
+    "ram_gb": 8,
+    "rom_gb": 256,
+    "price_rub": 26058,
+    "price_date": "2026-11-05",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.7,
+   "refresh_hz": 120,
+   "battery_mah": 5000,
+   "charge_w": 45.0,
+   "weight_g": 198.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": false
+  },
+  "seed_main_mp": 50,
+  "year": 2025,
+  "os": "Android"
+ },
+ "samsung-galaxy-a57": {
+  "brand": "samsung",
+  "name": "Galaxy A57",
+  "full_name": "Samsung Galaxy A57",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 8,
+    "rom_gb": 256,
+    "price_rub": 29160,
+    "price_date": "2026-11-05",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.7,
+   "refresh_hz": 120,
+   "battery_mah": 5000,
+   "charge_w": 45.0,
+   "weight_g": 179.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": false
+  },
+  "seed_main_mp": 50,
+  "year": 2026,
+  "os": "Android"
+ },
+ "samsung-galaxy-m35": {
+  "brand": "samsung",
+  "name": "Galaxy M35",
+  "full_name": "Samsung Galaxy M35",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 8,
+    "rom_gb": 128,
+    "price_rub": 21990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.6,
+   "refresh_hz": 120,
+   "battery_mah": 6000,
+   "charge_w": 25.0,
+   "weight_g": 222.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": false
+  },
+  "seed_main_mp": 50,
+  "year": 2024,
+  "os": "Android"
+ },
+ "samsung-galaxy-m55": {
+  "brand": "samsung",
+  "name": "Galaxy M55",
+  "full_name": "Samsung Galaxy M55",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 8,
+    "rom_gb": 128,
+    "price_rub": 23990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.7,
+   "refresh_hz": 120,
+   "battery_mah": 5000,
+   "charge_w": 45.0,
+   "weight_g": 180.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": false
+  },
+  "seed_main_mp": 50,
+  "year": 2024,
+  "os": "Android"
+ },
+ "samsung-galaxy-s23-ultra": {
+  "brand": "samsung",
+  "name": "Galaxy S23 Ultra",
+  "full_name": "Samsung Galaxy S23 Ultra",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 12,
+    "rom_gb": 256,
+    "price_rub": 54990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.8,
+   "refresh_hz": 120,
+   "battery_mah": 5000,
+   "charge_w": 45.0,
+   "weight_g": 234.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": true,
+   "ir_port": false
+  },
+  "seed_main_mp": 200,
+  "year": 2023,
+  "os": "Android"
+ },
+ "samsung-galaxy-s23": {
+  "brand": "samsung",
+  "name": "Galaxy S23",
+  "full_name": "Samsung Galaxy S23",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 8,
+    "rom_gb": 128,
+    "price_rub": 37990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.1,
+   "refresh_hz": 120,
+   "battery_mah": 3900,
+   "charge_w": 25.0,
+   "weight_g": 168.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": true,
+   "ir_port": false
+  },
+  "seed_main_mp": 50,
+  "year": 2023,
+  "os": "Android"
+ },
+ "samsung-galaxy-s24-fe": {
+  "brand": "samsung",
+  "name": "Galaxy S24 FE",
+  "full_name": "Samsung Galaxy S24 FE",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 8,
+    "rom_gb": 128,
+    "price_rub": 36990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.7,
+   "refresh_hz": 120,
+   "battery_mah": 4700,
+   "charge_w": 25.0,
+   "weight_g": 213.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": true,
+   "ir_port": false
+  },
+  "seed_main_mp": 50,
+  "year": 2024,
+  "os": "Android"
+ },
+ "samsung-galaxy-s24-plus": {
+  "brand": "samsung",
+  "name": "Galaxy S24+",
+  "full_name": "Samsung Galaxy S24+",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 12,
+    "rom_gb": 256,
+    "price_rub": 52990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.7,
+   "refresh_hz": 120,
+   "battery_mah": 4900,
+   "charge_w": 45.0,
+   "weight_g": 196.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": true,
+   "ir_port": false
+  },
+  "seed_main_mp": 50,
+  "year": 2024,
+  "os": "Android"
+ },
+ "samsung-galaxy-s24-ultra": {
+  "brand": "samsung",
+  "name": "Galaxy S24 Ultra",
+  "full_name": "Samsung Galaxy S24 Ultra",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 12,
+    "rom_gb": 256,
+    "price_rub": 62990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.8,
+   "refresh_hz": 120,
+   "battery_mah": 5000,
+   "charge_w": 45.0,
+   "weight_g": 232.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": true,
+   "ir_port": false
+  },
+  "seed_main_mp": 200,
+  "year": 2024,
+  "os": "Android"
+ },
+ "samsung-galaxy-s24": {
+  "brand": "samsung",
+  "name": "Galaxy S24",
+  "full_name": "Samsung Galaxy S24",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 8,
+    "rom_gb": 128,
+    "price_rub": 44990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.2,
+   "refresh_hz": 120,
+   "battery_mah": 4000,
+   "charge_w": 25.0,
+   "weight_g": 167.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": true,
+   "ir_port": false
+  },
+  "seed_main_mp": 50,
+  "year": 2024,
+  "os": "Android"
+ },
+ "samsung-galaxy-s25-edge": {
+  "brand": "samsung",
+  "name": "Galaxy S25 Edge",
+  "full_name": "Samsung Galaxy S25 Edge",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 12,
+    "rom_gb": 256,
+    "price_rub": 54990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.7,
+   "refresh_hz": 120,
+   "battery_mah": 3900,
+   "charge_w": 25.0,
+   "weight_g": 163.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": true,
+   "ir_port": false
+  },
+  "seed_main_mp": 200,
+  "year": 2025,
+  "os": "Android"
+ },
+ "samsung-galaxy-s25-fe": {
+  "brand": "samsung",
+  "name": "Galaxy S25 FE",
+  "full_name": "Samsung Galaxy S25 FE",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 8,
+    "rom_gb": 128,
+    "price_rub": 38850,
+    "price_date": "2026-11-05",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.7,
+   "refresh_hz": 120,
+   "battery_mah": 4900,
+   "charge_w": 45.0,
+   "weight_g": 190.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": true,
+   "ir_port": false
+  },
+  "seed_main_mp": 50,
+  "year": 2025,
+  "os": "Android"
+ },
+ "samsung-galaxy-s25-plus": {
+  "brand": "samsung",
+  "name": "Galaxy S25+",
+  "full_name": "Samsung Galaxy S25+",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 12,
+    "rom_gb": 256,
+    "price_rub": 59990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.7,
+   "refresh_hz": 120,
+   "battery_mah": 4900,
+   "charge_w": 45.0,
+   "weight_g": 190.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": true,
+   "ir_port": false
+  },
+  "seed_main_mp": 50,
+  "year": 2025,
+  "os": "Android"
+ },
+ "samsung-galaxy-s25-ultra": {
+  "brand": "samsung",
+  "name": "Galaxy S25 Ultra",
+  "full_name": "Samsung Galaxy S25 Ultra",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 12,
+    "rom_gb": 256,
+    "price_rub": 58000,
+    "price_date": "2026-11-05",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.9,
+   "refresh_hz": 120,
+   "battery_mah": 5000,
+   "charge_w": 45.0,
+   "weight_g": 218.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": true,
+   "ir_port": false
+  },
+  "seed_main_mp": 200,
+  "year": 2025,
+  "os": "Android"
+ },
+ "samsung-galaxy-s25": {
+  "brand": "samsung",
+  "name": "Galaxy S25",
+  "full_name": "Samsung Galaxy S25",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 12,
+    "rom_gb": 128,
+    "price_rub": 51990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.2,
+   "refresh_hz": 120,
+   "battery_mah": 4000,
+   "charge_w": 25.0,
+   "weight_g": 162.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": true,
+   "ir_port": false
+  },
+  "seed_main_mp": 50,
+  "year": 2025,
+  "os": "Android"
+ },
+ "samsung-galaxy-s26-fe": {
+  "brand": "samsung",
+  "name": "Galaxy S26 FE",
+  "full_name": "Samsung Galaxy S26 FE",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 8,
+    "rom_gb": 256,
+    "price_rub": 40644,
+    "price_date": "2026-11-05",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.7,
+   "refresh_hz": 120,
+   "battery_mah": 4900,
+   "charge_w": 45.0,
+   "weight_g": 193.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": true,
+   "ir_port": false
+  },
+  "seed_main_mp": 50,
+  "year": 2026,
+  "os": "Android"
+ },
+ "samsung-galaxy-s26-plus": {
+  "brand": "samsung",
+  "name": "Galaxy S26+",
+  "full_name": "Samsung Galaxy S26+",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 12,
+    "rom_gb": 256,
+    "price_rub": 74990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.7,
+   "refresh_hz": 120,
+   "battery_mah": 4900,
+   "charge_w": 45.0,
+   "weight_g": 190.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": true,
+   "ir_port": false
+  },
+  "seed_main_mp": 50,
+  "year": 2026,
+  "os": "Android"
+ },
+ "samsung-galaxy-s26-ultra": {
+  "brand": "samsung",
+  "name": "Galaxy S26 Ultra",
+  "full_name": "Samsung Galaxy S26 Ultra",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 12,
+    "rom_gb": 256,
+    "price_rub": 69000,
+    "price_date": "2026-11-05",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.9,
+   "refresh_hz": 120,
+   "battery_mah": 5000,
+   "charge_w": 60.0,
+   "weight_g": 214.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": true,
+   "ir_port": false
+  },
+  "seed_main_mp": 200,
+  "year": 2026,
+  "os": "Android"
+ },
+ "samsung-galaxy-s26": {
+  "brand": "samsung",
+  "name": "Galaxy S26",
+  "full_name": "Samsung Galaxy S26",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 12,
+    "rom_gb": 256,
+    "price_rub": 51000,
+    "price_date": "2026-11-05",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.3,
+   "refresh_hz": 120,
+   "battery_mah": 4300,
+   "charge_w": 25.0,
+   "weight_g": 167.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": true,
+   "ir_port": false
+  },
+  "seed_main_mp": 50,
+  "year": 2026,
+  "os": "Android"
+ },
+ "samsung-galaxy-xcover7": {
+  "brand": "samsung",
+  "name": "Galaxy XCover7",
+  "full_name": "Samsung Galaxy XCover7",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 6,
+    "rom_gb": 128,
+    "price_rub": 24990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.6,
+   "refresh_hz": 60,
+   "battery_mah": 4050,
+   "charge_w": 15.0,
+   "weight_g": 240.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": false
+  },
+  "seed_main_mp": 50,
+  "year": 2024,
+  "os": "Android"
+ },
+ "samsung-galaxy-z-flip6": {
+  "brand": "samsung",
+  "name": "Galaxy Z Flip6",
+  "full_name": "Samsung Galaxy Z Flip6",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 12,
+    "rom_gb": 256,
+    "price_rub": 52990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.7,
+   "refresh_hz": 120,
+   "battery_mah": 4000,
+   "charge_w": 25.0,
+   "weight_g": 187.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": true,
+   "ir_port": false
+  },
+  "seed_main_mp": 50,
+  "year": 2024,
+  "os": "Android"
+ },
+ "samsung-galaxy-z-flip7": {
+  "brand": "samsung",
+  "name": "Galaxy Z Flip7",
+  "full_name": "Samsung Galaxy Z Flip7",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 12,
+    "rom_gb": 256,
+    "price_rub": 69990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.9,
+   "refresh_hz": 120,
+   "battery_mah": 4300,
+   "charge_w": 25.0,
+   "weight_g": 188.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": true,
+   "ir_port": false
+  },
+  "seed_main_mp": 50,
+  "year": 2025,
+  "os": "Android"
+ },
+ "samsung-galaxy-z-flip8": {
+  "brand": "samsung",
+  "name": "Galaxy Z Flip8",
+  "full_name": "Samsung Galaxy Z Flip8",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 12,
+    "rom_gb": 256,
+    "price_rub": 85961,
+    "price_date": "2026-11-05",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.9,
+   "refresh_hz": 120,
+   "battery_mah": 4300,
+   "charge_w": 25.0,
+   "weight_g": 180.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": true,
+   "ir_port": false
+  },
+  "seed_main_mp": 50,
+  "year": 2026,
+  "os": "Android"
+ },
+ "samsung-galaxy-z-fold6": {
+  "brand": "samsung",
+  "name": "Galaxy Z Fold6",
+  "full_name": "Samsung Galaxy Z Fold6",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 12,
+    "rom_gb": 256,
+    "price_rub": 99990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 7.6,
+   "refresh_hz": 120,
+   "battery_mah": 4400,
+   "charge_w": 25.0,
+   "weight_g": 239.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": true,
+   "ir_port": false
+  },
+  "seed_main_mp": 50,
+  "year": 2024,
+  "os": "Android"
+ },
+ "samsung-galaxy-z-fold7": {
+  "brand": "samsung",
+  "name": "Galaxy Z Fold7",
+  "full_name": "Samsung Galaxy Z Fold7",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 12,
+    "rom_gb": 256,
+    "price_rub": 129990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 8.0,
+   "refresh_hz": 120,
+   "battery_mah": 4400,
+   "charge_w": 25.0,
+   "weight_g": 215.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": true,
+   "ir_port": false
+  },
+  "seed_main_mp": 200,
+  "year": 2025,
+  "os": "Android"
+ },
+ "samsung-galaxy-z-trifold": {
+  "brand": "samsung",
+  "name": "Galaxy Z TriFold",
+  "full_name": "Samsung Galaxy Z TriFold",
+  "in_ml": false,
+  "seed_variants": [],
+  "seed_specs": {
+   "screen_in": 10.0,
+   "refresh_hz": 120,
+   "battery_mah": 5400,
+   "charge_w": 66.0,
+   "weight_g": 267.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": true,
+   "ir_port": false
+  },
+  "seed_main_mp": 200,
+  "year": 2025,
+  "os": "Android"
+ },
+ "ulefone-armor-28-ultra": {
+  "brand": "ulefone",
+  "name": "Armor 28 Ultra",
+  "full_name": "Ulefone Armor 28 Ultra",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 16,
+    "rom_gb": 1024,
+    "price_rub": 50990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.81,
+   "refresh_hz": 120,
+   "battery_mah": 10600,
+   "charge_w": 120.0,
+   "weight_g": 450.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": false
+  },
+  "seed_main_mp": 50,
+  "year": 2024,
+  "os": "Android"
+ },
+ "ulefone-armor-x13": {
+  "brand": "ulefone",
+  "name": "Armor X13",
+  "full_name": "Ulefone Armor X13",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 6,
+    "rom_gb": 64,
+    "price_rub": 13990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.52,
+   "refresh_hz": 60,
+   "battery_mah": 6500,
+   "charge_w": 10.0,
+   "weight_g": 320.0,
+   "has_5g": false,
+   "nfc": true,
+   "esim": false,
+   "ir_port": false
+  },
+  "seed_main_mp": 13,
+  "year": 2023,
+  "os": "Android"
+ },
+ "vivo-iqoo-15t": {
+  "brand": "vivo",
+  "name": "iQOO 15T",
+  "full_name": "vivo iQOO 15T",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 12,
+    "rom_gb": 256,
+    "price_rub": 39367,
+    "price_date": "2026-11-05",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.8,
+   "refresh_hz": 144,
+   "battery_mah": 8000,
+   "charge_w": 100.0,
+   "weight_g": 215.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": true
+  },
+  "seed_main_mp": 50,
+  "year": 2026,
+  "os": "Android"
+ },
+ "vivo-s50-pro-mini": {
+  "brand": "vivo",
+  "name": "S50 Pro mini",
+  "full_name": "vivo S50 Pro mini",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 12,
+    "rom_gb": 256,
+    "price_rub": 35319,
+    "price_date": "2026-11-05",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.31,
+   "refresh_hz": 120,
+   "battery_mah": 6500,
+   "charge_w": 90.0,
+   "weight_g": 190.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": true
+  },
+  "seed_main_mp": 50,
+  "year": 2026,
+  "os": "Android"
+ },
+ "vivo-v30e": {
+  "brand": "vivo",
+  "name": "V30e",
+  "full_name": "vivo V30e",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 8,
+    "rom_gb": 256,
+    "price_rub": 24990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.78,
+   "refresh_hz": 120,
+   "battery_mah": 5500,
+   "charge_w": 44.0,
+   "weight_g": 188.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": false
+  },
+  "seed_main_mp": 50,
+  "year": 2024,
+  "os": "Android"
+ },
+ "vivo-v40": {
+  "brand": "vivo",
+  "name": "V40",
+  "full_name": "vivo V40",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 12,
+    "rom_gb": 256,
+    "price_rub": 33990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.78,
+   "refresh_hz": 120,
+   "battery_mah": 5500,
+   "charge_w": 80.0,
+   "weight_g": 190.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": false
+  },
+  "seed_main_mp": 50,
+  "year": 2024,
+  "os": "Android"
+ },
+ "vivo-v50": {
+  "brand": "vivo",
+  "name": "V50",
+  "full_name": "vivo V50",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 12,
+    "rom_gb": 256,
+    "price_rub": 39990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.77,
+   "refresh_hz": 120,
+   "battery_mah": 6000,
+   "charge_w": 90.0,
+   "weight_g": 189.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": false
+  },
+  "seed_main_mp": 50,
+  "year": 2025,
+  "os": "Android"
+ },
+ "vivo-v60": {
+  "brand": "vivo",
+  "name": "V60",
+  "full_name": "vivo V60",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 12,
+    "rom_gb": 256,
+    "price_rub": 44990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.77,
+   "refresh_hz": 120,
+   "battery_mah": 6500,
+   "charge_w": 90.0,
+   "weight_g": 201.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": false
+  },
+  "seed_main_mp": 50,
+  "year": 2025,
+  "os": "Android"
+ },
+ "vivo-v70": {
+  "brand": "vivo",
+  "name": "V70",
+  "full_name": "vivo V70",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 12,
+    "rom_gb": 256,
+    "price_rub": 29000,
+    "price_date": "2026-11-05",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.59,
+   "refresh_hz": 120,
+   "battery_mah": 6500,
+   "charge_w": 90.0,
+   "weight_g": 190.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": false
+  },
+  "seed_main_mp": 50,
+  "year": 2026,
+  "os": "Android"
+ },
+ "vivo-x-fold-6": {
+  "brand": "vivo",
+  "name": "X Fold 6",
+  "full_name": "vivo X Fold 6",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 12,
+    "rom_gb": 256,
+    "price_rub": 92140,
+    "price_date": "2026-11-05",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 8.02,
+   "refresh_hz": 120,
+   "battery_mah": 6900,
+   "charge_w": 80.0,
+   "weight_g": 228.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": true,
+   "ir_port": false
+  },
+  "seed_main_mp": 200,
+  "year": 2026,
+  "os": "Android"
+ },
+ "vivo-x100-pro": {
+  "brand": "vivo",
+  "name": "X100 Pro",
+  "full_name": "vivo X100 Pro",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 16,
+    "rom_gb": 512,
+    "price_rub": 55990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.78,
+   "refresh_hz": 120,
+   "battery_mah": 5400,
+   "charge_w": 100.0,
+   "weight_g": 225.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": true
+  },
+  "seed_main_mp": 50,
+  "year": 2024,
+  "os": "Android"
+ },
+ "vivo-x200-pro": {
+  "brand": "vivo",
+  "name": "X200 Pro",
+  "full_name": "vivo X200 Pro",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 16,
+    "rom_gb": 512,
+    "price_rub": 79990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.78,
+   "refresh_hz": 120,
+   "battery_mah": 6000,
+   "charge_w": 90.0,
+   "weight_g": 228.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": true,
+   "ir_port": true
+  },
+  "seed_main_mp": 200,
+  "year": 2025,
+  "os": "Android"
+ },
+ "vivo-x200-ultra": {
+  "brand": "vivo",
+  "name": "X200 Ultra",
+  "full_name": "vivo X200 Ultra",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 12,
+    "rom_gb": 256,
+    "price_rub": 65542,
+    "price_date": "2026-11-05",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.82,
+   "refresh_hz": 120,
+   "battery_mah": 6000,
+   "charge_w": 90.0,
+   "weight_g": 229.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": true
+  },
+  "seed_main_mp": 200,
+  "year": 2025,
+  "os": "Android"
+ },
+ "vivo-x300-fe": {
+  "brand": "vivo",
+  "name": "X300 FE",
+  "full_name": "vivo X300 FE",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 12,
+    "rom_gb": 256,
+    "price_rub": 43000,
+    "price_date": "2026-11-05",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.31,
+   "refresh_hz": 120,
+   "battery_mah": 6500,
+   "charge_w": 90.0,
+   "weight_g": 190.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": true
+  },
+  "seed_main_mp": 50,
+  "year": 2026,
+  "os": "Android"
+ },
+ "vivo-x300-pro": {
+  "brand": "vivo",
+  "name": "X300 Pro",
+  "full_name": "vivo X300 Pro",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 12,
+    "rom_gb": 256,
+    "price_rub": 68700,
+    "price_date": "2026-11-05",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.78,
+   "refresh_hz": 120,
+   "battery_mah": 6510,
+   "charge_w": 90.0,
+   "weight_g": 226.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": true,
+   "ir_port": true
+  },
+  "seed_main_mp": 200,
+  "year": 2025,
+  "os": "Android"
+ },
+ "vivo-x300-ultra": {
+  "brand": "vivo",
+  "name": "X300 Ultra",
+  "full_name": "vivo X300 Ultra",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 16,
+    "rom_gb": 512,
+    "price_rub": 85000,
+    "price_date": "2026-11-05",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.82,
+   "refresh_hz": 144,
+   "battery_mah": 6600,
+   "charge_w": 100.0,
+   "weight_g": 230.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": true,
+   "ir_port": true
+  },
+  "seed_main_mp": 200,
+  "year": 2026,
+  "os": "Android"
+ },
+ "vivo-x300": {
+  "brand": "vivo",
+  "name": "X300",
+  "full_name": "vivo X300",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 12,
+    "rom_gb": 256,
+    "price_rub": 50690,
+    "price_date": "2026-11-05",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.31,
+   "refresh_hz": 120,
+   "battery_mah": 6040,
+   "charge_w": 90.0,
+   "weight_g": 190.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": true,
+   "ir_port": true
+  },
+  "seed_main_mp": 200,
+  "year": 2025,
+  "os": "Android"
+ },
+ "vivo-x500-pro-max": {
+  "brand": "vivo",
+  "name": "X500 Pro Max",
+  "full_name": "vivo X500 Pro Max",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 12,
+    "rom_gb": 256,
+    "price_rub": 80588,
+    "price_date": "2026-11-05",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.85,
+   "refresh_hz": 144,
+   "battery_mah": 8000,
+   "charge_w": 90.0,
+   "weight_g": 230.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": true,
+   "ir_port": true
+  },
+  "seed_main_mp": 200,
+  "year": 2026,
+  "os": "Android"
+ },
+ "vivo-x500-pro": {
+  "brand": "vivo",
+  "name": "X500 Pro",
+  "full_name": "vivo X500 Pro",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 12,
+    "rom_gb": 256,
+    "price_rub": 73500,
+    "price_date": "2026-11-05",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.36,
+   "refresh_hz": 144,
+   "battery_mah": 6510,
+   "charge_w": 90.0,
+   "weight_g": 200.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": true,
+   "ir_port": true
+  },
+  "seed_main_mp": 64,
+  "year": 2026,
+  "os": "Android"
+ },
+ "vivo-x500": {
+  "brand": "vivo",
+  "name": "X500",
+  "full_name": "vivo X500",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 12,
+    "rom_gb": 256,
+    "price_rub": 58400,
+    "price_date": "2026-11-05",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.59,
+   "refresh_hz": 144,
+   "battery_mah": 7500,
+   "charge_w": 90.0,
+   "weight_g": 200.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": true,
+   "ir_port": true
+  },
+  "seed_main_mp": 64,
+  "year": 2026,
+  "os": "Android"
+ },
+ "vivo-y04": {
+  "brand": "vivo",
+  "name": "Y04",
+  "full_name": "vivo Y04",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 4,
+    "rom_gb": 64,
+    "price_rub": 8990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.74,
+   "refresh_hz": 90,
+   "battery_mah": 5500,
+   "charge_w": 15.0,
+   "weight_g": 197.0,
+   "has_5g": false,
+   "nfc": false,
+   "esim": false,
+   "ir_port": false
+  },
+  "seed_main_mp": 13,
+  "year": 2025,
+  "os": "Android"
+ },
+ "vivo-y18": {
+  "brand": "vivo",
+  "name": "Y18",
+  "full_name": "vivo Y18",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 4,
+    "rom_gb": 128,
+    "price_rub": 9990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.56,
+   "refresh_hz": 90,
+   "battery_mah": 5000,
+   "charge_w": 15.0,
+   "weight_g": 185.0,
+   "has_5g": false,
+   "nfc": false,
+   "esim": false,
+   "ir_port": false
+  },
+  "seed_main_mp": 50,
+  "year": 2024,
+  "os": "Android"
+ },
+ "vivo-y29": {
+  "brand": "vivo",
+  "name": "Y29",
+  "full_name": "vivo Y29",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 6,
+    "rom_gb": 128,
+    "price_rub": 14990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.68,
+   "refresh_hz": 120,
+   "battery_mah": 5500,
+   "charge_w": 44.0,
+   "weight_g": 198.0,
+   "has_5g": false,
+   "nfc": true,
+   "esim": false,
+   "ir_port": false
+  },
+  "seed_main_mp": 50,
+  "year": 2025,
+  "os": "Android"
+ },
+ "vivo-y36": {
+  "brand": "vivo",
+  "name": "Y36",
+  "full_name": "vivo Y36",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 8,
+    "rom_gb": 128,
+    "price_rub": 13990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.64,
+   "refresh_hz": 90,
+   "battery_mah": 5000,
+   "charge_w": 44.0,
+   "weight_g": 202.0,
+   "has_5g": false,
+   "nfc": true,
+   "esim": false,
+   "ir_port": false
+  },
+  "seed_main_mp": 50,
+  "year": 2023,
+  "os": "Android"
+ },
+ "xiaomi-13t-pro": {
+  "brand": "xiaomi",
+  "name": "13T Pro",
+  "full_name": "Xiaomi 13T Pro",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 12,
+    "rom_gb": 512,
+    "price_rub": 37990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.67,
+   "refresh_hz": 144,
+   "battery_mah": 5000,
+   "charge_w": 120.0,
+   "weight_g": 206.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": true,
+   "ir_port": true
+  },
+  "seed_main_mp": 50,
+  "year": 2023,
+  "os": "Android"
+ },
+ "xiaomi-14-ultra": {
+  "brand": "xiaomi",
+  "name": "14 Ultra",
+  "full_name": "Xiaomi 14 Ultra",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 16,
+    "rom_gb": 512,
+    "price_rub": 49900,
+    "price_date": "2026-11-05",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.73,
+   "refresh_hz": 120,
+   "battery_mah": 5000,
+   "charge_w": 90.0,
+   "weight_g": 219.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": true,
+   "ir_port": true
+  },
+  "seed_main_mp": 50,
+  "year": 2024,
+  "os": "Android"
+ },
+ "xiaomi-14": {
+  "brand": "xiaomi",
+  "name": "14",
+  "full_name": "Xiaomi 14",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 12,
+    "rom_gb": 256,
+    "price_rub": 50990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.36,
+   "refresh_hz": 120,
+   "battery_mah": 4610,
+   "charge_w": 90.0,
+   "weight_g": 193.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": true,
+   "ir_port": true
+  },
+  "seed_main_mp": 50,
+  "year": 2024,
+  "os": "Android"
+ },
+ "xiaomi-14t-pro": {
+  "brand": "xiaomi",
+  "name": "14T Pro",
+  "full_name": "Xiaomi 14T Pro",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 12,
+    "rom_gb": 256,
+    "price_rub": 46990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.67,
+   "refresh_hz": 144,
+   "battery_mah": 5000,
+   "charge_w": 120.0,
+   "weight_g": 209.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": true,
+   "ir_port": true
+  },
+  "seed_main_mp": 50,
+  "year": 2024,
+  "os": "Android"
+ },
+ "xiaomi-14t": {
+  "brand": "xiaomi",
+  "name": "14T",
+  "full_name": "Xiaomi 14T",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 12,
+    "rom_gb": 256,
+    "price_rub": 36990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.67,
+   "refresh_hz": 144,
+   "battery_mah": 5000,
+   "charge_w": 67.0,
+   "weight_g": 193.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": true,
+   "ir_port": true
+  },
+  "seed_main_mp": 50,
+  "year": 2024,
+  "os": "Android"
+ },
+ "xiaomi-15-ultra": {
+  "brand": "xiaomi",
+  "name": "15 Ultra",
+  "full_name": "Xiaomi 15 Ultra",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 16,
+    "rom_gb": 512,
+    "price_rub": 74990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.73,
+   "refresh_hz": 120,
+   "battery_mah": 5410,
+   "charge_w": 90.0,
+   "weight_g": 226.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": true,
+   "ir_port": true
+  },
+  "seed_main_mp": 200,
+  "year": 2025,
+  "os": "Android"
+ },
+ "xiaomi-15": {
+  "brand": "xiaomi",
+  "name": "15",
+  "full_name": "Xiaomi 15",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 12,
+    "rom_gb": 256,
+    "price_rub": 54990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.36,
+   "refresh_hz": 120,
+   "battery_mah": 5240,
+   "charge_w": 90.0,
+   "weight_g": 191.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": true,
+   "ir_port": true
+  },
+  "seed_main_mp": 50,
+  "year": 2025,
+  "os": "Android"
+ },
+ "xiaomi-15t-pro": {
+  "brand": "xiaomi",
+  "name": "15T Pro",
+  "full_name": "Xiaomi 15T Pro",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 12,
+    "rom_gb": 256,
+    "price_rub": 52990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.83,
+   "refresh_hz": 144,
+   "battery_mah": 5500,
+   "charge_w": 90.0,
+   "weight_g": 210.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": true,
+   "ir_port": true
+  },
+  "seed_main_mp": 50,
+  "year": 2025,
+  "os": "Android"
+ },
+ "xiaomi-15t": {
+  "brand": "xiaomi",
+  "name": "15T",
+  "full_name": "Xiaomi 15T",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 12,
+    "rom_gb": 256,
+    "price_rub": 39990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.83,
+   "refresh_hz": 120,
+   "battery_mah": 5500,
+   "charge_w": 67.0,
+   "weight_g": 194.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": true,
+   "ir_port": true
+  },
+  "seed_main_mp": 50,
+  "year": 2025,
+  "os": "Android"
+ },
+ "xiaomi-17-ultra": {
+  "brand": "xiaomi",
+  "name": "17 Ultra",
+  "full_name": "Xiaomi 17 Ultra",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 16,
+    "rom_gb": 512,
+    "price_rub": 76400,
+    "price_date": "2026-11-05",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.9,
+   "refresh_hz": 120,
+   "battery_mah": 6000,
+   "charge_w": 90.0,
+   "weight_g": 218.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": true,
+   "ir_port": true
+  },
+  "seed_main_mp": 200,
+  "year": 2026,
+  "os": "Android"
+ },
+ "xiaomi-17": {
+  "brand": "xiaomi",
+  "name": "17",
+  "full_name": "Xiaomi 17",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 12,
+    "rom_gb": 256,
+    "price_rub": 62990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.3,
+   "refresh_hz": 120,
+   "battery_mah": 7000,
+   "charge_w": 100.0,
+   "weight_g": 191.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": true,
+   "ir_port": true
+  },
+  "seed_main_mp": 50,
+  "year": 2026,
+  "os": "Android"
+ },
+ "xiaomi-17t-pro": {
+  "brand": "xiaomi",
+  "name": "17T Pro",
+  "full_name": "Xiaomi 17T Pro",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 12,
+    "rom_gb": 256,
+    "price_rub": 44900,
+    "price_date": "2026-11-05",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.83,
+   "refresh_hz": 144,
+   "battery_mah": 7000,
+   "charge_w": 100.0,
+   "weight_g": 215.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": true,
+   "ir_port": true
+  },
+  "seed_main_mp": 50,
+  "year": 2026,
+  "os": "Android"
+ },
+ "xiaomi-17t": {
+  "brand": "xiaomi",
+  "name": "17T",
+  "full_name": "Xiaomi 17T",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 12,
+    "rom_gb": 256,
+    "price_rub": 34300,
+    "price_date": "2026-11-05",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.59,
+   "refresh_hz": 120,
+   "battery_mah": 6500,
+   "charge_w": 67.0,
+   "weight_g": 195.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": true,
+   "ir_port": true
+  },
+  "seed_main_mp": 50,
+  "year": 2026,
+  "os": "Android"
+ },
+ "xiaomi-mix-flip-2": {
+  "brand": "xiaomi",
+  "name": "Mix Flip 2",
+  "full_name": "Xiaomi Mix Flip 2",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 12,
+    "rom_gb": 512,
+    "price_rub": 71990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.86,
+   "refresh_hz": 120,
+   "battery_mah": 5165,
+   "charge_w": 67.0,
+   "weight_g": 190.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": true,
+   "ir_port": true
+  },
+  "seed_main_mp": 50,
+  "year": 2025,
+  "os": "Android"
+ },
+ "xiaomi-mix-flip": {
+  "brand": "xiaomi",
+  "name": "Mix Flip",
+  "full_name": "Xiaomi Mix Flip",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 12,
+    "rom_gb": 512,
+    "price_rub": 34695,
+    "price_date": "2026-11-05",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.86,
+   "refresh_hz": 120,
+   "battery_mah": 4780,
+   "charge_w": 67.0,
+   "weight_g": 192.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": true,
+   "ir_port": false
+  },
+  "seed_main_mp": 50,
+  "year": 2024,
+  "os": "Android"
+ },
+ "xiaomi-redmi-13": {
+  "brand": "xiaomi",
+  "name": "Redmi 13",
+  "full_name": "Xiaomi Redmi 13",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 6,
+    "rom_gb": 128,
+    "price_rub": 10990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.79,
+   "refresh_hz": 90,
+   "battery_mah": 5030,
+   "charge_w": 33.0,
+   "weight_g": 205.0,
+   "has_5g": false,
+   "nfc": true,
+   "esim": false,
+   "ir_port": true
+  },
+  "seed_main_mp": 108,
+  "year": 2024,
+  "os": "Android"
+ },
+ "xiaomi-redmi-14c": {
+  "brand": "xiaomi",
+  "name": "Redmi 14C",
+  "full_name": "Xiaomi Redmi 14C",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 4,
+    "rom_gb": 128,
+    "price_rub": 8990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.88,
+   "refresh_hz": 120,
+   "battery_mah": 5160,
+   "charge_w": 18.0,
+   "weight_g": 204.0,
+   "has_5g": false,
+   "nfc": true,
+   "esim": false,
+   "ir_port": false
+  },
+  "seed_main_mp": 50,
+  "year": 2024,
+  "os": "Android"
+ },
+ "xiaomi-redmi-15": {
+  "brand": "xiaomi",
+  "name": "Redmi 15",
+  "full_name": "Xiaomi Redmi 15",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 6,
+    "rom_gb": 128,
+    "price_rub": 13990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.9,
+   "refresh_hz": 144,
+   "battery_mah": 7000,
+   "charge_w": 33.0,
+   "weight_g": 217.0,
+   "has_5g": false,
+   "nfc": true,
+   "esim": false,
+   "ir_port": true
+  },
+  "seed_main_mp": 50,
+  "year": 2025,
+  "os": "Android"
+ },
+ "xiaomi-redmi-15c": {
+  "brand": "xiaomi",
+  "name": "Redmi 15C",
+  "full_name": "Xiaomi Redmi 15C",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 4,
+    "rom_gb": 128,
+    "price_rub": 10990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.9,
+   "refresh_hz": 120,
+   "battery_mah": 6000,
+   "charge_w": 33.0,
+   "weight_g": 205.0,
+   "has_5g": false,
+   "nfc": true,
+   "esim": false,
+   "ir_port": false
+  },
+  "seed_main_mp": 50,
+  "year": 2025,
+  "os": "Android"
+ },
+ "xiaomi-redmi-17": {
+  "brand": "xiaomi",
+  "name": "Redmi 17",
+  "full_name": "Xiaomi Redmi 17",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 4,
+    "rom_gb": 128,
+    "price_rub": 10635,
+    "price_date": "2026-11-05",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.9,
+   "refresh_hz": 120,
+   "battery_mah": 7000,
+   "charge_w": 33.0,
+   "weight_g": 210.0,
+   "has_5g": false,
+   "nfc": true,
+   "esim": false,
+   "ir_port": true
+  },
+  "seed_main_mp": 50,
+  "year": 2026,
+  "os": "Android"
+ },
+ "xiaomi-redmi-a3": {
+  "brand": "xiaomi",
+  "name": "Redmi A3",
+  "full_name": "Xiaomi Redmi A3",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 3,
+    "rom_gb": 64,
+    "price_rub": 5990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.71,
+   "refresh_hz": 90,
+   "battery_mah": 5000,
+   "charge_w": 10.0,
+   "weight_g": 193.0,
+   "has_5g": false,
+   "nfc": false,
+   "esim": false,
+   "ir_port": false
+  },
+  "seed_main_mp": 8,
+  "year": 2024,
+  "os": "Android"
+ },
+ "xiaomi-redmi-a5": {
+  "brand": "xiaomi",
+  "name": "Redmi A5",
+  "full_name": "Xiaomi Redmi A5",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 3,
+    "rom_gb": 64,
+    "price_rub": 6990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.88,
+   "refresh_hz": 120,
+   "battery_mah": 5200,
+   "charge_w": 15.0,
+   "weight_g": 193.0,
+   "has_5g": false,
+   "nfc": false,
+   "esim": false,
+   "ir_port": false
+  },
+  "seed_main_mp": 32,
+  "year": 2025,
+  "os": "Android"
+ },
+ "xiaomi-redmi-note-13-pro-plus": {
+  "brand": "xiaomi",
+  "name": "Redmi Note 13 Pro+",
+  "full_name": "Xiaomi Redmi Note 13 Pro+",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 8,
+    "rom_gb": 256,
+    "price_rub": 23990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.67,
+   "refresh_hz": 120,
+   "battery_mah": 5000,
+   "charge_w": 120.0,
+   "weight_g": 204.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": true
+  },
+  "seed_main_mp": 200,
+  "year": 2024,
+  "os": "Android"
+ },
+ "xiaomi-redmi-note-13-pro": {
+  "brand": "xiaomi",
+  "name": "Redmi Note 13 Pro",
+  "full_name": "Xiaomi Redmi Note 13 Pro",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 8,
+    "rom_gb": 256,
+    "price_rub": 19990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.67,
+   "refresh_hz": 120,
+   "battery_mah": 5000,
+   "charge_w": 67.0,
+   "weight_g": 187.0,
+   "has_5g": false,
+   "nfc": true,
+   "esim": false,
+   "ir_port": true
+  },
+  "seed_main_mp": 200,
+  "year": 2024,
+  "os": "Android"
+ },
+ "xiaomi-redmi-note-13": {
+  "brand": "xiaomi",
+  "name": "Redmi Note 13",
+  "full_name": "Xiaomi Redmi Note 13",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 6,
+    "rom_gb": 128,
+    "price_rub": 13990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.67,
+   "refresh_hz": 120,
+   "battery_mah": 5000,
+   "charge_w": 33.0,
+   "weight_g": 188.0,
+   "has_5g": false,
+   "nfc": true,
+   "esim": false,
+   "ir_port": true
+  },
+  "seed_main_mp": 108,
+  "year": 2024,
+  "os": "Android"
+ },
+ "xiaomi-redmi-note-14-5g": {
+  "brand": "xiaomi",
+  "name": "Redmi Note 14 5G",
+  "full_name": "Xiaomi Redmi Note 14 5G",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 8,
+    "rom_gb": 256,
+    "price_rub": 20990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.67,
+   "refresh_hz": 120,
+   "battery_mah": 5110,
+   "charge_w": 45.0,
+   "weight_g": 190.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": true
+  },
+  "seed_main_mp": 50,
+  "year": 2025,
+  "os": "Android"
+ },
+ "xiaomi-redmi-note-14-pro-5g": {
+  "brand": "xiaomi",
+  "name": "Redmi Note 14 Pro 5G",
+  "full_name": "Xiaomi Redmi Note 14 Pro 5G",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 8,
+    "rom_gb": 256,
+    "price_rub": 24990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.67,
+   "refresh_hz": 120,
+   "battery_mah": 5110,
+   "charge_w": 45.0,
+   "weight_g": 190.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": true
+  },
+  "seed_main_mp": 200,
+  "year": 2025,
+  "os": "Android"
+ },
+ "xiaomi-redmi-note-14-pro-plus-5g": {
+  "brand": "xiaomi",
+  "name": "Redmi Note 14 Pro+ 5G",
+  "full_name": "Xiaomi Redmi Note 14 Pro+ 5G",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 8,
+    "rom_gb": 256,
+    "price_rub": 30990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.67,
+   "refresh_hz": 120,
+   "battery_mah": 5110,
+   "charge_w": 120.0,
+   "weight_g": 205.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": true
+  },
+  "seed_main_mp": 200,
+  "year": 2025,
+  "os": "Android"
+ },
+ "xiaomi-redmi-note-14": {
+  "brand": "xiaomi",
+  "name": "Redmi Note 14",
+  "full_name": "Xiaomi Redmi Note 14",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 6,
+    "rom_gb": 128,
+    "price_rub": 16990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.67,
+   "refresh_hz": 120,
+   "battery_mah": 5500,
+   "charge_w": 33.0,
+   "weight_g": 196.0,
+   "has_5g": false,
+   "nfc": true,
+   "esim": false,
+   "ir_port": true
+  },
+  "seed_main_mp": 108,
+  "year": 2025,
+  "os": "Android"
+ },
+ "xiaomi-redmi-note-14s": {
+  "brand": "xiaomi",
+  "name": "Redmi Note 14S",
+  "full_name": "Xiaomi Redmi Note 14S",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 8,
+    "rom_gb": 256,
+    "price_rub": 20990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.67,
+   "refresh_hz": 120,
+   "battery_mah": 5000,
+   "charge_w": 67.0,
+   "weight_g": 179.0,
+   "has_5g": false,
+   "nfc": true,
+   "esim": false,
+   "ir_port": true
+  },
+  "seed_main_mp": 200,
+  "year": 2025,
+  "os": "Android"
+ },
+ "xiaomi-redmi-note-15-5g": {
+  "brand": "xiaomi",
+  "name": "Redmi Note 15 5G",
+  "full_name": "Xiaomi Redmi Note 15 5G",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 8,
+    "rom_gb": 256,
+    "price_rub": 11300,
+    "price_date": "2026-11-05",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.77,
+   "refresh_hz": 120,
+   "battery_mah": 5520,
+   "charge_w": 45.0,
+   "weight_g": 178.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": true
+  },
+  "seed_main_mp": 108,
+  "year": 2026,
+  "os": "Android"
+ },
+ "xiaomi-redmi-note-15-pro-5g": {
+  "brand": "xiaomi",
+  "name": "Redmi Note 15 Pro 5G",
+  "full_name": "Xiaomi Redmi Note 15 Pro 5G",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 8,
+    "rom_gb": 256,
+    "price_rub": 26990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.83,
+   "refresh_hz": 120,
+   "battery_mah": 6580,
+   "charge_w": 45.0,
+   "weight_g": 210.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": true
+  },
+  "seed_main_mp": 200,
+  "year": 2026,
+  "os": "Android"
+ },
+ "xiaomi-redmi-note-15-pro-plus": {
+  "brand": "xiaomi",
+  "name": "Redmi Note 15 Pro+",
+  "full_name": "Xiaomi Redmi Note 15 Pro+",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 12,
+    "rom_gb": 256,
+    "price_rub": 22600,
+    "price_date": "2026-11-05",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.83,
+   "refresh_hz": 120,
+   "battery_mah": 6500,
+   "charge_w": 100.0,
+   "weight_g": 210.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": true
+  },
+  "seed_main_mp": 200,
+  "year": 2026,
+  "os": "Android"
+ },
+ "xiaomi-redmi-note-17-4g": {
+  "brand": "xiaomi",
+  "name": "Redmi Note 17 4G",
+  "full_name": "Xiaomi Redmi Note 17 4G",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 8,
+    "rom_gb": 256,
+    "price_rub": 12300,
+    "price_date": "2026-11-05",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.99,
+   "refresh_hz": 120,
+   "battery_mah": 7700,
+   "charge_w": 33.0,
+   "weight_g": 210.0,
+   "has_5g": false,
+   "nfc": true,
+   "esim": false,
+   "ir_port": true
+  },
+  "seed_main_mp": 50,
+  "year": 2026,
+  "os": "Android"
+ },
+ "xiaomi-redmi-note-17-5g": {
+  "brand": "xiaomi",
+  "name": "Redmi Note 17 5G",
+  "full_name": "Xiaomi Redmi Note 17 5G",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 6,
+    "rom_gb": 256,
+    "price_rub": 16541,
+    "price_date": "2026-11-05",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.77,
+   "refresh_hz": 120,
+   "battery_mah": 7000,
+   "charge_w": 45.0,
+   "weight_g": 195.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": true
+  },
+  "seed_main_mp": 50,
+  "year": 2026,
+  "os": "Android"
+ },
+ "xiaomi-redmi-note-17-pro-5g": {
+  "brand": "xiaomi",
+  "name": "Redmi Note 17 Pro 5G",
+  "full_name": "Xiaomi Redmi Note 17 Pro 5G",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 6,
+    "rom_gb": 128,
+    "price_rub": 20859,
+    "price_date": "2026-11-05",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.83,
+   "refresh_hz": 120,
+   "battery_mah": 8340,
+   "charge_w": 67.0,
+   "weight_g": 205.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": true
+  },
+  "seed_main_mp": 50,
+  "year": 2026,
+  "os": "Android"
+ },
+ "xiaomi-redmi-note-17-pro-max": {
+  "brand": "xiaomi",
+  "name": "Redmi Note 17 Pro Max",
+  "full_name": "Xiaomi Redmi Note 17 Pro Max",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 8,
+    "rom_gb": 128,
+    "price_rub": 25700,
+    "price_date": "2026-11-05",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.83,
+   "refresh_hz": 120,
+   "battery_mah": 10000,
+   "charge_w": 100.0,
+   "weight_g": 220.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": true
+  },
+  "seed_main_mp": 50,
+  "year": 2026,
+  "os": "Android"
+ },
+ "xiaomi-redmi-turbo-4-pro": {
+  "brand": "xiaomi",
+  "name": "Redmi Turbo 4 Pro",
+  "full_name": "Xiaomi Redmi Turbo 4 Pro",
+  "in_ml": true,
+  "seed_variants": [
+   {
+    "ram_gb": 12,
+    "rom_gb": 256,
+    "price_rub": 35990,
+    "price_date": "2026-08-01",
+    "price_src": "project_seed",
+    "msrp_usd": null,
+    "is_base": true,
+    "_q": "estimated",
+    "_src": [
+     "project_seed"
+    ]
+   }
+  ],
+  "seed_specs": {
+   "screen_in": 6.83,
+   "refresh_hz": 120,
+   "battery_mah": 7550,
+   "charge_w": 90.0,
+   "weight_g": 219.0,
+   "has_5g": true,
+   "nfc": true,
+   "esim": false,
+   "ir_port": true
+  },
+  "seed_main_mp": 50,
+  "year": 2025,
+  "os": "Android"
+ }
+}

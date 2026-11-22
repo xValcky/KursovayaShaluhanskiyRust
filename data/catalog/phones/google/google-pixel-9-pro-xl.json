@@ -5,49 +5,92 @@
   "full_name": "Google Pixel 9 Pro XL",
   "aliases": [],
   "os": "Android",
-  "release_date": null,
+  "release_date": "2024-08",
   "year": 2024,
   "status": "on_sale",
   "availability_ru": "parallel_import",
   "form_factor": "bar",
   "in_ml": true,
-  "chipset": "demo-soc-1200",
+  "chipset": "google-tensor-g4",
   "specs": {
     "screen_in": 6.8,
     "cover_screen_in": null,
     "refresh_hz": 120,
-    "display_type": null,
-    "peak_nits": null,
+    "display_type": "LTPO OLED",
+    "peak_nits": 3000,
     "battery_mah": 5060,
-    "charge_w": 37.0,
-    "wireless_w": null,
-    "weight_g": 221.0,
-    "thickness_mm": null,
-    "ip_rating": null,
+    "charge_w": 37,
+    "wireless_w": 23,
+    "weight_g": 221,
+    "thickness_mm": 8.5,
+    "ip_rating": "IP68",
     "has_5g": true,
     "nfc": true,
     "esim": true,
     "ir_port": false,
-    "jack35": null,
-    "sd_card": null,
-    "update_years": null,
+    "jack35": false,
+    "sd_card": false,
+    "update_years": 7,
     "_q": "estimated",
     "_src": [
-      "project_seed"
+      "ai_knowledge"
     ]
   },
   "variants": [
+    {
+      "ram_gb": 16,
+      "rom_gb": 128,
+      "price_rub": 65090,
+      "price_date": null,
+      "price_src": "price_model",
+      "msrp_usd": 1099,
+      "is_base": false,
+      "_q": "estimated",
+      "_src": [
+        "price_model",
+        "ai_knowledge"
+      ]
+    },
     {
       "ram_gb": 16,
       "rom_gb": 256,
       "price_rub": 70990,
       "price_date": "2026-08-01",
       "price_src": "project_seed",
-      "msrp_usd": null,
+      "msrp_usd": 1199,
       "is_base": true,
       "_q": "estimated",
       "_src": [
-        "project_seed"
+        "project_seed",
+        "ai_knowledge"
+      ]
+    },
+    {
+      "ram_gb": 16,
+      "rom_gb": 512,
+      "price_rub": 78090,
+      "price_date": null,
+      "price_src": "price_model",
+      "msrp_usd": 1319,
+      "is_base": false,
+      "_q": "estimated",
+      "_src": [
+        "price_model",
+        "ai_knowledge"
+      ]
+    },
+    {
+      "ram_gb": 16,
+      "rom_gb": 1024,
+      "price_rub": 91690,
+      "price_date": null,
+      "price_src": "price_model",
+      "msrp_usd": 1549,
+      "is_base": false,
+      "_q": "estimated",
+      "_src": [
+        "price_model",
+        "ai_knowledge"
       ]
     }
   ],
@@ -55,124 +98,149 @@
     {
       "role": "main",
       "position": 0,
-      "sensor": "demo-s21",
+      "sensor": "samsung-isocell-gnk",
       "mp": 50,
-      "aperture": 1.6,
-      "focal_mm": 26,
-      "fov_deg": 84,
+      "aperture": 1.68,
+      "focal_mm": 25,
+      "fov_deg": null,
       "optical_zoom_x": null,
       "ois": true,
-      "af": "pdaf",
+      "af": "dual_pixel",
       "min_focus_cm": null,
-      "video_max": "8K30",
-      "processing_score": 78,
-      "processing_basis": "random",
-      "_q": "random",
+      "video_max": null,
+      "processing_score": 86,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "ai_knowledge"
       ]
     },
     {
       "role": "ultrawide",
       "position": 0,
-      "sensor": "demo-s15",
+      "sensor": null,
       "mp": 48,
-      "aperture": 2.3,
-      "focal_mm": 13,
-      "fov_deg": 115,
-      "optical_zoom_x": 0.6,
+      "aperture": 1.7,
+      "focal_mm": null,
+      "fov_deg": null,
+      "optical_zoom_x": null,
       "ois": false,
       "af": "pdaf",
-      "min_focus_cm": 4,
+      "min_focus_cm": null,
       "video_max": null,
-      "processing_score": 67,
-      "processing_basis": "random",
-      "_q": "random",
+      "processing_score": 76,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "ai_knowledge"
+      ]
+    },
+    {
+      "role": "periscope",
+      "position": 0,
+      "sensor": null,
+      "mp": 48,
+      "aperture": 2.8,
+      "focal_mm": 113,
+      "fov_deg": null,
+      "optical_zoom_x": null,
+      "ois": true,
+      "af": "pdaf",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": 82,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
+      "_src": [
+        "ai_knowledge"
       ]
     },
     {
       "role": "front",
       "position": 0,
-      "sensor": "demo-s12",
-      "mp": 20,
-      "aperture": 2.4,
-      "focal_mm": 24,
-      "fov_deg": 85,
+      "sensor": null,
+      "mp": 42,
+      "aperture": 2.2,
+      "focal_mm": null,
+      "fov_deg": null,
       "optical_zoom_x": null,
       "ois": false,
-      "af": "fixed",
+      "af": "pdaf",
       "min_focus_cm": null,
       "video_max": null,
-      "processing_score": 71,
-      "processing_basis": "random",
-      "_q": "random",
+      "processing_score": 76,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "ai_knowledge"
       ]
     }
   ],
   "camera_features": {
     "macro_mode": "ultrawide_af",
-    "macro_min_focus_cm": 4,
-    "lossless_zoom_x": 2.0,
-    "max_digital_zoom_x": 8,
+    "macro_min_focus_cm": null,
+    "lossless_zoom_x": 2,
+    "max_digital_zoom_x": 30,
     "dxomark": null,
-    "_q": "random",
+    "_q": "estimated",
     "_src": [
-      "random"
+      "ai_knowledge"
     ]
   },
   "quirks": [
     {
-      "code": "overheating",
+      "code": "long_updates",
+      "severity": 3,
+      "note_ru": "7 лет обновлений Android и безопасности с начала продаж — официальная политика Google для Pixel 8 и новее.",
+      "evidence": [
+        "https://support.google.com/pixelphone/answer/4457705?hl=en"
+      ],
+      "_q": "verified"
+    },
+    {
+      "code": "clean_android",
       "severity": 2,
-      "note_ru": "Гипотеза пользователя: Pixel сильно греются (чипы Tensor). Проверить по каждой модели отдельно.",
+      "note_ru": "Почти чистый Android без лишних оболочек.",
       "evidence": [],
-      "_q": "user_hypothesis"
+      "_q": "estimated"
+    },
+    {
+      "code": "good_ai_assistant",
+      "severity": 2,
+      "note_ru": "Gemini, Circle to Search, «Добавь меня», правка фото Magic Editor; часть функций без русского языка.",
+      "evidence": [],
+      "_q": "estimated"
     }
   ],
   "quirks_checked": false,
   "special": [],
   "photos": [
     {
-      "url": "/placeholder/google-pixel-9-pro-xl/1.svg",
-      "kind": "placeholder",
+      "author": "D.328",
       "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
-      "width": 960,
-      "height": 1280,
-      "origin": "placeholder"
+      "height": 636,
+      "kind": "back",
+      "license": "CC BY-SA 4.0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Google_Pixel_9_Pro_XL_(back).jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Google_Pixel_9_Pro_XL_%28back%29.jpg/960px-Google_Pixel_9_Pro_XL_%28back%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
     },
     {
-      "url": "/placeholder/google-pixel-9-pro-xl/2.svg",
-      "kind": "placeholder",
+      "author": "Miyako Fujimiya",
       "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
-      "width": 960,
-      "height": 1280,
-      "origin": "placeholder"
-    },
-    {
-      "url": "/placeholder/google-pixel-9-pro-xl/3.svg",
-      "kind": "placeholder",
-      "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
-      "width": 960,
-      "height": 1280,
-      "origin": "placeholder"
+      "height": 960,
+      "kind": "lifestyle",
+      "license": "CC BY-SA 4.0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Pixel_9_Pro_XL.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Pixel_9_Pro_XL.jpg/960px-Pixel_9_Pro_XL.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
     }
   ],
   "_meta": {
-    "created": "2026-11-20",
-    "updated": "2026-11-20",
-    "filled_by": "tools/generate_random_catalog.py"
+    "created": "2026-11-21",
+    "updated": "2026-11-21",
+    "filled_by": "Claude Opus 5.5 (сведения до 2026-06) + tools/import_catalog_data.py"
   }
 }

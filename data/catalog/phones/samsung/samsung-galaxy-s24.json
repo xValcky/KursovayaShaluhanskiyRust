@@ -3,37 +3,40 @@
   "brand": "samsung",
   "name": "Galaxy S24",
   "full_name": "Samsung Galaxy S24",
-  "aliases": [],
+  "aliases": [
+    "Galaxy S24 Exynos",
+    "SM-S921B"
+  ],
   "os": "Android",
-  "release_date": null,
+  "release_date": "2024-01",
   "year": 2024,
   "status": "on_sale",
   "availability_ru": "parallel_import",
   "form_factor": "bar",
   "in_ml": true,
-  "chipset": "demo-soc-1600",
+  "chipset": "exynos-2400",
   "specs": {
     "screen_in": 6.2,
     "cover_screen_in": null,
     "refresh_hz": 120,
-    "display_type": null,
-    "peak_nits": null,
+    "display_type": "LTPO AMOLED",
+    "peak_nits": 2600,
     "battery_mah": 4000,
-    "charge_w": 25.0,
-    "wireless_w": null,
-    "weight_g": 167.0,
-    "thickness_mm": null,
-    "ip_rating": null,
+    "charge_w": 25,
+    "wireless_w": 15,
+    "weight_g": 167,
+    "thickness_mm": 7.6,
+    "ip_rating": "IP68",
     "has_5g": true,
     "nfc": true,
     "esim": true,
     "ir_port": false,
-    "jack35": null,
-    "sd_card": null,
-    "update_years": null,
+    "jack35": false,
+    "sd_card": false,
+    "update_years": 7,
     "_q": "estimated",
     "_src": [
-      "project_seed"
+      "ai_knowledge"
     ]
   },
   "variants": [
@@ -43,11 +46,39 @@
       "price_rub": 44990,
       "price_date": "2026-08-01",
       "price_src": "project_seed",
-      "msrp_usd": null,
+      "msrp_usd": 799,
       "is_base": true,
       "_q": "estimated",
       "_src": [
-        "project_seed"
+        "project_seed",
+        "ai_knowledge"
+      ]
+    },
+    {
+      "ram_gb": 8,
+      "rom_gb": 256,
+      "price_rub": 48390,
+      "price_date": null,
+      "price_src": "price_model",
+      "msrp_usd": 859,
+      "is_base": false,
+      "_q": "estimated",
+      "_src": [
+        "price_model",
+        "ai_knowledge"
+      ]
+    },
+    {
+      "ram_gb": 8,
+      "rom_gb": 512,
+      "price_rub": 55790,
+      "price_date": null,
+      "price_src": "price_model",
+      "msrp_usd": null,
+      "is_base": false,
+      "_q": "estimated",
+      "_src": [
+        "price_model"
       ]
     }
   ],
@@ -55,131 +86,192 @@
     {
       "role": "main",
       "position": 0,
-      "sensor": "demo-s23",
+      "sensor": null,
       "mp": 50,
       "aperture": 1.8,
-      "focal_mm": 25,
-      "fov_deg": 86,
+      "focal_mm": 24,
+      "fov_deg": null,
       "optical_zoom_x": null,
       "ois": true,
-      "af": "pdaf",
+      "af": "dual_pixel",
       "min_focus_cm": null,
-      "video_max": "4K30",
-      "processing_score": 64,
-      "processing_basis": "random",
-      "_q": "random",
+      "video_max": null,
+      "processing_score": 78,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "ai_knowledge"
       ]
     },
     {
       "role": "ultrawide",
       "position": 0,
-      "sensor": "demo-s19",
-      "mp": 50,
+      "sensor": null,
+      "mp": 12,
       "aperture": 2.2,
       "focal_mm": 13,
-      "fov_deg": 123,
-      "optical_zoom_x": 0.6,
-      "ois": false,
-      "af": "fixed",
-      "min_focus_cm": null,
-      "video_max": null,
-      "processing_score": 61,
-      "processing_basis": "random",
-      "_q": "random",
-      "_src": [
-        "random"
-      ]
-    },
-    {
-      "role": "front",
-      "position": 0,
-      "sensor": "demo-s06",
-      "mp": 12,
-      "aperture": 2.0,
-      "focal_mm": 21,
-      "fov_deg": 80,
+      "fov_deg": null,
       "optical_zoom_x": null,
       "ois": false,
       "af": "fixed",
       "min_focus_cm": null,
       "video_max": null,
       "processing_score": 62,
-      "processing_basis": "random",
-      "_q": "random",
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "ai_knowledge"
+      ]
+    },
+    {
+      "role": "tele",
+      "position": 0,
+      "sensor": null,
+      "mp": 10,
+      "aperture": 2.4,
+      "focal_mm": 67,
+      "fov_deg": null,
+      "optical_zoom_x": null,
+      "ois": true,
+      "af": "pdaf",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": 68,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
+      "_src": [
+        "ai_knowledge"
+      ]
+    },
+    {
+      "role": "front",
+      "position": 0,
+      "sensor": null,
+      "mp": 12,
+      "aperture": 2.2,
+      "focal_mm": 26,
+      "fov_deg": null,
+      "optical_zoom_x": null,
+      "ois": false,
+      "af": "dual_pixel",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": 70,
+      "processing_basis": "reviews_rubric",
+      "_q": "verified",
+      "_src": [
+        "wikipedia:Samsung_Galaxy_S24",
+        "ai_knowledge"
       ]
     }
   ],
   "camera_features": {
     "macro_mode": "none",
     "macro_min_focus_cm": null,
-    "lossless_zoom_x": 2.0,
-    "max_digital_zoom_x": 20,
+    "lossless_zoom_x": null,
+    "max_digital_zoom_x": 30,
     "dxomark": null,
-    "_q": "random",
+    "_q": "estimated",
     "_src": [
-      "random"
+      "ai_knowledge"
     ]
   },
   "quirks": [
     {
-      "code": "good_ai_assistant",
-      "severity": 2,
-      "note_ru": "Со слов пользователя: хороший встроенный ИИ-ассистент (Galaxy AI). Проверить список функций для модели и что работает в РФ.",
+      "code": "long_updates",
+      "severity": 3,
+      "note_ru": "7 лет обновлений по официальной политике Samsung.",
       "evidence": [],
-      "_q": "user_hypothesis"
+      "_q": "estimated"
+    },
+    {
+      "code": "good_ai_assistant",
+      "severity": 3,
+      "note_ru": "Набор ИИ-функций производителя: перевод звонков, правка фото, сводки; часть зависит от региона.",
+      "evidence": [],
+      "_q": "estimated"
     },
     {
       "code": "desktop_mode",
-      "severity": 3,
-      "note_ru": "Демо: случайная особенность для проверки интерфейса.",
+      "severity": 2,
+      "note_ru": "Режим ПК при подключении к монитору.",
       "evidence": [],
-      "_q": "random"
+      "_q": "estimated"
     }
   ],
   "quirks_checked": false,
   "special": [],
   "photos": [
     {
-      "url": "/placeholder/samsung-galaxy-s24/1.svg",
-      "kind": "placeholder",
+      "author": "webtekno",
       "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
-      "width": 960,
-      "height": 1280,
-      "origin": "placeholder"
+      "height": 540,
+      "kind": "lifestyle",
+      "license": "CC BY 3.0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_S24_(webtekno)_001.png",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Samsung_Galaxy_S24_%28webtekno%29_001.png/960px-Samsung_Galaxy_S24_%28webtekno%29_001.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
     },
     {
-      "url": "/placeholder/samsung-galaxy-s24/2.svg",
-      "kind": "placeholder",
+      "author": "webtekno",
       "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
-      "width": 960,
-      "height": 1280,
-      "origin": "placeholder"
+      "height": 540,
+      "kind": "lifestyle",
+      "license": "CC BY 3.0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_S24_(webtekno)_002.png",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Samsung_Galaxy_S24_%28webtekno%29_002.png/960px-Samsung_Galaxy_S24_%28webtekno%29_002.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
     },
     {
-      "url": "/placeholder/samsung-galaxy-s24/3.svg",
-      "kind": "placeholder",
+      "author": "webtekno",
       "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
-      "width": 960,
-      "height": 1280,
-      "origin": "placeholder"
+      "height": 540,
+      "kind": "lifestyle",
+      "license": "CC BY 3.0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_S24_(webtekno)_003.png",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Samsung_Galaxy_S24_%28webtekno%29_003.png/960px-Samsung_Galaxy_S24_%28webtekno%29_003.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
+    },
+    {
+      "author": "webtekno",
+      "color_ru": null,
+      "height": 540,
+      "kind": "lifestyle",
+      "license": "CC BY 3.0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_S24_(webtekno)_004.png",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Samsung_Galaxy_S24_%28webtekno%29_004.png/960px-Samsung_Galaxy_S24_%28webtekno%29_004.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
+    },
+    {
+      "author": "webtekno",
+      "color_ru": null,
+      "height": 540,
+      "kind": "lifestyle",
+      "license": "CC BY 3.0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_S24_(webtekno)_005.png",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Samsung_Galaxy_S24_%28webtekno%29_005.png/960px-Samsung_Galaxy_S24_%28webtekno%29_005.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
+    },
+    {
+      "author": "webtekno",
+      "color_ru": null,
+      "height": 540,
+      "kind": "lifestyle",
+      "license": "CC BY 3.0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_S24_(webtekno)_006.png",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Samsung_Galaxy_S24_%28webtekno%29_006.png/960px-Samsung_Galaxy_S24_%28webtekno%29_006.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
     }
   ],
   "_meta": {
-    "created": "2026-11-20",
-    "updated": "2026-11-20",
-    "filled_by": "tools/generate_random_catalog.py"
+    "created": "2026-11-21",
+    "updated": "2026-11-21",
+    "filled_by": "Claude Opus 5.5 (сведения до 2026-06) + tools/import_catalog_data.py"
   }
 }

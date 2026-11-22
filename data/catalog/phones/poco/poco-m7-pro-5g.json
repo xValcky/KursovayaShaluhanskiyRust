@@ -5,35 +5,36 @@
   "full_name": "POCO M7 Pro 5G",
   "aliases": [],
   "os": "Android",
-  "release_date": null,
-  "year": 2025,
+  "release_date": "2024-12",
+  "year": 2024,
   "status": "on_sale",
   "availability_ru": "official",
   "form_factor": "bar",
   "in_ml": true,
-  "chipset": "demo-soc-550",
+  "chipset": "dimensity-7025-ultra",
   "specs": {
     "screen_in": 6.67,
     "cover_screen_in": null,
     "refresh_hz": 120,
-    "display_type": null,
-    "peak_nits": null,
+    "display_type": "AMOLED",
+    "peak_nits": 2100,
     "battery_mah": 5110,
-    "charge_w": 45.0,
-    "wireless_w": null,
-    "weight_g": 190.0,
-    "thickness_mm": null,
-    "ip_rating": null,
+    "charge_w": 45,
+    "wireless_w": 0,
+    "weight_g": 190,
+    "thickness_mm": 8,
+    "ip_rating": "IP64",
     "has_5g": true,
     "nfc": true,
     "esim": false,
     "ir_port": true,
-    "jack35": null,
-    "sd_card": null,
-    "update_years": null,
-    "_q": "estimated",
+    "jack35": true,
+    "sd_card": false,
+    "update_years": 3,
+    "_q": "verified",
     "_src": [
-      "project_seed"
+      "wikipedia:Poco_M7_Pro_5G",
+      "ai_knowledge"
     ]
   },
   "variants": [
@@ -51,29 +52,16 @@
       ]
     },
     {
-      "ram_gb": 8,
-      "rom_gb": 512,
-      "price_rub": 18990,
-      "price_date": "2026-11-20",
-      "price_src": "random",
-      "msrp_usd": null,
-      "is_base": false,
-      "_q": "random",
-      "_src": [
-        "random"
-      ]
-    },
-    {
       "ram_gb": 12,
-      "rom_gb": 1024,
-      "price_rub": 21990,
-      "price_date": "2026-11-20",
-      "price_src": "random",
+      "rom_gb": 256,
+      "price_rub": 17790,
+      "price_date": null,
+      "price_src": "price_model",
       "msrp_usd": null,
       "is_base": false,
-      "_q": "random",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "price_model"
       ]
     }
   ],
@@ -81,89 +69,83 @@
     {
       "role": "main",
       "position": 0,
-      "sensor": "demo-s19",
+      "sensor": "sony-lyt-600",
       "mp": 50,
-      "aperture": 1.9,
-      "focal_mm": 25,
-      "fov_deg": 84,
+      "aperture": 1.5,
+      "focal_mm": null,
+      "fov_deg": null,
       "optical_zoom_x": null,
-      "ois": false,
+      "ois": true,
       "af": "pdaf",
       "min_focus_cm": null,
-      "video_max": "4K30",
-      "processing_score": 52,
-      "processing_basis": "random",
-      "_q": "random",
+      "video_max": null,
+      "processing_score": 56,
+      "processing_basis": "reviews_rubric",
+      "_q": "verified",
       "_src": [
-        "random"
+        "wikipedia:Poco_M7_Pro_5G",
+        "ai_knowledge"
       ]
     },
     {
-      "role": "macro",
+      "role": "depth",
       "position": 0,
-      "sensor": "demo-s02",
-      "mp": 5,
+      "sensor": null,
+      "mp": 2,
       "aperture": 2.4,
-      "focal_mm": 24,
-      "fov_deg": 80,
+      "focal_mm": null,
+      "fov_deg": null,
       "optical_zoom_x": null,
       "ois": false,
       "af": "fixed",
-      "min_focus_cm": 4,
+      "min_focus_cm": null,
       "video_max": null,
-      "processing_score": 48,
-      "processing_basis": "random",
-      "_q": "random",
+      "processing_score": null,
+      "processing_basis": null,
+      "_q": "estimated",
       "_src": [
-        "random"
+        "ai_knowledge"
       ]
     },
     {
       "role": "front",
       "position": 0,
-      "sensor": "demo-s04",
-      "mp": 8,
-      "aperture": 2.3,
-      "focal_mm": 24,
-      "fov_deg": 83,
+      "sensor": null,
+      "mp": 20,
+      "aperture": 2.2,
+      "focal_mm": null,
+      "fov_deg": null,
       "optical_zoom_x": null,
       "ois": false,
       "af": "fixed",
       "min_focus_cm": null,
       "video_max": null,
-      "processing_score": 48,
-      "processing_basis": "random",
-      "_q": "random",
+      "processing_score": 46,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "ai_knowledge"
       ]
     }
   ],
   "camera_features": {
-    "macro_mode": "dedicated",
-    "macro_min_focus_cm": 4,
-    "lossless_zoom_x": 2.0,
-    "max_digital_zoom_x": 8,
+    "macro_mode": "none",
+    "macro_min_focus_cm": null,
+    "lossless_zoom_x": null,
+    "max_digital_zoom_x": 10,
     "dxomark": null,
-    "_q": "random",
+    "_q": "estimated",
     "_src": [
-      "random"
+      "ai_knowledge"
     ]
   },
   "quirks": [
     {
-      "code": "weak_modem",
+      "code": "ads_in_system",
       "severity": 2,
-      "note_ru": "Демо: случайная особенность для проверки интерфейса.",
+      "note_ru": "Реклама в системных приложениях прошивки; часть отключается в настройках.",
       "evidence": [],
-      "_q": "random"
-    },
-    {
-      "code": "long_updates",
-      "severity": 2,
-      "note_ru": "Демо: случайная особенность для проверки интерфейса.",
-      "evidence": [],
-      "_q": "random"
+      "_q": "estimated"
     }
   ],
   "quirks_checked": false,
@@ -171,41 +153,19 @@
   "photos": [
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Poco_M7_Pro_5G.jpg/960px-Poco_M7_Pro_5G.jpg",
-      "kind": "angle",
+      "kind": "lifestyle",
       "color_ru": null,
       "author": "Morekar",
       "license": "CC BY-SA 4.0",
       "source_page": "https://commons.wikimedia.org/wiki/File:Poco_M7_Pro_5G.jpg",
-      "width": null,
+      "width": 960,
       "height": null,
       "origin": "wikimedia"
-    },
-    {
-      "url": "/placeholder/poco-m7-pro-5g/2.svg",
-      "kind": "placeholder",
-      "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
-      "width": 960,
-      "height": 1280,
-      "origin": "placeholder"
-    },
-    {
-      "url": "/placeholder/poco-m7-pro-5g/3.svg",
-      "kind": "placeholder",
-      "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
-      "width": 960,
-      "height": 1280,
-      "origin": "placeholder"
     }
   ],
   "_meta": {
-    "created": "2026-11-20",
-    "updated": "2026-11-20",
-    "filled_by": "tools/generate_random_catalog.py"
+    "created": "2026-11-21",
+    "updated": "2026-11-21",
+    "filled_by": "Claude Opus 5.5 (сведения до 2026-06) + tools/import_catalog_data.py"
   }
 }

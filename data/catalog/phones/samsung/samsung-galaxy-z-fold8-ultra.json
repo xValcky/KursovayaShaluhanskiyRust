@@ -1,0 +1,219 @@
+{
+  "slug": "samsung-galaxy-z-fold8-ultra",
+  "brand": "samsung",
+  "name": "Galaxy Z Fold8 Ultra",
+  "full_name": "Samsung Galaxy Z Fold8 Ultra",
+  "aliases": [
+    "Galaxy Z Fold 8 Ultra"
+  ],
+  "os": "Android",
+  "release_date": "2026-08",
+  "year": 2026,
+  "status": "on_sale",
+  "availability_ru": "parallel_import",
+  "form_factor": "book_fold",
+  "in_ml": false,
+  "chipset": "snapdragon-8-elite-gen-5-for-galaxy",
+  "specs": {
+    "screen_in": 8.0,
+    "cover_screen_in": 6.5,
+    "refresh_hz": 120,
+    "display_type": "LTPO AMOLED",
+    "peak_nits": 3000,
+    "battery_mah": 5000,
+    "charge_w": 45,
+    "wireless_w": 20,
+    "weight_g": 215,
+    "thickness_mm": null,
+    "ip_rating": null,
+    "has_5g": true,
+    "nfc": true,
+    "esim": true,
+    "ir_port": false,
+    "jack35": false,
+    "sd_card": false,
+    "update_years": 7,
+    "_q": "estimated",
+    "_src": [
+      "wikipedia:Samsung_Galaxy_Z_Fold_8"
+    ]
+  },
+  "variants": [
+    {
+      "ram_gb": 12,
+      "rom_gb": 256,
+      "price_rub": null,
+      "price_date": null,
+      "price_src": null,
+      "msrp_usd": null,
+      "is_base": true,
+      "_q": "unknown",
+      "_src": []
+    },
+    {
+      "ram_gb": 12,
+      "rom_gb": 512,
+      "price_rub": null,
+      "price_date": null,
+      "price_src": null,
+      "msrp_usd": null,
+      "is_base": false,
+      "_q": "unknown",
+      "_src": []
+    },
+    {
+      "ram_gb": 16,
+      "rom_gb": 1024,
+      "price_rub": null,
+      "price_date": null,
+      "price_src": null,
+      "msrp_usd": null,
+      "is_base": false,
+      "_q": "unknown",
+      "_src": []
+    }
+  ],
+  "cameras": [
+    {
+      "role": "main",
+      "position": 0,
+      "sensor": null,
+      "mp": 200,
+      "aperture": null,
+      "focal_mm": null,
+      "fov_deg": null,
+      "optical_zoom_x": null,
+      "ois": true,
+      "af": "pdaf",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": null,
+      "processing_basis": null,
+      "_q": "estimated",
+      "_src": [
+        "wikipedia:Samsung_Galaxy_Z_Fold_8"
+      ]
+    },
+    {
+      "role": "ultrawide",
+      "position": 0,
+      "sensor": null,
+      "mp": 50,
+      "aperture": null,
+      "focal_mm": null,
+      "fov_deg": null,
+      "optical_zoom_x": null,
+      "ois": false,
+      "af": "pdaf",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": null,
+      "processing_basis": null,
+      "_q": "estimated",
+      "_src": [
+        "wikipedia:Samsung_Galaxy_Z_Fold_8"
+      ]
+    },
+    {
+      "role": "periscope",
+      "position": 0,
+      "sensor": null,
+      "mp": 50,
+      "aperture": null,
+      "focal_mm": null,
+      "fov_deg": null,
+      "optical_zoom_x": 5.0,
+      "ois": true,
+      "af": "pdaf",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": null,
+      "processing_basis": null,
+      "_q": "estimated",
+      "_src": [
+        "wikipedia:Samsung_Galaxy_Z_Fold_8"
+      ]
+    },
+    {
+      "role": "cover",
+      "position": 0,
+      "sensor": null,
+      "mp": 10,
+      "aperture": null,
+      "focal_mm": null,
+      "fov_deg": null,
+      "optical_zoom_x": null,
+      "ois": false,
+      "af": "fixed",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": null,
+      "processing_basis": null,
+      "_q": "estimated",
+      "_src": [
+        "wikipedia:Samsung_Galaxy_Z_Fold_8"
+      ]
+    },
+    {
+      "role": "front",
+      "position": 0,
+      "sensor": null,
+      "mp": 10,
+      "aperture": null,
+      "focal_mm": null,
+      "fov_deg": null,
+      "optical_zoom_x": null,
+      "ois": false,
+      "af": "fixed",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": null,
+      "processing_basis": null,
+      "_q": "estimated",
+      "_src": [
+        "wikipedia:Samsung_Galaxy_Z_Fold_8"
+      ]
+    }
+  ],
+  "camera_features": {
+    "macro_mode": "none",
+    "macro_min_focus_cm": null,
+    "lossless_zoom_x": null,
+    "max_digital_zoom_x": null,
+    "dxomark": null,
+    "_q": "estimated",
+    "_src": [
+      "wikipedia:Samsung_Galaxy_Z_Fold_8"
+    ]
+  },
+  "quirks": [
+    {
+      "code": "long_updates",
+      "severity": 3,
+      "note_ru": "7 лет обновлений по официальной политике Samsung.",
+      "evidence": [],
+      "_q": "estimated"
+    },
+    {
+      "code": "good_ai_assistant",
+      "severity": 3,
+      "note_ru": "Набор ИИ-функций производителя: перевод звонков, правка фото, сводки; часть зависит от региона.",
+      "evidence": [],
+      "_q": "estimated"
+    }
+  ],
+  "quirks_checked": false,
+  "special": [
+    {
+      "code": "book_fold",
+      "note_ru": "Складывается книжкой: большой внутренний экран и внешний.",
+      "_q": "estimated"
+    }
+  ],
+  "photos": [],
+  "_meta": {
+    "created": "2026-11-21",
+    "updated": "2026-11-21",
+    "filled_by": "Claude Opus 5.5 (сведения до 2026-06) + tools/import_catalog_data.py"
+  }
+}

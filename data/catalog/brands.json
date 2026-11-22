@@ -3,114 +3,198 @@
     "slug": "apple",
     "name": "Apple",
     "parent": null,
-    "country": null
-  },
-  {
-    "slug": "asus",
-    "name": "ASUS",
-    "parent": null,
-    "country": null
-  },
-  {
-    "slug": "blackview",
-    "name": "Blackview",
-    "parent": null,
-    "country": null
-  },
-  {
-    "slug": "fairphone",
-    "name": "Fairphone",
-    "parent": null,
-    "country": null
-  },
-  {
-    "slug": "google",
-    "name": "Google",
-    "parent": null,
-    "country": null
-  },
-  {
-    "slug": "honor",
-    "name": "Honor",
-    "parent": null,
-    "country": null
-  },
-  {
-    "slug": "lenovo",
-    "name": "Lenovo",
-    "parent": null,
-    "country": null
-  },
-  {
-    "slug": "motorola",
-    "name": "Motorola",
-    "parent": null,
-    "country": null
-  },
-  {
-    "slug": "nothing",
-    "name": "Nothing",
-    "parent": null,
-    "country": null
-  },
-  {
-    "slug": "nubia",
-    "name": "nubia",
-    "parent": null,
-    "country": null
-  },
-  {
-    "slug": "oneplus",
-    "name": "OnePlus",
-    "parent": null,
-    "country": null
-  },
-  {
-    "slug": "oppo",
-    "name": "Oppo",
-    "parent": null,
-    "country": null
-  },
-  {
-    "slug": "poco",
-    "name": "POCO",
-    "parent": null,
-    "country": null
-  },
-  {
-    "slug": "realme",
-    "name": "Realme",
-    "parent": null,
-    "country": null
-  },
-  {
-    "slug": "redmagic",
-    "name": "RedMagic",
-    "parent": null,
-    "country": null
+    "country": "США"
   },
   {
     "slug": "samsung",
     "name": "Samsung",
     "parent": null,
-    "country": null
-  },
-  {
-    "slug": "ulefone",
-    "name": "Ulefone",
-    "parent": null,
-    "country": null
-  },
-  {
-    "slug": "vivo",
-    "name": "Vivo",
-    "parent": null,
-    "country": null
+    "country": "Южная Корея"
   },
   {
     "slug": "xiaomi",
     "name": "Xiaomi",
     "parent": null,
-    "country": null
+    "country": "Китай"
+  },
+  {
+    "slug": "poco",
+    "name": "POCO",
+    "parent": "xiaomi",
+    "country": "Китай"
+  },
+  {
+    "slug": "honor",
+    "name": "Honor",
+    "parent": null,
+    "country": "Китай"
+  },
+  {
+    "slug": "huawei",
+    "name": "Huawei",
+    "parent": null,
+    "country": "Китай"
+  },
+  {
+    "slug": "realme",
+    "name": "realme",
+    "parent": null,
+    "country": "Китай"
+  },
+  {
+    "slug": "oppo",
+    "name": "OPPO",
+    "parent": null,
+    "country": "Китай"
+  },
+  {
+    "slug": "oneplus",
+    "name": "OnePlus",
+    "parent": null,
+    "country": "Китай"
+  },
+  {
+    "slug": "vivo",
+    "name": "vivo",
+    "parent": null,
+    "country": "Китай"
+  },
+  {
+    "slug": "iqoo",
+    "name": "iQOO",
+    "parent": "vivo",
+    "country": "Китай"
+  },
+  {
+    "slug": "google",
+    "name": "Google",
+    "parent": null,
+    "country": "США"
+  },
+  {
+    "slug": "nothing",
+    "name": "Nothing",
+    "parent": null,
+    "country": "Великобритания"
+  },
+  {
+    "slug": "motorola",
+    "name": "Motorola",
+    "parent": null,
+    "country": "США / Китай"
+  },
+  {
+    "slug": "sony",
+    "name": "Sony",
+    "parent": null,
+    "country": "Япония"
+  },
+  {
+    "slug": "asus",
+    "name": "ASUS",
+    "parent": null,
+    "country": "Тайвань"
+  },
+  {
+    "slug": "nubia",
+    "name": "nubia",
+    "parent": "zte",
+    "country": "Китай"
+  },
+  {
+    "slug": "redmagic",
+    "name": "REDMAGIC",
+    "parent": "nubia",
+    "country": "Китай"
+  },
+  {
+    "slug": "tecno",
+    "name": "Tecno",
+    "parent": null,
+    "country": "Китай (Transsion)"
+  },
+  {
+    "slug": "infinix",
+    "name": "Infinix",
+    "parent": null,
+    "country": "Китай (Transsion)"
+  },
+  {
+    "slug": "itel",
+    "name": "itel",
+    "parent": null,
+    "country": "Китай (Transsion)"
+  },
+  {
+    "slug": "meizu",
+    "name": "Meizu",
+    "parent": null,
+    "country": "Китай"
+  },
+  {
+    "slug": "lenovo",
+    "name": "Lenovo",
+    "parent": null,
+    "country": "Китай"
+  },
+  {
+    "slug": "fairphone",
+    "name": "Fairphone",
+    "parent": null,
+    "country": "Нидерланды"
+  },
+  {
+    "slug": "hmd",
+    "name": "HMD",
+    "parent": null,
+    "country": "Финляндия"
+  },
+  {
+    "slug": "nokia",
+    "name": "Nokia",
+    "parent": null,
+    "country": "Финляндия"
+  },
+  {
+    "slug": "tcl",
+    "name": "TCL",
+    "parent": null,
+    "country": "Китай"
+  },
+  {
+    "slug": "blackview",
+    "name": "Blackview",
+    "parent": null,
+    "country": "Китай"
+  },
+  {
+    "slug": "ulefone",
+    "name": "Ulefone",
+    "parent": null,
+    "country": "Китай"
+  },
+  {
+    "slug": "doogee",
+    "name": "DOOGEE",
+    "parent": null,
+    "country": "Китай"
+  },
+  {
+    "slug": "oukitel",
+    "name": "OUKITEL",
+    "parent": null,
+    "country": "Китай"
+  },
+  {
+    "slug": "unihertz",
+    "name": "Unihertz",
+    "parent": null,
+    "country": "Китай"
+  },
+  {
+    "slug": "cat",
+    "name": "Cat",
+    "parent": null,
+    "country": "Великобритания (Bullitt)"
   }
 ]

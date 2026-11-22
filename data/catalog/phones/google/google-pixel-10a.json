@@ -5,13 +5,13 @@
   "full_name": "Google Pixel 10a",
   "aliases": [],
   "os": "Android",
-  "release_date": null,
+  "release_date": "2026-03-05",
   "year": 2026,
   "status": "on_sale",
   "availability_ru": "parallel_import",
   "form_factor": "bar",
   "in_ml": true,
-  "chipset": "demo-soc-1150",
+  "chipset": "google-tensor-g4",
   "specs": {
     "screen_in": 6.3,
     "cover_screen_in": null,
@@ -19,20 +19,21 @@
     "display_type": null,
     "peak_nits": null,
     "battery_mah": 5100,
-    "charge_w": 30.0,
+    "charge_w": 30,
     "wireless_w": null,
-    "weight_g": 183.0,
+    "weight_g": 183,
     "thickness_mm": null,
     "ip_rating": null,
     "has_5g": true,
     "nfc": true,
     "esim": true,
     "ir_port": false,
-    "jack35": null,
-    "sd_card": null,
+    "jack35": false,
+    "sd_card": false,
     "update_years": null,
-    "_q": "estimated",
+    "_q": "verified",
     "_src": [
+      "wikipedia:Pixel_10a",
       "project_seed"
     ]
   },
@@ -40,40 +41,14 @@
     {
       "ram_gb": 8,
       "rom_gb": 128,
-      "price_rub": 28000,
-      "price_date": "2026-11-05",
-      "price_src": "project_seed",
+      "price_rub": 27909,
+      "price_date": "2026-11-21",
+      "price_src": "telegram_polzaskidki",
       "msrp_usd": null,
       "is_base": true,
-      "_q": "estimated",
+      "_q": "verified",
       "_src": [
-        "project_seed"
-      ]
-    },
-    {
-      "ram_gb": 12,
-      "rom_gb": 256,
-      "price_rub": 33990,
-      "price_date": "2026-11-20",
-      "price_src": "random",
-      "msrp_usd": null,
-      "is_base": false,
-      "_q": "random",
-      "_src": [
-        "random"
-      ]
-    },
-    {
-      "ram_gb": 12,
-      "rom_gb": 512,
-      "price_rub": 37990,
-      "price_date": "2026-11-20",
-      "price_src": "random",
-      "msrp_usd": null,
-      "is_base": false,
-      "_q": "random",
-      "_src": [
-        "random"
+        "telegram_polzaskidki:t.me/polzaSKIDKI/33076"
       ]
     }
   ],
@@ -81,69 +56,49 @@
     {
       "role": "main",
       "position": 0,
-      "sensor": "demo-s17",
-      "mp": 48,
-      "aperture": 1.7,
-      "focal_mm": 24,
-      "fov_deg": 82,
+      "sensor": null,
+      "mp": 48.0,
+      "aperture": null,
+      "focal_mm": null,
+      "fov_deg": null,
       "optical_zoom_x": null,
-      "ois": false,
-      "af": "pdaf",
+      "ois": true,
+      "af": "dual_pixel",
       "min_focus_cm": null,
-      "video_max": "4K30",
-      "processing_score": 54,
-      "processing_basis": "random",
-      "_q": "random",
+      "video_max": null,
+      "processing_score": null,
+      "processing_basis": null,
+      "_q": "verified",
       "_src": [
-        "random"
+        "wikipedia:Pixel_10a"
       ]
     },
     {
       "role": "ultrawide",
       "position": 0,
-      "sensor": "demo-s18",
-      "mp": 50,
-      "aperture": 2.0,
-      "focal_mm": 16,
-      "fov_deg": 115,
-      "optical_zoom_x": 0.6,
-      "ois": false,
-      "af": "fixed",
-      "min_focus_cm": null,
-      "video_max": null,
-      "processing_score": 74,
-      "processing_basis": "random",
-      "_q": "random",
-      "_src": [
-        "random"
-      ]
-    },
-    {
-      "role": "tele",
-      "position": 0,
-      "sensor": "demo-s07",
-      "mp": 12,
-      "aperture": 2.4,
-      "focal_mm": 50,
-      "fov_deg": 45,
+      "sensor": null,
+      "mp": 13.0,
+      "aperture": null,
+      "focal_mm": null,
+      "fov_deg": null,
       "optical_zoom_x": null,
-      "ois": true,
+      "ois": false,
       "af": "pdaf",
       "min_focus_cm": null,
       "video_max": null,
-      "processing_score": 67,
-      "processing_basis": "random",
-      "_q": "random",
+      "processing_score": null,
+      "processing_basis": null,
+      "_q": "verified",
       "_src": [
-        "random"
+        "wikipedia:Pixel_10a"
       ]
     },
     {
-      "role": "depth",
+      "role": "front",
       "position": 0,
-      "sensor": "demo-s01",
-      "mp": 2,
-      "aperture": 2.4,
+      "sensor": null,
+      "mp": 13.0,
+      "aperture": null,
       "focal_mm": null,
       "fov_deg": null,
       "optical_zoom_x": null,
@@ -153,29 +108,9 @@
       "video_max": null,
       "processing_score": null,
       "processing_basis": null,
-      "_q": "random",
+      "_q": "verified",
       "_src": [
-        "random"
-      ]
-    },
-    {
-      "role": "front",
-      "position": 0,
-      "sensor": "demo-s13",
-      "mp": 32,
-      "aperture": 2.1,
-      "focal_mm": 26,
-      "fov_deg": 87,
-      "optical_zoom_x": null,
-      "ois": false,
-      "af": "fixed",
-      "min_focus_cm": null,
-      "video_max": null,
-      "processing_score": 58,
-      "processing_basis": "random",
-      "_q": "random",
-      "_src": [
-        "random"
+        "wikipedia:Pixel_10a"
       ]
     }
   ],
@@ -183,69 +118,40 @@
     "macro_mode": "none",
     "macro_min_focus_cm": null,
     "lossless_zoom_x": null,
-    "max_digital_zoom_x": 30,
+    "max_digital_zoom_x": null,
     "dxomark": null,
-    "_q": "random",
-    "_src": [
-      "random"
-    ]
+    "_q": "unknown",
+    "_src": []
   },
   "quirks": [
     {
-      "code": "overheating",
-      "severity": 2,
-      "note_ru": "Гипотеза пользователя: Pixel сильно греются (чипы Tensor). Проверить по каждой модели отдельно.",
-      "evidence": [],
-      "_q": "user_hypothesis"
-    },
-    {
-      "code": "green_tint",
-      "severity": 2,
-      "note_ru": "Демо: случайная особенность для проверки интерфейса.",
-      "evidence": [],
-      "_q": "random"
+      "code": "long_updates",
+      "severity": 3,
+      "note_ru": "7 лет обновлений Android и безопасности с начала продаж — официальная политика Google для Pixel 8 и новее.",
+      "evidence": [
+        "https://support.google.com/pixelphone/answer/4457705?hl=en"
+      ],
+      "_q": "verified"
     }
   ],
   "quirks_checked": false,
   "special": [],
   "photos": [
     {
-      "url": "/placeholder/google-pixel-10a/1.svg",
-      "kind": "placeholder",
+      "author": "WeenyBeany",
       "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
-      "width": 960,
-      "height": 1280,
-      "origin": "placeholder"
-    },
-    {
-      "url": "/placeholder/google-pixel-10a/2.svg",
-      "kind": "placeholder",
-      "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
-      "width": 960,
-      "height": 1280,
-      "origin": "placeholder"
-    },
-    {
-      "url": "/placeholder/google-pixel-10a/3.svg",
-      "kind": "placeholder",
-      "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
-      "width": 960,
-      "height": 1280,
-      "origin": "placeholder"
+      "height": 864,
+      "kind": "front",
+      "license": "CC0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:AusAlert_Test_Alert_July_2026_on_Android_Phone.png",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/AusAlert_Test_Alert_July_2026_on_Android_Phone.png/960px-AusAlert_Test_Alert_July_2026_on_Android_Phone.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
     }
   ],
   "_meta": {
-    "created": "2026-11-20",
-    "updated": "2026-11-20",
-    "filled_by": "tools/generate_random_catalog.py"
+    "created": "2026-11-21",
+    "updated": "2026-11-21",
+    "filled_by": "Claude Opus 5.5 (сведения до 2026-06) + tools/import_catalog_data.py"
   }
 }

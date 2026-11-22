@@ -152,7 +152,7 @@ CREATE TABLE camera_summary (
     ultrawide_score    INTEGER,
     tele_score         INTEGER,
     front_score        INTEGER,
-    overall_score      INTEGER NOT NULL,
+    overall_score      INTEGER,          -- NULL: оценок модулей нет (известна только основная камера)
     dxomark_camera     INTEGER,
     dxomark            TEXT,                  -- JSON с подоценками
     q                  TEXT NOT NULL

@@ -1,0 +1,120 @@
+{
+  "slug": "hmd-pulse",
+  "brand": "hmd",
+  "name": "HMD Pulse",
+  "full_name": "HMD Pulse",
+  "aliases": [],
+  "os": "Android",
+  "release_date": "2024-04",
+  "year": 2024,
+  "status": "on_sale",
+  "availability_ru": "not_sold",
+  "form_factor": "bar",
+  "in_ml": false,
+  "chipset": "unisoc-t606",
+  "specs": {
+    "screen_in": 6.65,
+    "cover_screen_in": null,
+    "refresh_hz": 90,
+    "display_type": "IPS LCD",
+    "peak_nits": 600,
+    "battery_mah": 5000,
+    "charge_w": 10,
+    "wireless_w": 0,
+    "weight_g": 197,
+    "thickness_mm": 8.6,
+    "ip_rating": null,
+    "has_5g": false,
+    "nfc": true,
+    "esim": false,
+    "ir_port": false,
+    "jack35": true,
+    "sd_card": true,
+    "update_years": 2,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge"
+    ]
+  },
+  "variants": [
+    {
+      "ram_gb": 4,
+      "rom_gb": 64,
+      "price_rub": null,
+      "price_date": null,
+      "price_src": null,
+      "msrp_usd": null,
+      "is_base": true,
+      "_q": "unknown",
+      "_src": []
+    }
+  ],
+  "cameras": [
+    {
+      "role": "main",
+      "position": 0,
+      "sensor": null,
+      "mp": 13,
+      "aperture": 2.2,
+      "focal_mm": null,
+      "fov_deg": null,
+      "optical_zoom_x": null,
+      "ois": false,
+      "af": "pdaf",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": 28,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
+      "_src": [
+        "ai_knowledge"
+      ]
+    },
+    {
+      "role": "front",
+      "position": 0,
+      "sensor": null,
+      "mp": 8,
+      "aperture": 2,
+      "focal_mm": null,
+      "fov_deg": null,
+      "optical_zoom_x": null,
+      "ois": false,
+      "af": "fixed",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": 26,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
+      "_src": [
+        "ai_knowledge"
+      ]
+    }
+  ],
+  "camera_features": {
+    "macro_mode": "none",
+    "macro_min_focus_cm": null,
+    "lossless_zoom_x": null,
+    "max_digital_zoom_x": 4,
+    "dxomark": null,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge"
+    ]
+  },
+  "quirks": [],
+  "quirks_checked": false,
+  "special": [
+    {
+      "code": "repairable",
+      "note_ru": "Экран, батарея и порт меняются самостоятельно по программе Gen1 Repairability.",
+      "_q": "estimated"
+    }
+  ],
+  "photos": [],
+  "_meta": {
+    "created": "2026-11-21",
+    "updated": "2026-11-21",
+    "filled_by": "Claude Opus 5.5 (сведения до 2026-06) + tools/import_catalog_data.py"
+  }
+}

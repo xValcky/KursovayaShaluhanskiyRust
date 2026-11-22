@@ -5,35 +5,35 @@
   "full_name": "Samsung Galaxy A07",
   "aliases": [],
   "os": "Android",
-  "release_date": null,
+  "release_date": "2025-08",
   "year": 2025,
   "status": "on_sale",
   "availability_ru": "parallel_import",
   "form_factor": "bar",
   "in_ml": true,
-  "chipset": "demo-soc-300",
+  "chipset": "helio-g99",
   "specs": {
     "screen_in": 6.7,
     "cover_screen_in": null,
     "refresh_hz": 90,
-    "display_type": null,
+    "display_type": "PLS LCD",
     "peak_nits": null,
     "battery_mah": 5000,
-    "charge_w": 25.0,
-    "wireless_w": null,
-    "weight_g": 184.0,
-    "thickness_mm": null,
-    "ip_rating": null,
+    "charge_w": 25,
+    "wireless_w": 0,
+    "weight_g": 184,
+    "thickness_mm": 7.6,
+    "ip_rating": "IP54",
     "has_5g": false,
-    "nfc": true,
+    "nfc": false,
     "esim": false,
     "ir_port": false,
-    "jack35": null,
-    "sd_card": null,
-    "update_years": null,
+    "jack35": true,
+    "sd_card": true,
+    "update_years": 6,
     "_q": "estimated",
     "_src": [
-      "project_seed"
+      "ai_knowledge"
     ]
   },
   "variants": [
@@ -51,42 +51,42 @@
       ]
     },
     {
-      "ram_gb": 6,
+      "ram_gb": 4,
       "rom_gb": 128,
-      "price_rub": 9990,
-      "price_date": "2026-11-20",
-      "price_src": "random",
+      "price_rub": 10090,
+      "price_date": null,
+      "price_src": "price_model",
       "msrp_usd": null,
       "is_base": false,
-      "_q": "random",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "price_model"
+      ]
+    },
+    {
+      "ram_gb": 6,
+      "rom_gb": 128,
+      "price_rub": 10290,
+      "price_date": null,
+      "price_src": "price_model",
+      "msrp_usd": null,
+      "is_base": false,
+      "_q": "estimated",
+      "_src": [
+        "price_model"
       ]
     },
     {
       "ram_gb": 8,
       "rom_gb": 256,
-      "price_rub": 12990,
-      "price_date": "2026-11-20",
-      "price_src": "random",
+      "price_rub": 11590,
+      "price_date": null,
+      "price_src": "price_model",
       "msrp_usd": null,
       "is_base": false,
-      "_q": "random",
+      "_q": "estimated",
       "_src": [
-        "random"
-      ]
-    },
-    {
-      "ram_gb": 8,
-      "rom_gb": 512,
-      "price_rub": 13990,
-      "price_date": "2026-11-20",
-      "price_src": "random",
-      "msrp_usd": null,
-      "is_base": false,
-      "_q": "random",
-      "_src": [
-        "random"
+        "price_model"
       ]
     }
   ],
@@ -94,96 +94,82 @@
     {
       "role": "main",
       "position": 0,
-      "sensor": "demo-s19",
+      "sensor": null,
       "mp": 50,
-      "aperture": 1.9,
-      "focal_mm": 26,
-      "fov_deg": 81,
+      "aperture": 1.8,
+      "focal_mm": null,
+      "fov_deg": null,
       "optical_zoom_x": null,
-      "ois": true,
+      "ois": false,
       "af": "pdaf",
       "min_focus_cm": null,
-      "video_max": "1080p30",
-      "processing_score": 51,
-      "processing_basis": "random",
-      "_q": "random",
+      "video_max": null,
+      "processing_score": 48,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "ai_knowledge"
       ]
     },
     {
-      "role": "macro",
+      "role": "depth",
       "position": 0,
-      "sensor": "demo-s01",
+      "sensor": null,
       "mp": 2,
       "aperture": 2.4,
-      "focal_mm": 25,
-      "fov_deg": 79,
+      "focal_mm": null,
+      "fov_deg": null,
       "optical_zoom_x": null,
       "ois": false,
       "af": "fixed",
-      "min_focus_cm": 4,
+      "min_focus_cm": null,
       "video_max": null,
-      "processing_score": 47,
-      "processing_basis": "random",
-      "_q": "random",
+      "processing_score": null,
+      "processing_basis": null,
+      "_q": "estimated",
       "_src": [
-        "random"
+        "ai_knowledge"
       ]
     },
     {
       "role": "front",
       "position": 0,
-      "sensor": "demo-s06",
-      "mp": 12,
-      "aperture": 2.0,
-      "focal_mm": 22,
-      "fov_deg": 85,
+      "sensor": null,
+      "mp": 8,
+      "aperture": 2,
+      "focal_mm": null,
+      "fov_deg": null,
       "optical_zoom_x": null,
       "ois": false,
       "af": "fixed",
       "min_focus_cm": null,
       "video_max": null,
-      "processing_score": 58,
-      "processing_basis": "random",
-      "_q": "random",
+      "processing_score": 40,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "ai_knowledge"
       ]
     }
   ],
   "camera_features": {
-    "macro_mode": "dedicated",
-    "macro_min_focus_cm": 4,
-    "lossless_zoom_x": 2.0,
+    "macro_mode": "none",
+    "macro_min_focus_cm": null,
+    "lossless_zoom_x": null,
     "max_digital_zoom_x": 10,
     "dxomark": null,
-    "_q": "random",
+    "_q": "estimated",
     "_src": [
-      "random"
+      "ai_knowledge"
     ]
   },
   "quirks": [
     {
-      "code": "good_ai_assistant",
+      "code": "long_updates",
       "severity": 2,
-      "note_ru": "Со слов пользователя: хороший встроенный ИИ-ассистент (Galaxy AI). Проверить список функций для модели и что работает в РФ.",
+      "note_ru": "6 лет обновлений по официальной политике Samsung.",
       "evidence": [],
-      "_q": "user_hypothesis"
-    },
-    {
-      "code": "buggy_firmware",
-      "severity": 2,
-      "note_ru": "Демо: случайная особенность для проверки интерфейса.",
-      "evidence": [],
-      "_q": "random"
-    },
-    {
-      "code": "excellent_haptics",
-      "severity": 2,
-      "note_ru": "Демо: случайная особенность для проверки интерфейса.",
-      "evidence": [],
-      "_q": "random"
+      "_q": "estimated"
     }
   ],
   "quirks_checked": false,
@@ -191,41 +177,63 @@
   "photos": [
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Samsung_Galaxy_A07_2026_%284%29.jpg/960px-Samsung_Galaxy_A07_2026_%284%29.jpg",
-      "kind": "angle",
+      "kind": "lifestyle",
       "color_ru": null,
       "author": "Captainmorlypogi1959",
       "license": "CC BY-SA 4.0",
       "source_page": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_A07_2026_(4).jpg",
-      "width": null,
+      "width": 960,
       "height": null,
       "origin": "wikimedia"
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Samsung_Galaxy_A07_2026_%281%29.jpg/960px-Samsung_Galaxy_A07_2026_%281%29.jpg",
-      "kind": "angle",
+      "kind": "lifestyle",
       "color_ru": null,
       "author": "Captainmorlypogi1959",
       "license": "CC BY-SA 4.0",
       "source_page": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_A07_2026_(1).jpg",
-      "width": null,
+      "width": 960,
       "height": null,
       "origin": "wikimedia"
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Samsung_Galaxy_A07_2026.jpg/960px-Samsung_Galaxy_A07_2026.jpg",
-      "kind": "angle",
+      "kind": "lifestyle",
       "color_ru": null,
       "author": "Captainmorlypogi1959",
       "license": "CC BY-SA 4.0",
       "source_page": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_A07_2026.jpg",
-      "width": null,
+      "width": 960,
       "height": null,
       "origin": "wikimedia"
+    },
+    {
+      "author": "Captainmorlypogi1959",
+      "color_ru": null,
+      "height": 1280,
+      "kind": "lifestyle",
+      "license": "CC BY-SA 4.0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_A07_2026_(3).jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Samsung_Galaxy_A07_2026_%283%29.jpg/960px-Samsung_Galaxy_A07_2026_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
+    },
+    {
+      "author": "Captainmorlypogi1959",
+      "color_ru": null,
+      "height": 1280,
+      "kind": "lifestyle",
+      "license": "CC BY-SA 4.0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_A07_2026_(2).jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Samsung_Galaxy_A07_2026_%282%29.jpg/960px-Samsung_Galaxy_A07_2026_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
     }
   ],
   "_meta": {
-    "created": "2026-11-20",
-    "updated": "2026-11-20",
-    "filled_by": "tools/generate_random_catalog.py"
+    "created": "2026-11-21",
+    "updated": "2026-11-21",
+    "filled_by": "Claude Opus 5.5 (сведения до 2026-06) + tools/import_catalog_data.py"
   }
 }

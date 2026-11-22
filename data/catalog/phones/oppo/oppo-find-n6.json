@@ -1,0 +1,180 @@
+{
+  "slug": "oppo-find-n6",
+  "brand": "oppo",
+  "name": "OPPO Find N6",
+  "full_name": "OPPO Find N6",
+  "aliases": [],
+  "os": "Android",
+  "release_date": "2026-03",
+  "year": 2026,
+  "status": "on_sale",
+  "availability_ru": "not_sold",
+  "form_factor": "book_fold",
+  "in_ml": false,
+  "chipset": "snapdragon-8-elite-gen-5",
+  "specs": {
+    "screen_in": 8.12,
+    "cover_screen_in": 6.62,
+    "refresh_hz": 120,
+    "display_type": "LTPO AMOLED",
+    "peak_nits": null,
+    "battery_mah": 6000,
+    "charge_w": 80,
+    "wireless_w": 50,
+    "weight_g": 225,
+    "thickness_mm": 8.93,
+    "ip_rating": null,
+    "has_5g": true,
+    "nfc": true,
+    "esim": false,
+    "ir_port": false,
+    "jack35": false,
+    "sd_card": false,
+    "update_years": null,
+    "_q": "verified",
+    "_src": [
+      "wikipedia:Oppo_Find_N6"
+    ]
+  },
+  "variants": [
+    {
+      "ram_gb": 16,
+      "rom_gb": 512,
+      "price_rub": null,
+      "price_date": null,
+      "price_src": null,
+      "msrp_usd": null,
+      "is_base": true,
+      "_q": "unknown",
+      "_src": []
+    }
+  ],
+  "cameras": [
+    {
+      "role": "main",
+      "position": 0,
+      "sensor": null,
+      "mp": 200,
+      "aperture": null,
+      "focal_mm": null,
+      "fov_deg": null,
+      "optical_zoom_x": null,
+      "ois": false,
+      "af": "pdaf",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": null,
+      "processing_basis": null,
+      "_q": "estimated",
+      "_src": [
+        "wikipedia:Oppo_Find_N6"
+      ]
+    },
+    {
+      "role": "ultrawide",
+      "position": 0,
+      "sensor": null,
+      "mp": 50,
+      "aperture": null,
+      "focal_mm": null,
+      "fov_deg": null,
+      "optical_zoom_x": null,
+      "ois": false,
+      "af": "pdaf",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": null,
+      "processing_basis": null,
+      "_q": "estimated",
+      "_src": [
+        "wikipedia:Oppo_Find_N6"
+      ]
+    },
+    {
+      "role": "tele",
+      "position": 0,
+      "sensor": null,
+      "mp": 50,
+      "aperture": null,
+      "focal_mm": null,
+      "fov_deg": null,
+      "optical_zoom_x": null,
+      "ois": false,
+      "af": "pdaf",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": null,
+      "processing_basis": null,
+      "_q": "estimated",
+      "_src": [
+        "wikipedia:Oppo_Find_N6"
+      ]
+    },
+    {
+      "role": "cover",
+      "position": 0,
+      "sensor": null,
+      "mp": 20,
+      "aperture": null,
+      "focal_mm": null,
+      "fov_deg": null,
+      "optical_zoom_x": null,
+      "ois": false,
+      "af": "fixed",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": null,
+      "processing_basis": null,
+      "_q": "estimated",
+      "_src": [
+        "wikipedia:Oppo_Find_N6"
+      ]
+    },
+    {
+      "role": "front",
+      "position": 0,
+      "sensor": null,
+      "mp": 20,
+      "aperture": null,
+      "focal_mm": null,
+      "fov_deg": null,
+      "optical_zoom_x": null,
+      "ois": false,
+      "af": "fixed",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": null,
+      "processing_basis": null,
+      "_q": "estimated",
+      "_src": [
+        "wikipedia:Oppo_Find_N6"
+      ]
+    }
+  ],
+  "camera_features": {
+    "macro_mode": "none",
+    "macro_min_focus_cm": null,
+    "lossless_zoom_x": null,
+    "max_digital_zoom_x": null,
+    "dxomark": null,
+    "_q": "estimated",
+    "_src": [
+      "wikipedia:Oppo_Find_N6"
+    ]
+  },
+  "quirks": [],
+  "quirks_checked": false,
+  "special": [
+    {
+      "code": "book_fold",
+      "note_ru": "Складывается книжкой: большой внутренний экран и внешний.",
+      "_q": "estimated"
+    }
+  ],
+  "photos": [],
+  "_meta": {
+    "created": "2026-11-21",
+    "updated": "2026-11-21",
+    "filled_by": "Claude Opus 5.5 (сведения до 2026-06) + tools/import_catalog_data.py"
+  }
+}

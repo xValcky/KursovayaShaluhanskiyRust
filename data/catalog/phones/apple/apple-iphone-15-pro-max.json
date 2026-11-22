@@ -5,35 +5,35 @@
   "full_name": "Apple iPhone 15 Pro Max",
   "aliases": [],
   "os": "iOS",
-  "release_date": null,
+  "release_date": "2023-09",
   "year": 2023,
   "status": "on_sale",
   "availability_ru": "parallel_import",
   "form_factor": "bar",
   "in_ml": true,
-  "chipset": "demo-soc-1550",
+  "chipset": "apple-a17-pro",
   "specs": {
     "screen_in": 6.7,
     "cover_screen_in": null,
     "refresh_hz": 120,
-    "display_type": null,
-    "peak_nits": null,
+    "display_type": "LTPO OLED",
+    "peak_nits": 2000,
     "battery_mah": 4441,
-    "charge_w": 27.0,
-    "wireless_w": null,
-    "weight_g": 221.0,
-    "thickness_mm": null,
-    "ip_rating": null,
+    "charge_w": 27,
+    "wireless_w": 15,
+    "weight_g": 221,
+    "thickness_mm": 8.25,
+    "ip_rating": "IP68",
     "has_5g": true,
     "nfc": true,
     "esim": true,
     "ir_port": false,
-    "jack35": null,
-    "sd_card": null,
+    "jack35": false,
+    "sd_card": false,
     "update_years": null,
     "_q": "estimated",
     "_src": [
-      "project_seed"
+      "ai_knowledge"
     ]
   },
   "variants": [
@@ -43,37 +43,40 @@
       "price_rub": 79990,
       "price_date": "2026-08-01",
       "price_src": "project_seed",
-      "msrp_usd": null,
+      "msrp_usd": 1199,
       "is_base": true,
       "_q": "estimated",
       "_src": [
-        "project_seed"
+        "project_seed",
+        "ai_knowledge"
       ]
     },
     {
       "ram_gb": 8,
       "rom_gb": 512,
-      "price_rub": 89990,
-      "price_date": "2026-11-20",
-      "price_src": "random",
-      "msrp_usd": null,
+      "price_rub": 93290,
+      "price_date": null,
+      "price_src": "price_model",
+      "msrp_usd": 1399,
       "is_base": false,
-      "_q": "random",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "price_model",
+        "ai_knowledge"
       ]
     },
     {
       "ram_gb": 8,
       "rom_gb": 1024,
-      "price_rub": 101990,
-      "price_date": "2026-11-20",
-      "price_src": "random",
-      "msrp_usd": null,
+      "price_rub": 106690,
+      "price_date": null,
+      "price_src": "price_model",
+      "msrp_usd": 1599,
       "is_base": false,
-      "_q": "random",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "price_model",
+        "ai_knowledge"
       ]
     }
   ],
@@ -81,171 +84,199 @@
     {
       "role": "main",
       "position": 0,
-      "sensor": "demo-s17",
+      "sensor": null,
       "mp": 48,
-      "aperture": 1.8,
-      "focal_mm": 25,
-      "fov_deg": 86,
+      "aperture": 1.78,
+      "focal_mm": 24,
+      "fov_deg": null,
       "optical_zoom_x": null,
       "ois": true,
-      "af": "pdaf",
+      "af": "dual_pixel",
       "min_focus_cm": null,
-      "video_max": "8K30",
-      "processing_score": 83,
-      "processing_basis": "random",
-      "_q": "random",
+      "video_max": null,
+      "processing_score": 84,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "ai_knowledge"
       ]
     },
     {
       "role": "ultrawide",
       "position": 0,
-      "sensor": "demo-s19",
-      "mp": 50,
-      "aperture": 2.3,
-      "focal_mm": 14,
-      "fov_deg": 114,
-      "optical_zoom_x": 0.6,
-      "ois": false,
-      "af": "pdaf",
-      "min_focus_cm": 5,
-      "video_max": null,
-      "processing_score": 74,
-      "processing_basis": "random",
-      "_q": "random",
-      "_src": [
-        "random"
-      ]
-    },
-    {
-      "role": "tele",
-      "position": 0,
-      "sensor": "demo-s07",
+      "sensor": null,
       "mp": 12,
-      "aperture": 2.1,
-      "focal_mm": 75,
-      "fov_deg": 36,
+      "aperture": 2.2,
+      "focal_mm": 13,
+      "fov_deg": null,
       "optical_zoom_x": null,
-      "ois": true,
+      "ois": false,
       "af": "pdaf",
       "min_focus_cm": null,
       "video_max": null,
-      "processing_score": 70,
-      "processing_basis": "random",
-      "_q": "random",
+      "processing_score": 72,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "ai_knowledge"
       ]
     },
     {
       "role": "periscope",
       "position": 0,
-      "sensor": "demo-s31",
-      "mp": 200,
-      "aperture": 3.1,
-      "focal_mm": 135,
-      "fov_deg": 17,
+      "sensor": null,
+      "mp": 12,
+      "aperture": 2.8,
+      "focal_mm": 120,
+      "fov_deg": null,
       "optical_zoom_x": null,
       "ois": true,
       "af": "pdaf",
       "min_focus_cm": null,
       "video_max": null,
-      "processing_score": 67,
-      "processing_basis": "random",
-      "_q": "random",
+      "processing_score": 80,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "ai_knowledge"
       ]
     },
     {
       "role": "front",
       "position": 0,
-      "sensor": "demo-s19",
-      "mp": 50,
-      "aperture": 2.4,
+      "sensor": null,
+      "mp": 12,
+      "aperture": 1.9,
       "focal_mm": 23,
-      "fov_deg": 79,
+      "fov_deg": null,
       "optical_zoom_x": null,
       "ois": false,
       "af": "pdaf",
       "min_focus_cm": null,
       "video_max": null,
-      "processing_score": 74,
-      "processing_basis": "random",
-      "_q": "random",
+      "processing_score": 77,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "ai_knowledge"
       ]
     }
   ],
   "camera_features": {
     "macro_mode": "ultrawide_af",
-    "macro_min_focus_cm": 5,
-    "lossless_zoom_x": null,
-    "max_digital_zoom_x": 60,
+    "macro_min_focus_cm": 2,
+    "lossless_zoom_x": 2,
+    "max_digital_zoom_x": 25,
     "dxomark": null,
-    "_q": "random",
+    "_q": "estimated",
     "_src": [
-      "random"
+      "ai_knowledge"
     ]
   },
   "quirks": [
     {
-      "code": "standby_drain",
-      "severity": 2,
-      "note_ru": "Демо: случайная особенность для проверки интерфейса.",
+      "code": "great_video",
+      "severity": 3,
+      "note_ru": "Обзоры отмечают сильное видео (стабилизация, динамический диапазон).",
       "evidence": [],
-      "_q": "random"
+      "_q": "estimated"
     },
     {
-      "code": "inconsistent_colors",
+      "code": "overheating",
       "severity": 1,
-      "note_ru": "Демо: случайная особенность для проверки интерфейса.",
+      "note_ru": "На старте продаж сильно грелся; исправлено обновлением iOS 17.0.3.",
       "evidence": [],
-      "_q": "random"
+      "_q": "estimated"
+    },
+    {
+      "code": "ai_limited_ru",
+      "severity": 2,
+      "note_ru": "Русского языка нет среди языков Apple Intelligence на странице поддержки Apple: в РФ функции недоступны без смены языка и региона.",
+      "evidence": [
+        "https://support.apple.com/en-us/121115"
+      ],
+      "_q": "verified"
     }
   ],
   "quirks_checked": false,
-  "special": [],
+  "special": [
+    {
+      "code": "satellite",
+      "note_ru": "Спутниковая связь (сообщения/вызовы); в РФ не работает.",
+      "_q": "estimated"
+    }
+  ],
   "photos": [
     {
-      "url": "/placeholder/apple-iphone-15-pro-max/1.svg",
-      "kind": "placeholder",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/HK_KTD_Kwun_Tong_Apm_mall_shop_Apple_Store_iPhone_display_for_sale_Ipone_15_Pro_Max_May_2024_Ipone15_002.jpg/960px-HK_KTD_Kwun_Tong_Apm_mall_shop_Apple_Store_iPhone_display_for_sale_Ipone_15_Pro_Max_May_2024_Ipone15_002.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "kind": "lifestyle",
       "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
+      "author": "KAiuphoupPor kou s s",
+      "license": "CC0",
+      "source_page": "https://commons.wikimedia.org/wiki/File:HK_KTD_Kwun_Tong_Apm_mall_shop_Apple_Store_iPhone_display_for_sale_Ipone_15_Pro_Max_May_2024_Ipone15_002.jpg",
       "width": 960,
-      "height": 1280,
-      "origin": "placeholder"
+      "height": null,
+      "origin": "wikimedia"
     },
     {
-      "url": "/placeholder/apple-iphone-15-pro-max/2.svg",
-      "kind": "placeholder",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/HK_KTD_Kwun_Tong_Apm_mall_shop_Apple_Store_iPhone_display_for_sale_Ipone_15_Pro_Max_May_2024_Ipone15_001.jpg/960px-HK_KTD_Kwun_Tong_Apm_mall_shop_Apple_Store_iPhone_display_for_sale_Ipone_15_Pro_Max_May_2024_Ipone15_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "kind": "lifestyle",
       "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
+      "author": "KAiuphoupPor kou s s",
+      "license": "CC0",
+      "source_page": "https://commons.wikimedia.org/wiki/File:HK_KTD_Kwun_Tong_Apm_mall_shop_Apple_Store_iPhone_display_for_sale_Ipone_15_Pro_Max_May_2024_Ipone15_001.jpg",
       "width": 960,
-      "height": 1280,
-      "origin": "placeholder"
+      "height": null,
+      "origin": "wikimedia"
     },
     {
-      "url": "/placeholder/apple-iphone-15-pro-max/3.svg",
-      "kind": "placeholder",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/IPhone_15_Pro_%26_iPhone_15_Pro_Max.jpg/960px-IPhone_15_Pro_%26_iPhone_15_Pro_Max.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "kind": "lifestyle",
       "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
+      "author": "IPHONE 15",
+      "license": "CC BY-SA 4.0",
+      "source_page": "https://commons.wikimedia.org/wiki/File:IPhone_15_Pro_%26_iPhone_15_Pro_Max.jpg",
       "width": 960,
-      "height": 1280,
-      "origin": "placeholder"
+      "height": null,
+      "origin": "wikimedia"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/IPhone_15_pro_max.png/960px-IPhone_15_pro_max.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "kind": "lifestyle",
+      "color_ru": null,
+      "author": "Ka Kit Pang",
+      "license": "CC BY-SA 4.0",
+      "source_page": "https://commons.wikimedia.org/wiki/File:IPhone_15_pro_max.png",
+      "width": 960,
+      "height": null,
+      "origin": "wikimedia"
+    },
+    {
+      "author": "IPHONE ONE",
+      "color_ru": null,
+      "height": 720,
+      "kind": "lifestyle",
+      "license": "CC BY-SA 4.0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Apple_Phone.jpeg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Apple_Phone.jpeg/960px-Apple_Phone.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
+    },
+    {
+      "author": "IPHONE ONE",
+      "color_ru": null,
+      "height": 720,
+      "kind": "lifestyle",
+      "license": "CC BY-SA 4.0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Apple_Phone.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Apple_Phone.jpg/960px-Apple_Phone.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
     }
   ],
   "_meta": {
-    "created": "2026-11-20",
-    "updated": "2026-11-20",
-    "filled_by": "tools/generate_random_catalog.py"
+    "created": "2026-11-21",
+    "updated": "2026-11-21",
+    "filled_by": "Claude Opus 5.5 (сведения до 2026-06) + tools/import_catalog_data.py"
   }
 }

@@ -11,7 +11,7 @@
   "availability_ru": "official",
   "form_factor": "bar",
   "in_ml": true,
-  "chipset": "demo-soc-1000",
+  "chipset": null,
   "specs": {
     "screen_in": 6.57,
     "cover_screen_in": null,
@@ -19,17 +19,17 @@
     "display_type": null,
     "peak_nits": null,
     "battery_mah": 7000,
-    "charge_w": 80.0,
+    "charge_w": 80,
     "wireless_w": null,
-    "weight_g": 190.0,
+    "weight_g": 190,
     "thickness_mm": null,
     "ip_rating": null,
     "has_5g": true,
     "nfc": true,
     "esim": true,
     "ir_port": true,
-    "jack35": null,
-    "sd_card": null,
+    "jack35": false,
+    "sd_card": false,
     "update_years": null,
     "_q": "estimated",
     "_src": [
@@ -40,40 +40,14 @@
     {
       "ram_gb": 8,
       "rom_gb": 256,
-      "price_rub": 31000,
-      "price_date": "2026-11-05",
-      "price_src": "project_seed",
+      "price_rub": 31332,
+      "price_date": "2026-11-19",
+      "price_src": "telegram_polzaskidki",
       "msrp_usd": null,
       "is_base": true,
-      "_q": "estimated",
+      "_q": "verified",
       "_src": [
-        "project_seed"
-      ]
-    },
-    {
-      "ram_gb": 8,
-      "rom_gb": 512,
-      "price_rub": 34990,
-      "price_date": "2026-11-20",
-      "price_src": "random",
-      "msrp_usd": null,
-      "is_base": false,
-      "_q": "random",
-      "_src": [
-        "random"
-      ]
-    },
-    {
-      "ram_gb": 8,
-      "rom_gb": 1024,
-      "price_rub": 40990,
-      "price_date": "2026-11-20",
-      "price_src": "random",
-      "msrp_usd": null,
-      "is_base": false,
-      "_q": "random",
-      "_src": [
-        "random"
+        "telegram_polzaskidki:t.me/polzaSKIDKI/32969"
       ]
     }
   ],
@@ -81,124 +55,85 @@
     {
       "role": "main",
       "position": 0,
-      "sensor": "demo-s31",
+      "sensor": null,
       "mp": 200,
-      "aperture": 1.8,
-      "focal_mm": 24,
-      "fov_deg": 86,
-      "optical_zoom_x": null,
-      "ois": true,
-      "af": "pdaf",
-      "min_focus_cm": null,
-      "video_max": "4K30",
-      "processing_score": 64,
-      "processing_basis": "random",
-      "_q": "random",
-      "_src": [
-        "random"
-      ]
-    },
-    {
-      "role": "ultrawide",
-      "position": 0,
-      "sensor": "demo-s18",
-      "mp": 50,
-      "aperture": 2.3,
-      "focal_mm": 13,
-      "fov_deg": 119,
-      "optical_zoom_x": 0.6,
-      "ois": false,
-      "af": "pdaf",
-      "min_focus_cm": 5,
-      "video_max": null,
-      "processing_score": 81,
-      "processing_basis": "random",
-      "_q": "random",
-      "_src": [
-        "random"
-      ]
-    },
-    {
-      "role": "front",
-      "position": 0,
-      "sensor": "demo-s11",
-      "mp": 16,
-      "aperture": 2.0,
-      "focal_mm": 23,
-      "fov_deg": 89,
+      "aperture": null,
+      "focal_mm": null,
+      "fov_deg": null,
       "optical_zoom_x": null,
       "ois": false,
-      "af": "fixed",
+      "af": "pdaf",
       "min_focus_cm": null,
       "video_max": null,
-      "processing_score": 67,
-      "processing_basis": "random",
-      "_q": "random",
+      "processing_score": null,
+      "processing_basis": null,
+      "_q": "estimated",
       "_src": [
-        "random"
+        "project_seed"
       ]
     }
   ],
   "camera_features": {
-    "macro_mode": "ultrawide_af",
-    "macro_min_focus_cm": 5,
-    "lossless_zoom_x": 4.0,
-    "max_digital_zoom_x": 8,
+    "macro_mode": "none",
+    "macro_min_focus_cm": null,
+    "lossless_zoom_x": null,
+    "max_digital_zoom_x": null,
     "dxomark": null,
-    "_q": "random",
-    "_src": [
-      "random"
-    ]
+    "_q": "unknown",
+    "_src": []
   },
-  "quirks": [
-    {
-      "code": "weak_modem",
-      "severity": 3,
-      "note_ru": "Демо: случайная особенность для проверки интерфейса.",
-      "evidence": [],
-      "_q": "random"
-    }
-  ],
+  "quirks": [],
   "quirks_checked": false,
   "special": [],
   "photos": [
     {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Honor_600_backside.jpg/960px-Honor_600_backside.jpg",
-      "kind": "back",
-      "color_ru": null,
-      "author": "茅野ふたば",
-      "license": "CC BY-SA 4.0",
-      "source_page": "https://commons.wikimedia.org/wiki/File:Honor_600_backside.jpg",
-      "width": null,
-      "height": null,
-      "origin": "wikimedia"
-    },
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Honor_600.jpg/960px-Honor_600.jpg",
-      "kind": "angle",
-      "color_ru": null,
-      "author": "茅野ふたば",
-      "license": "CC BY-SA 4.0",
-      "source_page": "https://commons.wikimedia.org/wiki/File:Honor_600.jpg",
-      "width": null,
-      "height": null,
-      "origin": "wikimedia"
-    },
-    {
       "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Honor_600_2026-08-10_smartphone.jpg",
-      "kind": "angle",
+      "kind": "lifestyle",
       "color_ru": null,
       "author": "P1898",
       "license": "CC BY 4.0",
       "source_page": "https://commons.wikimedia.org/wiki/File:Honor_600_2026-08-10_smartphone.jpg",
-      "width": null,
+      "width": 960,
       "height": null,
       "origin": "wikimedia"
+    },
+    {
+      "author": "Tataryn77",
+      "color_ru": null,
+      "height": 548,
+      "kind": "lifestyle",
+      "license": "Public domain",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Roman_Empire_600_AD.PNG",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Roman_Empire_600_AD.PNG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "width": 960
+    },
+    {
+      "author": "Mudroslov",
+      "color_ru": null,
+      "height": 1280,
+      "kind": "lifestyle",
+      "license": "CC BY-SA 4.0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:600_god_Sv_Kri%C5%BEa_Vd.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/600_god_Sv_Kri%C5%BEa_Vd.jpg/960px-600_god_Sv_Kri%C5%BEa_Vd.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
+    },
+    {
+      "author": "SAMALETI ROHITH Historian",
+      "color_ru": null,
+      "height": 1161,
+      "kind": "lifestyle",
+      "license": "CC BY-SA 4.0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:%E0%B0%B8%E0%B0%BF%E0%B0%A6%E0%B1%8D%E0%B0%A6%E0%B0%BF%E0%B0%AA%E0%B1%87%E0%B0%9F_%E0%B0%9C%E0%B0%BF%E0%B0%B2%E0%B1%8D%E0%B0%B2%E0%B0%BE_%E0%B0%A6%E0%B1%8A%E0%B0%AE%E0%B1%8D%E0%B0%AE%E0%B0%BE%E0%B0%9F_%E0%B0%B5%E0%B0%A6%E0%B1%8D%E0%B0%A6.._600_%E0%B0%8F%E0%B0%B3%E0%B1%8D%E0%B0%B2_%E0%B0%A8%E0%B0%BE%E0%B0%9F%E0%B0%BF_%E0%B0%B6%E0%B0%BE%E0%B0%B8%E0%B0%A8%E0%B0%82.png",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/%E0%B0%B8%E0%B0%BF%E0%B0%A6%E0%B1%8D%E0%B0%A6%E0%B0%BF%E0%B0%AA%E0%B1%87%E0%B0%9F_%E0%B0%9C%E0%B0%BF%E0%B0%B2%E0%B1%8D%E0%B0%B2%E0%B0%BE_%E0%B0%A6%E0%B1%8A%E0%B0%AE%E0%B1%8D%E0%B0%AE%E0%B0%BE%E0%B0%9F_%E0%B0%B5%E0%B0%A6%E0%B1%8D%E0%B0%A6.._600_%E0%B0%8F%E0%B0%B3%E0%B1%8D%E0%B0%B2_%E0%B0%A8%E0%B0%BE%E0%B0%9F%E0%B0%BF_%E0%B0%B6%E0%B0%BE%E0%B0%B8%E0%B0%A8%E0%B0%82.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "width": 960
     }
   ],
   "_meta": {
-    "created": "2026-11-20",
-    "updated": "2026-11-20",
-    "filled_by": "tools/generate_random_catalog.py"
+    "created": "2026-11-21",
+    "updated": "2026-11-21",
+    "filled_by": "Claude Opus 5.5 (сведения до 2026-06) + tools/import_catalog_data.py"
   }
 }

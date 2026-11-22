@@ -1,0 +1,220 @@
+{
+  "slug": "samsung-galaxy-s21-fe",
+  "brand": "samsung",
+  "name": "Galaxy S21 FE",
+  "full_name": "Samsung Galaxy S21 FE",
+  "aliases": [],
+  "os": "Android",
+  "release_date": "2022-01",
+  "year": 2022,
+  "status": "discontinued",
+  "availability_ru": "not_sold",
+  "form_factor": "bar",
+  "in_ml": false,
+  "chipset": "snapdragon-888",
+  "specs": {
+    "screen_in": 6.4,
+    "cover_screen_in": null,
+    "refresh_hz": 120,
+    "display_type": "Dynamic AMOLED 2X",
+    "peak_nits": 1200,
+    "battery_mah": 4500,
+    "charge_w": 25,
+    "wireless_w": 15,
+    "weight_g": 177,
+    "thickness_mm": 7.9,
+    "ip_rating": "IP68",
+    "has_5g": true,
+    "nfc": true,
+    "esim": false,
+    "ir_port": false,
+    "jack35": false,
+    "sd_card": false,
+    "update_years": 4,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge"
+    ]
+  },
+  "variants": [
+    {
+      "ram_gb": 6,
+      "rom_gb": 128,
+      "price_rub": null,
+      "price_date": null,
+      "price_src": null,
+      "msrp_usd": 699,
+      "is_base": true,
+      "_q": "unknown",
+      "_src": [
+        "ai_knowledge"
+      ]
+    },
+    {
+      "ram_gb": 8,
+      "rom_gb": 128,
+      "price_rub": null,
+      "price_date": null,
+      "price_src": null,
+      "msrp_usd": null,
+      "is_base": false,
+      "_q": "unknown",
+      "_src": []
+    },
+    {
+      "ram_gb": 8,
+      "rom_gb": 256,
+      "price_rub": null,
+      "price_date": null,
+      "price_src": null,
+      "msrp_usd": null,
+      "is_base": false,
+      "_q": "unknown",
+      "_src": []
+    }
+  ],
+  "cameras": [
+    {
+      "role": "main",
+      "position": 0,
+      "sensor": null,
+      "mp": 12,
+      "aperture": 1.8,
+      "focal_mm": 26,
+      "fov_deg": null,
+      "optical_zoom_x": null,
+      "ois": true,
+      "af": "dual_pixel",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": 68,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
+      "_src": [
+        "ai_knowledge"
+      ]
+    },
+    {
+      "role": "ultrawide",
+      "position": 0,
+      "sensor": null,
+      "mp": 12,
+      "aperture": 2.2,
+      "focal_mm": 13,
+      "fov_deg": null,
+      "optical_zoom_x": null,
+      "ois": false,
+      "af": "fixed",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": 56,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
+      "_src": [
+        "ai_knowledge"
+      ]
+    },
+    {
+      "role": "tele",
+      "position": 0,
+      "sensor": null,
+      "mp": 8,
+      "aperture": 2.4,
+      "focal_mm": null,
+      "fov_deg": null,
+      "optical_zoom_x": 3.0,
+      "ois": true,
+      "af": "pdaf",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": 58,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
+      "_src": [
+        "ai_knowledge"
+      ]
+    },
+    {
+      "role": "front",
+      "position": 0,
+      "sensor": null,
+      "mp": 32,
+      "aperture": 2.2,
+      "focal_mm": 26,
+      "fov_deg": null,
+      "optical_zoom_x": null,
+      "ois": false,
+      "af": "fixed",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": 64,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
+      "_src": [
+        "ai_knowledge"
+      ]
+    }
+  ],
+  "camera_features": {
+    "macro_mode": "none",
+    "macro_min_focus_cm": null,
+    "lossless_zoom_x": null,
+    "max_digital_zoom_x": 30,
+    "dxomark": null,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge"
+    ]
+  },
+  "quirks": [
+    {
+      "code": "overheating",
+      "severity": 1,
+      "note_ru": "Заметно греется под нагрузкой и при съёмке.",
+      "evidence": [],
+      "_q": "estimated"
+    }
+  ],
+  "quirks_checked": false,
+  "special": [],
+  "photos": [
+    {
+      "author": "Marcusph",
+      "color_ru": null,
+      "height": 2008,
+      "kind": "lifestyle",
+      "license": "CC BY 4.0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:GalaxyS21_FE.png",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/GalaxyS21_FE.png/960px-GalaxyS21_FE.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
+    },
+    {
+      "author": "Gannu03",
+      "color_ru": null,
+      "height": 956,
+      "kind": "lifestyle",
+      "license": "CC BY-SA 4.0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_S21_FE.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Samsung_Galaxy_S21_FE.jpg/960px-Samsung_Galaxy_S21_FE.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
+    },
+    {
+      "author": "Gannu03",
+      "color_ru": null,
+      "height": 960,
+      "kind": "lifestyle",
+      "license": "CC BY-SA 4.0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:S21_FE.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/S21_FE.jpg/960px-S21_FE.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
+    }
+  ],
+  "_meta": {
+    "created": "2026-11-21",
+    "updated": "2026-11-21",
+    "filled_by": "Claude Opus 5.5 (сведения до 2026-06) + tools/import_catalog_data.py"
+  }
+}

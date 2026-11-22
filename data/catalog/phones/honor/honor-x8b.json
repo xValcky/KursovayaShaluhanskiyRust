@@ -5,35 +5,35 @@
   "full_name": "Honor X8b",
   "aliases": [],
   "os": "Android",
-  "release_date": null,
+  "release_date": "2024-01",
   "year": 2024,
   "status": "on_sale",
   "availability_ru": "official",
   "form_factor": "bar",
   "in_ml": true,
-  "chipset": "demo-soc-420",
+  "chipset": "snapdragon-680",
   "specs": {
     "screen_in": 6.7,
     "cover_screen_in": null,
     "refresh_hz": 90,
-    "display_type": null,
-    "peak_nits": null,
+    "display_type": "AMOLED",
+    "peak_nits": 2000,
     "battery_mah": 4500,
-    "charge_w": 35.0,
-    "wireless_w": null,
-    "weight_g": 166.0,
-    "thickness_mm": null,
+    "charge_w": 35,
+    "wireless_w": 0,
+    "weight_g": 166,
+    "thickness_mm": 6.78,
     "ip_rating": null,
     "has_5g": false,
     "nfc": true,
     "esim": false,
     "ir_port": false,
-    "jack35": null,
-    "sd_card": null,
-    "update_years": null,
+    "jack35": true,
+    "sd_card": true,
+    "update_years": 2,
     "_q": "estimated",
     "_src": [
-      "project_seed"
+      "ai_knowledge"
     ]
   },
   "variants": [
@@ -49,79 +49,53 @@
       "_src": [
         "project_seed"
       ]
-    },
-    {
-      "ram_gb": 8,
-      "rom_gb": 512,
-      "price_rub": 19990,
-      "price_date": "2026-11-20",
-      "price_src": "random",
-      "msrp_usd": null,
-      "is_base": false,
-      "_q": "random",
-      "_src": [
-        "random"
-      ]
-    },
-    {
-      "ram_gb": 8,
-      "rom_gb": 1024,
-      "price_rub": 22990,
-      "price_date": "2026-11-20",
-      "price_src": "random",
-      "msrp_usd": null,
-      "is_base": false,
-      "_q": "random",
-      "_src": [
-        "random"
-      ]
     }
   ],
   "cameras": [
     {
       "role": "main",
       "position": 0,
-      "sensor": "demo-s28",
+      "sensor": null,
       "mp": 108,
-      "aperture": 1.9,
-      "focal_mm": 24,
-      "fov_deg": 84,
+      "aperture": 1.75,
+      "focal_mm": null,
+      "fov_deg": null,
       "optical_zoom_x": null,
       "ois": false,
       "af": "pdaf",
       "min_focus_cm": null,
-      "video_max": "1080p30",
-      "processing_score": 41,
-      "processing_basis": "random",
-      "_q": "random",
+      "video_max": null,
+      "processing_score": 46,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "ai_knowledge"
       ]
     },
     {
       "role": "ultrawide",
       "position": 0,
-      "sensor": "demo-s04",
-      "mp": 8,
+      "sensor": null,
+      "mp": 5,
       "aperture": 2.2,
-      "focal_mm": 13,
-      "fov_deg": 112,
-      "optical_zoom_x": 0.6,
+      "focal_mm": null,
+      "fov_deg": null,
+      "optical_zoom_x": null,
       "ois": false,
       "af": "fixed",
       "min_focus_cm": null,
       "video_max": null,
-      "processing_score": 41,
-      "processing_basis": "random",
-      "_q": "random",
+      "processing_score": 26,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "ai_knowledge"
       ]
     },
     {
       "role": "depth",
       "position": 0,
-      "sensor": "demo-s01",
+      "sensor": null,
       "mp": 2,
       "aperture": 2.4,
       "focal_mm": null,
@@ -133,92 +107,50 @@
       "video_max": null,
       "processing_score": null,
       "processing_basis": null,
-      "_q": "random",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "ai_knowledge"
       ]
     },
     {
       "role": "front",
       "position": 0,
-      "sensor": "demo-s04",
-      "mp": 8,
-      "aperture": 2.2,
-      "focal_mm": 25,
-      "fov_deg": 81,
+      "sensor": null,
+      "mp": 50,
+      "aperture": 2.1,
+      "focal_mm": null,
+      "fov_deg": null,
       "optical_zoom_x": null,
       "ois": false,
       "af": "fixed",
       "min_focus_cm": null,
       "video_max": null,
-      "processing_score": 57,
-      "processing_basis": "random",
-      "_q": "random",
+      "processing_score": 48,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "ai_knowledge"
       ]
     }
   ],
   "camera_features": {
     "macro_mode": "none",
     "macro_min_focus_cm": null,
-    "lossless_zoom_x": 2.0,
+    "lossless_zoom_x": null,
     "max_digital_zoom_x": 10,
     "dxomark": null,
-    "_q": "random",
+    "_q": "estimated",
     "_src": [
-      "random"
+      "ai_knowledge"
     ]
   },
-  "quirks": [
-    {
-      "code": "long_updates",
-      "severity": 3,
-      "note_ru": "Демо: случайная особенность для проверки интерфейса.",
-      "evidence": [],
-      "_q": "random"
-    }
-  ],
+  "quirks": [],
   "quirks_checked": false,
   "special": [],
-  "photos": [
-    {
-      "url": "/placeholder/honor-x8b/1.svg",
-      "kind": "placeholder",
-      "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
-      "width": 960,
-      "height": 1280,
-      "origin": "placeholder"
-    },
-    {
-      "url": "/placeholder/honor-x8b/2.svg",
-      "kind": "placeholder",
-      "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
-      "width": 960,
-      "height": 1280,
-      "origin": "placeholder"
-    },
-    {
-      "url": "/placeholder/honor-x8b/3.svg",
-      "kind": "placeholder",
-      "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
-      "width": 960,
-      "height": 1280,
-      "origin": "placeholder"
-    }
-  ],
+  "photos": [],
   "_meta": {
-    "created": "2026-11-20",
-    "updated": "2026-11-20",
-    "filled_by": "tools/generate_random_catalog.py"
+    "created": "2026-11-21",
+    "updated": "2026-11-21",
+    "filled_by": "Claude Opus 5.5 (сведения до 2026-06) + tools/import_catalog_data.py"
   }
 }

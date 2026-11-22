@@ -5,35 +5,35 @@
   "full_name": "OPPO A80",
   "aliases": [],
   "os": "Android",
-  "release_date": null,
+  "release_date": "2024-07",
   "year": 2024,
   "status": "on_sale",
   "availability_ru": "official",
   "form_factor": "bar",
   "in_ml": true,
-  "chipset": "demo-soc-450",
+  "chipset": "dimensity-6300",
   "specs": {
     "screen_in": 6.67,
     "cover_screen_in": null,
     "refresh_hz": 120,
-    "display_type": null,
-    "peak_nits": null,
+    "display_type": "IPS LCD",
+    "peak_nits": 1000,
     "battery_mah": 5000,
-    "charge_w": 45.0,
-    "wireless_w": null,
-    "weight_g": 186.0,
-    "thickness_mm": null,
-    "ip_rating": null,
+    "charge_w": 45,
+    "wireless_w": 0,
+    "weight_g": 186,
+    "thickness_mm": 7.68,
+    "ip_rating": "IP54",
     "has_5g": true,
     "nfc": true,
     "esim": false,
     "ir_port": false,
-    "jack35": null,
-    "sd_card": null,
-    "update_years": null,
+    "jack35": true,
+    "sd_card": true,
+    "update_years": 3,
     "_q": "estimated",
     "_src": [
-      "project_seed"
+      "ai_knowledge"
     ]
   },
   "variants": [
@@ -55,111 +55,82 @@
     {
       "role": "main",
       "position": 0,
-      "sensor": "demo-s21",
+      "sensor": null,
       "mp": 50,
-      "aperture": 1.9,
-      "focal_mm": 25,
-      "fov_deg": 81,
+      "aperture": 1.8,
+      "focal_mm": null,
+      "fov_deg": null,
       "optical_zoom_x": null,
       "ois": false,
       "af": "pdaf",
       "min_focus_cm": null,
-      "video_max": "1080p30",
-      "processing_score": 62,
-      "processing_basis": "random",
-      "_q": "random",
+      "video_max": null,
+      "processing_score": 46,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "ai_knowledge"
       ]
     },
     {
-      "role": "front",
+      "role": "depth",
       "position": 0,
-      "sensor": "demo-s06",
-      "mp": 12,
-      "aperture": 2.2,
-      "focal_mm": 24,
-      "fov_deg": 90,
+      "sensor": null,
+      "mp": 2,
+      "aperture": 2.4,
+      "focal_mm": null,
+      "fov_deg": null,
       "optical_zoom_x": null,
       "ois": false,
       "af": "fixed",
       "min_focus_cm": null,
       "video_max": null,
-      "processing_score": 52,
-      "processing_basis": "random",
-      "_q": "random",
+      "processing_score": null,
+      "processing_basis": null,
+      "_q": "estimated",
       "_src": [
-        "random"
+        "ai_knowledge"
+      ]
+    },
+    {
+      "role": "front",
+      "position": 0,
+      "sensor": null,
+      "mp": 8,
+      "aperture": 2,
+      "focal_mm": null,
+      "fov_deg": null,
+      "optical_zoom_x": null,
+      "ois": false,
+      "af": "fixed",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": 32,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
+      "_src": [
+        "ai_knowledge"
       ]
     }
   ],
   "camera_features": {
     "macro_mode": "none",
     "macro_min_focus_cm": null,
-    "lossless_zoom_x": 2.0,
+    "lossless_zoom_x": null,
     "max_digital_zoom_x": 10,
     "dxomark": null,
-    "_q": "random",
+    "_q": "estimated",
     "_src": [
-      "random"
+      "ai_knowledge"
     ]
   },
-  "quirks": [
-    {
-      "code": "ai_limited_ru",
-      "severity": 1,
-      "note_ru": "Демо: случайная особенность для проверки интерфейса.",
-      "evidence": [],
-      "_q": "random"
-    },
-    {
-      "code": "great_video",
-      "severity": 3,
-      "note_ru": "Демо: случайная особенность для проверки интерфейса.",
-      "evidence": [],
-      "_q": "random"
-    }
-  ],
+  "quirks": [],
   "quirks_checked": false,
   "special": [],
-  "photos": [
-    {
-      "url": "/placeholder/oppo-a80/1.svg",
-      "kind": "placeholder",
-      "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
-      "width": 960,
-      "height": 1280,
-      "origin": "placeholder"
-    },
-    {
-      "url": "/placeholder/oppo-a80/2.svg",
-      "kind": "placeholder",
-      "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
-      "width": 960,
-      "height": 1280,
-      "origin": "placeholder"
-    },
-    {
-      "url": "/placeholder/oppo-a80/3.svg",
-      "kind": "placeholder",
-      "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
-      "width": 960,
-      "height": 1280,
-      "origin": "placeholder"
-    }
-  ],
+  "photos": [],
   "_meta": {
-    "created": "2026-11-20",
-    "updated": "2026-11-20",
-    "filled_by": "tools/generate_random_catalog.py"
+    "created": "2026-11-21",
+    "updated": "2026-11-21",
+    "filled_by": "Claude Opus 5.5 (сведения до 2026-06) + tools/import_catalog_data.py"
   }
 }

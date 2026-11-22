@@ -1,0 +1,124 @@
+{
+  "slug": "tcl-50-pro-nxtpaper-5g",
+  "brand": "tcl",
+  "name": "TCL 50 Pro NxtPaper 5G",
+  "full_name": "TCL 50 Pro NxtPaper 5G",
+  "aliases": [],
+  "os": "Android",
+  "release_date": "2024-09",
+  "year": 2024,
+  "status": "on_sale",
+  "availability_ru": "official",
+  "form_factor": "bar",
+  "in_ml": true,
+  "chipset": "dimensity-6300",
+  "specs": {
+    "screen_in": 6.8,
+    "cover_screen_in": null,
+    "refresh_hz": 120,
+    "display_type": "IPS LCD",
+    "peak_nits": 700,
+    "battery_mah": 5010,
+    "charge_w": 33,
+    "wireless_w": 0,
+    "weight_g": 210,
+    "thickness_mm": 8.2,
+    "ip_rating": null,
+    "has_5g": true,
+    "nfc": true,
+    "esim": false,
+    "ir_port": false,
+    "jack35": true,
+    "sd_card": true,
+    "update_years": 2,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge"
+    ]
+  },
+  "variants": [
+    {
+      "ram_gb": 8,
+      "rom_gb": 512,
+      "price_rub": 21990,
+      "price_date": null,
+      "price_src": "ai_knowledge",
+      "msrp_usd": null,
+      "is_base": true,
+      "_q": "estimated",
+      "_src": [
+        "ai_knowledge"
+      ]
+    }
+  ],
+  "cameras": [
+    {
+      "role": "main",
+      "position": 0,
+      "sensor": null,
+      "mp": 50,
+      "aperture": 1.8,
+      "focal_mm": null,
+      "fov_deg": null,
+      "optical_zoom_x": null,
+      "ois": true,
+      "af": "pdaf",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": 44,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
+      "_src": [
+        "ai_knowledge"
+      ]
+    },
+    {
+      "role": "front",
+      "position": 0,
+      "sensor": null,
+      "mp": 32,
+      "aperture": 2,
+      "focal_mm": null,
+      "fov_deg": null,
+      "optical_zoom_x": null,
+      "ois": false,
+      "af": "fixed",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": 40,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
+      "_src": [
+        "ai_knowledge"
+      ]
+    }
+  ],
+  "camera_features": {
+    "macro_mode": "none",
+    "macro_min_focus_cm": null,
+    "lossless_zoom_x": null,
+    "max_digital_zoom_x": 8,
+    "dxomark": null,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge"
+    ]
+  },
+  "quirks": [
+    {
+      "code": "excellent_display",
+      "severity": 1,
+      "note_ru": "Матовый экран NXTPAPER без бликов и режим «как бумага» для чтения.",
+      "evidence": [],
+      "_q": "estimated"
+    }
+  ],
+  "quirks_checked": false,
+  "special": [],
+  "photos": [],
+  "_meta": {
+    "created": "2026-11-21",
+    "updated": "2026-11-21",
+    "filled_by": "Claude Opus 5.5 (сведения до 2026-06) + tools/import_catalog_data.py"
+  }
+}

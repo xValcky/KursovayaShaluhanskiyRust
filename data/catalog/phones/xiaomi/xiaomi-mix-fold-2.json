@@ -1,0 +1,186 @@
+{
+  "slug": "xiaomi-mix-fold-2",
+  "brand": "xiaomi",
+  "name": "Xiaomi Mix Fold 2",
+  "full_name": "Xiaomi Mix Fold 2",
+  "aliases": [],
+  "os": "Android",
+  "release_date": "2022-08-11",
+  "year": 2022,
+  "status": "china_only",
+  "availability_ru": "not_sold",
+  "form_factor": "book_fold",
+  "in_ml": false,
+  "chipset": "snapdragon-8-plus-gen-1",
+  "specs": {
+    "screen_in": 8.02,
+    "cover_screen_in": 6.56,
+    "refresh_hz": 120,
+    "display_type": "LTPO AMOLED",
+    "peak_nits": 1000,
+    "battery_mah": 4500,
+    "charge_w": 67,
+    "wireless_w": 0,
+    "weight_g": 262,
+    "thickness_mm": 5.4,
+    "ip_rating": null,
+    "has_5g": true,
+    "nfc": true,
+    "esim": false,
+    "ir_port": true,
+    "jack35": false,
+    "sd_card": false,
+    "update_years": null,
+    "_q": "verified",
+    "_src": [
+      "wikipedia:Xiaomi_Mix_Fold_2",
+      "ai_knowledge"
+    ]
+  },
+  "variants": [
+    {
+      "ram_gb": 12,
+      "rom_gb": 256,
+      "price_rub": null,
+      "price_date": null,
+      "price_src": null,
+      "msrp_usd": null,
+      "is_base": true,
+      "_q": "unknown",
+      "_src": []
+    },
+    {
+      "ram_gb": 12,
+      "rom_gb": 512,
+      "price_rub": null,
+      "price_date": null,
+      "price_src": null,
+      "msrp_usd": null,
+      "is_base": false,
+      "_q": "unknown",
+      "_src": []
+    },
+    {
+      "ram_gb": 12,
+      "rom_gb": 1024,
+      "price_rub": null,
+      "price_date": null,
+      "price_src": null,
+      "msrp_usd": null,
+      "is_base": false,
+      "_q": "unknown",
+      "_src": []
+    }
+  ],
+  "cameras": [
+    {
+      "role": "main",
+      "position": 0,
+      "sensor": "sony-imx766",
+      "mp": 50,
+      "aperture": 1.8,
+      "focal_mm": 23,
+      "fov_deg": null,
+      "optical_zoom_x": null,
+      "ois": true,
+      "af": "pdaf",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": 74,
+      "processing_basis": "reviews_rubric",
+      "_q": "verified",
+      "_src": [
+        "wikipedia:Xiaomi_Mix_Fold_2",
+        "ai_knowledge"
+      ]
+    },
+    {
+      "role": "ultrawide",
+      "position": 0,
+      "sensor": null,
+      "mp": 13,
+      "aperture": 2.4,
+      "focal_mm": 15.0,
+      "fov_deg": null,
+      "optical_zoom_x": null,
+      "ois": false,
+      "af": "fixed",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": 58,
+      "processing_basis": "reviews_rubric",
+      "_q": "verified",
+      "_src": [
+        "wikipedia:Xiaomi_Mix_Fold_2",
+        "ai_knowledge"
+      ]
+    },
+    {
+      "role": "tele",
+      "position": 0,
+      "sensor": null,
+      "mp": 8,
+      "aperture": 2.6,
+      "focal_mm": 45.0,
+      "fov_deg": null,
+      "optical_zoom_x": 2.0,
+      "ois": false,
+      "af": "pdaf",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": 56,
+      "processing_basis": "reviews_rubric",
+      "_q": "verified",
+      "_src": [
+        "wikipedia:Xiaomi_Mix_Fold_2",
+        "ai_knowledge"
+      ]
+    },
+    {
+      "role": "front",
+      "position": 0,
+      "sensor": null,
+      "mp": 20,
+      "aperture": 2.2,
+      "focal_mm": null,
+      "fov_deg": null,
+      "optical_zoom_x": null,
+      "ois": false,
+      "af": "fixed",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": 58,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
+      "_src": [
+        "ai_knowledge"
+      ]
+    }
+  ],
+  "camera_features": {
+    "macro_mode": "none",
+    "macro_min_focus_cm": null,
+    "lossless_zoom_x": null,
+    "max_digital_zoom_x": 10,
+    "dxomark": null,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge"
+    ]
+  },
+  "quirks": [],
+  "quirks_checked": false,
+  "special": [
+    {
+      "code": "book_fold",
+      "note_ru": "Складывается книжкой: большой внутренний экран и внешний.",
+      "_q": "estimated"
+    }
+  ],
+  "photos": [],
+  "_meta": {
+    "created": "2026-11-21",
+    "updated": "2026-11-21",
+    "filled_by": "Claude Opus 5.5 (сведения до 2026-06) + tools/import_catalog_data.py"
+  }
+}

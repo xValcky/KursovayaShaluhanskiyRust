@@ -1,0 +1,40 @@
+# realme. realme UI: реклама и предустановленные приложения в бюджетных моделях. Модели 2026 года — в phones_zz_2026.txt.
+@brand realme
+realme GT 2 Pro ; 2022-01 disc ; sd8g1 ; 6.7 120 LTPO-AMOLED 1400 ; 5000 65 0 ; 189 8.18 - ; 5g nfc u3 ; 8/128 12/256* ; M50/1.8/-/O/pd/@imx766:70 U50/2.2/-/pd:56 C3/3.0/-:20 F32/2.4/-:56 ; ded dz20 ; -
+realme GT 3 ; 2023-03 disc ; sd8pg1 ; 6.74 144 AMOLED 1400 ; 4600 240 0 ; 199 8.9 - ; 5g nfc u3 ; 8/128 16/256* 16/1T ; M50/1.88/-/O/pd/@imx890:68 U8/2.2/-/ff:40 C2/3.3/-:20 F16/2.5/-:50 ; ded dz10 ; s:led_interface n:led_interface=RGB-подсветка Pulse Interface в окне на спинке.
+realme GT 6 ; 2024-06 ; sd8sg3 ; 6.78 120 LTPO-AMOLED 6000 ; 5500 120 0 ; 199 8.6 IP65 ; 5g nfc ir u3 ; 8/256 12/256* 16/512 ; M50/1.69/-/O/pd/@lyt808:72 U8/2.2/-/ff:42 T50/2.0/-/pd/x2:64 F32/2.45/-:56 ; none dz20 ; q:excellent_display/1
+realme GT 7 Pro ; 2024-11 ; sd8e ; 6.78 120 AMOLED 6500 ; 6500 120 0 ; 222 9.1 IP69 ; 5g nfc ir u4 ; 12/256* 12/512 16/512 ; M50/1.8/-/O/pd/@imx906:74 U8/2.2/-/ff:44 P50/2.65/-/O/pd/@imx882/x3:72 F16/2.45/-:56 ; none dz120 ; q:excellent_battery/2
+realme GT 7 ; 2025-05 ; d9400p ; 6.78 144 AMOLED 6000 ; 7000 120 0 ; 206 8.25 IP69 ; 5g nfc ir u4 ; 12/256* 12/512 ; M50/1.8/-/O/pd/@imx906:70 U8/2.2/-/ff:42 T50/2.0/-/pd/x2:64 F32/2.0/-:56 ; none dz20 ; q:excellent_battery/3
+realme GT 7T ; 2025-05 ; d8400 ; 6.8 120 AMOLED 6000 ; 7000 120 0 ; 205 8.25 IP69 ; 5g nfc ir u4 ; 8/256 12/256* 12/512 ; M50/1.8/-/O/pd:66 U8/2.2/-/ff:42 F32/2.0/-:54 ; none dz20 ; q:excellent_battery/3
+realme GT 8 Pro ; 2025-11 ; sd8eg5 ; 6.79 144 AMOLED 7000 ; 7000 120 50 ; 214 8.2 IP69 ; 5g nfc ir u5 ; 12/256* 16/512 ; M50/1.8/-/O/pd:78 U50/2.0/-/pd:66 P200/2.6/-/O/pd/x3:78 F32/2.0/-:58 ; uw dz120 ; q:excellent_battery/3 n:excellent_battery=Батарея 7000 мА·ч; режим съёмки в стиле Ricoh GR.
+realme 10 ; 2022-11 disc ; hg99 ; 6.4 90 AMOLED 1000 ; 5000 33 0 ; 178 7.95 - ; nfc jack sd u2 ; 8/128* 8/256 ; M50/1.8/-:44 D2/2.4/- F16/2.45/-:40 ; none dz10 ; q:bloatware/1
+realme 10 Pro ; 2022-12 disc ; sd695 ; 6.72 120 IPS 680 ; 5000 33 0 ; 190 8.1 - ; 5g nfc jack sd u2 ; 8/128* 8/256 ; M108/1.75/-/@hm6:48 D2/2.4/- F16/2.45/-:40 ; none dz10 ; q:bloatware/1
+realme 10 Pro+ ; 2022-12 disc ; d1080 ; 6.7 120 AMOLED 800 ; 5000 67 0 ; 173 7.78 - ; 5g nfc u2 ; 8/128 8/256* ; M108/1.75/-/@hm6:50 U8/2.2/-/ff:36 C2/2.4/-:18 F16/2.45/-:42 ; ded dz10 ; q:bloatware/1
+realme 11 ; 2023-08 disc ; hg99 ; 6.4 90 AMOLED 1000 ; 5000 67 0 ; 177 7.89 - ; nfc jack sd u2 ; 8/256* ; M108/1.75/-/@hm6:48 D2/2.4/- F16/2.45/-:40 ; none dz10 ; q:bloatware/1
+realme 11 Pro ; 2023-06 disc ; d7050 ; 6.7 120 AMOLED 950 ; 5000 67 0 ; 183 8.2 - ; 5g nfc u2 ; 8/256* ; M100/1.75/-/O:54 D2/2.4/- F16/2.45/-:42 ; none dz10 ; -
+realme 11 Pro+ ; 2023-06 disc ; d7050 ; 6.7 120 AMOLED 950 ; 5000 100 0 ; 183 8.2 - ; 5g nfc u2 ; 12/512* ; M200/1.69/-/O/pd/@hp3:58 U8/2.2/-/ff:38 C2/2.4/-:18 F32/2.45/-:50 ; ded dz10 ; -
+realme 12 ; 2024-03 ; sd685 ; 6.67 120 AMOLED 2000 ; 5000 67 0 ; 188 7.69 IP54 ; nfc jack sd u2 ; 8/256* ; M50/1.8/-/O/@lyt600:52 D2/2.4/- F8/2.0/-:34 ; none dz10 ; q:bloatware/1 a:realme 12 4G
+realme 12 Pro ; 2024-01 ; sd6g1 ; 6.7 120 AMOLED 950 ; 5000 67 0 ; 190 8.75 - ; 5g nfc u2 ; 8/256*r22990 12/256 ; M50/1.8/-/O/pd/@imx882:60 U8/2.2/-/ff:38 T32/2.0/-/pd/x2:54 F16/2.45/-:44 ; none dz20 ; -
+realme 12 Pro+ ; 2024-01 ; sd7sg2 ; 6.7 120 AMOLED 950 ; 5000 67 0 ; 196 8.75 - ; 5g nfc u2 ; 8/256 12/512*r27990 ; M50/1.8/-/O/pd/@imx890:64 U8/2.2/-/ff:38 P64/2.6/71/O/pd/x3:62 F32/2.45/-:50 ; none dz120 ; -
+realme 12+ 5G ; 2024-03 ; d7050 ; 6.67 120 AMOLED 2000 ; 5000 67 0 ; 190 7.87 IP54 ; 5g nfc jack u2 ; 8/256*r21990 ; M50/1.8/-/O/@lyt600:56 U8/2.2/-/ff:38 C2/2.4/-:18 F16/2.45/-:42 ; ded dz10 ; -
+realme 13+ 5G ; 2024-08 ; d7300e ; 6.67 120 AMOLED 2000 ; 5000 80 0 ; 185 7.6 IP65 ; 5g nfc u2 ; 8/256*r22990 ; M50/1.8/-/O/@lyt600:56 D2/2.4/- F16/2.45/-:42 ; none dz10 ; -
+realme 13 Pro ; 2024-08 ; sd7sg2 ; 6.7 120 AMOLED 2000 ; 5200 45 0 ; 182 8.2 IP65 ; 5g nfc u2 ; 8/256*r25990 12/512 ; M50/1.8/-/O/pd/@lyt600:60 U8/2.2/-/ff:38 F32/2.45/-:50 ; none dz10 ; -
+realme 13 Pro+ ; 2024-08 ; sd7sg2 ; 6.7 120 AMOLED 2000 ; 5200 80 0 ; 190 8.2 IP65 ; 5g nfc u2 ; 12/512* ; M50/1.88/-/O/pd:64 U8/2.2/-/ff:38 P50/2.65/71/O/pd/@imx882/x3:64 F32/2.45/-:50 ; none dz120 ; -
+realme 14 Pro ; 2025-01 ; d7300e ; 6.77 120 AMOLED 4500 ; 6000 45 0 ; 190 7.6 IP69 ; 5g nfc u3 ; 8/256*r27990 12/512 ; M50/1.8/-/O/pd/@imx882:60 D2/2.4/- F16/2.45/-:46 ; none dz10 ; -
+realme 14 Pro+ ; 2025-01 ; sd7sg3 ; 6.83 120 AMOLED 1500 ; 6000 80 0 ; 196 7.99 IP69 ; 5g nfc u3 ; 12/256* 12/512 ; M50/1.88/-/O/pd:66 U8/2.2/-/ff:38 P50/2.65/-/O/pd/@imx882/x3:66 F32/2.45/-:52 ; none dz120 ; -
+realme 14T ; 2025-04 ; d6300 ; 6.67 120 AMOLED 2100 ; 6000 45 0 ; 196 7.97 IP69 ; 5g nfc u2 ; 8/256* ; M50/1.8/-:52 D2/2.4/- F16/2.45/-:42 ; none dz10 ; q:bloatware/1
+realme 15 Pro ; 2025-07 ; sd7g4 ; 6.8 144 AMOLED 6500 ; 7000 80 0 ; 187 7.69 IP69 ; 5g nfc u3 ; 8/256* 12/256 12/512 ; M50/1.8/-/O/pd:64 U50/2.2/-/pd:54 F50/2.4/-:54 ; uw dz20 ; q:excellent_battery/2
+realme 15T ; 2025-09 ; d6400 ; 6.57 120 AMOLED 4000 ; 7000 60 0 ; 181 7.79 IP69 ; 5g nfc u3 ; 8/256* ; M50/1.8/-:52 D2/2.4/- F50/2.4/-:50 ; none dz10 ; q:excellent_battery/2
+realme C33 ; 2022-09 disc ; ut612 ; 6.5 60 IPS 400 ; 5000 10 0 ; 187 8.3 - ; jack sd u2 ; 3/32 4/64* 4/128 ; M50/1.8/-:36 F5/2.2/-:26 ; none dz4 ; q:bloatware/2
+realme C35 ; 2022-03 disc ; ut616 ; 6.6 60 IPS 480 ; 5000 18 0 ; 189 8.1 - ; nfc jack sd u2 ; 4/64 4/128* ; M50/1.8/-:38 C2/2.4/-:18 F8/2.0/-:30 ; ded dz4 ; q:bloatware/2
+realme C51 ; 2023-07 disc ; ut612 ; 6.74 90 IPS 560 ; 5000 33 0 ; 186 7.99 - ; nfc jack sd u2 ; 4/64 4/128* ; M50/1.8/-:38 F5/2.2/-:26 ; none dz4 ; q:bloatware/2
+realme C53 ; 2023-07 disc ; ut612 ; 6.74 90 IPS 560 ; 5000 33 0 ; 182 7.49 - ; nfc jack sd u2 ; 6/128* ; M50/1.8/-:38 F8/2.0/-:30 ; none dz4 ; q:bloatware/2
+realme C55 ; 2023-03 disc ; hg88 ; 6.72 90 IPS 680 ; 5000 33 0 ; 189 7.89 - ; nfc jack sd u2 ; 6/128 8/256* ; M64/1.8/-:42 D2/2.4/- F8/2.0/-:30 ; none dz10 ; q:bloatware/2
+realme C61 ; 2024-06 ; ut612 ; 6.74 90 IPS 560 ; 5000 15 0 ; 190 7.84 IP54 ; nfc jack sd u2 ; 6/128* 8/256 ; M50/1.8/-:40 F5/2.2/-:28 ; none dz4 ; q:bloatware/2
+realme C63 ; 2024-06 ; ut612 ; 6.74 90 IPS 560 ; 5000 45 0 ; 189 7.74 IP54 ; nfc jack sd u2 ; 6/128 8/256*r10990 ; M50/1.8/-:40 F8/2.0/-:30 ; none dz4 ; q:bloatware/2
+realme C65 ; 2024-04 ; hg85 ; 6.67 90 IPS 625 ; 5000 45 0 ; 185 7.64 IP54 ; nfc jack sd u2 ; 6/128 8/256*r12990 ; M50/1.8/-:42 D2/2.4/- F8/2.0/-:32 ; none dz10 ; q:bloatware/2
+realme C67 ; 2023-12 ; sd685 ; 6.72 90 IPS 950 ; 5000 33 0 ; 185 7.59 IP54 ; nfc jack sd u2 ; 8/256* ; M108/1.75/-/@hm6:46 D2/2.4/- F8/2.0/-:32 ; none dz10 ; q:bloatware/2
+realme C75 ; 2024-11 ; hg92 ; 6.72 90 IPS 690 ; 6000 45 0 ; 196 7.99 IP69 ; nfc jack sd u2 ; 8/256* ; M50/1.8/-:42 D2/2.4/- F8/2.0/-:32 ; none dz10 ; q:bloatware/2
+realme Note 50 ; 2024-01 ; ut612 ; 6.74 90 IPS 560 ; 5000 10 0 ; 186 7.99 - ; jack sd u2 ; 3/64* 4/128 ; M13/2.2/-:28 F5/2.2/-:24 ; none dz4 ; q:bloatware/2
+realme Note 60 ; 2024-08 ; ut612 ; 6.74 90 IPS 560 ; 5000 10 0 ; 187 7.84 IP64 ; jack sd u2 ; 4/128* 6/128 ; M32/2.0/-:32 F5/2.2/-:24 ; none dz4 ; q:bloatware/2
+realme P3 ; 2025-03 ; sd6g4 ; 6.67 120 AMOLED 2000 ; 6000 45 0 ; 190 7.97 IP69 ; 5g nfc u2 ; 8/128* 8/256 12/256 ; M50/1.8/-:52 D2/2.4/- F16/2.45/-:42 ; none dz10 ; -

@@ -5,35 +5,36 @@
   "full_name": "Google Pixel 10 Pro Fold",
   "aliases": [],
   "os": "Android",
-  "release_date": null,
+  "release_date": "2025-10-09",
   "year": 2025,
   "status": "on_sale",
   "availability_ru": "parallel_import",
   "form_factor": "book_fold",
   "in_ml": true,
-  "chipset": "demo-soc-1450",
+  "chipset": "google-tensor-g5",
   "specs": {
     "screen_in": 8.0,
-    "cover_screen_in": null,
+    "cover_screen_in": 6.4,
     "refresh_hz": 120,
-    "display_type": null,
-    "peak_nits": null,
+    "display_type": "LTPO OLED",
+    "peak_nits": 3000,
     "battery_mah": 5015,
-    "charge_w": 30.0,
-    "wireless_w": null,
-    "weight_g": 258.0,
-    "thickness_mm": null,
-    "ip_rating": null,
+    "charge_w": 30,
+    "wireless_w": 15,
+    "weight_g": 258,
+    "thickness_mm": 5.2,
+    "ip_rating": "IP68",
     "has_5g": true,
     "nfc": true,
     "esim": true,
     "ir_port": false,
-    "jack35": null,
-    "sd_card": null,
-    "update_years": null,
+    "jack35": false,
+    "sd_card": false,
+    "update_years": 7,
     "_q": "estimated",
     "_src": [
-      "project_seed"
+      "wikipedia:Pixel_10_Pro_Fold",
+      "ai_knowledge"
     ]
   },
   "variants": [
@@ -43,11 +44,40 @@
       "price_rub": 135990,
       "price_date": "2026-08-01",
       "price_src": "project_seed",
-      "msrp_usd": null,
+      "msrp_usd": 1799,
       "is_base": true,
       "_q": "estimated",
       "_src": [
-        "project_seed"
+        "project_seed",
+        "ai_knowledge"
+      ]
+    },
+    {
+      "ram_gb": 16,
+      "rom_gb": 512,
+      "price_rub": 145090,
+      "price_date": null,
+      "price_src": "price_model",
+      "msrp_usd": 1919,
+      "is_base": false,
+      "_q": "estimated",
+      "_src": [
+        "price_model",
+        "ai_knowledge"
+      ]
+    },
+    {
+      "ram_gb": 16,
+      "rom_gb": 1024,
+      "price_rub": 162390,
+      "price_date": null,
+      "price_src": "price_model",
+      "msrp_usd": 2149,
+      "is_base": false,
+      "_q": "estimated",
+      "_src": [
+        "price_model",
+        "ai_knowledge"
       ]
     }
   ],
@@ -55,197 +85,145 @@
     {
       "role": "main",
       "position": 0,
-      "sensor": "demo-s17",
+      "sensor": null,
       "mp": 48,
-      "aperture": 1.8,
-      "focal_mm": 24,
-      "fov_deg": 83,
+      "aperture": 1.7,
+      "focal_mm": null,
+      "fov_deg": null,
       "optical_zoom_x": null,
       "ois": true,
-      "af": "pdaf",
+      "af": "dual_pixel",
       "min_focus_cm": null,
-      "video_max": "4K60",
-      "processing_score": 67,
-      "processing_basis": "random",
-      "_q": "random",
+      "video_max": null,
+      "processing_score": 80,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "ai_knowledge"
       ]
     },
     {
       "role": "ultrawide",
       "position": 0,
-      "sensor": "demo-s15",
-      "mp": 48,
-      "aperture": 2.4,
-      "focal_mm": 14,
-      "fov_deg": 115,
-      "optical_zoom_x": 0.6,
-      "ois": false,
-      "af": "pdaf",
-      "min_focus_cm": 4,
-      "video_max": null,
-      "processing_score": 82,
-      "processing_basis": "random",
-      "_q": "random",
-      "_src": [
-        "random"
-      ]
-    },
-    {
-      "role": "tele",
-      "position": 0,
-      "sensor": "demo-s25",
-      "mp": 64,
-      "aperture": 2.4,
-      "focal_mm": 72,
-      "fov_deg": 33,
-      "optical_zoom_x": null,
-      "ois": true,
-      "af": "pdaf",
-      "min_focus_cm": null,
-      "video_max": null,
-      "processing_score": 84,
-      "processing_basis": "random",
-      "_q": "random",
-      "_src": [
-        "random"
-      ]
-    },
-    {
-      "role": "periscope",
-      "position": 0,
-      "sensor": "demo-s25",
-      "mp": 64,
-      "aperture": 3.0,
-      "focal_mm": 114,
-      "fov_deg": 20,
-      "optical_zoom_x": null,
-      "ois": true,
-      "af": "pdaf",
-      "min_focus_cm": null,
-      "video_max": null,
-      "processing_score": 67,
-      "processing_basis": "random",
-      "_q": "random",
-      "_src": [
-        "random"
-      ]
-    },
-    {
-      "role": "front",
-      "position": 0,
-      "sensor": "demo-s13",
-      "mp": 32,
-      "aperture": 2.1,
-      "focal_mm": 26,
-      "fov_deg": 82,
+      "sensor": null,
+      "mp": 10.5,
+      "aperture": 2.2,
+      "focal_mm": null,
+      "fov_deg": null,
       "optical_zoom_x": null,
       "ois": false,
       "af": "pdaf",
       "min_focus_cm": null,
       "video_max": null,
       "processing_score": 64,
-      "processing_basis": "random",
-      "_q": "random",
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "ai_knowledge"
+      ]
+    },
+    {
+      "role": "periscope",
+      "position": 0,
+      "sensor": null,
+      "mp": 10.8,
+      "aperture": 3.1,
+      "focal_mm": null,
+      "fov_deg": null,
+      "optical_zoom_x": 5.0,
+      "ois": true,
+      "af": "pdaf",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": 72,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
+      "_src": [
+        "ai_knowledge"
       ]
     },
     {
       "role": "cover",
       "position": 0,
-      "sensor": "demo-s11",
-      "mp": 16,
-      "aperture": 2.3,
-      "focal_mm": 24,
-      "fov_deg": 80,
+      "sensor": null,
+      "mp": 10,
+      "aperture": 2.2,
+      "focal_mm": null,
+      "fov_deg": null,
       "optical_zoom_x": null,
       "ois": false,
       "af": "fixed",
       "min_focus_cm": null,
       "video_max": null,
-      "processing_score": 71,
-      "processing_basis": "random",
-      "_q": "random",
+      "processing_score": 66,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "ai_knowledge"
+      ]
+    },
+    {
+      "role": "front",
+      "position": 0,
+      "sensor": null,
+      "mp": 10,
+      "aperture": 2.2,
+      "focal_mm": null,
+      "fov_deg": null,
+      "optical_zoom_x": null,
+      "ois": false,
+      "af": "fixed",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": 66,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
+      "_src": [
+        "ai_knowledge"
       ]
     }
   ],
   "camera_features": {
-    "macro_mode": "ultrawide_af",
-    "macro_min_focus_cm": 4,
+    "macro_mode": "none",
+    "macro_min_focus_cm": null,
     "lossless_zoom_x": null,
-    "max_digital_zoom_x": 120,
+    "max_digital_zoom_x": 20,
     "dxomark": null,
-    "_q": "random",
+    "_q": "estimated",
     "_src": [
-      "random"
+      "ai_knowledge"
     ]
   },
   "quirks": [
     {
-      "code": "overheating",
-      "severity": 2,
-      "note_ru": "Гипотеза пользователя: Pixel сильно греются (чипы Tensor). Проверить по каждой модели отдельно.",
-      "evidence": [],
-      "_q": "user_hypothesis"
-    },
-    {
       "code": "long_updates",
       "severity": 3,
-      "note_ru": "Демо: случайная особенность для проверки интерфейса.",
+      "note_ru": "7 лет обновлений Android и безопасности с начала продаж — официальная политика Google для Pixel 8 и новее.",
+      "evidence": [
+        "https://support.google.com/pixelphone/answer/4457705?hl=en"
+      ],
+      "_q": "verified"
+    },
+    {
+      "code": "clean_android",
+      "severity": 2,
+      "note_ru": "Почти чистый Android без лишних оболочек.",
       "evidence": [],
-      "_q": "random"
+      "_q": "estimated"
     }
   ],
   "quirks_checked": false,
   "special": [
     {
       "code": "book_fold",
-      "note_ru": null,
+      "note_ru": "Складывается книжкой: большой внутренний экран и внешний.",
       "_q": "estimated"
     }
   ],
-  "photos": [
-    {
-      "url": "/placeholder/google-pixel-10-pro-fold/1.svg",
-      "kind": "placeholder",
-      "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
-      "width": 960,
-      "height": 1280,
-      "origin": "placeholder"
-    },
-    {
-      "url": "/placeholder/google-pixel-10-pro-fold/2.svg",
-      "kind": "placeholder",
-      "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
-      "width": 960,
-      "height": 1280,
-      "origin": "placeholder"
-    },
-    {
-      "url": "/placeholder/google-pixel-10-pro-fold/3.svg",
-      "kind": "placeholder",
-      "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
-      "width": 960,
-      "height": 1280,
-      "origin": "placeholder"
-    }
-  ],
+  "photos": [],
   "_meta": {
-    "created": "2026-11-20",
-    "updated": "2026-11-20",
-    "filled_by": "tools/generate_random_catalog.py"
+    "created": "2026-11-21",
+    "updated": "2026-11-21",
+    "filled_by": "Claude Opus 5.5 (сведения до 2026-06) + tools/import_catalog_data.py"
   }
 }

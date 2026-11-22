@@ -3,37 +3,39 @@
   "brand": "xiaomi",
   "name": "Redmi Note 14",
   "full_name": "Xiaomi Redmi Note 14",
-  "aliases": [],
+  "aliases": [
+    "Redmi Note 14 4G"
+  ],
   "os": "Android",
-  "release_date": null,
+  "release_date": "2025-01",
   "year": 2025,
   "status": "on_sale",
   "availability_ru": "official",
   "form_factor": "bar",
   "in_ml": true,
-  "chipset": "demo-soc-450",
+  "chipset": "helio-g99",
   "specs": {
     "screen_in": 6.67,
     "cover_screen_in": null,
     "refresh_hz": 120,
-    "display_type": null,
-    "peak_nits": null,
+    "display_type": "AMOLED",
+    "peak_nits": 1800,
     "battery_mah": 5500,
-    "charge_w": 33.0,
-    "wireless_w": null,
-    "weight_g": 196.0,
-    "thickness_mm": null,
-    "ip_rating": null,
+    "charge_w": 33,
+    "wireless_w": 0,
+    "weight_g": 196,
+    "thickness_mm": 8.16,
+    "ip_rating": "IP54",
     "has_5g": false,
     "nfc": true,
     "esim": false,
     "ir_port": true,
-    "jack35": null,
-    "sd_card": null,
-    "update_years": null,
+    "jack35": true,
+    "sd_card": true,
+    "update_years": 4,
     "_q": "estimated",
     "_src": [
-      "project_seed"
+      "ai_knowledge"
     ]
   },
   "variants": [
@@ -52,15 +54,28 @@
     },
     {
       "ram_gb": 8,
-      "rom_gb": 256,
-      "price_rub": 19990,
-      "price_date": "2026-11-20",
-      "price_src": "random",
+      "rom_gb": 128,
+      "price_rub": 17390,
+      "price_date": null,
+      "price_src": "price_model",
       "msrp_usd": null,
       "is_base": false,
-      "_q": "random",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "price_model"
+      ]
+    },
+    {
+      "ram_gb": 8,
+      "rom_gb": 256,
+      "price_rub": 19490,
+      "price_date": null,
+      "price_src": "price_model",
+      "msrp_usd": null,
+      "is_base": false,
+      "_q": "estimated",
+      "_src": [
+        "price_model"
       ]
     }
   ],
@@ -68,116 +83,122 @@
     {
       "role": "main",
       "position": 0,
-      "sensor": "demo-s28",
+      "sensor": "samsung-isocell-hm6",
       "mp": 108,
-      "aperture": 1.8,
-      "focal_mm": 24,
-      "fov_deg": 82,
+      "aperture": 1.7,
+      "focal_mm": null,
+      "fov_deg": null,
       "optical_zoom_x": null,
-      "ois": true,
+      "ois": false,
       "af": "pdaf",
       "min_focus_cm": null,
-      "video_max": "4K30",
-      "processing_score": 53,
-      "processing_basis": "random",
-      "_q": "random",
+      "video_max": null,
+      "processing_score": 54,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "ai_knowledge"
+      ]
+    },
+    {
+      "role": "depth",
+      "position": 0,
+      "sensor": null,
+      "mp": 2,
+      "aperture": 2.4,
+      "focal_mm": null,
+      "fov_deg": null,
+      "optical_zoom_x": null,
+      "ois": false,
+      "af": "fixed",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": null,
+      "processing_basis": null,
+      "_q": "estimated",
+      "_src": [
+        "ai_knowledge"
       ]
     },
     {
       "role": "macro",
       "position": 0,
-      "sensor": "demo-s01",
+      "sensor": null,
       "mp": 2,
       "aperture": 2.4,
-      "focal_mm": 25,
-      "fov_deg": 76,
-      "optical_zoom_x": null,
-      "ois": false,
-      "af": "fixed",
-      "min_focus_cm": 4,
-      "video_max": null,
-      "processing_score": 47,
-      "processing_basis": "random",
-      "_q": "random",
-      "_src": [
-        "random"
-      ]
-    },
-    {
-      "role": "front",
-      "position": 0,
-      "sensor": "demo-s06",
-      "mp": 12,
-      "aperture": 2.0,
-      "focal_mm": 24,
-      "fov_deg": 90,
+      "focal_mm": null,
+      "fov_deg": null,
       "optical_zoom_x": null,
       "ois": false,
       "af": "fixed",
       "min_focus_cm": null,
       "video_max": null,
-      "processing_score": 30,
-      "processing_basis": "random",
-      "_q": "random",
+      "processing_score": 18,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "ai_knowledge"
+      ]
+    },
+    {
+      "role": "front",
+      "position": 0,
+      "sensor": null,
+      "mp": 20,
+      "aperture": 2.2,
+      "focal_mm": null,
+      "fov_deg": null,
+      "optical_zoom_x": null,
+      "ois": false,
+      "af": "fixed",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": 46,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
+      "_src": [
+        "ai_knowledge"
       ]
     }
   ],
   "camera_features": {
     "macro_mode": "dedicated",
-    "macro_min_focus_cm": 4,
-    "lossless_zoom_x": 2.0,
+    "macro_min_focus_cm": null,
+    "lossless_zoom_x": null,
     "max_digital_zoom_x": 10,
     "dxomark": null,
-    "_q": "random",
+    "_q": "estimated",
     "_src": [
-      "random"
+      "ai_knowledge"
     ]
   },
-  "quirks": [],
+  "quirks": [
+    {
+      "code": "ads_in_system",
+      "severity": 2,
+      "note_ru": "Реклама в системных приложениях прошивки; часть отключается в настройках.",
+      "evidence": [],
+      "_q": "estimated"
+    }
+  ],
   "quirks_checked": false,
   "special": [],
   "photos": [
     {
-      "url": "/placeholder/xiaomi-redmi-note-14/1.svg",
-      "kind": "placeholder",
+      "author": "Shixart1985",
       "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
-      "width": 960,
-      "height": 1280,
-      "origin": "placeholder"
-    },
-    {
-      "url": "/placeholder/xiaomi-redmi-note-14/2.svg",
-      "kind": "placeholder",
-      "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
-      "width": 960,
-      "height": 1280,
-      "origin": "placeholder"
-    },
-    {
-      "url": "/placeholder/xiaomi-redmi-note-14/3.svg",
-      "kind": "placeholder",
-      "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
-      "width": 960,
-      "height": 1280,
-      "origin": "placeholder"
+      "height": 640,
+      "kind": "lifestyle",
+      "license": "CC BY 2.0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Woman_sits_on_a_chair_holding_a_smartphone_and_a_notebook_closeup.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Woman_sits_on_a_chair_holding_a_smartphone_and_a_notebook_closeup.jpg/960px-Woman_sits_on_a_chair_holding_a_smartphone_and_a_notebook_closeup.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
     }
   ],
   "_meta": {
-    "created": "2026-11-20",
-    "updated": "2026-11-20",
-    "filled_by": "tools/generate_random_catalog.py"
+    "created": "2026-11-21",
+    "updated": "2026-11-21",
+    "filled_by": "Claude Opus 5.5 (сведения до 2026-06) + tools/import_catalog_data.py"
   }
 }

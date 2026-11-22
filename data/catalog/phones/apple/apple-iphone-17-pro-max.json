@@ -5,35 +5,35 @@
   "full_name": "Apple iPhone 17 Pro Max",
   "aliases": [],
   "os": "iOS",
-  "release_date": null,
+  "release_date": "2025-09",
   "year": 2025,
   "status": "on_sale",
   "availability_ru": "parallel_import",
   "form_factor": "bar",
   "in_ml": true,
-  "chipset": "demo-soc-2350",
+  "chipset": "apple-a19-pro",
   "specs": {
     "screen_in": 6.9,
     "cover_screen_in": null,
     "refresh_hz": 120,
-    "display_type": null,
-    "peak_nits": null,
+    "display_type": "LTPO OLED",
+    "peak_nits": 3000,
     "battery_mah": 4832,
-    "charge_w": 40.0,
-    "wireless_w": null,
-    "weight_g": 233.0,
-    "thickness_mm": null,
-    "ip_rating": null,
+    "charge_w": 40,
+    "wireless_w": 25,
+    "weight_g": 233,
+    "thickness_mm": 8.75,
+    "ip_rating": "IP68",
     "has_5g": true,
     "nfc": true,
     "esim": true,
     "ir_port": false,
-    "jack35": null,
-    "sd_card": null,
+    "jack35": false,
+    "sd_card": false,
     "update_years": null,
     "_q": "estimated",
     "_src": [
-      "project_seed"
+      "ai_knowledge"
     ]
   },
   "variants": [
@@ -43,11 +43,54 @@
       "price_rub": 100400,
       "price_date": "2026-08-01",
       "price_src": "project_seed",
-      "msrp_usd": null,
+      "msrp_usd": 1199,
       "is_base": true,
       "_q": "estimated",
       "_src": [
-        "project_seed"
+        "project_seed",
+        "ai_knowledge"
+      ]
+    },
+    {
+      "ram_gb": 12,
+      "rom_gb": 512,
+      "price_rub": 117090,
+      "price_date": null,
+      "price_src": "price_model",
+      "msrp_usd": 1399,
+      "is_base": false,
+      "_q": "estimated",
+      "_src": [
+        "price_model",
+        "ai_knowledge"
+      ]
+    },
+    {
+      "ram_gb": 12,
+      "rom_gb": 1024,
+      "price_rub": 133890,
+      "price_date": null,
+      "price_src": "price_model",
+      "msrp_usd": 1599,
+      "is_base": false,
+      "_q": "estimated",
+      "_src": [
+        "price_model",
+        "ai_knowledge"
+      ]
+    },
+    {
+      "ram_gb": 12,
+      "rom_gb": 2048,
+      "price_rub": 167390,
+      "price_date": null,
+      "price_src": "price_model",
+      "msrp_usd": 1999,
+      "is_base": false,
+      "_q": "estimated",
+      "_src": [
+        "price_model",
+        "ai_knowledge"
       ]
     }
   ],
@@ -55,98 +98,128 @@
     {
       "role": "main",
       "position": 0,
-      "sensor": "demo-s16",
+      "sensor": null,
       "mp": 48,
-      "aperture": 1.6,
-      "focal_mm": 25,
-      "fov_deg": 82,
+      "aperture": 1.78,
+      "focal_mm": 24,
+      "fov_deg": null,
       "optical_zoom_x": null,
       "ois": true,
       "af": "dual_pixel",
       "min_focus_cm": null,
-      "video_max": "4K120",
-      "processing_score": 60,
-      "processing_basis": "random",
-      "_q": "random",
+      "video_max": null,
+      "processing_score": 88,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "ai_knowledge"
       ]
     },
     {
       "role": "ultrawide",
       "position": 0,
-      "sensor": "demo-s19",
-      "mp": 50,
+      "sensor": null,
+      "mp": 48,
       "aperture": 2.2,
-      "focal_mm": 16,
-      "fov_deg": 117,
-      "optical_zoom_x": 0.6,
+      "focal_mm": 13,
+      "fov_deg": null,
+      "optical_zoom_x": null,
       "ois": false,
-      "af": "fixed",
+      "af": "pdaf",
       "min_focus_cm": null,
       "video_max": null,
-      "processing_score": 73,
-      "processing_basis": "random",
-      "_q": "random",
+      "processing_score": 78,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "ai_knowledge"
       ]
     },
     {
       "role": "periscope",
       "position": 0,
-      "sensor": "demo-s25",
-      "mp": 64,
-      "aperture": 2.9,
-      "focal_mm": 112,
-      "fov_deg": 19,
+      "sensor": null,
+      "mp": 48,
+      "aperture": 2.8,
+      "focal_mm": 100,
+      "fov_deg": null,
       "optical_zoom_x": null,
       "ois": true,
       "af": "pdaf",
       "min_focus_cm": null,
       "video_max": null,
-      "processing_score": 74,
-      "processing_basis": "random",
-      "_q": "random",
+      "processing_score": 85,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "ai_knowledge"
       ]
     },
     {
       "role": "front",
       "position": 0,
-      "sensor": "demo-s19",
-      "mp": 50,
-      "aperture": 2.1,
-      "focal_mm": 21,
-      "fov_deg": 83,
+      "sensor": null,
+      "mp": 18,
+      "aperture": 1.9,
+      "focal_mm": null,
+      "fov_deg": null,
       "optical_zoom_x": null,
       "ois": false,
-      "af": "fixed",
+      "af": "pdaf",
       "min_focus_cm": null,
       "video_max": null,
-      "processing_score": 61,
-      "processing_basis": "random",
-      "_q": "random",
+      "processing_score": 82,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "ai_knowledge"
       ]
     }
   ],
   "camera_features": {
-    "macro_mode": "none",
-    "macro_min_focus_cm": null,
-    "lossless_zoom_x": null,
-    "max_digital_zoom_x": 60,
+    "macro_mode": "ultrawide_af",
+    "macro_min_focus_cm": 2,
+    "lossless_zoom_x": 8,
+    "max_digital_zoom_x": 40,
     "dxomark": null,
-    "_q": "random",
+    "_q": "estimated",
     "_src": [
-      "random"
+      "ai_knowledge"
     ]
   },
-  "quirks": [],
+  "quirks": [
+    {
+      "code": "great_video",
+      "severity": 3,
+      "note_ru": "Обзоры отмечают сильное видео (стабилизация, динамический диапазон).",
+      "evidence": [],
+      "_q": "estimated"
+    },
+    {
+      "code": "excellent_battery",
+      "severity": 3,
+      "note_ru": "В тестах автономности держится заметно дольше конкурентов.",
+      "evidence": [],
+      "_q": "estimated"
+    },
+    {
+      "code": "ai_limited_ru",
+      "severity": 2,
+      "note_ru": "Русского языка нет среди языков Apple Intelligence на странице поддержки Apple: в РФ функции недоступны без смены языка и региона.",
+      "evidence": [
+        "https://support.apple.com/en-us/121115"
+      ],
+      "_q": "verified"
+    }
+  ],
   "quirks_checked": false,
-  "special": [],
+  "special": [
+    {
+      "code": "satellite",
+      "note_ru": "Спутниковая связь (сообщения/вызовы); в РФ не работает.",
+      "_q": "estimated"
+    }
+  ],
   "photos": [
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/IPhone_17_Pro_Max_%28Cosmic_Orange%29_-_Backside.jpg/960px-IPhone_17_Pro_Max_%28Cosmic_Orange%29_-_Backside.jpg",
@@ -155,7 +228,7 @@
       "author": "AzureSaturn",
       "license": "CC0",
       "source_page": "https://commons.wikimedia.org/wiki/File:IPhone_17_Pro_Max_(Cosmic_Orange)_-_Backside.jpg",
-      "width": null,
+      "width": 960,
       "height": null,
       "origin": "wikimedia"
     },
@@ -166,47 +239,80 @@
       "author": "茅野ふたば",
       "license": "CC BY-SA 4.0",
       "source_page": "https://commons.wikimedia.org/wiki/File:IPhone_17_Pro_Max_backside_(Silver)_(Oct_1,_2025).jpg",
-      "width": null,
+      "width": 960,
       "height": null,
       "origin": "wikimedia"
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Silver_iPhone_17_Pro_Max.jpg/960px-Silver_iPhone_17_Pro_Max.jpg",
-      "kind": "angle",
+      "kind": "lifestyle",
       "color_ru": null,
       "author": "Ahmad Ali Karim",
       "license": "CC0",
       "source_page": "https://commons.wikimedia.org/wiki/File:Silver_iPhone_17_Pro_Max.jpg",
-      "width": null,
+      "width": 960,
       "height": null,
       "origin": "wikimedia"
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Cosmic_Orange_iPhone_17_Pro_Max.jpg/960px-Cosmic_Orange_iPhone_17_Pro_Max.jpg",
-      "kind": "angle",
+      "kind": "lifestyle",
       "color_ru": null,
       "author": "Ahmad Ali Karim",
       "license": "CC0",
       "source_page": "https://commons.wikimedia.org/wiki/File:Cosmic_Orange_iPhone_17_Pro_Max.jpg",
-      "width": null,
+      "width": 960,
       "height": null,
       "origin": "wikimedia"
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Deep_Blue_iPhone_17_Pro_Max.jpg/960px-Deep_Blue_iPhone_17_Pro_Max.jpg",
-      "kind": "angle",
+      "kind": "lifestyle",
       "color_ru": null,
       "author": "Ahmad Ali Karim",
       "license": "CC0",
       "source_page": "https://commons.wikimedia.org/wiki/File:Deep_Blue_iPhone_17_Pro_Max.jpg",
-      "width": null,
+      "width": 960,
       "height": null,
       "origin": "wikimedia"
+    },
+    {
+      "author": "茅野ふたば",
+      "color_ru": null,
+      "height": 1280,
+      "kind": "lifestyle",
+      "license": "CC BY-SA 4.0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:IPhone_17_Pro_Max_(1).jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/IPhone_17_Pro_Max_%281%29.jpg/960px-IPhone_17_Pro_Max_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
+    },
+    {
+      "author": "Ahmad Ali Karim",
+      "color_ru": null,
+      "height": 640,
+      "kind": "lifestyle",
+      "license": "CC0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:IPhone_17_launch_at_Apple_TRX_Malaysia_111.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/IPhone_17_launch_at_Apple_TRX_Malaysia_111.jpg/960px-IPhone_17_launch_at_Apple_TRX_Malaysia_111.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
+    },
+    {
+      "author": "Ahmad Ali Karim",
+      "color_ru": null,
+      "height": 1897,
+      "kind": "lifestyle",
+      "license": "CC0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Deep_Blue_iPhone_17_Pro_Max_(cropped).jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Deep_Blue_iPhone_17_Pro_Max_%28cropped%29.jpg/960px-Deep_Blue_iPhone_17_Pro_Max_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
     }
   ],
   "_meta": {
-    "created": "2026-11-20",
-    "updated": "2026-11-20",
-    "filled_by": "tools/generate_random_catalog.py"
+    "created": "2026-11-21",
+    "updated": "2026-11-21",
+    "filled_by": "Claude Opus 5.5 (сведения до 2026-06) + tools/import_catalog_data.py"
   }
 }

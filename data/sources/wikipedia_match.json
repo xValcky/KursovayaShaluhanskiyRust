@@ -1,0 +1,7359 @@
+{
+ "apple-iphone-13": {
+  "agree": [],
+  "differ": {},
+  "revid": 1385015549,
+  "title": "IPhone 13",
+  "url": "https://en.wikipedia.org/wiki/IPhone_13",
+  "wiki": {
+   "battery_mah": null,
+   "charge_w": null,
+   "cover_screen_in": null,
+   "front": [],
+   "ram": [],
+   "rear": [],
+   "refresh_hz": null,
+   "release_date": null,
+   "screen_in": null,
+   "soc": null,
+   "weight_g": null
+  }
+ },
+ "apple-iphone-14": {
+  "agree": [],
+  "differ": {},
+  "revid": 1386866526,
+  "title": "IPhone 14",
+  "url": "https://en.wikipedia.org/wiki/IPhone_14",
+  "wiki": {
+   "battery_mah": null,
+   "charge_w": null,
+   "cover_screen_in": null,
+   "front": [],
+   "ram": [],
+   "rear": [],
+   "refresh_hz": null,
+   "release_date": null,
+   "screen_in": null,
+   "soc": null,
+   "weight_g": null
+  }
+ },
+ "apple-iphone-15": {
+  "agree": [],
+  "differ": {},
+  "revid": 1386581413,
+  "title": "IPhone 15",
+  "url": "https://en.wikipedia.org/wiki/IPhone_15",
+  "wiki": {
+   "battery_mah": null,
+   "charge_w": null,
+   "cover_screen_in": null,
+   "front": [],
+   "ram": [],
+   "rear": [],
+   "refresh_hz": null,
+   "release_date": null,
+   "screen_in": null,
+   "soc": null,
+   "weight_g": null
+  }
+ },
+ "apple-iphone-15-pro": {
+  "agree": [
+   "battery_mah",
+   "weight_g",
+   "screen_in"
+  ],
+  "differ": {},
+  "revid": 1386169111,
+  "title": "IPhone 15 Pro",
+  "url": "https://en.wikipedia.org/wiki/IPhone_15_Pro",
+  "wiki": {
+   "battery_mah": 3274,
+   "charge_w": 12.7,
+   "cover_screen_in": null,
+   "front": [],
+   "ram": [],
+   "rear": [
+    {
+     "af": "pdaf",
+     "aperture": null,
+     "focal_mm": 77.0,
+     "format": null,
+     "mp": 12.0,
+     "ois": true,
+     "role": "tele"
+    }
+   ],
+   "refresh_hz": null,
+   "release_date": null,
+   "screen_in": 6.1,
+   "soc": null,
+   "weight_g": 187.0
+  }
+ },
+ "apple-iphone-16": {
+  "agree": [],
+  "differ": {},
+  "revid": 1385075108,
+  "title": "IPhone 16",
+  "url": "https://en.wikipedia.org/wiki/IPhone_16",
+  "wiki": {
+   "battery_mah": null,
+   "charge_w": null,
+   "cover_screen_in": null,
+   "front": [],
+   "ram": [],
+   "rear": [],
+   "refresh_hz": null,
+   "release_date": null,
+   "screen_in": null,
+   "soc": null,
+   "weight_g": null
+  }
+ },
+ "apple-iphone-16-pro": {
+  "agree": [
+   "battery_mah",
+   "screen_in",
+   "refresh_hz"
+  ],
+  "differ": {},
+  "revid": 1382318498,
+  "title": "IPhone 16 Pro",
+  "url": "https://en.wikipedia.org/wiki/IPhone_16_Pro",
+  "wiki": {
+   "battery_mah": 3582,
+   "charge_w": 13.94,
+   "cover_screen_in": null,
+   "front": [],
+   "ram": [],
+   "rear": [],
+   "refresh_hz": 120,
+   "release_date": null,
+   "screen_in": 6.3,
+   "soc": null,
+   "weight_g": null
+  }
+ },
+ "apple-iphone-16e": {
+  "agree": [
+   "battery_mah",
+   "weight_g",
+   "screen_in",
+   "refresh_hz"
+  ],
+  "differ": {},
+  "revid": 1383935713,
+  "title": "IPhone 16e",
+  "url": "https://en.wikipedia.org/wiki/IPhone_16e",
+  "wiki": {
+   "battery_mah": 4005,
+   "charge_w": 7.5,
+   "cover_screen_in": null,
+   "front": [
+    {
+     "af": null,
+     "aperture": null,
+     "focal_mm": 23.0,
+     "format": null,
+     "mp": 12.0,
+     "ois": false,
+     "role": "front"
+    }
+   ],
+   "ram": [
+    8
+   ],
+   "rear": [
+    {
+     "af": null,
+     "aperture": null,
+     "focal_mm": 26.0,
+     "format": null,
+     "mp": 48.0,
+     "ois": false,
+     "role": "main"
+    }
+   ],
+   "refresh_hz": 60,
+   "release_date": "2025-02-28",
+   "screen_in": 6.1,
+   "soc": "Apple A18",
+   "weight_g": 167.0
+  }
+ },
+ "apple-iphone-17": {
+  "agree": [
+   "battery_mah",
+   "weight_g",
+   "screen_in",
+   "refresh_hz"
+  ],
+  "differ": {},
+  "revid": 1386398853,
+  "title": "IPhone 17",
+  "url": "https://en.wikipedia.org/wiki/IPhone_17",
+  "wiki": {
+   "battery_mah": 3692,
+   "charge_w": null,
+   "cover_screen_in": null,
+   "front": [
+    {
+     "af": null,
+     "aperture": null,
+     "focal_mm": 23.0,
+     "format": null,
+     "mp": 18.0,
+     "ois": false,
+     "role": "front"
+    }
+   ],
+   "ram": [
+    8
+   ],
+   "rear": [
+    {
+     "af": null,
+     "aperture": null,
+     "focal_mm": 26.0,
+     "format": null,
+     "mp": 48.0,
+     "ois": false,
+     "role": "main"
+    },
+    {
+     "af": null,
+     "aperture": null,
+     "focal_mm": 13.0,
+     "format": null,
+     "mp": 48.0,
+     "ois": false,
+     "role": "ultrawide"
+    }
+   ],
+   "refresh_hz": 120,
+   "release_date": "2025-09-19",
+   "screen_in": 6.3,
+   "soc": "Apple A19",
+   "weight_g": 177.0
+  }
+ },
+ "apple-iphone-17-pro": {
+  "agree": [],
+  "differ": {},
+  "revid": 1386168872,
+  "title": "IPhone 17 Pro",
+  "url": "https://en.wikipedia.org/wiki/IPhone_17_Pro",
+  "wiki": {
+   "battery_mah": null,
+   "charge_w": null,
+   "cover_screen_in": null,
+   "front": [],
+   "ram": [],
+   "rear": [],
+   "refresh_hz": null,
+   "release_date": null,
+   "screen_in": null,
+   "soc": null,
+   "weight_g": null
+  }
+ },
+ "apple-iphone-17e": {
+  "agree": [
+   "battery_mah",
+   "weight_g",
+   "screen_in"
+  ],
+  "differ": {},
+  "revid": 1384886269,
+  "title": "IPhone 17e",
+  "url": "https://en.wikipedia.org/wiki/IPhone_17e",
+  "wiki": {
+   "battery_mah": 4005,
+   "charge_w": 30.0,
+   "cover_screen_in": null,
+   "front": [
+    {
+     "af": null,
+     "aperture": null,
+     "focal_mm": 20.0,
+     "format": null,
+     "mp": 12.0,
+     "ois": false,
+     "role": "front"
+    }
+   ],
+   "ram": [
+    8
+   ],
+   "rear": [
+    {
+     "af": null,
+     "aperture": null,
+     "focal_mm": 26.0,
+     "format": null,
+     "mp": 48.0,
+     "ois": false,
+     "role": "main"
+    }
+   ],
+   "refresh_hz": null,
+   "release_date": "2026-03-11",
+   "screen_in": 6.1,
+   "soc": "Apple A19",
+   "weight_g": 169.0
+  }
+ },
+ "apple-iphone-18-pro": {
+  "agree": [],
+  "differ": {},
+  "revid": 1386741837,
+  "title": "IPhone 18 Pro",
+  "url": "https://en.wikipedia.org/wiki/IPhone_18_Pro",
+  "wiki": {
+   "battery_mah": null,
+   "charge_w": null,
+   "cover_screen_in": null,
+   "front": [],
+   "ram": [],
+   "rear": [],
+   "refresh_hz": null,
+   "release_date": null,
+   "screen_in": null,
+   "soc": null,
+   "weight_g": null
+  }
+ },
+ "apple-iphone-air": {
+  "agree": [
+   "battery_mah",
+   "weight_g",
+   "screen_in",
+   "refresh_hz"
+  ],
+  "differ": {},
+  "revid": 1384854528,
+  "title": "IPhone Air",
+  "url": "https://en.wikipedia.org/wiki/IPhone_Air",
+  "wiki": {
+   "battery_mah": 3149,
+   "charge_w": 2.0,
+   "cover_screen_in": null,
+   "front": [
+    {
+     "af": null,
+     "aperture": 1.9,
+     "focal_mm": null,
+     "format": null,
+     "mp": 18.0,
+     "ois": false,
+     "role": "front"
+    }
+   ],
+   "ram": [
+    12
+   ],
+   "rear": [
+    {
+     "af": null,
+     "aperture": 1.6,
+     "focal_mm": 26.0,
+     "format": null,
+     "mp": 48.0,
+     "ois": false,
+     "role": "main"
+    }
+   ],
+   "refresh_hz": 120,
+   "release_date": "2025-09-19",
+   "screen_in": 6.5,
+   "soc": "Apple A19 Pro",
+   "weight_g": 165.0
+  }
+ },
+ "apple-iphone-duo": {
+  "agree": [
+   "battery_mah",
+   "weight_g"
+  ],
+  "differ": {},
+  "revid": 1386762735,
+  "title": "IPhone Duo",
+  "url": "https://en.wikipedia.org/wiki/IPhone_Duo",
+  "wiki": {
+   "battery_mah": 4883,
+   "charge_w": 2.0,
+   "cover_screen_in": null,
+   "front": [
+    {
+     "af": null,
+     "aperture": null,
+     "focal_mm": null,
+     "format": null,
+     "mp": 12.0,
+     "ois": false,
+     "role": "front"
+    }
+   ],
+   "ram": [
+    12
+   ],
+   "rear": [
+    {
+     "af": null,
+     "aperture": null,
+     "focal_mm": null,
+     "format": null,
+     "mp": 48.0,
+     "ois": false,
+     "role": "tele"
+    }
+   ],
+   "refresh_hz": null,
+   "release_date": "2026-10-23",
+   "screen_in": null,
+   "soc": "Apple A20 Pro",
+   "weight_g": 254.0
+  }
+ },
+ "asus-rog-phone-6": {
+  "agree": [],
+  "differ": {},
+  "revid": 1361479485,
+  "title": "ROG Phone 6",
+  "url": "https://en.wikipedia.org/wiki/ROG_Phone_6",
+  "wiki": {
+   "battery_mah": null,
+   "charge_w": null,
+   "cover_screen_in": null,
+   "front": [],
+   "ram": [],
+   "rear": [],
+   "refresh_hz": null,
+   "release_date": null,
+   "screen_in": null,
+   "soc": null,
+   "weight_g": null
+  }
+ },
+ "asus-rog-phone-7": {
+  "agree": [],
+  "differ": {},
+  "revid": 1361479492,
+  "title": "ROG Phone 7",
+  "url": "https://en.wikipedia.org/wiki/ROG_Phone_7",
+  "wiki": {
+   "battery_mah": null,
+   "charge_w": null,
+   "cover_screen_in": null,
+   "front": [],
+   "ram": [],
+   "rear": [],
+   "refresh_hz": null,
+   "release_date": null,
+   "screen_in": null,
+   "soc": null,
+   "weight_g": null
+  }
+ },
+ "asus-rog-phone-8": {
+  "agree": [],
+  "differ": {},
+  "revid": 1361479497,
+  "title": "ROG Phone 8",
+  "url": "https://en.wikipedia.org/wiki/ROG_Phone_8",
+  "wiki": {
+   "battery_mah": null,
+   "charge_w": null,
+   "cover_screen_in": null,
+   "front": [],
+   "ram": [],
+   "rear": [],
+   "refresh_hz": null,
+   "release_date": null,
+   "screen_in": null,
+   "soc": null,
+   "weight_g": null
+  }
+ },
+ "asus-rog-phone-9": {
+  "agree": [
+   "battery_mah",
+   "weight_g",
+   "screen_in",
+   "refresh_hz"
+  ],
+  "differ": {},
+  "revid": 1380603501,
+  "title": "ROG Phone 9",
+  "url": "https://en.wikipedia.org/wiki/ROG_Phone_9",
+  "wiki": {
+   "battery_mah": 5800,
+   "charge_w": null,
+   "cover_screen_in": null,
+   "front": [],
+   "ram": [
+    12,
+    16,
+    24
+   ],
+   "rear": [],
+   "refresh_hz": 185,
+   "release_date": null,
+   "screen_in": 6.78,
+   "soc": null,
+   "weight_g": 227.0
+  }
+ },
+ "asus-zenfone-12-ultra": {
+  "agree": [
+   "battery_mah",
+   "weight_g"
+  ],
+  "differ": {},
+  "revid": 1369990335,
+  "title": "Asus Zenfone 12 Ultra",
+  "url": "https://en.wikipedia.org/wiki/Asus_Zenfone_12_Ultra",
+  "wiki": {
+   "battery_mah": 5500,
+   "charge_w": null,
+   "cover_screen_in": null,
+   "front": [
+    {
+     "af": null,
+     "aperture": null,
+     "focal_mm": null,
+     "format": null,
+     "mp": 32.0,
+     "ois": false,
+     "role": "front"
+    },
+    {
+     "af": null,
+     "aperture": null,
+     "focal_mm": null,
+     "format": null,
+     "mp": 8.0,
+     "ois": false,
+     "role": "front"
+    }
+   ],
+   "ram": [],
+   "rear": [],
+   "refresh_hz": null,
+   "release_date": "2025-02",
+   "screen_in": null,
+   "soc": null,
+   "weight_g": 220.0
+  }
+ },
+ "asus-zenfone-9": {
+  "agree": [
+   "battery_mah",
+   "weight_g",
+   "screen_in",
+   "refresh_hz"
+  ],
+  "differ": {},
+  "revid": 1361472621,
+  "title": "Asus ZenFone 9",
+  "url": "https://en.wikipedia.org/wiki/Asus_ZenFone_9",
+  "wiki": {
+   "battery_mah": 4300,
+   "charge_w": 30.0,
+   "cover_screen_in": null,
+   "front": [
+    {
+     "af": "dual_pixel",
+     "aperture": 2.5,
+     "focal_mm": 28.0,
+     "format": "1/2.93",
+     "mp": 12.0,
+     "ois": false,
+     "role": "front"
+    }
+   ],
+   "ram": [
+    16
+   ],
+   "rear": [
+    {
+     "af": "pdaf",
+     "aperture": 1.9,
+     "focal_mm": 26.0,
+     "format": "1/1.56",
+     "mp": 50.0,
+     "ois": true,
+     "role": "main"
+    },
+    {
+     "af": null,
+     "aperture": 2.2,
+     "focal_mm": null,
+     "format": "1/2.93",
+     "mp": 12.0,
+     "ois": false,
+     "role": "ultrawide"
+    }
+   ],
+   "refresh_hz": 120,
+   "release_date": "2022-09-15",
+   "screen_in": 5.9,
+   "soc": "Qualcomm Snapdragon 8+ Gen 1 (4 nm)",
+   "weight_g": 169.0
+  }
+ },
+ "fairphone-5": {
+  "agree": [
+   "battery_mah",
+   "weight_g",
+   "screen_in",
+   "refresh_hz"
+  ],
+  "differ": {},
+  "revid": 1370062197,
+  "title": "Fairphone 5",
+  "url": "https://en.wikipedia.org/wiki/Fairphone_5",
+  "wiki": {
+   "battery_mah": 4200,
+   "charge_w": 30.0,
+   "cover_screen_in": null,
+   "front": [
+    {
+     "af": null,
+     "aperture": 2.45,
+     "focal_mm": null,
+     "format": "1/2.6",
+     "mp": 50.0,
+     "ois": false,
+     "role": "front"
+    }
+   ],
+   "ram": [
+    6,
+    8
+   ],
+   "rear": [
+    {
+     "af": "pdaf",
+     "aperture": 1.88,
+     "focal_mm": null,
+     "format": "1/1.56",
+     "mp": 50.0,
+     "ois": true,
+     "role": "ultrawide"
+    }
+   ],
+   "refresh_hz": 90,
+   "release_date": null,
+   "screen_in": 6.46,
+   "soc": "Qualcomm QCM6490",
+   "weight_g": 212.0
+  }
+ },
+ "fairphone-6": {
+  "agree": [
+   "battery_mah",
+   "weight_g",
+   "screen_in",
+   "refresh_hz"
+  ],
+  "differ": {},
+  "revid": 1385403129,
+  "title": "Fairphone 6",
+  "url": "https://en.wikipedia.org/wiki/Fairphone_6",
+  "wiki": {
+   "battery_mah": 4415,
+   "charge_w": 30.0,
+   "cover_screen_in": null,
+   "front": [],
+   "ram": [
+    8
+   ],
+   "rear": [],
+   "refresh_hz": 120,
+   "release_date": null,
+   "screen_in": 6.31,
+   "soc": "Qualcomm Snapdragon 7s Gen 3",
+   "weight_g": 193.0
+  }
+ },
+ "google-pixel-10": {
+  "agree": [
+   "battery_mah",
+   "weight_g",
+   "screen_in",
+   "refresh_hz"
+  ],
+  "differ": {},
+  "revid": 1379535042,
+  "title": "Pixel 10",
+  "url": "https://en.wikipedia.org/wiki/Pixel_10",
+  "wiki": {
+   "battery_mah": 4970,
+   "charge_w": 29.0,
+   "cover_screen_in": null,
+   "front": [
+    {
+     "af": null,
+     "aperture": null,
+     "focal_mm": null,
+     "format": null,
+     "mp": 10.5,
+     "ois": false,
+     "role": "front"
+    }
+   ],
+   "ram": [
+    12
+   ],
+   "rear": [
+    {
+     "af": null,
+     "aperture": null,
+     "focal_mm": null,
+     "format": "1/2",
+     "mp": 48.0,
+     "ois": false,
+     "role": "main"
+    },
+    {
+     "af": null,
+     "aperture": null,
+     "focal_mm": null,
+     "format": "1/3.1",
+     "mp": 13.0,
+     "ois": false,
+     "role": "ultrawide"
+    },
+    {
+     "af": null,
+     "aperture": null,
+     "focal_mm": null,
+     "format": "1/3.2",
+     "mp": 10.8,
+     "ois": false,
+     "role": "tele"
+    }
+   ],
+   "refresh_hz": 120,
+   "release_date": "2025-08-28",
+   "screen_in": 6.34,
+   "soc": "Google Tensor G5",
+   "weight_g": 204.0
+  }
+ },
+ "google-pixel-10-pro": {
+  "agree": [
+   "battery_mah",
+   "weight_g",
+   "screen_in",
+   "refresh_hz"
+  ],
+  "differ": {},
+  "revid": 1379535061,
+  "title": "Pixel 10 Pro",
+  "url": "https://en.wikipedia.org/wiki/Pixel_10_Pro",
+  "wiki": {
+   "battery_mah": 4870,
+   "charge_w": 30.0,
+   "cover_screen_in": null,
+   "front": [
+    {
+     "af": null,
+     "aperture": null,
+     "focal_mm": null,
+     "format": null,
+     "mp": 42.0,
+     "ois": false,
+     "role": "front"
+    }
+   ],
+   "ram": [
+    16
+   ],
+   "rear": [
+    {
+     "af": null,
+     "aperture": null,
+     "focal_mm": null,
+     "format": "1/1.3",
+     "mp": 50.0,
+     "ois": false,
+     "role": "main"
+    },
+    {
+     "af": null,
+     "aperture": null,
+     "focal_mm": null,
+     "format": "1/2.55",
+     "mp": 48.0,
+     "ois": false,
+     "role": "ultrawide"
+    },
+    {
+     "af": null,
+     "aperture": null,
+     "focal_mm": null,
+     "format": "1/2.55",
+     "mp": 48.0,
+     "ois": false,
+     "role": "tele"
+    }
+   ],
+   "refresh_hz": 120,
+   "release_date": "2025-08-28",
+   "screen_in": 6.34,
+   "soc": "Google Tensor G5",
+   "weight_g": 207.0
+  }
+ },
+ "google-pixel-10-pro-fold": {
+  "agree": [
+   "battery_mah",
+   "weight_g"
+  ],
+  "differ": {},
+  "revid": 1369065057,
+  "title": "Pixel 10 Pro Fold",
+  "url": "https://en.wikipedia.org/wiki/Pixel_10_Pro_Fold",
+  "wiki": {
+   "battery_mah": 5015,
+   "charge_w": 30.0,
+   "cover_screen_in": null,
+   "front": [
+    {
+     "af": null,
+     "aperture": null,
+     "focal_mm": null,
+     "format": null,
+     "mp": 10.0,
+     "ois": false,
+     "role": "front"
+    }
+   ],
+   "ram": [
+    16
+   ],
+   "rear": [
+    {
+     "af": null,
+     "aperture": null,
+     "focal_mm": null,
+     "format": "1/2",
+     "mp": 48.0,
+     "ois": false,
+     "role": "main"
+    },
+    {
+     "af": null,
+     "aperture": null,
+     "focal_mm": null,
+     "format": "1/3.4",
+     "mp": 10.5,
+     "ois": false,
+     "role": "ultrawide"
+    },
+    {
+     "af": null,
+     "aperture": null,
+     "focal_mm": null,
+     "format": "1/3.4",
+     "mp": 10.8,
+     "ois": false,
+     "role": "tele"
+    }
+   ],
+   "refresh_hz": null,
+   "release_date": "2025-10-09",
+   "screen_in": null,
+   "soc": "Google Tensor G5",
+   "weight_g": 258.0
+  }
+ },
+ "google-pixel-10a": {
+  "agree": [
+   "battery_mah",
+   "screen_in",
+   "refresh_hz"
+  ],
+  "differ": {},
+  "revid": 1376840375,
+  "title": "Pixel 10a",
+  "url": "https://en.wikipedia.org/wiki/Pixel_10a",
+  "wiki": {
+   "battery_mah": 5100,
+   "charge_w": 30.0,
+   "cover_screen_in": null,
+   "front": [
+    {
+     "af": null,
+     "aperture": null,
+     "focal_mm": null,
+     "format": null,
+     "mp": 13.0,
+     "ois": false,
+     "role": "front"
+    }
+   ],
+   "ram": [
+    8
+   ],
+   "rear": [
+    {
+     "af": "dual_pixel",
+     "aperture": null,
+     "focal_mm": null,
+     "format": "1/2",
+     "mp": 48.0,
+     "ois": true,
+     "role": "main"
+    },
+    {
+     "af": null,
+     "aperture": null,
+     "focal_mm": null,
+     "format": "1/3.1",
+     "mp": 13.0,
+     "ois": false,
+     "role": "ultrawide"
+    }
+   ],
+   "refresh_hz": 120,
+   "release_date": "2026-03-05",
+   "screen_in": 6.3,
+   "soc": "Google Tensor G4",
+   "weight_g": null
+  }
+ },
+ "google-pixel-11": {
+  "agree": [
+   "battery_mah",
+   "weight_g",
+   "screen_in",
+   "refresh_hz"
+  ],
+  "differ": {},
+  "revid": 1382662889,
+  "title": "Pixel 11",
+  "url": "https://en.wikipedia.org/wiki/Pixel_11",
+  "wiki": {
+   "battery_mah": 4985,
+   "charge_w": 30.0,
+   "cover_screen_in": null,
+   "front": [
+    {
+     "af": null,
+     "aperture": null,
+     "focal_mm": null,
+     "format": null,
+     "mp": 10.5,
+     "ois": false,
+     "role": "front"
+    }
+   ],
+   "ram": [
+    12
+   ],
+   "rear": [
+    {
+     "af": null,
+     "aperture": null,
+     "focal_mm": null,
+     "format": "1/1.56",
+     "mp": 48.0,
+     "ois": false,
+     "role": "main"
+    },
+    {
+     "af": null,
+     "aperture": null,
+     "focal_mm": null,
+     "format": "1/3.1",
+     "mp": 13.0,
+     "ois": false,
+     "role": "ultrawide"
+    },
+    {
+     "af": null,
+     "aperture": null,
+     "focal_mm": null,
+     "format": "1/3.2",
+     "mp": 10.8,
+     "ois": false,
+     "role": "tele"
+    }
+   ],
+   "refresh_hz": 120,
+   "release_date": "2026-08-20",
+   "screen_in": 6.34,
+   "soc": "Google Tensor G6",
+   "weight_g": 197.0
+  }
+ },
+ "google-pixel-11-pro": {
+  "agree": [
+   "battery_mah",
+   "weight_g",
+   "screen_in",
+   "refresh_hz"
+  ],
+  "differ": {},
+  "revid": 1386037758,
+  "title": "Pixel 11 Pro",
+  "url": "https://en.wikipedia.org/wiki/Pixel_11_Pro",
+  "wiki": {
+   "battery_mah": 4850,
+   "charge_w": 30.0,
+   "cover_screen_in": null,
+   "front": [
+    {
+     "af": null,
+     "aperture": null,
+     "focal_mm": null,
+     "format": null,
+     "mp": 42.0,
+     "ois": false,
+     "role": "front"
+    }
+   ],
+   "ram": [
+    12,
+    16,
+    256,
+    512
+   ],
+   "rear": [
+    {
+     "af": null,
+     "aperture": null,
+     "focal_mm": null,
+     "format": "1/1.3",
+     "mp": 50.0,
+     "ois": false,
+     "role": "main"
+    },
+    {
+     "af": null,
+     "aperture": null,
+     "focal_mm": null,
+     "format": "1/2.51",
+     "mp": 48.0,
+     "ois": false,
+     "role": "ultrawide"
+    },
+    {
+     "af": null,
+     "aperture": null,
+     "focal_mm": null,
+     "format": "1/1.95",
+     "mp": 48.0,
+     "ois": false,
+     "role": "tele"
+    }
+   ],
+   "refresh_hz": 120,
+   "release_date": "2026-08-20",
+   "screen_in": 6.34,
+   "soc": "Google Tensor G6",
+   "weight_g": 204.0
+  }
+ },
+ "google-pixel-11-pro-fold": {
+  "agree": [
+   "battery_mah",
+   "weight_g",
+   "screen_in",
+   "refresh_hz"
+  ],
+  "differ": {},
+  "revid": 1380320314,
+  "title": "Pixel 11 Pro Fold",
+  "url": "https://en.wikipedia.org/wiki/Pixel_11_Pro_Fold",
+  "wiki": {
+   "battery_mah": 4806,
+   "charge_w": 30.0,
+   "cover_screen_in": 6.46,
+   "front": [
+    {
+     "af": null,
+     "aperture": null,
+     "focal_mm": null,
+     "format": null,
+     "mp": 10.0,
+     "ois": false,
+     "role": "front"
+    }
+   ],
+   "ram": [
+    16
+   ],
+   "rear": [
+    {
+     "af": null,
+     "aperture": null,
+     "focal_mm": null,
+     "format": "1/1.56",
+     "mp": 48.0,
+     "ois": false,
+     "role": "main"
+    },
+    {
+     "af": null,
+     "aperture": null,
+     "focal_mm": null,
+     "format": "1/3.4",
+     "mp": 10.5,
+     "ois": false,
+     "role": "ultrawide"
+    },
+    {
+     "af": null,
+     "aperture": null,
+     "focal_mm": null,
+     "format": "1/3.2",
+     "mp": 10.8,
+     "ois": false,
+     "role": "tele"
+    }
+   ],
+   "refresh_hz": 120,
+   "release_date": "2026-08-20",
+   "screen_in": 8.03,
+   "soc": "Google Tensor G6",
+   "weight_g": 239.0
+  }
+ },
+ "google-pixel-6a": {
+  "agree": [
+   "battery_mah",
+   "weight_g",
+   "screen_in"
+  ],
+  "differ": {},
+  "revid": 1361479377,
+  "title": "Pixel 6a",
+  "url": "https://en.wikipedia.org/wiki/Pixel_6a",
+  "wiki": {
+   "battery_mah": 4410,
+   "charge_w": 18.0,
+   "cover_screen_in": null,
+   "front": [
+    {
+     "af": null,
+     "aperture": null,
+     "focal_mm": 24.0,
+     "format": null,
+     "mp": 8.0,
+     "ois": false,
+     "role": "front"
+    }
+   ],
+   "ram": [
+    6
+   ],
+   "rear": [
+    {
+     "af": "dual_pixel",
+     "aperture": null,
+     "focal_mm": 27.0,
+     "format": "1/2.55",
+     "mp": 12.2,
+     "ois": true,
+     "role": "main"
+    },
+    {
+     "af": null,
+     "aperture": null,
+     "focal_mm": 17.0,
+     "format": null,
+     "mp": 12.0,
+     "ois": false,
+     "role": "ultrawide"
+    }
+   ],
+   "refresh_hz": null,
+   "release_date": "2022-07-21",
+   "screen_in": 6.1,
+   "soc": "Google Tensor (5 nm)",
+   "weight_g": 178.0
+  }
+ },
+ "google-pixel-7": {
+  "agree": [
+   "battery_mah",
+   "weight_g",
+   "screen_in",
+   "refresh_hz"
+  ],
+  "differ": {},
+  "revid": 1385005849,
+  "title": "Pixel 7",
+  "url": "https://en.wikipedia.org/wiki/Pixel_7",
+  "wiki": {
+   "battery_mah": 4355,
+   "charge_w": 20.0,
+   "cover_screen_in": null,
+   "front": [
+    {
+     "af": null,
+     "aperture": null,
+     "focal_mm": null,
+     "format": null,
+     "mp": 10.8,
+     "ois": false,
+     "role": "front"
+    }
+   ],
+   "ram": [
+    8
+   ],
+   "rear": [
+    {
+     "af": null,
+     "aperture": null,
+     "focal_mm": null,
+     "format": null,
+     "mp": 12.0,
+     "ois": false,
+     "role": "ultrawide"
+    }
+   ],
+   "refresh_hz": 90,
+   "release_date": "2022-10-13",
+   "screen_in": 6.32,
+   "soc": "Google Tensor G2",
+   "weight_g": 197.0
+  }
+ },
+ "google-pixel-7a": {
+  "agree": [
+   "battery_mah",
+   "weight_g",
+   "screen_in",
+   "refresh_hz"
+  ],
+  "differ": {},
+  "revid": 1380320343,
+  "title": "Pixel 7a",
+  "url": "https://en.wikipedia.org/wiki/Pixel_7a",
+  "wiki": {
+   "battery_mah": 4385,
+   "charge_w": 30.0,
+   "cover_screen_in": null,
+   "front": [
+    {
+     "af": null,
+     "aperture": null,
+     "focal_mm": 20.0,
+     "format": null,
+     "mp": 13.0,
+     "ois": false,
+     "role": "front"
+    }
+   ],
+   "ram": [
+    8
+   ],
+   "rear": [
+    {
+     "af": "dual_pixel",
+     "aperture": null,
+     "focal_mm": 26.0,
+     "format": "1/1.73",
+     "mp": 64.0,
+     "ois": true,
+     "role": "main"
+    },
+    {
+     "af": null,
+     "aperture": null,
+     "focal_mm": null,
+     "format": null,
+     "mp": 13.0,
+     "ois": false,
+     "role": "ultrawide"
+    }
+   ],
+   "refresh_hz": 90,
+   "release_date": "2023-05-10",
+   "screen_in": 6.1,
+   "soc": "Google Tensor G2",
+   "weight_g": 193.5
+  }
+ },
+ "google-pixel-8": {
+  "agree": [
+   "battery_mah",
+   "weight_g",
+   "screen_in",
+   "refresh_hz"
+  ],
+  "differ": {},
+  "revid": 1383488764,
+  "title": "Pixel 8",
+  "url": "https://en.wikipedia.org/wiki/Pixel_8",
+  "wiki": {
+   "battery_mah": 4575,
+   "charge_w": 27.0,
+   "cover_screen_in": null,
+   "front": [
+    {
+     "af": null,
+     "aperture": null,
+     "focal_mm": null,
+     "format": null,
+     "mp": 10.5,
+     "ois": false,
+     "role": "front"
+    }
+   ],
+   "ram": [
+    8
+   ],
+   "rear": [
+    {
+     "af": null,
+     "aperture": null,
+     "focal_mm": null,
+     "format": null,
+     "mp": 12.0,
+     "ois": false,
+     "role": "ultrawide"
+    }
+   ],
+   "refresh_hz": 120,
+   "release_date": "2023-10-12",
+   "screen_in": 6.18,
+   "soc": "Google Tensor G3",
+   "weight_g": 187.0
+  }
+ },
+ "google-pixel-8a": {
+  "agree": [
+   "battery_mah",
+   "weight_g",
+   "screen_in",
+   "refresh_hz"
+  ],
+  "differ": {},
+  "revid": 1369031021,
+  "title": "Pixel 8a",
+  "url": "https://en.wikipedia.org/wiki/Pixel_8a",
+  "wiki": {
+   "battery_mah": 4492,
+   "charge_w": 18.0,
+   "cover_screen_in": null,
+   "front": [
+    {
+     "af": null,
+     "aperture": null,
+     "focal_mm": 20.0,
+     "format": null,
+     "mp": 13.0,
+     "ois": false,
+     "role": "front"
+    }
+   ],
+   "ram": [
+    8
+   ],
+   "rear": [
+    {
+     "af": "dual_pixel",
+     "aperture": null,
+     "focal_mm": null,
+     "format": "1/1.73",
+     "mp": 64.0,
+     "ois": true,
+     "role": "main"
+    },
+    {
+     "af": null,
+     "aperture": null,
+     "focal_mm": null,
+     "format": null,
+     "mp": 13.0,
+     "ois": false,
+     "role": "ultrawide"
+    }
+   ],
+   "refresh_hz": 120,
+   "release_date": "2024-05-14",
+   "screen_in": 6.1,
+   "soc": "Google Tensor G3",
+   "weight_g": 188.0
+  }
+ },
+ "google-pixel-9": {
+  "agree": [
+   "weight_g",
+   "screen_in",
+   "refresh_hz"
+  ],
+  "differ": {},
+  "revid": 1385007655,
+  "title": "Pixel 9",
+  "url": "https://en.wikipedia.org/wiki/Pixel_9",
+  "wiki": {
+   "battery_mah": null,
+   "charge_w": 27.0,
+   "cover_screen_in": null,
+   "front": [
+    {
+     "af": null,
+     "aperture": null,
+     "focal_mm": null,
+     "format": null,
+     "mp": 10.5,
+     "ois": false,
+     "role": "front"
+    }
+   ],
+   "ram": [
+    12
+   ],
+   "rear": [],
+   "refresh_hz": 120,
+   "release_date": null,
+   "screen_in": 6.3,
+   "soc": "Google Tensor G4",
+   "weight_g": 198.0
+  }
+ },
+ "google-pixel-9-pro-fold": {
+  "agree": [
+   "battery_mah"
+  ],
+  "differ": {},
+  "revid": 1386439226,
+  "title": "Pixel 9 Pro Fold",
+  "url": "https://en.wikipedia.org/wiki/Pixel_9_Pro_Fold",
+  "wiki": {
+   "battery_mah": 4650,
+   "charge_w": 30.0,
+   "cover_screen_in": null,
+   "front": [
+    {
+     "af": null,
+     "aperture": null,
+     "focal_mm": null,
+     "format": null,
+     "mp": 10.0,
+     "ois": false,
+     "role": "front"
+    }
+   ],
+   "ram": [
+    16
+   ],
+   "rear": [
+    {
+     "af": null,
+     "aperture": null,
+     "focal_mm": null,
+     "format": null,
+     "mp": 48.0,
+     "ois": false,
+     "role": "main"
+    }
+   ],
+   "refresh_hz": null,
+   "release_date": null,
+   "screen_in": null,
+   "soc": "Google Tensor G4",
+   "weight_g": null
+  }
+ },
+ "google-pixel-9a": {
+  "agree": [
+   "battery_mah",
+   "weight_g",
+   "screen_in",
+   "refresh_hz"
+  ],
+  "differ": {},
+  "revid": 1369030911,
+  "title": "Pixel 9a",
+  "url": "https://en.wikipedia.org/wiki/Pixel_9a",
+  "wiki": {
+   "battery_mah": 5100,
+   "charge_w": 23.0,
+   "cover_screen_in": null,
+   "front": [
+    {
+     "af": null,
+     "aperture": null,
+     "focal_mm": null,
+     "format": null,
+     "mp": 13.0,
+     "ois": false,
+     "role": "front"
+    }
+   ],
+   "ram": [
+    8
+   ],
+   "rear": [
+    {
+     "af": "dual_pixel",
+     "aperture": null,
+     "focal_mm": null,
+     "format": "1/2",
+     "mp": 48.0,
+     "ois": true,
+     "role": "main"
+    },
+    {
+     "af": null,
+     "aperture": null,
+     "focal_mm": null,
+     "format": null,
+     "mp": 13.0,
+     "ois": false,
+     "role": "ultrawide"
+    }
+   ],
+   "refresh_hz": 120,
+   "release_date": "2025-04-10",
+   "screen_in": 6.3,
+   "soc": "Google Tensor G4",
+   "weight_g": 185.9
+  }
+ },
+ "google-pixel-fold": {
+  "agree": [
+   "battery_mah",
+   "weight_g"
+  ],
+  "differ": {},
+  "revid": 1379162991,
+  "title": "Pixel Fold",
+  "url": "https://en.wikipedia.org/wiki/Pixel_Fold",
+  "wiki": {
+   "battery_mah": 4821,
+   "charge_w": 30.0,
+   "cover_screen_in": null,
+   "front": [],
+   "ram": [
+    12
+   ],
+   "rear": [
+    {
+     "af": null,
+     "aperture": null,
+     "focal_mm": null,
+     "format": null,
+     "mp": 48.0,
+     "ois": false,
+     "role": "main"
+    },
+    {
+     "af": null,
+     "aperture": null,
+     "focal_mm": null,
+     "format": null,
+     "mp": 10.8,
+     "ois": false,
+     "role": "ultrawide"
+    },
+    {
+     "af": null,
+     "aperture": null,
+     "focal_mm": null,
+     "format": null,
+     "mp": 10.8,
+     "ois": false,
+     "role": "tele"
+    }
+   ],
+   "refresh_hz": null,
+   "release_date": "2023-06-28",
+   "screen_in": null,
+   "soc": "Google Tensor G2",
+   "weight_g": 283.0
+  }
+ },
+ "hmd-pulse": {
+  "agree": [],
+  "differ": {},
+  "revid": 1364130317,
+  "title": "HMD Pulse",
+  "url": "https://en.wikipedia.org/wiki/HMD_Pulse",
+  "wiki": {
+   "battery_mah": null,
+   "charge_w": null,
+   "cover_screen_in": null,
+   "front": [],
+   "ram": [
+    6
+   ],
+   "rear": [
+    {
+     "af": null,
+     "aperture": null,
+     "focal_mm": null,
+     "format": null,
+     "mp": 13.0,
+     "ois": false,
+     "role": "main"
+    }
+   ],
+   "refresh_hz": null,
+   "release_date": null,
+   "screen_in": null,
+   "soc": null,
+   "weight_g": null
+  }
+ },
+ "honor-magic6-pro": {
+  "agree": [
+   "battery_mah",
+   "weight_g",
+   "screen_in",
+   "refresh_hz"
+  ],
+  "differ": {},
+  "revid": 1383639972,
+  "title": "Honor Magic 6 Pro",
+  "url": "https://en.wikipedia.org/wiki/Honor_Magic_6_Pro",
+  "wiki": {
+   "battery_mah": 5600,
+   "charge_w": 80.0,
+   "cover_screen_in": null,
+   "front": [
+    {
+     "af": null,
+     "aperture": null,
+     "focal_mm": 22.0,
+     "format": null,
+     "mp": 50.0,
+     "ois": false,
+     "role": "front"
+    }
+   ],
+   "ram": [
+    12,
+    16
+   ],
+   "rear": [
+    {
+     "af": "pdaf",
+     "aperture": null,
+     "focal_mm": 23.0,
+     "format": null,
+     "mp": 50.0,
+     "ois": true,
+     "role": "main"
+    },
+    {
+     "af": "pdaf",
+     "aperture": null,
+     "focal_mm": null,
+     "format": null,
+     "mp": 180.0,
+     "ois": true,
+     "role": "periscope"
+    },
+    {
+     "af": null,
+     "aperture": null,
+     "focal_mm": 13.0,
+     "format": null,
+     "mp": 50.0,
+     "ois": false,
+     "role": "ultrawide"
+    }
+   ],
+   "refresh_hz": 120,
+   "release_date": "2024-01-18",
+   "screen_in": 6.8,
+   "soc": "Qualcomm Snapdragon 8 Gen 3 (4 nm)",
+   "weight_g": 225.0
+  }
+ },
+ "honor-x8": {
+  "agree": [
+   "weight_g"
+  ],
+  "differ": {},
+  "revid": 1361473664,
+  "title": "Honor X8",
+  "url": "https://en.wikipedia.org/wiki/Honor_X8",
+  "wiki": {
+   "battery_mah": null,
+   "charge_w": null,
+   "cover_screen_in": null,
+   "front": [
+    {
+     "af": null,
+     "aperture": 2.5,
+     "focal_mm": null,
+     "format": null,
+     "mp": 16.0,
+     "ois": false,
+     "role": "front"
+    }
+   ],
+   "ram": [
+    4
+   ],
+   "rear": [
+    {
+     "af": "pdaf",
+     "aperture": 1.8,
+     "focal_mm": 26.0,
+     "format": null,
+     "mp": 64.0,
+     "ois": false,
+     "role": "ultrawide"
+    }
+   ],
+   "refresh_hz": null,
+   "release_date": "2022-03-11",
+   "screen_in": null,
+   "soc": null,
+   "weight_g": 177.0
+  }
+ },
+ "honor-x9b": {
+  "agree": [],
+  "differ": {},
+  "revid": 1382330089,
+  "title": "Honor X9b",
+  "url": "https://en.wikipedia.org/wiki/Honor_X9b",
+  "wiki": {
+   "battery_mah": null,
+   "charge_w": null,
+   "cover_screen_in": null,
+   "front": [],
+   "ram": [],
+   "rear": [],
+   "refresh_hz": null,
+   "release_date": null,
+   "screen_in": null,
+   "soc": null,
+   "weight_g": null
+  }
+ },
+ "huawei-mate-60": {
+  "agree": [
+   "battery_mah",
+   "weight_g",
+   "screen_in"
+  ],
+  "differ": {},
+  "revid": 1361473838,
+  "title": "Huawei Mate 60",
+  "url": "https://en.wikipedia.org/wiki/Huawei_Mate_60",
+  "wiki": {
+   "battery_mah": 4750,
+   "charge_w": 66.0,
+   "cover_screen_in": null,
+   "front": [],
+   "ram": [],
+   "rear": [],
+   "refresh_hz": null,
+   "release_date": null,
+   "screen_in": 6.69,
+   "soc": null,
+   "weight_g": 209.0
+  }
+ },
+ "huawei-mate-60-pro": {
+  "agree": [
+   "battery_mah",
+   "screen_in"
+  ],
+  "differ": {},
+  "revid": 1361473838,
+  "title": "Huawei Mate 60",
+  "url": "https://en.wikipedia.org/wiki/Huawei_Mate_60",
+  "wiki": {
+   "battery_mah": 5000,
+   "charge_w": 88.0,
+   "cover_screen_in": null,
+   "front": [],
+   "ram": [
+    12
+   ],
+   "rear": [],
+   "refresh_hz": null,
+   "release_date": null,
+   "screen_in": 6.82,
+   "soc": null,
+   "weight_g": null
+  }
+ },
+ "huawei-mate-70-pro": {
+  "agree": [
+   "battery_mah",
+   "weight_g"
+  ],
+  "differ": {},
+  "revid": 1382853793,
+  "title": "Huawei Mate 70",
+  "url": "https://en.wikipedia.org/wiki/Huawei_Mate_70",
+  "wiki": {
+   "battery_mah": 5500,
+   "charge_w": null,
+   "cover_screen_in": null,
+   "front": [],
+   "ram": [
+    12
+   ],
+   "rear": [],
+   "refresh_hz": null,
+   "release_date": null,
+   "screen_in": null,
+   "soc": null,
+   "weight_g": 221.0
+  }
+ },
+ "huawei-mate-x3": {
+  "agree": [
+   "battery_mah",
+   "weight_g",
+   "screen_in",
+   "refresh_hz"
+  ],
+  "differ": {},
+  "revid": 1376498590,
+  "title": "Huawei Mate X3",
+  "url": "https://en.wikipedia.org/wiki/Huawei_Mate_X3",
+  "wiki": {
+   "battery_mah": 4800,
+   "charge_w": 66.0,
+   "cover_screen_in": 6.4,
+   "front": [],
+   "ram": [
+    12
+   ],
+   "rear": [],
+   "refresh_hz": 120,
+   "release_date": "2023-03-23",
+   "screen_in": 7.85,
+   "soc": "Qualcomm SM8475 Snapdragon 8+ Gen 1 4G (4 nm)",
+   "weight_g": 239.0
+  }
+ },
+ "huawei-mate-x5": {
+  "agree": [
+   "battery_mah",
+   "weight_g",
+   "screen_in",
+   "refresh_hz"
+  ],
+  "differ": {},
+  "revid": 1378296043,
+  "title": "Huawei Mate X5",
+  "url": "https://en.wikipedia.org/wiki/Huawei_Mate_X5",
+  "wiki": {
+   "battery_mah": 5060,
+   "charge_w": 66.0,
+   "cover_screen_in": 6.4,
+   "front": [],
+   "ram": [
+    12,
+    16
+   ],
+   "rear": [],
+   "refresh_hz": 120,
+   "release_date": "2023-09-08",
+   "screen_in": 7.85,
+   "soc": "Kirin 9000S (7 nm)",
+   "weight_g": 243.0
+  }
+ },
+ "huawei-mate-x6": {
+  "agree": [
+   "battery_mah",
+   "weight_g"
+  ],
+  "differ": {},
+  "revid": 1363084995,
+  "title": "Huawei Mate X6",
+  "url": "https://en.wikipedia.org/wiki/Huawei_Mate_X6",
+  "wiki": {
+   "battery_mah": 5200,
+   "charge_w": 66.0,
+   "cover_screen_in": null,
+   "front": [],
+   "ram": [
+    12,
+    16
+   ],
+   "rear": [],
+   "refresh_hz": null,
+   "release_date": "2024-11-26",
+   "screen_in": null,
+   "soc": "Kirin 9020 (7 nm)",
+   "weight_g": 239.0
+  }
+ },
+ "huawei-mate-xt": {
+  "agree": [
+   "battery_mah",
+   "weight_g"
+  ],
+  "differ": {
+   "screen_in": {
+    "catalog": 10.2,
+    "wiki": 6.4
+   }
+  },
+  "revid": 1383986607,
+  "title": "Huawei Mate XT",
+  "url": "https://en.wikipedia.org/wiki/Huawei_Mate_XT",
+  "wiki": {
+   "battery_mah": 5600,
+   "charge_w": 66.0,
+   "cover_screen_in": null,
+   "front": [],
+   "ram": [
+    16
+   ],
+   "rear": [],
+   "refresh_hz": null,
+   "release_date": "2024-09-20",
+   "screen_in": 6.4,
+   "soc": "HiSilicon Kirin 9010 (7 nm)",
+   "weight_g": 298.0
+  }
+ },
+ "huawei-nova-12i": {
+  "agree": [],
+  "differ": {},
+  "revid": 1370950320,
+  "title": "Huawei Nova 12i",
+  "url": "https://en.wikipedia.org/wiki/Huawei_Nova_12i",
+  "wiki": {
+   "battery_mah": null,
+   "charge_w": null,
+   "cover_screen_in": null,
+   "front": [],
+   "ram": [],
+   "rear": [],
+   "refresh_hz": null,
+   "release_date": "2024-03-19",
+   "screen_in": null,
+   "soc": null,
+   "weight_g": null
+  }
+ },
+ "huawei-nova-y90": {
+  "agree": [],
+  "differ": {},
+  "revid": 1368314118,
+  "title": "Huawei Nova Y90",
+  "url": "https://en.wikipedia.org/wiki/Huawei_Nova_Y90",
+  "wiki": {
+   "battery_mah": null,
+   "charge_w": null,
+   "cover_screen_in": null,
+   "front": [],
+   "ram": [
+    8
+   ],
+   "rear": [],
+   "refresh_hz": null,
+   "release_date": "2022-06-23",
+   "screen_in": null,
+   "soc": null,
+   "weight_g": null
+  }
+ },
+ "huawei-nova-y91": {
+  "agree": [
+   "weight_g"
+  ],
+  "differ": {},
+  "revid": 1370950409,
+  "title": "Huawei Nova Y91",
+  "url": "https://en.wikipedia.org/wiki/Huawei_Nova_Y91",
+  "wiki": {
+   "battery_mah": null,
+   "charge_w": null,
+   "cover_screen_in": null,
+   "front": [],
+   "ram": [
+    8
+   ],
+   "rear": [],
+   "refresh_hz": null,
+   "release_date": "2023-05-23",
+   "screen_in": null,
+   "soc": null,
+   "weight_g": 214.0
+  }
+ },
+ "huawei-p50-pro": {
+  "agree": [
+   "battery_mah",
+   "weight_g",
+   "screen_in",
+   "refresh_hz"
+  ],
+  "differ": {},
+  "revid": 1361474027,
+  "title": "Huawei P50",
+  "url": "https://en.wikipedia.org/wiki/Huawei_P50",
+  "wiki": {
+   "battery_mah": 4360,
+   "charge_w": 66.0,
+   "cover_screen_in": null,
+   "front": [],
+   "ram": [
+    12
+   ],
+   "rear": [
+    {
+     "af": "laser",
+     "aperture": 1.8,
+     "focal_mm": 23.0,
+     "format": "1/1.56",
+     "mp": 50.0,
+     "ois": true,
+     "role": "tele"
+    }
+   ],
+   "refresh_hz": 120,
+   "release_date": null,
+   "screen_in": 6.6,
+   "soc": null,
+   "weight_g": 195.0
+  }
+ },
+ "huawei-pura-70": {
+  "agree": [],
+  "differ": {},
+  "revid": 1386348089,
+  "title": "Huawei Pura 70",
+  "url": "https://en.wikipedia.org/wiki/Huawei_Pura_70",
+  "wiki": {
+   "battery_mah": null,
+   "charge_w": null,
+   "cover_screen_in": null,
+   "front": [],
+   "ram": [],
+   "rear": [],
+   "refresh_hz": null,
+   "release_date": null,
+   "screen_in": null,
+   "soc": null,
+   "weight_g": null
+  }
+ },
+ "infinix-gt-20-pro": {
+  "agree": [
+   "battery_mah",
+   "weight_g",
+   "screen_in",
+   "refresh_hz"
+  ],
+  "differ": {},
+  "revid": 1361474639,
+  "title": "Infinix GT 20 Pro",
+  "url": "https://en.wikipedia.org/wiki/Infinix_GT_20_Pro",
+  "wiki": {
+   "battery_mah": 5000,
+   "charge_w": 45.0,
+   "cover_screen_in": null,
+   "front": [],
+   "ram": [
+    12
+   ],
+   "rear": [],
+   "refresh_hz": 144,
+   "release_date": "2024-04-28",
+   "screen_in": 6.78,
+   "soc": "MediaTek MT6896Z Dimensity 8200 Ultimate (4 nm)",
+   "weight_g": 194.0
+  }
+ },
+ "itel-a70": {
+  "agree": [
+   "battery_mah"
+  ],
+  "differ": {},
+  "revid": 1364468236,
+  "title": "Itel A70",
+  "url": "https://en.wikipedia.org/wiki/Itel_A70",
+  "wiki": {
+   "battery_mah": 5000,
+   "charge_w": 10.0,
+   "cover_screen_in": null,
+   "front": [
+    {
+     "af": null,
+     "aperture": null,
+     "focal_mm": null,
+     "format": null,
+     "mp": 8.0,
+     "ois": false,
+     "role": "front"
+    }
+   ],
+   "ram": [],
+   "rear": [
+    {
+     "af": null,
+     "aperture": null,
+     "focal_mm": null,
+     "format": null,
+     "mp": 13.0,
+     "ois": false,
+     "role": "main"
+    }
+   ],
+   "refresh_hz": null,
+   "release_date": null,
+   "screen_in": null,
+   "soc": "Unisoc T603",
+   "weight_g": null
+  }
+ },
+ "motorola-edge-50-fusion": {
+  "agree": [
+   "battery_mah",
+   "weight_g",
+   "screen_in",
+   "refresh_hz"
+  ],
+  "differ": {},
+  "revid": 1361476545,
+  "title": "Motorola Edge 50 Fusion",
+  "url": "https://en.wikipedia.org/wiki/Motorola_Edge_50_Fusion",
+  "wiki": {
+   "battery_mah": 5000,
+   "charge_w": null,
+   "cover_screen_in": null,
+   "front": [],
+   "ram": [
+    12
+   ],
+   "rear": [],
+   "refresh_hz": 144,
+   "release_date": null,
+   "screen_in": 6.7,
+   "soc": "Qualcomm List of Qualcomm Snapdragon systems-on-chip#Snapdragon 7s Gen 2",
+   "weight_g": 175.0
+  }
+ },
+ "motorola-edge-50-neo": {
+  "agree": [
+   "battery_mah",
+   "weight_g",
+   "screen_in",
+   "refresh_hz"
+  ],
+  "differ": {},
+  "revid": 1361476554,
+  "title": "Motorola Edge 50 Neo",
+  "url": "https://en.wikipedia.org/wiki/Motorola_Edge_50_Neo",
+  "wiki": {
+   "battery_mah": 4310,
+   "charge_w": 68.0,
+   "cover_screen_in": null,
+   "front": [
+    {
+     "af": null,
+     "aperture": 2.4,
+     "focal_mm": null,
+     "format": null,
+     "mp": 32.0,
+     "ois": false,
+     "role": "front"
+    }
+   ],
+   "ram": [
+    8,
+    12
+   ],
+   "rear": [
+    {
+     "af": "pdaf",
+     "aperture": 1.8,
+     "focal_mm": null,
+     "format": null,
+     "mp": 50.0,
+     "ois": true,
+     "role": "tele"
+    }
+   ],
+   "refresh_hz": 120,
+   "release_date": null,
+   "screen_in": 6.4,
+   "soc": "MediaTek Dimensity 7300 (4 nm)",
+   "weight_g": 171.0
+  }
+ },
+ "motorola-edge-60-pro": {
+  "agree": [
+   "battery_mah",
+   "weight_g",
+   "screen_in",
+   "refresh_hz"
+  ],
+  "differ": {},
+  "revid": 1361476560,
+  "title": "Motorola Edge 60 Pro",
+  "url": "https://en.wikipedia.org/wiki/Motorola_Edge_60_Pro",
+  "wiki": {
+   "battery_mah": 6000,
+   "charge_w": 90.0,
+   "cover_screen_in": null,
+   "front": [
+    {
+     "af": null,
+     "aperture": null,
+     "focal_mm": null,
+     "format": null,
+     "mp": 50.0,
+     "ois": false,
+     "role": "front"
+    }
+   ],
+   "ram": [
+    8,
+    12
+   ],
+   "rear": [
+    {
+     "af": "pdaf",
+     "aperture": null,
+     "focal_mm": 24.0,
+     "format": "1/1.56",
+     "mp": 50.0,
+     "ois": true,
+     "role": "main"
+    },
+    {
+     "af": "pdaf",
+     "aperture": null,
+     "focal_mm": 73.0,
+     "format": null,
+     "mp": 10.0,
+     "ois": true,
+     "role": "tele"
+    },
+    {
+     "af": "pdaf",
+     "aperture": null,
+     "focal_mm": null,
+     "format": null,
+     "mp": 50.0,
+     "ois": false,
+     "role": "ultrawide"
+    }
+   ],
+   "refresh_hz": 120,
+   "release_date": "2025-04-30",
+   "screen_in": 6.7,
+   "soc": "MediaTek Dimensity 8350 Extreme (4 nm)",
+   "weight_g": 186.0
+  }
+ },
+ "motorola-razr-50": {
+  "agree": [
+   "battery_mah",
+   "screen_in",
+   "refresh_hz"
+  ],
+  "differ": {},
+  "revid": 1367223579,
+  "title": "Motorola Razr 50",
+  "url": "https://en.wikipedia.org/wiki/Motorola_Razr_50",
+  "wiki": {
+   "battery_mah": 4200,
+   "charge_w": 33.0,
+   "cover_screen_in": null,
+   "front": [],
+   "ram": [
+    8,
+    12
+   ],
+   "rear": [
+    {
+     "af": null,
+     "aperture": null,
+     "focal_mm": null,
+     "format": null,
+     "mp": 50.0,
+     "ois": false,
+     "role": "ultrawide"
+    }
+   ],
+   "refresh_hz": 120,
+   "release_date": "2024-06-25",
+   "screen_in": 6.9,
+   "soc": "MediaTek Dimensity 7300X",
+   "weight_g": null
+  }
+ },
+ "motorola-signature-27": {
+  "agree": [
+   "battery_mah",
+   "weight_g",
+   "screen_in"
+  ],
+  "differ": {},
+  "revid": 1386782037,
+  "title": "Motorola Signature 27",
+  "url": "https://en.wikipedia.org/wiki/Motorola_Signature_27",
+  "wiki": {
+   "battery_mah": 7000,
+   "charge_w": 90.0,
+   "cover_screen_in": null,
+   "front": [
+    {
+     "af": "pdaf",
+     "aperture": 1.9,
+     "focal_mm": 22.0,
+     "format": "1/2.75",
+     "mp": 50.0,
+     "ois": false,
+     "role": "front"
+    }
+   ],
+   "ram": [
+    12,
+    16
+   ],
+   "rear": [
+    {
+     "af": null,
+     "aperture": null,
+     "focal_mm": null,
+     "format": null,
+     "mp": 50.0,
+     "ois": false,
+     "role": "main"
+    }
+   ],
+   "refresh_hz": null,
+   "release_date": null,
+   "screen_in": 6.78,
+   "soc": "Snapdragon 8 Elite Extreme Gen 6",
+   "weight_g": 227.0
+  }
+ },
+ "nothing-cmf-phone-2-pro": {
+  "agree": [
+   "battery_mah",
+   "screen_in"
+  ],
+  "differ": {},
+  "revid": 1361472819,
+  "title": "CMF Phone 2 Pro",
+  "url": "https://en.wikipedia.org/wiki/CMF_Phone_2_Pro",
+  "wiki": {
+   "battery_mah": 5000,
+   "charge_w": 33.0,
+   "cover_screen_in": null,
+   "front": [
+    {
+     "af": null,
+     "aperture": 2.0,
+     "focal_mm": 22.0,
+     "format": "1/3.0",
+     "mp": 16.0,
+     "ois": false,
+     "role": "front"
+    }
+   ],
+   "ram": [],
+   "rear": [
+    {
+     "af": "dual_pixel",
+     "aperture": 1.9,
+     "focal_mm": 24.0,
+     "format": "1/1.57",
+     "mp": 50.0,
+     "ois": false,
+     "role": "main"
+    },
+    {
+     "af": "pdaf",
+     "aperture": 1.9,
+     "focal_mm": 50.0,
+     "format": "1/2.88",
+     "mp": 50.0,
+     "ois": false,
+     "role": "tele"
+    },
+    {
+     "af": null,
+     "aperture": 2.2,
+     "focal_mm": 15.0,
+     "format": "1/4.0",
+     "mp": 8.0,
+     "ois": false,
+     "role": "ultrawide"
+    }
+   ],
+   "refresh_hz": null,
+   "release_date": null,
+   "screen_in": 6.77,
+   "soc": "Mediatek Dimensity 7300 Pro (4 nm)",
+   "weight_g": null
+  }
+ },
+ "nothing-phone-1": {
+  "agree": [
+   "battery_mah",
+   "weight_g",
+   "screen_in",
+   "refresh_hz"
+  ],
+  "differ": {},
+  "revid": 1383526076,
+  "title": "Nothing Phone 1",
+  "url": "https://en.wikipedia.org/wiki/Nothing_Phone_1",
+  "wiki": {
+   "battery_mah": 4500,
+   "charge_w": 33.0,
+   "cover_screen_in": null,
+   "front": [
+    {
+     "af": null,
+     "aperture": null,
+     "focal_mm": null,
+     "format": "1/3.1",
+     "mp": 16.0,
+     "ois": false,
+     "role": "front"
+    }
+   ],
+   "ram": [
+    12
+   ],
+   "rear": [
+    {
+     "af": null,
+     "aperture": null,
+     "focal_mm": null,
+     "format": "1/1.56",
+     "mp": 50.0,
+     "ois": false,
+     "role": "main"
+    },
+    {
+     "af": null,
+     "aperture": null,
+     "focal_mm": null,
+     "format": "1/2.76",
+     "mp": 50.0,
+     "ois": false,
+     "role": "ultrawide"
+    }
+   ],
+   "refresh_hz": 120,
+   "release_date": "2022-07-12",
+   "screen_in": 6.55,
+   "soc": "Qualcomm Snapdragon 778G+",
+   "weight_g": 193.5
+  }
+ },
+ "nothing-phone-2": {
+  "agree": [
+   "battery_mah",
+   "weight_g",
+   "screen_in",
+   "refresh_hz"
+  ],
+  "differ": {},
+  "revid": 1383526138,
+  "title": "Nothing Phone 2",
+  "url": "https://en.wikipedia.org/wiki/Nothing_Phone_2",
+  "wiki": {
+   "battery_mah": 4700,
+   "charge_w": 45.0,
+   "cover_screen_in": null,
+   "front": [
+    {
+     "af": null,
+     "aperture": null,
+     "focal_mm": null,
+     "format": null,
+     "mp": 32.0,
+     "ois": false,
+     "role": "front"
+    }
+   ],
+   "ram": [
+    12
+   ],
+   "rear": [
+    {
+     "af": null,
+     "aperture": null,
+     "focal_mm": 24.0,
+     "format": "1/1.56",
+     "mp": 50.0,
+     "ois": false,
+     "role": "main"
+    },
+    {
+     "af": null,
+     "aperture": null,
+     "focal_mm": null,
+     "format": "1/2.76",
+     "mp": 50.0,
+     "ois": false,
+     "role": "ultrawide"
+    }
+   ],
+   "refresh_hz": 120,
+   "release_date": null,
+   "screen_in": 6.7,
+   "soc": "Qualcomm Snapdragon 8+ Gen1 UC",
+   "weight_g": 201.2
+  }
+ },
+ "nothing-phone-2a": {
+  "agree": [],
+  "differ": {},
+  "revid": 1384315720,
+  "title": "Nothing Phone 2a/2a Plus",
+  "url": "https://en.wikipedia.org/wiki/Nothing_Phone_2a/2a_Plus",
+  "wiki": {
+   "battery_mah": null,
+   "charge_w": 45.0,
+   "cover_screen_in": null,
+   "front": [],
+   "ram": [],
+   "rear": [],
+   "refresh_hz": null,
+   "release_date": null,
+   "screen_in": null,
+   "soc": "MediaTek Dimensity 7200 Pro",
+   "weight_g": null
+  }
+ },
+ "nothing-phone-2a-plus": {
+  "agree": [],
+  "differ": {},
+  "revid": 1384315720,
+  "title": "Nothing Phone 2a/2a Plus",
+  "url": "https://en.wikipedia.org/wiki/Nothing_Phone_2a/2a_Plus",
+  "wiki": {
+   "battery_mah": null,
+   "charge_w": 50.0,
+   "cover_screen_in": null,
+   "front": [],
+   "ram": [],
+   "rear": [],
+   "refresh_hz": null,
+   "release_date": null,
+   "screen_in": null,
+   "soc": "MediaTek Dimensity 7350 Pro",
+   "weight_g": null
+  }
+ },
+ "nothing-phone-3": {
+  "agree": [
+   "battery_mah",
+   "weight_g"
+  ],
+  "differ": {},
+  "revid": 1383526539,
+  "title": "Nothing Phone 3",
+  "url": "https://en.wikipedia.org/wiki/Nothing_Phone_3",
+  "wiki": {
+   "battery_mah": 5150,
+   "charge_w": 65.0,
+   "cover_screen_in": null,
+   "front": [
+    {
+     "af": null,
+     "aperture": null,
+     "focal_mm": null,
+     "format": null,
+     "mp": 50.0,
+     "ois": false,
+     "role": "front"
+    }
+   ],
+   "ram": [],
+   "rear": [],
+   "refresh_hz": null,
+   "release_date": null,
+   "screen_in": null,
+   "soc": "Qualcomm SM8735",
+   "weight_g": 218.0
+  }
+ },
+ "nothing-phone-3a": {
+  "agree": [],
+  "differ": {},
+  "revid": 1383526675,
+  "title": "Nothing Phone 3a/3a Pro",
+  "url": "https://en.wikipedia.org/wiki/Nothing_Phone_3a/3a_Pro",
+  "wiki": {
+   "battery_mah": null,
+   "charge_w": null,
+   "cover_screen_in": null,
+   "front": [],
+   "ram": [],
+   "rear": [],
+   "refresh_hz": null,
+   "release_date": null,
+   "screen_in": null,
+   "soc": null,
+   "weight_g": null
+  }
+ },
+ "nothing-phone-4a": {
+  "agree": [
+   "weight_g",
+   "screen_in",
+   "refresh_hz"
+  ],
+  "differ": {},
+  "revid": 1383771647,
+  "title": "Nothing Phone 4a/4a Pro",
+  "url": "https://en.wikipedia.org/wiki/Nothing_Phone_4a/4a_Pro",
+  "wiki": {
+   "battery_mah": null,
+   "charge_w": null,
+   "cover_screen_in": null,
+   "front": [],
+   "ram": [],
+   "rear": [
+    {
+     "af": "pdaf",
+     "aperture": 1.9,
+     "focal_mm": 24.0,
+     "format": "1/1.57",
+     "mp": 50.0,
+     "ois": true,
+     "role": "main"
+    }
+   ],
+   "refresh_hz": 120,
+   "release_date": null,
+   "screen_in": 6.78,
+   "soc": "Qualcomm SM7635-AC Snapdragon 7s Gen 4",
+   "weight_g": 204.5
+  }
+ },
+ "nothing-phone-4a-pro": {
+  "agree": [
+   "weight_g",
+   "screen_in",
+   "refresh_hz"
+  ],
+  "differ": {},
+  "revid": 1383771647,
+  "title": "Nothing Phone 4a/4a Pro",
+  "url": "https://en.wikipedia.org/wiki/Nothing_Phone_4a/4a_Pro",
+  "wiki": {
+   "battery_mah": null,
+   "charge_w": null,
+   "cover_screen_in": null,
+   "front": [],
+   "ram": [],
+   "rear": [
+    {
+     "af": "dual_pixel",
+     "aperture": 1.9,
+     "focal_mm": 24.0,
+     "format": "1/1.56",
+     "mp": 50.0,
+     "ois": true,
+     "role": "main"
+    }
+   ],
+   "refresh_hz": 144,
+   "release_date": null,
+   "screen_in": 6.83,
+   "soc": "Qualcomm SM7750-AB Snapdragon 7 Gen 4",
+   "weight_g": 210.0
+  }
+ },
+ "oneplus-10-pro": {
+  "agree": [
+   "battery_mah",
+   "weight_g",
+   "screen_in",
+   "refresh_hz"
+  ],
+  "differ": {},
+  "revid": 1382784967,
+  "title": "OnePlus 10 Pro",
+  "url": "https://en.wikipedia.org/wiki/OnePlus_10_Pro",
+  "wiki": {
+   "battery_mah": 5000,
+   "charge_w": 80.0,
+   "cover_screen_in": null,
+   "front": [
+    {
+     "af": null,
+     "aperture": 2.2,
+     "focal_mm": null,
+     "format": "1/2.74",
+     "mp": 32.0,
+     "ois": false,
+     "role": "front"
+    }
+   ],
+   "ram": [
+    8,
+    12
+   ],
+   "rear": [
+    {
+     "af": "pdaf",
+     "aperture": 1.8,
+     "focal_mm": 23.0,
+     "format": "1/1.43",
+     "mp": 48.0,
+     "ois": true,
+     "role": "main"
+    },
+    {
+     "af": "pdaf",
+     "aperture": 2.4,
+     "focal_mm": 77.0,
+     "format": null,
+     "mp": 8.0,
+     "ois": true,
+     "role": "tele"
+    },
+    {
+     "af": null,
+     "aperture": 2.2,
+     "focal_mm": 14.0,
+     "format": "1/2.76",
+     "mp": 50.0,
+     "ois": false,
+     "role": "ultrawide"
+    }
+   ],
+   "refresh_hz": 120,
+   "release_date": "2022-01-11",
+   "screen_in": 6.7,
+   "soc": "Qualcomm Snapdragon 8 Gen1 (4 nm)",
+   "weight_g": 200.5
+  }
+ },
+ "oneplus-10t": {
+  "agree": [
+   "battery_mah",
+   "weight_g",
+   "screen_in",
+   "refresh_hz"
+  ],
+  "differ": {},
+  "revid": 1361478747,
+  "title": "OnePlus 10T",
+  "url": "https://en.wikipedia.org/wiki/OnePlus_10T",
+  "wiki": {
+   "battery_mah": 4800,
+   "charge_w": 150.0,
+   "cover_screen_in": null,
+   "front": [
+    {
+     "af": null,
+     "aperture": 2.4,
+     "focal_mm": 24.0,
+     "format": "1/3",
+     "mp": 16.0,
+     "ois": false,
+     "role": "front"
+    }
+   ],
+   "ram": [
+    16
+   ],
+   "rear": [
+    {
+     "af": "pdaf",
+     "aperture": 1.8,
+     "focal_mm": 24.0,
+     "format": "1/1.56",
+     "mp": 50.0,
+     "ois": true,
+     "role": "main"
+    },
+    {
+     "af": null,
+     "aperture": 2.2,
+     "focal_mm": null,
+     "format": "1/4",
+     "mp": 8.0,
+     "ois": false,
+     "role": "ultrawide"
+    },
+    {
+     "af": null,
+     "aperture": 2.4,
+     "focal_mm": null,
+     "format": null,
+     "mp": 2.0,
+     "ois": false,
+     "role": "macro"
+    }
+   ],
+   "refresh_hz": 120,
+   "release_date": null,
+   "screen_in": 6.7,
+   "soc": "Qualcomm Snapdragon 8+ Gen 1 (4 nm)",
+   "weight_g": 204.0
+  }
+ },
+ "oneplus-11": {
+  "agree": [
+   "battery_mah",
+   "weight_g"
+  ],
+  "differ": {},
+  "revid": 1382785050,
+  "title": "OnePlus 11",
+  "url": "https://en.wikipedia.org/wiki/OnePlus_11",
+  "wiki": {
+   "battery_mah": 5000,
+   "charge_w": null,
+   "cover_screen_in": null,
+   "front": [],
+   "ram": [],
+   "rear": [],
+   "refresh_hz": null,
+   "release_date": "2023-01-09",
+   "screen_in": null,
+   "soc": "Qualcomm Snapdragon 8 Gen 2",
+   "weight_g": 205.0
+  }
+ },
+ "oneplus-12": {
+  "agree": [
+   "battery_mah",
+   "weight_g"
+  ],
+  "differ": {},
+  "revid": 1385211187,
+  "title": "OnePlus 12",
+  "url": "https://en.wikipedia.org/wiki/OnePlus_12",
+  "wiki": {
+   "battery_mah": 5400,
+   "charge_w": null,
+   "cover_screen_in": null,
+   "front": [],
+   "ram": [],
+   "rear": [],
+   "refresh_hz": null,
+   "release_date": "2023-12-11",
+   "screen_in": null,
+   "soc": "Qualcomm Snapdragon 8 Gen 3",
+   "weight_g": 220.0
+  }
+ },
+ "oneplus-12r": {
+  "agree": [],
+  "differ": {},
+  "revid": 1386933632,
+  "title": "OnePlus 12R",
+  "url": "https://en.wikipedia.org/wiki/OnePlus_12R",
+  "wiki": {
+   "battery_mah": null,
+   "charge_w": null,
+   "cover_screen_in": null,
+   "front": [],
+   "ram": [
+    8,
+    12,
+    16
+   ],
+   "rear": [],
+   "refresh_hz": null,
+   "release_date": null,
+   "screen_in": null,
+   "soc": null,
+   "weight_g": null
+  }
+ },
+ "oneplus-13": {
+  "agree": [
+   "battery_mah",
+   "weight_g"
+  ],
+  "differ": {},
+  "revid": 1382785324,
+  "title": "OnePlus 13",
+  "url": "https://en.wikipedia.org/wiki/OnePlus_13",
+  "wiki": {
+   "battery_mah": 6000,
+   "charge_w": null,
+   "cover_screen_in": null,
+   "front": [
+    {
+     "af": null,
+     "aperture": 2.4,
+     "focal_mm": 21.0,
+     "format": "1/2.74",
+     "mp": 32.0,
+     "ois": false,
+     "role": "front"
+    }
+   ],
+   "ram": [],
+   "rear": [],
+   "refresh_hz": null,
+   "release_date": "2024-11-01",
+   "screen_in": null,
+   "soc": "Qualcomm SM8750-AB Snapdragon 8 Elite (3 nm)",
+   "weight_g": 210.0
+  }
+ },
+ "oneplus-13r": {
+  "agree": [
+   "battery_mah",
+   "weight_g",
+   "screen_in",
+   "refresh_hz"
+  ],
+  "differ": {},
+  "revid": 1382785407,
+  "title": "OnePlus 13R",
+  "url": "https://en.wikipedia.org/wiki/OnePlus_13R",
+  "wiki": {
+   "battery_mah": 6000,
+   "charge_w": 80.0,
+   "cover_screen_in": null,
+   "front": [
+    {
+     "af": null,
+     "aperture": 2.4,
+     "focal_mm": 26.0,
+     "format": null,
+     "mp": 16.0,
+     "ois": false,
+     "role": "front"
+    }
+   ],
+   "ram": [
+    12,
+    16
+   ],
+   "rear": [],
+   "refresh_hz": 120,
+   "release_date": "2025-01-14",
+   "screen_in": 6.78,
+   "soc": "Qualcomm SM8650-AB Snapdragon 8 Gen 3 (4 nm)",
+   "weight_g": 206.0
+  }
+ },
+ "oneplus-nord-ce4-lite": {
+  "agree": [
+   "battery_mah"
+  ],
+  "differ": {},
+  "revid": 1361478885,
+  "title": "OnePlus Nord CE4 Lite",
+  "url": "https://en.wikipedia.org/wiki/OnePlus_Nord_CE4_Lite",
+  "wiki": {
+   "battery_mah": 5110,
+   "charge_w": null,
+   "cover_screen_in": null,
+   "front": [],
+   "ram": [
+    8
+   ],
+   "rear": [
+    {
+     "af": "pdaf",
+     "aperture": null,
+     "focal_mm": 25.0,
+     "format": "1/1.95",
+     "mp": 50.0,
+     "ois": true,
+     "role": "main"
+    }
+   ],
+   "refresh_hz": null,
+   "release_date": "2024-06-24",
+   "screen_in": null,
+   "soc": null,
+   "weight_g": null
+  }
+ },
+ "oneplus-open": {
+  "agree": [
+   "battery_mah",
+   "screen_in"
+  ],
+  "differ": {},
+  "revid": 1382212500,
+  "title": "OnePlus Open",
+  "url": "https://en.wikipedia.org/wiki/OnePlus_Open",
+  "wiki": {
+   "battery_mah": 4805,
+   "charge_w": 67.0,
+   "cover_screen_in": 6.31,
+   "front": [],
+   "ram": [
+    16
+   ],
+   "rear": [],
+   "refresh_hz": null,
+   "release_date": null,
+   "screen_in": 7.82,
+   "soc": "Qualcomm Snapdragon 8 Gen 2",
+   "weight_g": null
+  }
+ },
+ "oppo-a17": {
+  "agree": [],
+  "differ": {},
+  "revid": 1361478955,
+  "title": "Oppo A17",
+  "url": "https://en.wikipedia.org/wiki/Oppo_A17",
+  "wiki": {
+   "battery_mah": null,
+   "charge_w": null,
+   "cover_screen_in": null,
+   "front": [],
+   "ram": [
+    4
+   ],
+   "rear": [
+    {
+     "af": "pdaf",
+     "aperture": null,
+     "focal_mm": 26.0,
+     "format": "1/2.8",
+     "mp": 50.0,
+     "ois": false,
+     "role": "depth"
+    }
+   ],
+   "refresh_hz": null,
+   "release_date": "2022-09-26",
+   "screen_in": null,
+   "soc": null,
+   "weight_g": null
+  }
+ },
+ "oppo-a18": {
+  "agree": [
+   "weight_g"
+  ],
+  "differ": {},
+  "revid": 1369055501,
+  "title": "Oppo A18",
+  "url": "https://en.wikipedia.org/wiki/Oppo_A18",
+  "wiki": {
+   "battery_mah": null,
+   "charge_w": 10.0,
+   "cover_screen_in": null,
+   "front": [],
+   "ram": [
+    4
+   ],
+   "rear": [
+    {
+     "af": null,
+     "aperture": null,
+     "focal_mm": null,
+     "format": null,
+     "mp": 8.0,
+     "ois": false,
+     "role": "main"
+    }
+   ],
+   "refresh_hz": null,
+   "release_date": "2023-09-27",
+   "screen_in": null,
+   "soc": null,
+   "weight_g": 188.0
+  }
+ },
+ "oppo-a58": {
+  "agree": [],
+  "differ": {},
+  "revid": 1364621470,
+  "title": "Oppo A58",
+  "url": "https://en.wikipedia.org/wiki/Oppo_A58",
+  "wiki": {
+   "battery_mah": null,
+   "charge_w": null,
+   "cover_screen_in": null,
+   "front": [],
+   "ram": [],
+   "rear": [],
+   "refresh_hz": null,
+   "release_date": null,
+   "screen_in": null,
+   "soc": null,
+   "weight_g": null
+  }
+ },
+ "oppo-find-n6": {
+  "agree": [
+   "battery_mah",
+   "weight_g",
+   "screen_in"
+  ],
+  "differ": {},
+  "revid": 1377301003,
+  "title": "Oppo Find N6",
+  "url": "https://en.wikipedia.org/wiki/Oppo_Find_N6",
+  "wiki": {
+   "battery_mah": 6000,
+   "charge_w": 80.0,
+   "cover_screen_in": null,
+   "front": [
+    {
+     "af": null,
+     "aperture": null,
+     "focal_mm": null,
+     "format": null,
+     "mp": 20.0,
+     "ois": false,
+     "role": "front"
+    },
+    {
+     "af": null,
+     "aperture": null,
+     "focal_mm": null,
+     "format": null,
+     "mp": 20.0,
+     "ois": false,
+     "role": "front"
+    }
+   ],
+   "ram": [
+    16
+   ],
+   "rear": [
+    {
+     "af": null,
+     "aperture": null,
+     "focal_mm": null,
+     "format": null,
+     "mp": 200.0,
+     "ois": false,
+     "role": "main"
+    },
+    {
+     "af": null,
+     "aperture": null,
+     "focal_mm": null,
+     "format": null,
+     "mp": 50.0,
+     "ois": false,
+     "role": "tele"
+    },
+    {
+     "af": null,
+     "aperture": null,
+     "focal_mm": null,
+     "format": null,
+     "mp": 50.0,
+     "ois": false,
+     "role": "ultrawide"
+    },
+    {
+     "af": null,
+     "aperture": null,
+     "focal_mm": null,
+     "format": null,
+     "mp": 2.0,
+     "ois": false,
+     "role": "mono"
+    }
+   ],
+   "refresh_hz": null,
+   "release_date": null,
+   "screen_in": 8.12,
+   "soc": "Snapdragon 8 Elite Gen 5 Mobile Platform",
+   "weight_g": 225.0
+  }
+ },
+ "oppo-find-x8": {
+  "agree": [
+   "battery_mah",
+   "weight_g",
+   "screen_in",
+   "refresh_hz"
+  ],
+  "differ": {},
+  "revid": 1361479114,
+  "title": "Oppo Find X8",
+  "url": "https://en.wikipedia.org/wiki/Oppo_Find_X8",
+  "wiki": {
+   "battery_mah": 5630,
+   "charge_w": null,
+   "cover_screen_in": null,
+   "front": [],
+   "ram": [],
+   "rear": [
+    {
+     "af": null,
+     "aperture": 1.8,
+     "focal_mm": 24.0,
+     "format": null,
+     "mp": 50.0,
+     "ois": true,
+     "role": "main"
+    },
+    {
+     "af": null,
+     "aperture": 2.0,
+     "focal_mm": 15.0,
+     "format": null,
+     "mp": 50.0,
+     "ois": false,
+     "role": "ultrawide"
+    },
+    {
+     "af": null,
+     "aperture": 2.6,
+     "focal_mm": 73.0,
+     "format": null,
+     "mp": 50.0,
+     "ois": true,
+     "role": "periscope"
+    }
+   ],
+   "refresh_hz": 120,
+   "release_date": null,
+   "screen_in": 6.59,
+   "soc": null,
+   "weight_g": 193.0
+  }
+ },
+ "oppo-find-x8-pro": {
+  "agree": [
+   "battery_mah",
+   "weight_g",
+   "screen_in",
+   "refresh_hz"
+  ],
+  "differ": {},
+  "revid": 1361479114,
+  "title": "Oppo Find X8",
+  "url": "https://en.wikipedia.org/wiki/Oppo_Find_X8",
+  "wiki": {
+   "battery_mah": 5910,
+   "charge_w": null,
+   "cover_screen_in": null,
+   "front": [],
+   "ram": [],
+   "rear": [
+    {
+     "af": null,
+     "aperture": 1.6,
+     "focal_mm": 23.0,
+     "format": null,
+     "mp": 50.0,
+     "ois": true,
+     "role": "main"
+    },
+    {
+     "af": null,
+     "aperture": 2.0,
+     "focal_mm": 15.0,
+     "format": null,
+     "mp": 50.0,
+     "ois": false,
+     "role": "ultrawide"
+    },
+    {
+     "af": null,
+     "aperture": 2.6,
+     "focal_mm": 73.0,
+     "format": null,
+     "mp": 50.0,
+     "ois": true,
+     "role": "periscope"
+    },
+    {
+     "af": null,
+     "aperture": 4.3,
+     "focal_mm": 135.0,
+     "format": null,
+     "mp": 50.0,
+     "ois": true,
+     "role": "periscope"
+    }
+   ],
+   "refresh_hz": 120,
+   "release_date": null,
+   "screen_in": 6.78,
+   "soc": null,
+   "weight_g": 215.0
+  }
+ },
+ "oppo-find-x9": {
+  "agree": [
+   "weight_g",
+   "screen_in",
+   "refresh_hz"
+  ],
+  "differ": {},
+  "revid": 1383640057,
+  "title": "Oppo Find X9",
+  "url": "https://en.wikipedia.org/wiki/Oppo_Find_X9",
+  "wiki": {
+   "battery_mah": null,
+   "charge_w": null,
+   "cover_screen_in": null,
+   "front": [],
+   "ram": [],
+   "rear": [],
+   "refresh_hz": 120,
+   "release_date": null,
+   "screen_in": 6.59,
+   "soc": null,
+   "weight_g": 203.0
+  }
+ },
+ "oppo-find-x9-pro": {
+  "agree": [
+   "battery_mah",
+   "weight_g",
+   "screen_in",
+   "refresh_hz"
+  ],
+  "differ": {},
+  "revid": 1383640057,
+  "title": "Oppo Find X9",
+  "url": "https://en.wikipedia.org/wiki/Oppo_Find_X9",
+  "wiki": {
+   "battery_mah": 7500,
+   "charge_w": null,
+   "cover_screen_in": null,
+   "front": [
+    {
+     "af": "pdaf",
+     "aperture": null,
+     "focal_mm": 21.0,
+     "format": "1/2.76",
+     "mp": 50.0,
+     "ois": false,
+     "role": "front"
+    }
+   ],
+   "ram": [],
+   "rear": [],
+   "refresh_hz": 120,
+   "release_date": null,
+   "screen_in": 6.78,
+   "soc": null,
+   "weight_g": 224.0
+  }
+ },
+ "oppo-find-x9-ultra": {
+  "agree": [
+   "battery_mah",
+   "weight_g"
+  ],
+  "differ": {},
+  "revid": 1383640057,
+  "title": "Oppo Find X9",
+  "url": "https://en.wikipedia.org/wiki/Oppo_Find_X9",
+  "wiki": {
+   "battery_mah": 7050,
+   "charge_w": 100.0,
+   "cover_screen_in": null,
+   "front": [],
+   "ram": [],
+   "rear": [],
+   "refresh_hz": null,
+   "release_date": null,
+   "screen_in": null,
+   "soc": "Qualcomm SM8850-AC Snapdragon 8 Elite Gen 5 (3 nm)",
+   "weight_g": 235.0
+  }
+ },
+ "oppo-reno14": {
+  "agree": [
+   "weight_g",
+   "screen_in",
+   "refresh_hz"
+  ],
+  "differ": {},
+  "revid": 1385409823,
+  "title": "Oppo Reno14",
+  "url": "https://en.wikipedia.org/wiki/Oppo_Reno14",
+  "wiki": {
+   "battery_mah": null,
+   "charge_w": 80.0,
+   "cover_screen_in": null,
+   "front": [],
+   "ram": [
+    16
+   ],
+   "rear": [],
+   "refresh_hz": 120,
+   "release_date": null,
+   "screen_in": 6.59,
+   "soc": "MediaTek Dimensity 8350 (4 nm)",
+   "weight_g": 187.0
+  }
+ },
+ "oppo-reno15": {
+  "agree": [
+   "screen_in"
+  ],
+  "differ": {},
+  "revid": 1369206135,
+  "title": "Oppo Reno15",
+  "url": "https://en.wikipedia.org/wiki/Oppo_Reno15",
+  "wiki": {
+   "battery_mah": null,
+   "charge_w": 80.0,
+   "cover_screen_in": null,
+   "front": [
+    {
+     "af": null,
+     "aperture": null,
+     "focal_mm": null,
+     "format": null,
+     "mp": 50.0,
+     "ois": false,
+     "role": "front"
+    }
+   ],
+   "ram": [],
+   "rear": [
+    {
+     "af": null,
+     "aperture": null,
+     "focal_mm": null,
+     "format": null,
+     "mp": 50.0,
+     "ois": true,
+     "role": "main"
+    },
+    {
+     "af": null,
+     "aperture": null,
+     "focal_mm": null,
+     "format": null,
+     "mp": 8.0,
+     "ois": false,
+     "role": "ultrawide"
+    },
+    {
+     "af": null,
+     "aperture": null,
+     "focal_mm": null,
+     "format": null,
+     "mp": 50.0,
+     "ois": true,
+     "role": "tele"
+    }
+   ],
+   "refresh_hz": null,
+   "release_date": null,
+   "screen_in": 6.59,
+   "soc": "Qualcomm Snapdragon 7 Gen 4",
+   "weight_g": null
+  }
+ },
+ "poco-m5": {
+  "agree": [],
+  "differ": {},
+  "revid": 1361479443,
+  "title": "Poco M5",
+  "url": "https://en.wikipedia.org/wiki/Poco_M5",
+  "wiki": {
+   "battery_mah": null,
+   "charge_w": null,
+   "cover_screen_in": null,
+   "front": [
+    {
+     "af": null,
+     "aperture": null,
+     "focal_mm": null,
+     "format": "1/5.0",
+     "mp": 5.0,
+     "ois": false,
+     "role": "front"
+    }
+   ],
+   "ram": [],
+   "rear": [],
+   "refresh_hz": null,
+   "release_date": "2022-09-05",
+   "screen_in": null,
+   "soc": null,
+   "weight_g": null
+  }
+ },
+ "poco-m6-pro": {
+  "agree": [
+   "battery_mah",
+   "weight_g"
+  ],
+  "differ": {},
+  "revid": 1364824759,
+  "title": "Poco M6 Pro",
+  "url": "https://en.wikipedia.org/wiki/Poco_M6_Pro",
+  "wiki": {
+   "battery_mah": 5000,
+   "charge_w": 67.0,
+   "cover_screen_in": null,
+   "front": [],
+   "ram": [
+    8,
+    12
+   ],
+   "rear": [],
+   "refresh_hz": null,
+   "release_date": "2024-01-12",
+   "screen_in": null,
+   "soc": "MediaTek Helio G99 Ultra",
+   "weight_g": 179.0
+  }
+ },
+ "poco-m7-pro-5g": {
+  "agree": [
+   "battery_mah",
+   "weight_g",
+   "refresh_hz"
+  ],
+  "differ": {},
+  "revid": 1361479451,
+  "title": "Poco M7 Pro 5G",
+  "url": "https://en.wikipedia.org/wiki/Poco_M7_Pro_5G",
+  "wiki": {
+   "battery_mah": 5110,
+   "charge_w": 45.0,
+   "cover_screen_in": null,
+   "front": [
+    {
+     "af": null,
+     "aperture": null,
+     "focal_mm": null,
+     "format": null,
+     "mp": 20.0,
+     "ois": false,
+     "role": "front"
+    }
+   ],
+   "ram": [
+    12
+   ],
+   "rear": [
+    {
+     "af": null,
+     "aperture": 1.5,
+     "focal_mm": null,
+     "format": null,
+     "mp": 50.0,
+     "ois": false,
+     "role": "main"
+    }
+   ],
+   "refresh_hz": 120,
+   "release_date": null,
+   "screen_in": null,
+   "soc": "MediaTek Dimensity 7025 Ultra",
+   "weight_g": 190.0
+  }
+ },
+ "realme-c33": {
+  "agree": [
+   "battery_mah",
+   "weight_g",
+   "screen_in"
+  ],
+  "differ": {},
+  "revid": 1386066411,
+  "title": "Realme C33",
+  "url": "https://en.wikipedia.org/wiki/Realme_C33",
+  "wiki": {
+   "battery_mah": 5000,
+   "charge_w": 10.0,
+   "cover_screen_in": null,
+   "front": [],
+   "ram": [
+    3,
+    4
+   ],
+   "rear": [],
+   "refresh_hz": null,
+   "release_date": "2022-09-12",
+   "screen_in": 6.5,
+   "soc": "Unisoc Tiger T612 (12 nm)",
+   "weight_g": 187.0
+  }
+ },
+ "realme-c35": {
+  "agree": [],
+  "differ": {},
+  "revid": 1373369128,
+  "title": "Realme C35",
+  "url": "https://en.wikipedia.org/wiki/Realme_C35",
+  "wiki": {
+   "battery_mah": null,
+   "charge_w": null,
+   "cover_screen_in": null,
+   "front": [],
+   "ram": [
+    6
+   ],
+   "rear": [],
+   "refresh_hz": null,
+   "release_date": "2022-02-10",
+   "screen_in": null,
+   "soc": "Unisoc T616 (12 nm)",
+   "weight_g": null
+  }
+ },
+ "realme-note-50": {
+  "agree": [
+   "battery_mah",
+   "weight_g"
+  ],
+  "differ": {},
+  "revid": 1361479685,
+  "title": "Realme Note 50",
+  "url": "https://en.wikipedia.org/wiki/Realme_Note_50",
+  "wiki": {
+   "battery_mah": 5000,
+   "charge_w": 10.0,
+   "cover_screen_in": null,
+   "front": [
+    {
+     "af": null,
+     "aperture": 2.2,
+     "focal_mm": 27.0,
+     "format": null,
+     "mp": 5.0,
+     "ois": false,
+     "role": "front"
+    }
+   ],
+   "ram": [
+    3,
+    4
+   ],
+   "rear": [
+    {
+     "af": "pdaf",
+     "aperture": 2.2,
+     "focal_mm": 25.0,
+     "format": null,
+     "mp": 13.0,
+     "ois": false,
+     "role": "main"
+    }
+   ],
+   "refresh_hz": null,
+   "release_date": null,
+   "screen_in": null,
+   "soc": "Unisoc Tiger T612 (12 nm)",
+   "weight_g": 186.0
+  }
+ },
+ "realme-note-60": {
+  "agree": [],
+  "differ": {},
+  "revid": 1375559498,
+  "title": "Realme Note 60",
+  "url": "https://en.wikipedia.org/wiki/Realme_Note_60",
+  "wiki": {
+   "battery_mah": null,
+   "charge_w": null,
+   "cover_screen_in": null,
+   "front": [],
+   "ram": [],
+   "rear": [
+    {
+     "af": "pdaf",
+     "aperture": 1.8,
+     "focal_mm": null,
+     "format": null,
+     "mp": 32.0,
+     "ois": false,
+     "role": "main"
+    }
+   ],
+   "refresh_hz": null,
+   "release_date": null,
+   "screen_in": null,
+   "soc": null,
+   "weight_g": null
+  }
+ },
+ "samsung-galaxy-a04": {
+  "agree": [],
+  "differ": {},
+  "revid": 1386936020,
+  "title": "Samsung Galaxy A04",
+  "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_A04",
+  "wiki": {
+   "battery_mah": null,
+   "charge_w": null,
+   "cover_screen_in": null,
+   "front": [],
+   "ram": [],
+   "rear": [],
+   "refresh_hz": null,
+   "release_date": null,
+   "screen_in": null,
+   "soc": null,
+   "weight_g": null
+  }
+ },
+ "samsung-galaxy-a05": {
+  "agree": [],
+  "differ": {},
+  "revid": 1386778834,
+  "title": "Samsung Galaxy A05",
+  "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_A05",
+  "wiki": {
+   "battery_mah": null,
+   "charge_w": null,
+   "cover_screen_in": null,
+   "front": [],
+   "ram": [],
+   "rear": [],
+   "refresh_hz": null,
+   "release_date": null,
+   "screen_in": null,
+   "soc": null,
+   "weight_g": null
+  }
+ },
+ "samsung-galaxy-a06": {
+  "agree": [],
+  "differ": {},
+  "revid": 1385767957,
+  "title": "Samsung Galaxy A06",
+  "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_A06",
+  "wiki": {
+   "battery_mah": null,
+   "charge_w": null,
+   "cover_screen_in": null,
+   "front": [],
+   "ram": [],
+   "rear": [],
+   "refresh_hz": null,
+   "release_date": null,
+   "screen_in": null,
+   "soc": null,
+   "weight_g": null
+  }
+ },
+ "samsung-galaxy-a07": {
+  "agree": [],
+  "differ": {},
+  "revid": 1383918566,
+  "title": "Samsung Galaxy A07",
+  "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_A07",
+  "wiki": {
+   "battery_mah": null,
+   "charge_w": null,
+   "cover_screen_in": null,
+   "front": [],
+   "ram": [],
+   "rear": [],
+   "refresh_hz": null,
+   "release_date": null,
+   "screen_in": null,
+   "soc": null,
+   "weight_g": null
+  }
+ },
+ "samsung-galaxy-a13": {
+  "agree": [],
+  "differ": {},
+  "revid": 1382885670,
+  "title": "Samsung Galaxy A13",
+  "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_A13",
+  "wiki": {
+   "battery_mah": null,
+   "charge_w": null,
+   "cover_screen_in": null,
+   "front": [],
+   "ram": [],
+   "rear": [],
+   "refresh_hz": null,
+   "release_date": null,
+   "screen_in": null,
+   "soc": null,
+   "weight_g": null
+  }
+ },
+ "samsung-galaxy-a14": {
+  "agree": [],
+  "differ": {},
+  "revid": 1380481497,
+  "title": "Samsung Galaxy A14",
+  "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_A14",
+  "wiki": {
+   "battery_mah": null,
+   "charge_w": null,
+   "cover_screen_in": null,
+   "front": [],
+   "ram": [],
+   "rear": [],
+   "refresh_hz": null,
+   "release_date": null,
+   "screen_in": null,
+   "soc": null,
+   "weight_g": null
+  }
+ },
+ "samsung-galaxy-a15": {
+  "agree": [],
+  "differ": {},
+  "revid": 1384485502,
+  "title": "Samsung Galaxy A15",
+  "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_A15",
+  "wiki": {
+   "battery_mah": null,
+   "charge_w": null,
+   "cover_screen_in": null,
+   "front": [],
+   "ram": [],
+   "rear": [],
+   "refresh_hz": null,
+   "release_date": null,
+   "screen_in": null,
+   "soc": null,
+   "weight_g": null
+  }
+ },
+ "samsung-galaxy-a16": {
+  "agree": [],
+  "differ": {},
+  "revid": 1381376899,
+  "title": "Samsung Galaxy A16",
+  "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_A16",
+  "wiki": {
+   "battery_mah": null,
+   "charge_w": null,
+   "cover_screen_in": null,
+   "front": [],
+   "ram": [],
+   "rear": [],
+   "refresh_hz": null,
+   "release_date": null,
+   "screen_in": null,
+   "soc": null,
+   "weight_g": null
+  }
+ },
+ "samsung-galaxy-a23": {
+  "agree": [],
+  "differ": {},
+  "revid": 1382798162,
+  "title": "Samsung Galaxy A23",
+  "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_A23",
+  "wiki": {
+   "battery_mah": null,
+   "charge_w": null,
+   "cover_screen_in": null,
+   "front": [],
+   "ram": [],
+   "rear": [],
+   "refresh_hz": null,
+   "release_date": null,
+   "screen_in": null,
+   "soc": null,
+   "weight_g": null
+  }
+ },
+ "samsung-galaxy-a24": {
+  "agree": [
+   "battery_mah",
+   "weight_g",
+   "screen_in",
+   "refresh_hz"
+  ],
+  "differ": {},
+  "revid": 1386405947,
+  "title": "Samsung Galaxy A24",
+  "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_A24",
+  "wiki": {
+   "battery_mah": 5000,
+   "charge_w": 25.0,
+   "cover_screen_in": null,
+   "front": [],
+   "ram": [
+    4,
+    6,
+    8
+   ],
+   "rear": [],
+   "refresh_hz": 90,
+   "release_date": "2023-04-29",
+   "screen_in": 6.5,
+   "soc": "MediaTek MT8781 Helio G99 (6nm)",
+   "weight_g": 195.0
+  }
+ },
+ "samsung-galaxy-a33-5g": {
+  "agree": [
+   "battery_mah",
+   "weight_g",
+   "screen_in",
+   "refresh_hz"
+  ],
+  "differ": {},
+  "revid": 1385469268,
+  "title": "Samsung Galaxy A33 5G",
+  "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_A33_5G",
+  "wiki": {
+   "battery_mah": 5000,
+   "charge_w": 25.0,
+   "cover_screen_in": null,
+   "front": [],
+   "ram": [
+    6,
+    8
+   ],
+   "rear": [],
+   "refresh_hz": 90,
+   "release_date": "2022-03-17",
+   "screen_in": 6.4,
+   "soc": "Exynos 1280 (Samsung 5 nm)",
+   "weight_g": 186.0
+  }
+ },
+ "samsung-galaxy-a53-5g": {
+  "agree": [
+   "battery_mah",
+   "weight_g",
+   "screen_in",
+   "refresh_hz"
+  ],
+  "differ": {},
+  "revid": 1383537964,
+  "title": "Samsung Galaxy A53 5G",
+  "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_A53_5G",
+  "wiki": {
+   "battery_mah": 5000,
+   "charge_w": 25.0,
+   "cover_screen_in": null,
+   "front": [],
+   "ram": [
+    6,
+    8
+   ],
+   "rear": [],
+   "refresh_hz": 120,
+   "release_date": "2022-03-17",
+   "screen_in": 6.5,
+   "soc": "Exynos 1280 (5 nm)",
+   "weight_g": 189.0
+  }
+ },
+ "samsung-galaxy-a73-5g": {
+  "agree": [
+   "battery_mah",
+   "weight_g",
+   "screen_in",
+   "refresh_hz"
+  ],
+  "differ": {},
+  "revid": 1386433559,
+  "title": "Samsung Galaxy A73 5G",
+  "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_A73_5G",
+  "wiki": {
+   "battery_mah": 5000,
+   "charge_w": 25.0,
+   "cover_screen_in": null,
+   "front": [],
+   "ram": [
+    6,
+    8
+   ],
+   "rear": [],
+   "refresh_hz": 120,
+   "release_date": "2022-03-17",
+   "screen_in": 6.7,
+   "soc": "Snapdragon 778G 5G (6 nm)",
+   "weight_g": 181.0
+  }
+ },
+ "samsung-galaxy-m14-5g": {
+  "agree": [
+   "battery_mah",
+   "weight_g",
+   "screen_in",
+   "refresh_hz"
+  ],
+  "differ": {},
+  "revid": 1384002327,
+  "title": "Samsung Galaxy M14 5G",
+  "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_M14_5G",
+  "wiki": {
+   "battery_mah": 6000,
+   "charge_w": 15.0,
+   "cover_screen_in": null,
+   "front": [
+    {
+     "af": null,
+     "aperture": 2.0,
+     "focal_mm": null,
+     "format": null,
+     "mp": 13.0,
+     "ois": false,
+     "role": "front"
+    }
+   ],
+   "ram": [
+    6
+   ],
+   "rear": [
+    {
+     "af": "pdaf",
+     "aperture": 1.8,
+     "focal_mm": null,
+     "format": null,
+     "mp": 50.0,
+     "ois": false,
+     "role": "main"
+    },
+    {
+     "af": null,
+     "aperture": 2.4,
+     "focal_mm": null,
+     "format": null,
+     "mp": 2.0,
+     "ois": false,
+     "role": "macro"
+    },
+    {
+     "af": null,
+     "aperture": 2.4,
+     "focal_mm": null,
+     "format": null,
+     "mp": 2.0,
+     "ois": false,
+     "role": "depth"
+    }
+   ],
+   "refresh_hz": 90,
+   "release_date": null,
+   "screen_in": 6.6,
+   "soc": "Exynos 1330 (5nm)",
+   "weight_g": 206.0
+  }
+ },
+ "samsung-galaxy-m34-5g": {
+  "agree": [
+   "battery_mah",
+   "weight_g",
+   "screen_in",
+   "refresh_hz"
+  ],
+  "differ": {},
+  "revid": 1385491071,
+  "title": "Samsung Galaxy M34 5G",
+  "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_M34_5G",
+  "wiki": {
+   "battery_mah": 6000,
+   "charge_w": 25.0,
+   "cover_screen_in": null,
+   "front": [
+    {
+     "af": null,
+     "aperture": 2.2,
+     "focal_mm": 25.0,
+     "format": "1/3.06",
+     "mp": 13.0,
+     "ois": false,
+     "role": "front"
+    }
+   ],
+   "ram": [
+    6,
+    8
+   ],
+   "rear": [],
+   "refresh_hz": 120,
+   "release_date": "2023-07-07",
+   "screen_in": 6.6,
+   "soc": null,
+   "weight_g": 208.0
+  }
+ },
+ "samsung-galaxy-s22": {
+  "agree": [],
+  "differ": {},
+  "revid": 1385897429,
+  "title": "Samsung Galaxy S22",
+  "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_S22",
+  "wiki": {
+   "battery_mah": null,
+   "charge_w": null,
+   "cover_screen_in": null,
+   "front": [],
+   "ram": [],
+   "rear": [],
+   "refresh_hz": null,
+   "release_date": "2022-02-09",
+   "screen_in": null,
+   "soc": null,
+   "weight_g": null
+  }
+ },
+ "samsung-galaxy-s23": {
+  "agree": [],
+  "differ": {},
+  "revid": 1386449708,
+  "title": "Samsung Galaxy S23",
+  "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_S23",
+  "wiki": {
+   "battery_mah": null,
+   "charge_w": null,
+   "cover_screen_in": null,
+   "front": [
+    {
+     "af": null,
+     "aperture": 2.2,
+     "focal_mm": 25.0,
+     "format": null,
+     "mp": 12.0,
+     "ois": false,
+     "role": "front"
+    }
+   ],
+   "ram": [
+    12
+   ],
+   "rear": [],
+   "refresh_hz": null,
+   "release_date": null,
+   "screen_in": null,
+   "soc": null,
+   "weight_g": null
+  }
+ },
+ "samsung-galaxy-s24": {
+  "agree": [],
+  "differ": {},
+  "revid": 1382650004,
+  "title": "Samsung Galaxy S24",
+  "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_S24",
+  "wiki": {
+   "battery_mah": null,
+   "charge_w": 15.0,
+   "cover_screen_in": null,
+   "front": [
+    {
+     "af": "pdaf",
+     "aperture": 2.2,
+     "focal_mm": 25.0,
+     "format": null,
+     "mp": 12.0,
+     "ois": false,
+     "role": "front"
+    }
+   ],
+   "ram": [
+    12
+   ],
+   "rear": [],
+   "refresh_hz": null,
+   "release_date": null,
+   "screen_in": null,
+   "soc": null,
+   "weight_g": null
+  }
+ },
+ "samsung-galaxy-s25": {
+  "agree": [],
+  "differ": {},
+  "revid": 1385916863,
+  "title": "Samsung Galaxy S25",
+  "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_S25",
+  "wiki": {
+   "battery_mah": null,
+   "charge_w": null,
+   "cover_screen_in": null,
+   "front": [
+    {
+     "af": "dual_pixel",
+     "aperture": 2.2,
+     "focal_mm": 26.0,
+     "format": null,
+     "mp": 12.0,
+     "ois": false,
+     "role": "front"
+    }
+   ],
+   "ram": [
+    12,
+    16
+   ],
+   "rear": [],
+   "refresh_hz": null,
+   "release_date": null,
+   "screen_in": null,
+   "soc": null,
+   "weight_g": null
+  }
+ },
+ "samsung-galaxy-s26": {
+  "agree": [],
+  "differ": {},
+  "revid": 1386095854,
+  "title": "Samsung Galaxy S26",
+  "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_S26",
+  "wiki": {
+   "battery_mah": null,
+   "charge_w": null,
+   "cover_screen_in": null,
+   "front": [],
+   "ram": [],
+   "rear": [],
+   "refresh_hz": null,
+   "release_date": null,
+   "screen_in": null,
+   "soc": null,
+   "weight_g": null
+  }
+ },
+ "samsung-galaxy-xcover6-pro": {
+  "agree": [
+   "battery_mah",
+   "weight_g",
+   "screen_in",
+   "refresh_hz"
+  ],
+  "differ": {},
+  "revid": 1361483111,
+  "title": "Samsung Galaxy Xcover 6 Pro",
+  "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_Xcover_6_Pro",
+  "wiki": {
+   "battery_mah": 4050,
+   "charge_w": 15.0,
+   "cover_screen_in": null,
+   "front": [
+    {
+     "af": null,
+     "aperture": 2.2,
+     "focal_mm": null,
+     "format": "1/3.1",
+     "mp": 13.0,
+     "ois": false,
+     "role": "front"
+    }
+   ],
+   "ram": [
+    6
+   ],
+   "rear": [
+    {
+     "af": "pdaf",
+     "aperture": 1.8,
+     "focal_mm": null,
+     "format": "1/2.76",
+     "mp": 50.0,
+     "ois": false,
+     "role": "main"
+    },
+    {
+     "af": null,
+     "aperture": 2.2,
+     "focal_mm": null,
+     "format": "1/4.0",
+     "mp": 8.0,
+     "ois": false,
+     "role": "ultrawide"
+    }
+   ],
+   "refresh_hz": 120,
+   "release_date": "2022-07-13",
+   "screen_in": 6.6,
+   "soc": "Qualcomm Snapdragon 778G 5G (6 nm)",
+   "weight_g": 235.0
+  }
+ },
+ "samsung-galaxy-xcover7": {
+  "agree": [
+   "battery_mah"
+  ],
+  "differ": {},
+  "revid": 1384018710,
+  "title": "Samsung Galaxy Xcover 7",
+  "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_Xcover_7",
+  "wiki": {
+   "battery_mah": 4050,
+   "charge_w": null,
+   "cover_screen_in": null,
+   "front": [
+    {
+     "af": null,
+     "aperture": null,
+     "focal_mm": null,
+     "format": null,
+     "mp": 5.0,
+     "ois": false,
+     "role": "front"
+    }
+   ],
+   "ram": [
+    4,
+    6
+   ],
+   "rear": [],
+   "refresh_hz": null,
+   "release_date": "2024-01-23",
+   "screen_in": null,
+   "soc": "Mediatek Dimensity 6100+",
+   "weight_g": null
+  }
+ },
+ "samsung-galaxy-z-flip4": {
+  "agree": [
+   "battery_mah",
+   "weight_g",
+   "screen_in",
+   "refresh_hz"
+  ],
+  "differ": {},
+  "revid": 1384924519,
+  "title": "Samsung Galaxy Z Flip 4",
+  "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_Z_Flip_4",
+  "wiki": {
+   "battery_mah": 3700,
+   "charge_w": 25.0,
+   "cover_screen_in": 1.9,
+   "front": [
+    {
+     "af": null,
+     "aperture": 2.4,
+     "focal_mm": 26.0,
+     "format": null,
+     "mp": 10.0,
+     "ois": false,
+     "role": "front"
+    }
+   ],
+   "ram": [
+    8
+   ],
+   "rear": [
+    {
+     "af": "dual_pixel",
+     "aperture": 1.8,
+     "focal_mm": 24.0,
+     "format": "1/2.55",
+     "mp": 12.0,
+     "ois": true,
+     "role": "main"
+    },
+    {
+     "af": null,
+     "aperture": 2.2,
+     "focal_mm": null,
+     "format": null,
+     "mp": 12.0,
+     "ois": false,
+     "role": "ultrawide"
+    }
+   ],
+   "refresh_hz": 120,
+   "release_date": "2022-08-25",
+   "screen_in": 6.7,
+   "soc": "Qualcomm Snapdragon 8+ Gen 1",
+   "weight_g": 187.0
+  }
+ },
+ "samsung-galaxy-z-flip5": {
+  "agree": [
+   "battery_mah",
+   "screen_in",
+   "refresh_hz"
+  ],
+  "differ": {},
+  "revid": 1384924526,
+  "title": "Samsung Galaxy Z Flip 5",
+  "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_Z_Flip_5",
+  "wiki": {
+   "battery_mah": 3700,
+   "charge_w": 25.0,
+   "cover_screen_in": 3.4,
+   "front": [
+    {
+     "af": null,
+     "aperture": 2.2,
+     "focal_mm": 26.0,
+     "format": null,
+     "mp": 10.0,
+     "ois": false,
+     "role": "front"
+    }
+   ],
+   "ram": [
+    8
+   ],
+   "rear": [
+    {
+     "af": "dual_pixel",
+     "aperture": 1.8,
+     "focal_mm": 24.0,
+     "format": "1/1.76",
+     "mp": 12.0,
+     "ois": true,
+     "role": "main"
+    },
+    {
+     "af": null,
+     "aperture": 2.2,
+     "focal_mm": null,
+     "format": null,
+     "mp": 12.0,
+     "ois": false,
+     "role": "ultrawide"
+    }
+   ],
+   "refresh_hz": 120,
+   "release_date": "2023-08-11",
+   "screen_in": 6.7,
+   "soc": "Qualcomm Snapdragon 8 Gen 2 for Galaxy",
+   "weight_g": null
+  }
+ },
+ "samsung-galaxy-z-flip6": {
+  "agree": [
+   "battery_mah",
+   "screen_in",
+   "refresh_hz"
+  ],
+  "differ": {},
+  "revid": 1384924538,
+  "title": "Samsung Galaxy Z Flip 6",
+  "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_Z_Flip_6",
+  "wiki": {
+   "battery_mah": 4000,
+   "charge_w": 25.0,
+   "cover_screen_in": 3.4,
+   "front": [
+    {
+     "af": null,
+     "aperture": 2.2,
+     "focal_mm": 23.0,
+     "format": null,
+     "mp": 10.0,
+     "ois": false,
+     "role": "front"
+    }
+   ],
+   "ram": [
+    12
+   ],
+   "rear": [
+    {
+     "af": "dual_pixel",
+     "aperture": 1.8,
+     "focal_mm": 23.0,
+     "format": null,
+     "mp": 50.0,
+     "ois": true,
+     "role": "main"
+    },
+    {
+     "af": null,
+     "aperture": 2.2,
+     "focal_mm": null,
+     "format": null,
+     "mp": 12.0,
+     "ois": false,
+     "role": "ultrawide"
+    }
+   ],
+   "refresh_hz": 120,
+   "release_date": "2024-07-31",
+   "screen_in": 6.7,
+   "soc": "Qualcomm Snapdragon 8 Gen 3 (4 nm)",
+   "weight_g": null
+  }
+ },
+ "samsung-galaxy-z-flip7": {
+  "agree": [
+   "battery_mah",
+   "weight_g",
+   "screen_in",
+   "refresh_hz"
+  ],
+  "differ": {},
+  "revid": 1384924542,
+  "title": "Samsung Galaxy Z Flip 7",
+  "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_Z_Flip_7",
+  "wiki": {
+   "battery_mah": 4300,
+   "charge_w": 25.0,
+   "cover_screen_in": 4.1,
+   "front": [
+    {
+     "af": null,
+     "aperture": 2.2,
+     "focal_mm": 23.0,
+     "format": "1/3.0",
+     "mp": 10.0,
+     "ois": false,
+     "role": "front"
+    }
+   ],
+   "ram": [
+    12
+   ],
+   "rear": [
+    {
+     "af": "dual_pixel",
+     "aperture": 1.8,
+     "focal_mm": 23.0,
+     "format": "1/1.57",
+     "mp": 50.0,
+     "ois": true,
+     "role": "main"
+    },
+    {
+     "af": null,
+     "aperture": 2.2,
+     "focal_mm": 13.0,
+     "format": "1/3.2",
+     "mp": 12.0,
+     "ois": false,
+     "role": "ultrawide"
+    }
+   ],
+   "refresh_hz": 120,
+   "release_date": "2025-07-25",
+   "screen_in": 6.9,
+   "soc": "Exynos 2500 (3 nm)",
+   "weight_g": 188.0
+  }
+ },
+ "samsung-galaxy-z-flip7-fe": {
+  "agree": [
+   "battery_mah",
+   "weight_g",
+   "screen_in",
+   "refresh_hz"
+  ],
+  "differ": {},
+  "revid": 1384924551,
+  "title": "Samsung Galaxy Z Flip 7 FE",
+  "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_Z_Flip_7_FE",
+  "wiki": {
+   "battery_mah": 4000,
+   "charge_w": 25.0,
+   "cover_screen_in": 3.4,
+   "front": [
+    {
+     "af": null,
+     "aperture": 2.2,
+     "focal_mm": 23.0,
+     "format": "1/3.0",
+     "mp": 10.0,
+     "ois": false,
+     "role": "front"
+    }
+   ],
+   "ram": [
+    8
+   ],
+   "rear": [
+    {
+     "af": "dual_pixel",
+     "aperture": 1.8,
+     "focal_mm": 23.0,
+     "format": "1/1.57",
+     "mp": 50.0,
+     "ois": true,
+     "role": "main"
+    },
+    {
+     "af": null,
+     "aperture": 2.2,
+     "focal_mm": 13.0,
+     "format": "1/3.2",
+     "mp": 12.0,
+     "ois": false,
+     "role": "ultrawide"
+    }
+   ],
+   "refresh_hz": 120,
+   "release_date": "2025-07-25",
+   "screen_in": 6.7,
+   "soc": "Exynos 2400 (4 nm)",
+   "weight_g": 187.0
+  }
+ },
+ "samsung-galaxy-z-flip8": {
+  "agree": [
+   "battery_mah",
+   "weight_g",
+   "screen_in",
+   "refresh_hz"
+  ],
+  "differ": {},
+  "revid": 1385941035,
+  "title": "Samsung Galaxy Z Flip 8",
+  "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_Z_Flip_8",
+  "wiki": {
+   "battery_mah": 4300,
+   "charge_w": 25.0,
+   "cover_screen_in": 4.1,
+   "front": [
+    {
+     "af": null,
+     "aperture": 2.2,
+     "focal_mm": 23.0,
+     "format": "1/3.0",
+     "mp": 10.0,
+     "ois": false,
+     "role": "front"
+    }
+   ],
+   "ram": [
+    12
+   ],
+   "rear": [
+    {
+     "af": "dual_pixel",
+     "aperture": 1.8,
+     "focal_mm": 23.0,
+     "format": "1/1.57",
+     "mp": 50.0,
+     "ois": true,
+     "role": "main"
+    },
+    {
+     "af": null,
+     "aperture": 2.2,
+     "focal_mm": 13.0,
+     "format": "1/3.2",
+     "mp": 12.0,
+     "ois": false,
+     "role": "ultrawide"
+    }
+   ],
+   "refresh_hz": 120,
+   "release_date": "2026-08-07",
+   "screen_in": 6.9,
+   "soc": null,
+   "weight_g": 180.0
+  }
+ },
+ "samsung-galaxy-z-fold4": {
+  "agree": [
+   "battery_mah",
+   "weight_g",
+   "screen_in",
+   "refresh_hz"
+  ],
+  "differ": {},
+  "revid": 1384924576,
+  "title": "Samsung Galaxy Z Fold 4",
+  "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_Z_Fold_4",
+  "wiki": {
+   "battery_mah": 4400,
+   "charge_w": 25.0,
+   "cover_screen_in": 6.2,
+   "front": [],
+   "ram": [
+    12
+   ],
+   "rear": [
+    {
+     "af": "dual_pixel",
+     "aperture": 1.8,
+     "focal_mm": 24.0,
+     "format": "1/1.76",
+     "mp": 50.0,
+     "ois": true,
+     "role": "main"
+    },
+    {
+     "af": "pdaf",
+     "aperture": 2.4,
+     "focal_mm": 52.0,
+     "format": "1/3.6",
+     "mp": 10.0,
+     "ois": true,
+     "role": "tele"
+    },
+    {
+     "af": null,
+     "aperture": 2.2,
+     "focal_mm": 12.0,
+     "format": null,
+     "mp": 12.0,
+     "ois": false,
+     "role": "ultrawide"
+    }
+   ],
+   "refresh_hz": 120,
+   "release_date": "2022-08-25",
+   "screen_in": 7.6,
+   "soc": "Qualcomm Snapdragon 8+ Gen 1",
+   "weight_g": 263.0
+  }
+ },
+ "samsung-galaxy-z-fold5": {
+  "agree": [
+   "battery_mah",
+   "weight_g",
+   "screen_in",
+   "refresh_hz"
+  ],
+  "differ": {},
+  "revid": 1384924579,
+  "title": "Samsung Galaxy Z Fold 5",
+  "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_Z_Fold_5",
+  "wiki": {
+   "battery_mah": 4400,
+   "charge_w": 25.0,
+   "cover_screen_in": 6.2,
+   "front": [],
+   "ram": [
+    12
+   ],
+   "rear": [
+    {
+     "af": "dual_pixel",
+     "aperture": 1.8,
+     "focal_mm": 23.0,
+     "format": null,
+     "mp": 50.0,
+     "ois": true,
+     "role": "main"
+    },
+    {
+     "af": "pdaf",
+     "aperture": 2.4,
+     "focal_mm": 69.0,
+     "format": null,
+     "mp": 10.0,
+     "ois": true,
+     "role": "tele"
+    },
+    {
+     "af": null,
+     "aperture": 2.2,
+     "focal_mm": 13.0,
+     "format": null,
+     "mp": 12.0,
+     "ois": false,
+     "role": "ultrawide"
+    }
+   ],
+   "refresh_hz": 120,
+   "release_date": "2023-08-11",
+   "screen_in": 7.6,
+   "soc": "Qualcomm Snapdragon 8 Gen 2 for Galaxy",
+   "weight_g": 253.0
+  }
+ },
+ "samsung-galaxy-z-fold6": {
+  "agree": [],
+  "differ": {},
+  "revid": 1384924587,
+  "title": "Samsung Galaxy Z Fold 6",
+  "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_Z_Fold_6",
+  "wiki": {
+   "battery_mah": null,
+   "charge_w": null,
+   "cover_screen_in": null,
+   "front": [],
+   "ram": [],
+   "rear": [],
+   "refresh_hz": null,
+   "release_date": "2024-07-31",
+   "screen_in": null,
+   "soc": null,
+   "weight_g": null
+  }
+ },
+ "samsung-galaxy-z-fold7": {
+  "agree": [
+   "battery_mah",
+   "weight_g",
+   "screen_in",
+   "refresh_hz"
+  ],
+  "differ": {},
+  "revid": 1384924593,
+  "title": "Samsung Galaxy Z Fold 7",
+  "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_Z_Fold_7",
+  "wiki": {
+   "battery_mah": 4400,
+   "charge_w": 25.0,
+   "cover_screen_in": 6.5,
+   "front": [
+    {
+     "af": null,
+     "aperture": 2.2,
+     "focal_mm": 18.0,
+     "format": null,
+     "mp": 10.0,
+     "ois": false,
+     "role": "front"
+    },
+    {
+     "af": null,
+     "aperture": 2.2,
+     "focal_mm": 24.0,
+     "format": null,
+     "mp": 10.0,
+     "ois": false,
+     "role": "front"
+    }
+   ],
+   "ram": [
+    12,
+    16
+   ],
+   "rear": [
+    {
+     "af": "pdaf",
+     "aperture": 1.7,
+     "focal_mm": 24.0,
+     "format": "1/1.3",
+     "mp": 200.0,
+     "ois": true,
+     "role": "main"
+    },
+    {
+     "af": "pdaf",
+     "aperture": 2.4,
+     "focal_mm": 67.0,
+     "format": null,
+     "mp": 10.0,
+     "ois": true,
+     "role": "tele"
+    },
+    {
+     "af": "dual_pixel",
+     "aperture": 2.2,
+     "focal_mm": null,
+     "format": null,
+     "mp": 12.0,
+     "ois": false,
+     "role": "ultrawide"
+    }
+   ],
+   "refresh_hz": 120,
+   "release_date": "2025-07-25",
+   "screen_in": 8.0,
+   "soc": "Qualcomm SM8750-AC Snapdragon 8 Elite (3 nm)",
+   "weight_g": 215.0
+  }
+ },
+ "samsung-galaxy-z-fold8": {
+  "agree": [
+   "battery_mah",
+   "weight_g",
+   "screen_in",
+   "refresh_hz"
+  ],
+  "differ": {},
+  "revid": 1386487898,
+  "title": "Samsung Galaxy Z Fold 8",
+  "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_Z_Fold_8",
+  "wiki": {
+   "battery_mah": 4800,
+   "charge_w": 45.0,
+   "cover_screen_in": 5.5,
+   "front": [],
+   "ram": [
+    12,
+    16
+   ],
+   "rear": [],
+   "refresh_hz": 120,
+   "release_date": null,
+   "screen_in": 7.6,
+   "soc": "Qualcomm Snapdragon 8 Elite Gen 5 (3 nm)",
+   "weight_g": 201.0
+  }
+ },
+ "samsung-galaxy-z-trifold": {
+  "agree": [
+   "battery_mah",
+   "weight_g",
+   "screen_in",
+   "refresh_hz"
+  ],
+  "differ": {},
+  "revid": 1384924618,
+  "title": "Samsung Galaxy Z TriFold",
+  "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_Z_TriFold",
+  "wiki": {
+   "battery_mah": 5600,
+   "charge_w": 45.0,
+   "cover_screen_in": 6.5,
+   "front": [
+    {
+     "af": null,
+     "aperture": 2.2,
+     "focal_mm": 18.0,
+     "format": "1/3.0",
+     "mp": 10.0,
+     "ois": false,
+     "role": "front"
+    },
+    {
+     "af": null,
+     "aperture": 2.2,
+     "focal_mm": 24.0,
+     "format": "1/3.0",
+     "mp": 10.0,
+     "ois": false,
+     "role": "front"
+    }
+   ],
+   "ram": [
+    16
+   ],
+   "rear": [
+    {
+     "af": "pdaf",
+     "aperture": 1.7,
+     "focal_mm": 24.0,
+     "format": "1/1.3",
+     "mp": 200.0,
+     "ois": true,
+     "role": "main"
+    },
+    {
+     "af": "pdaf",
+     "aperture": 2.4,
+     "focal_mm": 67.0,
+     "format": "1/3.94",
+     "mp": 10.0,
+     "ois": true,
+     "role": "tele"
+    },
+    {
+     "af": "dual_pixel",
+     "aperture": 2.2,
+     "focal_mm": 13.0,
+     "format": "1/2.55",
+     "mp": 12.0,
+     "ois": false,
+     "role": "ultrawide"
+    }
+   ],
+   "refresh_hz": 120,
+   "release_date": "2025-12-01",
+   "screen_in": 10.0,
+   "soc": "Qualcomm SM8750-AC Snapdragon 8 Elite (3 nm)",
+   "weight_g": 309.0
+  }
+ },
+ "sony-xperia-1-iv": {
+  "agree": [
+   "battery_mah",
+   "weight_g",
+   "screen_in",
+   "refresh_hz"
+  ],
+  "differ": {},
+  "revid": 1374016580,
+  "title": "Sony Xperia 1 IV",
+  "url": "https://en.wikipedia.org/wiki/Sony_Xperia_1_IV",
+  "wiki": {
+   "battery_mah": 5000,
+   "charge_w": 30.0,
+   "cover_screen_in": null,
+   "front": [
+    {
+     "af": null,
+     "aperture": 2.0,
+     "focal_mm": 20.0,
+     "format": "1/2.9",
+     "mp": 12.0,
+     "ois": false,
+     "role": "front"
+    }
+   ],
+   "ram": [],
+   "rear": [
+    {
+     "af": "dual_pixel",
+     "aperture": 1.7,
+     "focal_mm": 24.0,
+     "format": "1/1.7",
+     "mp": 12.0,
+     "ois": true,
+     "role": "main"
+    },
+    {
+     "af": "dual_pixel",
+     "aperture": 2.3,
+     "focal_mm": 85.0,
+     "format": "1/3.5",
+     "mp": 12.0,
+     "ois": true,
+     "role": "tele"
+    },
+    {
+     "af": "dual_pixel",
+     "aperture": 2.2,
+     "focal_mm": 16.0,
+     "format": "1/2.55",
+     "mp": 12.0,
+     "ois": false,
+     "role": "ultrawide"
+    },
+    {
+     "af": null,
+     "aperture": null,
+     "focal_mm": null,
+     "format": null,
+     "mp": 0.3,
+     "ois": false,
+     "role": "depth"
+    }
+   ],
+   "refresh_hz": 120,
+   "release_date": null,
+   "screen_in": 6.5,
+   "soc": "Qualcomm Snapdragon 8 Gen 1 (SM8450)",
+   "weight_g": 185.0
+  }
+ },
+ "sony-xperia-1-v": {
+  "agree": [
+   "battery_mah",
+   "weight_g",
+   "screen_in",
+   "refresh_hz"
+  ],
+  "differ": {},
+  "revid": 1383640099,
+  "title": "Sony Xperia 1 V",
+  "url": "https://en.wikipedia.org/wiki/Sony_Xperia_1_V",
+  "wiki": {
+   "battery_mah": 5000,
+   "charge_w": 30.0,
+   "cover_screen_in": null,
+   "front": [
+    {
+     "af": null,
+     "aperture": 2.0,
+     "focal_mm": 20.0,
+     "format": "1/2.93",
+     "mp": 12.0,
+     "ois": false,
+     "role": "front"
+    }
+   ],
+   "ram": [],
+   "rear": [
+    {
+     "af": "dual_pixel",
+     "aperture": 1.9,
+     "focal_mm": 24.0,
+     "format": "1/1.35",
+     "mp": 52.0,
+     "ois": true,
+     "role": "main"
+    },
+    {
+     "af": "dual_pixel",
+     "aperture": 2.3,
+     "focal_mm": 85.0,
+     "format": "1/3.5",
+     "mp": 12.0,
+     "ois": true,
+     "role": "tele"
+    },
+    {
+     "af": "dual_pixel",
+     "aperture": 2.2,
+     "focal_mm": 16.0,
+     "format": "1/2.55",
+     "mp": 12.0,
+     "ois": false,
+     "role": "ultrawide"
+    }
+   ],
+   "refresh_hz": 120,
+   "release_date": null,
+   "screen_in": 6.5,
+   "soc": "Qualcomm Snapdragon 8 Gen 2 (SM8550-AB)",
+   "weight_g": 187.0
+  }
+ },
+ "sony-xperia-1-vi": {
+  "agree": [
+   "battery_mah",
+   "weight_g",
+   "screen_in",
+   "refresh_hz"
+  ],
+  "differ": {},
+  "revid": 1382139595,
+  "title": "Sony Xperia 1 VI",
+  "url": "https://en.wikipedia.org/wiki/Sony_Xperia_1_VI",
+  "wiki": {
+   "battery_mah": 5000,
+   "charge_w": 30.0,
+   "cover_screen_in": null,
+   "front": [
+    {
+     "af": null,
+     "aperture": 2.0,
+     "focal_mm": 20.0,
+     "format": "1/2.93",
+     "mp": 12.0,
+     "ois": false,
+     "role": "front"
+    }
+   ],
+   "ram": [],
+   "rear": [
+    {
+     "af": "dual_pixel",
+     "aperture": 1.9,
+     "focal_mm": 24.0,
+     "format": "1/1.35",
+     "mp": 52.0,
+     "ois": true,
+     "role": "main"
+    },
+    {
+     "af": "dual_pixel",
+     "aperture": 2.3,
+     "focal_mm": 85.0,
+     "format": "1/3.5",
+     "mp": 12.0,
+     "ois": true,
+     "role": "tele"
+    },
+    {
+     "af": "dual_pixel",
+     "aperture": 2.2,
+     "focal_mm": 16.0,
+     "format": "1/2.55",
+     "mp": 12.0,
+     "ois": false,
+     "role": "ultrawide"
+    }
+   ],
+   "refresh_hz": 120,
+   "release_date": null,
+   "screen_in": 6.5,
+   "soc": "Qualcomm Snapdragon 8 Gen 3 (SM8650-AB)",
+   "weight_g": 192.0
+  }
+ },
+ "sony-xperia-1-vii": {
+  "agree": [
+   "battery_mah",
+   "weight_g",
+   "screen_in",
+   "refresh_hz"
+  ],
+  "differ": {},
+  "revid": 1383640130,
+  "title": "Sony Xperia 1 VII",
+  "url": "https://en.wikipedia.org/wiki/Sony_Xperia_1_VII",
+  "wiki": {
+   "battery_mah": 5000,
+   "charge_w": 30.0,
+   "cover_screen_in": null,
+   "front": [
+    {
+     "af": null,
+     "aperture": 2.0,
+     "focal_mm": 20.0,
+     "format": "1/2.93",
+     "mp": 12.0,
+     "ois": false,
+     "role": "front"
+    }
+   ],
+   "ram": [],
+   "rear": [
+    {
+     "af": "dual_pixel",
+     "aperture": 1.9,
+     "focal_mm": 24.0,
+     "format": "1/1.35",
+     "mp": 52.0,
+     "ois": true,
+     "role": "main"
+    },
+    {
+     "af": "dual_pixel",
+     "aperture": 2.3,
+     "focal_mm": 85.0,
+     "format": "1/3.5",
+     "mp": 12.0,
+     "ois": true,
+     "role": "tele"
+    },
+    {
+     "af": "dual_pixel",
+     "aperture": 2.0,
+     "focal_mm": 16.0,
+     "format": "1/1.56",
+     "mp": 50.0,
+     "ois": false,
+     "role": "ultrawide"
+    }
+   ],
+   "refresh_hz": 120,
+   "release_date": null,
+   "screen_in": 6.5,
+   "soc": "Qualcomm Snapdragon 8 Elite",
+   "weight_g": 197.0
+  }
+ },
+ "sony-xperia-1-viii": {
+  "agree": [
+   "battery_mah",
+   "weight_g",
+   "screen_in",
+   "refresh_hz"
+  ],
+  "differ": {},
+  "revid": 1383640148,
+  "title": "Sony Xperia 1 VIII",
+  "url": "https://en.wikipedia.org/wiki/Sony_Xperia_1_VIII",
+  "wiki": {
+   "battery_mah": 5000,
+   "charge_w": 30.0,
+   "cover_screen_in": null,
+   "front": [
+    {
+     "af": null,
+     "aperture": 2.0,
+     "focal_mm": 20.0,
+     "format": "1/2.93",
+     "mp": 12.0,
+     "ois": false,
+     "role": "front"
+    }
+   ],
+   "ram": [],
+   "rear": [
+    {
+     "af": "dual_pixel",
+     "aperture": 1.9,
+     "focal_mm": 24.0,
+     "format": "1/1.35",
+     "mp": 52.0,
+     "ois": true,
+     "role": "main"
+    },
+    {
+     "af": "dual_pixel",
+     "aperture": 2.8,
+     "focal_mm": 70.0,
+     "format": "1/1.56",
+     "mp": 50.0,
+     "ois": true,
+     "role": "periscope"
+    },
+    {
+     "af": "dual_pixel",
+     "aperture": 2.0,
+     "focal_mm": 16.0,
+     "format": "1/1.56",
+     "mp": 50.0,
+     "ois": false,
+     "role": "ultrawide"
+    }
+   ],
+   "refresh_hz": 120,
+   "release_date": null,
+   "screen_in": 6.5,
+   "soc": "Qualcomm Snapdragon 8 Elite Gen 5",
+   "weight_g": 200.0
+  }
+ },
+ "sony-xperia-10-iv": {
+  "agree": [
+   "battery_mah",
+   "weight_g",
+   "screen_in"
+  ],
+  "differ": {},
+  "revid": 1379958999,
+  "title": "Sony Xperia 10 IV",
+  "url": "https://en.wikipedia.org/wiki/Sony_Xperia_10_IV",
+  "wiki": {
+   "battery_mah": 5000,
+   "charge_w": 30.0,
+   "cover_screen_in": null,
+   "front": [
+    {
+     "af": null,
+     "aperture": null,
+     "focal_mm": 24.0,
+     "format": "1/4",
+     "mp": 8.0,
+     "ois": false,
+     "role": "front"
+    }
+   ],
+   "ram": [
+    6
+   ],
+   "rear": [
+    {
+     "af": "pdaf",
+     "aperture": null,
+     "focal_mm": 27.0,
+     "format": "1/2.8",
+     "mp": 12.0,
+     "ois": true,
+     "role": "tele"
+    }
+   ],
+   "refresh_hz": null,
+   "release_date": null,
+   "screen_in": 6.0,
+   "soc": "Qualcomm Snapdragon 695",
+   "weight_g": 161.0
+  }
+ },
+ "sony-xperia-10-v": {
+  "agree": [
+   "battery_mah",
+   "weight_g",
+   "screen_in"
+  ],
+  "differ": {},
+  "revid": 1381559491,
+  "title": "Sony Xperia 10 V",
+  "url": "https://en.wikipedia.org/wiki/Sony_Xperia_10_V",
+  "wiki": {
+   "battery_mah": 5000,
+   "charge_w": 21.0,
+   "cover_screen_in": null,
+   "front": [],
+   "ram": [],
+   "rear": [
+    {
+     "af": "pdaf",
+     "aperture": 1.8,
+     "focal_mm": 26.0,
+     "format": "1/2.0",
+     "mp": 48.0,
+     "ois": true,
+     "role": "main"
+    },
+    {
+     "af": null,
+     "aperture": 2.2,
+     "focal_mm": 54.0,
+     "format": "1/4.4",
+     "mp": 8.0,
+     "ois": false,
+     "role": "tele"
+    }
+   ],
+   "refresh_hz": null,
+   "release_date": null,
+   "screen_in": 6.1,
+   "soc": "Qualcomm Snapdragon 695 5G",
+   "weight_g": 159.0
+  }
+ },
+ "sony-xperia-10-vi": {
+  "agree": [
+   "battery_mah",
+   "weight_g",
+   "screen_in"
+  ],
+  "differ": {},
+  "revid": 1384700281,
+  "title": "Sony Xperia 10 VI",
+  "url": "https://en.wikipedia.org/wiki/Sony_Xperia_10_VI",
+  "wiki": {
+   "battery_mah": 5000,
+   "charge_w": 21.0,
+   "cover_screen_in": null,
+   "front": [
+    {
+     "af": null,
+     "aperture": 2.0,
+     "focal_mm": 26.0,
+     "format": "1/4.0",
+     "mp": 8.0,
+     "ois": false,
+     "role": "front"
+    }
+   ],
+   "ram": [],
+   "rear": [
+    {
+     "af": "pdaf",
+     "aperture": 1.8,
+     "focal_mm": 26.0,
+     "format": "1/2.0",
+     "mp": 48.0,
+     "ois": true,
+     "role": "main"
+    },
+    {
+     "af": null,
+     "aperture": 2.2,
+     "focal_mm": 16.0,
+     "format": "1/4",
+     "mp": 8.0,
+     "ois": false,
+     "role": "ultrawide"
+    }
+   ],
+   "refresh_hz": null,
+   "release_date": null,
+   "screen_in": 6.1,
+   "soc": "Qualcomm Snapdragon 6 Gen 1",
+   "weight_g": 164.0
+  }
+ },
+ "sony-xperia-10-vii": {
+  "agree": [
+   "battery_mah",
+   "weight_g",
+   "screen_in",
+   "refresh_hz"
+  ],
+  "differ": {},
+  "revid": 1381216219,
+  "title": "Sony Xperia 10 VII",
+  "url": "https://en.wikipedia.org/wiki/Sony_Xperia_10_VII",
+  "wiki": {
+   "battery_mah": 5000,
+   "charge_w": 30.0,
+   "cover_screen_in": null,
+   "front": [
+    {
+     "af": null,
+     "aperture": 2.0,
+     "focal_mm": 26.0,
+     "format": "1/4.0",
+     "mp": 8.0,
+     "ois": false,
+     "role": "front"
+    }
+   ],
+   "ram": [],
+   "rear": [
+    {
+     "af": "pdaf",
+     "aperture": 1.9,
+     "focal_mm": 24.0,
+     "format": "1/1.56",
+     "mp": 50.0,
+     "ois": true,
+     "role": "main"
+    },
+    {
+     "af": null,
+     "aperture": 2.4,
+     "focal_mm": 16.0,
+     "format": "1/3.06",
+     "mp": 13.0,
+     "ois": false,
+     "role": "ultrawide"
+    }
+   ],
+   "refresh_hz": 120,
+   "release_date": null,
+   "screen_in": 6.1,
+   "soc": "Qualcomm Snapdragon 6 Gen 3",
+   "weight_g": 168.0
+  }
+ },
+ "sony-xperia-10-viii": {
+  "agree": [
+   "battery_mah",
+   "weight_g",
+   "screen_in",
+   "refresh_hz"
+  ],
+  "differ": {},
+  "revid": 1381216624,
+  "title": "Sony Xperia 10 VIII",
+  "url": "https://en.wikipedia.org/wiki/Sony_Xperia_10_VIII",
+  "wiki": {
+   "battery_mah": 5000,
+   "charge_w": 30.0,
+   "cover_screen_in": null,
+   "front": [
+    {
+     "af": null,
+     "aperture": 2.0,
+     "focal_mm": 26.0,
+     "format": "1/4.0",
+     "mp": 8.0,
+     "ois": false,
+     "role": "front"
+    }
+   ],
+   "ram": [],
+   "rear": [
+    {
+     "af": "pdaf",
+     "aperture": 1.9,
+     "focal_mm": 24.0,
+     "format": "1/1.56",
+     "mp": 50.0,
+     "ois": true,
+     "role": "main"
+    },
+    {
+     "af": null,
+     "aperture": 2.4,
+     "focal_mm": 16.0,
+     "format": "1/3.06",
+     "mp": 13.0,
+     "ois": false,
+     "role": "ultrawide"
+    }
+   ],
+   "refresh_hz": 120,
+   "release_date": null,
+   "screen_in": 6.1,
+   "soc": "Qualcomm Snapdragon 6 Gen 3",
+   "weight_g": 168.0
+  }
+ },
+ "sony-xperia-5-iv": {
+  "agree": [
+   "battery_mah",
+   "weight_g",
+   "screen_in",
+   "refresh_hz"
+  ],
+  "differ": {},
+  "revid": 1383640166,
+  "title": "Sony Xperia 5 IV",
+  "url": "https://en.wikipedia.org/wiki/Sony_Xperia_5_IV",
+  "wiki": {
+   "battery_mah": 5000,
+   "charge_w": 30.0,
+   "cover_screen_in": null,
+   "front": [
+    {
+     "af": null,
+     "aperture": 2.0,
+     "focal_mm": 20.0,
+     "format": "1/2.9",
+     "mp": 12.0,
+     "ois": false,
+     "role": "front"
+    }
+   ],
+   "ram": [
+    8
+   ],
+   "rear": [
+    {
+     "af": "dual_pixel",
+     "aperture": null,
+     "focal_mm": 24.0,
+     "format": "1/1.7",
+     "mp": 12.2,
+     "ois": true,
+     "role": "main"
+    },
+    {
+     "af": "dual_pixel",
+     "aperture": null,
+     "focal_mm": 60.0,
+     "format": "1/3.5",
+     "mp": 12.2,
+     "ois": true,
+     "role": "tele"
+    },
+    {
+     "af": "dual_pixel",
+     "aperture": null,
+     "focal_mm": 16.0,
+     "format": "1/2.55",
+     "mp": 12.2,
+     "ois": false,
+     "role": "ultrawide"
+    }
+   ],
+   "refresh_hz": 120,
+   "release_date": null,
+   "screen_in": 6.1,
+   "soc": "Qualcomm Snapdragon 8 Gen 1 (SM8450)",
+   "weight_g": 172.0
+  }
+ },
+ "sony-xperia-5-v": {
+  "agree": [
+   "battery_mah",
+   "weight_g",
+   "screen_in",
+   "refresh_hz"
+  ],
+  "differ": {},
+  "revid": 1383640218,
+  "title": "Sony Xperia 5 V",
+  "url": "https://en.wikipedia.org/wiki/Sony_Xperia_5_V",
+  "wiki": {
+   "battery_mah": 5000,
+   "charge_w": 30.0,
+   "cover_screen_in": null,
+   "front": [],
+   "ram": [],
+   "rear": [],
+   "refresh_hz": 120,
+   "release_date": "2023-10-13",
+   "screen_in": 6.1,
+   "soc": "Qualcomm Snapdragon 8 Gen 2",
+   "weight_g": 182.0
+  }
+ },
+ "tecno-camon-20": {
+  "agree": [
+   "screen_in",
+   "refresh_hz"
+  ],
+  "differ": {},
+  "revid": 1361536674,
+  "title": "Tecno Camon 20",
+  "url": "https://en.wikipedia.org/wiki/Tecno_Camon_20",
+  "wiki": {
+   "battery_mah": null,
+   "charge_w": null,
+   "cover_screen_in": null,
+   "front": [],
+   "ram": [],
+   "rear": [],
+   "refresh_hz": 60,
+   "release_date": null,
+   "screen_in": 6.67,
+   "soc": "MediaTek Helio G85",
+   "weight_g": null
+  }
+ },
+ "tecno-camon-20-pro": {
+  "agree": [],
+  "differ": {},
+  "revid": 1361536674,
+  "title": "Tecno Camon 20",
+  "url": "https://en.wikipedia.org/wiki/Tecno_Camon_20",
+  "wiki": {
+   "battery_mah": null,
+   "charge_w": null,
+   "cover_screen_in": null,
+   "front": [],
+   "ram": [],
+   "rear": [],
+   "refresh_hz": null,
+   "release_date": null,
+   "screen_in": null,
+   "soc": "MediaTek Helio G99",
+   "weight_g": null
+  }
+ },
+ "tecno-phantom-v-flip": {
+  "agree": [
+   "battery_mah",
+   "weight_g",
+   "screen_in",
+   "refresh_hz"
+  ],
+  "differ": {},
+  "revid": 1383366795,
+  "title": "Tecno Phantom V Flip",
+  "url": "https://en.wikipedia.org/wiki/Tecno_Phantom_V_Flip",
+  "wiki": {
+   "battery_mah": 4000,
+   "charge_w": 45.0,
+   "cover_screen_in": 1.32,
+   "front": [
+    {
+     "af": "pdaf",
+     "aperture": 2.5,
+     "focal_mm": 24.0,
+     "format": "1/2.8",
+     "mp": 32.0,
+     "ois": false,
+     "role": "front"
+    }
+   ],
+   "ram": [
+    8
+   ],
+   "rear": [
+    {
+     "af": "pdaf",
+     "aperture": 1.7,
+     "focal_mm": 25.0,
+     "format": "1/1.73",
+     "mp": 64.0,
+     "ois": false,
+     "role": "ultrawide"
+    }
+   ],
+   "refresh_hz": 120,
+   "release_date": "2023-09-24",
+   "screen_in": 6.9,
+   "soc": "MediaTek Dimensity 8050",
+   "weight_g": 194.0
+  }
+ },
+ "tecno-phantom-x2-pro": {
+  "agree": [
+   "weight_g"
+  ],
+  "differ": {},
+  "revid": 1361536695,
+  "title": "Tecno Phantom X2",
+  "url": "https://en.wikipedia.org/wiki/Tecno_Phantom_X2",
+  "wiki": {
+   "battery_mah": null,
+   "charge_w": null,
+   "cover_screen_in": null,
+   "front": [],
+   "ram": [
+    12
+   ],
+   "rear": [
+    {
+     "af": "pdaf",
+     "aperture": 1.9,
+     "focal_mm": null,
+     "format": "1/1.3",
+     "mp": 50.0,
+     "ois": false,
+     "role": "main"
+    },
+    {
+     "af": "pdaf",
+     "aperture": 1.5,
+     "focal_mm": 65.0,
+     "format": "1/2.7",
+     "mp": 50.0,
+     "ois": false,
+     "role": "tele"
+    },
+    {
+     "af": null,
+     "aperture": 2.2,
+     "focal_mm": null,
+     "format": "1/1.3",
+     "mp": 13.0,
+     "ois": false,
+     "role": "ultrawide"
+    }
+   ],
+   "refresh_hz": null,
+   "release_date": null,
+   "screen_in": null,
+   "soc": null,
+   "weight_g": 201.0
+  }
+ },
+ "tecno-spark-10-pro": {
+  "agree": [
+   "weight_g",
+   "screen_in",
+   "refresh_hz"
+  ],
+  "differ": {},
+  "revid": 1379584524,
+  "title": "Tecno Spark 10",
+  "url": "https://en.wikipedia.org/wiki/Tecno_Spark_10",
+  "wiki": {
+   "battery_mah": null,
+   "charge_w": null,
+   "cover_screen_in": null,
+   "front": [
+    {
+     "af": null,
+     "aperture": null,
+     "focal_mm": null,
+     "format": null,
+     "mp": 32.0,
+     "ois": false,
+     "role": "front"
+    }
+   ],
+   "ram": [],
+   "rear": [],
+   "refresh_hz": 90,
+   "release_date": null,
+   "screen_in": 6.8,
+   "soc": "MediaTek Helio G88",
+   "weight_g": 208.0
+  }
+ },
+ "tecno-spark-20": {
+  "agree": [
+   "weight_g",
+   "screen_in",
+   "refresh_hz"
+  ],
+  "differ": {},
+  "revid": 1383366649,
+  "title": "Tecno Spark 20",
+  "url": "https://en.wikipedia.org/wiki/Tecno_Spark_20",
+  "wiki": {
+   "battery_mah": null,
+   "charge_w": null,
+   "cover_screen_in": null,
+   "front": [],
+   "ram": [],
+   "rear": [
+    {
+     "af": "pdaf",
+     "aperture": 1.6,
+     "focal_mm": 27.0,
+     "format": "1/2.8",
+     "mp": 50.0,
+     "ois": false,
+     "role": "depth"
+    }
+   ],
+   "refresh_hz": 90,
+   "release_date": "2023-12-01",
+   "screen_in": 6.6,
+   "soc": "MediaTek Helio G85",
+   "weight_g": 194.0
+  }
+ },
+ "tecno-spark-20-pro": {
+  "agree": [
+   "weight_g"
+  ],
+  "differ": {},
+  "revid": 1383366649,
+  "title": "Tecno Spark 20",
+  "url": "https://en.wikipedia.org/wiki/Tecno_Spark_20",
+  "wiki": {
+   "battery_mah": null,
+   "charge_w": null,
+   "cover_screen_in": null,
+   "front": [],
+   "ram": [],
+   "rear": [],
+   "refresh_hz": null,
+   "release_date": "2023-12-15",
+   "screen_in": null,
+   "soc": "MediaTek Helio G99",
+   "weight_g": 203.0
+  }
+ },
+ "vivo-x-flip": {
+  "agree": [
+   "battery_mah",
+   "weight_g",
+   "screen_in",
+   "refresh_hz"
+  ],
+  "differ": {},
+  "revid": 1376389517,
+  "title": "Vivo X Flip",
+  "url": "https://en.wikipedia.org/wiki/Vivo_X_Flip",
+  "wiki": {
+   "battery_mah": 4400,
+   "charge_w": 44.0,
+   "cover_screen_in": 3.0,
+   "front": [],
+   "ram": [
+    12
+   ],
+   "rear": [],
+   "refresh_hz": 120,
+   "release_date": "2023-04-28",
+   "screen_in": 6.74,
+   "soc": "Qualcomm Snapdragon 8+ Gen 1 (4 nm)",
+   "weight_g": 198.0
+  }
+ },
+ "vivo-x100": {
+  "agree": [
+   "battery_mah",
+   "weight_g",
+   "screen_in",
+   "refresh_hz"
+  ],
+  "differ": {},
+  "revid": 1382462116,
+  "title": "Vivo X100",
+  "url": "https://en.wikipedia.org/wiki/Vivo_X100",
+  "wiki": {
+   "battery_mah": 5000,
+   "charge_w": 120.0,
+   "cover_screen_in": null,
+   "front": [
+    {
+     "af": null,
+     "aperture": 2.0,
+     "focal_mm": 21.0,
+     "format": "1/2.8",
+     "mp": 32.0,
+     "ois": false,
+     "role": "front"
+    }
+   ],
+   "ram": [
+    12,
+    16
+   ],
+   "rear": [
+    {
+     "af": "pdaf",
+     "aperture": 1.57,
+     "focal_mm": null,
+     "format": "1/1.31",
+     "mp": 50.0,
+     "ois": true,
+     "role": "main"
+    },
+    {
+     "af": "pdaf",
+     "aperture": 2.6,
+     "focal_mm": 70.0,
+     "format": "1/2.0",
+     "mp": 64.0,
+     "ois": false,
+     "role": "periscope"
+    },
+    {
+     "af": null,
+     "aperture": 2.0,
+     "focal_mm": 15.0,
+     "format": "1/2.76",
+     "mp": 50.0,
+     "ois": false,
+     "role": "ultrawide"
+    }
+   ],
+   "refresh_hz": 120,
+   "release_date": "2023-11-13",
+   "screen_in": 6.78,
+   "soc": "MediaTek Dimensity 9300",
+   "weight_g": 205.0
+  }
+ },
+ "vivo-x300-pro": {
+  "agree": [
+   "battery_mah",
+   "weight_g",
+   "screen_in",
+   "refresh_hz"
+  ],
+  "differ": {},
+  "revid": 1376159363,
+  "title": "Vivo X300 Pro",
+  "url": "https://en.wikipedia.org/wiki/Vivo_X300_Pro",
+  "wiki": {
+   "battery_mah": 6510,
+   "charge_w": 90.0,
+   "cover_screen_in": null,
+   "front": [
+    {
+     "af": null,
+     "aperture": null,
+     "focal_mm": 20.0,
+     "format": null,
+     "mp": 50.0,
+     "ois": false,
+     "role": "front"
+    }
+   ],
+   "ram": [
+    12,
+    16
+   ],
+   "rear": [
+    {
+     "af": "pdaf",
+     "aperture": null,
+     "focal_mm": 24.0,
+     "format": null,
+     "mp": 50.0,
+     "ois": true,
+     "role": "main"
+    },
+    {
+     "af": "pdaf",
+     "aperture": null,
+     "focal_mm": 85.0,
+     "format": null,
+     "mp": 200.0,
+     "ois": true,
+     "role": "tele"
+    },
+    {
+     "af": null,
+     "aperture": null,
+     "focal_mm": 15.0,
+     "format": null,
+     "mp": 50.0,
+     "ois": false,
+     "role": "ultrawide"
+    }
+   ],
+   "refresh_hz": 120,
+   "release_date": "2025-10-17",
+   "screen_in": 6.78,
+   "soc": "MediaTek Dimensity 9500 (3 nm)",
+   "weight_g": 226.0
+  }
+ },
+ "vivo-x300-ultra": {
+  "agree": [
+   "battery_mah",
+   "weight_g",
+   "screen_in",
+   "refresh_hz"
+  ],
+  "differ": {},
+  "revid": 1376159267,
+  "title": "Vivo X300 Ultra",
+  "url": "https://en.wikipedia.org/wiki/Vivo_X300_Ultra",
+  "wiki": {
+   "battery_mah": 6600,
+   "charge_w": 100.0,
+   "cover_screen_in": null,
+   "front": [
+    {
+     "af": null,
+     "aperture": 2.45,
+     "focal_mm": null,
+     "format": null,
+     "mp": 50.0,
+     "ois": false,
+     "role": "front"
+    }
+   ],
+   "ram": [
+    16
+   ],
+   "rear": [
+    {
+     "af": null,
+     "aperture": 1.85,
+     "focal_mm": 35.0,
+     "format": null,
+     "mp": 200.0,
+     "ois": true,
+     "role": "main"
+    },
+    {
+     "af": null,
+     "aperture": 2.67,
+     "focal_mm": 85.0,
+     "format": null,
+     "mp": 200.0,
+     "ois": true,
+     "role": "periscope"
+    },
+    {
+     "af": null,
+     "aperture": 2.0,
+     "focal_mm": 14.0,
+     "format": null,
+     "mp": 50.0,
+     "ois": true,
+     "role": "ultrawide"
+    }
+   ],
+   "refresh_hz": 144,
+   "release_date": null,
+   "screen_in": 6.82,
+   "soc": "Qualcomm Snapdragon 8 Elite Gen 5",
+   "weight_g": 232.0
+  }
+ },
+ "vivo-y29": {
+  "agree": [
+   "battery_mah",
+   "screen_in",
+   "refresh_hz"
+  ],
+  "differ": {},
+  "revid": 1361537060,
+  "title": "Vivo Y29",
+  "url": "https://en.wikipedia.org/wiki/Vivo_Y29",
+  "wiki": {
+   "battery_mah": 6500,
+   "charge_w": 44.0,
+   "cover_screen_in": null,
+   "front": [
+    {
+     "af": null,
+     "aperture": 2.0,
+     "focal_mm": null,
+     "format": null,
+     "mp": 8.0,
+     "ois": false,
+     "role": "front"
+    }
+   ],
+   "ram": [
+    6,
+    8
+   ],
+   "rear": [
+    {
+     "af": "pdaf",
+     "aperture": 1.8,
+     "focal_mm": null,
+     "format": null,
+     "mp": 50.0,
+     "ois": false,
+     "role": "main"
+    },
+    {
+     "af": null,
+     "aperture": 2.4,
+     "focal_mm": null,
+     "format": null,
+     "mp": 2.0,
+     "ois": false,
+     "role": "depth"
+    }
+   ],
+   "refresh_hz": 120,
+   "release_date": "2025-02-24",
+   "screen_in": 6.68,
+   "soc": "Qualcomm SM6225 Snapdragon 685 (6 nm)",
+   "weight_g": null
+  }
+ },
+ "vivo-y300": {
+  "agree": [
+   "battery_mah",
+   "screen_in",
+   "refresh_hz"
+  ],
+  "differ": {},
+  "revid": 1376728869,
+  "title": "Vivo Y300",
+  "url": "https://en.wikipedia.org/wiki/Vivo_Y300",
+  "wiki": {
+   "battery_mah": 5000,
+   "charge_w": null,
+   "cover_screen_in": null,
+   "front": [
+    {
+     "af": null,
+     "aperture": null,
+     "focal_mm": null,
+     "format": null,
+     "mp": 32.0,
+     "ois": false,
+     "role": "front"
+    }
+   ],
+   "ram": [
+    8
+   ],
+   "rear": [
+    {
+     "af": null,
+     "aperture": null,
+     "focal_mm": null,
+     "format": null,
+     "mp": 50.0,
+     "ois": false,
+     "role": "depth"
+    }
+   ],
+   "refresh_hz": 120,
+   "release_date": null,
+   "screen_in": 6.67,
+   "soc": "Qualcomm Snapdragon 4 Gen 2",
+   "weight_g": null
+  }
+ },
+ "xiaomi-12": {
+  "agree": [
+   "weight_g"
+  ],
+  "differ": {},
+  "revid": 1384064990,
+  "title": "Xiaomi 12",
+  "url": "https://en.wikipedia.org/wiki/Xiaomi_12",
+  "wiki": {
+   "battery_mah": null,
+   "charge_w": null,
+   "cover_screen_in": null,
+   "front": [
+    {
+     "af": null,
+     "aperture": 2.5,
+     "focal_mm": null,
+     "format": null,
+     "mp": 32.0,
+     "ois": false,
+     "role": "front"
+    }
+   ],
+   "ram": [
+    8,
+    12
+   ],
+   "rear": [],
+   "refresh_hz": null,
+   "release_date": null,
+   "screen_in": null,
+   "soc": null,
+   "weight_g": 179.0
+  }
+ },
+ "xiaomi-12-lite": {
+  "agree": [
+   "battery_mah",
+   "weight_g",
+   "screen_in",
+   "refresh_hz"
+  ],
+  "differ": {},
+  "revid": 1361537211,
+  "title": "Xiaomi 12 Lite",
+  "url": "https://en.wikipedia.org/wiki/Xiaomi_12_Lite",
+  "wiki": {
+   "battery_mah": 4300,
+   "charge_w": 67.0,
+   "cover_screen_in": null,
+   "front": [],
+   "ram": [
+    6,
+    8
+   ],
+   "rear": [],
+   "refresh_hz": 120,
+   "release_date": "2022-07-09",
+   "screen_in": 6.55,
+   "soc": "Qualcomm SM7325 Snapdragon 778G 5G (6 nm)",
+   "weight_g": 173.0
+  }
+ },
+ "xiaomi-12t": {
+  "agree": [],
+  "differ": {},
+  "revid": 1381763908,
+  "title": "Xiaomi 12T",
+  "url": "https://en.wikipedia.org/wiki/Xiaomi_12T",
+  "wiki": {
+   "battery_mah": null,
+   "charge_w": null,
+   "cover_screen_in": null,
+   "front": [],
+   "ram": [
+    8
+   ],
+   "rear": [
+    {
+     "af": "pdaf",
+     "aperture": null,
+     "focal_mm": 26.0,
+     "format": "1/1.52",
+     "mp": 108.0,
+     "ois": true,
+     "role": "main"
+    }
+   ],
+   "refresh_hz": null,
+   "release_date": null,
+   "screen_in": null,
+   "soc": "MediaTek MT6893 Dimensity 8100-Ultra (5 nm)",
+   "weight_g": null
+  }
+ },
+ "xiaomi-13": {
+  "agree": [
+   "weight_g",
+   "screen_in"
+  ],
+  "differ": {},
+  "revid": 1361537230,
+  "title": "Xiaomi 13",
+  "url": "https://en.wikipedia.org/wiki/Xiaomi_13",
+  "wiki": {
+   "battery_mah": null,
+   "charge_w": 67.0,
+   "cover_screen_in": null,
+   "front": [],
+   "ram": [],
+   "rear": [
+    {
+     "af": "pdaf",
+     "aperture": 1.9,
+     "focal_mm": null,
+     "format": "1/1.49",
+     "mp": 50.0,
+     "ois": true,
+     "role": "main"
+    },
+    {
+     "af": "pdaf",
+     "aperture": null,
+     "focal_mm": null,
+     "format": "1/3.94",
+     "mp": 10.0,
+     "ois": false,
+     "role": "tele"
+    },
+    {
+     "af": null,
+     "aperture": 2.4,
+     "focal_mm": null,
+     "format": "1/3",
+     "mp": 12.0,
+     "ois": false,
+     "role": "ultrawide"
+    }
+   ],
+   "refresh_hz": null,
+   "release_date": null,
+   "screen_in": 6.36,
+   "soc": null,
+   "weight_g": 185.0
+  }
+ },
+ "xiaomi-13-lite": {
+  "agree": [
+   "weight_g"
+  ],
+  "differ": {},
+  "revid": 1380461765,
+  "title": "Xiaomi 13 Lite",
+  "url": "https://en.wikipedia.org/wiki/Xiaomi_13_Lite",
+  "wiki": {
+   "battery_mah": null,
+   "charge_w": null,
+   "cover_screen_in": null,
+   "front": [
+    {
+     "af": null,
+     "aperture": 2.4,
+     "focal_mm": null,
+     "format": "1/2.74",
+     "mp": 32.0,
+     "ois": false,
+     "role": "front"
+    }
+   ],
+   "ram": [
+    8
+   ],
+   "rear": [
+    {
+     "af": null,
+     "aperture": 2.2,
+     "focal_mm": null,
+     "format": "1/4.0",
+     "mp": 8.0,
+     "ois": false,
+     "role": "main"
+    }
+   ],
+   "refresh_hz": null,
+   "release_date": null,
+   "screen_in": null,
+   "soc": null,
+   "weight_g": 171.0
+  }
+ },
+ "xiaomi-13t": {
+  "agree": [
+   "weight_g"
+  ],
+  "differ": {},
+  "revid": 1384081068,
+  "title": "Xiaomi 13T",
+  "url": "https://en.wikipedia.org/wiki/Xiaomi_13T",
+  "wiki": {
+   "battery_mah": null,
+   "charge_w": 67.0,
+   "cover_screen_in": null,
+   "front": [],
+   "ram": [
+    12
+   ],
+   "rear": [],
+   "refresh_hz": null,
+   "release_date": null,
+   "screen_in": null,
+   "soc": "MediaTek Dimensity 8200 Ultra (4 nm)",
+   "weight_g": 197.0
+  }
+ },
+ "xiaomi-13t-pro": {
+  "agree": [
+   "battery_mah",
+   "weight_g",
+   "screen_in",
+   "refresh_hz"
+  ],
+  "differ": {},
+  "revid": 1361537249,
+  "title": "Xiaomi 13T Pro",
+  "url": "https://en.wikipedia.org/wiki/Xiaomi_13T_Pro",
+  "wiki": {
+   "battery_mah": 5000,
+   "charge_w": 120.0,
+   "cover_screen_in": null,
+   "front": [],
+   "ram": [
+    12,
+    16
+   ],
+   "rear": [],
+   "refresh_hz": 144,
+   "release_date": "2023-09-26",
+   "screen_in": 6.67,
+   "soc": "Mediatek Dimensity 9200+ (4 nm)",
+   "weight_g": 200.0
+  }
+ },
+ "xiaomi-14": {
+  "agree": [
+   "battery_mah",
+   "weight_g",
+   "screen_in"
+  ],
+  "differ": {},
+  "revid": 1382450223,
+  "title": "Xiaomi 14",
+  "url": "https://en.wikipedia.org/wiki/Xiaomi_14",
+  "wiki": {
+   "battery_mah": 4610,
+   "charge_w": 90.0,
+   "cover_screen_in": null,
+   "front": [],
+   "ram": [
+    16
+   ],
+   "rear": [
+    {
+     "af": "dual_pixel",
+     "aperture": 1.6,
+     "focal_mm": 23.0,
+     "format": "1/1.31",
+     "mp": 50.0,
+     "ois": true,
+     "role": "main"
+    },
+    {
+     "af": "pdaf",
+     "aperture": 2.0,
+     "focal_mm": 75.0,
+     "format": null,
+     "mp": 50.0,
+     "ois": true,
+     "role": "tele"
+    },
+    {
+     "af": null,
+     "aperture": 2.2,
+     "focal_mm": 14.0,
+     "format": null,
+     "mp": 50.0,
+     "ois": false,
+     "role": "ultrawide"
+    }
+   ],
+   "refresh_hz": null,
+   "release_date": null,
+   "screen_in": 6.36,
+   "soc": null,
+   "weight_g": 193.0
+  }
+ },
+ "xiaomi-14-ultra": {
+  "agree": [
+   "weight_g"
+  ],
+  "differ": {},
+  "revid": 1382450223,
+  "title": "Xiaomi 14",
+  "url": "https://en.wikipedia.org/wiki/Xiaomi_14",
+  "wiki": {
+   "battery_mah": null,
+   "charge_w": 90.0,
+   "cover_screen_in": null,
+   "front": [],
+   "ram": [],
+   "rear": [],
+   "refresh_hz": null,
+   "release_date": "2024-02-22",
+   "screen_in": null,
+   "soc": null,
+   "weight_g": 224.4
+  }
+ },
+ "xiaomi-14t": {
+  "agree": [
+   "weight_g"
+  ],
+  "differ": {},
+  "revid": 1379528607,
+  "title": "Xiaomi 14T",
+  "url": "https://en.wikipedia.org/wiki/Xiaomi_14T",
+  "wiki": {
+   "battery_mah": null,
+   "charge_w": null,
+   "cover_screen_in": null,
+   "front": [],
+   "ram": [],
+   "rear": [],
+   "refresh_hz": null,
+   "release_date": null,
+   "screen_in": null,
+   "soc": "MediaTek Dimensity 8300 Ultra (4 nm)",
+   "weight_g": 195.0
+  }
+ },
+ "xiaomi-14t-pro": {
+  "agree": [
+   "weight_g"
+  ],
+  "differ": {},
+  "revid": 1379528607,
+  "title": "Xiaomi 14T",
+  "url": "https://en.wikipedia.org/wiki/Xiaomi_14T",
+  "wiki": {
+   "battery_mah": null,
+   "charge_w": null,
+   "cover_screen_in": null,
+   "front": [],
+   "ram": [
+    16
+   ],
+   "rear": [],
+   "refresh_hz": null,
+   "release_date": "2024-09-26",
+   "screen_in": null,
+   "soc": null,
+   "weight_g": 209.0
+  }
+ },
+ "xiaomi-15": {
+  "agree": [
+   "battery_mah",
+   "refresh_hz"
+  ],
+  "differ": {},
+  "revid": 1386892437,
+  "title": "Xiaomi 15",
+  "url": "https://en.wikipedia.org/wiki/Xiaomi_15",
+  "wiki": {
+   "battery_mah": 5240,
+   "charge_w": null,
+   "cover_screen_in": null,
+   "front": [],
+   "ram": [],
+   "rear": [],
+   "refresh_hz": 120,
+   "release_date": null,
+   "screen_in": null,
+   "soc": null,
+   "weight_g": null
+  }
+ },
+ "xiaomi-15-ultra": {
+  "agree": [
+   "battery_mah"
+  ],
+  "differ": {},
+  "revid": 1386892437,
+  "title": "Xiaomi 15",
+  "url": "https://en.wikipedia.org/wiki/Xiaomi_15",
+  "wiki": {
+   "battery_mah": 5410,
+   "charge_w": null,
+   "cover_screen_in": null,
+   "front": [],
+   "ram": [],
+   "rear": [],
+   "refresh_hz": null,
+   "release_date": "2025-02-27",
+   "screen_in": null,
+   "soc": null,
+   "weight_g": null
+  }
+ },
+ "xiaomi-15t": {
+  "agree": [
+   "weight_g",
+   "refresh_hz"
+  ],
+  "differ": {},
+  "revid": 1384179189,
+  "title": "Xiaomi 15T",
+  "url": "https://en.wikipedia.org/wiki/Xiaomi_15T",
+  "wiki": {
+   "battery_mah": null,
+   "charge_w": 67.0,
+   "cover_screen_in": null,
+   "front": [],
+   "ram": [],
+   "rear": [],
+   "refresh_hz": 120,
+   "release_date": null,
+   "screen_in": null,
+   "soc": "MediaTek Dimensity 8400-Ultra (4 nm)",
+   "weight_g": 194.0
+  }
+ },
+ "xiaomi-15t-pro": {
+  "agree": [
+   "weight_g",
+   "refresh_hz"
+  ],
+  "differ": {},
+  "revid": 1384179189,
+  "title": "Xiaomi 15T",
+  "url": "https://en.wikipedia.org/wiki/Xiaomi_15T",
+  "wiki": {
+   "battery_mah": null,
+   "charge_w": 90.0,
+   "cover_screen_in": null,
+   "front": [],
+   "ram": [],
+   "rear": [],
+   "refresh_hz": 144,
+   "release_date": null,
+   "screen_in": null,
+   "soc": "MediaTek Dimensity 9400+ (4 nm)",
+   "weight_g": 210.0
+  }
+ },
+ "xiaomi-17": {
+  "agree": [
+   "battery_mah",
+   "weight_g",
+   "refresh_hz"
+  ],
+  "differ": {},
+  "revid": 1383640293,
+  "title": "Xiaomi 17",
+  "url": "https://en.wikipedia.org/wiki/Xiaomi_17",
+  "wiki": {
+   "battery_mah": 6330,
+   "charge_w": 100.0,
+   "cover_screen_in": null,
+   "front": [
+    {
+     "af": "pdaf",
+     "aperture": 2.2,
+     "focal_mm": 21.0,
+     "format": null,
+     "mp": 50.0,
+     "ois": false,
+     "role": "front"
+    }
+   ],
+   "ram": [
+    12,
+    16
+   ],
+   "rear": [],
+   "refresh_hz": 120,
+   "release_date": null,
+   "screen_in": null,
+   "soc": "Qualcomm SM8850-AC Snapdragon 8 Elite Gen 5 (3 nm)",
+   "weight_g": 191.0
+  }
+ },
+ "xiaomi-17-pro": {
+  "agree": [
+   "refresh_hz"
+  ],
+  "differ": {},
+  "revid": 1383640344,
+  "title": "Xiaomi 17 Pro",
+  "url": "https://en.wikipedia.org/wiki/Xiaomi_17_Pro",
+  "wiki": {
+   "battery_mah": null,
+   "charge_w": null,
+   "cover_screen_in": null,
+   "front": [],
+   "ram": [],
+   "rear": [],
+   "refresh_hz": 120,
+   "release_date": null,
+   "screen_in": null,
+   "soc": null,
+   "weight_g": null
+  }
+ },
+ "xiaomi-17-ultra": {
+  "agree": [
+   "battery_mah"
+  ],
+  "differ": {},
+  "revid": 1383640293,
+  "title": "Xiaomi 17",
+  "url": "https://en.wikipedia.org/wiki/Xiaomi_17",
+  "wiki": {
+   "battery_mah": 6000,
+   "charge_w": 100.0,
+   "cover_screen_in": null,
+   "front": [
+    {
+     "af": "pdaf",
+     "aperture": 2.2,
+     "focal_mm": 21.0,
+     "format": null,
+     "mp": 50.0,
+     "ois": false,
+     "role": "front"
+    }
+   ],
+   "ram": [
+    12,
+    16
+   ],
+   "rear": [],
+   "refresh_hz": null,
+   "release_date": "2025-12-25",
+   "screen_in": null,
+   "soc": "Qualcomm SM8850-AC Snapdragon 8 Elite Gen 5 (3 nm)",
+   "weight_g": null
+  }
+ },
+ "xiaomi-17t": {
+  "agree": [
+   "battery_mah"
+  ],
+  "differ": {},
+  "revid": 1379528787,
+  "title": "Xiaomi 17T",
+  "url": "https://en.wikipedia.org/wiki/Xiaomi_17T",
+  "wiki": {
+   "battery_mah": 6500,
+   "charge_w": 67.0,
+   "cover_screen_in": null,
+   "front": [],
+   "ram": [
+    8,
+    12
+   ],
+   "rear": [],
+   "refresh_hz": null,
+   "release_date": null,
+   "screen_in": null,
+   "soc": "Mediatek Dimensity 8500 Ultra (4 nm)",
+   "weight_g": null
+  }
+ },
+ "xiaomi-17t-pro": {
+  "agree": [
+   "battery_mah"
+  ],
+  "differ": {},
+  "revid": 1379528787,
+  "title": "Xiaomi 17T",
+  "url": "https://en.wikipedia.org/wiki/Xiaomi_17T",
+  "wiki": {
+   "battery_mah": 7000,
+   "charge_w": 100.0,
+   "cover_screen_in": null,
+   "front": [],
+   "ram": [
+    12,
+    16
+   ],
+   "rear": [],
+   "refresh_hz": null,
+   "release_date": null,
+   "screen_in": null,
+   "soc": "Mediatek Dimensity 9500 (3 nm)",
+   "weight_g": null
+  }
+ },
+ "xiaomi-18-fold": {
+  "agree": [
+   "battery_mah",
+   "weight_g",
+   "screen_in",
+   "refresh_hz"
+  ],
+  "differ": {},
+  "revid": 1385839286,
+  "title": "Xiaomi 18 Fold",
+  "url": "https://en.wikipedia.org/wiki/Xiaomi_18_Fold",
+  "wiki": {
+   "battery_mah": 6000,
+   "charge_w": 67.0,
+   "cover_screen_in": 5.38,
+   "front": [
+    {
+     "af": null,
+     "aperture": 2.2,
+     "focal_mm": 21.0,
+     "format": null,
+     "mp": 16.0,
+     "ois": false,
+     "role": "front"
+    }
+   ],
+   "ram": [
+    16
+   ],
+   "rear": [
+    {
+     "af": "pdaf",
+     "aperture": 1.7,
+     "focal_mm": 23.0,
+     "format": "1/1.56",
+     "mp": 200.0,
+     "ois": true,
+     "role": "main"
+    },
+    {
+     "af": "pdaf",
+     "aperture": 2.8,
+     "focal_mm": 80.0,
+     "format": null,
+     "mp": 50.0,
+     "ois": true,
+     "role": "tele"
+    },
+    {
+     "af": null,
+     "aperture": 2.4,
+     "focal_mm": 17.0,
+     "format": null,
+     "mp": 50.0,
+     "ois": false,
+     "role": "ultrawide"
+    }
+   ],
+   "refresh_hz": 120,
+   "release_date": "2026-09-07",
+   "screen_in": 7.58,
+   "soc": "Xring O3 chip",
+   "weight_g": 219.0
+  }
+ },
+ "xiaomi-mix-fold-2": {
+  "agree": [
+   "battery_mah",
+   "weight_g",
+   "screen_in",
+   "refresh_hz"
+  ],
+  "differ": {},
+  "revid": 1361537628,
+  "title": "Xiaomi Mix Fold 2",
+  "url": "https://en.wikipedia.org/wiki/Xiaomi_Mix_Fold_2",
+  "wiki": {
+   "battery_mah": 4500,
+   "charge_w": 67.0,
+   "cover_screen_in": 6.56,
+   "front": [
+    {
+     "af": null,
+     "aperture": null,
+     "focal_mm": 27.0,
+     "format": "1/3.4",
+     "mp": 20.0,
+     "ois": false,
+     "role": "front"
+    }
+   ],
+   "ram": [
+    12
+   ],
+   "rear": [
+    {
+     "af": "pdaf",
+     "aperture": 1.8,
+     "focal_mm": null,
+     "format": "1/1.56",
+     "mp": 50.0,
+     "ois": true,
+     "role": "main"
+    },
+    {
+     "af": "dual_pixel",
+     "aperture": 2.6,
+     "focal_mm": 45.0,
+     "format": null,
+     "mp": 8.0,
+     "ois": false,
+     "role": "tele"
+    },
+    {
+     "af": null,
+     "aperture": 2.4,
+     "focal_mm": 15.0,
+     "format": null,
+     "mp": 13.0,
+     "ois": false,
+     "role": "ultrawide"
+    }
+   ],
+   "refresh_hz": 120,
+   "release_date": "2022-08-11",
+   "screen_in": 8.02,
+   "soc": "Qualcomm Snapdragon 8+ Gen 1 (4 nm)",
+   "weight_g": 262.0
+  }
+ },
+ "xiaomi-mix-fold-3": {
+  "agree": [
+   "battery_mah",
+   "weight_g",
+   "screen_in",
+   "refresh_hz"
+  ],
+  "differ": {},
+  "revid": 1383640360,
+  "title": "Xiaomi Mix Fold 3",
+  "url": "https://en.wikipedia.org/wiki/Xiaomi_Mix_Fold_3",
+  "wiki": {
+   "battery_mah": 4800,
+   "charge_w": 67.0,
+   "cover_screen_in": null,
+   "front": [
+    {
+     "af": null,
+     "aperture": null,
+     "focal_mm": 23.0,
+     "format": null,
+     "mp": 20.0,
+     "ois": false,
+     "role": "front"
+    }
+   ],
+   "ram": [
+    12,
+    16
+   ],
+   "rear": [
+    {
+     "af": "pdaf",
+     "aperture": null,
+     "focal_mm": 23.0,
+     "format": "1/1.49",
+     "mp": 50.0,
+     "ois": true,
+     "role": "main"
+    },
+    {
+     "af": null,
+     "aperture": null,
+     "focal_mm": 75.0,
+     "format": null,
+     "mp": 10.0,
+     "ois": true,
+     "role": "tele"
+    },
+    {
+     "af": null,
+     "aperture": null,
+     "focal_mm": 115.0,
+     "format": null,
+     "mp": 10.0,
+     "ois": true,
+     "role": "periscope"
+    },
+    {
+     "af": null,
+     "aperture": null,
+     "focal_mm": 15.0,
+     "format": null,
+     "mp": 12.0,
+     "ois": false,
+     "role": "ultrawide"
+    }
+   ],
+   "refresh_hz": 120,
+   "release_date": "2023-08-14",
+   "screen_in": 8.03,
+   "soc": "Qualcomm Snapdragon 8 Gen 2 (4 nm)",
+   "weight_g": 255.0
+  }
+ },
+ "xiaomi-mix-fold-4": {
+  "agree": [
+   "battery_mah",
+   "weight_g",
+   "screen_in",
+   "refresh_hz"
+  ],
+  "differ": {},
+  "revid": 1383640402,
+  "title": "Xiaomi Mix Fold 4",
+  "url": "https://en.wikipedia.org/wiki/Xiaomi_Mix_Fold_4",
+  "wiki": {
+   "battery_mah": 5100,
+   "charge_w": 67.0,
+   "cover_screen_in": 6.56,
+   "front": [
+    {
+     "af": null,
+     "aperture": null,
+     "focal_mm": null,
+     "format": null,
+     "mp": 16.0,
+     "ois": false,
+     "role": "front"
+    },
+    {
+     "af": null,
+     "aperture": null,
+     "focal_mm": null,
+     "format": null,
+     "mp": 16.0,
+     "ois": false,
+     "role": "front"
+    }
+   ],
+   "ram": [
+    12,
+    16
+   ],
+   "rear": [
+    {
+     "af": "pdaf",
+     "aperture": 1.7,
+     "focal_mm": 23.0,
+     "format": "1/1.49",
+     "mp": 50.0,
+     "ois": true,
+     "role": "main"
+    },
+    {
+     "af": "pdaf",
+     "aperture": 2.0,
+     "focal_mm": 47.0,
+     "format": null,
+     "mp": 50.0,
+     "ois": true,
+     "role": "tele"
+    },
+    {
+     "af": "pdaf",
+     "aperture": 2.9,
+     "focal_mm": 115.0,
+     "format": null,
+     "mp": 10.0,
+     "ois": true,
+     "role": "periscope"
+    },
+    {
+     "af": null,
+     "aperture": 2.2,
+     "focal_mm": 15.0,
+     "format": null,
+     "mp": 12.0,
+     "ois": false,
+     "role": "ultrawide"
+    }
+   ],
+   "refresh_hz": 120,
+   "release_date": null,
+   "screen_in": 7.98,
+   "soc": "Qualcomm SM8650-AB Snapdragon 8 Gen 3 (4 nm)",
+   "weight_g": 226.0
+  }
+ },
+ "xiaomi-redmi-10c": {
+  "agree": [],
+  "differ": {},
+  "revid": 1361479737,
+  "title": "Redmi 10C",
+  "url": "https://en.wikipedia.org/wiki/Redmi_10C",
+  "wiki": {
+   "battery_mah": null,
+   "charge_w": null,
+   "cover_screen_in": null,
+   "front": [],
+   "ram": [],
+   "rear": [],
+   "refresh_hz": null,
+   "release_date": null,
+   "screen_in": null,
+   "soc": null,
+   "weight_g": null
+  }
+ },
+ "xiaomi-redmi-12": {
+  "agree": [],
+  "differ": {},
+  "revid": 1361479745,
+  "title": "Redmi 12",
+  "url": "https://en.wikipedia.org/wiki/Redmi_12",
+  "wiki": {
+   "battery_mah": null,
+   "charge_w": null,
+   "cover_screen_in": null,
+   "front": [],
+   "ram": [],
+   "rear": [],
+   "refresh_hz": null,
+   "release_date": null,
+   "screen_in": null,
+   "soc": null,
+   "weight_g": null
+  }
+ },
+ "xiaomi-redmi-12c": {
+  "agree": [],
+  "differ": {},
+  "revid": 1361479751,
+  "title": "Redmi 12C",
+  "url": "https://en.wikipedia.org/wiki/Redmi_12C",
+  "wiki": {
+   "battery_mah": null,
+   "charge_w": null,
+   "cover_screen_in": null,
+   "front": [],
+   "ram": [],
+   "rear": [],
+   "refresh_hz": null,
+   "release_date": null,
+   "screen_in": null,
+   "soc": null,
+   "weight_g": null
+  }
+ },
+ "xiaomi-redmi-13": {
+  "agree": [],
+  "differ": {},
+  "revid": 1365486694,
+  "title": "Redmi 13",
+  "url": "https://en.wikipedia.org/wiki/Redmi_13",
+  "wiki": {
+   "battery_mah": null,
+   "charge_w": null,
+   "cover_screen_in": null,
+   "front": [],
+   "ram": [],
+   "rear": [],
+   "refresh_hz": null,
+   "release_date": null,
+   "screen_in": null,
+   "soc": null,
+   "weight_g": null
+  }
+ },
+ "xiaomi-redmi-13c": {
+  "agree": [],
+  "differ": {},
+  "revid": 1386295897,
+  "title": "Redmi 13C",
+  "url": "https://en.wikipedia.org/wiki/Redmi_13C",
+  "wiki": {
+   "battery_mah": null,
+   "charge_w": null,
+   "cover_screen_in": null,
+   "front": [],
+   "ram": [],
+   "rear": [],
+   "refresh_hz": null,
+   "release_date": null,
+   "screen_in": null,
+   "soc": null,
+   "weight_g": null
+  }
+ },
+ "xiaomi-redmi-15": {
+  "agree": [],
+  "differ": {},
+  "revid": 1386968644,
+  "title": "Redmi 15",
+  "url": "https://en.wikipedia.org/wiki/Redmi_15",
+  "wiki": {
+   "battery_mah": null,
+   "charge_w": null,
+   "cover_screen_in": null,
+   "front": [],
+   "ram": [],
+   "rear": [],
+   "refresh_hz": null,
+   "release_date": null,
+   "screen_in": null,
+   "soc": null,
+   "weight_g": null
+  }
+ },
+ "xiaomi-redmi-15c": {
+  "agree": [],
+  "differ": {},
+  "revid": 1376107688,
+  "title": "Redmi 15C",
+  "url": "https://en.wikipedia.org/wiki/Redmi_15C",
+  "wiki": {
+   "battery_mah": null,
+   "charge_w": null,
+   "cover_screen_in": null,
+   "front": [],
+   "ram": [],
+   "rear": [],
+   "refresh_hz": null,
+   "release_date": null,
+   "screen_in": null,
+   "soc": null,
+   "weight_g": null
+  }
+ },
+ "xiaomi-redmi-a2": {
+  "agree": [],
+  "differ": {},
+  "revid": 1380116591,
+  "title": "Redmi A2",
+  "url": "https://en.wikipedia.org/wiki/Redmi_A2",
+  "wiki": {
+   "battery_mah": null,
+   "charge_w": null,
+   "cover_screen_in": null,
+   "front": [],
+   "ram": [],
+   "rear": [],
+   "refresh_hz": null,
+   "release_date": null,
+   "screen_in": null,
+   "soc": null,
+   "weight_g": null
+  }
+ },
+ "xiaomi-redmi-a3": {
+  "agree": [],
+  "differ": {},
+  "revid": 1369347369,
+  "title": "Redmi A3",
+  "url": "https://en.wikipedia.org/wiki/Redmi_A3",
+  "wiki": {
+   "battery_mah": null,
+   "charge_w": null,
+   "cover_screen_in": null,
+   "front": [],
+   "ram": [],
+   "rear": [],
+   "refresh_hz": null,
+   "release_date": null,
+   "screen_in": null,
+   "soc": null,
+   "weight_g": null
+  }
+ },
+ "xiaomi-redmi-k70": {
+  "agree": [],
+  "differ": {},
+  "revid": 1369772866,
+  "title": "Redmi K70",
+  "url": "https://en.wikipedia.org/wiki/Redmi_K70",
+  "wiki": {
+   "battery_mah": null,
+   "charge_w": null,
+   "cover_screen_in": null,
+   "front": [],
+   "ram": [],
+   "rear": [],
+   "refresh_hz": null,
+   "release_date": null,
+   "screen_in": null,
+   "soc": null,
+   "weight_g": null
+  }
+ },
+ "xiaomi-redmi-note-11": {
+  "agree": [],
+  "differ": {},
+  "revid": 1361480317,
+  "title": "Redmi Note 11",
+  "url": "https://en.wikipedia.org/wiki/Redmi_Note_11",
+  "wiki": {
+   "battery_mah": null,
+   "charge_w": null,
+   "cover_screen_in": null,
+   "front": [],
+   "ram": [
+    6
+   ],
+   "rear": [],
+   "refresh_hz": null,
+   "release_date": null,
+   "screen_in": null,
+   "soc": "Qualcomm Snapdragon 680 4G (6 nm)",
+   "weight_g": null
+  }
+ },
+ "xiaomi-redmi-note-12": {
+  "agree": [
+   "weight_g",
+   "screen_in",
+   "refresh_hz"
+  ],
+  "differ": {},
+  "revid": 1361480321,
+  "title": "Redmi Note 12",
+  "url": "https://en.wikipedia.org/wiki/Redmi_Note_12",
+  "wiki": {
+   "battery_mah": null,
+   "charge_w": null,
+   "cover_screen_in": null,
+   "front": [],
+   "ram": [],
+   "rear": [
+    {
+     "af": "pdaf",
+     "aperture": 1.8,
+     "focal_mm": null,
+     "format": null,
+     "mp": 50.0,
+     "ois": false,
+     "role": "main"
+    },
+    {
+     "af": null,
+     "aperture": 2.2,
+     "focal_mm": null,
+     "format": "1/4",
+     "mp": 8.0,
+     "ois": false,
+     "role": "ultrawide"
+    },
+    {
+     "af": null,
+     "aperture": 2.4,
+     "focal_mm": null,
+     "format": null,
+     "mp": 2.0,
+     "ois": false,
+     "role": "macro"
+    }
+   ],
+   "refresh_hz": 120,
+   "release_date": "2023-03-15",
+   "screen_in": 6.67,
+   "soc": "Qualcomm Snapdragon 685 (6 nm)",
+   "weight_g": 183.5
+  }
+ },
+ "xiaomi-redmi-note-13": {
+  "agree": [
+   "weight_g"
+  ],
+  "differ": {},
+  "revid": 1361327689,
+  "title": "Redmi Note 13",
+  "url": "https://en.wikipedia.org/wiki/Redmi_Note_13",
+  "wiki": {
+   "battery_mah": null,
+   "charge_w": null,
+   "cover_screen_in": null,
+   "front": [],
+   "ram": [
+    8
+   ],
+   "rear": [],
+   "refresh_hz": null,
+   "release_date": null,
+   "screen_in": null,
+   "soc": "Qualcomm Snapdragon 685 (6 nm)",
+   "weight_g": 188.5
+  }
+ }
+}

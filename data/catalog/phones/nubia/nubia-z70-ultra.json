@@ -5,62 +5,62 @@
   "full_name": "nubia Z70 Ultra",
   "aliases": [],
   "os": "Android",
-  "release_date": null,
-  "year": 2025,
+  "release_date": "2024-11",
+  "year": 2024,
   "status": "on_sale",
   "availability_ru": "official",
   "form_factor": "bar",
   "in_ml": true,
-  "chipset": "demo-soc-2900",
+  "chipset": "snapdragon-8-elite",
   "specs": {
     "screen_in": 6.85,
     "cover_screen_in": null,
     "refresh_hz": 144,
-    "display_type": null,
-    "peak_nits": null,
+    "display_type": "AMOLED",
+    "peak_nits": 2000,
     "battery_mah": 6150,
-    "charge_w": 80.0,
-    "wireless_w": null,
-    "weight_g": 247.0,
-    "thickness_mm": null,
-    "ip_rating": null,
+    "charge_w": 80,
+    "wireless_w": 0,
+    "weight_g": 247,
+    "thickness_mm": 8.6,
+    "ip_rating": "IP69",
     "has_5g": true,
     "nfc": true,
     "esim": false,
     "ir_port": false,
-    "jack35": null,
-    "sd_card": null,
-    "update_years": null,
+    "jack35": false,
+    "sd_card": false,
+    "update_years": 3,
     "_q": "estimated",
     "_src": [
-      "project_seed"
+      "ai_knowledge"
     ]
   },
   "variants": [
+    {
+      "ram_gb": 12,
+      "rom_gb": 256,
+      "price_rub": 47324,
+      "price_date": "2026-11-19",
+      "price_src": "telegram_polzaskidki",
+      "msrp_usd": null,
+      "is_base": false,
+      "_q": "verified",
+      "_src": [
+        "telegram_polzaskidki:t.me/polzaSKIDKI/32960"
+      ]
+    },
     {
       "ram_gb": 16,
       "rom_gb": 512,
       "price_rub": 36835,
       "price_date": "2026-11-05",
-      "price_src": "project_seed",
+      "price_src": "telegram_polzaskidki",
       "msrp_usd": null,
       "is_base": true,
-      "_q": "estimated",
+      "_q": "verified",
       "_src": [
-        "project_seed"
-      ]
-    },
-    {
-      "ram_gb": 24,
-      "rom_gb": 1024,
-      "price_rub": 44990,
-      "price_date": "2026-11-20",
-      "price_src": "random",
-      "msrp_usd": null,
-      "is_base": false,
-      "_q": "random",
-      "_src": [
-        "random"
+        "telegram_polzaskidki:t.me/polzaSKIDKI/31636"
       ]
     }
   ],
@@ -68,124 +68,102 @@
     {
       "role": "main",
       "position": 0,
-      "sensor": "demo-s20",
+      "sensor": "sony-imx906",
       "mp": 50,
-      "aperture": 1.8,
-      "focal_mm": 23,
-      "fov_deg": 86,
+      "aperture": 1.59,
+      "focal_mm": 35,
+      "fov_deg": null,
       "optical_zoom_x": null,
-      "ois": false,
+      "ois": true,
       "af": "pdaf",
       "min_focus_cm": null,
-      "video_max": "4K30",
-      "processing_score": 61,
-      "processing_basis": "random",
-      "_q": "random",
+      "video_max": null,
+      "processing_score": 74,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "ai_knowledge"
       ]
     },
     {
       "role": "ultrawide",
       "position": 0,
-      "sensor": "demo-s20",
+      "sensor": null,
       "mp": 50,
-      "aperture": 2.2,
-      "focal_mm": 16,
-      "fov_deg": 119,
-      "optical_zoom_x": 0.6,
+      "aperture": 2,
+      "focal_mm": null,
+      "fov_deg": null,
+      "optical_zoom_x": null,
       "ois": false,
-      "af": "fixed",
+      "af": "pdaf",
       "min_focus_cm": null,
       "video_max": null,
-      "processing_score": 51,
-      "processing_basis": "random",
-      "_q": "random",
+      "processing_score": 58,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "ai_knowledge"
+      ]
+    },
+    {
+      "role": "periscope",
+      "position": 0,
+      "sensor": null,
+      "mp": 64,
+      "aperture": 2.48,
+      "focal_mm": 85,
+      "fov_deg": null,
+      "optical_zoom_x": 3.3,
+      "ois": true,
+      "af": "pdaf",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": 62,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
+      "_src": [
+        "ai_knowledge"
       ]
     },
     {
       "role": "front",
       "position": 0,
-      "sensor": "demo-s12",
-      "mp": 20,
-      "aperture": 2.1,
-      "focal_mm": 25,
-      "fov_deg": 89,
+      "sensor": null,
+      "mp": 16,
+      "aperture": 2,
+      "focal_mm": null,
+      "fov_deg": null,
       "optical_zoom_x": null,
       "ois": false,
       "af": "fixed",
       "min_focus_cm": null,
       "video_max": null,
-      "processing_score": 67,
-      "processing_basis": "random",
-      "_q": "random",
+      "processing_score": 42,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "ai_knowledge"
       ]
     }
   ],
   "camera_features": {
-    "macro_mode": "none",
+    "macro_mode": "ultrawide_af",
     "macro_min_focus_cm": null,
-    "lossless_zoom_x": 2.0,
-    "max_digital_zoom_x": 10,
+    "lossless_zoom_x": null,
+    "max_digital_zoom_x": 30,
     "dxomark": null,
-    "_q": "random",
+    "_q": "estimated",
     "_src": [
-      "random"
+      "ai_knowledge"
     ]
   },
-  "quirks": [
-    {
-      "code": "oversharpening",
-      "severity": 1,
-      "note_ru": "Демо: случайная особенность для проверки интерфейса.",
-      "evidence": [],
-      "_q": "random"
-    }
-  ],
+  "quirks": [],
   "quirks_checked": false,
   "special": [],
-  "photos": [
-    {
-      "url": "/placeholder/nubia-z70-ultra/1.svg",
-      "kind": "placeholder",
-      "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
-      "width": 960,
-      "height": 1280,
-      "origin": "placeholder"
-    },
-    {
-      "url": "/placeholder/nubia-z70-ultra/2.svg",
-      "kind": "placeholder",
-      "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
-      "width": 960,
-      "height": 1280,
-      "origin": "placeholder"
-    },
-    {
-      "url": "/placeholder/nubia-z70-ultra/3.svg",
-      "kind": "placeholder",
-      "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
-      "width": 960,
-      "height": 1280,
-      "origin": "placeholder"
-    }
-  ],
+  "photos": [],
   "_meta": {
-    "created": "2026-11-20",
-    "updated": "2026-11-20",
-    "filled_by": "tools/generate_random_catalog.py"
+    "created": "2026-11-21",
+    "updated": "2026-11-21",
+    "filled_by": "Claude Opus 5.5 (сведения до 2026-06) + tools/import_catalog_data.py"
   }
 }

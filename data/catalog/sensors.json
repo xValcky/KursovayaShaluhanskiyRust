@@ -1,414 +1,236 @@
 [
   {
-    "slug": "demo-s01",
-    "name": "DEMO-S01 (2 МП, 1/5″)",
-    "vendor": "Демо",
-    "mp": 2,
-    "size_inch": "1/5",
+    "slug": "sony-lyt-900",
+    "name": "Sony LYT-900",
+    "vendor": "Sony",
+    "mp": 50,
+    "size_inch": "1",
     "diag_mm": null,
-    "pixel_um": 1.57,
+    "pixel_um": 1.6,
     "tech": [
-      "dcg",
-      "quad_bayer"
-    ],
-    "_q": "random",
-    "_src": [
-      "random"
-    ]
-  },
-  {
-    "slug": "demo-s02",
-    "name": "DEMO-S02 (5 МП, 1/5″)",
-    "vendor": "Демо",
-    "mp": 5,
-    "size_inch": "1/5",
-    "diag_mm": null,
-    "pixel_um": 0.99,
-    "tech": [
+      "quad_bayer",
       "dcg"
     ],
-    "_q": "random",
+    "_q": "estimated",
     "_src": [
-      "random"
+      "ai_knowledge"
     ]
   },
   {
-    "slug": "demo-s03",
-    "name": "DEMO-S03 (8 МП, 1/4.4″)",
-    "vendor": "Демо",
-    "mp": 8,
-    "size_inch": "1/4.4",
-    "diag_mm": null,
-    "pixel_um": 0.89,
-    "tech": [
-      "stacked"
-    ],
-    "_q": "random",
-    "_src": [
-      "random"
-    ]
-  },
-  {
-    "slug": "demo-s04",
-    "name": "DEMO-S04 (8 МП, 1/4″)",
-    "vendor": "Демо",
-    "mp": 8,
-    "size_inch": "1/4",
-    "diag_mm": null,
-    "pixel_um": 0.98,
-    "tech": [],
-    "_q": "random",
-    "_src": [
-      "random"
-    ]
-  },
-  {
-    "slug": "demo-s05",
-    "name": "DEMO-S05 (10 МП, 1/3.94″)",
-    "vendor": "Демо",
-    "mp": 10,
-    "size_inch": "1/3.94",
-    "diag_mm": null,
-    "pixel_um": 0.89,
-    "tech": [
-      "stacked"
-    ],
-    "_q": "random",
-    "_src": [
-      "random"
-    ]
-  },
-  {
-    "slug": "demo-s06",
-    "name": "DEMO-S06 (12 МП, 1/3.6″)",
-    "vendor": "Демо",
-    "mp": 12,
-    "size_inch": "1/3.6",
-    "diag_mm": null,
-    "pixel_um": 0.89,
-    "tech": [
-      "lofic"
-    ],
-    "_q": "random",
-    "_src": [
-      "random"
-    ]
-  },
-  {
-    "slug": "demo-s07",
-    "name": "DEMO-S07 (12 МП, 1/3.5″)",
-    "vendor": "Демо",
-    "mp": 12,
-    "size_inch": "1/3.5",
-    "diag_mm": null,
-    "pixel_um": 0.91,
-    "tech": [
-      "hdr_dol"
-    ],
-    "_q": "random",
-    "_src": [
-      "random"
-    ]
-  },
-  {
-    "slug": "demo-s08",
-    "name": "DEMO-S08 (12 МП, 1/2.55″)",
-    "vendor": "Демо",
-    "mp": 12,
-    "size_inch": "1/2.55",
-    "diag_mm": null,
-    "pixel_um": 1.25,
-    "tech": [
-      "lofic",
-      "quad_bayer"
-    ],
-    "_q": "random",
-    "_src": [
-      "random"
-    ]
-  },
-  {
-    "slug": "demo-s09",
-    "name": "DEMO-S09 (12 МП, 1/1.76″)",
-    "vendor": "Демо",
-    "mp": 12,
-    "size_inch": "1/1.76",
-    "diag_mm": null,
-    "pixel_um": 1.82,
-    "tech": [],
-    "_q": "random",
-    "_src": [
-      "random"
-    ]
-  },
-  {
-    "slug": "demo-s10",
-    "name": "DEMO-S10 (13 МП, 1/3.1″)",
-    "vendor": "Демо",
-    "mp": 13,
-    "size_inch": "1/3.1",
-    "diag_mm": null,
-    "pixel_um": 0.99,
-    "tech": [
-      "lofic"
-    ],
-    "_q": "random",
-    "_src": [
-      "random"
-    ]
-  },
-  {
-    "slug": "demo-s11",
-    "name": "DEMO-S11 (16 МП, 1/3.1″)",
-    "vendor": "Демо",
-    "mp": 16,
-    "size_inch": "1/3.1",
-    "diag_mm": null,
-    "pixel_um": 0.89,
-    "tech": [
-      "quad_bayer"
-    ],
-    "_q": "random",
-    "_src": [
-      "random"
-    ]
-  },
-  {
-    "slug": "demo-s12",
-    "name": "DEMO-S12 (20 МП, 1/3″)",
-    "vendor": "Демо",
-    "mp": 20,
-    "size_inch": "1/3",
-    "diag_mm": null,
-    "pixel_um": 0.83,
-    "tech": [
-      "dcg",
-      "stacked"
-    ],
-    "_q": "random",
-    "_src": [
-      "random"
-    ]
-  },
-  {
-    "slug": "demo-s13",
-    "name": "DEMO-S13 (32 МП, 1/3.14″)",
-    "vendor": "Демо",
-    "mp": 32,
-    "size_inch": "1/3.14",
-    "diag_mm": null,
-    "pixel_um": 0.62,
-    "tech": [],
-    "_q": "random",
-    "_src": [
-      "random"
-    ]
-  },
-  {
-    "slug": "demo-s14",
-    "name": "DEMO-S14 (32 МП, 1/2.8″)",
-    "vendor": "Демо",
-    "mp": 32,
-    "size_inch": "1/2.8",
-    "diag_mm": null,
-    "pixel_um": 0.7,
-    "tech": [
-      "dcg"
-    ],
-    "_q": "random",
-    "_src": [
-      "random"
-    ]
-  },
-  {
-    "slug": "demo-s15",
-    "name": "DEMO-S15 (48 МП, 1/2″)",
-    "vendor": "Демо",
-    "mp": 48,
-    "size_inch": "1/2",
-    "diag_mm": null,
-    "pixel_um": 0.8,
-    "tech": [
-      "dcg",
-      "quad_bayer"
-    ],
-    "_q": "random",
-    "_src": [
-      "random"
-    ]
-  },
-  {
-    "slug": "demo-s16",
-    "name": "DEMO-S16 (48 МП, 1/1.56″)",
-    "vendor": "Демо",
-    "mp": 48,
-    "size_inch": "1/1.56",
-    "diag_mm": null,
-    "pixel_um": 1.03,
-    "tech": [
-      "quad_bayer"
-    ],
-    "_q": "random",
-    "_src": [
-      "random"
-    ]
-  },
-  {
-    "slug": "demo-s17",
-    "name": "DEMO-S17 (48 МП, 1/1.28″)",
-    "vendor": "Демо",
-    "mp": 48,
-    "size_inch": "1/1.28",
-    "diag_mm": null,
-    "pixel_um": 1.25,
-    "tech": [
-      "quad_bayer"
-    ],
-    "_q": "random",
-    "_src": [
-      "random"
-    ]
-  },
-  {
-    "slug": "demo-s18",
-    "name": "DEMO-S18 (50 МП, 1/2.88″)",
-    "vendor": "Демо",
-    "mp": 50,
-    "size_inch": "1/2.88",
-    "diag_mm": null,
-    "pixel_um": 0.54,
-    "tech": [
-      "lofic",
-      "quad_bayer",
-      "stacked"
-    ],
-    "_q": "random",
-    "_src": [
-      "random"
-    ]
-  },
-  {
-    "slug": "demo-s19",
-    "name": "DEMO-S19 (50 МП, 1/2.76″)",
-    "vendor": "Демо",
-    "mp": 50,
-    "size_inch": "1/2.76",
-    "diag_mm": null,
-    "pixel_um": 0.57,
-    "tech": [
-      "dcg",
-      "quad_bayer",
-      "stacked"
-    ],
-    "_q": "random",
-    "_src": [
-      "random"
-    ]
-  },
-  {
-    "slug": "demo-s20",
-    "name": "DEMO-S20 (50 МП, 1/1.95″)",
-    "vendor": "Демо",
-    "mp": 50,
-    "size_inch": "1/1.95",
-    "diag_mm": null,
-    "pixel_um": 0.8,
-    "tech": [
-      "hdr_dol",
-      "quad_bayer"
-    ],
-    "_q": "random",
-    "_src": [
-      "random"
-    ]
-  },
-  {
-    "slug": "demo-s21",
-    "name": "DEMO-S21 (50 МП, 1/1.56″)",
-    "vendor": "Демо",
-    "mp": 50,
-    "size_inch": "1/1.56",
-    "diag_mm": null,
-    "pixel_um": 1.0,
-    "tech": [
-      "quad_bayer"
-    ],
-    "_q": "random",
-    "_src": [
-      "random"
-    ]
-  },
-  {
-    "slug": "demo-s22",
-    "name": "DEMO-S22 (50 МП, 1/1.3″)",
-    "vendor": "Демо",
-    "mp": 50,
-    "size_inch": "1/1.3",
-    "diag_mm": null,
-    "pixel_um": 1.21,
-    "tech": [
-      "quad_bayer"
-    ],
-    "_q": "random",
-    "_src": [
-      "random"
-    ]
-  },
-  {
-    "slug": "demo-s23",
-    "name": "DEMO-S23 (50 МП, 1/1.28″)",
-    "vendor": "Демо",
+    "slug": "sony-lyt-828",
+    "name": "Sony LYT-828",
+    "vendor": "Sony",
     "mp": 50,
     "size_inch": "1/1.28",
     "diag_mm": null,
     "pixel_um": 1.22,
     "tech": [
       "quad_bayer",
-      "stacked"
+      "dcg"
     ],
-    "_q": "random",
+    "_q": "estimated",
     "_src": [
-      "random"
+      "ai_knowledge"
     ]
   },
   {
-    "slug": "demo-s24",
-    "name": "DEMO-S24 (50 МП, 1″)",
-    "vendor": "Демо",
+    "slug": "sony-lyt-818",
+    "name": "Sony LYT-818",
+    "vendor": "Sony",
     "mp": 50,
+    "size_inch": "1/1.28",
+    "diag_mm": null,
+    "pixel_um": 1.22,
+    "tech": [
+      "quad_bayer",
+      "dcg"
+    ],
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge"
+    ]
+  },
+  {
+    "slug": "sony-lyt-808",
+    "name": "Sony LYT-808",
+    "vendor": "Sony",
+    "mp": 50,
+    "size_inch": "1/1.4",
+    "diag_mm": null,
+    "pixel_um": 1.12,
+    "tech": [
+      "quad_bayer",
+      "dcg"
+    ],
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge"
+    ]
+  },
+  {
+    "slug": "sony-lyt-800",
+    "name": "Sony LYT-800",
+    "vendor": "Sony",
+    "mp": 50,
+    "size_inch": "1/1.56",
+    "diag_mm": null,
+    "pixel_um": 1,
+    "tech": [
+      "quad_bayer"
+    ],
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge"
+    ]
+  },
+  {
+    "slug": "sony-lyt-700",
+    "name": "Sony LYT-700",
+    "vendor": "Sony",
+    "mp": 50,
+    "size_inch": "1/1.56",
+    "diag_mm": null,
+    "pixel_um": 1,
+    "tech": [
+      "quad_bayer"
+    ],
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge"
+    ]
+  },
+  {
+    "slug": "sony-lyt-600",
+    "name": "Sony LYT-600",
+    "vendor": "Sony",
+    "mp": 50,
+    "size_inch": "1/1.95",
+    "diag_mm": null,
+    "pixel_um": 0.8,
+    "tech": [
+      "quad_bayer"
+    ],
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge"
+    ]
+  },
+  {
+    "slug": "sony-imx989",
+    "name": "Sony IMX989",
+    "vendor": "Sony",
+    "mp": 50.3,
     "size_inch": "1",
     "diag_mm": null,
-    "pixel_um": 1.57,
+    "pixel_um": 1.6,
     "tech": [
-      "dcg",
       "quad_bayer"
     ],
-    "_q": "random",
+    "_q": "estimated",
     "_src": [
-      "random"
+      "ai_knowledge"
     ]
   },
   {
-    "slug": "demo-s25",
-    "name": "DEMO-S25 (64 МП, 1/2″)",
-    "vendor": "Демо",
-    "mp": 64,
-    "size_inch": "1/2",
+    "slug": "sony-imx906",
+    "name": "Sony IMX906",
+    "vendor": "Sony",
+    "mp": 50,
+    "size_inch": "1/1.56",
     "diag_mm": null,
-    "pixel_um": 0.69,
+    "pixel_um": 1,
     "tech": [
-      "dcg",
       "quad_bayer"
     ],
-    "_q": "random",
+    "_q": "estimated",
     "_src": [
-      "random"
+      "ai_knowledge"
     ]
   },
   {
-    "slug": "demo-s26",
-    "name": "DEMO-S26 (64 МП, 1/1.73″)",
-    "vendor": "Демо",
+    "slug": "sony-imx890",
+    "name": "Sony IMX890",
+    "vendor": "Sony",
+    "mp": 50,
+    "size_inch": "1/1.56",
+    "diag_mm": null,
+    "pixel_um": 1,
+    "tech": [
+      "quad_bayer"
+    ],
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge"
+    ]
+  },
+  {
+    "slug": "sony-imx882",
+    "name": "Sony IMX882",
+    "vendor": "Sony",
+    "mp": 50,
+    "size_inch": "1/1.95",
+    "diag_mm": null,
+    "pixel_um": 0.8,
+    "tech": [
+      "quad_bayer"
+    ],
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge"
+    ]
+  },
+  {
+    "slug": "sony-imx858",
+    "name": "Sony IMX858",
+    "vendor": "Sony",
+    "mp": 50,
+    "size_inch": "1/2.51",
+    "diag_mm": null,
+    "pixel_um": 0.7,
+    "tech": [
+      "quad_bayer"
+    ],
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge"
+    ]
+  },
+  {
+    "slug": "sony-imx766",
+    "name": "Sony IMX766",
+    "vendor": "Sony",
+    "mp": 50,
+    "size_inch": "1/1.56",
+    "diag_mm": null,
+    "pixel_um": 1,
+    "tech": [
+      "quad_bayer"
+    ],
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge"
+    ]
+  },
+  {
+    "slug": "sony-imx707",
+    "name": "Sony IMX707",
+    "vendor": "Sony",
+    "mp": 50,
+    "size_inch": "1/1.28",
+    "diag_mm": null,
+    "pixel_um": 1.22,
+    "tech": [
+      "quad_bayer"
+    ],
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge"
+    ]
+  },
+  {
+    "slug": "sony-imx787",
+    "name": "Sony IMX787",
+    "vendor": "Sony",
     "mp": 64,
     "size_inch": "1/1.73",
     "diag_mm": null,
@@ -416,110 +238,386 @@
     "tech": [
       "quad_bayer"
     ],
-    "_q": "random",
+    "_q": "estimated",
     "_src": [
-      "random"
+      "ai_knowledge"
     ]
   },
   {
-    "slug": "demo-s27",
-    "name": "DEMO-S27 (100 МП, 1/1.67″)",
-    "vendor": "Демо",
-    "mp": 100,
-    "size_inch": "1/1.67",
+    "slug": "sony-imx586",
+    "name": "Sony IMX586",
+    "vendor": "Sony",
+    "mp": 48,
+    "size_inch": "1/2",
     "diag_mm": null,
-    "pixel_um": 0.66,
+    "pixel_um": 0.8,
     "tech": [
-      "quad_bayer",
-      "stacked"
+      "quad_bayer"
     ],
-    "_q": "random",
+    "_q": "estimated",
     "_src": [
-      "random"
+      "ai_knowledge"
     ]
   },
   {
-    "slug": "demo-s28",
-    "name": "DEMO-S28 (108 МП, 1/1.67″)",
-    "vendor": "Демо",
-    "mp": 108,
-    "size_inch": "1/1.67",
+    "slug": "sony-imx582",
+    "name": "Sony IMX582",
+    "vendor": "Sony",
+    "mp": 48,
+    "size_inch": "1/2",
+    "diag_mm": null,
+    "pixel_um": 0.8,
+    "tech": [
+      "quad_bayer"
+    ],
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge"
+    ]
+  },
+  {
+    "slug": "sony-imx363",
+    "name": "Sony IMX363",
+    "vendor": "Sony",
+    "mp": 12.2,
+    "size_inch": "1/2.55",
+    "diag_mm": null,
+    "pixel_um": 1.4,
+    "tech": [
+      "dual_pixel_pro"
+    ],
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge"
+    ]
+  },
+  {
+    "slug": "sony-imx355",
+    "name": "Sony IMX355",
+    "vendor": "Sony",
+    "mp": 8,
+    "size_inch": "1/4",
+    "diag_mm": null,
+    "pixel_um": 1.12,
+    "tech": [],
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge"
+    ]
+  },
+  {
+    "slug": "sony-imx615",
+    "name": "Sony IMX615",
+    "vendor": "Sony",
+    "mp": 32,
+    "size_inch": "1/2.8",
+    "diag_mm": null,
+    "pixel_um": 0.8,
+    "tech": [
+      "quad_bayer"
+    ],
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge"
+    ]
+  },
+  {
+    "slug": "sony-imx616",
+    "name": "Sony IMX616",
+    "vendor": "Sony",
+    "mp": 32,
+    "size_inch": "1/2.8",
+    "diag_mm": null,
+    "pixel_um": 0.8,
+    "tech": [
+      "quad_bayer"
+    ],
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge"
+    ]
+  },
+  {
+    "slug": "sony-imx471",
+    "name": "Sony IMX471",
+    "vendor": "Sony",
+    "mp": 16,
+    "size_inch": "1/3.06",
+    "diag_mm": null,
+    "pixel_um": 1,
+    "tech": [],
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge"
+    ]
+  },
+  {
+    "slug": "samsung-isocell-hp1",
+    "name": "Samsung ISOCELL HP1",
+    "vendor": "Samsung",
+    "mp": 200,
+    "size_inch": "1/1.22",
     "diag_mm": null,
     "pixel_um": 0.64,
     "tech": [
-      "dcg",
-      "quad_bayer"
+      "tetra2pixel"
     ],
-    "_q": "random",
+    "_q": "estimated",
     "_src": [
-      "random"
+      "ai_knowledge"
     ]
   },
   {
-    "slug": "demo-s29",
-    "name": "DEMO-S29 (108 МП, 1/1.52″)",
-    "vendor": "Демо",
-    "mp": 108,
-    "size_inch": "1/1.52",
-    "diag_mm": null,
-    "pixel_um": 0.7,
-    "tech": [
-      "dcg",
-      "quad_bayer"
-    ],
-    "_q": "random",
-    "_src": [
-      "random"
-    ]
-  },
-  {
-    "slug": "demo-s30",
-    "name": "DEMO-S30 (200 МП, 1/1.56″)",
-    "vendor": "Демо",
+    "slug": "samsung-isocell-hp2",
+    "name": "Samsung ISOCELL HP2",
+    "vendor": "Samsung",
     "mp": 200,
-    "size_inch": "1/1.56",
+    "size_inch": "1/1.3",
     "diag_mm": null,
-    "pixel_um": 0.5,
+    "pixel_um": 0.6,
     "tech": [
-      "hdr_dol",
-      "quad_bayer"
+      "tetra2pixel"
     ],
-    "_q": "random",
+    "_q": "estimated",
     "_src": [
-      "random"
+      "ai_knowledge"
     ]
   },
   {
-    "slug": "demo-s31",
-    "name": "DEMO-S31 (200 МП, 1/1.4″)",
-    "vendor": "Демо",
+    "slug": "samsung-isocell-hp3",
+    "name": "Samsung ISOCELL HP3",
+    "vendor": "Samsung",
     "mp": 200,
     "size_inch": "1/1.4",
     "diag_mm": null,
     "pixel_um": 0.56,
     "tech": [
-      "dcg",
-      "quad_bayer"
+      "tetra2pixel"
     ],
-    "_q": "random",
+    "_q": "estimated",
     "_src": [
-      "random"
+      "ai_knowledge"
     ]
   },
   {
-    "slug": "demo-s32",
-    "name": "DEMO-S32 (200 МП, 1/1.12″)",
-    "vendor": "Демо",
+    "slug": "samsung-isocell-hp9",
+    "name": "Samsung ISOCELL HP9",
+    "vendor": "Samsung",
     "mp": 200,
-    "size_inch": "1/1.12",
+    "size_inch": "1/1.4",
+    "diag_mm": null,
+    "pixel_um": 0.56,
+    "tech": [
+      "tetra2pixel"
+    ],
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge"
+    ]
+  },
+  {
+    "slug": "samsung-isocell-hm6",
+    "name": "Samsung ISOCELL HM6",
+    "vendor": "Samsung",
+    "mp": 108,
+    "size_inch": "1/1.67",
+    "diag_mm": null,
+    "pixel_um": 0.64,
+    "tech": [
+      "nonacell"
+    ],
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge"
+    ]
+  },
+  {
+    "slug": "samsung-isocell-hm3",
+    "name": "Samsung ISOCELL HM3",
+    "vendor": "Samsung",
+    "mp": 108,
+    "size_inch": "1/1.33",
+    "diag_mm": null,
+    "pixel_um": 0.8,
+    "tech": [
+      "nonacell"
+    ],
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge"
+    ]
+  },
+  {
+    "slug": "samsung-isocell-hm2",
+    "name": "Samsung ISOCELL HM2",
+    "vendor": "Samsung",
+    "mp": 108,
+    "size_inch": "1/1.52",
+    "diag_mm": null,
+    "pixel_um": 0.7,
+    "tech": [
+      "nonacell"
+    ],
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge"
+    ]
+  },
+  {
+    "slug": "samsung-isocell-gn1",
+    "name": "Samsung ISOCELL GN1",
+    "vendor": "Samsung",
+    "mp": 50,
+    "size_inch": "1/1.31",
+    "diag_mm": null,
+    "pixel_um": 1.2,
+    "tech": [
+      "dual_pixel_pro"
+    ],
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge"
+    ]
+  },
+  {
+    "slug": "samsung-isocell-gnk",
+    "name": "Samsung ISOCELL GNK",
+    "vendor": "Samsung",
+    "mp": 50,
+    "size_inch": "1/1.31",
+    "diag_mm": null,
+    "pixel_um": 1.2,
+    "tech": [
+      "dual_pixel_pro"
+    ],
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge"
+    ]
+  },
+  {
+    "slug": "samsung-isocell-gn3",
+    "name": "Samsung ISOCELL GN3",
+    "vendor": "Samsung",
+    "mp": 50,
+    "size_inch": "1/1.57",
+    "diag_mm": null,
+    "pixel_um": 1,
+    "tech": [
+      "dual_pixel_pro"
+    ],
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge"
+    ]
+  },
+  {
+    "slug": "samsung-isocell-jn1",
+    "name": "Samsung ISOCELL JN1",
+    "vendor": "Samsung",
+    "mp": 50,
+    "size_inch": "1/2.76",
+    "diag_mm": null,
+    "pixel_um": 0.64,
+    "tech": [
+      "tetra2pixel"
+    ],
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge"
+    ]
+  },
+  {
+    "slug": "samsung-isocell-jn5",
+    "name": "Samsung ISOCELL JN5",
+    "vendor": "Samsung",
+    "mp": 50,
+    "size_inch": "1/2.76",
+    "diag_mm": null,
+    "pixel_um": 0.64,
+    "tech": [],
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge"
+    ]
+  },
+  {
+    "slug": "omnivision-ov50h",
+    "name": "OmniVision OV50H",
+    "vendor": "OmniVision",
+    "mp": 50,
+    "size_inch": "1/1.3",
+    "diag_mm": null,
+    "pixel_um": 1.2,
+    "tech": [
+      "quad_bayer",
+      "dcg"
+    ],
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge"
+    ]
+  },
+  {
+    "slug": "omnivision-ov50e",
+    "name": "OmniVision OV50E",
+    "vendor": "OmniVision",
+    "mp": 50,
+    "size_inch": "1/1.55",
+    "diag_mm": null,
+    "pixel_um": 1,
+    "tech": [
+      "quad_bayer"
+    ],
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge"
+    ]
+  },
+  {
+    "slug": "omnivision-ov64b",
+    "name": "OmniVision OV64B",
+    "vendor": "OmniVision",
+    "mp": 64,
+    "size_inch": "1/2",
     "diag_mm": null,
     "pixel_um": 0.7,
     "tech": [
       "quad_bayer"
     ],
-    "_q": "random",
+    "_q": "estimated",
     "_src": [
-      "random"
+      "ai_knowledge"
+    ]
+  },
+  {
+    "slug": "omnivision-ovx9000",
+    "name": "OmniVision OVX9000",
+    "vendor": "OmniVision",
+    "mp": 50,
+    "size_inch": "1/1.31",
+    "diag_mm": null,
+    "pixel_um": 1.2,
+    "tech": [
+      "dcg"
+    ],
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge"
+    ]
+  },
+  {
+    "slug": "omnivision-ov13b",
+    "name": "OmniVision OV13B",
+    "vendor": "OmniVision",
+    "mp": 13,
+    "size_inch": "1/3.06",
+    "diag_mm": null,
+    "pixel_um": 1.12,
+    "tech": [],
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge"
     ]
   }
 ]

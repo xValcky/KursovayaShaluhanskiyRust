@@ -5,35 +5,35 @@
   "full_name": "Samsung Galaxy A05s",
   "aliases": [],
   "os": "Android",
-  "release_date": null,
+  "release_date": "2023-10",
   "year": 2023,
   "status": "on_sale",
   "availability_ru": "parallel_import",
   "form_factor": "bar",
   "in_ml": true,
-  "chipset": "demo-soc-250",
+  "chipset": "snapdragon-680",
   "specs": {
     "screen_in": 6.7,
     "cover_screen_in": null,
     "refresh_hz": 90,
-    "display_type": null,
+    "display_type": "PLS LCD",
     "peak_nits": null,
     "battery_mah": 5000,
-    "charge_w": 25.0,
-    "wireless_w": null,
-    "weight_g": 194.0,
-    "thickness_mm": null,
+    "charge_w": 25,
+    "wireless_w": 0,
+    "weight_g": 194,
+    "thickness_mm": 8.8,
     "ip_rating": null,
     "has_5g": false,
-    "nfc": true,
+    "nfc": false,
     "esim": false,
     "ir_port": false,
-    "jack35": null,
-    "sd_card": null,
-    "update_years": null,
+    "jack35": true,
+    "sd_card": true,
+    "update_years": 4,
     "_q": "estimated",
     "_src": [
-      "project_seed"
+      "ai_knowledge"
     ]
   },
   "variants": [
@@ -53,27 +53,27 @@
     {
       "ram_gb": 4,
       "rom_gb": 128,
-      "price_rub": 11990,
-      "price_date": "2026-11-20",
-      "price_src": "random",
+      "price_rub": 11190,
+      "price_date": null,
+      "price_src": "price_model",
       "msrp_usd": null,
       "is_base": false,
-      "_q": "random",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "price_model"
       ]
     },
     {
       "ram_gb": 6,
-      "rom_gb": 256,
-      "price_rub": 13990,
-      "price_date": "2026-11-20",
-      "price_src": "random",
+      "rom_gb": 128,
+      "price_rub": 11390,
+      "price_date": null,
+      "price_src": "price_model",
       "msrp_usd": null,
       "is_base": false,
-      "_q": "random",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "price_model"
       ]
     }
   ],
@@ -81,124 +81,136 @@
     {
       "role": "main",
       "position": 0,
-      "sensor": "demo-s21",
+      "sensor": null,
       "mp": 50,
-      "aperture": 1.9,
-      "focal_mm": 25,
-      "fov_deg": 81,
+      "aperture": 1.8,
+      "focal_mm": null,
+      "fov_deg": null,
       "optical_zoom_x": null,
       "ois": false,
       "af": "pdaf",
       "min_focus_cm": null,
-      "video_max": "1080p30",
-      "processing_score": 59,
-      "processing_basis": "random",
-      "_q": "random",
+      "video_max": null,
+      "processing_score": 46,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "ai_knowledge"
       ]
     },
     {
-      "role": "ultrawide",
+      "role": "depth",
       "position": 0,
-      "sensor": "demo-s08",
-      "mp": 12,
-      "aperture": 2.2,
-      "focal_mm": 15,
-      "fov_deg": 112,
-      "optical_zoom_x": 0.6,
+      "sensor": null,
+      "mp": 2,
+      "aperture": 2.4,
+      "focal_mm": null,
+      "fov_deg": null,
+      "optical_zoom_x": null,
       "ois": false,
       "af": "fixed",
       "min_focus_cm": null,
       "video_max": null,
-      "processing_score": 53,
-      "processing_basis": "random",
-      "_q": "random",
+      "processing_score": null,
+      "processing_basis": null,
+      "_q": "estimated",
       "_src": [
-        "random"
+        "ai_knowledge"
+      ]
+    },
+    {
+      "role": "macro",
+      "position": 0,
+      "sensor": null,
+      "mp": 2,
+      "aperture": 2.4,
+      "focal_mm": null,
+      "fov_deg": null,
+      "optical_zoom_x": null,
+      "ois": false,
+      "af": "fixed",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": 18,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
+      "_src": [
+        "ai_knowledge"
       ]
     },
     {
       "role": "front",
       "position": 0,
-      "sensor": "demo-s11",
-      "mp": 16,
-      "aperture": 2.3,
-      "focal_mm": 25,
-      "fov_deg": 83,
+      "sensor": null,
+      "mp": 13,
+      "aperture": 2,
+      "focal_mm": null,
+      "fov_deg": null,
       "optical_zoom_x": null,
       "ois": false,
       "af": "fixed",
       "min_focus_cm": null,
       "video_max": null,
-      "processing_score": 42,
-      "processing_basis": "random",
-      "_q": "random",
+      "processing_score": 44,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "ai_knowledge"
       ]
     }
   ],
   "camera_features": {
-    "macro_mode": "none",
+    "macro_mode": "dedicated",
     "macro_min_focus_cm": null,
-    "lossless_zoom_x": 2.0,
-    "max_digital_zoom_x": 8,
+    "lossless_zoom_x": null,
+    "max_digital_zoom_x": 10,
     "dxomark": null,
-    "_q": "random",
+    "_q": "estimated",
     "_src": [
-      "random"
+      "ai_knowledge"
     ]
   },
-  "quirks": [
-    {
-      "code": "bloatware",
-      "severity": 1,
-      "note_ru": "Демо: случайная особенность для проверки интерфейса.",
-      "evidence": [],
-      "_q": "random"
-    }
-  ],
+  "quirks": [],
   "quirks_checked": false,
   "special": [],
   "photos": [
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Samsung_Galaxy_A05s_2024.jpg/960px-Samsung_Galaxy_A05s_2024.jpg",
-      "kind": "angle",
+      "kind": "lifestyle",
       "color_ru": null,
       "author": "Captainmorlypogi1959",
       "license": "CC BY-SA 4.0",
       "source_page": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_A05s_2024.jpg",
-      "width": null,
+      "width": 960,
       "height": null,
       "origin": "wikimedia"
     },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Samsung_Galaxy_A05s_2024_%281%29.jpg/960px-Samsung_Galaxy_A05s_2024_%281%29.jpg",
-      "kind": "angle",
+      "kind": "lifestyle",
       "color_ru": null,
       "author": "Captainmorlypogi1959",
       "license": "CC BY-SA 4.0",
       "source_page": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_A05s_2024_(1).jpg",
-      "width": null,
+      "width": 960,
       "height": null,
       "origin": "wikimedia"
     },
     {
-      "url": "/placeholder/samsung-galaxy-a05s/3.svg",
-      "kind": "placeholder",
+      "author": "Captainmorlypogi1959",
       "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
-      "width": 960,
-      "height": 1280,
-      "origin": "placeholder"
+      "height": 1693,
+      "kind": "lifestyle",
+      "license": "CC BY-SA 4.0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_A05s_2024_(1)_(cropped).jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Samsung_Galaxy_A05s_2024_%281%29_%28cropped%29.jpg/960px-Samsung_Galaxy_A05s_2024_%281%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
     }
   ],
   "_meta": {
-    "created": "2026-11-20",
-    "updated": "2026-11-20",
-    "filled_by": "tools/generate_random_catalog.py"
+    "created": "2026-11-21",
+    "updated": "2026-11-21",
+    "filled_by": "Claude Opus 5.5 (сведения до 2026-06) + tools/import_catalog_data.py"
   }
 }

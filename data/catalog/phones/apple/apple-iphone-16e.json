@@ -5,35 +5,36 @@
   "full_name": "Apple iPhone 16e",
   "aliases": [],
   "os": "iOS",
-  "release_date": null,
+  "release_date": "2025-02-28",
   "year": 2025,
   "status": "on_sale",
   "availability_ru": "parallel_import",
   "form_factor": "bar",
   "in_ml": true,
-  "chipset": "demo-soc-1500",
+  "chipset": "apple-a18",
   "specs": {
     "screen_in": 6.1,
     "cover_screen_in": null,
     "refresh_hz": 60,
-    "display_type": null,
-    "peak_nits": null,
+    "display_type": "OLED",
+    "peak_nits": 1200,
     "battery_mah": 4005,
-    "charge_w": 20.0,
-    "wireless_w": null,
-    "weight_g": 167.0,
-    "thickness_mm": null,
-    "ip_rating": null,
+    "charge_w": 20,
+    "wireless_w": 7.5,
+    "weight_g": 167,
+    "thickness_mm": 7.8,
+    "ip_rating": "IP68",
     "has_5g": true,
     "nfc": true,
     "esim": true,
     "ir_port": false,
-    "jack35": null,
-    "sd_card": null,
+    "jack35": false,
+    "sd_card": false,
     "update_years": null,
-    "_q": "estimated",
+    "_q": "verified",
     "_src": [
-      "project_seed"
+      "wikipedia:IPhone_16e",
+      "ai_knowledge"
     ]
   },
   "variants": [
@@ -43,37 +44,40 @@
       "price_rub": 49990,
       "price_date": "2026-08-01",
       "price_src": "project_seed",
-      "msrp_usd": null,
+      "msrp_usd": 599,
       "is_base": true,
       "_q": "estimated",
       "_src": [
-        "project_seed"
+        "project_seed",
+        "ai_knowledge"
       ]
     },
     {
       "ram_gb": 8,
       "rom_gb": 256,
-      "price_rub": 58990,
-      "price_date": "2026-11-20",
-      "price_src": "random",
-      "msrp_usd": null,
+      "price_rub": 58290,
+      "price_date": null,
+      "price_src": "price_model",
+      "msrp_usd": 699,
       "is_base": false,
-      "_q": "random",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "price_model",
+        "ai_knowledge"
       ]
     },
     {
       "ram_gb": 8,
       "rom_gb": 512,
-      "price_rub": 66990,
-      "price_date": "2026-11-20",
-      "price_src": "random",
-      "msrp_usd": null,
+      "price_rub": 74990,
+      "price_date": null,
+      "price_src": "price_model",
+      "msrp_usd": 899,
       "is_base": false,
-      "_q": "random",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "price_model",
+        "ai_knowledge"
       ]
     }
   ],
@@ -81,122 +85,150 @@
     {
       "role": "main",
       "position": 0,
-      "sensor": "demo-s16",
+      "sensor": null,
       "mp": 48,
-      "aperture": 1.7,
+      "aperture": 1.6,
       "focal_mm": 26,
-      "fov_deg": 83,
+      "fov_deg": null,
       "optical_zoom_x": null,
       "ois": true,
-      "af": "pdaf",
+      "af": "dual_pixel",
       "min_focus_cm": null,
-      "video_max": "4K60",
-      "processing_score": 50,
-      "processing_basis": "random",
-      "_q": "random",
-      "_src": [
-        "random"
-      ]
-    },
-    {
-      "role": "ultrawide",
-      "position": 0,
-      "sensor": "demo-s18",
-      "mp": 50,
-      "aperture": 2.2,
-      "focal_mm": 13,
-      "fov_deg": 116,
-      "optical_zoom_x": 0.6,
-      "ois": false,
-      "af": "pdaf",
-      "min_focus_cm": 3,
       "video_max": null,
-      "processing_score": 74,
-      "processing_basis": "random",
-      "_q": "random",
+      "processing_score": 78,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "ai_knowledge"
       ]
     },
     {
       "role": "front",
       "position": 0,
-      "sensor": "demo-s13",
-      "mp": 32,
-      "aperture": 2.0,
+      "sensor": null,
+      "mp": 12,
+      "aperture": 1.9,
       "focal_mm": 23,
-      "fov_deg": 89,
+      "fov_deg": null,
       "optical_zoom_x": null,
       "ois": false,
-      "af": "fixed",
+      "af": "pdaf",
       "min_focus_cm": null,
       "video_max": null,
-      "processing_score": 71,
-      "processing_basis": "random",
-      "_q": "random",
+      "processing_score": 75,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "ai_knowledge"
       ]
     }
   ],
   "camera_features": {
-    "macro_mode": "ultrawide_af",
-    "macro_min_focus_cm": 3,
-    "lossless_zoom_x": null,
-    "max_digital_zoom_x": 8,
+    "macro_mode": "none",
+    "macro_min_focus_cm": null,
+    "lossless_zoom_x": 2,
+    "max_digital_zoom_x": 10,
     "dxomark": null,
-    "_q": "random",
+    "_q": "estimated",
     "_src": [
-      "random"
+      "ai_knowledge"
     ]
   },
-  "quirks": [],
+  "quirks": [
+    {
+      "code": "ai_limited_ru",
+      "severity": 2,
+      "note_ru": "Русского языка нет среди языков Apple Intelligence на странице поддержки Apple: в РФ функции недоступны без смены языка и региона.",
+      "evidence": [
+        "https://support.apple.com/en-us/121115"
+      ],
+      "_q": "verified"
+    }
+  ],
   "quirks_checked": false,
   "special": [
     {
+      "code": "satellite",
+      "note_ru": "Спутниковая связь (сообщения/вызовы); в РФ не работает.",
+      "_q": "estimated"
+    },
+    {
       "code": "compact",
-      "note_ru": null,
+      "note_ru": "Компактный моноблок с экраном до 6,1″.",
       "_q": "estimated"
     }
   ],
   "photos": [
     {
-      "url": "/placeholder/apple-iphone-16e/1.svg",
-      "kind": "placeholder",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/65/IPhone_16e.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "kind": "lifestyle",
       "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
+      "author": "Hinothi1",
+      "license": "CC BY-SA 4.0",
+      "source_page": "https://commons.wikimedia.org/wiki/File:IPhone_16e.png",
       "width": 960,
-      "height": 1280,
-      "origin": "placeholder"
+      "height": null,
+      "origin": "wikimedia"
     },
     {
-      "url": "/placeholder/apple-iphone-16e/2.svg",
-      "kind": "placeholder",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/IPhone_16e_Black.jpg/960px-IPhone_16e_Black.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "kind": "lifestyle",
       "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
+      "author": "Jakub CA",
+      "license": "CC BY 4.0",
+      "source_page": "https://commons.wikimedia.org/wiki/File:IPhone_16e_Black.jpg",
       "width": 960,
-      "height": 1280,
-      "origin": "placeholder"
+      "height": null,
+      "origin": "wikimedia"
     },
     {
-      "url": "/placeholder/apple-iphone-16e/3.svg",
-      "kind": "placeholder",
+      "author": "茅野ふたば",
       "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
-      "width": 960,
       "height": 1280,
-      "origin": "placeholder"
+      "kind": "front",
+      "license": "CC BY-SA 4.0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:IPhone_16e_black_front_view.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/IPhone_16e_black_front_view.jpg/960px-IPhone_16e_black_front_view.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
+    },
+    {
+      "author": "茅野ふたば",
+      "color_ru": null,
+      "height": 1280,
+      "kind": "back",
+      "license": "CC BY-SA 4.0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:IPhone_16e_black_rear_view.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/IPhone_16e_black_rear_view.jpg/960px-IPhone_16e_black_rear_view.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
+    },
+    {
+      "author": "Kyu3a",
+      "color_ru": null,
+      "height": 1280,
+      "kind": "back",
+      "license": "CC BY-SA 4.0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:IPhone_16e_back_side.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/IPhone_16e_back_side.jpg/960px-IPhone_16e_back_side.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
+    },
+    {
+      "author": "Captainmorlypogi1959",
+      "color_ru": null,
+      "height": 1280,
+      "kind": "lifestyle",
+      "license": "CC BY-SA 4.0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:IPhone_16e_2025.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/IPhone_16e_2025.jpg/960px-IPhone_16e_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
     }
   ],
   "_meta": {
-    "created": "2026-11-20",
-    "updated": "2026-11-20",
-    "filled_by": "tools/generate_random_catalog.py"
+    "created": "2026-11-21",
+    "updated": "2026-11-21",
+    "filled_by": "Claude Opus 5.5 (сведения до 2026-06) + tools/import_catalog_data.py"
   }
 }

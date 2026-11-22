@@ -735,6 +735,8 @@ const MACRO_RU = {dedicated: "макро-модуль", ultrawide_af: "макр�
 function camLine(r) {
   const c = r.camera;
   if (!c) return "";
+  if (c.overall == null) return `<div class="camline">Камеры: подробных данных пока нет
+    <div class="cbar"><div class="bar6"><b style="width:0"></b></div><span>оценки нет</span></div></div>`;
   const parts = [`${c.rear} ${c.rear === 1 ? "камера" : c.rear < 5 ? "камеры" : "камер"}`];
   if (c.optical_x > 1.05) parts.push(`опт. ${dec(c.optical_x, 1)}×`);
   if (c.digital_x) parts.push(`цифр. ${c.digital_x}×`);
@@ -1010,6 +1012,7 @@ const ROLE_RU = {main: "Основная", ultrawide: "Сверхширокоу�
   depth: "Датчик глубины", mono: "Монохромная", front: "Фронтальная", front_ultrawide: "Фронтальная широкая", cover: "Камера внешнего экрана"};
 const qtag = q => `<span class="qtag ${esc(q)}">${esc(Q_RU[q] || q)}</span>`;
 const SRC_RU = {project_seed: "база проекта", random: "демо-генератор", telegram_ishopper: "Telegram: ishopper",
+  ai_knowledge: "сведения нейросети (оценка)", price_model: "пересчёт от базовой конфигурации", wikipedia: "Wikipedia",
   telegram_polzaskidki: "Telegram: polzaskidki", yandex_market: "Яндекс Маркет", dns: "DNS", mvideo: "М.Видео",
   citilink: "Ситилинк", ozon: "Ozon", wildberries: "Wildberries", manufacturer: "производитель"};
 const srcText = s => s ? (SRC_RU[s] || s) : "—";
@@ -1135,7 +1138,7 @@ function dlgCameras(p) {
     <span>Без потерь: <b>${c.lossless_x ? dec(c.lossless_x, 1) + "×" : "—"}</b></span>
     <span>Цифровой: <b>${c.digital_x ? c.digital_x + "×" : "—"}</b></span>
     <span>Макро: <b>${MACRO_RU[c.macro] || "нет"}</b>${c.macro !== "none" ? ` (${c.macro_score}/100)` : ""}</span>
-    <span>Итог камер: <b>${c.overall}/100</b></span>${c.dxomark ? `<span>DXOMARK: <b>${c.dxomark}</b></span>` : ""} ${qtag(c.q)}</div>`;
+    <span>Итог камер: <b>${c.overall == null ? "нет оценки" : c.overall + "/100"}</b></span>${c.dxomark ? `<span>DXOMARK: <b>${c.dxomark}</b></span>` : ""} ${qtag(c.q)}</div>`;
   const bar = (cls, label, v) => `<div><span>${label}</span><div class="bar6 ${cls}"><b style="width:${v ?? 0}%"></b></div><em>${v ?? "—"}</em></div>`;
   return sum + `<div class="cams">${p.cameras.map(k => {
     const af = k.af && k.af !== "fixed" && k.af !== "none" ? `автофокус ${k.af}` : "фикс-фокус";
@@ -1273,6 +1276,13 @@ function renderError(e) {
   } catch (e) { renderError(e); return; }
   const m = META.metrics, cat = META.catalog || {};
   $("#lead").textContent = `${cat.phones_in_ml || META.phones} моделей в подборе, ${nf.format(cat.variants || 0)} конфигураций памяти, ${META.groups.length} групп. Отвечайте на вопросы — подборка обновляется сразу.`;
+  if (!cat.phones_with_random_data && META.version_name) {
+    const b = $("#demo-banner");
+    b.hidden = false;
+    b.innerHTML = `<b>Версия «${esc(META.version_name)}»</b> (${esc(META.version)}). <span>Характеристики, камеры и «приколы» —
+      сведения нейросети-исполнителя с пометкой «оценка»; сверенное со страницей источника (Wikipedia, сайт производителя,
+      пост с ценой) помечено «проверено» и даёт ссылку.</span>`;
+  }
   if (cat.phones_with_random_data) {
     const b = $("#demo-banner");
     b.hidden = false;
@@ -1280,7 +1290,7 @@ function renderError(e) {
       дополнительные конфигурации памяти и заглушки фото — случайные демо-числа для проверки интерфейса и структуры базы.
       Реальные данные заполняются по ТЗ (docs/ТЗ_БД_v2_промт_для_нейросети.md); у демо-данных стоит пометка «демо».</span>`;
   }
-  $("#foot").textContent = `Модель обучена ${META.trained_at.replace("T", " ")} на ${nf.format(m.surveys)} анкетах. Каталог: ${cat.phones} моделей, ${cat.cameras} модулей камер. Цены базовых конфигураций — из Telegram-каналов и маркетплейсов, автономность расчётная. Фото: Wikimedia Commons под свободными лицензиями (авторы указаны на фото) — у ${cat.phones_with_real_photo} моделей, у остальных демо-заглушки.`;
+  $("#foot").textContent = `Модель обучена ${META.trained_at.replace("T", " ")} на ${nf.format(m.surveys)} анкетах. Каталог: ${cat.phones} моделей, ${cat.cameras} модулей камер. Цены — из Telegram-каналов с датой (пометка «проверено») или оценкой, автономность расчётная. Фото: Wikimedia Commons под свободными лицензиями (авторы указаны на фото) — у ${cat.phones_with_real_photo} моделей, у остальных пока место для фото.`;
   state = defaults(); prioFromValues();
   buildForm(); syncForm(); request();
 })();

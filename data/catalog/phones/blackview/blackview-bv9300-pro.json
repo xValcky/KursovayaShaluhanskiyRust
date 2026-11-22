@@ -5,35 +5,35 @@
   "full_name": "Blackview BV9300 Pro",
   "aliases": [],
   "os": "Android",
-  "release_date": null,
+  "release_date": "2024-03",
   "year": 2024,
   "status": "on_sale",
   "availability_ru": "official",
   "form_factor": "rugged",
   "in_ml": true,
-  "chipset": "demo-soc-400",
+  "chipset": "helio-g99",
   "specs": {
     "screen_in": 6.7,
     "cover_screen_in": null,
     "refresh_hz": 120,
-    "display_type": null,
-    "peak_nits": null,
+    "display_type": "IPS LCD",
+    "peak_nits": 480,
     "battery_mah": 15080,
-    "charge_w": 33.0,
-    "wireless_w": null,
-    "weight_g": 495.0,
-    "thickness_mm": null,
-    "ip_rating": null,
+    "charge_w": 33,
+    "wireless_w": 0,
+    "weight_g": 495,
+    "thickness_mm": 20,
+    "ip_rating": "IP69",
     "has_5g": false,
     "nfc": true,
     "esim": false,
     "ir_port": false,
-    "jack35": null,
-    "sd_card": null,
-    "update_years": null,
+    "jack35": true,
+    "sd_card": true,
+    "update_years": 2,
     "_q": "estimated",
     "_src": [
-      "project_seed"
+      "ai_knowledge"
     ]
   },
   "variants": [
@@ -49,189 +49,82 @@
       "_src": [
         "project_seed"
       ]
-    },
-    {
-      "ram_gb": 16,
-      "rom_gb": 512,
-      "price_rub": 29990,
-      "price_date": "2026-11-20",
-      "price_src": "random",
-      "msrp_usd": null,
-      "is_base": false,
-      "_q": "random",
-      "_src": [
-        "random"
-      ]
-    },
-    {
-      "ram_gb": 24,
-      "rom_gb": 1024,
-      "price_rub": 35990,
-      "price_date": "2026-11-20",
-      "price_src": "random",
-      "msrp_usd": null,
-      "is_base": false,
-      "_q": "random",
-      "_src": [
-        "random"
-      ]
     }
   ],
   "cameras": [
     {
       "role": "main",
       "position": 0,
-      "sensor": "demo-s25",
+      "sensor": null,
       "mp": 64,
-      "aperture": 1.9,
-      "focal_mm": 23,
-      "fov_deg": 84,
+      "aperture": 1.8,
+      "focal_mm": null,
+      "fov_deg": null,
       "optical_zoom_x": null,
-      "ois": true,
-      "af": "pdaf",
-      "min_focus_cm": null,
-      "video_max": "4K60",
-      "processing_score": 68,
-      "processing_basis": "random",
-      "_q": "random",
-      "_src": [
-        "random"
-      ]
-    },
-    {
-      "role": "ultrawide",
-      "position": 0,
-      "sensor": "demo-s18",
-      "mp": 50,
-      "aperture": 2.0,
-      "focal_mm": 15,
-      "fov_deg": 115,
-      "optical_zoom_x": 0.6,
       "ois": false,
-      "af": "fixed",
-      "min_focus_cm": null,
-      "video_max": null,
-      "processing_score": 69,
-      "processing_basis": "random",
-      "_q": "random",
-      "_src": [
-        "random"
-      ]
-    },
-    {
-      "role": "tele",
-      "position": 0,
-      "sensor": "demo-s03",
-      "mp": 8,
-      "aperture": 2.4,
-      "focal_mm": 52,
-      "fov_deg": 44,
-      "optical_zoom_x": null,
-      "ois": true,
       "af": "pdaf",
       "min_focus_cm": null,
       "video_max": null,
-      "processing_score": 68,
-      "processing_basis": "random",
-      "_q": "random",
+      "processing_score": 44,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "ai_knowledge"
       ]
     },
     {
       "role": "front",
       "position": 0,
-      "sensor": "demo-s11",
-      "mp": 16,
-      "aperture": 2.2,
-      "focal_mm": 25,
-      "fov_deg": 82,
+      "sensor": null,
+      "mp": 32,
+      "aperture": 2,
+      "focal_mm": null,
+      "fov_deg": null,
       "optical_zoom_x": null,
       "ois": false,
       "af": "fixed",
       "min_focus_cm": null,
       "video_max": null,
-      "processing_score": 58,
-      "processing_basis": "random",
-      "_q": "random",
+      "processing_score": 38,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "ai_knowledge"
       ]
     }
   ],
   "camera_features": {
     "macro_mode": "none",
     "macro_min_focus_cm": null,
-    "lossless_zoom_x": 2.0,
-    "max_digital_zoom_x": 20,
+    "lossless_zoom_x": null,
+    "max_digital_zoom_x": 8,
     "dxomark": null,
-    "_q": "random",
+    "_q": "estimated",
     "_src": [
-      "random"
+      "ai_knowledge"
     ]
   },
   "quirks": [
     {
-      "code": "cool_running",
-      "severity": 1,
-      "note_ru": "Демо: случайная особенность для проверки интерфейса.",
-      "evidence": [],
-      "_q": "random"
-    },
-    {
-      "code": "yellow_tint",
+      "code": "excellent_battery",
       "severity": 3,
-      "note_ru": "Демо: случайная особенность для проверки интерфейса.",
+      "note_ru": "В тестах автономности держится заметно дольше конкурентов.",
       "evidence": [],
-      "_q": "random"
+      "_q": "estimated"
     }
   ],
   "quirks_checked": false,
   "special": [
     {
       "code": "rugged",
-      "note_ru": null,
+      "note_ru": "Защищённый корпус.",
       "_q": "estimated"
     }
   ],
-  "photos": [
-    {
-      "url": "/placeholder/blackview-bv9300-pro/1.svg",
-      "kind": "placeholder",
-      "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
-      "width": 960,
-      "height": 1280,
-      "origin": "placeholder"
-    },
-    {
-      "url": "/placeholder/blackview-bv9300-pro/2.svg",
-      "kind": "placeholder",
-      "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
-      "width": 960,
-      "height": 1280,
-      "origin": "placeholder"
-    },
-    {
-      "url": "/placeholder/blackview-bv9300-pro/3.svg",
-      "kind": "placeholder",
-      "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
-      "width": 960,
-      "height": 1280,
-      "origin": "placeholder"
-    }
-  ],
+  "photos": [],
   "_meta": {
-    "created": "2026-11-20",
-    "updated": "2026-11-20",
-    "filled_by": "tools/generate_random_catalog.py"
+    "created": "2026-11-21",
+    "updated": "2026-11-21",
+    "filled_by": "Claude Opus 5.5 (сведения до 2026-06) + tools/import_catalog_data.py"
   }
 }

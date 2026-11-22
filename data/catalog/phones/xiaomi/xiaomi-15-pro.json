@@ -1,0 +1,243 @@
+{
+  "slug": "xiaomi-15-pro",
+  "brand": "xiaomi",
+  "name": "Xiaomi 15 Pro",
+  "full_name": "Xiaomi 15 Pro",
+  "aliases": [],
+  "os": "Android",
+  "release_date": "2024-10",
+  "year": 2024,
+  "status": "china_only",
+  "availability_ru": "not_sold",
+  "form_factor": "bar",
+  "in_ml": false,
+  "chipset": "snapdragon-8-elite",
+  "specs": {
+    "screen_in": 6.73,
+    "cover_screen_in": null,
+    "refresh_hz": 120,
+    "display_type": "LTPO AMOLED",
+    "peak_nits": 3200,
+    "battery_mah": 6100,
+    "charge_w": 90,
+    "wireless_w": 50,
+    "weight_g": 213,
+    "thickness_mm": 8.35,
+    "ip_rating": "IP68",
+    "has_5g": true,
+    "nfc": true,
+    "esim": false,
+    "ir_port": true,
+    "jack35": false,
+    "sd_card": false,
+    "update_years": null,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge"
+    ]
+  },
+  "variants": [
+    {
+      "ram_gb": 12,
+      "rom_gb": 256,
+      "price_rub": null,
+      "price_date": null,
+      "price_src": null,
+      "msrp_usd": null,
+      "is_base": true,
+      "_q": "unknown",
+      "_src": []
+    },
+    {
+      "ram_gb": 16,
+      "rom_gb": 512,
+      "price_rub": null,
+      "price_date": null,
+      "price_src": null,
+      "msrp_usd": null,
+      "is_base": false,
+      "_q": "unknown",
+      "_src": []
+    },
+    {
+      "ram_gb": 16,
+      "rom_gb": 1024,
+      "price_rub": null,
+      "price_date": null,
+      "price_src": null,
+      "msrp_usd": null,
+      "is_base": false,
+      "_q": "unknown",
+      "_src": []
+    }
+  ],
+  "cameras": [
+    {
+      "role": "main",
+      "position": 0,
+      "sensor": null,
+      "mp": 50,
+      "aperture": 1.44,
+      "focal_mm": 23,
+      "fov_deg": null,
+      "optical_zoom_x": null,
+      "ois": true,
+      "af": "pdaf",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": 84,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
+      "_src": [
+        "ai_knowledge"
+      ]
+    },
+    {
+      "role": "ultrawide",
+      "position": 0,
+      "sensor": null,
+      "mp": 50,
+      "aperture": 2.2,
+      "focal_mm": 14,
+      "fov_deg": null,
+      "optical_zoom_x": null,
+      "ois": false,
+      "af": "pdaf",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": 72,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
+      "_src": [
+        "ai_knowledge"
+      ]
+    },
+    {
+      "role": "periscope",
+      "position": 0,
+      "sensor": null,
+      "mp": 50,
+      "aperture": 2.5,
+      "focal_mm": 120,
+      "fov_deg": null,
+      "optical_zoom_x": 5.0,
+      "ois": true,
+      "af": "pdaf",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": 80,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
+      "_src": [
+        "ai_knowledge"
+      ]
+    },
+    {
+      "role": "front",
+      "position": 0,
+      "sensor": null,
+      "mp": 32,
+      "aperture": 2,
+      "focal_mm": null,
+      "fov_deg": null,
+      "optical_zoom_x": null,
+      "ois": false,
+      "af": "fixed",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": 66,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
+      "_src": [
+        "ai_knowledge"
+      ]
+    }
+  ],
+  "camera_features": {
+    "macro_mode": "tele_macro",
+    "macro_min_focus_cm": 10,
+    "lossless_zoom_x": null,
+    "max_digital_zoom_x": 60,
+    "dxomark": null,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge"
+    ]
+  },
+  "quirks": [],
+  "quirks_checked": false,
+  "special": [],
+  "photos": [
+    {
+      "author": "茅野ふたば",
+      "color_ru": null,
+      "height": 720,
+      "kind": "lifestyle",
+      "license": "CC BY-SA 4.0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Xiaomi_15_Pro_(1).jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Xiaomi_15_Pro_%281%29.jpg/960px-Xiaomi_15_Pro_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
+    },
+    {
+      "author": "茅野ふたば",
+      "color_ru": null,
+      "height": 720,
+      "kind": "lifestyle",
+      "license": "CC BY-SA 4.0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Xiaomi_15_Pro_(2).jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Xiaomi_15_Pro_%282%29.jpg/960px-Xiaomi_15_Pro_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
+    },
+    {
+      "author": "メイド理世",
+      "color_ru": null,
+      "height": 1280,
+      "kind": "lifestyle",
+      "license": "CC BY-SA 2.0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Xiaomi_15_(54239550348).jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Xiaomi_15_%2854239550348%29.jpg/960px-Xiaomi_15_%2854239550348%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
+    },
+    {
+      "author": "メイド理世",
+      "color_ru": null,
+      "height": 1280,
+      "kind": "lifestyle",
+      "license": "CC BY-SA 2.0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Xiaomi_15_(54238413562).jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Xiaomi_15_%2854238413562%29.jpg/960px-Xiaomi_15_%2854238413562%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
+    },
+    {
+      "author": "メイド理世",
+      "color_ru": null,
+      "height": 1280,
+      "kind": "lifestyle",
+      "license": "CC BY-SA 2.0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Xiaomi_15_(54239541799).jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Xiaomi_15_%2854239541799%29.jpg/960px-Xiaomi_15_%2854239541799%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
+    },
+    {
+      "author": "メイド理世",
+      "color_ru": null,
+      "height": 1280,
+      "kind": "lifestyle",
+      "license": "CC BY-SA 2.0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Xiaomi_15_(54238413592).jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Xiaomi_15_%2854238413592%29.jpg/960px-Xiaomi_15_%2854238413592%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
+    }
+  ],
+  "_meta": {
+    "created": "2026-11-21",
+    "updated": "2026-11-21",
+    "filled_by": "Claude Opus 5.5 (сведения до 2026-06) + tools/import_catalog_data.py"
+  }
+}

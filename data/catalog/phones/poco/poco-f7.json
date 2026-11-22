@@ -5,35 +5,35 @@
   "full_name": "POCO F7",
   "aliases": [],
   "os": "Android",
-  "release_date": null,
+  "release_date": "2025-06",
   "year": 2025,
   "status": "on_sale",
   "availability_ru": "official",
   "form_factor": "bar",
   "in_ml": true,
-  "chipset": "demo-soc-2000",
+  "chipset": "snapdragon-8s-gen-4",
   "specs": {
     "screen_in": 6.83,
     "cover_screen_in": null,
     "refresh_hz": 120,
-    "display_type": null,
-    "peak_nits": null,
+    "display_type": "AMOLED",
+    "peak_nits": 3200,
     "battery_mah": 7550,
-    "charge_w": 90.0,
-    "wireless_w": null,
-    "weight_g": 215.0,
-    "thickness_mm": null,
-    "ip_rating": null,
+    "charge_w": 90,
+    "wireless_w": 0,
+    "weight_g": 215,
+    "thickness_mm": 7.98,
+    "ip_rating": "IP68",
     "has_5g": true,
     "nfc": true,
     "esim": false,
     "ir_port": true,
-    "jack35": null,
-    "sd_card": null,
-    "update_years": null,
+    "jack35": false,
+    "sd_card": false,
+    "update_years": 4,
     "_q": "estimated",
     "_src": [
-      "project_seed"
+      "ai_knowledge"
     ]
   },
   "variants": [
@@ -53,27 +53,14 @@
     {
       "ram_gb": 12,
       "rom_gb": 512,
-      "price_rub": 38990,
-      "price_date": "2026-11-20",
-      "price_src": "random",
+      "price_rub": 36890,
+      "price_date": null,
+      "price_src": "price_model",
       "msrp_usd": null,
       "is_base": false,
-      "_q": "random",
+      "_q": "estimated",
       "_src": [
-        "random"
-      ]
-    },
-    {
-      "ram_gb": 16,
-      "rom_gb": 1024,
-      "price_rub": 45990,
-      "price_date": "2026-11-20",
-      "price_src": "random",
-      "msrp_usd": null,
-      "is_base": false,
-      "_q": "random",
-      "_src": [
-        "random"
+        "price_model"
       ]
     }
   ],
@@ -81,104 +68,97 @@
     {
       "role": "main",
       "position": 0,
-      "sensor": "demo-s19",
+      "sensor": "sony-lyt-600",
       "mp": 50,
-      "aperture": 1.7,
-      "focal_mm": 25,
-      "fov_deg": 86,
+      "aperture": 1.5,
+      "focal_mm": null,
+      "fov_deg": null,
       "optical_zoom_x": null,
       "ois": true,
       "af": "pdaf",
       "min_focus_cm": null,
-      "video_max": "4K30",
-      "processing_score": 56,
-      "processing_basis": "random",
-      "_q": "random",
+      "video_max": null,
+      "processing_score": 62,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "ai_knowledge"
       ]
     },
     {
-      "role": "front",
+      "role": "ultrawide",
       "position": 0,
-      "sensor": "demo-s12",
-      "mp": 20,
-      "aperture": 2.1,
-      "focal_mm": 24,
-      "fov_deg": 86,
+      "sensor": null,
+      "mp": 8,
+      "aperture": 2.2,
+      "focal_mm": null,
+      "fov_deg": null,
       "optical_zoom_x": null,
       "ois": false,
       "af": "fixed",
       "min_focus_cm": null,
       "video_max": null,
-      "processing_score": 67,
-      "processing_basis": "random",
-      "_q": "random",
+      "processing_score": 40,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "ai_knowledge"
+      ]
+    },
+    {
+      "role": "front",
+      "position": 0,
+      "sensor": null,
+      "mp": 20,
+      "aperture": 2.2,
+      "focal_mm": null,
+      "fov_deg": null,
+      "optical_zoom_x": null,
+      "ois": false,
+      "af": "fixed",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": 48,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
+      "_src": [
+        "ai_knowledge"
       ]
     }
   ],
   "camera_features": {
     "macro_mode": "none",
     "macro_min_focus_cm": null,
-    "lossless_zoom_x": 2.0,
-    "max_digital_zoom_x": 8,
+    "lossless_zoom_x": null,
+    "max_digital_zoom_x": 10,
     "dxomark": null,
-    "_q": "random",
+    "_q": "estimated",
     "_src": [
-      "random"
+      "ai_knowledge"
     ]
   },
   "quirks": [
     {
-      "code": "no_google_services",
+      "code": "excellent_battery",
       "severity": 3,
-      "note_ru": "Демо: случайная особенность для проверки интерфейса.",
+      "note_ru": "В тестах автономности держится заметно дольше конкурентов.",
       "evidence": [],
-      "_q": "random"
+      "_q": "estimated"
+    },
+    {
+      "code": "bypass_charging",
+      "severity": 1,
+      "note_ru": "Питание в обход батареи в играх — меньше нагрев и износ.",
+      "evidence": [],
+      "_q": "estimated"
     }
   ],
   "quirks_checked": false,
   "special": [],
-  "photos": [
-    {
-      "url": "/placeholder/poco-f7/1.svg",
-      "kind": "placeholder",
-      "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
-      "width": 960,
-      "height": 1280,
-      "origin": "placeholder"
-    },
-    {
-      "url": "/placeholder/poco-f7/2.svg",
-      "kind": "placeholder",
-      "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
-      "width": 960,
-      "height": 1280,
-      "origin": "placeholder"
-    },
-    {
-      "url": "/placeholder/poco-f7/3.svg",
-      "kind": "placeholder",
-      "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
-      "width": 960,
-      "height": 1280,
-      "origin": "placeholder"
-    }
-  ],
+  "photos": [],
   "_meta": {
-    "created": "2026-11-20",
-    "updated": "2026-11-20",
-    "filled_by": "tools/generate_random_catalog.py"
+    "created": "2026-11-21",
+    "updated": "2026-11-21",
+    "filled_by": "Claude Opus 5.5 (сведения до 2026-06) + tools/import_catalog_data.py"
   }
 }

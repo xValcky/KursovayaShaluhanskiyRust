@@ -11,7 +11,7 @@
   "availability_ru": "official",
   "form_factor": "bar",
   "in_ml": true,
-  "chipset": "demo-soc-500",
+  "chipset": null,
   "specs": {
     "screen_in": 6.72,
     "cover_screen_in": null,
@@ -19,17 +19,17 @@
     "display_type": null,
     "peak_nits": null,
     "battery_mah": 7000,
-    "charge_w": 45.0,
+    "charge_w": 45,
     "wireless_w": null,
-    "weight_g": 200.0,
+    "weight_g": 200,
     "thickness_mm": null,
     "ip_rating": null,
     "has_5g": true,
     "nfc": true,
     "esim": false,
     "ir_port": false,
-    "jack35": null,
-    "sd_card": null,
+    "jack35": false,
+    "sd_card": false,
     "update_years": null,
     "_q": "estimated",
     "_src": [
@@ -40,27 +40,14 @@
     {
       "ram_gb": 4,
       "rom_gb": 128,
-      "price_rub": 9932,
-      "price_date": "2026-11-05",
-      "price_src": "project_seed",
+      "price_rub": 12761,
+      "price_date": "2026-11-19",
+      "price_src": "telegram_polzaskidki",
       "msrp_usd": null,
       "is_base": true,
-      "_q": "estimated",
+      "_q": "verified",
       "_src": [
-        "project_seed"
-      ]
-    },
-    {
-      "ram_gb": 4,
-      "rom_gb": 256,
-      "price_rub": 10990,
-      "price_date": "2026-11-20",
-      "price_src": "random",
-      "msrp_usd": null,
-      "is_base": false,
-      "_q": "random",
-      "_src": [
-        "random"
+        "telegram_polzaskidki:t.me/polzaSKIDKI/32966"
       ]
     }
   ],
@@ -68,144 +55,40 @@
     {
       "role": "main",
       "position": 0,
-      "sensor": "demo-s21",
+      "sensor": null,
       "mp": 50,
-      "aperture": 1.9,
-      "focal_mm": 26,
-      "fov_deg": 81,
-      "optical_zoom_x": null,
-      "ois": false,
-      "af": "pdaf",
-      "min_focus_cm": null,
-      "video_max": "4K30",
-      "processing_score": 41,
-      "processing_basis": "random",
-      "_q": "random",
-      "_src": [
-        "random"
-      ]
-    },
-    {
-      "role": "macro",
-      "position": 0,
-      "sensor": "demo-s01",
-      "mp": 2,
-      "aperture": 2.4,
-      "focal_mm": 22,
-      "fov_deg": 73,
-      "optical_zoom_x": null,
-      "ois": false,
-      "af": "fixed",
-      "min_focus_cm": 4,
-      "video_max": null,
-      "processing_score": 50,
-      "processing_basis": "random",
-      "_q": "random",
-      "_src": [
-        "random"
-      ]
-    },
-    {
-      "role": "depth",
-      "position": 0,
-      "sensor": "demo-s01",
-      "mp": 2,
-      "aperture": 2.4,
+      "aperture": null,
       "focal_mm": null,
       "fov_deg": null,
       "optical_zoom_x": null,
       "ois": false,
-      "af": "fixed",
+      "af": "pdaf",
       "min_focus_cm": null,
       "video_max": null,
       "processing_score": null,
       "processing_basis": null,
-      "_q": "random",
+      "_q": "estimated",
       "_src": [
-        "random"
-      ]
-    },
-    {
-      "role": "front",
-      "position": 0,
-      "sensor": "demo-s04",
-      "mp": 8,
-      "aperture": 2.3,
-      "focal_mm": 21,
-      "fov_deg": 89,
-      "optical_zoom_x": null,
-      "ois": false,
-      "af": "fixed",
-      "min_focus_cm": null,
-      "video_max": null,
-      "processing_score": 64,
-      "processing_basis": "random",
-      "_q": "random",
-      "_src": [
-        "random"
+        "project_seed"
       ]
     }
   ],
   "camera_features": {
-    "macro_mode": "dedicated",
-    "macro_min_focus_cm": 4,
-    "lossless_zoom_x": 2.0,
-    "max_digital_zoom_x": 10,
+    "macro_mode": "none",
+    "macro_min_focus_cm": null,
+    "lossless_zoom_x": null,
+    "max_digital_zoom_x": null,
     "dxomark": null,
-    "_q": "random",
-    "_src": [
-      "random"
-    ]
+    "_q": "unknown",
+    "_src": []
   },
-  "quirks": [
-    {
-      "code": "throttling",
-      "severity": 2,
-      "note_ru": "Демо: случайная особенность для проверки интерфейса.",
-      "evidence": [],
-      "_q": "random"
-    }
-  ],
+  "quirks": [],
   "quirks_checked": false,
   "special": [],
-  "photos": [
-    {
-      "url": "/placeholder/realme-p4x/1.svg",
-      "kind": "placeholder",
-      "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
-      "width": 960,
-      "height": 1280,
-      "origin": "placeholder"
-    },
-    {
-      "url": "/placeholder/realme-p4x/2.svg",
-      "kind": "placeholder",
-      "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
-      "width": 960,
-      "height": 1280,
-      "origin": "placeholder"
-    },
-    {
-      "url": "/placeholder/realme-p4x/3.svg",
-      "kind": "placeholder",
-      "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
-      "width": 960,
-      "height": 1280,
-      "origin": "placeholder"
-    }
-  ],
+  "photos": [],
   "_meta": {
-    "created": "2026-11-20",
-    "updated": "2026-11-20",
-    "filled_by": "tools/generate_random_catalog.py"
+    "created": "2026-11-21",
+    "updated": "2026-11-21",
+    "filled_by": "Claude Opus 5.5 (сведения до 2026-06) + tools/import_catalog_data.py"
   }
 }

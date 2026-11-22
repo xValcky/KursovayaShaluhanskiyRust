@@ -1,0 +1,39 @@
+# Motorola (имена как в старой базе: «motorola edge 60 Pro», «moto g86», «razr 60»). Модели 2026 года — в phones_zz_2026.txt.
+@brand motorola
+motorola edge 30 ultra ; 2022-09 disc ; sd8pg1 ; 6.67 144 POLED 1250 ; 4610 125 50 ; 198 8.39 IP52 ; 5g nfc u3 ; 8/128 12/256* ; M200/1.9/-/O/pd/@hp1:68 U50/2.2/-/pd/@jn1:56 T12/1.6/-/pd/x2:54 F60/2.2/-:56 ; uw dz30 ; q:clean_android/1
+motorola edge 30 neo ; 2022-09 disc ; sd695 ; 6.28 120 POLED 1000 ; 4020 68 5 ; 155 7.75 IP52 ; 5g nfc u3 ; 8/128* ; M64/1.8/-/O:50 U13/2.2/-/pd:40 F32/2.45/-:48 ; uw dz8 ; q:clean_android/1
+motorola edge 40 ; 2023-05 disc ; d8020 ; 6.55 144 POLED 1200 ; 4400 68 15 ; 167 7.58 IP68 ; 5g nfc esim u4 ; 8/256* ; M50/1.4/-/O/pd:60 U13/2.2/-/pd:44 F32/2.4/-:48 ; uw dz8 ; q:clean_android/1
+motorola edge 40 neo ; 2023-09 disc ; d7030 ; 6.55 144 POLED 1300 ; 5000 68 0 ; 172 7.89 IP68 ; 5g nfc u3 ; 8/256* 12/256 ; M50/1.8/-/O:56 U13/2.2/-/pd:42 F32/2.4/-:48 ; uw dz8 ; q:clean_android/1
+motorola edge 50 pro ; 2024-04 ; sd7g3 ; 6.7 144 POLED 2000 ; 4500 125 50 ; 186 8.19 IP68 ; 5g nfc esim u4 ; 12/512*r34990 ; M50/1.4/-/O/pd:64 U13/2.2/-/pd:46 T10/2.0/-/O/x3:54 F50/1.9/-:54 ; uw dz30 ; q:clean_android/1
+motorola edge 50 fusion ; 2024-05 ; sd7sg2 ; 6.7 144 POLED 1600 ; 5000 68 0 ; 175 7.9 IP68 ; 5g nfc u4 ; 8/256*r24990 12/512 ; M50/1.88/-/O/pd/@lyt700:60 U13/2.2/-/pd:44 F32/2.45/-:48 ; uw dz8 ; q:clean_android/1
+motorola edge 50 neo ; 2024-09 ; d7300 ; 6.4 120 LTPO-POLED 3000 ; 4310 68 15 ; 171 8.1 IP68 ; 5g nfc esim u5 ; 8/256 12/512* ; M50/1.8/-/O/pd/@lyt700:62 U13/2.2/-/pd:44 T10/2.0/-/O/x3:54 F32/2.4/-:48 ; uw dz30 ; q:clean_android/1,long_updates/1 n:long_updates=5 крупных обновлений Android по политике Motorola.
+motorola edge 50 ultra ; 2024-06 ; sd8sg3 ; 6.7 144 POLED 2500 ; 4500 125 50 ; 197 8.6 IP68 ; 5g nfc esim u4 ; 12/512* 16/1T ; M50/1.6/-/O/pd:70 U50/2.0/-/pd:54 P64/2.4/-/O/x3:62 F50/1.9/-:56 ; uw dz100 ; q:clean_android/1
+motorola edge 50 ; 2024-08 ; sd7g1 ; 6.7 120 POLED 1600 ; 5000 68 15 ; 170 7.79 IP68 ; 5g nfc u4 ; 8/256*r27990 ; M50/1.8/-/O/pd/@lyt700:60 U13/2.2/-/pd:44 T10/2.0/-/O/x3:54 F32/2.4/-:48 ; uw dz30 ; q:clean_android/1
+motorola edge 60 ; 2025-04 ; d7400 ; 6.67 120 POLED 4500 ; 5200 68 0 ; 179 7.9 IP69 ; 5g nfc u4 ; 8/256* ; M50/1.8/-/O/pd/@lyt700:60 U50/2.0/-/pd:50 T10/2.0/-/O/x3:54 F50/2.0/-:54 ; uw dz30 ; q:clean_android/1
+motorola edge 60 fusion ; 2025-04 ; d7400 ; 6.67 120 POLED 4500 ; 5500 68 0 ; 180 8.2 IP69 ; 5g nfc u4 ; 8/256* 12/512 ; M50/1.8/-/O/pd/@lyt700:60 U13/2.2/-/pd:44 F32/2.2/-:48 ; uw dz8 ; q:clean_android/1
+motorola edge 60 Pro ; 2025-04 ; d8350 ; 6.7 120 POLED 4500 ; 6000 90 15 ; 186 8.2 IP69 ; 5g nfc esim u4 ; 12/256* 12/512 ; M50/1.8/-/O/pd/@lyt700:64 U50/2.0/-/pd:50 T10/2.0/-/O/x3:56 F50/2.0/-:54 ; uw dz50 ; q:clean_android/1
+motorola edge 60 stylus ; 2025-04 ; sd7sg2 ; 6.67 120 POLED 3000 ; 5000 68 15 ; 186 8.3 IP68 ; 5g nfc u3 ; 8/256*r27990 ; M50/1.8/-/O:56 U13/2.2/-/pd:42 F32/2.2/-:46 ; uw dz8 ; s:stylus
+razr 40 ; 2023-07 disc ; sd7g1 ; 6.9/1.5 144 POLED 1400 ; 4200 30 8 ; 189 7.4 IP52 ; 5g nfc esim u3 ff=flip ; 8/256* ; M64/1.7/-/O/pd:56 U13/2.2/-/pd:42 F32/2.4/-:48 ; uw dz8 ; q:hinge_crease/1
+razr 40 ultra ; 2023-06 disc ; sd8pg1 ; 6.9/3.6 165 POLED 1400 ; 3800 30 5 ; 189 6.99 IP52 ; 5g nfc esim u3 ff=flip ; 8/256* ; M12/1.5/-/O/dp:62 U13/2.2/-/pd:44 F32/2.4/-:48 ; uw dz8 ; q:hinge_crease/1
+razr 50 ; 2024-09 ; d7300x ; 6.9/3.6 120 POLED 3000 ; 4200 30 15 ; 188 7.25 IPX8 ; 5g nfc esim u3 ff=flip ; 8/256* ; M50/1.7/-/O/pd:58 U13/2.2/-/pd:44 F32/2.4/-:48 ; uw dz8 ; -
+razr 50 ultra ; 2024-06 ; sd8sg3 ; 6.9/4.0 165 LTPO-POLED 3000 ; 4000 45 15 ; 189 7.09 IPX8 ; 5g nfc esim u3 ff=flip ; 12/512*r69990 ; M50/1.7/-/O/pd:64 T50/2.0/-/pd/x2:58 F32/2.4/-:48 ; none dz20 ; -
+razr 60 ; 2025-05 ; d7400x ; 6.96/3.6 120 POLED 3000 ; 4500 30 15 ; 188 7.25 IP48 ; 5g nfc esim u3 ff=flip ; 8/256* ; M50/1.7/-/O/pd:58 U13/2.2/-/pd:44 F32/2.4/-:48 ; uw dz8 ; -
+razr 60 ultra ; 2025-05 ; sd8e ; 7.0/4.0 165 LTPO-POLED 4500 ; 4700 68 30 ; 199 7.19 IP48 ; 5g nfc esim u4 ff=flip ; 16/512* ; M50/1.8/-/O/pd:70 U50/2.0/-/pd:54 F50/2.0/-:54 ; uw dz30 ; q:good_ai_assistant/1 n:good_ai_assistant=Moto AI: сводки уведомлений, «Запомни это», генерация обоев; часть функций без русского языка.
+moto g13 ; 2023-01 disc ; hg85 ; 6.5 90 IPS 400 ; 5000 10 0 ; 184 8.19 - ; jack sd u2 ; 4/64 4/128* ; M50/1.8/-:40 C2/2.4/-:18 D2/2.4/- F8/2.0/-:30 ; ded dz8 ; q:clean_android/1
+moto g14 ; 2023-08 disc ; ut616 ; 6.5 60 IPS 500 ; 5000 20 0 ; 177 7.99 - ; jack sd u2 ; 4/128* ; M50/1.8/-:40 C2/2.4/-:18 F8/2.0/-:30 ; ded dz8 ; q:clean_android/1
+moto g24 ; 2024-01 ; hg85 ; 6.56 90 IPS 537 ; 5000 15 0 ; 181 7.99 - ; nfc jack sd u2 ; 4/128*r9990 8/128 ; M50/1.8/-:40 C2/2.4/-:18 F8/2.0/-:30 ; ded dz8 ; q:clean_android/1
+moto g34 ; 2024-01 ; sd695 ; 6.5 120 IPS 500 ; 5000 20 0 ; 180 8 IP52 ; 5g nfc jack sd u2 ; 8/128* ; M50/1.8/-:44 C2/2.4/-:18 F16/2.4/-:38 ; ded dz8 ; q:clean_android/1
+moto g64 ; 2024-04 ; d7025 ; 6.5 120 IPS 600 ; 6000 33 0 ; 192 8.89 IP52 ; 5g nfc jack sd u2 ; 8/128 12/256*r16990 ; M50/1.8/-/O:48 U8/2.2/-/ff:34 F16/2.4/-:38 ; uw dz8 ; q:clean_android/1
+moto g84 ; 2023-09 disc ; sd695 ; 6.55 120 POLED 1300 ; 5000 30 0 ; 168 7.6 IP54 ; 5g nfc jack sd u2 ; 12/256* ; M50/1.88/-/O:50 U8/2.2/-/ff:34 F16/2.45/-:38 ; uw dz8 ; q:clean_android/1
+moto g85 ; 2024-07 ; sd6sg3 ; 6.67 120 POLED 1600 ; 5000 30 0 ; 172 7.59 IP52 ; 5g nfc jack sd u2 ; 8/256 12/256* ; M50/1.8/-/O/@lyt600:52 U8/2.2/-/ff:34 F32/2.4/-:44 ; uw dz8 ; q:clean_android/1
+moto g75 ; 2024-10 ; sd6g3 ; 6.78 120 IPS 1000 ; 5000 30 15 ; 208 8.6 IP68 ; 5g nfc jack sd u3 ; 8/256*r21990 ; M50/1.8/-/O/@lyt600:52 U8/2.2/-/ff:34 F16/2.4/-:38 ; uw dz8 ; q:clean_android/1
+moto g86 ; 2025-06 ; d7300 ; 6.67 120 POLED 4500 ; 5200 30 0 ; 185 7.87 IP69 ; 5g nfc jack sd u3 ; 8/256* ; M50/1.88/-/O/@lyt600:54 U8/2.2/-/ff:36 F32/2.4/-:44 ; uw dz8 ; q:clean_android/1
+moto g56 ; 2025-06 ; d7060 ; 6.72 120 IPS 1000 ; 5200 30 0 ; 200 8 IP69 ; 5g nfc jack sd u3 ; 8/256* ; M50/1.8/-:50 U8/2.2/-/ff:34 F32/2.2/-:42 ; uw dz8 ; q:clean_android/1
+moto g05 ; 2025-01 ; hg81 ; 6.67 90 IPS 1000 ; 5200 18 0 ; 188 8.09 IP52 ; jack sd u2 ; 4/128* 8/256 ; M50/1.8/-:40 F8/2.0/-:30 ; none dz4 ; q:clean_android/1
+moto g15 ; 2025-01 ; hg81 ; 6.72 90 IPS 1000 ; 5200 18 0 ; 192 8.2 IP52 ; nfc jack sd u2 ; 4/128*r10990 8/256 ; M50/1.8/-:40 U5/2.2/-/ff:26 F8/2.0/-:30 ; none dz4 ; q:clean_android/1
+moto g35 ; 2024-08 ; ut760 ; 6.72 120 IPS 1000 ; 5000 18 0 ; 186 7.79 IP52 ; 5g nfc jack sd u2 ; 4/128*r11990 ; M50/1.8/-:40 U8/2.2/-/ff:32 F16/2.4/-:36 ; uw dz8 ; q:clean_android/1
+moto g45 ; 2024-08 ; sd6sg3 ; 6.5 120 IPS 500 ; 5000 18 0 ; 183 8 IP52 ; 5g nfc jack sd u2 ; 4/128 8/128*r12990 ; M50/1.8/-:42 C2/2.4/-:18 F16/2.4/-:36 ; ded dz8 ; q:clean_android/1
+moto g stylus (2025) ; 2025-04 ; sd6g3 ; 6.7 120 POLED 3000 ; 5000 68 15 ; 191 8.3 IP68 ; 5g nfc jack sd u3 ; 8/256*r24990 ; M50/1.8/-/O/@lyt700:54 U13/2.2/-/pd:42 F32/2.2/-:44 ; uw dz8 ; s:stylus
+moto g54 ; 2023-09 disc ; d7020 ; 6.5 120 IPS 500 ; 5000 15 0 ; 177 8 IP52 ; 5g nfc jack sd u2 ; 8/256* ; M50/1.8/-/O:48 U8/2.2/-/ff:34 F16/2.45/-:36 ; uw dz8 ; q:clean_android/1
+moto g55 ; 2024-09 ; d7025 ; 6.49 120 IPS 600 ; 5000 30 0 ; 178 8 IP54 ; 5g nfc jack sd u2 ; 8/256*r15990 ; M50/1.8/-/O:50 U8/2.2/-/ff:34 F16/2.4/-:38 ; uw dz8 ; q:clean_android/1
+moto g04 ; 2024-02 ; ut606 ; 6.56 90 IPS 537 ; 5000 10 0 ; 178 7.99 - ; jack sd u2 ; 4/64*r7990 ; M16/1.8/-:30 F5/2.2/-:24 ; none dz4 ; q:clean_android/1

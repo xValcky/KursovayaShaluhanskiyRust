@@ -1,0 +1,14 @@
+# Модели, добавленные по карточкам статей Wikipedia (data/sources/wikipedia_phones.json): числа — из статьи,
+# оценки обработки и «приколы» не ставятся (обзоров этих моделей нейросеть-исполнитель не проверяла).
+@brand oppo
+OPPO Find N2 ; 2022-12 cn disc web ru=no ff=book ; sd8pg1 ; 7.1/5.54 120 AMOLED - ; 4520 67 0 ; 233 - - ; 5g nfc ; 12/256* 16/512 ; M50/-/-/O T32/-/- U48/-/- F32/-/- ; - ; w:wikipedia:Oppo_Find_N2
+@brand honor
+Honor GT ; 2024-12 cn web ru=no ; sd8g3 ; 6.7 120 OLED - ; 5300 100 0 ; 196 - - ; 5g nfc ir ; 12/256* 16/512 16/1T ; M50/-/-/O U12/-/- F16/-/- ; - ; w:wikipedia:Honor_GT
+@brand iqoo
+iQOO Neo10 ; 2024-11 cn web ru=no ; sd8g3 ; 6.78 144 AMOLED - ; 6100 120 0 ; 199 - - ; 5g nfc ir ; 12/256* 16/512 16/1T ; M50/1.8/-/O U8/-/- F32/2.5/- ; - ; w:wikipedia:IQOO_Neo10
+@brand meizu
+Meizu 20 Infinity ; 2023-03 cn web ru=no ; sd8g2 ; 6.79 120 AMOLED - ; 4800 65 50 ; 215 - - ; 5g nfc ; 12/256* 16/512 16/1T ; M50/-/23/O T12/-/50/O U12/-/13 F32/-/- ; - ; w:wikipedia:Meizu_20_Infinity
+@brand motorola
+moto e14 ; 2024-06 web ; ut606 ; 6.56 90 IPS - ; 5000 15 0 ; 178.8 - - ; jack sd ; 2/64* 4/64 ; M13/2.2/- F5/2.2/- ; none ; w:wikipedia:Moto_E14
+@brand vivo
+vivo X Note ; 2022-04 cn disc web ru=no ; sd8g1 ; 7.0 120 AMOLED - ; 5000 80 0 ; 216 - - ; 5g nfc ; 8/256* 12/256 12/512 ; M50/1.6/-/O P8/3.4/125/O T12/2.0/47 U48/2.2/14 F16/2.5/- ; - ; w:wikipedia:Vivo_X_Note

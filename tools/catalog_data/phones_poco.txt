@@ -1,0 +1,30 @@
+# POCO (суббренд Xiaomi). Модели 2026 года (X8, F8, F9, M8) — в phones_zz_2026.txt по данным сети/старой базы.
+@brand poco
+POCO X4 Pro 5G ; 2022-03 disc ; sd695 ; 6.67 120 AMOLED 1200 ; 5000 67 0 ; 205 8.12 IP53 ; 5g nfc ir jack sd u2 ; 6/128* 8/256 ; M108/1.9/-/@hm2:50 U8/2.2/-/ff:36 C2/2.4/-:18 F16/2.4/-:42 ; ded dz10 ; q:ads_in_system/2
+POCO X4 GT ; 2022-06 disc ; d8100 ; 6.6 144 IPS 650 ; 5080 67 0 ; 200 8.87 IP53 ; 5g nfc ir jack u2 ; 8/128* 8/256 ; M64/1.9/-/pd:52 U8/2.2/-/ff:36 C2/2.4/-:18 F16/2.45/-:42 ; ded dz10 ; -
+POCO F4 ; 2022-06 disc ; sd870 ; 6.67 120 AMOLED 1300 ; 4500 67 0 ; 195 7.7 IP53 ; 5g nfc ir u3 ; 6/128* 8/256 ; M64/1.79/-/O/pd:56 U8/2.2/-/ff:36 C2/2.4/-:18 F20/2.45/-:44 ; ded dz10 ; -
+POCO F4 GT ; 2022-04 disc ; sd8g1 ; 6.67 120 AMOLED 800 ; 4700 120 0 ; 210 8.5 - ; 5g nfc ir u3 ; 8/128* 12/256 ; M64/1.9/-/pd:56 U8/2.2/-/ff:36 C2/2.4/-:18 F20/2.45/-:44 ; ded dz10 ; q:overheating/2 n:gaming_triggers=Выдвижные механические плечевые кнопки. s:gaming_triggers
+POCO X5 5G ; 2023-02 disc ; sd695 ; 6.67 120 AMOLED 1200 ; 5000 33 0 ; 189 7.98 - ; 5g nfc ir jack sd u2 ; 6/128* 8/256 ; M48/1.79/-:46 U8/2.2/-/ff:36 C2/2.4/-:18 F13/2.45/-:40 ; ded dz10 ; q:ads_in_system/2
+POCO X5 Pro 5G ; 2023-02 disc ; sd778 ; 6.67 120 AMOLED 900 ; 5000 67 0 ; 181 7.9 IP53 ; 5g nfc ir jack u2 ; 6/128 8/256* ; M108/1.9/-/pd/@hm2:52 U8/2.2/-/ff:36 C2/2.4/-:18 F16/2.45/-:42 ; ded dz10 ; q:ads_in_system/2
+POCO F5 ; 2023-05 disc ; sd7pg2 ; 6.67 120 AMOLED 1000 ; 5000 67 0 ; 181 7.9 IP53 ; 5g nfc ir jack u3 ; 8/256* 12/256 ; M64/1.79/-/O/pd/@ov64b:58 U8/2.2/-/ff:36 C2/2.4/-:18 F16/2.45/-:44 ; ded dz10 ; -
+POCO F5 Pro ; 2023-05 disc ; sd8pg1 ; 6.67 120 AMOLED 1400 ; 5160 67 30 ; 204 8.59 - ; 5g nfc ir u3 ; 8/256 12/256* 12/512 ; M64/1.79/-/O/pd/@ov64b:58 U8/2.2/-/ff:36 C2/2.4/-:18 F16/2.45/-:44 ; ded dz10 ; -
+POCO M5 ; 2022-09 disc ; hg99 ; 6.58 90 IPS 500 ; 5000 18 0 ; 201 8.9 - ; nfc jack sd u2 ; 4/64 4/128* 6/128 ; M50/1.8/-:42 C2/2.4/-:18 D2/2.4/- F5/2.2/-:28 ; ded dz10 ; q:ads_in_system/2
+POCO M6 Pro ; 2024-01 ; hg99 ; 6.67 120 AMOLED 1300 ; 5000 67 0 ; 179 8 IP54 ; nfc ir jack sd u3 ; 8/256* 12/512 ; M64/1.79/-/O/pd/@ov64b:54 U8/2.2/-/ff:36 C2/2.4/-:18 F16/2.45/-:42 ; ded dz10 ; q:ads_in_system/2
+POCO M6 ; 2024-06 ; hg91 ; 6.79 90 IPS 550 ; 5030 33 0 ; 205 8.3 IP53 ; nfc ir jack sd u2 ; 6/128*r11990 8/256 ; M108/1.75/-/@hm6:48 C2/2.4/-:18 F13/2.45/-:38 ; ded dz10 ; q:ads_in_system/2
+POCO M7 Pro 5G ; 2024-12 ; d7025 ; 6.67 120 AMOLED 2100 ; 5110 45 0 ; 190 8 IP64 ; 5g nfc ir jack u3 ; 8/256* 12/256 ; M50/1.5/-/O/pd/@lyt600:56 D2/2.4/- F20/2.2/-:46 ; none dz10 ; q:ads_in_system/2
+POCO M7 ; 2025-03 ; sd685 ; 6.88 120 IPS 600 ; 7000 18 0 ; 205 8.2 - ; nfc ir jack sd u3 ; 6/128 8/256* ; M50/1.8/-:44 F8/2.0/-:34 ; none dz10 ; q:excellent_battery/2,ads_in_system/2
+POCO C55 ; 2023-02 disc ; hg85 ; 6.71 60 IPS 500 ; 5000 10 0 ; 192 8.77 - ; jack sd u2 ; 4/64 6/128* ; M50/1.8/-:38 F5/2.2/-:26 ; none dz10 ; q:ads_in_system/2
+POCO C61 ; 2024-03 ; hg36 ; 6.71 90 IPS 500 ; 5000 10 0 ; 193 8.4 - ; jack sd u2 ; 3/64 4/128*r7490 ; M8/2.0/-:24 F5/2.2/-:22 ; none dz4 ; q:short_updates/2
+POCO C65 ; 2023-11 ; hg85 ; 6.74 90 IPS 600 ; 5000 18 0 ; 192 8.09 - ; nfc jack sd u2 ; 6/128* 8/256 ; M50/1.8/-:42 D2/2.4/- F8/2.0/-:34 ; none dz10 ; q:ads_in_system/2
+POCO C71 ; 2025-04 ; ut7250 ; 6.88 120 IPS 450 ; 5200 15 0 ; 193 8.26 IP52 ; jack sd u2 ; 4/128*r7990 6/128 ; M32/2.0/-:30 F8/2.0/-:26 ; none dz4 ; q:short_updates/2
+POCO C75 ; 2024-11 ; hg81 ; 6.88 120 IPS 600 ; 5160 18 0 ; 204 8.22 - ; nfc jack sd u2 ; 6/128* 8/256 ; M50/1.8/-:42 F13/2.0/-:38 ; none dz10 ; q:ads_in_system/2
+POCO C85 ; 2025-09 ; hg81 ; 6.9 120 IPS 810 ; 6000 33 0 ; 205 7.99 - ; nfc jack sd u4 ; 6/128 8/256*r11990 ; M50/1.8/-:42 F8/2.0/-:34 ; none dz10 ; q:ads_in_system/2
+POCO X6 5G ; 2024-01 ; sd7sg2 ; 6.67 120 AMOLED 1800 ; 5100 67 0 ; 181 7.99 IP54 ; 5g nfc ir jack u3 ; 8/256*r21990 12/256 12/512 ; M64/1.79/-/O/pd/@ov64b:56 U8/2.2/-/ff:38 C2/2.4/-:18 F16/2.45/-:44 ; ded dz10 ; q:ads_in_system/2
+POCO X6 Pro ; 2024-01 ; d8300 ; 6.67 120 AMOLED 1800 ; 5000 67 0 ; 186 8.25 IP54 ; 5g nfc ir u3 ; 8/256* 12/512 ; M64/1.79/-/O/pd/@ov64b:58 U8/2.2/-/ff:38 C2/2.4/-:18 F16/2.45/-:44 ; ded dz10 ; q:ads_in_system/1
+POCO F6 ; 2024-05 ; sd8sg3 ; 6.67 120 AMOLED 2400 ; 5000 90 0 ; 179 7.8 IP64 ; 5g nfc ir u4 ; 8/256 12/256 12/512* ; M50/1.59/-/O/pd:64 U8/2.2/-/ff:40 F20/2.2/-:48 ; none dz10 ; -
+POCO F6 Pro ; 2024-05 ; sd8g2 ; 6.67 120 AMOLED 4000 ; 5000 120 0 ; 209 8.21 - ; 5g nfc ir u4 ; 12/256 12/512* 16/1T ; M50/1.6/-/O/pd/@lyt800:64 U8/2.2/-/ff:40 C2/2.4/-:18 F16/2.4/-:46 ; ded dz10 ; -
+POCO X7 ; 2025-01 ; d7300u ; 6.67 120 AMOLED 3000 ; 5110 45 0 ; 190 8.4 IP68 ; 5g nfc ir jack u4 ; 8/256* 12/512 ; M50/1.5/-/O/pd:58 U8/2.2/-/ff:38 C2/2.4/-:18 F20/2.2/-:46 ; ded dz10 ; q:ads_in_system/1
+POCO X7 Pro ; 2025-01 ; d8400 ; 6.67 120 AMOLED 3200 ; 6000 90 0 ; 195 8.29 IP68 ; 5g nfc ir u4 ; 8/256* 12/256 12/512 ; M50/1.5/-/O/pd/@lyt600:60 U8/2.2/-/ff:38 F20/2.2/-:48 ; none dz10 ; q:excellent_battery/2
+POCO F7 ; 2025-06 ; sd8sg4 ; 6.83 120 AMOLED 3200 ; 7550 90 0 ; 215 7.98 IP68 ; 5g nfc ir u4 ; 12/256* 12/512 ; M50/1.5/-/O/pd/@lyt600:62 U8/2.2/-/ff:40 F20/2.2/-:48 ; none dz10 ; q:excellent_battery/3,bypass_charging/1
+POCO F7 Pro ; 2025-03 ; sd8g3 ; 6.67 120 AMOLED 3200 ; 6000 90 0 ; 206 8.12 IP68 ; 5g nfc ir u4 ; 12/256* 12/512 ; M50/1.6/-/O/pd:66 U8/2.2/-/ff:40 F20/2.2/-:48 ; none dz10 ; -
+POCO F7 Ultra ; 2025-03 ; sd8e ; 6.67 120 AMOLED 3200 ; 5300 120 50 ; 212 8.39 IP68 ; 5g nfc ir u4 ; 12/256* 16/512 ; M50/1.6/-/O/pd:70 U32/2.2/-/pd:56 T50/2.0/60/O/pd/x2.5:68 F32/2.2/-:54 ; uw dz20 ; q:bypass_charging/1

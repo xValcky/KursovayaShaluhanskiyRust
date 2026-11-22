@@ -5,35 +5,35 @@
   "full_name": "OPPO Find N3 Flip",
   "aliases": [],
   "os": "Android",
-  "release_date": null,
+  "release_date": "2023-10",
   "year": 2023,
   "status": "on_sale",
   "availability_ru": "official",
   "form_factor": "flip",
   "in_ml": true,
-  "chipset": "demo-soc-1300",
+  "chipset": "dimensity-9200",
   "specs": {
     "screen_in": 6.8,
-    "cover_screen_in": null,
+    "cover_screen_in": 3.26,
     "refresh_hz": 120,
-    "display_type": null,
-    "peak_nits": null,
+    "display_type": "AMOLED",
+    "peak_nits": 1600,
     "battery_mah": 4300,
-    "charge_w": 44.0,
-    "wireless_w": null,
-    "weight_g": 198.0,
-    "thickness_mm": null,
+    "charge_w": 44,
+    "wireless_w": 0,
+    "weight_g": 198,
+    "thickness_mm": 7.79,
     "ip_rating": null,
     "has_5g": true,
     "nfc": true,
-    "esim": true,
+    "esim": false,
     "ir_port": false,
-    "jack35": null,
-    "sd_card": null,
-    "update_years": null,
+    "jack35": false,
+    "sd_card": false,
+    "update_years": 4,
     "_q": "estimated",
     "_src": [
-      "project_seed"
+      "ai_knowledge"
     ]
   },
   "variants": [
@@ -49,145 +49,99 @@
       "_src": [
         "project_seed"
       ]
-    },
-    {
-      "ram_gb": 12,
-      "rom_gb": 512,
-      "price_rub": 68990,
-      "price_date": "2026-11-20",
-      "price_src": "random",
-      "msrp_usd": null,
-      "is_base": false,
-      "_q": "random",
-      "_src": [
-        "random"
-      ]
-    },
-    {
-      "ram_gb": 12,
-      "rom_gb": 1024,
-      "price_rub": 80990,
-      "price_date": "2026-11-20",
-      "price_src": "random",
-      "msrp_usd": null,
-      "is_base": false,
-      "_q": "random",
-      "_src": [
-        "random"
-      ]
     }
   ],
   "cameras": [
     {
       "role": "main",
       "position": 0,
-      "sensor": "demo-s21",
+      "sensor": "sony-imx890",
       "mp": 50,
-      "aperture": 1.6,
+      "aperture": 1.8,
       "focal_mm": 24,
-      "fov_deg": 81,
+      "fov_deg": null,
       "optical_zoom_x": null,
       "ois": true,
       "af": "pdaf",
       "min_focus_cm": null,
-      "video_max": "8K30",
-      "processing_score": 72,
-      "processing_basis": "random",
-      "_q": "random",
+      "video_max": null,
+      "processing_score": 74,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "ai_knowledge"
       ]
     },
     {
       "role": "ultrawide",
       "position": 0,
-      "sensor": "demo-s15",
+      "sensor": null,
       "mp": 48,
-      "aperture": 2.0,
-      "focal_mm": 13,
-      "fov_deg": 121,
-      "optical_zoom_x": 0.6,
+      "aperture": 2.2,
+      "focal_mm": 14,
+      "fov_deg": null,
+      "optical_zoom_x": null,
       "ois": false,
       "af": "pdaf",
-      "min_focus_cm": 4,
+      "min_focus_cm": null,
       "video_max": null,
-      "processing_score": 76,
-      "processing_basis": "random",
-      "_q": "random",
+      "processing_score": 60,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "ai_knowledge"
       ]
     },
     {
       "role": "tele",
       "position": 0,
-      "sensor": "demo-s25",
-      "mp": 64,
-      "aperture": 2.0,
-      "focal_mm": 65,
-      "fov_deg": 32,
-      "optical_zoom_x": null,
-      "ois": true,
+      "sensor": null,
+      "mp": 32,
+      "aperture": 2,
+      "focal_mm": 47,
+      "fov_deg": null,
+      "optical_zoom_x": 2.0,
+      "ois": false,
       "af": "pdaf",
       "min_focus_cm": null,
       "video_max": null,
-      "processing_score": 72,
-      "processing_basis": "random",
-      "_q": "random",
+      "processing_score": 62,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
       "_src": [
-        "random"
-      ]
-    },
-    {
-      "role": "periscope",
-      "position": 0,
-      "sensor": "demo-s31",
-      "mp": 200,
-      "aperture": 3.1,
-      "focal_mm": 129,
-      "fov_deg": 19,
-      "optical_zoom_x": null,
-      "ois": true,
-      "af": "pdaf",
-      "min_focus_cm": null,
-      "video_max": null,
-      "processing_score": 81,
-      "processing_basis": "random",
-      "_q": "random",
-      "_src": [
-        "random"
+        "ai_knowledge"
       ]
     },
     {
       "role": "front",
       "position": 0,
-      "sensor": "demo-s13",
+      "sensor": null,
       "mp": 32,
-      "aperture": 2.3,
-      "focal_mm": 25,
-      "fov_deg": 82,
+      "aperture": 2.4,
+      "focal_mm": null,
+      "fov_deg": null,
       "optical_zoom_x": null,
       "ois": false,
       "af": "fixed",
       "min_focus_cm": null,
       "video_max": null,
-      "processing_score": 88,
-      "processing_basis": "random",
-      "_q": "random",
+      "processing_score": 60,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "ai_knowledge"
       ]
     }
   ],
   "camera_features": {
     "macro_mode": "ultrawide_af",
-    "macro_min_focus_cm": 4,
-    "lossless_zoom_x": 2.0,
-    "max_digital_zoom_x": 60,
+    "macro_min_focus_cm": null,
+    "lossless_zoom_x": null,
+    "max_digital_zoom_x": 20,
     "dxomark": null,
-    "_q": "random",
+    "_q": "estimated",
     "_src": [
-      "random"
+      "ai_knowledge"
     ]
   },
   "quirks": [],
@@ -195,48 +149,14 @@
   "special": [
     {
       "code": "flip",
-      "note_ru": null,
+      "note_ru": "Раскладушка с внешним экраном.",
       "_q": "estimated"
     }
   ],
-  "photos": [
-    {
-      "url": "/placeholder/oppo-find-n3-flip/1.svg",
-      "kind": "placeholder",
-      "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
-      "width": 960,
-      "height": 1280,
-      "origin": "placeholder"
-    },
-    {
-      "url": "/placeholder/oppo-find-n3-flip/2.svg",
-      "kind": "placeholder",
-      "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
-      "width": 960,
-      "height": 1280,
-      "origin": "placeholder"
-    },
-    {
-      "url": "/placeholder/oppo-find-n3-flip/3.svg",
-      "kind": "placeholder",
-      "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
-      "width": 960,
-      "height": 1280,
-      "origin": "placeholder"
-    }
-  ],
+  "photos": [],
   "_meta": {
-    "created": "2026-11-20",
-    "updated": "2026-11-20",
-    "filled_by": "tools/generate_random_catalog.py"
+    "created": "2026-11-21",
+    "updated": "2026-11-21",
+    "filled_by": "Claude Opus 5.5 (сведения до 2026-06) + tools/import_catalog_data.py"
   }
 }

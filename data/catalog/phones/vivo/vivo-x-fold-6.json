@@ -5,62 +5,50 @@
   "full_name": "vivo X Fold 6",
   "aliases": [],
   "os": "Android",
-  "release_date": null,
+  "release_date": "2026-06",
   "year": 2026,
   "status": "on_sale",
   "availability_ru": "official",
   "form_factor": "book_fold",
   "in_ml": true,
-  "chipset": "demo-soc-3300",
+  "chipset": null,
   "specs": {
     "screen_in": 8.02,
-    "cover_screen_in": null,
+    "cover_screen_in": 6.51,
     "refresh_hz": 120,
-    "display_type": null,
+    "display_type": "LTPO AMOLED",
     "peak_nits": null,
-    "battery_mah": 6900,
-    "charge_w": 80.0,
-    "wireless_w": null,
-    "weight_g": 228.0,
-    "thickness_mm": null,
+    "battery_mah": 7000,
+    "charge_w": 80,
+    "wireless_w": 40,
+    "weight_g": 228,
+    "thickness_mm": 9.4,
     "ip_rating": null,
     "has_5g": true,
     "nfc": true,
     "esim": true,
     "ir_port": false,
-    "jack35": null,
-    "sd_card": null,
+    "jack35": false,
+    "sd_card": false,
     "update_years": null,
     "_q": "estimated",
     "_src": [
-      "project_seed"
+      "gsmarena:vivo_x_fold6_arrives_with_200mp_main_cam_and_7000mah_battery-news-73471",
+      "mobiles91:91mobiles.com/hub/vivo-x-fold6-launched-globally-specifications"
     ]
   },
   "variants": [
     {
       "ram_gb": 12,
       "rom_gb": 256,
-      "price_rub": 92140,
-      "price_date": "2026-11-05",
-      "price_src": "project_seed",
+      "price_rub": 93273,
+      "price_date": "2026-11-19",
+      "price_src": "telegram_polzaskidki",
       "msrp_usd": null,
       "is_base": true,
-      "_q": "estimated",
+      "_q": "verified",
       "_src": [
-        "project_seed"
-      ]
-    },
-    {
-      "ram_gb": 16,
-      "rom_gb": 512,
-      "price_rub": 112990,
-      "price_date": "2026-11-20",
-      "price_src": "random",
-      "msrp_usd": null,
-      "is_base": false,
-      "_q": "random",
-      "_src": [
-        "random"
+        "telegram_polzaskidki:t.me/polzaSKIDKI/32973"
       ]
     }
   ],
@@ -68,170 +56,139 @@
     {
       "role": "main",
       "position": 0,
-      "sensor": "demo-s32",
+      "sensor": null,
       "mp": 200,
-      "aperture": 1.7,
-      "focal_mm": 24,
-      "fov_deg": 84,
+      "aperture": null,
+      "focal_mm": null,
+      "fov_deg": null,
       "optical_zoom_x": null,
       "ois": true,
-      "af": "dual_pixel",
+      "af": "pdaf",
       "min_focus_cm": null,
-      "video_max": "4K120",
-      "processing_score": 74,
-      "processing_basis": "random",
-      "_q": "random",
+      "video_max": null,
+      "processing_score": null,
+      "processing_basis": null,
+      "_q": "estimated",
       "_src": [
-        "random"
+        "gsmarena:vivo_x_fold6_arrives_with_200mp_main_cam_and_7000mah_battery-news-73471",
+        "mobiles91:91mobiles.com/hub/vivo-x-fold6-launched-globally-specifications"
       ]
     },
     {
       "role": "ultrawide",
       "position": 0,
-      "sensor": "demo-s15",
-      "mp": 48,
-      "aperture": 2.1,
-      "focal_mm": 15,
-      "fov_deg": 117,
-      "optical_zoom_x": 0.6,
+      "sensor": null,
+      "mp": 50,
+      "aperture": null,
+      "focal_mm": null,
+      "fov_deg": null,
+      "optical_zoom_x": null,
       "ois": false,
       "af": "pdaf",
-      "min_focus_cm": 4,
+      "min_focus_cm": null,
       "video_max": null,
-      "processing_score": 80,
-      "processing_basis": "random",
-      "_q": "random",
+      "processing_score": null,
+      "processing_basis": null,
+      "_q": "estimated",
       "_src": [
-        "random"
+        "gsmarena:vivo_x_fold6_arrives_with_200mp_main_cam_and_7000mah_battery-news-73471",
+        "mobiles91:91mobiles.com/hub/vivo-x-fold6-launched-globally-specifications"
       ]
     },
     {
       "role": "tele",
       "position": 0,
-      "sensor": "demo-s07",
-      "mp": 12,
-      "aperture": 2.3,
-      "focal_mm": 68,
-      "fov_deg": 33,
+      "sensor": null,
+      "mp": 50,
+      "aperture": null,
+      "focal_mm": null,
+      "fov_deg": null,
       "optical_zoom_x": null,
       "ois": true,
       "af": "pdaf",
       "min_focus_cm": null,
       "video_max": null,
-      "processing_score": 77,
-      "processing_basis": "random",
-      "_q": "random",
+      "processing_score": null,
+      "processing_basis": null,
+      "_q": "estimated",
       "_src": [
-        "random"
-      ]
-    },
-    {
-      "role": "front",
-      "position": 0,
-      "sensor": "demo-s13",
-      "mp": 32,
-      "aperture": 2.2,
-      "focal_mm": 26,
-      "fov_deg": 87,
-      "optical_zoom_x": null,
-      "ois": false,
-      "af": "pdaf",
-      "min_focus_cm": null,
-      "video_max": null,
-      "processing_score": 59,
-      "processing_basis": "random",
-      "_q": "random",
-      "_src": [
-        "random"
+        "gsmarena:vivo_x_fold6_arrives_with_200mp_main_cam_and_7000mah_battery-news-73471",
+        "mobiles91:91mobiles.com/hub/vivo-x-fold6-launched-globally-specifications"
       ]
     },
     {
       "role": "cover",
       "position": 0,
-      "sensor": "demo-s12",
+      "sensor": null,
       "mp": 20,
-      "aperture": 2.3,
-      "focal_mm": 24,
-      "fov_deg": 80,
+      "aperture": null,
+      "focal_mm": null,
+      "fov_deg": null,
       "optical_zoom_x": null,
       "ois": false,
       "af": "fixed",
       "min_focus_cm": null,
       "video_max": null,
-      "processing_score": 72,
-      "processing_basis": "random",
-      "_q": "random",
+      "processing_score": null,
+      "processing_basis": null,
+      "_q": "estimated",
       "_src": [
-        "random"
+        "gsmarena:vivo_x_fold6_arrives_with_200mp_main_cam_and_7000mah_battery-news-73471",
+        "mobiles91:91mobiles.com/hub/vivo-x-fold6-launched-globally-specifications"
+      ]
+    },
+    {
+      "role": "front",
+      "position": 0,
+      "sensor": null,
+      "mp": 20,
+      "aperture": null,
+      "focal_mm": null,
+      "fov_deg": null,
+      "optical_zoom_x": null,
+      "ois": false,
+      "af": "fixed",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": null,
+      "processing_basis": null,
+      "_q": "estimated",
+      "_src": [
+        "gsmarena:vivo_x_fold6_arrives_with_200mp_main_cam_and_7000mah_battery-news-73471",
+        "mobiles91:91mobiles.com/hub/vivo-x-fold6-launched-globally-specifications"
       ]
     }
   ],
   "camera_features": {
-    "macro_mode": "ultrawide_af",
-    "macro_min_focus_cm": 4,
-    "lossless_zoom_x": 4.0,
-    "max_digital_zoom_x": 30,
+    "macro_mode": "none",
+    "macro_min_focus_cm": null,
+    "lossless_zoom_x": null,
+    "max_digital_zoom_x": null,
     "dxomark": null,
-    "_q": "random",
+    "_q": "estimated",
     "_src": [
-      "random"
+      "gsmarena:vivo_x_fold6_arrives_with_200mp_main_cam_and_7000mah_battery-news-73471",
+      "mobiles91:91mobiles.com/hub/vivo-x-fold6-launched-globally-specifications"
     ]
   },
-  "quirks": [
-    {
-      "code": "no_google_services",
-      "severity": 2,
-      "note_ru": "Демо: случайная особенность для проверки интерфейса.",
-      "evidence": [],
-      "_q": "random"
-    }
-  ],
+  "quirks": [],
   "quirks_checked": false,
   "special": [
     {
       "code": "book_fold",
-      "note_ru": null,
+      "note_ru": "Складывается книжкой: большой внутренний экран и внешний.",
+      "_q": "estimated"
+    },
+    {
+      "code": "camera_kit",
+      "note_ru": "Официальный телеконвертер Telephoto Extender Gen 2 до 200 мм.",
       "_q": "estimated"
     }
   ],
-  "photos": [
-    {
-      "url": "/placeholder/vivo-x-fold-6/1.svg",
-      "kind": "placeholder",
-      "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
-      "width": 960,
-      "height": 1280,
-      "origin": "placeholder"
-    },
-    {
-      "url": "/placeholder/vivo-x-fold-6/2.svg",
-      "kind": "placeholder",
-      "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
-      "width": 960,
-      "height": 1280,
-      "origin": "placeholder"
-    },
-    {
-      "url": "/placeholder/vivo-x-fold-6/3.svg",
-      "kind": "placeholder",
-      "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
-      "width": 960,
-      "height": 1280,
-      "origin": "placeholder"
-    }
-  ],
+  "photos": [],
   "_meta": {
-    "created": "2026-11-20",
-    "updated": "2026-11-20",
-    "filled_by": "tools/generate_random_catalog.py"
+    "created": "2026-11-21",
+    "updated": "2026-11-21",
+    "filled_by": "Claude Opus 5.5 (сведения до 2026-06) + tools/import_catalog_data.py"
   }
 }

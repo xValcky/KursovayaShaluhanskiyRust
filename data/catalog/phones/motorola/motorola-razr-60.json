@@ -5,75 +5,49 @@
   "full_name": "Motorola razr 60",
   "aliases": [],
   "os": "Android",
-  "release_date": null,
+  "release_date": "2025-05",
   "year": 2025,
   "status": "on_sale",
   "availability_ru": "parallel_import",
   "form_factor": "flip",
   "in_ml": true,
-  "chipset": "demo-soc-900",
+  "chipset": "dimensity-7400x",
   "specs": {
     "screen_in": 6.96,
-    "cover_screen_in": null,
+    "cover_screen_in": 3.6,
     "refresh_hz": 120,
-    "display_type": null,
-    "peak_nits": null,
+    "display_type": "POLED",
+    "peak_nits": 3000,
     "battery_mah": 4500,
-    "charge_w": 30.0,
-    "wireless_w": null,
-    "weight_g": 188.0,
-    "thickness_mm": null,
-    "ip_rating": null,
+    "charge_w": 30,
+    "wireless_w": 15,
+    "weight_g": 188,
+    "thickness_mm": 7.25,
+    "ip_rating": "IP48",
     "has_5g": true,
     "nfc": true,
     "esim": true,
     "ir_port": false,
-    "jack35": null,
-    "sd_card": null,
-    "update_years": null,
+    "jack35": false,
+    "sd_card": false,
+    "update_years": 3,
     "_q": "estimated",
     "_src": [
-      "project_seed"
+      "ai_knowledge"
     ]
   },
   "variants": [
     {
       "ram_gb": 8,
       "rom_gb": 256,
-      "price_rub": 31529,
-      "price_date": "2026-11-05",
-      "price_src": "project_seed",
+      "price_rub": 31669,
+      "price_date": "2026-11-19",
+      "price_src": "telegram_polzaskidki",
       "msrp_usd": null,
       "is_base": true,
-      "_q": "estimated",
+      "_q": "verified",
       "_src": [
-        "project_seed"
-      ]
-    },
-    {
-      "ram_gb": 8,
-      "rom_gb": 512,
-      "price_rub": 36990,
-      "price_date": "2026-11-20",
-      "price_src": "random",
-      "msrp_usd": null,
-      "is_base": false,
-      "_q": "random",
-      "_src": [
-        "random"
-      ]
-    },
-    {
-      "ram_gb": 8,
-      "rom_gb": 1024,
-      "price_rub": 42990,
-      "price_date": "2026-11-20",
-      "price_src": "random",
-      "msrp_usd": null,
-      "is_base": false,
-      "_q": "random",
-      "_src": [
-        "random"
+        "telegram_polzaskidki:t.me/polzaSKIDKI/32977"
       ]
     }
   ],
@@ -81,137 +55,88 @@
     {
       "role": "main",
       "position": 0,
-      "sensor": "demo-s21",
+      "sensor": null,
       "mp": 50,
       "aperture": 1.7,
-      "focal_mm": 26,
-      "fov_deg": 84,
+      "focal_mm": null,
+      "fov_deg": null,
       "optical_zoom_x": null,
       "ois": true,
       "af": "pdaf",
       "min_focus_cm": null,
-      "video_max": "4K60",
-      "processing_score": 52,
-      "processing_basis": "random",
-      "_q": "random",
+      "video_max": null,
+      "processing_score": 58,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "ai_knowledge"
       ]
     },
     {
       "role": "ultrawide",
       "position": 0,
-      "sensor": "demo-s20",
-      "mp": 50,
-      "aperture": 2.1,
-      "focal_mm": 14,
-      "fov_deg": 120,
-      "optical_zoom_x": 0.6,
+      "sensor": null,
+      "mp": 13,
+      "aperture": 2.2,
+      "focal_mm": null,
+      "fov_deg": null,
+      "optical_zoom_x": null,
       "ois": false,
-      "af": "fixed",
+      "af": "pdaf",
       "min_focus_cm": null,
       "video_max": null,
-      "processing_score": 89,
-      "processing_basis": "random",
-      "_q": "random",
+      "processing_score": 44,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "ai_knowledge"
       ]
     },
     {
       "role": "front",
       "position": 0,
-      "sensor": "demo-s06",
-      "mp": 12,
-      "aperture": 2.1,
-      "focal_mm": 25,
-      "fov_deg": 85,
+      "sensor": null,
+      "mp": 32,
+      "aperture": 2.4,
+      "focal_mm": null,
+      "fov_deg": null,
       "optical_zoom_x": null,
       "ois": false,
       "af": "fixed",
       "min_focus_cm": null,
       "video_max": null,
-      "processing_score": 66,
-      "processing_basis": "random",
-      "_q": "random",
+      "processing_score": 48,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "ai_knowledge"
       ]
     }
   ],
   "camera_features": {
-    "macro_mode": "none",
+    "macro_mode": "ultrawide_af",
     "macro_min_focus_cm": null,
-    "lossless_zoom_x": 2.0,
-    "max_digital_zoom_x": 20,
+    "lossless_zoom_x": null,
+    "max_digital_zoom_x": 8,
     "dxomark": null,
-    "_q": "random",
+    "_q": "estimated",
     "_src": [
-      "random"
+      "ai_knowledge"
     ]
   },
-  "quirks": [
-    {
-      "code": "short_updates",
-      "severity": 2,
-      "note_ru": "Демо: случайная особенность для проверки интерфейса.",
-      "evidence": [],
-      "_q": "random"
-    },
-    {
-      "code": "standby_drain",
-      "severity": 2,
-      "note_ru": "Демо: случайная особенность для проверки интерфейса.",
-      "evidence": [],
-      "_q": "random"
-    }
-  ],
+  "quirks": [],
   "quirks_checked": false,
   "special": [
     {
       "code": "flip",
-      "note_ru": null,
+      "note_ru": "Раскладушка с внешним экраном.",
       "_q": "estimated"
     }
   ],
-  "photos": [
-    {
-      "url": "/placeholder/motorola-razr-60/1.svg",
-      "kind": "placeholder",
-      "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
-      "width": 960,
-      "height": 1280,
-      "origin": "placeholder"
-    },
-    {
-      "url": "/placeholder/motorola-razr-60/2.svg",
-      "kind": "placeholder",
-      "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
-      "width": 960,
-      "height": 1280,
-      "origin": "placeholder"
-    },
-    {
-      "url": "/placeholder/motorola-razr-60/3.svg",
-      "kind": "placeholder",
-      "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
-      "width": 960,
-      "height": 1280,
-      "origin": "placeholder"
-    }
-  ],
+  "photos": [],
   "_meta": {
-    "created": "2026-11-20",
-    "updated": "2026-11-20",
-    "filled_by": "tools/generate_random_catalog.py"
+    "created": "2026-11-21",
+    "updated": "2026-11-21",
+    "filled_by": "Claude Opus 5.5 (сведения до 2026-06) + tools/import_catalog_data.py"
   }
 }

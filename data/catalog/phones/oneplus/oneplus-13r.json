@@ -5,35 +5,36 @@
   "full_name": "OnePlus 13R",
   "aliases": [],
   "os": "Android",
-  "release_date": null,
+  "release_date": "2025-01-14",
   "year": 2025,
   "status": "on_sale",
   "availability_ru": "parallel_import",
   "form_factor": "bar",
   "in_ml": true,
-  "chipset": "demo-soc-1900",
+  "chipset": "snapdragon-8-gen-3",
   "specs": {
     "screen_in": 6.78,
     "cover_screen_in": null,
     "refresh_hz": 120,
-    "display_type": null,
-    "peak_nits": null,
+    "display_type": "LTPO AMOLED",
+    "peak_nits": 4500,
     "battery_mah": 6000,
-    "charge_w": 80.0,
-    "wireless_w": null,
-    "weight_g": 206.0,
-    "thickness_mm": null,
-    "ip_rating": null,
+    "charge_w": 80,
+    "wireless_w": 0,
+    "weight_g": 206,
+    "thickness_mm": 8.02,
+    "ip_rating": "IP65",
     "has_5g": true,
     "nfc": true,
     "esim": false,
     "ir_port": true,
-    "jack35": null,
-    "sd_card": null,
-    "update_years": null,
-    "_q": "estimated",
+    "jack35": false,
+    "sd_card": false,
+    "update_years": 6,
+    "_q": "verified",
     "_src": [
-      "project_seed"
+      "wikipedia:OnePlus_13R",
+      "ai_knowledge"
     ]
   },
   "variants": [
@@ -51,16 +52,16 @@
       ]
     },
     {
-      "ram_gb": 12,
+      "ram_gb": 16,
       "rom_gb": 512,
-      "price_rub": 54990,
-      "price_date": "2026-11-20",
-      "price_src": "random",
+      "price_rub": 57290,
+      "price_date": null,
+      "price_src": "price_model",
       "msrp_usd": null,
       "is_base": false,
-      "_q": "random",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "price_model"
       ]
     }
   ],
@@ -68,49 +69,29 @@
     {
       "role": "main",
       "position": 0,
-      "sensor": "demo-s20",
+      "sensor": "sony-lyt-700",
       "mp": 50,
-      "aperture": 1.7,
-      "focal_mm": 23,
-      "fov_deg": 81,
+      "aperture": 1.8,
+      "focal_mm": 24,
+      "fov_deg": null,
       "optical_zoom_x": null,
       "ois": true,
       "af": "pdaf",
       "min_focus_cm": null,
-      "video_max": "4K60",
-      "processing_score": 59,
-      "processing_basis": "random",
-      "_q": "random",
+      "video_max": null,
+      "processing_score": 72,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "ai_knowledge"
       ]
     },
     {
       "role": "ultrawide",
       "position": 0,
-      "sensor": "demo-s20",
-      "mp": 50,
-      "aperture": 2.1,
-      "focal_mm": 14,
-      "fov_deg": 116,
-      "optical_zoom_x": 0.6,
-      "ois": false,
-      "af": "fixed",
-      "min_focus_cm": null,
-      "video_max": null,
-      "processing_score": 59,
-      "processing_basis": "random",
-      "_q": "random",
-      "_src": [
-        "random"
-      ]
-    },
-    {
-      "role": "depth",
-      "position": 0,
-      "sensor": "demo-s01",
-      "mp": 2,
-      "aperture": 2.4,
+      "sensor": null,
+      "mp": 8,
+      "aperture": 2.2,
       "focal_mm": null,
       "fov_deg": null,
       "optical_zoom_x": null,
@@ -118,101 +99,104 @@
       "af": "fixed",
       "min_focus_cm": null,
       "video_max": null,
-      "processing_score": null,
-      "processing_basis": null,
-      "_q": "random",
+      "processing_score": 40,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "ai_knowledge"
+      ]
+    },
+    {
+      "role": "tele",
+      "position": 0,
+      "sensor": "samsung-isocell-jn5",
+      "mp": 50,
+      "aperture": 2,
+      "focal_mm": 47,
+      "fov_deg": null,
+      "optical_zoom_x": 2.0,
+      "ois": false,
+      "af": "pdaf",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": 66,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
+      "_src": [
+        "ai_knowledge"
       ]
     },
     {
       "role": "front",
       "position": 0,
-      "sensor": "demo-s11",
+      "sensor": null,
       "mp": 16,
-      "aperture": 2.3,
-      "focal_mm": 26,
-      "fov_deg": 79,
+      "aperture": 2.4,
+      "focal_mm": 26.0,
+      "fov_deg": null,
       "optical_zoom_x": null,
       "ois": false,
       "af": "fixed",
       "min_focus_cm": null,
       "video_max": null,
-      "processing_score": 60,
-      "processing_basis": "random",
-      "_q": "random",
+      "processing_score": 52,
+      "processing_basis": "reviews_rubric",
+      "_q": "verified",
       "_src": [
-        "random"
+        "wikipedia:OnePlus_13R",
+        "ai_knowledge"
       ]
     }
   ],
   "camera_features": {
     "macro_mode": "none",
     "macro_min_focus_cm": null,
-    "lossless_zoom_x": 2.0,
-    "max_digital_zoom_x": 8,
+    "lossless_zoom_x": null,
+    "max_digital_zoom_x": 20,
     "dxomark": null,
-    "_q": "random",
+    "_q": "estimated",
     "_src": [
-      "random"
+      "ai_knowledge"
     ]
   },
   "quirks": [
     {
-      "code": "dim_display",
-      "severity": 3,
-      "note_ru": "Демо: случайная особенность для проверки интерфейса.",
+      "code": "excellent_battery",
+      "severity": 2,
+      "note_ru": "В тестах автономности держится заметно дольше конкурентов.",
       "evidence": [],
-      "_q": "random"
-    },
-    {
-      "code": "inconsistent_colors",
-      "severity": 3,
-      "note_ru": "Демо: случайная особенность для проверки интерфейса.",
-      "evidence": [],
-      "_q": "random"
+      "_q": "estimated"
     }
   ],
   "quirks_checked": false,
   "special": [],
   "photos": [
     {
-      "url": "/placeholder/oneplus-13r/1.svg",
-      "kind": "placeholder",
+      "author": "Maksdroider",
       "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
-      "width": 960,
       "height": 1280,
-      "origin": "placeholder"
+      "kind": "front",
+      "license": "CC BY-SA 4.0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:OnePlus_13R_front.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/OnePlus_13R_front.jpg/960px-OnePlus_13R_front.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
     },
     {
-      "url": "/placeholder/oneplus-13r/2.svg",
-      "kind": "placeholder",
+      "author": "Maksdroider",
       "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
-      "width": 960,
-      "height": 1280,
-      "origin": "placeholder"
-    },
-    {
-      "url": "/placeholder/oneplus-13r/3.svg",
-      "kind": "placeholder",
-      "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
-      "width": 960,
-      "height": 1280,
-      "origin": "placeholder"
+      "height": 1999,
+      "kind": "back",
+      "license": "CC BY-SA 4.0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:OnePlus_13R_back.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/OnePlus_13R_back.jpg/960px-OnePlus_13R_back.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
     }
   ],
   "_meta": {
-    "created": "2026-11-20",
-    "updated": "2026-11-20",
-    "filled_by": "tools/generate_random_catalog.py"
+    "created": "2026-11-21",
+    "updated": "2026-11-21",
+    "filled_by": "Claude Opus 5.5 (сведения до 2026-06) + tools/import_catalog_data.py"
   }
 }

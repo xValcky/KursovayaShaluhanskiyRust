@@ -5,49 +5,49 @@
   "full_name": "Nothing Phone (3a) Lite",
   "aliases": [],
   "os": "Android",
-  "release_date": null,
+  "release_date": "2025-11",
   "year": 2025,
   "status": "on_sale",
   "availability_ru": "parallel_import",
   "form_factor": "bar",
   "in_ml": true,
-  "chipset": "demo-soc-700",
+  "chipset": "dimensity-7300",
   "specs": {
     "screen_in": 6.77,
     "cover_screen_in": null,
     "refresh_hz": 120,
-    "display_type": null,
-    "peak_nits": null,
+    "display_type": "AMOLED",
+    "peak_nits": 3000,
     "battery_mah": 5000,
-    "charge_w": 33.0,
-    "wireless_w": null,
-    "weight_g": 199.0,
-    "thickness_mm": null,
-    "ip_rating": null,
+    "charge_w": 33,
+    "wireless_w": 0,
+    "weight_g": 199,
+    "thickness_mm": 8.3,
+    "ip_rating": "IP54",
     "has_5g": true,
     "nfc": true,
     "esim": false,
     "ir_port": false,
-    "jack35": null,
-    "sd_card": null,
-    "update_years": null,
+    "jack35": false,
+    "sd_card": false,
+    "update_years": 6,
     "_q": "estimated",
     "_src": [
-      "project_seed"
+      "ai_knowledge"
     ]
   },
   "variants": [
     {
       "ram_gb": 8,
       "rom_gb": 128,
-      "price_rub": 21489,
-      "price_date": "2026-11-05",
-      "price_src": "project_seed",
+      "price_rub": 21166,
+      "price_date": "2026-09-25",
+      "price_src": "telegram_polzaskidki",
       "msrp_usd": null,
       "is_base": true,
-      "_q": "estimated",
+      "_q": "verified",
       "_src": [
-        "project_seed"
+        "telegram_polzaskidki:t.me/polzaSKIDKI/30275"
       ]
     }
   ],
@@ -55,150 +55,116 @@
     {
       "role": "main",
       "position": 0,
-      "sensor": "demo-s21",
+      "sensor": null,
       "mp": 50,
-      "aperture": 1.8,
-      "focal_mm": 23,
-      "fov_deg": 82,
+      "aperture": 1.88,
+      "focal_mm": null,
+      "fov_deg": null,
       "optical_zoom_x": null,
       "ois": true,
       "af": "pdaf",
       "min_focus_cm": null,
-      "video_max": "4K30",
-      "processing_score": 63,
-      "processing_basis": "random",
-      "_q": "random",
+      "video_max": null,
+      "processing_score": 58,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "ai_knowledge"
       ]
     },
     {
       "role": "ultrawide",
       "position": 0,
-      "sensor": "demo-s15",
-      "mp": 48,
-      "aperture": 2.1,
-      "focal_mm": 13,
-      "fov_deg": 121,
-      "optical_zoom_x": 0.6,
+      "sensor": null,
+      "mp": 8,
+      "aperture": 2.2,
+      "focal_mm": null,
+      "fov_deg": null,
+      "optical_zoom_x": null,
       "ois": false,
       "af": "fixed",
       "min_focus_cm": null,
       "video_max": null,
-      "processing_score": 66,
-      "processing_basis": "random",
-      "_q": "random",
+      "processing_score": 38,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "ai_knowledge"
       ]
     },
     {
-      "role": "tele",
+      "role": "macro",
       "position": 0,
-      "sensor": "demo-s07",
-      "mp": 12,
-      "aperture": 2.2,
-      "focal_mm": 50,
-      "fov_deg": 40,
+      "sensor": null,
+      "mp": 2,
+      "aperture": 2.4,
+      "focal_mm": null,
+      "fov_deg": null,
       "optical_zoom_x": null,
       "ois": false,
-      "af": "pdaf",
+      "af": "fixed",
       "min_focus_cm": null,
       "video_max": null,
-      "processing_score": 51,
-      "processing_basis": "random",
-      "_q": "random",
+      "processing_score": 18,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "ai_knowledge"
       ]
     },
     {
       "role": "front",
       "position": 0,
-      "sensor": "demo-s06",
-      "mp": 12,
-      "aperture": 2.3,
-      "focal_mm": 24,
-      "fov_deg": 78,
+      "sensor": null,
+      "mp": 16,
+      "aperture": 2.45,
+      "focal_mm": null,
+      "fov_deg": null,
       "optical_zoom_x": null,
       "ois": false,
       "af": "fixed",
       "min_focus_cm": null,
       "video_max": null,
-      "processing_score": 40,
-      "processing_basis": "random",
-      "_q": "random",
+      "processing_score": 44,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "ai_knowledge"
       ]
     }
   ],
   "camera_features": {
-    "macro_mode": "none",
+    "macro_mode": "dedicated",
     "macro_min_focus_cm": null,
-    "lossless_zoom_x": 2.0,
-    "max_digital_zoom_x": 20,
+    "lossless_zoom_x": null,
+    "max_digital_zoom_x": 10,
     "dxomark": null,
-    "_q": "random",
+    "_q": "estimated",
     "_src": [
-      "random"
+      "ai_knowledge"
     ]
   },
   "quirks": [
     {
-      "code": "weak_speaker",
-      "severity": 1,
-      "note_ru": "Демо: случайная особенность для проверки интерфейса.",
+      "code": "clean_android",
+      "severity": 2,
+      "note_ru": "Почти чистый Android без лишних оболочек.",
       "evidence": [],
-      "_q": "random"
+      "_q": "estimated"
     }
   ],
   "quirks_checked": false,
   "special": [
     {
       "code": "led_interface",
-      "note_ru": "Glyph-подсветка на спинке (по правилу для серии Nothing Phone — проверить модель).",
+      "note_ru": "Одиночный светодиод Glyph Light на спинке.",
       "_q": "estimated"
     }
   ],
-  "photos": [
-    {
-      "url": "/placeholder/nothing-phone-3a-lite/1.svg",
-      "kind": "placeholder",
-      "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
-      "width": 960,
-      "height": 1280,
-      "origin": "placeholder"
-    },
-    {
-      "url": "/placeholder/nothing-phone-3a-lite/2.svg",
-      "kind": "placeholder",
-      "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
-      "width": 960,
-      "height": 1280,
-      "origin": "placeholder"
-    },
-    {
-      "url": "/placeholder/nothing-phone-3a-lite/3.svg",
-      "kind": "placeholder",
-      "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
-      "width": 960,
-      "height": 1280,
-      "origin": "placeholder"
-    }
-  ],
+  "photos": [],
   "_meta": {
-    "created": "2026-11-20",
-    "updated": "2026-11-20",
-    "filled_by": "tools/generate_random_catalog.py"
+    "created": "2026-11-21",
+    "updated": "2026-11-21",
+    "filled_by": "Claude Opus 5.5 (сведения до 2026-06) + tools/import_catalog_data.py"
   }
 }

@@ -1,0 +1,227 @@
+{
+  "slug": "huawei-mate-x6",
+  "brand": "huawei",
+  "name": "Mate X6",
+  "full_name": "Huawei Mate X6",
+  "aliases": [],
+  "os": "Android",
+  "release_date": "2024-11-26",
+  "year": 2024,
+  "status": "on_sale",
+  "availability_ru": "official",
+  "form_factor": "book_fold",
+  "in_ml": true,
+  "chipset": "kirin-9020",
+  "specs": {
+    "screen_in": 7.93,
+    "cover_screen_in": 6.45,
+    "refresh_hz": 120,
+    "display_type": "LTPO OLED",
+    "peak_nits": 2500,
+    "battery_mah": 5200,
+    "charge_w": 66,
+    "wireless_w": 50,
+    "weight_g": 239,
+    "thickness_mm": 9.9,
+    "ip_rating": "IP58",
+    "has_5g": true,
+    "nfc": true,
+    "esim": false,
+    "ir_port": true,
+    "jack35": false,
+    "sd_card": false,
+    "update_years": null,
+    "_q": "estimated",
+    "_src": [
+      "wikipedia:Huawei_Mate_X6",
+      "ai_knowledge"
+    ]
+  },
+  "variants": [
+    {
+      "ram_gb": 12,
+      "rom_gb": 512,
+      "price_rub": 149990,
+      "price_date": null,
+      "price_src": "ai_knowledge",
+      "msrp_usd": null,
+      "is_base": true,
+      "_q": "estimated",
+      "_src": [
+        "ai_knowledge"
+      ]
+    }
+  ],
+  "cameras": [
+    {
+      "role": "main",
+      "position": 0,
+      "sensor": null,
+      "mp": 50,
+      "aperture": 1.4,
+      "focal_mm": null,
+      "fov_deg": null,
+      "optical_zoom_x": null,
+      "ois": true,
+      "af": "pdaf",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": 80,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
+      "_src": [
+        "ai_knowledge"
+      ]
+    },
+    {
+      "role": "ultrawide",
+      "position": 0,
+      "sensor": null,
+      "mp": 40,
+      "aperture": 2.2,
+      "focal_mm": null,
+      "fov_deg": null,
+      "optical_zoom_x": null,
+      "ois": false,
+      "af": "pdaf",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": 62,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
+      "_src": [
+        "ai_knowledge"
+      ]
+    },
+    {
+      "role": "periscope",
+      "position": 0,
+      "sensor": null,
+      "mp": 48,
+      "aperture": 3,
+      "focal_mm": null,
+      "fov_deg": null,
+      "optical_zoom_x": 4.0,
+      "ois": true,
+      "af": "pdaf",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": 76,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
+      "_src": [
+        "ai_knowledge"
+      ]
+    },
+    {
+      "role": "cover",
+      "position": 0,
+      "sensor": null,
+      "mp": 8,
+      "aperture": 2.2,
+      "focal_mm": null,
+      "fov_deg": null,
+      "optical_zoom_x": null,
+      "ois": false,
+      "af": "fixed",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": 54,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
+      "_src": [
+        "ai_knowledge"
+      ]
+    },
+    {
+      "role": "front",
+      "position": 0,
+      "sensor": null,
+      "mp": 8,
+      "aperture": 2.2,
+      "focal_mm": null,
+      "fov_deg": null,
+      "optical_zoom_x": null,
+      "ois": false,
+      "af": "fixed",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": 54,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
+      "_src": [
+        "ai_knowledge"
+      ]
+    }
+  ],
+  "camera_features": {
+    "macro_mode": "tele_macro",
+    "macro_min_focus_cm": null,
+    "lossless_zoom_x": null,
+    "max_digital_zoom_x": 100,
+    "dxomark": null,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge"
+    ]
+  },
+  "quirks": [
+    {
+      "code": "no_google_services",
+      "severity": 3,
+      "note_ru": "Нет сервисов Google: с 2019 г. Huawei выпускает смартфоны с Huawei Mobile Services и AppGallery вместо Google Play.",
+      "evidence": [
+        "https://en.wikipedia.org/wiki/Huawei_Mobile_Services"
+      ],
+      "_q": "verified"
+    }
+  ],
+  "quirks_checked": false,
+  "special": [
+    {
+      "code": "book_fold",
+      "note_ru": "Складывается книжкой: большой внутренний экран и внешний.",
+      "_q": "estimated"
+    }
+  ],
+  "photos": [
+    {
+      "author": "X-SHLIED",
+      "color_ru": null,
+      "height": 845,
+      "kind": "front",
+      "license": "CC BY 4.0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:HUAWEI_Mate_X6_Foldable_Phone_Front_View.png",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/HUAWEI_Mate_X6_Foldable_Phone_Front_View.png/960px-HUAWEI_Mate_X6_Foldable_Phone_Front_View.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
+    },
+    {
+      "author": "茅野ふたば",
+      "color_ru": null,
+      "height": 720,
+      "kind": "lifestyle",
+      "license": "CC BY 4.0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Huawei_Mate_X6.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Huawei_Mate_X6.jpg/960px-Huawei_Mate_X6.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
+    },
+    {
+      "author": "メイド理世",
+      "color_ru": null,
+      "height": 720,
+      "kind": "lifestyle",
+      "license": "CC BY-SA 2.0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Huawei_phones_(54260635922).jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Huawei_phones_%2854260635922%29.jpg/960px-Huawei_phones_%2854260635922%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
+    }
+  ],
+  "_meta": {
+    "created": "2026-11-21",
+    "updated": "2026-11-21",
+    "filled_by": "Claude Opus 5.5 (сведения до 2026-06) + tools/import_catalog_data.py"
+  }
+}

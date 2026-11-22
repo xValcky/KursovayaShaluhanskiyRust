@@ -1,0 +1,189 @@
+{
+  "slug": "samsung-galaxy-s22-plus",
+  "brand": "samsung",
+  "name": "Galaxy S22+",
+  "full_name": "Samsung Galaxy S22+",
+  "aliases": [],
+  "os": "Android",
+  "release_date": "2022-02",
+  "year": 2022,
+  "status": "discontinued",
+  "availability_ru": "not_sold",
+  "form_factor": "bar",
+  "in_ml": false,
+  "chipset": "exynos-2200",
+  "specs": {
+    "screen_in": 6.6,
+    "cover_screen_in": null,
+    "refresh_hz": 120,
+    "display_type": "Dynamic AMOLED 2X",
+    "peak_nits": 1750,
+    "battery_mah": 4500,
+    "charge_w": 45,
+    "wireless_w": 15,
+    "weight_g": 195,
+    "thickness_mm": 7.6,
+    "ip_rating": "IP68",
+    "has_5g": true,
+    "nfc": true,
+    "esim": true,
+    "ir_port": false,
+    "jack35": false,
+    "sd_card": false,
+    "update_years": 5,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge"
+    ]
+  },
+  "variants": [
+    {
+      "ram_gb": 8,
+      "rom_gb": 128,
+      "price_rub": null,
+      "price_date": null,
+      "price_src": null,
+      "msrp_usd": 999,
+      "is_base": true,
+      "_q": "unknown",
+      "_src": [
+        "ai_knowledge"
+      ]
+    },
+    {
+      "ram_gb": 8,
+      "rom_gb": 256,
+      "price_rub": null,
+      "price_date": null,
+      "price_src": null,
+      "msrp_usd": 1049,
+      "is_base": false,
+      "_q": "unknown",
+      "_src": [
+        "ai_knowledge"
+      ]
+    }
+  ],
+  "cameras": [
+    {
+      "role": "main",
+      "position": 0,
+      "sensor": null,
+      "mp": 50,
+      "aperture": 1.8,
+      "focal_mm": 23,
+      "fov_deg": null,
+      "optical_zoom_x": null,
+      "ois": true,
+      "af": "dual_pixel",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": 74,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
+      "_src": [
+        "ai_knowledge"
+      ]
+    },
+    {
+      "role": "ultrawide",
+      "position": 0,
+      "sensor": null,
+      "mp": 12,
+      "aperture": 2.2,
+      "focal_mm": 13,
+      "fov_deg": null,
+      "optical_zoom_x": null,
+      "ois": false,
+      "af": "fixed",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": 58,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
+      "_src": [
+        "ai_knowledge"
+      ]
+    },
+    {
+      "role": "tele",
+      "position": 0,
+      "sensor": null,
+      "mp": 10,
+      "aperture": 2.4,
+      "focal_mm": 70,
+      "fov_deg": null,
+      "optical_zoom_x": null,
+      "ois": true,
+      "af": "pdaf",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": 64,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
+      "_src": [
+        "ai_knowledge"
+      ]
+    },
+    {
+      "role": "front",
+      "position": 0,
+      "sensor": null,
+      "mp": 10,
+      "aperture": 2.2,
+      "focal_mm": 26,
+      "fov_deg": null,
+      "optical_zoom_x": null,
+      "ois": false,
+      "af": "dual_pixel",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": 64,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
+      "_src": [
+        "ai_knowledge"
+      ]
+    }
+  ],
+  "camera_features": {
+    "macro_mode": "none",
+    "macro_min_focus_cm": null,
+    "lossless_zoom_x": null,
+    "max_digital_zoom_x": 30,
+    "dxomark": null,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge"
+    ]
+  },
+  "quirks": [
+    {
+      "code": "throttling",
+      "severity": 2,
+      "note_ru": "Exynos 2200 под нагрузкой сбрасывает частоты.",
+      "evidence": [],
+      "_q": "estimated"
+    }
+  ],
+  "quirks_checked": false,
+  "special": [],
+  "photos": [
+    {
+      "author": "SamsungUser2023",
+      "color_ru": null,
+      "height": 604,
+      "kind": "lifestyle",
+      "license": "CC BY-SA 4.0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Galaxy_S22_Series.png",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Galaxy_S22_Series.png/960px-Galaxy_S22_Series.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
+    }
+  ],
+  "_meta": {
+    "created": "2026-11-21",
+    "updated": "2026-11-21",
+    "filled_by": "Claude Opus 5.5 (сведения до 2026-06) + tools/import_catalog_data.py"
+  }
+}

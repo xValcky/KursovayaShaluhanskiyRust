@@ -5,35 +5,35 @@
   "full_name": "Apple iPhone 13",
   "aliases": [],
   "os": "iOS",
-  "release_date": null,
+  "release_date": "2021-09",
   "year": 2021,
-  "status": "on_sale",
+  "status": "discontinued",
   "availability_ru": "parallel_import",
   "form_factor": "bar",
   "in_ml": true,
-  "chipset": "demo-soc-900",
+  "chipset": "apple-a15-bionic",
   "specs": {
     "screen_in": 6.1,
     "cover_screen_in": null,
     "refresh_hz": 60,
-    "display_type": null,
-    "peak_nits": null,
+    "display_type": "OLED",
+    "peak_nits": 1200,
     "battery_mah": 3240,
-    "charge_w": 20.0,
-    "wireless_w": null,
-    "weight_g": 174.0,
-    "thickness_mm": null,
-    "ip_rating": null,
+    "charge_w": 20,
+    "wireless_w": 15,
+    "weight_g": 174,
+    "thickness_mm": 7.65,
+    "ip_rating": "IP68",
     "has_5g": true,
     "nfc": true,
     "esim": true,
     "ir_port": false,
-    "jack35": null,
-    "sd_card": null,
+    "jack35": false,
+    "sd_card": false,
     "update_years": null,
     "_q": "estimated",
     "_src": [
-      "project_seed"
+      "ai_knowledge"
     ]
   },
   "variants": [
@@ -53,14 +53,27 @@
     {
       "ram_gb": 4,
       "rom_gb": 256,
-      "price_rub": 41990,
-      "price_date": "2026-11-20",
-      "price_src": "random",
+      "price_rub": 42490,
+      "price_date": null,
+      "price_src": "price_model",
       "msrp_usd": null,
       "is_base": false,
-      "_q": "random",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "price_model"
+      ]
+    },
+    {
+      "ram_gb": 4,
+      "rom_gb": 512,
+      "price_rub": 47090,
+      "price_date": null,
+      "price_src": "price_model",
+      "msrp_usd": null,
+      "is_base": false,
+      "_q": "estimated",
+      "_src": [
+        "price_model"
       ]
     }
   ],
@@ -68,150 +81,141 @@
     {
       "role": "main",
       "position": 0,
-      "sensor": "demo-s09",
+      "sensor": null,
       "mp": 12,
-      "aperture": 1.7,
-      "focal_mm": 24,
-      "fov_deg": 81,
+      "aperture": 1.6,
+      "focal_mm": 26,
+      "fov_deg": null,
       "optical_zoom_x": null,
       "ois": true,
-      "af": "pdaf",
+      "af": "dual_pixel",
       "min_focus_cm": null,
-      "video_max": "4K30",
-      "processing_score": 63,
-      "processing_basis": "random",
-      "_q": "random",
+      "video_max": null,
+      "processing_score": 70,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "ai_knowledge"
       ]
     },
     {
       "role": "ultrawide",
       "position": 0,
-      "sensor": "demo-s20",
-      "mp": 50,
-      "aperture": 2.1,
-      "focal_mm": 14,
-      "fov_deg": 115,
-      "optical_zoom_x": 0.6,
-      "ois": false,
-      "af": "pdaf",
-      "min_focus_cm": 4,
-      "video_max": null,
-      "processing_score": 63,
-      "processing_basis": "random",
-      "_q": "random",
-      "_src": [
-        "random"
-      ]
-    },
-    {
-      "role": "macro",
-      "position": 0,
-      "sensor": "demo-s02",
-      "mp": 5,
+      "sensor": null,
+      "mp": 12,
       "aperture": 2.4,
-      "focal_mm": 25,
-      "fov_deg": 74,
-      "optical_zoom_x": null,
-      "ois": false,
-      "af": "fixed",
-      "min_focus_cm": 4,
-      "video_max": null,
-      "processing_score": 57,
-      "processing_basis": "random",
-      "_q": "random",
-      "_src": [
-        "random"
-      ]
-    },
-    {
-      "role": "front",
-      "position": 0,
-      "sensor": "demo-s12",
-      "mp": 20,
-      "aperture": 2.2,
-      "focal_mm": 21,
-      "fov_deg": 80,
+      "focal_mm": 13,
+      "fov_deg": null,
       "optical_zoom_x": null,
       "ois": false,
       "af": "fixed",
       "min_focus_cm": null,
       "video_max": null,
-      "processing_score": 80,
-      "processing_basis": "random",
-      "_q": "random",
+      "processing_score": 58,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "ai_knowledge"
+      ]
+    },
+    {
+      "role": "front",
+      "position": 0,
+      "sensor": null,
+      "mp": 12,
+      "aperture": 2.2,
+      "focal_mm": 23,
+      "fov_deg": null,
+      "optical_zoom_x": null,
+      "ois": false,
+      "af": "fixed",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": 66,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
+      "_src": [
+        "ai_knowledge"
       ]
     }
   ],
   "camera_features": {
-    "macro_mode": "dedicated",
-    "macro_min_focus_cm": 4,
+    "macro_mode": "none",
+    "macro_min_focus_cm": null,
     "lossless_zoom_x": null,
-    "max_digital_zoom_x": 20,
+    "max_digital_zoom_x": 5,
     "dxomark": null,
-    "_q": "random",
+    "_q": "estimated",
     "_src": [
-      "random"
+      "ai_knowledge"
     ]
   },
   "quirks": [
     {
-      "code": "oversharpening",
+      "code": "excellent_haptics",
       "severity": 2,
-      "note_ru": "Демо: случайная особенность для проверки интерфейса.",
+      "note_ru": "Чёткая и приятная вибрация.",
       "evidence": [],
-      "_q": "random"
+      "_q": "estimated"
     }
   ],
   "quirks_checked": false,
   "special": [
     {
       "code": "compact",
-      "note_ru": null,
+      "note_ru": "Компактный моноблок с экраном до 6,1″.",
       "_q": "estimated"
     }
   ],
   "photos": [
     {
-      "url": "/placeholder/apple-iphone-13/1.svg",
-      "kind": "placeholder",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/IPhone_13_camera_lens_group.jpg/960px-IPhone_13_camera_lens_group.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "kind": "back",
       "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
+      "author": "人工知能",
+      "license": "CC BY-SA 4.0",
+      "source_page": "https://commons.wikimedia.org/wiki/File:IPhone_13_camera_lens_group.jpg",
       "width": 960,
-      "height": 1280,
-      "origin": "placeholder"
+      "height": null,
+      "origin": "wikimedia"
     },
     {
-      "url": "/placeholder/apple-iphone-13/2.svg",
-      "kind": "placeholder",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/IPhone_13.jpg/960px-IPhone_13.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "kind": "lifestyle",
       "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
+      "author": "Kskhh",
+      "license": "CC BY-SA 4.0",
+      "source_page": "https://commons.wikimedia.org/wiki/File:IPhone_13.jpg",
       "width": 960,
-      "height": 1280,
-      "origin": "placeholder"
+      "height": null,
+      "origin": "wikimedia"
     },
     {
-      "url": "/placeholder/apple-iphone-13/3.svg",
-      "kind": "placeholder",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/A_broken_iPhone_13.png/960px-A_broken_iPhone_13.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "kind": "lifestyle",
       "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
+      "author": "Thinkharun",
+      "license": "CC BY-SA 4.0",
+      "source_page": "https://commons.wikimedia.org/wiki/File:A_broken_iPhone_13.png",
       "width": 960,
-      "height": 1280,
-      "origin": "placeholder"
+      "height": null,
+      "origin": "wikimedia"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/IPhone_13_for_Tora_%2852641558635%29.jpg/960px-IPhone_13_for_Tora_%2852641558635%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "kind": "lifestyle",
+      "color_ru": null,
+      "author": "Tatsuo Yamashita from Tokyo, Japan",
+      "license": "CC BY 2.0",
+      "source_page": "https://commons.wikimedia.org/wiki/File:IPhone_13_for_Tora_(52641558635).jpg",
+      "width": 960,
+      "height": null,
+      "origin": "wikimedia"
     }
   ],
   "_meta": {
-    "created": "2026-11-20",
-    "updated": "2026-11-20",
-    "filled_by": "tools/generate_random_catalog.py"
+    "created": "2026-11-21",
+    "updated": "2026-11-21",
+    "filled_by": "Claude Opus 5.5 (сведения до 2026-06) + tools/import_catalog_data.py"
   }
 }

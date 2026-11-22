@@ -1,0 +1,155 @@
+# Чипы: ключ | название | производитель | техпроцесс нм | AnTuTu v10, тыс. | Geekbench 6 одноядерный | многоядерный | год
+# Значения — сведения нейросети-исполнителя (estimated, ai_knowledge), медианы по памяти, без сверки со страницей.
+sd8eg5  | Snapdragon 8 Elite Gen 5 | Qualcomm | 3 | 3600 | 3700 | 11000 | 2025
+sd8eg5g | Snapdragon 8 Elite Gen 5 for Galaxy | Qualcomm | 3 | 3650 | 3750 | 11200 | 2026
+sd8g5   | Snapdragon 8 Gen 5 | Qualcomm | 3 | 3000 | 3200 | 9500 | 2025
+sd8e    | Snapdragon 8 Elite | Qualcomm | 3 | 2800 | 3100 | 9600 | 2024
+sd8eg   | Snapdragon 8 Elite for Galaxy | Qualcomm | 3 | 2900 | 3150 | 9900 | 2025
+sd8g3   | Snapdragon 8 Gen 3 | Qualcomm | 4 | 2050 | 2250 | 7000 | 2023
+sd8g3g  | Snapdragon 8 Gen 3 for Galaxy | Qualcomm | 4 | 2100 | 2300 | 7100 | 2024
+sd8sg4  | Snapdragon 8s Gen 4 | Qualcomm | 4 | 1950 | 2100 | 6800 | 2025
+sd8sg3  | Snapdragon 8s Gen 3 | Qualcomm | 4 | 1500 | 1950 | 5000 | 2024
+sd8g2   | Snapdragon 8 Gen 2 | Qualcomm | 4 | 1550 | 2000 | 5300 | 2022
+sd8g2g  | Snapdragon 8 Gen 2 for Galaxy | Qualcomm | 4 | 1600 | 2050 | 5400 | 2023
+sd8pg1  | Snapdragon 8+ Gen 1 | Qualcomm | 4 | 1250 | 1700 | 4500 | 2022
+sd8g1   | Snapdragon 8 Gen 1 | Qualcomm | 4 | 1150 | 1650 | 4000 | 2021
+sd888   | Snapdragon 888 | Qualcomm | 5 | 950 | 1350 | 3600 | 2020
+sd870   | Snapdragon 870 | Qualcomm | 7 | 800 | 1250 | 3300 | 2021
+sd7pg3  | Snapdragon 7+ Gen 3 | Qualcomm | 4 | 1400 | 1900 | 5000 | 2024
+sd7pg2  | Snapdragon 7+ Gen 2 | Qualcomm | 4 | 1050 | 1650 | 4300 | 2023
+sd7g4   | Snapdragon 7 Gen 4 | Qualcomm | 4 | 950 | 1350 | 4000 | 2025
+sd7g3   | Snapdragon 7 Gen 3 | Qualcomm | 4 | 800 | 1150 | 3200 | 2023
+sd7sg4  | Snapdragon 7s Gen 4 | Qualcomm | 4 | 850 | 1150 | 3300 | 2025
+sd7sg3  | Snapdragon 7s Gen 3 | Qualcomm | 4 | 750 | 1100 | 3000 | 2024
+sd7sg2  | Snapdragon 7s Gen 2 | Qualcomm | 4 | 600 | 1000 | 2900 | 2023
+sd7g1   | Snapdragon 7 Gen 1 | Qualcomm | 4 | 600 | 1050 | 2900 | 2022
+sd6g4   | Snapdragon 6 Gen 4 | Qualcomm | 4 | 800 | 1150 | 3200 | 2025
+sd6g3   | Snapdragon 6 Gen 3 | Qualcomm | 4 | 600 | 1000 | 2900 | 2024
+sd6sg3  | Snapdragon 6s Gen 3 | Qualcomm | 6 | 480 | 950 | 2100 | 2024
+sd6g1   | Snapdragon 6 Gen 1 | Qualcomm | 4 | 560 | 950 | 2800 | 2022
+sd4g2   | Snapdragon 4 Gen 2 | Qualcomm | 4 | 420 | 900 | 2100 | 2023
+sd4sg2  | Snapdragon 4s Gen 2 | Qualcomm | 4 | 400 | 900 | 2000 | 2024
+sd4g1   | Snapdragon 4 Gen 1 | Qualcomm | 6 | 400 | 880 | 2000 | 2022
+sd782   | Snapdragon 782G | Qualcomm | 6 | 650 | 1100 | 3000 | 2022
+sd778p  | Snapdragon 778G+ | Qualcomm | 6 | 640 | 1080 | 2950 | 2021
+sd778   | Snapdragon 778G | Qualcomm | 6 | 620 | 1050 | 2900 | 2021
+sd695   | Snapdragon 695 | Qualcomm | 6 | 430 | 900 | 2050 | 2021
+sd685   | Snapdragon 685 | Qualcomm | 6 | 330 | 450 | 1600 | 2023
+sd680   | Snapdragon 680 | Qualcomm | 6 | 300 | 420 | 1550 | 2021
+sd8pg1g4 | Snapdragon 8+ Gen 1 4G | Qualcomm | 4 | 1200 | 1700 | 4400 | 2022
+sd8g3g4 | Snapdragon 8 Gen 3 4G | Qualcomm | 4 | 2000 | 2200 | 6900 | 2024
+sd778g4 | Snapdragon 778G 4G | Qualcomm | 6 | 600 | 1050 | 2900 | 2022
+xring   | XRING O1 | Xiaomi | 3 | 3000 | 3100 | 9800 | 2025
+d9500   | Dimensity 9500 | MediaTek | 3 | 3500 | 3500 | 10500 | 2025
+d9400p  | Dimensity 9400+ | MediaTek | 3 | 3000 | 2900 | 9200 | 2025
+d9400   | Dimensity 9400 | MediaTek | 3 | 2850 | 2800 | 8800 | 2024
+d9400e  | Dimensity 9400e | MediaTek | 4 | 2300 | 2200 | 7400 | 2025
+d9300p  | Dimensity 9300+ | MediaTek | 4 | 2250 | 2250 | 7500 | 2024
+d9300   | Dimensity 9300 | MediaTek | 4 | 2150 | 2150 | 7300 | 2023
+d9200p  | Dimensity 9200+ | MediaTek | 4 | 1650 | 1900 | 5400 | 2023
+d9200   | Dimensity 9200 | MediaTek | 4 | 1550 | 1850 | 5200 | 2022
+d9000p  | Dimensity 9000+ | MediaTek | 4 | 1250 | 1700 | 4500 | 2022
+d9000   | Dimensity 9000 | MediaTek | 4 | 1150 | 1650 | 4200 | 2021
+d8450   | Dimensity 8450 | MediaTek | 4 | 1700 | 1650 | 6200 | 2025
+d8400   | Dimensity 8400-Ultra | MediaTek | 4 | 1650 | 1600 | 6000 | 2024
+
+d8350   | Dimensity 8350 | MediaTek | 4 | 1350 | 1450 | 4700 | 2024
+d8300   | Dimensity 8300-Ultra | MediaTek | 4 | 1450 | 1450 | 4600 | 2023
+d8250   | Dimensity 8250 | MediaTek | 4 | 1100 | 1250 | 4000 | 2024
+d8200   | Dimensity 8200-Ultra | MediaTek | 4 | 1000 | 1250 | 3900 | 2022
+d8100   | Dimensity 8100-Ultra | MediaTek | 5 | 900 | 1100 | 3600 | 2022
+d8050   | Dimensity 8050 | MediaTek | 6 | 780 | 1100 | 3300 | 2023
+d8020   | Dimensity 8020 | MediaTek | 6 | 720 | 1050 | 3200 | 2023
+d7400   | Dimensity 7400 | MediaTek | 4 | 720 | 1050 | 3000 | 2025
+d7360   | Dimensity 7360-Turbo | MediaTek | 4 | 720 | 1050 | 3000 | 2025
+d7350   | Dimensity 7350 Pro | MediaTek | 4 | 700 | 1050 | 3000 | 2024
+d7300   | Dimensity 7300 | MediaTek | 4 | 680 | 1000 | 2900 | 2024
+d7300e  | Dimensity 7300-Energy | MediaTek | 4 | 670 | 1000 | 2900 | 2024
+d7300u  | Dimensity 7300-Ultra | MediaTek | 4 | 700 | 1020 | 2950 | 2024
+d7200   | Dimensity 7200-Ultra | MediaTek | 4 | 750 | 1150 | 2900 | 2023
+d7200p  | Dimensity 7200 Pro | MediaTek | 4 | 740 | 1150 | 2900 | 2023
+d7050   | Dimensity 7050 | MediaTek | 6 | 600 | 900 | 2200 | 2023
+d7030   | Dimensity 7030 | MediaTek | 6 | 520 | 850 | 2000 | 2023
+d7025   | Dimensity 7025-Ultra | MediaTek | 6 | 500 | 850 | 2000 | 2024
+d6400   | Dimensity 6400 | MediaTek | 6 | 440 | 750 | 1900 | 2025
+d6300   | Dimensity 6300 | MediaTek | 6 | 420 | 750 | 1800 | 2024
+d6100p  | Dimensity 6100+ | MediaTek | 6 | 400 | 700 | 1800 | 2023
+d6080   | Dimensity 6080 | MediaTek | 6 | 420 | 720 | 1850 | 2023
+d6020   | Dimensity 6020 | MediaTek | 7 | 390 | 700 | 1700 | 2023
+d1080   | Dimensity 1080 | MediaTek | 6 | 520 | 900 | 2200 | 2022
+d930    | Dimensity 930 | MediaTek | 6 | 450 | 800 | 2000 | 2022
+d920    | Dimensity 920 | MediaTek | 6 | 520 | 850 | 2200 | 2021
+d810    | Dimensity 810 | MediaTek | 6 | 420 | 750 | 1800 | 2021
+d700    | Dimensity 700 | MediaTek | 7 | 380 | 600 | 1700 | 2020
+hg200   | Helio G200 | MediaTek | 6 | 470 | 750 | 2000 | 2025
+hg100   | Helio G100 | MediaTek | 6 | 450 | 730 | 1950 | 2024
+hg99    | Helio G99 | MediaTek | 6 | 420 | 720 | 1950 | 2022
+hg96    | Helio G96 | MediaTek | 12 | 330 | 520 | 1600 | 2021
+hg92    | Helio G92 | MediaTek | 12 | 300 | 440 | 1450 | 2025
+hg91    | Helio G91 | MediaTek | 12 | 290 | 430 | 1400 | 2024
+hg88    | Helio G88 | MediaTek | 12 | 270 | 410 | 1350 | 2021
+hg85    | Helio G85 | MediaTek | 12 | 260 | 400 | 1300 | 2020
+hg80    | Helio G80 | MediaTek | 12 | 250 | 380 | 1250 | 2020
+hg81    | Helio G81 | MediaTek | 12 | 260 | 400 | 1300 | 2024
+hg37    | Helio G37 | MediaTek | 12 | 140 | 200 | 900 | 2021
+hg36    | Helio G36 | MediaTek | 12 | 130 | 190 | 850 | 2022
+hg35    | Helio G35 | MediaTek | 12 | 120 | 180 | 800 | 2020
+hp35    | Helio P35 | MediaTek | 12 | 110 | 170 | 750 | 2018
+e2600   | Exynos 2600 | Samsung | 2 | 3000 | 3300 | 10200 | 2026
+e2500   | Exynos 2500 | Samsung | 3 | 2200 | 2350 | 8000 | 2025
+e2400   | Exynos 2400 | Samsung | 4 | 1800 | 2150 | 6700 | 2024
+e2400e  | Exynos 2400e | Samsung | 4 | 1750 | 2100 | 6500 | 2024
+e2200   | Exynos 2200 | Samsung | 4 | 1100 | 1650 | 3900 | 2022
+e1580   | Exynos 1580 | Samsung | 4 | 950 | 1350 | 4000 | 2025
+e1480   | Exynos 1480 | Samsung | 4 | 720 | 1150 | 3400 | 2024
+e1380   | Exynos 1380 | Samsung | 5 | 560 | 1000 | 2900 | 2023
+e1330   | Exynos 1330 | Samsung | 5 | 450 | 950 | 2100 | 2023
+e1280   | Exynos 1280 | Samsung | 5 | 430 | 900 | 1900 | 2022
+e850    | Exynos 850 | Samsung | 8 | 150 | 230 | 850 | 2020
+tg1     | Google Tensor | Google | 5 | 800 | 1050 | 2800 | 2021
+tg2     | Google Tensor G2 | Google | 5 | 850 | 1050 | 3200 | 2022
+tg3     | Google Tensor G3 | Google | 4 | 1100 | 1750 | 4400 | 2023
+tg4     | Google Tensor G4 | Google | 4 | 1200 | 1950 | 4700 | 2024
+tg5     | Google Tensor G5 | Google | 3 | 1400 | 2300 | 6200 | 2025
+a15     | Apple A15 Bionic | Apple | 5 | 1150 | 2250 | 5500 | 2021
+a16     | Apple A16 Bionic | Apple | 4 | 1450 | 2550 | 6300 | 2022
+a17p    | Apple A17 Pro | Apple | 3 | 1550 | 2900 | 7200 | 2023
+a18     | Apple A18 | Apple | 3 | 1700 | 3300 | 8000 | 2024
+a18p    | Apple A18 Pro | Apple | 3 | 1800 | 3400 | 8500 | 2024
+a19     | Apple A19 | Apple | 3 | 2000 | 3600 | 9000 | 2025
+a19p    | Apple A19 Pro | Apple | 3 | 2300 | 3800 | 9700 | 2025
+k9030p  | Kirin 9030 Pro | HiSilicon | 5 | 1400 | 1500 | 5200 | 2025
+k9030   | Kirin 9030 | HiSilicon | 5 | 1300 | 1450 | 4900 | 2025
+k9020   | Kirin 9020 | HiSilicon | 7 | 1150 | 1450 | 4500 | 2024
+k9010   | Kirin 9010 | HiSilicon | 7 | 1000 | 1400 | 4200 | 2024
+k9000s  | Kirin 9000S | HiSilicon | 7 | 900 | 1300 | 4000 | 2023
+k9000sl | Kirin 9000SL | HiSilicon | 7 | 800 | 1200 | 3600 | 2023
+k8020   | Kirin 8020 | HiSilicon | 7 | 800 | 1150 | 3500 | 2025
+k8000   | Kirin 8000 | HiSilicon | 7 | 700 | 1100 | 3300 | 2024
+k9000   | Kirin 9000 | HiSilicon | 5 | 900 | 1250 | 3700 | 2020
+k710a   | Kirin 710A | HiSilicon | 14 | 200 | 300 | 1100 | 2020
+ut760   | Unisoc T760 | Unisoc | 6 | 450 | 750 | 2000 | 2021
+ut8200  | Unisoc T8200 | Unisoc | 6 | 520 | 800 | 2200 | 2024
+ut7250  | Unisoc T7250 | Unisoc | 12 | 270 | 420 | 1400 | 2024
+ut7225  | Unisoc T7225 | Unisoc | 12 | 250 | 400 | 1350 | 2024
+ut616   | Unisoc T616 | Unisoc | 12 | 260 | 410 | 1350 | 2021
+ut612   | Unisoc T612 | Unisoc | 12 | 240 | 380 | 1300 | 2021
+ut606   | Unisoc T606 | Unisoc | 12 | 230 | 360 | 1250 | 2021
+ut7200  | Unisoc T7200 | Unisoc | 12 | 230 | 360 | 1250 | 2024
+ut7100  | Unisoc T7100 | Unisoc | 12 | 200 | 330 | 1100 | 2025
+usc9863 | Unisoc SC9863A | Unisoc | 28 | 120 | 170 | 700 | 2018
+d7060   | Dimensity 7060 | MediaTek | 6 | 450 | 750 | 2000 | 2025
+d7300x  | Dimensity 7300X | MediaTek | 4 | 680 | 1000 | 2900 | 2024
+d7400x  | Dimensity 7400X | MediaTek | 4 | 720 | 1050 | 3000 | 2025
+ut603   | Unisoc T603 | Unisoc | 12 | 180 | 300 | 1000 | 2023
+qcm6490 | Qualcomm QCM6490 | Qualcomm | 6 | 550 | 1150 | 2900 | 2021
+hp70    | Helio P70 | MediaTek | 12 | 230 | 300 | 1300 | 2018
+hp22    | Helio P22 | MediaTek | 12 | 100 | 150 | 600 | 2018
+hg25    | Helio G25 | MediaTek | 12 | 110 | 150 | 650 | 2020
+sd480p  | Snapdragon 480+ | Qualcomm | 8 | 330 | 700 | 1700 | 2021
+sd732   | Snapdragon 732G | Qualcomm | 8 | 380 | 600 | 1700 | 2020
+d7020   | Dimensity 7020 | MediaTek | 6 | 420 | 750 | 1900 | 2023
+a20p    | Apple A20 Pro | Apple | 2 | - | - | - | 2026
+tg6     | Google Tensor G6 | Google | 2 | - | - | - | 2026
+e1680   | Exynos 1680 | Samsung | 4 | - | - | - | 2026
+d8500   | Dimensity 8500-Ultra | MediaTek | 4 | - | - | - | 2026

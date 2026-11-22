@@ -5,34 +5,35 @@
   "full_name": "Google Pixel 11",
   "aliases": [],
   "os": "Android",
-  "release_date": null,
+  "release_date": "2026-08-20",
   "year": 2026,
   "status": "on_sale",
   "availability_ru": "parallel_import",
   "form_factor": "bar",
   "in_ml": true,
-  "chipset": "demo-soc-1700",
+  "chipset": "google-tensor-g6",
   "specs": {
-    "screen_in": 6.3,
+    "screen_in": 6.34,
     "cover_screen_in": null,
     "refresh_hz": 120,
     "display_type": null,
     "peak_nits": null,
-    "battery_mah": 4970,
-    "charge_w": 30.0,
+    "battery_mah": 4985,
+    "charge_w": 30,
     "wireless_w": null,
-    "weight_g": 200.0,
+    "weight_g": 197,
     "thickness_mm": null,
     "ip_rating": null,
     "has_5g": true,
     "nfc": true,
     "esim": true,
     "ir_port": false,
-    "jack35": null,
-    "sd_card": null,
+    "jack35": false,
+    "sd_card": false,
     "update_years": null,
-    "_q": "estimated",
+    "_q": "verified",
     "_src": [
+      "wikipedia:Pixel_11",
       "project_seed"
     ]
   },
@@ -40,27 +41,14 @@
     {
       "ram_gb": 12,
       "rom_gb": 256,
-      "price_rub": 49000,
-      "price_date": "2026-11-05",
-      "price_src": "project_seed",
+      "price_rub": 49107,
+      "price_date": "2026-11-21",
+      "price_src": "telegram_polzaskidki",
       "msrp_usd": null,
       "is_base": true,
-      "_q": "estimated",
+      "_q": "verified",
       "_src": [
-        "project_seed"
-      ]
-    },
-    {
-      "ram_gb": 12,
-      "rom_gb": 512,
-      "price_rub": 55990,
-      "price_date": "2026-11-20",
-      "price_src": "random",
-      "msrp_usd": null,
-      "is_base": false,
-      "_q": "random",
-      "_src": [
-        "random"
+        "telegram_polzaskidki:t.me/polzaSKIDKI/33076"
       ]
     }
   ],
@@ -68,125 +56,110 @@
     {
       "role": "main",
       "position": 0,
-      "sensor": "demo-s23",
-      "mp": 50,
-      "aperture": 1.8,
-      "focal_mm": 24,
-      "fov_deg": 84,
+      "sensor": null,
+      "mp": 48.0,
+      "aperture": null,
+      "focal_mm": null,
+      "fov_deg": null,
       "optical_zoom_x": null,
-      "ois": true,
+      "ois": false,
       "af": "pdaf",
       "min_focus_cm": null,
-      "video_max": "4K60",
-      "processing_score": 73,
-      "processing_basis": "random",
-      "_q": "random",
+      "video_max": null,
+      "processing_score": null,
+      "processing_basis": null,
+      "_q": "verified",
       "_src": [
-        "random"
+        "wikipedia:Pixel_11"
+      ]
+    },
+    {
+      "role": "ultrawide",
+      "position": 0,
+      "sensor": null,
+      "mp": 13.0,
+      "aperture": null,
+      "focal_mm": null,
+      "fov_deg": null,
+      "optical_zoom_x": null,
+      "ois": false,
+      "af": "pdaf",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": null,
+      "processing_basis": null,
+      "_q": "verified",
+      "_src": [
+        "wikipedia:Pixel_11"
+      ]
+    },
+    {
+      "role": "tele",
+      "position": 0,
+      "sensor": null,
+      "mp": 10.8,
+      "aperture": null,
+      "focal_mm": null,
+      "fov_deg": null,
+      "optical_zoom_x": null,
+      "ois": false,
+      "af": "pdaf",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": null,
+      "processing_basis": null,
+      "_q": "verified",
+      "_src": [
+        "wikipedia:Pixel_11"
       ]
     },
     {
       "role": "front",
       "position": 0,
-      "sensor": "demo-s12",
-      "mp": 20,
-      "aperture": 2.0,
-      "focal_mm": 25,
-      "fov_deg": 85,
+      "sensor": null,
+      "mp": 10.5,
+      "aperture": null,
+      "focal_mm": null,
+      "fov_deg": null,
       "optical_zoom_x": null,
       "ois": false,
       "af": "fixed",
       "min_focus_cm": null,
       "video_max": null,
-      "processing_score": 69,
-      "processing_basis": "random",
-      "_q": "random",
+      "processing_score": null,
+      "processing_basis": null,
+      "_q": "verified",
       "_src": [
-        "random"
+        "wikipedia:Pixel_11"
       ]
     }
   ],
   "camera_features": {
     "macro_mode": "none",
     "macro_min_focus_cm": null,
-    "lossless_zoom_x": 2.0,
-    "max_digital_zoom_x": 8,
+    "lossless_zoom_x": null,
+    "max_digital_zoom_x": null,
     "dxomark": null,
-    "_q": "random",
-    "_src": [
-      "random"
-    ]
+    "_q": "unknown",
+    "_src": []
   },
   "quirks": [
     {
-      "code": "overheating",
-      "severity": 2,
-      "note_ru": "Гипотеза пользователя: Pixel сильно греются (чипы Tensor). Проверить по каждой модели отдельно.",
-      "evidence": [],
-      "_q": "user_hypothesis"
-    },
-    {
-      "code": "fragile_build",
-      "severity": 1,
-      "note_ru": "Демо: случайная особенность для проверки интерфейса.",
-      "evidence": [],
-      "_q": "random"
-    },
-    {
-      "code": "yellow_tint",
-      "severity": 2,
-      "note_ru": "Демо: случайная особенность для проверки интерфейса.",
-      "evidence": [],
-      "_q": "random"
-    },
-    {
-      "code": "inconsistent_colors",
+      "code": "long_updates",
       "severity": 3,
-      "note_ru": "Демо: случайная особенность для проверки интерфейса.",
-      "evidence": [],
-      "_q": "random"
+      "note_ru": "7 лет обновлений Android и безопасности с начала продаж — официальная политика Google для Pixel 8 и новее.",
+      "evidence": [
+        "https://support.google.com/pixelphone/answer/4457705?hl=en"
+      ],
+      "_q": "verified"
     }
   ],
   "quirks_checked": false,
   "special": [],
-  "photos": [
-    {
-      "url": "/placeholder/google-pixel-11/1.svg",
-      "kind": "placeholder",
-      "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
-      "width": 960,
-      "height": 1280,
-      "origin": "placeholder"
-    },
-    {
-      "url": "/placeholder/google-pixel-11/2.svg",
-      "kind": "placeholder",
-      "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
-      "width": 960,
-      "height": 1280,
-      "origin": "placeholder"
-    },
-    {
-      "url": "/placeholder/google-pixel-11/3.svg",
-      "kind": "placeholder",
-      "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
-      "width": 960,
-      "height": 1280,
-      "origin": "placeholder"
-    }
-  ],
+  "photos": [],
   "_meta": {
-    "created": "2026-11-20",
-    "updated": "2026-11-20",
-    "filled_by": "tools/generate_random_catalog.py"
+    "created": "2026-11-21",
+    "updated": "2026-11-21",
+    "filled_by": "Claude Opus 5.5 (сведения до 2026-06) + tools/import_catalog_data.py"
   }
 }

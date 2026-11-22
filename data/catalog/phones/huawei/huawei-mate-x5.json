@@ -1,0 +1,280 @@
+{
+  "slug": "huawei-mate-x5",
+  "brand": "huawei",
+  "name": "Mate X5",
+  "full_name": "Huawei Mate X5",
+  "aliases": [],
+  "os": "HarmonyOS",
+  "release_date": "2023-09-08",
+  "year": 2023,
+  "status": "china_only",
+  "availability_ru": "not_sold",
+  "form_factor": "book_fold",
+  "in_ml": false,
+  "chipset": "kirin-9000s",
+  "specs": {
+    "screen_in": 7.85,
+    "cover_screen_in": 6.4,
+    "refresh_hz": 120,
+    "display_type": "LTPO OLED",
+    "peak_nits": 2500,
+    "battery_mah": 5060,
+    "charge_w": 66,
+    "wireless_w": 50,
+    "weight_g": 243,
+    "thickness_mm": 11.08,
+    "ip_rating": "IPX8",
+    "has_5g": true,
+    "nfc": true,
+    "esim": false,
+    "ir_port": true,
+    "jack35": false,
+    "sd_card": false,
+    "update_years": null,
+    "_q": "verified",
+    "_src": [
+      "wikipedia:Huawei_Mate_X5",
+      "ai_knowledge"
+    ]
+  },
+  "variants": [
+    {
+      "ram_gb": 12,
+      "rom_gb": 256,
+      "price_rub": null,
+      "price_date": null,
+      "price_src": null,
+      "msrp_usd": null,
+      "is_base": false,
+      "_q": "unknown",
+      "_src": []
+    },
+    {
+      "ram_gb": 12,
+      "rom_gb": 512,
+      "price_rub": null,
+      "price_date": null,
+      "price_src": null,
+      "msrp_usd": null,
+      "is_base": true,
+      "_q": "unknown",
+      "_src": []
+    },
+    {
+      "ram_gb": 16,
+      "rom_gb": 1024,
+      "price_rub": null,
+      "price_date": null,
+      "price_src": null,
+      "msrp_usd": null,
+      "is_base": false,
+      "_q": "unknown",
+      "_src": []
+    }
+  ],
+  "cameras": [
+    {
+      "role": "main",
+      "position": 0,
+      "sensor": null,
+      "mp": 50,
+      "aperture": 1.4,
+      "focal_mm": null,
+      "fov_deg": null,
+      "optical_zoom_x": null,
+      "ois": true,
+      "af": "pdaf",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": 78,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
+      "_src": [
+        "ai_knowledge"
+      ]
+    },
+    {
+      "role": "ultrawide",
+      "position": 0,
+      "sensor": null,
+      "mp": 13,
+      "aperture": 2.2,
+      "focal_mm": null,
+      "fov_deg": null,
+      "optical_zoom_x": null,
+      "ois": false,
+      "af": "pdaf",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": 58,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
+      "_src": [
+        "ai_knowledge"
+      ]
+    },
+    {
+      "role": "periscope",
+      "position": 0,
+      "sensor": null,
+      "mp": 12,
+      "aperture": 3.4,
+      "focal_mm": null,
+      "fov_deg": null,
+      "optical_zoom_x": 5.0,
+      "ois": true,
+      "af": "pdaf",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": 64,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
+      "_src": [
+        "ai_knowledge"
+      ]
+    },
+    {
+      "role": "cover",
+      "position": 0,
+      "sensor": null,
+      "mp": 8,
+      "aperture": 2.4,
+      "focal_mm": null,
+      "fov_deg": null,
+      "optical_zoom_x": null,
+      "ois": false,
+      "af": "fixed",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": 54,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
+      "_src": [
+        "ai_knowledge"
+      ]
+    },
+    {
+      "role": "front",
+      "position": 0,
+      "sensor": null,
+      "mp": 8,
+      "aperture": 2.4,
+      "focal_mm": null,
+      "fov_deg": null,
+      "optical_zoom_x": null,
+      "ois": false,
+      "af": "fixed",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": 54,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
+      "_src": [
+        "ai_knowledge"
+      ]
+    }
+  ],
+  "camera_features": {
+    "macro_mode": "tele_macro",
+    "macro_min_focus_cm": null,
+    "lossless_zoom_x": null,
+    "max_digital_zoom_x": 50,
+    "dxomark": null,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge"
+    ]
+  },
+  "quirks": [
+    {
+      "code": "no_google_services",
+      "severity": 3,
+      "note_ru": "Нет сервисов Google: с 2019 г. Huawei выпускает смартфоны с Huawei Mobile Services и AppGallery вместо Google Play.",
+      "evidence": [
+        "https://en.wikipedia.org/wiki/Huawei_Mobile_Services"
+      ],
+      "_q": "verified"
+    }
+  ],
+  "quirks_checked": false,
+  "special": [
+    {
+      "code": "book_fold",
+      "note_ru": "Складывается книжкой: большой внутренний экран и внешний.",
+      "_q": "estimated"
+    }
+  ],
+  "photos": [
+    {
+      "author": "メイド理世",
+      "color_ru": null,
+      "height": 539,
+      "kind": "lifestyle",
+      "license": "CC BY-SA 4.0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Huawei_Mate_X5.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Huawei_Mate_X5.jpg/960px-Huawei_Mate_X5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
+    },
+    {
+      "author": "メイド理世",
+      "color_ru": null,
+      "height": 539,
+      "kind": "lifestyle",
+      "license": "CC BY-SA 4.0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Huawei_Mate_X5_(1).jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Huawei_Mate_X5_%281%29.jpg/960px-Huawei_Mate_X5_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
+    },
+    {
+      "author": "メイド理世",
+      "color_ru": null,
+      "height": 539,
+      "kind": "lifestyle",
+      "license": "CC BY-SA 4.0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Huawei_Mate_X5_(2).jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Huawei_Mate_X5_%282%29.jpg/960px-Huawei_Mate_X5_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
+    },
+    {
+      "author": "毕明明",
+      "color_ru": null,
+      "height": 1280,
+      "kind": "lifestyle",
+      "license": "CC BY-SA 4.0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:HUAWEI_Mate_X5_20240910_003.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/HUAWEI_Mate_X5_20240910_003.jpg/960px-HUAWEI_Mate_X5_20240910_003.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
+    },
+    {
+      "author": "毕明明",
+      "color_ru": null,
+      "height": 1280,
+      "kind": "lifestyle",
+      "license": "CC BY-SA 4.0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:HUAWEI_Mate_X5_20240910_004.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/HUAWEI_Mate_X5_20240910_004.jpg/960px-HUAWEI_Mate_X5_20240910_004.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
+    },
+    {
+      "author": "メイド理世",
+      "color_ru": null,
+      "height": 720,
+      "kind": "lifestyle",
+      "license": "CC BY-SA 4.0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Huawei_Mate_X5_view.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Huawei_Mate_X5_view.jpg/960px-Huawei_Mate_X5_view.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
+    }
+  ],
+  "_meta": {
+    "created": "2026-11-21",
+    "updated": "2026-11-21",
+    "filled_by": "Claude Opus 5.5 (сведения до 2026-06) + tools/import_catalog_data.py"
+  }
+}

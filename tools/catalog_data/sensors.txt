@@ -1,0 +1,41 @@
+# Сенсоры: ключ | название | производитель | МП | оптический формат | пиксель мкм | технологии
+# Только сенсоры, которые производители телефонов называли в анонсах (по сведениям нейросети, estimated).
+lyt900  | Sony LYT-900 | Sony | 50 | 1 | 1.6 | quad_bayer,dcg
+lyt828  | Sony LYT-828 | Sony | 50 | 1/1.28 | 1.22 | quad_bayer,dcg
+lyt818  | Sony LYT-818 | Sony | 50 | 1/1.28 | 1.22 | quad_bayer,dcg
+lyt808  | Sony LYT-808 | Sony | 50 | 1/1.4 | 1.12 | quad_bayer,dcg
+lyt800  | Sony LYT-800 | Sony | 50 | 1/1.56 | 1.0 | quad_bayer
+lyt700  | Sony LYT-700 | Sony | 50 | 1/1.56 | 1.0 | quad_bayer
+lyt600  | Sony LYT-600 | Sony | 50 | 1/1.95 | 0.8 | quad_bayer
+imx989  | Sony IMX989 | Sony | 50.3 | 1 | 1.6 | quad_bayer
+imx906  | Sony IMX906 | Sony | 50 | 1/1.56 | 1.0 | quad_bayer
+imx890  | Sony IMX890 | Sony | 50 | 1/1.56 | 1.0 | quad_bayer
+imx882  | Sony IMX882 | Sony | 50 | 1/1.95 | 0.8 | quad_bayer
+imx858  | Sony IMX858 | Sony | 50 | 1/2.51 | 0.7 | quad_bayer
+imx766  | Sony IMX766 | Sony | 50 | 1/1.56 | 1.0 | quad_bayer
+imx707  | Sony IMX707 | Sony | 50 | 1/1.28 | 1.22 | quad_bayer
+imx787  | Sony IMX787 | Sony | 64 | 1/1.73 | 0.8 | quad_bayer
+imx586  | Sony IMX586 | Sony | 48 | 1/2 | 0.8 | quad_bayer
+imx582  | Sony IMX582 | Sony | 48 | 1/2 | 0.8 | quad_bayer
+imx363  | Sony IMX363 | Sony | 12.2 | 1/2.55 | 1.4 | dual_pixel_pro
+imx355  | Sony IMX355 | Sony | 8 | 1/4 | 1.12 | -
+imx615  | Sony IMX615 | Sony | 32 | 1/2.8 | 0.8 | quad_bayer
+imx616  | Sony IMX616 | Sony | 32 | 1/2.8 | 0.8 | quad_bayer
+imx471  | Sony IMX471 | Sony | 16 | 1/3.06 | 1.0 | -
+hp1     | Samsung ISOCELL HP1 | Samsung | 200 | 1/1.22 | 0.64 | tetra2pixel
+hp2     | Samsung ISOCELL HP2 | Samsung | 200 | 1/1.3 | 0.6 | tetra2pixel
+hp3     | Samsung ISOCELL HP3 | Samsung | 200 | 1/1.4 | 0.56 | tetra2pixel
+hp9     | Samsung ISOCELL HP9 | Samsung | 200 | 1/1.4 | 0.56 | tetra2pixel
+hm6     | Samsung ISOCELL HM6 | Samsung | 108 | 1/1.67 | 0.64 | nonacell
+hm3     | Samsung ISOCELL HM3 | Samsung | 108 | 1/1.33 | 0.8 | nonacell
+hm2     | Samsung ISOCELL HM2 | Samsung | 108 | 1/1.52 | 0.7 | nonacell
+gn1     | Samsung ISOCELL GN1 | Samsung | 50 | 1/1.31 | 1.2 | dual_pixel_pro
+gnk     | Samsung ISOCELL GNK | Samsung | 50 | 1/1.31 | 1.2 | dual_pixel_pro
+gn3     | Samsung ISOCELL GN3 | Samsung | 50 | 1/1.57 | 1.0 | dual_pixel_pro
+jn1     | Samsung ISOCELL JN1 | Samsung | 50 | 1/2.76 | 0.64 | tetra2pixel
+jn5     | Samsung ISOCELL JN5 | Samsung | 50 | 1/2.76 | 0.64 | -
+ov50h   | OmniVision OV50H | OmniVision | 50 | 1/1.3 | 1.2 | quad_bayer,dcg
+ov50e   | OmniVision OV50E | OmniVision | 50 | 1/1.55 | 1.0 | quad_bayer
+ov64b   | OmniVision OV64B | OmniVision | 64 | 1/2 | 0.7 | quad_bayer
+ovx9000 | OmniVision OVX9000 | OmniVision | 50 | 1/1.31 | 1.2 | dcg
+ov13b   | OmniVision OV13B | OmniVision | 13 | 1/3.06 | 1.12 | -

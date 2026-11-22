@@ -5,62 +5,75 @@
   "full_name": "POCO X7 Pro",
   "aliases": [],
   "os": "Android",
-  "release_date": null,
+  "release_date": "2025-01",
   "year": 2025,
   "status": "on_sale",
   "availability_ru": "official",
   "form_factor": "bar",
   "in_ml": true,
-  "chipset": "demo-soc-1500",
+  "chipset": "dimensity-8400-ultra",
   "specs": {
     "screen_in": 6.67,
     "cover_screen_in": null,
     "refresh_hz": 120,
-    "display_type": null,
-    "peak_nits": null,
+    "display_type": "AMOLED",
+    "peak_nits": 3200,
     "battery_mah": 6000,
-    "charge_w": 90.0,
-    "wireless_w": null,
-    "weight_g": 195.0,
-    "thickness_mm": null,
-    "ip_rating": null,
+    "charge_w": 90,
+    "wireless_w": 0,
+    "weight_g": 195,
+    "thickness_mm": 8.29,
+    "ip_rating": "IP68",
     "has_5g": true,
     "nfc": true,
     "esim": false,
     "ir_port": true,
-    "jack35": null,
-    "sd_card": null,
-    "update_years": null,
+    "jack35": false,
+    "sd_card": false,
+    "update_years": 4,
     "_q": "estimated",
     "_src": [
-      "project_seed"
+      "ai_knowledge"
     ]
   },
   "variants": [
     {
       "ram_gb": 8,
       "rom_gb": 256,
-      "price_rub": 19000,
-      "price_date": "2026-11-05",
-      "price_src": "project_seed",
+      "price_rub": 21249,
+      "price_date": "2026-11-06",
+      "price_src": "telegram_polzaskidki",
       "msrp_usd": null,
       "is_base": true,
-      "_q": "estimated",
+      "_q": "verified",
       "_src": [
-        "project_seed"
+        "telegram_polzaskidki:t.me/polzaSKIDKI/31802"
       ]
     },
     {
-      "ram_gb": 8,
-      "rom_gb": 512,
-      "price_rub": 21990,
-      "price_date": "2026-11-20",
-      "price_src": "random",
+      "ram_gb": 12,
+      "rom_gb": 256,
+      "price_rub": 22247,
+      "price_date": "2026-11-05",
+      "price_src": "telegram_polzaskidki",
       "msrp_usd": null,
       "is_base": false,
-      "_q": "random",
+      "_q": "verified",
       "_src": [
-        "random"
+        "telegram_polzaskidki:t.me/polzaSKIDKI/31700"
+      ]
+    },
+    {
+      "ram_gb": 12,
+      "rom_gb": 512,
+      "price_rub": 24455,
+      "price_date": "2026-11-20",
+      "price_src": "telegram_polzaskidki",
+      "msrp_usd": null,
+      "is_base": false,
+      "_q": "verified",
+      "_src": [
+        "telegram_polzaskidki:t.me/polzaSKIDKI/33032"
       ]
     }
   ],
@@ -68,131 +81,90 @@
     {
       "role": "main",
       "position": 0,
-      "sensor": "demo-s20",
+      "sensor": "sony-lyt-600",
       "mp": 50,
-      "aperture": 2.0,
-      "focal_mm": 23,
-      "fov_deg": 80,
+      "aperture": 1.5,
+      "focal_mm": null,
+      "fov_deg": null,
       "optical_zoom_x": null,
-      "ois": false,
+      "ois": true,
       "af": "pdaf",
       "min_focus_cm": null,
-      "video_max": "4K30",
-      "processing_score": 46,
-      "processing_basis": "random",
-      "_q": "random",
+      "video_max": null,
+      "processing_score": 60,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "ai_knowledge"
       ]
     },
     {
-      "role": "macro",
+      "role": "ultrawide",
       "position": 0,
-      "sensor": "demo-s01",
-      "mp": 2,
-      "aperture": 2.4,
-      "focal_mm": 22,
-      "fov_deg": 72,
+      "sensor": null,
+      "mp": 8,
+      "aperture": 2.2,
+      "focal_mm": null,
+      "fov_deg": null,
       "optical_zoom_x": null,
       "ois": false,
       "af": "fixed",
-      "min_focus_cm": 4,
+      "min_focus_cm": null,
       "video_max": null,
-      "processing_score": 43,
-      "processing_basis": "random",
-      "_q": "random",
+      "processing_score": 38,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "ai_knowledge"
       ]
     },
     {
       "role": "front",
       "position": 0,
-      "sensor": "demo-s11",
-      "mp": 16,
-      "aperture": 2.1,
-      "focal_mm": 24,
-      "fov_deg": 88,
+      "sensor": null,
+      "mp": 20,
+      "aperture": 2.2,
+      "focal_mm": null,
+      "fov_deg": null,
       "optical_zoom_x": null,
       "ois": false,
       "af": "fixed",
       "min_focus_cm": null,
       "video_max": null,
-      "processing_score": 39,
-      "processing_basis": "random",
-      "_q": "random",
+      "processing_score": 48,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "ai_knowledge"
       ]
     }
   ],
   "camera_features": {
-    "macro_mode": "dedicated",
-    "macro_min_focus_cm": 4,
-    "lossless_zoom_x": 2.0,
-    "max_digital_zoom_x": 8,
+    "macro_mode": "none",
+    "macro_min_focus_cm": null,
+    "lossless_zoom_x": null,
+    "max_digital_zoom_x": 10,
     "dxomark": null,
-    "_q": "random",
+    "_q": "estimated",
     "_src": [
-      "random"
+      "ai_knowledge"
     ]
   },
   "quirks": [
     {
-      "code": "fragile_build",
-      "severity": 3,
-      "note_ru": "Демо: случайная особенность для проверки интерфейса.",
-      "evidence": [],
-      "_q": "random"
-    },
-    {
-      "code": "shutter_lag",
+      "code": "excellent_battery",
       "severity": 2,
-      "note_ru": "Демо: случайная особенность для проверки интерфейса.",
+      "note_ru": "В тестах автономности держится заметно дольше конкурентов.",
       "evidence": [],
-      "_q": "random"
+      "_q": "estimated"
     }
   ],
   "quirks_checked": false,
   "special": [],
-  "photos": [
-    {
-      "url": "/placeholder/poco-x7-pro/1.svg",
-      "kind": "placeholder",
-      "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
-      "width": 960,
-      "height": 1280,
-      "origin": "placeholder"
-    },
-    {
-      "url": "/placeholder/poco-x7-pro/2.svg",
-      "kind": "placeholder",
-      "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
-      "width": 960,
-      "height": 1280,
-      "origin": "placeholder"
-    },
-    {
-      "url": "/placeholder/poco-x7-pro/3.svg",
-      "kind": "placeholder",
-      "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
-      "width": 960,
-      "height": 1280,
-      "origin": "placeholder"
-    }
-  ],
+  "photos": [],
   "_meta": {
-    "created": "2026-11-20",
-    "updated": "2026-11-20",
-    "filled_by": "tools/generate_random_catalog.py"
+    "created": "2026-11-21",
+    "updated": "2026-11-21",
+    "filled_by": "Claude Opus 5.5 (сведения до 2026-06) + tools/import_catalog_data.py"
   }
 }

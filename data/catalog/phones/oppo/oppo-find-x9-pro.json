@@ -5,38 +5,52 @@
   "full_name": "OPPO Find X9 Pro",
   "aliases": [],
   "os": "Android",
-  "release_date": null,
-  "year": 2026,
+  "release_date": "2025-10",
+  "year": 2025,
   "status": "on_sale",
   "availability_ru": "official",
   "form_factor": "bar",
   "in_ml": true,
-  "chipset": "demo-soc-3500",
+  "chipset": "dimensity-9500",
   "specs": {
     "screen_in": 6.78,
     "cover_screen_in": null,
     "refresh_hz": 120,
-    "display_type": null,
-    "peak_nits": null,
+    "display_type": "LTPO AMOLED",
+    "peak_nits": 3600,
     "battery_mah": 7500,
-    "charge_w": 80.0,
-    "wireless_w": null,
-    "weight_g": 224.0,
-    "thickness_mm": null,
-    "ip_rating": null,
+    "charge_w": 80,
+    "wireless_w": 50,
+    "weight_g": 224,
+    "thickness_mm": 8.25,
+    "ip_rating": "IP69",
     "has_5g": true,
     "nfc": true,
-    "esim": true,
-    "ir_port": true,
-    "jack35": null,
-    "sd_card": null,
-    "update_years": null,
-    "_q": "estimated",
+    "esim": false,
+    "ir_port": false,
+    "jack35": false,
+    "sd_card": false,
+    "update_years": 5,
+    "_q": "verified",
     "_src": [
-      "project_seed"
+      "wikipedia:Oppo_Find_X9",
+      "ai_knowledge"
     ]
   },
   "variants": [
+    {
+      "ram_gb": 12,
+      "rom_gb": 256,
+      "price_rub": 54149,
+      "price_date": "2026-11-21",
+      "price_src": "telegram_polzaskidki",
+      "msrp_usd": null,
+      "is_base": false,
+      "_q": "verified",
+      "_src": [
+        "telegram_polzaskidki:t.me/polzaSKIDKI/33102"
+      ]
+    },
     {
       "ram_gb": 16,
       "rom_gb": 512,
@@ -49,183 +63,123 @@
       "_src": [
         "project_seed"
       ]
-    },
-    {
-      "ram_gb": 24,
-      "rom_gb": 1024,
-      "price_rub": 63990,
-      "price_date": "2026-11-20",
-      "price_src": "random",
-      "msrp_usd": null,
-      "is_base": false,
-      "_q": "random",
-      "_src": [
-        "random"
-      ]
     }
   ],
   "cameras": [
     {
       "role": "main",
       "position": 0,
-      "sensor": "demo-s32",
-      "mp": 200,
-      "aperture": 1.7,
-      "focal_mm": 25,
-      "fov_deg": 82,
+      "sensor": "sony-lyt-828",
+      "mp": 50,
+      "aperture": 1.5,
+      "focal_mm": 23,
+      "fov_deg": null,
       "optical_zoom_x": null,
       "ois": true,
       "af": "pdaf",
       "min_focus_cm": null,
-      "video_max": "8K30",
-      "processing_score": 64,
-      "processing_basis": "random",
-      "_q": "random",
+      "video_max": null,
+      "processing_score": 86,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "ai_knowledge"
       ]
     },
     {
       "role": "ultrawide",
       "position": 0,
-      "sensor": "demo-s19",
+      "sensor": null,
       "mp": 50,
-      "aperture": 2.4,
-      "focal_mm": 13,
-      "fov_deg": 113,
-      "optical_zoom_x": 0.6,
-      "ois": false,
-      "af": "fixed",
-      "min_focus_cm": null,
-      "video_max": null,
-      "processing_score": 91,
-      "processing_basis": "random",
-      "_q": "random",
-      "_src": [
-        "random"
-      ]
-    },
-    {
-      "role": "tele",
-      "position": 0,
-      "sensor": "demo-s19",
-      "mp": 50,
-      "aperture": 2.6,
-      "focal_mm": 73,
-      "fov_deg": 35,
+      "aperture": 2,
+      "focal_mm": 15,
+      "fov_deg": null,
       "optical_zoom_x": null,
-      "ois": true,
+      "ois": false,
       "af": "pdaf",
       "min_focus_cm": null,
       "video_max": null,
-      "processing_score": 95,
-      "processing_basis": "random",
-      "_q": "random",
+      "processing_score": 72,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "ai_knowledge"
       ]
     },
     {
       "role": "periscope",
       "position": 0,
-      "sensor": "demo-s21",
-      "mp": 50,
-      "aperture": 3.2,
-      "focal_mm": 134,
-      "fov_deg": 20,
-      "optical_zoom_x": null,
+      "sensor": null,
+      "mp": 200,
+      "aperture": 2.1,
+      "focal_mm": 70,
+      "fov_deg": null,
+      "optical_zoom_x": 3.0,
       "ois": true,
       "af": "pdaf",
       "min_focus_cm": null,
       "video_max": null,
-      "processing_score": 64,
-      "processing_basis": "random",
-      "_q": "random",
+      "processing_score": 84,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "ai_knowledge"
       ]
     },
     {
       "role": "front",
       "position": 0,
-      "sensor": "demo-s13",
-      "mp": 32,
-      "aperture": 2.3,
-      "focal_mm": 22,
-      "fov_deg": 80,
+      "sensor": null,
+      "mp": 50,
+      "aperture": 2,
+      "focal_mm": null,
+      "fov_deg": null,
       "optical_zoom_x": null,
       "ois": false,
-      "af": "pdaf",
+      "af": "fixed",
       "min_focus_cm": null,
       "video_max": null,
-      "processing_score": 71,
-      "processing_basis": "random",
-      "_q": "random",
+      "processing_score": 66,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "ai_knowledge"
       ]
     }
   ],
   "camera_features": {
-    "macro_mode": "none",
+    "macro_mode": "tele_macro",
     "macro_min_focus_cm": null,
-    "lossless_zoom_x": 4.0,
-    "max_digital_zoom_x": 100,
+    "lossless_zoom_x": null,
+    "max_digital_zoom_x": 120,
     "dxomark": null,
-    "_q": "random",
+    "_q": "estimated",
     "_src": [
-      "random"
+      "ai_knowledge"
     ]
   },
   "quirks": [
     {
-      "code": "weak_speaker",
-      "severity": 2,
-      "note_ru": "Демо: случайная особенность для проверки интерфейса.",
+      "code": "excellent_battery",
+      "severity": 3,
+      "note_ru": "В тестах автономности держится заметно дольше конкурентов.",
       "evidence": [],
-      "_q": "random"
+      "_q": "estimated"
+    },
+    {
+      "code": "great_portraits",
+      "severity": 2,
+      "note_ru": "Обзоры отмечают удачные портреты и отделение фона.",
+      "evidence": [],
+      "_q": "estimated"
     }
   ],
   "quirks_checked": false,
   "special": [],
-  "photos": [
-    {
-      "url": "/placeholder/oppo-find-x9-pro/1.svg",
-      "kind": "placeholder",
-      "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
-      "width": 960,
-      "height": 1280,
-      "origin": "placeholder"
-    },
-    {
-      "url": "/placeholder/oppo-find-x9-pro/2.svg",
-      "kind": "placeholder",
-      "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
-      "width": 960,
-      "height": 1280,
-      "origin": "placeholder"
-    },
-    {
-      "url": "/placeholder/oppo-find-x9-pro/3.svg",
-      "kind": "placeholder",
-      "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
-      "width": 960,
-      "height": 1280,
-      "origin": "placeholder"
-    }
-  ],
+  "photos": [],
   "_meta": {
-    "created": "2026-11-20",
-    "updated": "2026-11-20",
-    "filled_by": "tools/generate_random_catalog.py"
+    "created": "2026-11-21",
+    "updated": "2026-11-21",
+    "filled_by": "Claude Opus 5.5 (сведения до 2026-06) + tools/import_catalog_data.py"
   }
 }

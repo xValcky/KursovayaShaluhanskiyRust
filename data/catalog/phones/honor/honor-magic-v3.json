@@ -5,35 +5,35 @@
   "full_name": "Honor Magic V3",
   "aliases": [],
   "os": "Android",
-  "release_date": null,
+  "release_date": "2024-09",
   "year": 2024,
   "status": "on_sale",
   "availability_ru": "official",
-  "form_factor": "bar",
+  "form_factor": "book_fold",
   "in_ml": true,
-  "chipset": "demo-soc-1700",
+  "chipset": "snapdragon-8-gen-3",
   "specs": {
     "screen_in": 7.92,
-    "cover_screen_in": null,
+    "cover_screen_in": 6.43,
     "refresh_hz": 120,
-    "display_type": null,
-    "peak_nits": null,
+    "display_type": "LTPO OLED",
+    "peak_nits": 5000,
     "battery_mah": 5150,
-    "charge_w": 66.0,
-    "wireless_w": null,
-    "weight_g": 226.0,
-    "thickness_mm": null,
-    "ip_rating": null,
+    "charge_w": 66,
+    "wireless_w": 50,
+    "weight_g": 226,
+    "thickness_mm": 9.2,
+    "ip_rating": "IPX8",
     "has_5g": true,
     "nfc": true,
-    "esim": true,
+    "esim": false,
     "ir_port": true,
-    "jack35": null,
-    "sd_card": null,
-    "update_years": null,
+    "jack35": false,
+    "sd_card": false,
+    "update_years": 4,
     "_q": "estimated",
     "_src": [
-      "project_seed"
+      "ai_knowledge"
     ]
   },
   "variants": [
@@ -42,25 +42,12 @@
       "rom_gb": 512,
       "price_rub": 66808,
       "price_date": "2026-11-05",
-      "price_src": "project_seed",
+      "price_src": "telegram_polzaskidki",
       "msrp_usd": null,
       "is_base": true,
-      "_q": "estimated",
+      "_q": "verified",
       "_src": [
-        "project_seed"
-      ]
-    },
-    {
-      "ram_gb": 12,
-      "rom_gb": 1024,
-      "price_rub": 73990,
-      "price_date": "2026-11-20",
-      "price_src": "random",
-      "msrp_usd": null,
-      "is_base": false,
-      "_q": "random",
-      "_src": [
-        "random"
+        "telegram_polzaskidki:t.me/polzaSKIDKI/31642"
       ]
     }
   ],
@@ -68,124 +55,136 @@
     {
       "role": "main",
       "position": 0,
-      "sensor": "demo-s22",
+      "sensor": null,
       "mp": 50,
-      "aperture": 1.7,
-      "focal_mm": 24,
-      "fov_deg": 85,
+      "aperture": 1.6,
+      "focal_mm": null,
+      "fov_deg": null,
       "optical_zoom_x": null,
       "ois": true,
-      "af": "dual_pixel",
+      "af": "pdaf",
       "min_focus_cm": null,
-      "video_max": "4K120",
-      "processing_score": 81,
-      "processing_basis": "random",
-      "_q": "random",
+      "video_max": null,
+      "processing_score": 78,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "ai_knowledge"
       ]
     },
     {
       "role": "ultrawide",
       "position": 0,
-      "sensor": "demo-s19",
-      "mp": 50,
+      "sensor": null,
+      "mp": 40,
       "aperture": 2.2,
-      "focal_mm": 14,
-      "fov_deg": 122,
-      "optical_zoom_x": 0.6,
+      "focal_mm": null,
+      "fov_deg": null,
+      "optical_zoom_x": null,
       "ois": false,
       "af": "pdaf",
-      "min_focus_cm": 4,
+      "min_focus_cm": null,
       "video_max": null,
-      "processing_score": 71,
-      "processing_basis": "random",
-      "_q": "random",
+      "processing_score": 62,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "ai_knowledge"
       ]
     },
     {
-      "role": "front",
+      "role": "periscope",
       "position": 0,
-      "sensor": "demo-s19",
+      "sensor": null,
       "mp": 50,
-      "aperture": 2.3,
-      "focal_mm": 26,
-      "fov_deg": 81,
+      "aperture": 3,
+      "focal_mm": null,
+      "fov_deg": null,
+      "optical_zoom_x": 3.5,
+      "ois": true,
+      "af": "pdaf",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": 72,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
+      "_src": [
+        "ai_knowledge"
+      ]
+    },
+    {
+      "role": "cover",
+      "position": 0,
+      "sensor": null,
+      "mp": 20,
+      "aperture": 2.2,
+      "focal_mm": null,
+      "fov_deg": null,
       "optical_zoom_x": null,
       "ois": false,
       "af": "fixed",
       "min_focus_cm": null,
       "video_max": null,
-      "processing_score": 52,
-      "processing_basis": "random",
-      "_q": "random",
+      "processing_score": 60,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "ai_knowledge"
+      ]
+    },
+    {
+      "role": "front",
+      "position": 0,
+      "sensor": null,
+      "mp": 20,
+      "aperture": 2.2,
+      "focal_mm": null,
+      "fov_deg": null,
+      "optical_zoom_x": null,
+      "ois": false,
+      "af": "fixed",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": 60,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
+      "_src": [
+        "ai_knowledge"
       ]
     }
   ],
   "camera_features": {
     "macro_mode": "ultrawide_af",
-    "macro_min_focus_cm": 4,
-    "lossless_zoom_x": 2.0,
-    "max_digital_zoom_x": 20,
+    "macro_min_focus_cm": null,
+    "lossless_zoom_x": null,
+    "max_digital_zoom_x": 100,
     "dxomark": null,
-    "_q": "random",
+    "_q": "estimated",
     "_src": [
-      "random"
+      "ai_knowledge"
     ]
   },
   "quirks": [
     {
-      "code": "ai_limited_ru",
-      "severity": 3,
-      "note_ru": "Демо: случайная особенность для проверки интерфейса.",
+      "code": "hinge_crease",
+      "severity": 1,
+      "note_ru": "Заметная складка внутреннего экрана.",
       "evidence": [],
-      "_q": "random"
+      "_q": "estimated"
     }
   ],
   "quirks_checked": false,
-  "special": [],
-  "photos": [
+  "special": [
     {
-      "url": "/placeholder/honor-magic-v3/1.svg",
-      "kind": "placeholder",
-      "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
-      "width": 960,
-      "height": 1280,
-      "origin": "placeholder"
-    },
-    {
-      "url": "/placeholder/honor-magic-v3/2.svg",
-      "kind": "placeholder",
-      "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
-      "width": 960,
-      "height": 1280,
-      "origin": "placeholder"
-    },
-    {
-      "url": "/placeholder/honor-magic-v3/3.svg",
-      "kind": "placeholder",
-      "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
-      "width": 960,
-      "height": 1280,
-      "origin": "placeholder"
+      "code": "book_fold",
+      "note_ru": "Складывается книжкой: большой внутренний экран и внешний.",
+      "_q": "estimated"
     }
   ],
+  "photos": [],
   "_meta": {
-    "created": "2026-11-20",
-    "updated": "2026-11-20",
-    "filled_by": "tools/generate_random_catalog.py"
+    "created": "2026-11-21",
+    "updated": "2026-11-21",
+    "filled_by": "Claude Opus 5.5 (сведения до 2026-06) + tools/import_catalog_data.py"
   }
 }

@@ -5,35 +5,35 @@
   "full_name": "Samsung Galaxy S23",
   "aliases": [],
   "os": "Android",
-  "release_date": null,
+  "release_date": "2023-02",
   "year": 2023,
   "status": "on_sale",
   "availability_ru": "parallel_import",
   "form_factor": "bar",
   "in_ml": true,
-  "chipset": "demo-soc-1450",
+  "chipset": "snapdragon-8-gen-2-for-galaxy",
   "specs": {
     "screen_in": 6.1,
     "cover_screen_in": null,
     "refresh_hz": 120,
-    "display_type": null,
-    "peak_nits": null,
+    "display_type": "Dynamic AMOLED 2X",
+    "peak_nits": 1750,
     "battery_mah": 3900,
-    "charge_w": 25.0,
-    "wireless_w": null,
-    "weight_g": 168.0,
-    "thickness_mm": null,
-    "ip_rating": null,
+    "charge_w": 25,
+    "wireless_w": 15,
+    "weight_g": 168,
+    "thickness_mm": 7.6,
+    "ip_rating": "IP68",
     "has_5g": true,
     "nfc": true,
     "esim": true,
     "ir_port": false,
-    "jack35": null,
-    "sd_card": null,
-    "update_years": null,
+    "jack35": false,
+    "sd_card": false,
+    "update_years": 5,
     "_q": "estimated",
     "_src": [
-      "project_seed"
+      "ai_knowledge"
     ]
   },
   "variants": [
@@ -43,24 +43,39 @@
       "price_rub": 37990,
       "price_date": "2026-08-01",
       "price_src": "project_seed",
-      "msrp_usd": null,
+      "msrp_usd": 799,
       "is_base": true,
       "_q": "estimated",
       "_src": [
-        "project_seed"
+        "project_seed",
+        "ai_knowledge"
       ]
     },
     {
       "ram_gb": 8,
       "rom_gb": 256,
-      "price_rub": 43990,
-      "price_date": "2026-11-20",
-      "price_src": "random",
+      "price_rub": 40790,
+      "price_date": null,
+      "price_src": "price_model",
+      "msrp_usd": 859,
+      "is_base": false,
+      "_q": "estimated",
+      "_src": [
+        "price_model",
+        "ai_knowledge"
+      ]
+    },
+    {
+      "ram_gb": 8,
+      "rom_gb": 512,
+      "price_rub": 47090,
+      "price_date": null,
+      "price_src": "price_model",
       "msrp_usd": null,
       "is_base": false,
-      "_q": "random",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "price_model"
       ]
     }
   ],
@@ -68,137 +83,198 @@
     {
       "role": "main",
       "position": 0,
-      "sensor": "demo-s21",
+      "sensor": "samsung-isocell-gn3",
       "mp": 50,
       "aperture": 1.8,
-      "focal_mm": 26,
-      "fov_deg": 86,
+      "focal_mm": 24,
+      "fov_deg": null,
       "optical_zoom_x": null,
       "ois": true,
-      "af": "pdaf",
-      "min_focus_cm": null,
-      "video_max": "4K30",
-      "processing_score": 56,
-      "processing_basis": "random",
-      "_q": "random",
-      "_src": [
-        "random"
-      ]
-    },
-    {
-      "role": "tele",
-      "position": 0,
-      "sensor": "demo-s03",
-      "mp": 8,
-      "aperture": 2.4,
-      "focal_mm": 52,
-      "fov_deg": 43,
-      "optical_zoom_x": null,
-      "ois": false,
-      "af": "pdaf",
+      "af": "dual_pixel",
       "min_focus_cm": null,
       "video_max": null,
-      "processing_score": 73,
-      "processing_basis": "random",
-      "_q": "random",
+      "processing_score": 78,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "ai_knowledge"
       ]
     },
     {
-      "role": "front",
+      "role": "ultrawide",
       "position": 0,
-      "sensor": "demo-s06",
+      "sensor": null,
       "mp": 12,
-      "aperture": 2.3,
-      "focal_mm": 23,
-      "fov_deg": 89,
+      "aperture": 2.2,
+      "focal_mm": 13,
+      "fov_deg": null,
       "optical_zoom_x": null,
       "ois": false,
       "af": "fixed",
       "min_focus_cm": null,
       "video_max": null,
-      "processing_score": 42,
-      "processing_basis": "random",
-      "_q": "random",
+      "processing_score": 60,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "ai_knowledge"
+      ]
+    },
+    {
+      "role": "tele",
+      "position": 0,
+      "sensor": null,
+      "mp": 10,
+      "aperture": 2.4,
+      "focal_mm": 70,
+      "fov_deg": null,
+      "optical_zoom_x": null,
+      "ois": true,
+      "af": "pdaf",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": 66,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
+      "_src": [
+        "ai_knowledge"
+      ]
+    },
+    {
+      "role": "front",
+      "position": 0,
+      "sensor": null,
+      "mp": 12,
+      "aperture": 2.2,
+      "focal_mm": 26,
+      "fov_deg": null,
+      "optical_zoom_x": null,
+      "ois": false,
+      "af": "dual_pixel",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": 68,
+      "processing_basis": "reviews_rubric",
+      "_q": "verified",
+      "_src": [
+        "wikipedia:Samsung_Galaxy_S23",
+        "ai_knowledge"
       ]
     }
   ],
   "camera_features": {
     "macro_mode": "none",
     "macro_min_focus_cm": null,
-    "lossless_zoom_x": 2.0,
+    "lossless_zoom_x": null,
     "max_digital_zoom_x": 30,
     "dxomark": null,
-    "_q": "random",
+    "_q": "estimated",
     "_src": [
-      "random"
+      "ai_knowledge"
     ]
   },
   "quirks": [
     {
-      "code": "ads_in_system",
-      "severity": 3,
-      "note_ru": "Демо: случайная особенность для проверки интерфейса.",
+      "code": "cool_running",
+      "severity": 1,
+      "note_ru": "Под нагрузкой остаётся прохладным.",
       "evidence": [],
-      "_q": "random"
+      "_q": "estimated"
     },
     {
-      "code": "weak_speaker",
+      "code": "good_ai_assistant",
       "severity": 1,
-      "note_ru": "Демо: случайная особенность для проверки интерфейса.",
+      "note_ru": "Galaxy AI пришёл обновлением One UI 6.1: перевод звонков, Circle to Search, ИИ-правка фото.",
       "evidence": [],
-      "_q": "random"
+      "_q": "estimated"
+    },
+    {
+      "code": "desktop_mode",
+      "severity": 2,
+      "note_ru": "Режим ПК при подключении к монитору.",
+      "evidence": [],
+      "_q": "estimated"
     }
   ],
   "quirks_checked": false,
   "special": [
     {
       "code": "compact",
-      "note_ru": null,
+      "note_ru": "Компактный моноблок с экраном до 6,1″.",
       "_q": "estimated"
     }
   ],
   "photos": [
     {
-      "url": "/placeholder/samsung-galaxy-s23/1.svg",
-      "kind": "placeholder",
+      "author": "Hajoon0102",
       "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
-      "width": 960,
-      "height": 1280,
-      "origin": "placeholder"
+      "height": 724,
+      "kind": "back",
+      "license": "CC BY-SA 4.0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Back_of_the_Samsung_Galaxy_S23.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Back_of_the_Samsung_Galaxy_S23.jpg/960px-Back_of_the_Samsung_Galaxy_S23.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
     },
     {
-      "url": "/placeholder/samsung-galaxy-s23/2.svg",
-      "kind": "placeholder",
+      "author": "Hajoon0102",
       "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
-      "width": 960,
-      "height": 1280,
-      "origin": "placeholder"
+      "height": 634,
+      "kind": "lifestyle",
+      "license": "CC BY-SA 4.0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Galaxy_S23.png",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Galaxy_S23.png/960px-Galaxy_S23.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
     },
     {
-      "url": "/placeholder/samsung-galaxy-s23/3.svg",
-      "kind": "placeholder",
+      "author": "Wikiwater2020",
       "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
-      "width": 960,
-      "height": 1280,
-      "origin": "placeholder"
+      "height": 720,
+      "kind": "lifestyle",
+      "license": "CC BY-SA 3.0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_S23_Series.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Samsung_Galaxy_S23_Series.jpg/960px-Samsung_Galaxy_S23_Series.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
+    },
+    {
+      "author": "Questions and",
+      "color_ru": null,
+      "height": 2135,
+      "kind": "lifestyle",
+      "license": "CC BY-SA 4.0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Galaxy_s23.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Galaxy_s23.jpg/960px-Galaxy_s23.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
+    },
+    {
+      "author": "Minderbinder",
+      "color_ru": null,
+      "height": 1316,
+      "kind": "lifestyle",
+      "license": "CC BY-SA 4.0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Reeperbahn_157_in_Hamburg-St._Pauli_(05).jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Reeperbahn_157_in_Hamburg-St._Pauli_%2805%29.jpg/960px-Reeperbahn_157_in_Hamburg-St._Pauli_%2805%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
+    },
+    {
+      "author": "Minderbinder",
+      "color_ru": null,
+      "height": 1379,
+      "kind": "lifestyle",
+      "license": "CC BY-SA 4.0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Reeperbahn_157_in_Hamburg-St._Pauli_(04).jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Reeperbahn_157_in_Hamburg-St._Pauli_%2804%29.jpg/960px-Reeperbahn_157_in_Hamburg-St._Pauli_%2804%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
     }
   ],
   "_meta": {
-    "created": "2026-11-20",
-    "updated": "2026-11-20",
-    "filled_by": "tools/generate_random_catalog.py"
+    "created": "2026-11-21",
+    "updated": "2026-11-21",
+    "filled_by": "Claude Opus 5.5 (сведения до 2026-06) + tools/import_catalog_data.py"
   }
 }

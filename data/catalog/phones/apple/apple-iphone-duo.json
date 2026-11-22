@@ -5,75 +5,89 @@
   "full_name": "Apple iPhone Duo",
   "aliases": [],
   "os": "iOS",
-  "release_date": "2026-10",
+  "release_date": "2026-10-23",
   "year": 2026,
   "status": "on_sale",
   "availability_ru": "parallel_import",
   "form_factor": "book_fold",
   "in_ml": false,
-  "chipset": null,
+  "chipset": "apple-a20-pro",
   "specs": {
     "screen_in": 7.6,
     "cover_screen_in": 5.4,
     "refresh_hz": 120,
-    "display_type": null,
-    "peak_nits": null,
-    "battery_mah": 5400,
-    "charge_w": 25.0,
-    "wireless_w": null,
-    "weight_g": 296.0,
-    "thickness_mm": null,
-    "ip_rating": null,
+    "display_type": "LTPO OLED",
+    "peak_nits": 3000,
+    "battery_mah": 4883,
+    "charge_w": 60,
+    "wireless_w": 25,
+    "weight_g": 254,
+    "thickness_mm": 5.2,
+    "ip_rating": "IP68",
     "has_5g": true,
     "nfc": true,
-    "esim": false,
+    "esim": true,
     "ir_port": false,
-    "jack35": null,
-    "sd_card": null,
+    "jack35": false,
+    "sd_card": false,
     "update_years": null,
-    "_q": "random",
+    "_q": "verified",
     "_src": [
-      "random"
+      "wikipedia:IPhone_Duo",
+      "manufacturer:apple.com/iphone-duo/specs"
     ]
   },
   "variants": [
     {
       "ram_gb": 12,
       "rom_gb": 256,
-      "price_rub": 219990,
-      "price_date": "2026-11-20",
-      "price_src": "random",
+      "price_rub": null,
+      "price_date": null,
+      "price_src": null,
       "msrp_usd": 1999,
       "is_base": true,
-      "_q": "random",
+      "_q": "unknown",
       "_src": [
-        "random"
+        "ai_knowledge"
       ]
     },
     {
       "ram_gb": 12,
       "rom_gb": 512,
-      "price_rub": 244990,
-      "price_date": "2026-11-20",
-      "price_src": "random",
-      "msrp_usd": null,
+      "price_rub": null,
+      "price_date": null,
+      "price_src": null,
+      "msrp_usd": 2199,
       "is_base": false,
-      "_q": "random",
+      "_q": "unknown",
       "_src": [
-        "random"
+        "ai_knowledge"
       ]
     },
     {
       "ram_gb": 12,
       "rom_gb": 1024,
-      "price_rub": 279990,
-      "price_date": "2026-11-20",
-      "price_src": "random",
-      "msrp_usd": null,
+      "price_rub": null,
+      "price_date": null,
+      "price_src": null,
+      "msrp_usd": 2599,
       "is_base": false,
-      "_q": "random",
+      "_q": "unknown",
       "_src": [
-        "random"
+        "ai_knowledge"
+      ]
+    },
+    {
+      "ram_gb": 12,
+      "rom_gb": 2048,
+      "price_rub": null,
+      "price_date": null,
+      "price_src": null,
+      "msrp_usd": 3199,
+      "is_base": false,
+      "_q": "unknown",
+      "_src": [
+        "ai_knowledge"
       ]
     }
   ],
@@ -81,197 +95,174 @@
     {
       "role": "main",
       "position": 0,
-      "sensor": "demo-s16",
+      "sensor": null,
       "mp": 48,
-      "aperture": 1.7,
+      "aperture": 1.6,
       "focal_mm": 26,
-      "fov_deg": 80,
+      "fov_deg": null,
       "optical_zoom_x": null,
       "ois": true,
       "af": "dual_pixel",
       "min_focus_cm": null,
-      "video_max": "4K120",
-      "processing_score": 71,
-      "processing_basis": "random",
-      "_q": "random",
+      "video_max": null,
+      "processing_score": null,
+      "processing_basis": null,
+      "_q": "verified",
       "_src": [
-        "random"
+        "manufacturer:apple.com/iphone-duo/specs",
+        "wikipedia:IPhone_Duo"
       ]
     },
     {
       "role": "ultrawide",
       "position": 0,
-      "sensor": "demo-s15",
+      "sensor": null,
       "mp": 48,
       "aperture": 2.2,
-      "focal_mm": 15,
-      "fov_deg": 123,
-      "optical_zoom_x": 0.6,
+      "focal_mm": 13,
+      "fov_deg": null,
+      "optical_zoom_x": null,
       "ois": false,
       "af": "pdaf",
-      "min_focus_cm": 4,
-      "video_max": null,
-      "processing_score": 69,
-      "processing_basis": "random",
-      "_q": "random",
-      "_src": [
-        "random"
-      ]
-    },
-    {
-      "role": "tele",
-      "position": 0,
-      "sensor": "demo-s19",
-      "mp": 50,
-      "aperture": 2.4,
-      "focal_mm": 75,
-      "fov_deg": 31,
-      "optical_zoom_x": null,
-      "ois": true,
-      "af": "pdaf",
       "min_focus_cm": null,
       "video_max": null,
-      "processing_score": 86,
-      "processing_basis": "random",
-      "_q": "random",
+      "processing_score": null,
+      "processing_basis": null,
+      "_q": "verified",
       "_src": [
-        "random"
-      ]
-    },
-    {
-      "role": "periscope",
-      "position": 0,
-      "sensor": "demo-s21",
-      "mp": 50,
-      "aperture": 3.0,
-      "focal_mm": 125,
-      "fov_deg": 22,
-      "optical_zoom_x": null,
-      "ois": true,
-      "af": "pdaf",
-      "min_focus_cm": null,
-      "video_max": null,
-      "processing_score": 75,
-      "processing_basis": "random",
-      "_q": "random",
-      "_src": [
-        "random"
+        "manufacturer:apple.com/iphone-duo/specs",
+        "wikipedia:IPhone_Duo"
       ]
     },
     {
       "role": "front",
       "position": 0,
-      "sensor": "demo-s12",
-      "mp": 20,
-      "aperture": 2.4,
-      "focal_mm": 26,
-      "fov_deg": 81,
+      "sensor": null,
+      "mp": 12,
+      "aperture": 2.2,
+      "focal_mm": null,
+      "fov_deg": null,
       "optical_zoom_x": null,
       "ois": false,
       "af": "fixed",
       "min_focus_cm": null,
       "video_max": null,
-      "processing_score": 78,
-      "processing_basis": "random",
-      "_q": "random",
+      "processing_score": null,
+      "processing_basis": null,
+      "_q": "verified",
       "_src": [
-        "random"
-      ]
-    },
-    {
-      "role": "cover",
-      "position": 0,
-      "sensor": "demo-s13",
-      "mp": 32,
-      "aperture": 2.3,
-      "focal_mm": 24,
-      "fov_deg": 80,
-      "optical_zoom_x": null,
-      "ois": false,
-      "af": "fixed",
-      "min_focus_cm": null,
-      "video_max": null,
-      "processing_score": 90,
-      "processing_basis": "random",
-      "_q": "random",
-      "_src": [
-        "random"
+        "manufacturer:apple.com/iphone-duo/specs",
+        "wikipedia:IPhone_Duo"
       ]
     }
   ],
   "camera_features": {
     "macro_mode": "ultrawide_af",
-    "macro_min_focus_cm": 4,
-    "lossless_zoom_x": null,
-    "max_digital_zoom_x": 120,
+    "macro_min_focus_cm": null,
+    "lossless_zoom_x": 2,
+    "max_digital_zoom_x": 10,
     "dxomark": null,
-    "_q": "random",
+    "_q": "verified",
     "_src": [
-      "random"
+      "manufacturer:apple.com/iphone-duo/specs",
+      "wikipedia:IPhone_Duo"
     ]
   },
   "quirks": [
     {
-      "code": "ads_in_system",
-      "severity": 1,
-      "note_ru": "Демо: случайная особенность для проверки интерфейса.",
-      "evidence": [],
-      "_q": "random"
-    },
-    {
-      "code": "throttling",
-      "severity": 1,
-      "note_ru": "Демо: случайная особенность для проверки интерфейса.",
-      "evidence": [],
-      "_q": "random"
+      "code": "ai_limited_ru",
+      "severity": 2,
+      "note_ru": "Русского языка нет среди языков Apple Intelligence на странице поддержки Apple: в РФ функции недоступны без смены языка и региона.",
+      "evidence": [
+        "https://support.apple.com/en-us/121115"
+      ],
+      "_q": "verified"
     }
   ],
   "quirks_checked": false,
   "special": [
     {
       "code": "book_fold",
-      "note_ru": "Первый складной iPhone, представлен 9.09.2026; экраны 5,4″ и 7,6″.",
-      "_q": "verified"
+      "note_ru": "Первый складной iPhone: внутренний экран 7,6″ и внешний 5,4″, поддержка Apple Pencil.",
+      "_q": "estimated"
+    },
+    {
+      "code": "satellite",
+      "note_ru": "Спутниковая связь (сообщения/вызовы); в РФ не работает.",
+      "_q": "estimated"
     }
   ],
   "photos": [
     {
-      "url": "/placeholder/apple-iphone-duo/1.svg",
-      "kind": "placeholder",
+      "author": "Kyu3a",
       "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
-      "width": 960,
       "height": 1280,
-      "origin": "placeholder"
+      "kind": "back",
+      "license": "CC BY-SA 4.0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:IPhone_Duo_Back_Camera.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/IPhone_Duo_Back_Camera.jpg/960px-IPhone_Duo_Back_Camera.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
     },
     {
-      "url": "/placeholder/apple-iphone-duo/2.svg",
-      "kind": "placeholder",
+      "author": "Kyu3a",
       "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
-      "width": 960,
       "height": 1280,
-      "origin": "placeholder"
+      "kind": "back",
+      "license": "CC BY-SA 4.0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:IPhone_Duo_Camera_App_(Closed).jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/IPhone_Duo_Camera_App_%28Closed%29.jpg/960px-IPhone_Duo_Camera_App_%28Closed%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
     },
     {
-      "url": "/placeholder/apple-iphone-duo/3.svg",
-      "kind": "placeholder",
+      "author": "茅野ふたば",
       "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
-      "width": 960,
+      "height": 720,
+      "kind": "back",
+      "license": "CC BY-SA 4.0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:IPhone_Duo_closed_rear.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/IPhone_Duo_closed_rear.jpg/960px-IPhone_Duo_closed_rear.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
+    },
+    {
+      "author": "SimonWaldherr",
+      "color_ru": null,
+      "height": 960,
+      "kind": "open",
+      "license": "CC BY 4.0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Half_open_iPhone_Duo_and_MacBook_Pro.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Half_open_iPhone_Duo_and_MacBook_Pro.jpg/960px-Half_open_iPhone_Duo_and_MacBook_Pro.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
+    },
+    {
+      "author": "Kyu3a",
+      "color_ru": null,
       "height": 1280,
-      "origin": "placeholder"
+      "kind": "lifestyle",
+      "license": "CC BY-SA 4.0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Fold_of_iPhone_Duo.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Fold_of_iPhone_Duo.jpg/960px-Fold_of_iPhone_Duo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
+    },
+    {
+      "author": "Kyu3a",
+      "color_ru": null,
+      "height": 720,
+      "kind": "lifestyle",
+      "license": "CC BY-SA 4.0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:IPhone_Duo_Apple_Maps_and_Safari.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/IPhone_Duo_Apple_Maps_and_Safari.jpg/960px-IPhone_Duo_Apple_Maps_and_Safari.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
     }
   ],
   "_meta": {
-    "created": "2026-11-20",
-    "updated": "2026-11-20",
-    "filled_by": "tools/generate_random_catalog.py"
+    "created": "2026-11-21",
+    "updated": "2026-11-21",
+    "filled_by": "Claude Opus 5.5 (сведения до 2026-06) + tools/import_catalog_data.py"
   }
 }

@@ -1,0 +1,284 @@
+{
+  "slug": "apple-iphone-18-pro",
+  "brand": "apple",
+  "name": "iPhone 18 Pro",
+  "full_name": "Apple iPhone 18 Pro",
+  "aliases": [],
+  "os": "iOS",
+  "release_date": "2026-09",
+  "year": 2026,
+  "status": "on_sale",
+  "availability_ru": "parallel_import",
+  "form_factor": "bar",
+  "in_ml": true,
+  "chipset": "apple-a20-pro",
+  "specs": {
+    "screen_in": 6.3,
+    "cover_screen_in": null,
+    "refresh_hz": 120,
+    "display_type": "LTPO OLED",
+    "peak_nits": 3000,
+    "battery_mah": 4056,
+    "charge_w": 60,
+    "wireless_w": 25,
+    "weight_g": 211,
+    "thickness_mm": 8.75,
+    "ip_rating": "IP68",
+    "has_5g": true,
+    "nfc": true,
+    "esim": true,
+    "ir_port": false,
+    "jack35": false,
+    "sd_card": false,
+    "update_years": null,
+    "_q": "verified",
+    "_src": [
+      "manufacturer:apple.com/iphone-18-pro/specs",
+      "gsmarena:apple_iphone_18_pro_iphone_18_pro_max_battery_capacity_3c_certification-news-73603"
+    ]
+  },
+  "variants": [
+    {
+      "ram_gb": 12,
+      "rom_gb": 256,
+      "price_rub": 101821,
+      "price_date": "2026-11-09",
+      "price_src": "telegram_polzaskidki",
+      "msrp_usd": null,
+      "is_base": true,
+      "_q": "verified",
+      "_src": [
+        "telegram_polzaskidki:t.me/polzaSKIDKI/32053"
+      ]
+    },
+    {
+      "ram_gb": 12,
+      "rom_gb": 512,
+      "price_rub": 113990,
+      "price_date": null,
+      "price_src": "price_model",
+      "msrp_usd": null,
+      "is_base": false,
+      "_q": "estimated",
+      "_src": [
+        "price_model"
+      ]
+    },
+    {
+      "ram_gb": 12,
+      "rom_gb": 1024,
+      "price_rub": 126290,
+      "price_date": null,
+      "price_src": "price_model",
+      "msrp_usd": null,
+      "is_base": false,
+      "_q": "estimated",
+      "_src": [
+        "price_model"
+      ]
+    },
+    {
+      "ram_gb": 12,
+      "rom_gb": 2048,
+      "price_rub": 138490,
+      "price_date": null,
+      "price_src": "price_model",
+      "msrp_usd": null,
+      "is_base": false,
+      "_q": "estimated",
+      "_src": [
+        "price_model"
+      ]
+    }
+  ],
+  "cameras": [
+    {
+      "role": "main",
+      "position": 0,
+      "sensor": null,
+      "mp": 48,
+      "aperture": 1.48,
+      "focal_mm": 24,
+      "fov_deg": null,
+      "optical_zoom_x": null,
+      "ois": true,
+      "af": "dual_pixel",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": null,
+      "processing_basis": null,
+      "_q": "verified",
+      "_src": [
+        "manufacturer:apple.com/iphone-18-pro/specs",
+        "gsmarena:apple_iphone_18_pro_iphone_18_pro_max_battery_capacity_3c_certification-news-73603"
+      ]
+    },
+    {
+      "role": "ultrawide",
+      "position": 0,
+      "sensor": null,
+      "mp": 48,
+      "aperture": 2.2,
+      "focal_mm": 13,
+      "fov_deg": null,
+      "optical_zoom_x": null,
+      "ois": false,
+      "af": "pdaf",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": null,
+      "processing_basis": null,
+      "_q": "verified",
+      "_src": [
+        "manufacturer:apple.com/iphone-18-pro/specs",
+        "gsmarena:apple_iphone_18_pro_iphone_18_pro_max_battery_capacity_3c_certification-news-73603"
+      ]
+    },
+    {
+      "role": "periscope",
+      "position": 0,
+      "sensor": null,
+      "mp": 48,
+      "aperture": 2.8,
+      "focal_mm": 100,
+      "fov_deg": null,
+      "optical_zoom_x": null,
+      "ois": true,
+      "af": "pdaf",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": null,
+      "processing_basis": null,
+      "_q": "verified",
+      "_src": [
+        "manufacturer:apple.com/iphone-18-pro/specs",
+        "gsmarena:apple_iphone_18_pro_iphone_18_pro_max_battery_capacity_3c_certification-news-73603"
+      ]
+    },
+    {
+      "role": "front",
+      "position": 0,
+      "sensor": null,
+      "mp": 18,
+      "aperture": 1.9,
+      "focal_mm": null,
+      "fov_deg": null,
+      "optical_zoom_x": null,
+      "ois": false,
+      "af": "pdaf",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": null,
+      "processing_basis": null,
+      "_q": "verified",
+      "_src": [
+        "manufacturer:apple.com/iphone-18-pro/specs",
+        "gsmarena:apple_iphone_18_pro_iphone_18_pro_max_battery_capacity_3c_certification-news-73603"
+      ]
+    }
+  ],
+  "camera_features": {
+    "macro_mode": "ultrawide_af",
+    "macro_min_focus_cm": null,
+    "lossless_zoom_x": 8,
+    "max_digital_zoom_x": 40,
+    "dxomark": null,
+    "_q": "verified",
+    "_src": [
+      "manufacturer:apple.com/iphone-18-pro/specs",
+      "gsmarena:apple_iphone_18_pro_iphone_18_pro_max_battery_capacity_3c_certification-news-73603"
+    ]
+  },
+  "quirks": [
+    {
+      "code": "ai_limited_ru",
+      "severity": 2,
+      "note_ru": "Русского языка нет среди языков Apple Intelligence на странице поддержки Apple: в РФ функции недоступны без смены языка и региона.",
+      "evidence": [
+        "https://support.apple.com/en-us/121115"
+      ],
+      "_q": "verified"
+    }
+  ],
+  "quirks_checked": false,
+  "special": [
+    {
+      "code": "satellite",
+      "note_ru": "Спутниковая связь (сообщения/вызовы); в РФ не работает.",
+      "_q": "estimated"
+    }
+  ],
+  "photos": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/IPhone_18_Pro_black_rear.jpg/960px-IPhone_18_Pro_black_rear.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "kind": "back",
+      "color_ru": null,
+      "author": "茅野ふたば",
+      "license": "CC BY-SA 4.0",
+      "source_page": "https://commons.wikimedia.org/wiki/File:IPhone_18_Pro_black_rear.jpg",
+      "width": 960,
+      "height": null,
+      "origin": "wikimedia"
+    },
+    {
+      "author": "茅野ふたば",
+      "color_ru": null,
+      "height": 1280,
+      "kind": "back",
+      "license": "CC BY-SA 4.0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:IPhone_18_Pro_rear.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/IPhone_18_Pro_rear.jpg/960px-IPhone_18_Pro_rear.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
+    },
+    {
+      "author": "Junrui Gao",
+      "color_ru": null,
+      "height": 1870,
+      "kind": "lifestyle",
+      "license": "CC BY-SA 4.0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:IPhone_18_Pro_(01).jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/IPhone_18_Pro_%2801%29.jpg/960px-IPhone_18_Pro_%2801%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
+    },
+    {
+      "author": "Junrui Gao",
+      "color_ru": null,
+      "height": 1838,
+      "kind": "lifestyle",
+      "license": "CC BY-SA 4.0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:IPhone_18_Pro_(02).jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/IPhone_18_Pro_%2802%29.jpg/960px-IPhone_18_Pro_%2802%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
+    },
+    {
+      "author": "Kyu3a",
+      "color_ru": null,
+      "height": 676,
+      "kind": "lifestyle",
+      "license": "CC BY-SA 4.0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:IPhone_18_Pro_and_Pro_Max.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/IPhone_18_Pro_and_Pro_Max.jpg/960px-IPhone_18_Pro_and_Pro_Max.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
+    },
+    {
+      "author": "Kyu3a",
+      "color_ru": null,
+      "height": 540,
+      "kind": "lifestyle",
+      "license": "CC BY-SA 4.0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:IPhone_18_Pro_and_Pro_Max_and_Duo.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/IPhone_18_Pro_and_Pro_Max_and_Duo.jpg/960px-IPhone_18_Pro_and_Pro_Max_and_Duo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
+    }
+  ],
+  "_meta": {
+    "created": "2026-11-21",
+    "updated": "2026-11-21",
+    "filled_by": "Claude Opus 5.5 (сведения до 2026-06) + tools/import_catalog_data.py"
+  }
+}

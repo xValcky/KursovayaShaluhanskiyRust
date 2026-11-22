@@ -1,0 +1,227 @@
+{
+  "slug": "xiaomi-18-fold",
+  "brand": "xiaomi",
+  "name": "Xiaomi 18 Fold",
+  "full_name": "Xiaomi 18 Fold",
+  "aliases": [],
+  "os": "Android",
+  "release_date": "2026-09-07",
+  "year": 2026,
+  "status": "china_only",
+  "availability_ru": "not_sold",
+  "form_factor": "book_fold",
+  "in_ml": false,
+  "chipset": null,
+  "specs": {
+    "screen_in": 7.58,
+    "cover_screen_in": 5.38,
+    "refresh_hz": 120,
+    "display_type": "LTPO AMOLED",
+    "peak_nits": 4000,
+    "battery_mah": 6000,
+    "charge_w": 67,
+    "wireless_w": 50,
+    "weight_g": 219,
+    "thickness_mm": 5,
+    "ip_rating": null,
+    "has_5g": true,
+    "nfc": true,
+    "esim": false,
+    "ir_port": false,
+    "jack35": false,
+    "sd_card": false,
+    "update_years": null,
+    "_q": "verified",
+    "_src": [
+      "wikipedia:Xiaomi_18_Fold"
+    ]
+  },
+  "variants": [
+    {
+      "ram_gb": 12,
+      "rom_gb": 256,
+      "price_rub": null,
+      "price_date": null,
+      "price_src": null,
+      "msrp_usd": null,
+      "is_base": false,
+      "_q": "unknown",
+      "_src": []
+    },
+    {
+      "ram_gb": 16,
+      "rom_gb": 512,
+      "price_rub": null,
+      "price_date": null,
+      "price_src": null,
+      "msrp_usd": null,
+      "is_base": true,
+      "_q": "unknown",
+      "_src": []
+    },
+    {
+      "ram_gb": 16,
+      "rom_gb": 1024,
+      "price_rub": null,
+      "price_date": null,
+      "price_src": null,
+      "msrp_usd": null,
+      "is_base": false,
+      "_q": "unknown",
+      "_src": []
+    }
+  ],
+  "cameras": [
+    {
+      "role": "main",
+      "position": 0,
+      "sensor": null,
+      "mp": 200,
+      "aperture": 1.7,
+      "focal_mm": 23,
+      "fov_deg": null,
+      "optical_zoom_x": null,
+      "ois": true,
+      "af": "pdaf",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": null,
+      "processing_basis": null,
+      "_q": "verified",
+      "_src": [
+        "wikipedia:Xiaomi_18_Fold"
+      ]
+    },
+    {
+      "role": "ultrawide",
+      "position": 0,
+      "sensor": null,
+      "mp": 50,
+      "aperture": 2.4,
+      "focal_mm": 17,
+      "fov_deg": null,
+      "optical_zoom_x": null,
+      "ois": false,
+      "af": "pdaf",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": null,
+      "processing_basis": null,
+      "_q": "verified",
+      "_src": [
+        "wikipedia:Xiaomi_18_Fold"
+      ]
+    },
+    {
+      "role": "tele",
+      "position": 0,
+      "sensor": null,
+      "mp": 50,
+      "aperture": 2.8,
+      "focal_mm": 80,
+      "fov_deg": null,
+      "optical_zoom_x": null,
+      "ois": true,
+      "af": "pdaf",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": null,
+      "processing_basis": null,
+      "_q": "verified",
+      "_src": [
+        "wikipedia:Xiaomi_18_Fold"
+      ]
+    },
+    {
+      "role": "front",
+      "position": 0,
+      "sensor": null,
+      "mp": 16,
+      "aperture": 2.2,
+      "focal_mm": 21.0,
+      "fov_deg": null,
+      "optical_zoom_x": null,
+      "ois": false,
+      "af": "fixed",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": null,
+      "processing_basis": null,
+      "_q": "verified",
+      "_src": [
+        "wikipedia:Xiaomi_18_Fold"
+      ]
+    }
+  ],
+  "camera_features": {
+    "macro_mode": "none",
+    "macro_min_focus_cm": null,
+    "lossless_zoom_x": null,
+    "max_digital_zoom_x": null,
+    "dxomark": null,
+    "_q": "estimated",
+    "_src": [
+      "wikipedia:Xiaomi_18_Fold"
+    ]
+  },
+  "quirks": [],
+  "quirks_checked": false,
+  "special": [
+    {
+      "code": "book_fold",
+      "note_ru": "Складывается книжкой: большой внутренний экран и внешний.",
+      "_q": "estimated"
+    }
+  ],
+  "photos": [
+    {
+      "author": "茅野ふたば",
+      "color_ru": null,
+      "height": 540,
+      "kind": "back",
+      "license": "CC BY-SA 4.0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Xiaomi_18_Fold_rear.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Xiaomi_18_Fold_rear.jpg/960px-Xiaomi_18_Fold_rear.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
+    },
+    {
+      "author": "Junrui Gao",
+      "color_ru": null,
+      "height": 696,
+      "kind": "lifestyle",
+      "license": "CC BY-SA 4.0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Xiaomi_18_Fold_(02).jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Xiaomi_18_Fold_%2802%29.jpg/960px-Xiaomi_18_Fold_%2802%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
+    },
+    {
+      "author": "茅野ふたば",
+      "color_ru": null,
+      "height": 1280,
+      "kind": "lifestyle",
+      "license": "CC BY-SA 4.0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Xiaomi_18_Fold.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Xiaomi_18_Fold.jpg/960px-Xiaomi_18_Fold.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
+    },
+    {
+      "author": "茅野ふたば",
+      "color_ru": null,
+      "height": 540,
+      "kind": "lifestyle",
+      "license": "CC BY-SA 4.0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Xiaomi_18_Fold_(2).jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Xiaomi_18_Fold_%282%29.jpg/960px-Xiaomi_18_Fold_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
+    }
+  ],
+  "_meta": {
+    "created": "2026-11-21",
+    "updated": "2026-11-21",
+    "filled_by": "Claude Opus 5.5 (сведения до 2026-06) + tools/import_catalog_data.py"
+  }
+}

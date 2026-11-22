@@ -5,35 +5,35 @@
   "full_name": "Motorola razr 60 ultra",
   "aliases": [],
   "os": "Android",
-  "release_date": null,
+  "release_date": "2025-05",
   "year": 2025,
   "status": "on_sale",
   "availability_ru": "parallel_import",
   "form_factor": "flip",
   "in_ml": true,
-  "chipset": "demo-soc-2400",
+  "chipset": "snapdragon-8-elite",
   "specs": {
     "screen_in": 7.0,
-    "cover_screen_in": null,
+    "cover_screen_in": 4.0,
     "refresh_hz": 165,
-    "display_type": null,
-    "peak_nits": null,
+    "display_type": "LTPO POLED",
+    "peak_nits": 4500,
     "battery_mah": 4700,
-    "charge_w": 68.0,
-    "wireless_w": null,
-    "weight_g": 199.0,
-    "thickness_mm": null,
-    "ip_rating": null,
+    "charge_w": 68,
+    "wireless_w": 30,
+    "weight_g": 199,
+    "thickness_mm": 7.19,
+    "ip_rating": "IP48",
     "has_5g": true,
     "nfc": true,
     "esim": true,
     "ir_port": false,
-    "jack35": null,
-    "sd_card": null,
-    "update_years": null,
+    "jack35": false,
+    "sd_card": false,
+    "update_years": 4,
     "_q": "estimated",
     "_src": [
-      "project_seed"
+      "ai_knowledge"
     ]
   },
   "variants": [
@@ -49,181 +49,102 @@
       "_src": [
         "project_seed"
       ]
-    },
-    {
-      "ram_gb": 16,
-      "rom_gb": 1024,
-      "price_rub": 93990,
-      "price_date": "2026-11-20",
-      "price_src": "random",
-      "msrp_usd": null,
-      "is_base": false,
-      "_q": "random",
-      "_src": [
-        "random"
-      ]
     }
   ],
   "cameras": [
     {
       "role": "main",
       "position": 0,
-      "sensor": "demo-s21",
+      "sensor": null,
       "mp": 50,
-      "aperture": 1.6,
-      "focal_mm": 25,
-      "fov_deg": 86,
+      "aperture": 1.8,
+      "focal_mm": null,
+      "fov_deg": null,
       "optical_zoom_x": null,
       "ois": true,
-      "af": "dual_pixel",
+      "af": "pdaf",
       "min_focus_cm": null,
-      "video_max": "8K30",
-      "processing_score": 77,
-      "processing_basis": "random",
-      "_q": "random",
+      "video_max": null,
+      "processing_score": 70,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "ai_knowledge"
       ]
     },
     {
       "role": "ultrawide",
       "position": 0,
-      "sensor": "demo-s20",
+      "sensor": null,
       "mp": 50,
-      "aperture": 2.0,
-      "focal_mm": 14,
-      "fov_deg": 118,
-      "optical_zoom_x": 0.6,
+      "aperture": 2,
+      "focal_mm": null,
+      "fov_deg": null,
+      "optical_zoom_x": null,
       "ois": false,
-      "af": "fixed",
-      "min_focus_cm": null,
-      "video_max": null,
-      "processing_score": 64,
-      "processing_basis": "random",
-      "_q": "random",
-      "_src": [
-        "random"
-      ]
-    },
-    {
-      "role": "tele",
-      "position": 0,
-      "sensor": "demo-s05",
-      "mp": 10,
-      "aperture": 2.2,
-      "focal_mm": 69,
-      "fov_deg": 35,
-      "optical_zoom_x": null,
-      "ois": true,
       "af": "pdaf",
       "min_focus_cm": null,
       "video_max": null,
-      "processing_score": 63,
-      "processing_basis": "random",
-      "_q": "random",
+      "processing_score": 54,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
       "_src": [
-        "random"
-      ]
-    },
-    {
-      "role": "periscope",
-      "position": 0,
-      "sensor": "demo-s21",
-      "mp": 50,
-      "aperture": 3.2,
-      "focal_mm": 113,
-      "fov_deg": 17,
-      "optical_zoom_x": null,
-      "ois": true,
-      "af": "pdaf",
-      "min_focus_cm": null,
-      "video_max": null,
-      "processing_score": 76,
-      "processing_basis": "random",
-      "_q": "random",
-      "_src": [
-        "random"
+        "ai_knowledge"
       ]
     },
     {
       "role": "front",
       "position": 0,
-      "sensor": "demo-s19",
+      "sensor": null,
       "mp": 50,
-      "aperture": 2.1,
-      "focal_mm": 26,
-      "fov_deg": 89,
+      "aperture": 2,
+      "focal_mm": null,
+      "fov_deg": null,
       "optical_zoom_x": null,
       "ois": false,
-      "af": "pdaf",
+      "af": "fixed",
       "min_focus_cm": null,
       "video_max": null,
-      "processing_score": 72,
-      "processing_basis": "random",
-      "_q": "random",
+      "processing_score": 54,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "ai_knowledge"
       ]
     }
   ],
   "camera_features": {
-    "macro_mode": "none",
+    "macro_mode": "ultrawide_af",
     "macro_min_focus_cm": null,
-    "lossless_zoom_x": 2.0,
-    "max_digital_zoom_x": 100,
+    "lossless_zoom_x": null,
+    "max_digital_zoom_x": 30,
     "dxomark": null,
-    "_q": "random",
+    "_q": "estimated",
     "_src": [
-      "random"
+      "ai_knowledge"
     ]
   },
-  "quirks": [],
+  "quirks": [
+    {
+      "code": "good_ai_assistant",
+      "severity": 1,
+      "note_ru": "Moto AI: сводки уведомлений, «Запомни это», генерация обоев; часть функций без русского языка.",
+      "evidence": [],
+      "_q": "estimated"
+    }
+  ],
   "quirks_checked": false,
   "special": [
     {
       "code": "flip",
-      "note_ru": null,
+      "note_ru": "Раскладушка с внешним экраном.",
       "_q": "estimated"
     }
   ],
-  "photos": [
-    {
-      "url": "/placeholder/motorola-razr-60-ultra/1.svg",
-      "kind": "placeholder",
-      "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
-      "width": 960,
-      "height": 1280,
-      "origin": "placeholder"
-    },
-    {
-      "url": "/placeholder/motorola-razr-60-ultra/2.svg",
-      "kind": "placeholder",
-      "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
-      "width": 960,
-      "height": 1280,
-      "origin": "placeholder"
-    },
-    {
-      "url": "/placeholder/motorola-razr-60-ultra/3.svg",
-      "kind": "placeholder",
-      "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
-      "width": 960,
-      "height": 1280,
-      "origin": "placeholder"
-    }
-  ],
+  "photos": [],
   "_meta": {
-    "created": "2026-11-20",
-    "updated": "2026-11-20",
-    "filled_by": "tools/generate_random_catalog.py"
+    "created": "2026-11-21",
+    "updated": "2026-11-21",
+    "filled_by": "Claude Opus 5.5 (сведения до 2026-06) + tools/import_catalog_data.py"
   }
 }

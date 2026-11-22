@@ -5,38 +5,52 @@
   "full_name": "Samsung Galaxy S23 Ultra",
   "aliases": [],
   "os": "Android",
-  "release_date": null,
+  "release_date": "2023-02",
   "year": 2023,
   "status": "on_sale",
   "availability_ru": "parallel_import",
   "form_factor": "bar",
   "in_ml": true,
-  "chipset": "demo-soc-1500",
+  "chipset": "snapdragon-8-gen-2-for-galaxy",
   "specs": {
     "screen_in": 6.8,
     "cover_screen_in": null,
     "refresh_hz": 120,
-    "display_type": null,
-    "peak_nits": null,
+    "display_type": "Dynamic AMOLED 2X",
+    "peak_nits": 1750,
     "battery_mah": 5000,
-    "charge_w": 45.0,
-    "wireless_w": null,
-    "weight_g": 234.0,
-    "thickness_mm": null,
-    "ip_rating": null,
+    "charge_w": 45,
+    "wireless_w": 15,
+    "weight_g": 234,
+    "thickness_mm": 8.9,
+    "ip_rating": "IP68",
     "has_5g": true,
     "nfc": true,
     "esim": true,
     "ir_port": false,
-    "jack35": null,
-    "sd_card": null,
-    "update_years": null,
+    "jack35": false,
+    "sd_card": false,
+    "update_years": 5,
     "_q": "estimated",
     "_src": [
-      "project_seed"
+      "ai_knowledge"
     ]
   },
   "variants": [
+    {
+      "ram_gb": 8,
+      "rom_gb": 256,
+      "price_rub": 49490,
+      "price_date": null,
+      "price_src": "price_model",
+      "msrp_usd": 1199,
+      "is_base": false,
+      "_q": "estimated",
+      "_src": [
+        "price_model",
+        "ai_knowledge"
+      ]
+    },
     {
       "ram_gb": 12,
       "rom_gb": 256,
@@ -49,163 +63,242 @@
       "_src": [
         "project_seed"
       ]
+    },
+    {
+      "ram_gb": 12,
+      "rom_gb": 512,
+      "price_rub": 61590,
+      "price_date": null,
+      "price_src": "price_model",
+      "msrp_usd": null,
+      "is_base": false,
+      "_q": "estimated",
+      "_src": [
+        "price_model"
+      ]
+    },
+    {
+      "ram_gb": 12,
+      "rom_gb": 1024,
+      "price_rub": 68190,
+      "price_date": null,
+      "price_src": "price_model",
+      "msrp_usd": null,
+      "is_base": false,
+      "_q": "estimated",
+      "_src": [
+        "price_model"
+      ]
     }
   ],
   "cameras": [
     {
       "role": "main",
       "position": 0,
-      "sensor": "demo-s32",
+      "sensor": "samsung-isocell-hp2",
       "mp": 200,
-      "aperture": 1.8,
-      "focal_mm": 24,
-      "fov_deg": 84,
+      "aperture": 1.7,
+      "focal_mm": 23,
+      "fov_deg": null,
       "optical_zoom_x": null,
       "ois": true,
-      "af": "pdaf",
+      "af": "dual_pixel",
       "min_focus_cm": null,
-      "video_max": "4K60",
-      "processing_score": 71,
-      "processing_basis": "random",
-      "_q": "random",
+      "video_max": null,
+      "processing_score": 82,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "ai_knowledge"
       ]
     },
     {
       "role": "ultrawide",
       "position": 0,
-      "sensor": "demo-s15",
-      "mp": 48,
-      "aperture": 2.0,
-      "focal_mm": 15,
-      "fov_deg": 120,
-      "optical_zoom_x": 0.6,
+      "sensor": null,
+      "mp": 12,
+      "aperture": 2.2,
+      "focal_mm": 13,
+      "fov_deg": null,
+      "optical_zoom_x": null,
       "ois": false,
-      "af": "pdaf",
-      "min_focus_cm": 2.5,
+      "af": "dual_pixel",
+      "min_focus_cm": null,
       "video_max": null,
-      "processing_score": 79,
-      "processing_basis": "random",
-      "_q": "random",
+      "processing_score": 66,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "ai_knowledge"
       ]
     },
     {
       "role": "tele",
       "position": 0,
-      "sensor": "demo-s05",
+      "sensor": null,
       "mp": 10,
-      "aperture": 2.6,
+      "aperture": 2.4,
       "focal_mm": 70,
-      "fov_deg": 34,
+      "fov_deg": null,
       "optical_zoom_x": null,
       "ois": true,
-      "af": "pdaf",
+      "af": "dual_pixel",
       "min_focus_cm": null,
       "video_max": null,
-      "processing_score": 53,
-      "processing_basis": "random",
-      "_q": "random",
+      "processing_score": 70,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "ai_knowledge"
+      ]
+    },
+    {
+      "role": "periscope",
+      "position": 0,
+      "sensor": null,
+      "mp": 10,
+      "aperture": 4.9,
+      "focal_mm": 230,
+      "fov_deg": null,
+      "optical_zoom_x": null,
+      "ois": true,
+      "af": "dual_pixel",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": 74,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
+      "_src": [
+        "ai_knowledge"
       ]
     },
     {
       "role": "front",
       "position": 0,
-      "sensor": "demo-s12",
-      "mp": 20,
+      "sensor": null,
+      "mp": 12,
       "aperture": 2.2,
-      "focal_mm": 23,
-      "fov_deg": 85,
+      "focal_mm": 26,
+      "fov_deg": null,
       "optical_zoom_x": null,
       "ois": false,
-      "af": "fixed",
+      "af": "dual_pixel",
       "min_focus_cm": null,
       "video_max": null,
-      "processing_score": 76,
-      "processing_basis": "random",
-      "_q": "random",
+      "processing_score": 70,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "ai_knowledge"
       ]
     }
   ],
   "camera_features": {
     "macro_mode": "ultrawide_af",
-    "macro_min_focus_cm": 2.5,
-    "lossless_zoom_x": 4.0,
-    "max_digital_zoom_x": 20,
+    "macro_min_focus_cm": null,
+    "lossless_zoom_x": null,
+    "max_digital_zoom_x": 100,
     "dxomark": null,
-    "_q": "random",
+    "_q": "estimated",
     "_src": [
-      "random"
+      "ai_knowledge"
     ]
   },
   "quirks": [
     {
-      "code": "clean_android",
+      "code": "good_ai_assistant",
       "severity": 2,
-      "note_ru": "Демо: случайная особенность для проверки интерфейса.",
+      "note_ru": "Galaxy AI пришёл обновлением One UI 6.1: перевод звонков, Circle to Search, ИИ-правка фото.",
       "evidence": [],
-      "_q": "random"
+      "_q": "estimated"
     },
     {
-      "code": "ai_limited_ru",
+      "code": "desktop_mode",
       "severity": 2,
-      "note_ru": "Демо: случайная особенность для проверки интерфейса.",
+      "note_ru": "Режим ПК при подключении к монитору.",
       "evidence": [],
-      "_q": "random"
+      "_q": "estimated"
     }
   ],
   "quirks_checked": false,
   "special": [
     {
       "code": "stylus",
-      "note_ru": "S Pen в корпусе (по правилу для Galaxy S Ultra — проверить модель).",
+      "note_ru": "Встроенный стилус с местом в корпусе.",
       "_q": "estimated"
     }
   ],
   "photos": [
     {
-      "url": "/placeholder/samsung-galaxy-s23-ultra/1.svg",
-      "kind": "placeholder",
+      "author": "Don'taskwhyImadethis",
       "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
-      "width": 960,
-      "height": 1280,
-      "origin": "placeholder"
+      "height": 720,
+      "kind": "front",
+      "license": "CC BY-SA 4.0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:2023_Samsung_display_in_Toronto.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/2023_Samsung_display_in_Toronto.jpg/960px-2023_Samsung_display_in_Toronto.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
     },
     {
-      "url": "/placeholder/samsung-galaxy-s23-ultra/2.svg",
-      "kind": "placeholder",
+      "author": "Hajoon0102",
       "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
-      "width": 960,
-      "height": 1280,
-      "origin": "placeholder"
+      "height": 724,
+      "kind": "back",
+      "license": "CC BY-SA 4.0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Back_of_the_Samsung_Galaxy_S23.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Back_of_the_Samsung_Galaxy_S23.jpg/960px-Back_of_the_Samsung_Galaxy_S23.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
     },
     {
-      "url": "/placeholder/samsung-galaxy-s23-ultra/3.svg",
-      "kind": "placeholder",
+      "author": "メイド理世",
       "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
-      "width": 960,
       "height": 1280,
-      "origin": "placeholder"
+      "kind": "back",
+      "license": "CC BY-SA 4.0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Back_view_of_Samsung_Galaxy_S23_Ultra_Green.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Back_view_of_Samsung_Galaxy_S23_Ultra_Green.jpg/960px-Back_view_of_Samsung_Galaxy_S23_Ultra_Green.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
+    },
+    {
+      "author": "Hajoon0102",
+      "color_ru": null,
+      "height": 634,
+      "kind": "lifestyle",
+      "license": "CC BY-SA 4.0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Galaxy_S23.png",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Galaxy_S23.png/960px-Galaxy_S23.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
+    },
+    {
+      "author": "Dinkun Chen",
+      "color_ru": null,
+      "height": 626,
+      "kind": "lifestyle",
+      "license": "CC BY-SA 4.0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:SAMSUNG_Galaxy_S23_SERIES.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/SAMSUNG_Galaxy_S23_SERIES.jpg/960px-SAMSUNG_Galaxy_S23_SERIES.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
+    },
+    {
+      "author": "PantheraLeo1359531",
+      "color_ru": null,
+      "height": 183,
+      "kind": "lifestyle",
+      "license": "CC BY 4.0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:S-Pen_des_Samsung_Galaxy_S23_Ultra,_512_GB,_Lavender_20230416_HOF00340_RAW-Export.png",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/S-Pen_des_Samsung_Galaxy_S23_Ultra%2C_512_GB%2C_Lavender_20230416_HOF00340_RAW-Export.png/960px-S-Pen_des_Samsung_Galaxy_S23_Ultra%2C_512_GB%2C_Lavender_20230416_HOF00340_RAW-Export.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
     }
   ],
   "_meta": {
-    "created": "2026-11-20",
-    "updated": "2026-11-20",
-    "filled_by": "tools/generate_random_catalog.py"
+    "created": "2026-11-21",
+    "updated": "2026-11-21",
+    "filled_by": "Claude Opus 5.5 (сведения до 2026-06) + tools/import_catalog_data.py"
   }
 }

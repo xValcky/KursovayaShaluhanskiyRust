@@ -5,35 +5,35 @@
   "full_name": "realme Note 60",
   "aliases": [],
   "os": "Android",
-  "release_date": null,
+  "release_date": "2024-08",
   "year": 2024,
   "status": "on_sale",
   "availability_ru": "official",
   "form_factor": "bar",
   "in_ml": true,
-  "chipset": "demo-soc-240",
+  "chipset": "unisoc-t612",
   "specs": {
     "screen_in": 6.74,
     "cover_screen_in": null,
     "refresh_hz": 90,
-    "display_type": null,
-    "peak_nits": null,
+    "display_type": "IPS LCD",
+    "peak_nits": 560,
     "battery_mah": 5000,
-    "charge_w": 10.0,
-    "wireless_w": null,
-    "weight_g": 187.0,
-    "thickness_mm": null,
-    "ip_rating": null,
+    "charge_w": 10,
+    "wireless_w": 0,
+    "weight_g": 187,
+    "thickness_mm": 7.84,
+    "ip_rating": "IP64",
     "has_5g": false,
-    "nfc": true,
+    "nfc": false,
     "esim": false,
     "ir_port": false,
-    "jack35": null,
-    "sd_card": null,
-    "update_years": null,
+    "jack35": true,
+    "sd_card": true,
+    "update_years": 2,
     "_q": "estimated",
     "_src": [
-      "project_seed"
+      "ai_knowledge"
     ]
   },
   "variants": [
@@ -51,29 +51,16 @@
       ]
     },
     {
-      "ram_gb": 4,
-      "rom_gb": 256,
-      "price_rub": 8990,
-      "price_date": "2026-11-20",
-      "price_src": "random",
-      "msrp_usd": null,
-      "is_base": false,
-      "_q": "random",
-      "_src": [
-        "random"
-      ]
-    },
-    {
       "ram_gb": 6,
-      "rom_gb": 512,
-      "price_rub": 10990,
-      "price_date": "2026-11-20",
-      "price_src": "random",
+      "rom_gb": 128,
+      "price_rub": 8190,
+      "price_date": null,
+      "price_src": "price_model",
       "msrp_usd": null,
       "is_base": false,
-      "_q": "random",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "price_model"
       ]
     }
   ],
@@ -81,41 +68,41 @@
     {
       "role": "main",
       "position": 0,
-      "sensor": "demo-s14",
+      "sensor": null,
       "mp": 32,
-      "aperture": 2.0,
-      "focal_mm": 26,
-      "fov_deg": 82,
+      "aperture": 2,
+      "focal_mm": null,
+      "fov_deg": null,
       "optical_zoom_x": null,
-      "ois": true,
+      "ois": false,
       "af": "pdaf",
       "min_focus_cm": null,
-      "video_max": "1080p30",
-      "processing_score": 56,
-      "processing_basis": "random",
-      "_q": "random",
+      "video_max": null,
+      "processing_score": 32,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "ai_knowledge"
       ]
     },
     {
       "role": "front",
       "position": 0,
-      "sensor": "demo-s11",
-      "mp": 16,
-      "aperture": 2.1,
-      "focal_mm": 22,
-      "fov_deg": 87,
+      "sensor": null,
+      "mp": 5,
+      "aperture": 2.2,
+      "focal_mm": null,
+      "fov_deg": null,
       "optical_zoom_x": null,
       "ois": false,
       "af": "fixed",
       "min_focus_cm": null,
       "video_max": null,
-      "processing_score": 49,
-      "processing_basis": "random",
-      "_q": "random",
+      "processing_score": 24,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "ai_knowledge"
       ]
     }
   ],
@@ -123,62 +110,28 @@
     "macro_mode": "none",
     "macro_min_focus_cm": null,
     "lossless_zoom_x": null,
-    "max_digital_zoom_x": 8,
+    "max_digital_zoom_x": 4,
     "dxomark": null,
-    "_q": "random",
+    "_q": "estimated",
     "_src": [
-      "random"
+      "ai_knowledge"
     ]
   },
   "quirks": [
     {
-      "code": "short_updates",
-      "severity": 1,
-      "note_ru": "Демо: случайная особенность для проверки интерфейса.",
+      "code": "bloatware",
+      "severity": 2,
+      "note_ru": "Много предустановленных приложений и игр, часть удаляется.",
       "evidence": [],
-      "_q": "random"
+      "_q": "estimated"
     }
   ],
   "quirks_checked": false,
   "special": [],
-  "photos": [
-    {
-      "url": "/placeholder/realme-note-60/1.svg",
-      "kind": "placeholder",
-      "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
-      "width": 960,
-      "height": 1280,
-      "origin": "placeholder"
-    },
-    {
-      "url": "/placeholder/realme-note-60/2.svg",
-      "kind": "placeholder",
-      "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
-      "width": 960,
-      "height": 1280,
-      "origin": "placeholder"
-    },
-    {
-      "url": "/placeholder/realme-note-60/3.svg",
-      "kind": "placeholder",
-      "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
-      "width": 960,
-      "height": 1280,
-      "origin": "placeholder"
-    }
-  ],
+  "photos": [],
   "_meta": {
-    "created": "2026-11-20",
-    "updated": "2026-11-20",
-    "filled_by": "tools/generate_random_catalog.py"
+    "created": "2026-11-21",
+    "updated": "2026-11-21",
+    "filled_by": "Claude Opus 5.5 (сведения до 2026-06) + tools/import_catalog_data.py"
   }
 }

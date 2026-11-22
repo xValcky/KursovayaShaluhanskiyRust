@@ -5,62 +5,49 @@
   "full_name": "Honor 400 Pro",
   "aliases": [],
   "os": "Android",
-  "release_date": null,
+  "release_date": "2025-05",
   "year": 2025,
   "status": "on_sale",
   "availability_ru": "official",
   "form_factor": "bar",
   "in_ml": true,
-  "chipset": "demo-soc-2000",
+  "chipset": "snapdragon-8-gen-3",
   "specs": {
     "screen_in": 6.7,
     "cover_screen_in": null,
     "refresh_hz": 120,
-    "display_type": null,
-    "peak_nits": null,
+    "display_type": "AMOLED",
+    "peak_nits": 5000,
     "battery_mah": 5300,
-    "charge_w": 100.0,
-    "wireless_w": null,
-    "weight_g": 205.0,
-    "thickness_mm": null,
-    "ip_rating": null,
+    "charge_w": 100,
+    "wireless_w": 50,
+    "weight_g": 205,
+    "thickness_mm": 8.1,
+    "ip_rating": "IP69",
     "has_5g": true,
     "nfc": true,
     "esim": false,
     "ir_port": true,
-    "jack35": null,
-    "sd_card": null,
-    "update_years": null,
+    "jack35": false,
+    "sd_card": false,
+    "update_years": 6,
     "_q": "estimated",
     "_src": [
-      "project_seed"
+      "ai_knowledge"
     ]
   },
   "variants": [
     {
       "ram_gb": 12,
       "rom_gb": 512,
-      "price_rub": 40811,
-      "price_date": "2026-11-05",
-      "price_src": "project_seed",
+      "price_rub": 37760,
+      "price_date": "2026-11-21",
+      "price_src": "telegram_polzaskidki",
       "msrp_usd": null,
       "is_base": true,
-      "_q": "estimated",
+      "_q": "verified",
       "_src": [
-        "project_seed"
-      ]
-    },
-    {
-      "ram_gb": 12,
-      "rom_gb": 1024,
-      "price_rub": 46990,
-      "price_date": "2026-11-20",
-      "price_src": "random",
-      "msrp_usd": null,
-      "is_base": false,
-      "_q": "random",
-      "_src": [
-        "random"
+        "telegram_polzaskidki:t.me/polzaSKIDKI/33075"
       ]
     }
   ],
@@ -68,138 +55,133 @@
     {
       "role": "main",
       "position": 0,
-      "sensor": "demo-s30",
+      "sensor": null,
       "mp": 200,
-      "aperture": 1.8,
-      "focal_mm": 25,
-      "fov_deg": 83,
+      "aperture": 1.9,
+      "focal_mm": null,
+      "fov_deg": null,
       "optical_zoom_x": null,
       "ois": true,
       "af": "pdaf",
       "min_focus_cm": null,
-      "video_max": "4K60",
-      "processing_score": 65,
-      "processing_basis": "random",
-      "_q": "random",
+      "video_max": null,
+      "processing_score": 72,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "ai_knowledge"
       ]
     },
     {
       "role": "ultrawide",
       "position": 0,
-      "sensor": "demo-s19",
-      "mp": 50,
-      "aperture": 2.1,
-      "focal_mm": 15,
-      "fov_deg": 115,
-      "optical_zoom_x": 0.6,
+      "sensor": null,
+      "mp": 12,
+      "aperture": 2.2,
+      "focal_mm": null,
+      "fov_deg": null,
+      "optical_zoom_x": null,
       "ois": false,
-      "af": "fixed",
+      "af": "pdaf",
       "min_focus_cm": null,
       "video_max": null,
-      "processing_score": 53,
-      "processing_basis": "random",
-      "_q": "random",
+      "processing_score": 52,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "ai_knowledge"
+      ]
+    },
+    {
+      "role": "tele",
+      "position": 0,
+      "sensor": null,
+      "mp": 50,
+      "aperture": 2.4,
+      "focal_mm": null,
+      "fov_deg": null,
+      "optical_zoom_x": 3.0,
+      "ois": true,
+      "af": "pdaf",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": 70,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
+      "_src": [
+        "ai_knowledge"
       ]
     },
     {
       "role": "front",
       "position": 0,
-      "sensor": "demo-s11",
-      "mp": 16,
+      "sensor": null,
+      "mp": 50,
       "aperture": 2.1,
-      "focal_mm": 25,
-      "fov_deg": 78,
+      "focal_mm": null,
+      "fov_deg": null,
       "optical_zoom_x": null,
       "ois": false,
       "af": "fixed",
       "min_focus_cm": null,
       "video_max": null,
-      "processing_score": 76,
-      "processing_basis": "random",
-      "_q": "random",
+      "processing_score": 62,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "ai_knowledge"
       ]
     }
   ],
   "camera_features": {
-    "macro_mode": "none",
+    "macro_mode": "ultrawide_af",
     "macro_min_focus_cm": null,
-    "lossless_zoom_x": 4.0,
-    "max_digital_zoom_x": 10,
+    "lossless_zoom_x": null,
+    "max_digital_zoom_x": 50,
     "dxomark": null,
-    "_q": "random",
+    "_q": "estimated",
     "_src": [
-      "random"
+      "ai_knowledge"
     ]
   },
   "quirks": [
     {
-      "code": "cool_running",
-      "severity": 1,
-      "note_ru": "Демо: случайная особенность для проверки интерфейса.",
+      "code": "long_updates",
+      "severity": 2,
+      "note_ru": "6 лет обновлений по политике Honor.",
       "evidence": [],
-      "_q": "random"
-    },
-    {
-      "code": "gps_issues",
-      "severity": 1,
-      "note_ru": "Демо: случайная особенность для проверки интерфейса.",
-      "evidence": [],
-      "_q": "random"
-    },
-    {
-      "code": "standby_drain",
-      "severity": 3,
-      "note_ru": "Демо: случайная особенность для проверки интерфейса.",
-      "evidence": [],
-      "_q": "random"
+      "_q": "estimated"
     }
   ],
   "quirks_checked": false,
   "special": [],
   "photos": [
     {
-      "url": "/placeholder/honor-400-pro/1.svg",
-      "kind": "placeholder",
+      "author": "茅野ふたば",
       "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
-      "width": 960,
       "height": 1280,
-      "origin": "placeholder"
+      "kind": "back",
+      "license": "CC BY-SA 4.0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Honor_400_Pro_backside.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Honor_400_Pro_backside.jpg/960px-Honor_400_Pro_backside.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
     },
     {
-      "url": "/placeholder/honor-400-pro/2.svg",
-      "kind": "placeholder",
+      "author": "茅野ふたば",
       "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
-      "width": 960,
       "height": 1280,
-      "origin": "placeholder"
-    },
-    {
-      "url": "/placeholder/honor-400-pro/3.svg",
-      "kind": "placeholder",
-      "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
-      "width": 960,
-      "height": 1280,
-      "origin": "placeholder"
+      "kind": "lifestyle",
+      "license": "CC BY-SA 4.0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Honor_400_Pro.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Honor_400_Pro.jpg/960px-Honor_400_Pro.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
     }
   ],
   "_meta": {
-    "created": "2026-11-20",
-    "updated": "2026-11-20",
-    "filled_by": "tools/generate_random_catalog.py"
+    "created": "2026-11-21",
+    "updated": "2026-11-21",
+    "filled_by": "Claude Opus 5.5 (сведения до 2026-06) + tools/import_catalog_data.py"
   }
 }

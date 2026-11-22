@@ -1,0 +1,41 @@
+# OPPO. Модели 2026 года (Find X9 Ultra, X9s Pro, X10, X10 Pro Max, Reno15/16, K15 Pro+, A6 Pro 4G) — в phones_zz_2026.txt.
+@brand oppo
+OPPO Find X5 Pro ; 2022-03 disc ; sd8g1 ; 6.7 120 LTPO-AMOLED 1300 ; 5000 80 50 ; 218 8.5 IP68 ; 5g nfc u3 ; 12/256* ; M50/1.7/25/O/pd/@imx766:76 U50/2.2/15/pd/@imx766:68 T13/2.4/52/pd/x2:58 F32/2.4/-:60 ; uw dz20 ; q:overheating/1
+OPPO Find X6 Pro ; 2023-03 cn disc ru=no ; sd8g2 ; 6.82 120 LTPO-AMOLED 2500 ; 5000 100 50 ; 218 9.1 IP68 ; 5g nfc ; 12/256 16/256* ; M50/1.8/23/O/pd/@imx989:86 U50/2.2/15/pd/@imx890:70 P50/2.6/65/O/pd/@imx890/x2.8:76 F32/2.4/-:60 ; uw dz120 ; q:great_portraits/2
+OPPO Find X7 Ultra ; 2024-01 cn ru=no ; sd8g3 ; 6.82 120 LTPO-AMOLED 2600 ; 5000 100 50 ; 221 9.5 IP68 ; 5g nfc ; 12/256 16/512* ; M50/1.8/23/O/pd/@lyt900:88 U50/2.0/14/pd/@lyt600:70 P50/2.6/65/O/pd/@imx890/x3:80 P50/4.3/135/O/pd/@imx858/x6:80 F32/2.4/-:62 ; tele dz120 ; q:great_portraits/2
+OPPO Find X8 ; 2024-11 ; d9400 ; 6.59 120 AMOLED 4500 ; 5630 80 50 ; 193 7.85 IP69 ; 5g nfc u5 ; 12/256*r64990 16/512 ; M50/1.8/24/O/pd/@lyt700:80 U50/2.0/15/pd:68 P50/2.6/73/O/pd/@lyt600/x3:76 F32/2.4/-:62 ; uw dz120 ; q:excellent_battery/2
+OPPO Find X8 Pro ; 2024-11 ; d9400 ; 6.78 120 LTPO-AMOLED 4500 ; 5910 80 50 ; 215 8.24 IP69 ; 5g nfc u5 ; 16/512* ; M50/1.6/23/O/pd/@lyt808:84 U50/2.0/15/pd:70 P50/2.6/73/O/pd/@lyt600/x3:80 P50/4.3/135/O/pd/@imx858/x6:80 F32/2.4/-:62 ; tele dz120 ; q:great_portraits/2
+OPPO Find X8 Ultra ; 2025-04 cn ru=no ; sd8e ; 6.82 120 LTPO-AMOLED 2500 ; 6100 100 50 ; 226 8.78 IP69 ; 5g nfc ; 12/256 16/512* 16/1T ; M50/1.8/23/O/pd/@lyt900:88 U50/2.2/15/pd:72 P50/2.1/70/O/pd/@lyt600/x3:82 P50/3.1/135/O/pd/@imx858/x6:82 F32/2.4/-:62 ; tele dz120 ; q:great_portraits/2,great_video/2
+OPPO Find X9 ; 2025-10 ; d9500 ; 6.59 120 AMOLED 3600 ; 7025 80 50 ; 203 7.99 IP69 ; 5g nfc u5 ; 12/256* 16/512 ; M50/1.6/23/O/pd/@lyt808:82 U50/2.0/15/pd:70 P50/2.6/73/O/pd/x3:78 F32/2.4/-:64 ; uw dz120 ; q:excellent_battery/3
+OPPO Find X9 Pro ; 2025-10 ; d9500 ; 6.78 120 LTPO-AMOLED 3600 ; 7500 80 50 ; 224 8.25 IP69 ; 5g nfc u5 ; 12/256 16/512* ; M50/1.5/23/O/pd/@lyt828:86 U50/2.0/15/pd:72 P200/2.1/70/O/pd/x3:84 F50/2.0/-:66 ; tele dz120 ; q:excellent_battery/3,great_portraits/2
+OPPO Find N2 Flip ; 2023-02 disc ; d9000p ; 6.8/3.26 120 AMOLED 1600 ; 4300 44 0 ; 191 7.45 - ; 5g nfc u3 ff=flip ; 8/256* ; M50/1.8/-/pd/@imx890:72 U8/2.2/-/ff:44 F32/2.4/-:60 ; none dz20 ; -
+OPPO Find N3 ; 2023-10 disc ; sd8g2 ; 7.82/6.31 120 LTPO-AMOLED 2800 ; 4805 67 0 ; 239 11.7 IPX4 ; 5g nfc u4 ff=book ; 16/512* ; M48/1.7/24/O/pd:80 U48/2.2/14/pd:66 P64/2.6/70/O/pd/x3:72 V32/2.4/-:60 F20/2.2/-:58 ; uw dz120 ; q:hinge_crease/1
+OPPO Find N3 Flip ; 2023-10 ; d9200 ; 6.8/3.26 120 AMOLED 1600 ; 4300 44 0 ; 198 7.79 - ; 5g nfc u4 ff=flip ; 12/256* ; M50/1.8/24/O/pd/@imx890:74 U48/2.2/14/pd:60 T32/2.0/47/pd/x2:62 F32/2.4/-:60 ; uw dz20 ; -
+OPPO Find N5 ; 2025-02 ru=no ml=0 ; sd8e ; 8.12/6.62 120 LTPO-AMOLED 2100 ; 5600 80 50 ; 229 8.93 IPX8 ; 5g nfc u5 ff=book ; 16/512* ; M50/1.8/-/O/pd:80 U8/2.2/-/ff:46 P50/2.7/-/O/pd/x3:74 V8/2.4/-:54 F8/2.4/-:54 ; none dz30 ; q:hinge_crease/1 n:book_fold=Самый тонкий складной на старте: 8,93 мм в сложенном виде.
+OPPO Reno8 T ; 2023-02 disc ; hg99 ; 6.43 90 AMOLED 1000 ; 5000 33 0 ; 180 7.7 - ; nfc jack sd u2 ; 8/128* 8/256 ; M100/1.7/-:46 D2/2.4/- C2/3.3/-:18 F32/2.4/-:48 ; ded dz10 ; -
+OPPO Reno10 ; 2023-07 disc ; d7050 ; 6.7 120 AMOLED 950 ; 5000 67 0 ; 185 7.89 - ; 5g nfc u3 ; 8/256* ; M64/1.7/-/pd/@ov64b:54 U8/2.2/-/ff:38 T32/2.0/-/x2:52 F32/2.4/-:54 ; none dz20 ; -
+OPPO Reno10 Pro ; 2023-07 disc ; sd778 ; 6.7 120 AMOLED 950 ; 4600 80 0 ; 185 7.89 - ; 5g nfc u3 ; 12/256* ; M50/1.8/-/O/pd/@imx890:60 U8/2.2/-/ff:38 T32/2.0/-/x2:54 F32/2.4/-:54 ; none dz20 ; -
+OPPO Reno11 F ; 2024-02 ; d7050 ; 6.7 120 AMOLED 1100 ; 5000 67 0 ; 177 7.54 IP65 ; 5g nfc u3 ; 8/256*r22990 ; M64/1.7/-:52 U8/2.2/-/ff:38 C2/2.4/-:18 F32/2.4/-:50 ; ded dz10 ; -
+OPPO Reno11 ; 2024-01 ; d7050 ; 6.7 120 AMOLED 950 ; 5000 67 0 ; 182 7.59 - ; 5g nfc u3 ; 8/256*r27990 12/256 ; M50/1.8/-/O/pd/@lyt600:58 U8/2.2/-/ff:38 T32/2.0/-/x2:54 F32/2.4/-:54 ; none dz20 ; -
+OPPO Reno11 Pro ; 2024-01 ; d8200 ; 6.7 120 AMOLED 950 ; 4600 80 0 ; 181 7.59 - ; 5g nfc u3 ; 12/512*r39990 ; M50/1.8/-/O/pd/@imx890:62 U8/2.2/-/ff:38 T32/2.0/-/x2:56 F32/2.4/-:54 ; none dz20 ; -
+OPPO Reno12 F ; 2024-06 ; d6300 ; 6.67 120 AMOLED 1000 ; 5000 45 0 ; 187 7.76 IP64 ; 5g nfc u3 ; 8/256*r21990 ; M50/1.8/-:50 U8/2.2/-/ff:36 C2/2.4/-:18 F32/2.4/-:48 ; ded dz10 ; -
+OPPO Reno12 ; 2024-06 ; d7300e ; 6.7 120 AMOLED 1200 ; 5000 80 0 ; 177 7.6 IP65 ; 5g nfc u3 ; 12/256* 12/512 ; M50/1.8/-/O/pd/@lyt600:60 U8/2.2/-/ff:38 T50/2.0/-/x2:58 F32/2.4/-:54 ; none dz20 ; q:good_ai_assistant/1 n:good_ai_assistant=ИИ-функции ColorOS: ластик, ИИ-сводки, улучшение фото.
+OPPO Reno12 Pro ; 2024-06 ; d7300e ; 6.7 120 AMOLED 1200 ; 5000 80 0 ; 180 7.4 IP65 ; 5g nfc u3 ; 12/512* ; M50/1.8/-/O/pd/@lyt600:62 U8/2.2/-/ff:38 T50/2.0/-/pd/x2:60 F50/2.0/-:58 ; none dz20 ; -
+OPPO Reno13 ; 2025-01 ; d8350 ; 6.59 120 AMOLED 1200 ; 5600 80 50 ; 181 7.24 IP69 ; 5g nfc u4 ; 12/256*r39990 12/512 ; M50/1.8/-/O/pd/@lyt600:64 U8/2.2/-/ff:40 F50/2.0/-:58 ; none dz20 ; -
+OPPO Reno13 Pro ; 2025-01 ; d8350 ; 6.83 120 AMOLED 1200 ; 5800 80 50 ; 195 7.55 IP69 ; 5g nfc u4 ; 12/512*r49990 ; M50/1.8/-/O/pd/@lyt600:66 U8/2.2/-/ff:40 P50/2.8/-/O/pd/x3.5:66 F50/2.0/-:58 ; tele dz120 ; -
+OPPO Reno14 ; 2025-07 ; d8350 ; 6.59 120 AMOLED 1200 ; 6000 80 0 ; 187 7.42 IP69 ; 5g nfc u5 ; 12/256*r44990 12/512 ; M50/1.8/-/O/pd:66 U8/2.2/-/ff:40 P50/2.8/-/O/pd/x3.5:66 F50/2.0/-:58 ; tele dz120 ; -
+OPPO Reno14 Pro ; 2025-07 ; d8450 ; 6.83 120 AMOLED 1200 ; 6200 80 50 ; 201 7.48 IP69 ; 5g nfc u5 ; 12/512*r54990 ; M50/1.8/-/O/pd:68 U50/2.0/-/pd:56 P50/2.8/-/O/pd/x3.5:68 F50/2.0/-:58 ; uw dz120 ; -
+OPPO Reno14 F ; 2025-07 ; sd6g1 ; 6.57 120 AMOLED 1400 ; 6000 45 0 ; 180 7.7 IP69 ; 5g nfc u4 ; 8/256* ; M50/1.8/-/O:56 U8/2.2/-/ff:38 C2/2.4/-:18 F32/2.4/-:48 ; ded dz10 ; -
+OPPO A17 ; 2022-09 disc ; hg35 ; 6.56 60 IPS 600 ; 5000 10 0 ; 189 8.3 - ; jack sd u2 ; 4/64* ; M50/1.8/-:36 F5/2.2/-:26 ; none dz4 ; q:bloatware/2
+OPPO A18 ; 2023-12 disc ; hg85 ; 6.56 90 IPS 720 ; 5000 10 0 ; 188 8.16 - ; jack sd u2 ; 4/128* ; M8/2.0/-:24 F5/2.2/-:22 ; none dz4 ; q:bloatware/2
+OPPO A38 ; 2023-09 disc ; hg85 ; 6.56 90 IPS 720 ; 5000 33 0 ; 190 8.16 - ; nfc jack sd u2 ; 4/128* 6/128 ; M50/1.8/-:40 D2/2.4/- F5/2.2/-:28 ; none dz10 ; q:bloatware/2
+OPPO A58 ; 2023-11 ; hg85 ; 6.72 90 IPS 680 ; 5000 33 0 ; 192 7.99 - ; nfc jack sd u2 ; 6/128 8/128*r12990 ; M50/1.8/-:40 D2/2.4/- F8/2.0/-:30 ; none dz10 ; q:bloatware/2
+OPPO A60 ; 2024-05 ; sd680 ; 6.67 90 IPS 720 ; 5000 45 0 ; 186 7.68 IP54 ; nfc jack sd u2 ; 8/256*r14990 ; M50/1.8/-:42 D2/2.4/- F8/2.0/-:32 ; none dz10 ; q:bloatware/2
+OPPO A78 ; 2023-07 disc ; sd680 ; 6.43 90 AMOLED 1000 ; 5000 67 0 ; 180 7.93 - ; nfc jack sd u2 ; 8/256* ; M50/1.8/-:42 D2/2.4/- F8/2.0/-:32 ; none dz10 ; -
+OPPO A80 ; 2024-07 ; d6300 ; 6.67 120 IPS 1000 ; 5000 45 0 ; 186 7.68 IP54 ; 5g nfc jack sd u3 ; 8/256* ; M50/1.8/-:46 D2/2.4/- F8/2.0/-:32 ; none dz10 ; -
+OPPO A3x ; 2024-08 ; d6300 ; 6.67 90 IPS 1000 ; 5100 45 0 ; 186 7.68 IP54 ; 5g jack sd u2 ; 4/128* ; M8/2.0/-:24 F5/2.2/-:22 ; none dz4 ; q:bloatware/2
+OPPO A5 Pro ; 2025-04 ; - ; 6.67 120 IPS 1000 ; 5800 45 0 ; 195 7.75 IP69 ; nfc jack sd u3 ; 8/256* ; M50/1.8/-:44 D2/2.4/- F8/2.0/-:32 ; none dz10 ; q:excellent_battery/1 a:OPPO A5 Pro 4G
+OPPO K13 Turbo Pro ; 2025-07 cn ; sd8sg4 ; 6.8 144 AMOLED 1600 ; 7000 80 0 ; 210 8.3 IP69 ; 5g nfc ir ; 12/256* 16/512 ; M50/1.8/-/O/pd:62 D2/2.4/- F16/2.4/-:46 ; none dz10 ; q:cool_running/2,bypass_charging/1 n:cool_running=Встроенный вентилятор охлаждения держит частоты в играх. s:active_cooling
+OPPO Reno10 Pro+ ; 2023-07 disc ; sd8pg1 ; 6.74 120 AMOLED 1100 ; 4700 100 0 ; 194 8.28 - ; 5g nfc u3 ; 12/256* ; M50/1.8/-/O/pd/@imx890:66 U8/2.2/-/ff:40 P64/2.5/-/O/x3:62 F32/2.4/-:56 ; tele dz120 ; -
+OPPO Reno13 F ; 2025-01 ; hg100 ; 6.67 120 AMOLED 1200 ; 5800 45 0 ; 192 7.76 IP69 ; nfc jack sd u3 ; 8/256*r24990 ; M50/1.8/-/O:56 U8/2.2/-/ff:38 C2/2.4/-:18 F32/2.4/-:48 ; ded dz10 ; a:OPPO Reno13 F 4G
+OPPO Reno13 F 5G ; 2025-01 ; sd6g1 ; 6.67 120 AMOLED 1200 ; 5800 45 0 ; 192 7.76 IP69 ; 5g nfc jack sd u3 ; 8/256*r27990 12/256 ; M50/1.8/-/O:56 U8/2.2/-/ff:38 C2/2.4/-:18 F32/2.4/-:48 ; ded dz10 ; -

@@ -1,0 +1,107 @@
+# Модели, вышедшие после даты знаний нейросети (июнь 2026): поля старой базы (project_seed) + Wikipedia/сеть.
+# Камеры кроме основной, обработка и «приколы» здесь не заполняются по памяти (правило 16 ТЗ).
+@brand apple
+iPhone 17e ; 2026-03 web vf ; a19 ; 6.1 60 OLED 1200 ; 4005 20 - ; 169 7.8 IP68 ; 5g nfc esim ; 8/256* 8/512 ; M48/1.6/26/O/dp F12/1.9/-/pd ; none dz10 ll2 ; w:manufacturer:apple.com/iphone-17e/specs s:satellite q:ai_limited_ru/2 n:ai_limited_ru=Apple Intelligence не поддерживает русский язык; в РФ без смены региона функции недоступны.
+iPhone Duo ; 2026-10 web vf ff=book ; a20p ; 7.6/5.4 120 LTPO-OLED 3000 ; 4883 60 25 ; 254 5.2 IP68 ; 5g nfc esim ; 12/256*$1999 12/512$2199 12/1T$2599 12/2T$3199 ; M48/1.6/26/O/dp U48/2.2/13/pd F12/2.2/-/ff ; uw dz10 ll2 ; w:manufacturer:apple.com/iphone-duo/specs,wikipedia:IPhone_Duo s:satellite n:book_fold=Первый складной iPhone: внутренний экран 7,6″ и внешний 5,4″, поддержка Apple Pencil.
+iPhone 18 Pro ; 2026-09 web vf ; a20p ; 6.3 120 LTPO-OLED 3000 ; 4056 60 25 ; 211 8.75 IP68 ; 5g nfc esim ; 12/256* 12/512 12/1T 12/2T ; M48/1.48/24/O/dp U48/2.2/13/pd P48/2.8/100/O/pd F18/1.9/-/pd ; uw dz40 ll8 ; w:manufacturer:apple.com/iphone-18-pro/specs,gsmarena:apple_iphone_18_pro_iphone_18_pro_max_battery_capacity_3c_certification-news-73603 s:satellite q:ai_limited_ru/2 n:ai_limited_ru=Apple Intelligence не поддерживает русский язык; в РФ без смены региона функции недоступны.
+iPhone 18 Pro Max ; 2026-09 web vf ; a20p ; 6.9 120 LTPO-OLED 3000 ; 5391 60 25 ; 249 8.75 IP68 ; 5g nfc esim ; 12/256* 12/512 12/1T 12/2T ; M48/1.48/24/O/dp U48/2.2/13/pd P48/2.8/100/O/pd F18/1.9/-/pd ; uw dz40 ll8 ; w:manufacturer:apple.com/iphone-18-pro/specs,gsmarena:apple_iphone_18_pro_iphone_18_pro_max_battery_capacity_3c_certification-news-73603 s:satellite q:ai_limited_ru/2 n:ai_limited_ru=Apple Intelligence не поддерживает русский язык; в РФ без смены региона функции недоступны.
+@brand google
+Pixel 10a ; 2026 seed ; - ; 6.3 120 - - ; 5100 30 - ; 183 - - ; 5g nfc esim ; 8/128* ; M48/-/- ; - ; -
+Pixel 11 ; 2026 seed ; - ; 6.3 120 - - ; 4970 30 - ; 200 - - ; 5g nfc esim ; 12/256* ; M50/-/- ; - ; -
+Pixel 11 Pro ; 2026-08 web ; tg6 ; 6.34 120 LTPO-OLED 3600 ; 4850 30 25 ; 204 8.4 IP68 ; 5g nfc esim u7 ; 12/256* 16/512 16/1T ; M50/-/- U48/-/- P48/-/-/x5 F42/-/- ; uw ; w:wikipedia:Pixel_11_Pro q:long_updates/3,clean_android/2
+Pixel 11 Pro XL ; 2026-08 web ; tg6 ; 6.8 120 LTPO-OLED 3600 ; 5115 45 25 ; 226 8.5 IP68 ; 5g nfc esim u7 ; 16/256* 16/512 16/1T ; M50/-/- U48/-/- P48/-/-/x5 F42/-/- ; uw ; w:wikipedia:Pixel_11_Pro q:long_updates/3,clean_android/2
+Pixel 11 Pro Fold ; 2026-08 web ff=book ; tg6 ; 8.03/6.46 120 LTPO-OLED - ; 4806 30 25 ; 239 5.2 IP68 ; 5g nfc esim u7 ; 16/256* 16/512 16/1T ; M48/-/- U10.5/-/- P10.8/-/-/x5 V10/-/- F10/-/- ; - ; w:wikipedia:Pixel_11_Pro_Fold q:long_updates/3,clean_android/2
+@brand honor
+600 ; 2026 seed ; - ; 6.57 120 - - ; 7000 80 - ; 190 - - ; 5g nfc esim ir ; 8/256* ; M200/-/- ; - ; -
+600 Lite ; 2026 seed ; - ; 6.6 120 - - ; 6520 45 - ; 180 - - ; 5g nfc ; 8/256* ; M50/-/- ; - ; -
+600 Pro ; 2026 seed ; - ; 6.57 120 - - ; 7000 80 - ; 205 - - ; 5g nfc esim ir ; 12/512* ; M200/-/- ; - ; -
+Magic V6 ; 2026-03 web ff=book ; sd8eg5 ; 7.95/6.52 120 LTPO-OLED - ; 6660 80 66 ; 219 - IP69 ; 5g nfc esim ir ; 16/512* ; M50/-/-/O T64/-/-/O/x3 U50/-/- V20/-/- F20/-/- ; uw ; w:gsmarena:honor_magic_v6-review-2968,beebom:gadgets.beebom.com/news/honor-magic-v6-announced-with-snapdragon-8-elite-gen-5-and-6600mah-battery
+Robot Phone ; 2026-08 cn web ; sd8eg5 ; 6.31 120 LTPO-OLED 6800 ; 7060 120 50 ; 248 9.6 - ; 5g nfc ; 12/512* 16/1T ; M200/-/-/O F50/-/- ; - ; w:techrepublic:techrepublic.com/article/news-honor-robot-phone-cheat-sheet-apac-china,mobiles91:91mobiles.com/hub/honor-robot-phone-launched-200mp-gimbal-camera-price-features s:gimbal_camera n:gimbal_camera=Основная камера 200 МП на механическом подвесе выдвигается из корпуса и сама следит за объектом.
+Turbo ; 2026 seed ; - ; 6.79 120 - - ; 8560 80 - ; 205 - - ; 5g nfc ir ; 8/256* ; M50/-/- ; - ; -
+X9e Pro ; 2026 seed ; - ; 6.8 120 - - ; 11000 80 - ; 215 - - ; 5g nfc ; 6/256* ; M108/-/- ; - ; -
+@brand lenovo
+Legion Y70 (2026) ; 2026 seed ; - ; 6.82 144 - - ; 8000 90 - ; 210 - - ; 5g nfc ; 12/256* ; M50/-/- ; - ; a:Lenovo Legion Y70 2026|Legion Y70
+@brand motorola
+X70 Air ; 2026 seed ; - ; 6.7 120 - - ; 4800 68 - ; 159 - - ; 5g nfc ; 12/256* ; M50/-/- ; - ; -
+edge 70 fusion ; 2026 seed ; - ; 6.7 120 - - ; 5500 68 - ; 180 - - ; 5g nfc ; 8/256* ; M50/-/- ; - ; -
+edge 70 pro ; 2026 seed ; - ; 6.7 144 - - ; 6000 90 - ; 190 - - ; 5g nfc esim ; 12/512* ; M50/-/- ; - ; -
+moto g100s ; 2026 seed ; - ; 6.72 120 - - ; 7000 30 - ; 210 - - ; 5g nfc ; 8/128* ; M50/-/- ; - ; -
+motorola signature 27 ; 2026-11 web ; - ; 6.78 120 POLED - ; 7000 90 50 ; 227 8 - ; 5g nfc ; 12/256* 16/512 ; M50/-/- F50/1.9/- ; - ; w:wikipedia:Motorola_Signature_27
+@brand nothing
+CMF Phone 2 Pro Lite ; 2025 seed ; - ; 6.77 120 - - ; 5000 33 - ; 185 - - ; 5g nfc ; 6/128* ; M50/-/- ; - ; -
+Phone (4a) ; 2026 seed ; - ; 6.78 120 - - ; 5080 50 - ; 205 - - ; 5g nfc ; 8/128* ; M50/-/- ; - ; -
+Phone (4a) Pro ; 2026 seed ; - ; 6.83 144 - - ; 5080 50 - ; 210 - - ; 5g nfc ; 12/256* ; M50/-/- ; - ; -
+Phone (4b) ; 2026 seed ; - ; 6.77 120 - - ; 5000 45 - ; 200 - - ; 5g nfc ; 8/128* ; M50/-/- ; - ; -
+@brand nubia
+Z80 Ultra ; 2026 seed ; - ; 6.85 144 - - ; 7200 90 - ; 230 - - ; 5g nfc ; 16/512* ; M50/-/- ; - ; -
+@brand oneplus
+15T ; 2026 seed ; - ; 6.32 165 - - ; 7500 100 - ; 195 - - ; 5g nfc ir ; 12/256* ; M50/-/- ; - ; -
+16 ; 2026 seed ; - ; 6.78 185 - - ; 9000 100 - ; 220 - - ; 5g nfc ir ; 12/256* ; M200/-/- ; - ; -
+Ace 6T ; 2026 seed ; - ; 6.83 165 - - ; 8300 100 - ; 213 - - ; 5g nfc ir ; 12/256* ; M50/-/- ; - ; -
+Nord 6 ; 2026 seed ; - ; 6.78 165 - - ; 7800 80 - ; 210 - - ; 5g nfc ; 12/256* ; M50/-/- ; - ; -
+Nord CE6 ; 2026 seed ; - ; 6.78 144 - - ; 8000 80 - ; 205 - - ; 5g nfc ; 8/256* ; M50/-/- ; - ; -
+@brand oppo
+A6 Pro 4G ; 2026 seed ; - ; 6.67 120 - - ; 7000 45 - ; 205 - - ; nfc ; 8/256* ; M50/-/- ; - ; -
+Find X10 ; 2026 seed ; - ; 6.59 144 - - ; 8000 80 - ; 205 - - ; 5g nfc esim ir ; 12/256* ; M200/-/- ; - ; -
+Find X10 Pro Max ; 2026 seed ; - ; 6.78 144 - - ; 8000 80 - ; 225 - - ; 5g nfc esim ir ; 16/512* ; M200/-/- ; - ; -
+Find X9 Ultra ; 2026 seed ; - ; 6.82 144 - - ; 7050 100 - ; 235 - - ; 5g nfc esim ir ; 12/256* ; M200/-/- ; - ; -
+Find X9s Pro ; 2026 seed ; - ; 6.32 144 - - ; 7000 80 - ; 195 - - ; 5g nfc ir ; 12/256* ; M200/-/- ; - ; -
+K15 Pro+ ; 2026 seed ; - ; 6.78 144 - - ; 7500 100 - ; 215 - - ; 5g nfc ir ; 12/512* ; M50/-/- ; - ; -
+Reno15 ; 2026 seed ; - ; 6.59 120 - - ; 6500 80 - ; 190 - - ; 5g nfc ir ; 8/256* ; M50/-/- ; - ; -
+Reno16 ; 2026 seed ; - ; 6.32 120 - - ; 6700 80 - ; 180 - - ; 5g nfc ir ; 12/256* ; M50/-/- ; - ; -
+Reno16 F ; 2026 seed ; - ; 6.57 120 - - ; 7000 80 - ; 190 - - ; 5g nfc ; 8/256* ; M50/-/- ; - ; -
+Reno16 Pro ; 2026 seed ; - ; 6.32 144 - - ; 6700 80 - ; 185 - - ; 5g nfc ir ; 12/256* ; M200/-/- ; - ; -
+OPPO Find N6 ; 2026-03 web ru=no ff=book ; sd8eg5 ; 8.12/6.62 120 LTPO-AMOLED - ; 6000 80 50 ; 225 8.93 - ; 5g nfc ; 16/512* ; M200/-/- U50/-/- T50/-/- V20/-/- F20/-/- ; - ; w:wikipedia:Oppo_Find_N6
+@brand poco
+F8 Pro ; 2026 seed ; - ; 6.59 120 - - ; 6210 100 - ; 199 - - ; 5g nfc esim ir ; 12/256* ; M50/-/- ; - ; -
+F8 Ultra ; 2026 seed ; - ; 6.9 120 - - ; 6500 100 - ; 220 - - ; 5g nfc esim ir ; 12/256* ; M50/-/- ; - ; -
+F9 Pro ; 2026 seed ; - ; 6.59 185 - - ; 6330 100 - ; 200 - - ; 5g nfc esim ir ; 12/256* ; M200/-/- ; - ; -
+F9 Ultra ; 2026 seed ; - ; 6.9 185 - - ; 8050 100 - ; 225 - - ; 5g nfc esim ir ; 12/256* ; M200/-/- ; - ; -
+M8 ; 2026 seed ; - ; 6.77 120 - - ; 7000 45 - ; 190 - - ; 5g nfc ir ; 8/256* ; M50/-/- ; - ; -
+M8 Pro ; 2026 seed ; - ; 6.83 120 - - ; 6500 100 - ; 200 - - ; 5g nfc ir ; 8/256* ; M50/-/- ; - ; -
+X8 ; 2026 seed ; - ; 6.83 120 - - ; 8340 67 - ; 205 - - ; 5g nfc ir ; 8/256* ; M50/-/- ; - ; -
+X8 Pro ; 2026 seed ; - ; 6.59 120 - - ; 6500 100 - ; 200 - - ; 5g nfc ir ; 8/256* ; M50/-/- ; - ; -
+X8 Pro Max ; 2026 seed ; - ; 6.83 120 - - ; 8500 100 - ; 220 - - ; 5g nfc esim ir ; 12/256* ; M50/-/- ; - ; -
+@brand realme
+16 ; 2026 seed ; - ; 6.57 120 - - ; 7000 60 - ; 190 - - ; 5g nfc ; 8/256* ; M50/-/- ; - ; -
+16 Pro+ ; 2026 seed ; - ; 6.78 144 - - ; 7000 80 - ; 205 - - ; 5g nfc ir ; 12/256* ; M200/-/- ; - ; -
+C100i ; 2026 seed ; - ; 6.7 90 - - ; 6000 15 - ; 196 - - ; - ; 4/64* ; M13/-/- ; - ; -
+C100x ; 2026 seed ; - ; 6.7 120 - - ; 6000 45 - ; 196 - - ; nfc ; 4/128* ; M50/-/- ; - ; -
+C85 ; 2026 seed ; - ; 6.8 144 - - ; 7000 45 - ; 210 - - ; 5g nfc ; 6/128* ; M50/-/- ; - ; -
+Note 80 ; 2026 seed ; - ; 6.74 90 - - ; 5000 15 - ; 190 - - ; - ; 4/128* ; M13/-/- ; - ; -
+P4 Lite ; 2026 seed ; - ; 6.7 90 - - ; 6000 15 - ; 196 - - ; - ; 4/64* ; M13/-/- ; - ; -
+P4 Power ; 2026 seed ; - ; 6.78 144 - - ; 10001 80 - ; 218 - - ; 5g nfc ; 8/256* ; M50/-/- ; - ; -
+P4x ; 2026 seed ; - ; 6.72 120 - - ; 7000 45 - ; 200 - - ; 5g nfc ; 4/128* ; M50/-/- ; - ; -
+@brand samsung
+Galaxy A37 ; 2026 seed ; - ; 6.7 120 - - ; 5000 45 - ; 196 - - ; 5g nfc ; 8/128* ; M50/-/- ; - ; -
+Galaxy A57 ; 2026 seed ; - ; 6.7 120 - - ; 5000 45 - ; 179 - - ; 5g nfc ; 8/256* ; M50/-/- ; - ; -
+Galaxy S26 FE ; 2026 seed ; - ; 6.7 120 - - ; 4900 45 - ; 193 - - ; 5g nfc esim ; 8/256* ; M50/-/- ; - ; -
+Galaxy Z Flip8 ; 2026 seed ff=flip ; - ; 6.9 120 - - ; 4300 25 - ; 180 - - ; 5g nfc esim ; 12/256* ; M50/-/- ; - ; -
+Galaxy Z Fold8 ; 2026-08 web ff=book ; sd8eg5g ; 7.6/5.5 120 LTPO-AMOLED 3000 ; 4800 45 20 ; 201 4.5 - ; 5g nfc esim u7 ; 12/256* 12/512 16/1T ; M200/-/-/O U12/-/- T10/-/-/O V10/-/- F10/-/- ; - ; w:wikipedia:Samsung_Galaxy_Z_Fold_8 q:long_updates/3,good_ai_assistant/3 a:Galaxy Z Fold 8
+Galaxy Z Fold8 Ultra ; 2026-08 web ff=book ; sd8eg5g ; 8.0/6.5 120 LTPO-AMOLED 3000 ; 5000 45 20 ; 215 - - ; 5g nfc esim u7 ; 12/256* 12/512 16/1T ; M200/-/-/O U50/-/- P50/-/-/O/x5 V10/-/- F10/-/- ; - ; w:wikipedia:Samsung_Galaxy_Z_Fold_8 q:long_updates/3,good_ai_assistant/3 a:Galaxy Z Fold 8 Ultra
+@brand sony
+Xperia 1 VIII ; 2026-06 web ; sd8eg5 ; 6.5 120 LTPO-OLED - ; 5000 30 15 ; 200 8.3 IP68 ; 5g nfc jack sd ; 12/256* 16/512 ; M52/1.9/24/O U50/2.0/16 P50/2.8/70/O F12/2.0/- ; - ; w:wikipedia:Sony_Xperia_1_VIII
+Xperia 10 VIII ; 2026-09 web ; sd6g3 ; 6.1 120 OLED - ; 5000 30 0 ; 168 8.3 IP68 ; 5g nfc jack sd ; 8/128* ; M50/1.9/24/O U13/2.4/16 F8/2.0/- ; - ; w:wikipedia:Sony_Xperia_10_VIII
+@brand vivo
+S50 Pro mini ; 2026 seed ; - ; 6.31 120 - - ; 6500 90 - ; 190 - - ; 5g nfc ir ; 12/256* ; M50/-/- ; - ; -
+V70 ; 2026 seed ; - ; 6.59 120 - - ; 6500 90 - ; 190 - - ; 5g nfc ; 12/256* ; M50/-/- ; - ; -
+X Fold 6 ; 2026-06 web ff=book ; - ; 8.02/6.51 120 LTPO-AMOLED - ; 7000 80 40 ; 228 9.4 - ; 5g nfc esim ; 12/256* ; M200/-/-/O U50/-/- T50/-/-/O V20/-/- F20/-/- ; - ; w:gsmarena:vivo_x_fold6_arrives_with_200mp_main_cam_and_7000mah_battery-news-73471,mobiles91:91mobiles.com/hub/vivo-x-fold6-launched-globally-specifications s:camera_kit n:camera_kit=Официальный телеконвертер Telephoto Extender Gen 2 до 200 мм.
+X300 FE ; 2026 seed ; - ; 6.31 120 - - ; 6500 90 - ; 190 - - ; 5g nfc ir ; 12/256* ; M50/-/- ; - ; -
+X300 Ultra ; 2026 seed ; - ; 6.82 144 - - ; 6600 100 - ; 230 - - ; 5g nfc esim ir ; 16/512* ; M200/-/- ; - ; -
+X500 ; 2026 seed ; - ; 6.59 144 - - ; 7500 90 - ; 200 - - ; 5g nfc esim ir ; 12/256* ; M64/-/- ; - ; -
+X500 Pro ; 2026 seed ; - ; 6.36 144 - - ; 6510 90 - ; 200 - - ; 5g nfc esim ir ; 12/256* ; M64/-/- ; - ; -
+X500 Pro Max ; 2026 seed ; - ; 6.85 144 - - ; 8000 90 - ; 230 - - ; 5g nfc esim ir ; 12/256* ; M200/-/- ; - ; -
+iQOO 15T ; 2026 seed ; - ; 6.8 144 - - ; 8000 100 - ; 215 - - ; 5g nfc ir ; 12/256* ; M50/-/- ; - ; -
+@brand xiaomi
+17 Ultra ; 2026 seed ; - ; 6.9 120 - - ; 6000 90 - ; 218 - - ; 5g nfc esim ir ; 16/512* ; M200/-/- ; - ; -
+17T ; 2026 seed ; - ; 6.59 120 - - ; 6500 67 - ; 195 - - ; 5g nfc esim ir ; 12/256* ; M50/-/- ; - ; -
+17T Pro ; 2026 seed ; - ; 6.83 144 - - ; 7000 100 - ; 215 - - ; 5g nfc esim ir ; 12/256* ; M50/-/- ; - ; -
+Redmi 17 ; 2026 seed ; - ; 6.9 120 - - ; 7000 33 - ; 210 - - ; nfc ir ; 4/128* ; M50/-/- ; - ; -
+Redmi Note 15 5G ; 2026 seed ; - ; 6.77 120 - - ; 5520 45 - ; 178 - - ; 5g nfc ir ; 8/256* ; M108/-/- ; - ; -
+Redmi Note 15 Pro 5G ; 2026 seed ; - ; 6.83 120 - - ; 6580 45 - ; 210 - - ; 5g nfc ir ; 8/256* ; M200/-/- ; - ; -
+Redmi Note 15 Pro+ ; 2026 seed ; - ; 6.83 120 - - ; 6500 100 - ; 210 - - ; 5g nfc ir ; 12/256* ; M200/-/- ; - ; -
+Redmi Note 17 4G ; 2026 seed ; - ; 6.99 120 - - ; 7700 33 - ; 210 - - ; nfc ir ; 8/256* ; M50/-/- ; - ; -
+Redmi Note 17 5G ; 2026 seed ; - ; 6.77 120 - - ; 7000 45 - ; 195 - - ; 5g nfc ir ; 6/256* ; M50/-/- ; - ; -
+Redmi Note 17 Pro 5G ; 2026 seed ; - ; 6.83 120 - - ; 8340 67 - ; 205 - - ; 5g nfc ir ; 6/128* ; M50/-/- ; - ; -
+Redmi Note 17 Pro Max ; 2026 seed ; - ; 6.83 120 - - ; 10000 100 - ; 220 - - ; 5g nfc ir ; 8/128* ; M50/-/- ; - ; -
+Xiaomi 18 Fold ; 2026-09 cn web ru=no ff=book ; - ; 7.58/5.38 120 LTPO-AMOLED 4000 ; 6000 67 50 ; 219 5 - ; 5g nfc ; 12/256 16/512* 16/1T ; M200/1.7/23/O U50/2.4/17 T50/2.8/80/O F16/2.2/- ; - ; w:wikipedia:Xiaomi_18_Fold

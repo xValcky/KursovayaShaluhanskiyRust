@@ -5,35 +5,35 @@
   "full_name": "Xiaomi Redmi Note 14 Pro 5G",
   "aliases": [],
   "os": "Android",
-  "release_date": null,
+  "release_date": "2025-01",
   "year": 2025,
   "status": "on_sale",
   "availability_ru": "official",
   "form_factor": "bar",
   "in_ml": true,
-  "chipset": "demo-soc-750",
+  "chipset": "dimensity-7300-ultra",
   "specs": {
     "screen_in": 6.67,
     "cover_screen_in": null,
     "refresh_hz": 120,
-    "display_type": null,
-    "peak_nits": null,
+    "display_type": "AMOLED",
+    "peak_nits": 3000,
     "battery_mah": 5110,
-    "charge_w": 45.0,
-    "wireless_w": null,
-    "weight_g": 190.0,
-    "thickness_mm": null,
-    "ip_rating": null,
+    "charge_w": 45,
+    "wireless_w": 0,
+    "weight_g": 190,
+    "thickness_mm": 8.4,
+    "ip_rating": "IP68",
     "has_5g": true,
     "nfc": true,
     "esim": false,
     "ir_port": true,
-    "jack35": null,
-    "sd_card": null,
-    "update_years": null,
+    "jack35": true,
+    "sd_card": false,
+    "update_years": 4,
     "_q": "estimated",
     "_src": [
-      "project_seed"
+      "ai_knowledge"
     ]
   },
   "variants": [
@@ -52,28 +52,28 @@
     },
     {
       "ram_gb": 12,
-      "rom_gb": 512,
-      "price_rub": 28990,
-      "price_date": "2026-11-20",
-      "price_src": "random",
+      "rom_gb": 256,
+      "price_rub": 26190,
+      "price_date": null,
+      "price_src": "price_model",
       "msrp_usd": null,
       "is_base": false,
-      "_q": "random",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "price_model"
       ]
     },
     {
-      "ram_gb": 16,
-      "rom_gb": 1024,
-      "price_rub": 33990,
-      "price_date": "2026-11-20",
-      "price_src": "random",
+      "ram_gb": 12,
+      "rom_gb": 512,
+      "price_rub": 29190,
+      "price_date": null,
+      "price_src": "price_model",
       "msrp_usd": null,
       "is_base": false,
-      "_q": "random",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "price_model"
       ]
     }
   ],
@@ -81,67 +81,47 @@
     {
       "role": "main",
       "position": 0,
-      "sensor": "demo-s32",
+      "sensor": "samsung-isocell-hp3",
       "mp": 200,
-      "aperture": 1.8,
-      "focal_mm": 26,
-      "fov_deg": 83,
+      "aperture": 1.65,
+      "focal_mm": null,
+      "fov_deg": null,
       "optical_zoom_x": null,
       "ois": true,
       "af": "pdaf",
       "min_focus_cm": null,
-      "video_max": "4K30",
-      "processing_score": 66,
-      "processing_basis": "random",
-      "_q": "random",
+      "video_max": null,
+      "processing_score": 62,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "ai_knowledge"
       ]
     },
     {
       "role": "ultrawide",
       "position": 0,
-      "sensor": "demo-s19",
-      "mp": 50,
+      "sensor": null,
+      "mp": 8,
       "aperture": 2.2,
-      "focal_mm": 13,
-      "fov_deg": 122,
-      "optical_zoom_x": 0.6,
+      "focal_mm": null,
+      "fov_deg": null,
+      "optical_zoom_x": null,
       "ois": false,
       "af": "fixed",
       "min_focus_cm": null,
       "video_max": null,
-      "processing_score": 65,
-      "processing_basis": "random",
-      "_q": "random",
+      "processing_score": 38,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "ai_knowledge"
       ]
     },
     {
       "role": "macro",
       "position": 0,
-      "sensor": "demo-s01",
-      "mp": 2,
-      "aperture": 2.4,
-      "focal_mm": 22,
-      "fov_deg": 77,
-      "optical_zoom_x": null,
-      "ois": false,
-      "af": "fixed",
-      "min_focus_cm": 4,
-      "video_max": null,
-      "processing_score": 62,
-      "processing_basis": "random",
-      "_q": "random",
-      "_src": [
-        "random"
-      ]
-    },
-    {
-      "role": "depth",
-      "position": 0,
-      "sensor": "demo-s01",
+      "sensor": null,
       "mp": 2,
       "aperture": 2.4,
       "focal_mm": null,
@@ -151,86 +131,83 @@
       "af": "fixed",
       "min_focus_cm": null,
       "video_max": null,
-      "processing_score": null,
-      "processing_basis": null,
-      "_q": "random",
+      "processing_score": 18,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "ai_knowledge"
       ]
     },
     {
       "role": "front",
       "position": 0,
-      "sensor": "demo-s11",
-      "mp": 16,
-      "aperture": 2.4,
-      "focal_mm": 22,
-      "fov_deg": 83,
+      "sensor": null,
+      "mp": 20,
+      "aperture": 2.2,
+      "focal_mm": null,
+      "fov_deg": null,
       "optical_zoom_x": null,
       "ois": false,
       "af": "fixed",
       "min_focus_cm": null,
       "video_max": null,
-      "processing_score": 59,
-      "processing_basis": "random",
-      "_q": "random",
+      "processing_score": 48,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "ai_knowledge"
       ]
     }
   ],
   "camera_features": {
     "macro_mode": "dedicated",
-    "macro_min_focus_cm": 4,
-    "lossless_zoom_x": 4.0,
-    "max_digital_zoom_x": 20,
+    "macro_min_focus_cm": null,
+    "lossless_zoom_x": null,
+    "max_digital_zoom_x": 10,
     "dxomark": null,
-    "_q": "random",
+    "_q": "estimated",
     "_src": [
-      "random"
+      "ai_knowledge"
     ]
   },
-  "quirks": [],
+  "quirks": [
+    {
+      "code": "ads_in_system",
+      "severity": 2,
+      "note_ru": "Реклама в системных приложениях прошивки; часть отключается в настройках.",
+      "evidence": [],
+      "_q": "estimated"
+    }
+  ],
   "quirks_checked": false,
   "special": [],
   "photos": [
     {
-      "url": "/placeholder/xiaomi-redmi-note-14-pro-5g/1.svg",
-      "kind": "placeholder",
+      "author": "茅野ふたば",
       "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
-      "width": 960,
-      "height": 1280,
-      "origin": "placeholder"
+      "height": 720,
+      "kind": "lifestyle",
+      "license": "CC BY-SA 4.0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Redmi_Note_14_Pro_(1).jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Redmi_Note_14_Pro_%281%29.jpg/960px-Redmi_Note_14_Pro_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
     },
     {
-      "url": "/placeholder/xiaomi-redmi-note-14-pro-5g/2.svg",
-      "kind": "placeholder",
+      "author": "茅野ふたば",
       "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
-      "width": 960,
-      "height": 1280,
-      "origin": "placeholder"
-    },
-    {
-      "url": "/placeholder/xiaomi-redmi-note-14-pro-5g/3.svg",
-      "kind": "placeholder",
-      "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
-      "width": 960,
-      "height": 1280,
-      "origin": "placeholder"
+      "height": 720,
+      "kind": "lifestyle",
+      "license": "CC BY-SA 4.0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Redmi_Note_14_Pro_(2).jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Redmi_Note_14_Pro_%282%29.jpg/960px-Redmi_Note_14_Pro_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
     }
   ],
   "_meta": {
-    "created": "2026-11-20",
-    "updated": "2026-11-20",
-    "filled_by": "tools/generate_random_catalog.py"
+    "created": "2026-11-21",
+    "updated": "2026-11-21",
+    "filled_by": "Claude Opus 5.5 (сведения до 2026-06) + tools/import_catalog_data.py"
   }
 }

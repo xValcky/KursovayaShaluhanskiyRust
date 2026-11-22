@@ -51,8 +51,8 @@ fn every_model_phone_is_in_catalog() {
     let missing: Vec<&str> =
         m.phones.iter().zip(&cat.link).filter(|(_, l)| l.is_none()).map(|(p, _)| p.full_name.as_str()).collect();
     assert!(missing.is_empty(), "нет в каталоге: {missing:?}");
-    // строки-конфигурации «… 512GB» склеены со своей моделью
-    assert_eq!(cat.linked, m.n - 4);
+    // одна строка обучающей базы — одна модель каталога (база собирается из каталога: tools/catalog_to_seed.py)
+    assert_eq!(cat.linked, m.n);
     assert!(cat.phones.iter().any(|p| !p.in_ml), "должны быть модели только для каталога");
 }
 
@@ -64,11 +64,14 @@ fn catalog_integrity() {
         assert_eq!(vs.iter().filter(|v| v.is_base).count(), 1, "{}: одна базовая конфигурация", p.slug);
         let cams = &cat.cameras[p.cameras.clone()];
         assert_eq!(cams.iter().filter(|c| c.role == "main").count(), 1, "{}: одна основная камера", p.slug);
-        assert!(cams.iter().all(|c| c.role == "depth" || c.total.is_some()), "{}: итог у модулей", p.slug);
-        assert!(!p.photos.is_empty(), "{}: нет фото", p.slug);
+        // итог есть у каждого модуля, кроме датчика глубины и модулей без оценки обработки (модели после даты знаний)
+        assert!(cams.iter().all(|c| c.role == "depth" || c.total.is_some() || c.processing.is_none()),
+                "{}: итог у модулей", p.slug);
         assert!(p.summary.optical >= 1.0, "{}: оптический зум ≥ 1", p.slug);
     }
-    assert_eq!(cat.dataset_name(), "рандом цифры по камерам и всему-всему-всему на будущее");
+    let with_photo = cat.phones.iter().filter(|p| !p.photos.is_empty()).count();
+    assert!(with_photo * 10 >= cat.phones.len(), "фото меньше чем у 10% моделей: {with_photo}");
+    assert_eq!(cat.dataset_name(), "каталог v2 — настоящие данные");
 }
 
 #[test]

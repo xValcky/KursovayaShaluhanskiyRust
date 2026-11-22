@@ -1,0 +1,40 @@
+# Honor. Модели 2026 года (600, 600 Pro, 600 Lite, X9e Pro, Turbo, Magic V6, Robot Phone) — в phones_zz_2026.txt.
+@brand honor
+Honor 70 ; 2022-06 disc ; sd778p ; 6.67 120 OLED 1000 ; 4800 66 0 ; 178 7.91 - ; 5g nfc u3 ; 8/128 8/256* ; M54/1.9/-/pd:62 U50/2.2/-/pd:50 D2/2.4/- F50/2.4/-:54 ; uw dz10 ; -
+Honor 90 ; 2023-07 disc ; sd7g1 ; 6.7 120 AMOLED 1600 ; 5000 66 0 ; 183 7.8 - ; 5g nfc u3 ; 8/256* 12/256 12/512 ; M200/1.9/-/pd/@hp3:62 U12/2.2/-/pd:48 D2/2.4/- F50/2.4/-:56 ; uw dz10 ; -
+Honor 90 Lite ; 2023-05 ; d6020 ; 6.7 90 IPS 500 ; 4500 35 0 ; 179 7.8 - ; 5g nfc u2 ; 8/256* ; M100/1.9/-:48 U5/2.2/-/ff:28 D2/2.4/- F16/2.45/-:40 ; none dz10 ; -
+Honor 200 Lite ; 2024-04 ; d6080 ; 6.7 90 AMOLED 2000 ; 4500 35 0 ; 166 6.78 - ; 5g nfc u3 ; 8/256*r17990 ; M108/1.75/-:50 D2/2.4/- C2/2.4/-:18 F50/2.1/-:50 ; ded dz10 ; -
+Honor 200 Smart ; 2024-08 ; sd4g2 ; 6.8 120 IPS 850 ; 5200 35 0 ; 192 8.3 - ; 5g nfc u3 ; 8/256* ; M50/1.8/-:44 D2/2.4/- F5/2.2/-:30 ; none dz10 ; -
+Honor 200 ; 2024-06 ; sd7g3 ; 6.7 120 OLED 4000 ; 5200 100 0 ; 187 7.7 - ; 5g nfc ir u4 ; 8/256 12/256* 12/512 ; M50/1.95/-/O/pd:66 U12/2.2/-/pd:50 T50/2.4/-/O/pd/x2.5:62 F50/2.1/-:60 ; uw dz50 ; q:great_portraits/2 n:great_portraits=Портретный режим в стиле фотостудии Harcourt хвалят обзоры.
+Honor 200 Pro ; 2024-06 ; sd8sg3 ; 6.78 120 OLED 4000 ; 5200 100 66 ; 199 8.2 IP65 ; 5g nfc ir u4 ; 12/256 12/512* ; M50/1.9/-/O/pd/@ov50h:70 U12/2.2/-/pd:52 T50/2.4/-/O/pd/x2.5:64 F50/2.1/-:62 ; uw dz50 ; q:great_portraits/2 n:great_portraits=Портретный режим в стиле фотостудии Harcourt хвалят обзоры.
+Honor 400 Lite ; 2025-04 ; d7025 ; 6.7 120 AMOLED 3500 ; 5230 35 0 ; 171 7.29 IP65 ; 5g nfc u4 ; 8/256*r21990 ; M108/1.75/-:50 U5/2.2/-/ff:30 F16/2.45/-:40 ; none dz10 ; -
+Honor 400 ; 2025-05 ; sd7g3 ; 6.55 120 AMOLED 5000 ; 5300 66 0 ; 184 7.3 IP65 ; 5g nfc ir u6 ; 8/256 12/256* 12/512 ; M200/1.9/-/O/pd:68 U12/2.2/-/pd:50 F50/2.1/-:60 ; uw dz30 ; q:long_updates/2,good_ai_assistant/1 n:long_updates=6 лет обновлений по политике Honor. n:good_ai_assistant=ИИ-функции MagicOS: оживление фото в видео, ИИ-ластик, перевод; часть работает только с аккаунтом вне РФ.
+Honor 400 Pro ; 2025-05 ; sd8g3 ; 6.7 120 AMOLED 5000 ; 5300 100 50 ; 205 8.1 IP69 ; 5g nfc ir u6 ; 12/512* ; M200/1.9/-/O/pd:72 U12/2.2/-/pd:52 T50/2.4/-/O/pd/x3:70 F50/2.1/-:62 ; uw dz50 ; q:long_updates/2 n:long_updates=6 лет обновлений по политике Honor.
+Honor X5 Plus ; 2022-12 disc ; hg36 ; 6.56 60 IPS 480 ; 5200 10 0 ; 196 8.35 - ; jack sd u2 ; 4/64* ; M50/1.8/-:38 D2/2.4/- F5/2.2/-:26 ; none dz4 ; q:short_updates/2
+Honor X6a ; 2023-08 disc ; hg36 ; 6.56 90 IPS 480 ; 5200 10 0 ; 196 8.35 - ; jack sd u2 ; 4/128* ; M50/1.8/-:38 D2/2.4/- C2/2.4/-:18 F5/2.2/-:26 ; ded dz4 ; q:short_updates/2
+Honor X6b ; 2024-03 ; hg85 ; 6.56 90 IPS 480 ; 5200 35 0 ; 191 8.39 - ; nfc jack sd u2 ; 4/128 6/128*r9990 ; M50/1.8/-:40 D2/2.4/- F5/2.2/-:28 ; none dz10 ; -
+Honor X6c ; 2025-03 ; hg81 ; 6.61 90 IPS 600 ; 6000 15 0 ; 194 8.39 - ; nfc jack sd u2 ; 6/128* ; M50/1.8/-:40 F5/2.2/-:28 ; none dz10 ; -
+Honor X7a ; 2023-01 disc ; hg37 ; 6.74 90 IPS 480 ; 6000 22.5 0 ; 196 8.99 - ; jack sd u2 ; 4/128* ; M50/1.8/-:38 U5/2.2/-/ff:26 D2/2.4/- C2/2.4/-:18 F8/2.0/-:30 ; ded dz4 ; -
+Honor X7b ; 2023-12 ; sd680 ; 6.8 90 IPS 850 ; 6000 35 0 ; 199 8.27 - ; nfc jack sd u2 ; 6/128 8/128*r12990 ; M108/1.75/-:46 U5/2.2/-/ff:26 D2/2.4/- F8/2.0/-:32 ; none dz10 ; q:excellent_battery/2
+Honor X7c ; 2024-10 ; sd685 ; 6.77 120 IPS 850 ; 6000 35 0 ; 201 8.25 IP64 ; nfc jack sd u2 ; 8/128* 8/256 ; M108/1.75/-:46 D2/2.4/- F8/2.0/-:32 ; none dz10 ; q:excellent_battery/2
+Honor X8 ; 2022-03 disc ; sd680 ; 6.7 90 IPS 400 ; 4000 22.5 0 ; 177 7.45 - ; nfc jack sd u2 ; 6/128* ; M64/1.9/-:42 U5/2.2/-/ff:26 D2/2.4/- C2/2.4/-:18 F16/2.45/-:38 ; ded dz10 ; -
+Honor X8a ; 2023-04 disc ; hg88 ; 6.7 90 IPS 400 ; 4500 22.5 0 ; 179 7.48 - ; nfc jack sd u2 ; 6/128* ; M100/1.9/-:44 U5/2.2/-/ff:26 D2/2.4/- F16/2.45/-:38 ; none dz10 ; -
+Honor X8b ; 2024-01 ; sd680 ; 6.7 90 AMOLED 2000 ; 4500 35 0 ; 166 6.78 - ; nfc jack sd u2 ; 8/256* ; M108/1.75/-:46 U5/2.2/-/ff:26 D2/2.4/- F50/2.1/-:48 ; none dz10 ; -
+Honor X8c ; 2025-03 ; sd685 ; 6.7 120 AMOLED 3000 ; 5800 35 0 ; 177 7.5 - ; nfc jack sd u2 ; 8/256* ; M108/1.75/-/O:50 U5/2.2/-/ff:28 F50/2.1/-:48 ; none dz10 ; -
+Honor X9a ; 2023-01 disc ; sd695 ; 6.67 120 AMOLED 800 ; 5100 40 0 ; 175 7.9 - ; 5g nfc u3 ; 8/256* ; M64/1.8/-:48 U5/2.2/-/ff:28 C2/2.4/-:18 F16/2.45/-:40 ; ded dz10 ; -
+Honor X9b ; 2023-12 ; sd6g1 ; 6.78 120 AMOLED 1200 ; 5800 35 0 ; 185 7.98 IP53 ; 5g nfc u3 ; 8/256 12/256* ; M108/1.75/-:50 U5/2.2/-/ff:28 C2/2.4/-:18 F16/2.45/-:42 ; ded dz10 ; q:excellent_battery/2 n:excellent_battery=Батарея 5800 мА·ч и экономичная платформа — долгая автономность в обзорах.
+Honor X9c ; 2024-11 ; sd6g1 ; 6.78 120 AMOLED 4000 ; 6600 66 0 ; 189 7.98 IP65 ; 5g nfc u3 ; 8/256* 12/256 ; M108/1.75/-/O:52 U5/2.2/-/ff:28 F16/2.45/-:42 ; none dz10 ; q:excellent_battery/2
+Honor X9d ; 2025-09 ; sd6g4 ; 6.79 120 AMOLED 6000 ; 8300 66 0 ; 196 7.76 IP69 ; 5g nfc u4 ; 8/256 12/256* ; M108/1.75/-/O:54 U5/2.2/-/ff:28 F16/2.45/-:42 ; none dz10 ; q:excellent_battery/3
+Honor Magic4 Pro ; 2022-03 disc ; sd8g1 ; 6.81 120 LTPO-OLED 1000 ; 4600 100 100 ; 215 9.15 IP68 ; 5g nfc ir u3 ; 8/256* ; M50/1.8/-/O/pd:72 U50/2.2/-/pd:62 P64/3.5/-/O/x3.5:66 F12/2.4/-:60 ; uw dz100 ; -
+Honor Magic5 Lite ; 2023-01 disc ; sd695 ; 6.67 120 AMOLED 800 ; 5100 40 0 ; 175 7.9 - ; 5g nfc u3 ; 6/128 8/256* ; M64/1.8/-:50 U5/2.2/-/ff:28 C2/2.4/-:18 F16/2.45/-:40 ; ded dz10 ; -
+Honor Magic5 Pro ; 2023-03 disc ; sd8g2 ; 6.81 120 LTPO-OLED 1800 ; 5100 66 50 ; 219 8.77 IP68 ; 5g nfc ir u4 ; 12/512* ; M50/1.6/-/O/pd:80 U50/2.0/-/pd:66 P50/3.0/90/O/pd/x3.5:74 F12/2.4/-:64 ; uw dz100 ; -
+Honor Magic6 Lite ; 2024-01 ; sd6g1 ; 6.78 120 AMOLED 1200 ; 5300 35 0 ; 185 7.98 IP53 ; 5g nfc u3 ; 8/256*r22990 ; M108/1.75/-:50 U5/2.2/-/ff:28 C2/2.4/-:18 F16/2.45/-:42 ; ded dz10 ; -
+Honor Magic6 Pro ; 2024-02 ; sd8g3 ; 6.8 120 LTPO-OLED 5000 ; 5600 80 66 ; 229 8.9 IP68 ; 5g nfc ir u4 ; 12/512* ; M50/1.4/23/O/pd/@ov50h:84 U50/2.0/-/pd:70 P180/2.6/-/O/pd/x2.5:80 F50/2.0/-:66 ; uw dz100 ; q:excellent_display/2
+Honor Magic7 Lite ; 2025-01 ; sd6g1 ; 6.78 120 AMOLED 4000 ; 6600 66 0 ; 189 7.98 IP65 ; 5g nfc u3 ; 8/512*r26990 ; M108/1.75/-/O:52 U5/2.2/-/ff:28 F16/2.45/-:42 ; none dz10 ; q:excellent_battery/2
+Honor Magic7 Pro ; 2025-01 ; sd8e ; 6.8 120 LTPO-OLED 5000 ; 5850 100 80 ; 223 8.8 IP69 ; 5g nfc ir u6 ; 12/512* ; M50/1.4/23/O/pd:85 U50/2.0/-/pd:72 P200/2.6/-/O/pd/@hp3/x3:84 F50/2.0/-:68 ; uw dz100 ; q:excellent_display/2,long_updates/2 n:long_updates=6 лет обновлений по политике Honor.
+Honor Magic8 Pro ; 2025-10 ; sd8eg5 ; 6.71 120 LTPO-OLED 6000 ; 6270 100 80 ; 219 8.8 IP69 ; 5g nfc ir u7 ; 12/512* ; M50/1.6/23/O/pd:85 U50/2.0/-/pd:72 P200/2.6/-/O/pd/x3.7:85 F50/2.0/-:68 ; uw dz100 ; q:long_updates/3,excellent_battery/2 n:long_updates=7 лет обновлений по политике Honor.
+Honor Magic V2 ; 2024-01 disc ; sd8g2 ; 7.92/6.43 120 LTPO-OLED 2500 ; 5000 66 0 ; 231 9.9 - ; 5g nfc ir u4 ff=book ; 16/512* ; M50/1.9/-/O/pd:76 U50/2.0/-/pd:62 T20/2.5/-/O/x2.5:64 V16/2.2/-:58 F16/2.2/-:58 ; uw dz40 ; q:hinge_crease/1
+Honor Magic V3 ; 2024-09 ; sd8g3 ; 7.92/6.43 120 LTPO-OLED 5000 ; 5150 66 50 ; 226 9.2 IPX8 ; 5g nfc ir u4 ff=book ; 12/512* ; M50/1.6/-/O/pd:78 U40/2.2/-/pd:62 P50/3.0/-/O/pd/x3.5:72 V20/2.2/-:60 F20/2.2/-:60 ; uw dz100 ; q:hinge_crease/1
+Honor Magic V5 ; 2025-08 ; sd8e ; 7.95/6.43 120 LTPO-OLED 5000 ; 5820 66 50 ; 217 8.8 IP59 ; 5g nfc ir u6 ff=book ; 16/512* ; M50/1.6/-/O/pd:80 U50/2.0/-/pd:64 P64/2.5/-/O/pd/x3:74 V20/2.2/-:62 F20/2.2/-:62 ; uw dz100 ; q:long_updates/2 n:long_updates=6 лет обновлений по политике Honor.
+Honor Magic V Flip ; 2024-06 cn ru=no ; sd8pg1 ; 6.8/4.0 120 LTPO-OLED 3000 ; 4500 66 0 ; 193 7.8 - ; 5g nfc ff=flip ; 8/256 12/256* 12/512 ; M50/1.9/-/O/pd:68 U13/2.2/-/pd:52 F50/2.2/-:58 ; uw dz10 ; -
+Honor Magic V Flip 2 ; 2025-08 cn ru=no ; sd8g3 ; 6.82/4.0 120 LTPO-OLED 5000 ; 5500 80 50 ; 197 7.7 - ; 5g nfc ff=flip ; 12/256* 16/512 ; M200/1.9/-/O/pd:72 U50/2.2/-/pd:58 F50/2.2/-:60 ; uw dz10 ; -

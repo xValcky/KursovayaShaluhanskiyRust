@@ -5,75 +5,75 @@
   "full_name": "realme P3",
   "aliases": [],
   "os": "Android",
-  "release_date": null,
+  "release_date": "2025-03",
   "year": 2025,
   "status": "on_sale",
   "availability_ru": "official",
   "form_factor": "bar",
   "in_ml": true,
-  "chipset": "demo-soc-800",
+  "chipset": "snapdragon-6-gen-4",
   "specs": {
     "screen_in": 6.67,
     "cover_screen_in": null,
     "refresh_hz": 120,
-    "display_type": null,
-    "peak_nits": null,
+    "display_type": "AMOLED",
+    "peak_nits": 2000,
     "battery_mah": 6000,
-    "charge_w": 45.0,
-    "wireless_w": null,
-    "weight_g": 190.0,
-    "thickness_mm": null,
-    "ip_rating": null,
+    "charge_w": 45,
+    "wireless_w": 0,
+    "weight_g": 190,
+    "thickness_mm": 7.97,
+    "ip_rating": "IP69",
     "has_5g": true,
     "nfc": true,
     "esim": false,
     "ir_port": false,
-    "jack35": null,
-    "sd_card": null,
-    "update_years": null,
+    "jack35": false,
+    "sd_card": false,
+    "update_years": 2,
     "_q": "estimated",
     "_src": [
-      "project_seed"
+      "ai_knowledge"
     ]
   },
   "variants": [
     {
       "ram_gb": 8,
       "rom_gb": 128,
-      "price_rub": 16100,
-      "price_date": "2026-11-05",
-      "price_src": "project_seed",
+      "price_rub": 14700,
+      "price_date": "2026-11-02",
+      "price_src": "telegram_ishopper",
       "msrp_usd": null,
       "is_base": true,
-      "_q": "estimated",
+      "_q": "verified",
       "_src": [
-        "project_seed"
+        "telegram_polzaskidki:t.me/polzaSKIDKI/31465"
       ]
     },
     {
       "ram_gb": 8,
       "rom_gb": 256,
-      "price_rub": 18990,
-      "price_date": "2026-11-20",
-      "price_src": "random",
+      "price_rub": 17968,
+      "price_date": "2026-11-19",
+      "price_src": "telegram_polzaskidki",
       "msrp_usd": null,
       "is_base": false,
-      "_q": "random",
+      "_q": "verified",
       "_src": [
-        "random"
+        "telegram_polzaskidki:t.me/polzaSKIDKI/32966"
       ]
     },
     {
-      "ram_gb": 8,
-      "rom_gb": 512,
-      "price_rub": 20990,
-      "price_date": "2026-11-20",
-      "price_src": "random",
+      "ram_gb": 12,
+      "rom_gb": 256,
+      "price_rub": 17190,
+      "price_date": null,
+      "price_src": "price_model",
       "msrp_usd": null,
       "is_base": false,
-      "_q": "random",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "price_model"
       ]
     }
   ],
@@ -81,67 +81,27 @@
     {
       "role": "main",
       "position": 0,
-      "sensor": "demo-s19",
+      "sensor": null,
       "mp": 50,
       "aperture": 1.8,
-      "focal_mm": 26,
-      "fov_deg": 84,
+      "focal_mm": null,
+      "fov_deg": null,
       "optical_zoom_x": null,
       "ois": false,
       "af": "pdaf",
       "min_focus_cm": null,
-      "video_max": "4K30",
-      "processing_score": 51,
-      "processing_basis": "random",
-      "_q": "random",
-      "_src": [
-        "random"
-      ]
-    },
-    {
-      "role": "ultrawide",
-      "position": 0,
-      "sensor": "demo-s18",
-      "mp": 50,
-      "aperture": 2.2,
-      "focal_mm": 16,
-      "fov_deg": 118,
-      "optical_zoom_x": 0.6,
-      "ois": false,
-      "af": "fixed",
-      "min_focus_cm": null,
       "video_max": null,
-      "processing_score": 56,
-      "processing_basis": "random",
-      "_q": "random",
+      "processing_score": 52,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
       "_src": [
-        "random"
-      ]
-    },
-    {
-      "role": "macro",
-      "position": 0,
-      "sensor": "demo-s02",
-      "mp": 5,
-      "aperture": 2.4,
-      "focal_mm": 24,
-      "fov_deg": 72,
-      "optical_zoom_x": null,
-      "ois": false,
-      "af": "fixed",
-      "min_focus_cm": 4,
-      "video_max": null,
-      "processing_score": 41,
-      "processing_basis": "random",
-      "_q": "random",
-      "_src": [
-        "random"
+        "ai_knowledge"
       ]
     },
     {
       "role": "depth",
       "position": 0,
-      "sensor": "demo-s01",
+      "sensor": null,
       "mp": 2,
       "aperture": 2.4,
       "focal_mm": null,
@@ -153,92 +113,117 @@
       "video_max": null,
       "processing_score": null,
       "processing_basis": null,
-      "_q": "random",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "ai_knowledge"
       ]
     },
     {
       "role": "front",
       "position": 0,
-      "sensor": "demo-s04",
-      "mp": 8,
-      "aperture": 2.2,
-      "focal_mm": 26,
-      "fov_deg": 79,
+      "sensor": null,
+      "mp": 16,
+      "aperture": 2.45,
+      "focal_mm": null,
+      "fov_deg": null,
       "optical_zoom_x": null,
       "ois": false,
       "af": "fixed",
       "min_focus_cm": null,
       "video_max": null,
-      "processing_score": 58,
-      "processing_basis": "random",
-      "_q": "random",
+      "processing_score": 42,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "ai_knowledge"
       ]
     }
   ],
   "camera_features": {
-    "macro_mode": "dedicated",
-    "macro_min_focus_cm": 4,
-    "lossless_zoom_x": 2.0,
-    "max_digital_zoom_x": 8,
+    "macro_mode": "none",
+    "macro_min_focus_cm": null,
+    "lossless_zoom_x": null,
+    "max_digital_zoom_x": 10,
     "dxomark": null,
-    "_q": "random",
+    "_q": "estimated",
     "_src": [
-      "random"
+      "ai_knowledge"
     ]
   },
-  "quirks": [
-    {
-      "code": "bypass_charging",
-      "severity": 3,
-      "note_ru": "Демо: случайная особенность для проверки интерфейса.",
-      "evidence": [],
-      "_q": "random"
-    }
-  ],
+  "quirks": [],
   "quirks_checked": false,
   "special": [],
   "photos": [
     {
-      "url": "/placeholder/realme-p3/1.svg",
-      "kind": "placeholder",
+      "author": "Shakura",
       "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
-      "width": 960,
-      "height": 1280,
-      "origin": "placeholder"
+      "height": 720,
+      "kind": "lifestyle",
+      "license": "CC BY-SA 3.0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Moscow_Olymp_vil_winter.JPG",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Moscow_Olymp_vil_winter.JPG/960px-Moscow_Olymp_vil_winter.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
     },
     {
-      "url": "/placeholder/realme-p3/2.svg",
-      "kind": "placeholder",
+      "author": "vovanA",
       "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
-      "width": 960,
-      "height": 1280,
-      "origin": "placeholder"
+      "height": 720,
+      "kind": "lifestyle",
+      "license": "Public domain",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Centr_obrazovania_1048_v_Novokosino.JPG",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Centr_obrazovania_1048_v_Novokosino.JPG/960px-Centr_obrazovania_1048_v_Novokosino.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
     },
     {
-      "url": "/placeholder/realme-p3/3.svg",
-      "kind": "placeholder",
+      "author": "Emaus",
       "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
-      "width": 960,
-      "height": 1280,
-      "origin": "placeholder"
+      "height": 720,
+      "kind": "lifestyle",
+      "license": "CC BY-SA 3.0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Chertanovskaya-P1010047.JPG",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Chertanovskaya-P1010047.JPG/960px-Chertanovskaya-P1010047.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
+    },
+    {
+      "author": "Nick Fishman",
+      "color_ru": null,
+      "height": 720,
+      "kind": "lifestyle",
+      "license": "CC0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Beloborodow_street.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Beloborodow_street.jpg/960px-Beloborodow_street.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
+    },
+    {
+      "author": "Акутагава",
+      "color_ru": null,
+      "height": 720,
+      "kind": "lifestyle",
+      "license": "CC BY-SA 3.0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Moscow_Yasenevo_Litovsky_boulevard.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Moscow_Yasenevo_Litovsky_boulevard.jpg/960px-Moscow_Yasenevo_Litovsky_boulevard.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
+    },
+    {
+      "author": "Сергей Сазанков",
+      "color_ru": null,
+      "height": 717,
+      "kind": "lifestyle",
+      "license": "CC BY-SA 3.0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Moscow,_Leninsky_Prospekt_148.JPG",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Moscow%2C_Leninsky_Prospekt_148.JPG/960px-Moscow%2C_Leninsky_Prospekt_148.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
     }
   ],
   "_meta": {
-    "created": "2026-11-20",
-    "updated": "2026-11-20",
-    "filled_by": "tools/generate_random_catalog.py"
+    "created": "2026-11-21",
+    "updated": "2026-11-21",
+    "filled_by": "Claude Opus 5.5 (сведения до 2026-06) + tools/import_catalog_data.py"
   }
 }

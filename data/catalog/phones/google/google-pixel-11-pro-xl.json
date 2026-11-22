@@ -1,0 +1,199 @@
+{
+  "slug": "google-pixel-11-pro-xl",
+  "brand": "google",
+  "name": "Pixel 11 Pro XL",
+  "full_name": "Google Pixel 11 Pro XL",
+  "aliases": [],
+  "os": "Android",
+  "release_date": "2026-08",
+  "year": 2026,
+  "status": "on_sale",
+  "availability_ru": "parallel_import",
+  "form_factor": "bar",
+  "in_ml": true,
+  "chipset": "google-tensor-g6",
+  "specs": {
+    "screen_in": 6.8,
+    "cover_screen_in": null,
+    "refresh_hz": 120,
+    "display_type": "LTPO OLED",
+    "peak_nits": 3600,
+    "battery_mah": 5115,
+    "charge_w": 45,
+    "wireless_w": 25,
+    "weight_g": 226,
+    "thickness_mm": 8.5,
+    "ip_rating": "IP68",
+    "has_5g": true,
+    "nfc": true,
+    "esim": true,
+    "ir_port": false,
+    "jack35": false,
+    "sd_card": false,
+    "update_years": 7,
+    "_q": "estimated",
+    "_src": [
+      "wikipedia:Pixel_11_Pro"
+    ]
+  },
+  "variants": [
+    {
+      "ram_gb": 16,
+      "rom_gb": 256,
+      "price_rub": 82004,
+      "price_date": "2026-11-19",
+      "price_src": "telegram_polzaskidki",
+      "msrp_usd": null,
+      "is_base": true,
+      "_q": "verified",
+      "_src": [
+        "telegram_polzaskidki:t.me/polzaSKIDKI/32978"
+      ]
+    },
+    {
+      "ram_gb": 16,
+      "rom_gb": 512,
+      "price_rub": 91790,
+      "price_date": null,
+      "price_src": "price_model",
+      "msrp_usd": null,
+      "is_base": false,
+      "_q": "estimated",
+      "_src": [
+        "price_model"
+      ]
+    },
+    {
+      "ram_gb": 16,
+      "rom_gb": 1024,
+      "price_rub": 101690,
+      "price_date": null,
+      "price_src": "price_model",
+      "msrp_usd": null,
+      "is_base": false,
+      "_q": "estimated",
+      "_src": [
+        "price_model"
+      ]
+    }
+  ],
+  "cameras": [
+    {
+      "role": "main",
+      "position": 0,
+      "sensor": null,
+      "mp": 50,
+      "aperture": null,
+      "focal_mm": null,
+      "fov_deg": null,
+      "optical_zoom_x": null,
+      "ois": false,
+      "af": "pdaf",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": null,
+      "processing_basis": null,
+      "_q": "estimated",
+      "_src": [
+        "wikipedia:Pixel_11_Pro"
+      ]
+    },
+    {
+      "role": "ultrawide",
+      "position": 0,
+      "sensor": null,
+      "mp": 48,
+      "aperture": null,
+      "focal_mm": null,
+      "fov_deg": null,
+      "optical_zoom_x": null,
+      "ois": false,
+      "af": "pdaf",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": null,
+      "processing_basis": null,
+      "_q": "estimated",
+      "_src": [
+        "wikipedia:Pixel_11_Pro"
+      ]
+    },
+    {
+      "role": "periscope",
+      "position": 0,
+      "sensor": null,
+      "mp": 48,
+      "aperture": null,
+      "focal_mm": null,
+      "fov_deg": null,
+      "optical_zoom_x": 5.0,
+      "ois": false,
+      "af": "pdaf",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": null,
+      "processing_basis": null,
+      "_q": "estimated",
+      "_src": [
+        "wikipedia:Pixel_11_Pro"
+      ]
+    },
+    {
+      "role": "front",
+      "position": 0,
+      "sensor": null,
+      "mp": 42,
+      "aperture": null,
+      "focal_mm": null,
+      "fov_deg": null,
+      "optical_zoom_x": null,
+      "ois": false,
+      "af": "fixed",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": null,
+      "processing_basis": null,
+      "_q": "estimated",
+      "_src": [
+        "wikipedia:Pixel_11_Pro"
+      ]
+    }
+  ],
+  "camera_features": {
+    "macro_mode": "ultrawide_af",
+    "macro_min_focus_cm": null,
+    "lossless_zoom_x": null,
+    "max_digital_zoom_x": null,
+    "dxomark": null,
+    "_q": "estimated",
+    "_src": [
+      "wikipedia:Pixel_11_Pro"
+    ]
+  },
+  "quirks": [
+    {
+      "code": "long_updates",
+      "severity": 3,
+      "note_ru": "7 лет обновлений Android и безопасности с начала продаж — официальная политика Google для Pixel 8 и новее.",
+      "evidence": [
+        "https://support.google.com/pixelphone/answer/4457705?hl=en"
+      ],
+      "_q": "verified"
+    },
+    {
+      "code": "clean_android",
+      "severity": 2,
+      "note_ru": "Почти чистый Android без лишних оболочек.",
+      "evidence": [],
+      "_q": "estimated"
+    }
+  ],
+  "quirks_checked": false,
+  "special": [],
+  "photos": [],
+  "_meta": {
+    "created": "2026-11-21",
+    "updated": "2026-11-21",
+    "filled_by": "Claude Opus 5.5 (сведения до 2026-06) + tools/import_catalog_data.py"
+  }
+}

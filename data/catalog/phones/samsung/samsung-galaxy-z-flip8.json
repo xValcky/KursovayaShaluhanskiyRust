@@ -5,34 +5,35 @@
   "full_name": "Samsung Galaxy Z Flip8",
   "aliases": [],
   "os": "Android",
-  "release_date": null,
+  "release_date": "2026-08-07",
   "year": 2026,
   "status": "on_sale",
   "availability_ru": "parallel_import",
   "form_factor": "flip",
   "in_ml": true,
-  "chipset": "demo-soc-3000",
+  "chipset": null,
   "specs": {
     "screen_in": 6.9,
-    "cover_screen_in": null,
+    "cover_screen_in": 4.1,
     "refresh_hz": 120,
     "display_type": null,
     "peak_nits": null,
     "battery_mah": 4300,
-    "charge_w": 25.0,
+    "charge_w": 25,
     "wireless_w": null,
-    "weight_g": 180.0,
+    "weight_g": 180,
     "thickness_mm": null,
     "ip_rating": null,
     "has_5g": true,
     "nfc": true,
     "esim": true,
     "ir_port": false,
-    "jack35": null,
-    "sd_card": null,
+    "jack35": false,
+    "sd_card": false,
     "update_years": null,
-    "_q": "estimated",
+    "_q": "verified",
     "_src": [
+      "wikipedia:Samsung_Galaxy_Z_Flip_8",
       "project_seed"
     ]
   },
@@ -40,40 +41,14 @@
     {
       "ram_gb": 12,
       "rom_gb": 256,
-      "price_rub": 85961,
-      "price_date": "2026-11-05",
-      "price_src": "project_seed",
+      "price_rub": 89575,
+      "price_date": "2026-11-19",
+      "price_src": "telegram_polzaskidki",
       "msrp_usd": null,
       "is_base": true,
-      "_q": "estimated",
+      "_q": "verified",
       "_src": [
-        "project_seed"
-      ]
-    },
-    {
-      "ram_gb": 12,
-      "rom_gb": 512,
-      "price_rub": 100990,
-      "price_date": "2026-11-20",
-      "price_src": "random",
-      "msrp_usd": null,
-      "is_base": false,
-      "_q": "random",
-      "_src": [
-        "random"
-      ]
-    },
-    {
-      "ram_gb": 16,
-      "rom_gb": 1024,
-      "price_rub": 122990,
-      "price_date": "2026-11-20",
-      "price_src": "random",
-      "msrp_usd": null,
-      "is_base": false,
-      "_q": "random",
-      "_src": [
-        "random"
+        "telegram_polzaskidki:t.me/polzaSKIDKI/32963"
       ]
     }
   ],
@@ -81,164 +56,86 @@
     {
       "role": "main",
       "position": 0,
-      "sensor": "demo-s24",
-      "mp": 50,
+      "sensor": null,
+      "mp": 50.0,
       "aperture": 1.8,
-      "focal_mm": 23,
-      "fov_deg": 82,
+      "focal_mm": 23.0,
+      "fov_deg": null,
       "optical_zoom_x": null,
       "ois": true,
       "af": "dual_pixel",
       "min_focus_cm": null,
-      "video_max": "4K60",
-      "processing_score": 63,
-      "processing_basis": "random",
-      "_q": "random",
+      "video_max": null,
+      "processing_score": null,
+      "processing_basis": null,
+      "_q": "verified",
       "_src": [
-        "random"
+        "wikipedia:Samsung_Galaxy_Z_Flip_8"
       ]
     },
     {
       "role": "ultrawide",
       "position": 0,
-      "sensor": "demo-s19",
-      "mp": 50,
-      "aperture": 2.1,
-      "focal_mm": 15,
-      "fov_deg": 122,
-      "optical_zoom_x": 0.6,
+      "sensor": null,
+      "mp": 12.0,
+      "aperture": 2.2,
+      "focal_mm": 13.0,
+      "fov_deg": null,
+      "optical_zoom_x": null,
       "ois": false,
       "af": "pdaf",
-      "min_focus_cm": 4,
+      "min_focus_cm": null,
       "video_max": null,
-      "processing_score": 58,
-      "processing_basis": "random",
-      "_q": "random",
+      "processing_score": null,
+      "processing_basis": null,
+      "_q": "verified",
       "_src": [
-        "random"
-      ]
-    },
-    {
-      "role": "tele",
-      "position": 0,
-      "sensor": "demo-s05",
-      "mp": 10,
-      "aperture": 2.6,
-      "focal_mm": 72,
-      "fov_deg": 32,
-      "optical_zoom_x": null,
-      "ois": true,
-      "af": "pdaf",
-      "min_focus_cm": 12,
-      "video_max": null,
-      "processing_score": 69,
-      "processing_basis": "random",
-      "_q": "random",
-      "_src": [
-        "random"
+        "wikipedia:Samsung_Galaxy_Z_Flip_8"
       ]
     },
     {
       "role": "front",
       "position": 0,
-      "sensor": "demo-s13",
-      "mp": 32,
-      "aperture": 2.3,
-      "focal_mm": 26,
-      "fov_deg": 84,
+      "sensor": null,
+      "mp": 10.0,
+      "aperture": 2.2,
+      "focal_mm": 23.0,
+      "fov_deg": null,
       "optical_zoom_x": null,
       "ois": false,
       "af": "fixed",
       "min_focus_cm": null,
       "video_max": null,
-      "processing_score": 83,
-      "processing_basis": "random",
-      "_q": "random",
+      "processing_score": null,
+      "processing_basis": null,
+      "_q": "verified",
       "_src": [
-        "random"
+        "wikipedia:Samsung_Galaxy_Z_Flip_8"
       ]
     }
   ],
   "camera_features": {
-    "macro_mode": "ultrawide_af",
-    "macro_min_focus_cm": 4,
-    "lossless_zoom_x": 2.0,
-    "max_digital_zoom_x": 20,
+    "macro_mode": "none",
+    "macro_min_focus_cm": null,
+    "lossless_zoom_x": null,
+    "max_digital_zoom_x": null,
     "dxomark": null,
-    "_q": "random",
-    "_src": [
-      "random"
-    ]
+    "_q": "unknown",
+    "_src": []
   },
-  "quirks": [
-    {
-      "code": "good_ai_assistant",
-      "severity": 2,
-      "note_ru": "Со слов пользователя: хороший встроенный ИИ-ассистент (Galaxy AI). Проверить список функций для модели и что работает в РФ.",
-      "evidence": [],
-      "_q": "user_hypothesis"
-    },
-    {
-      "code": "excellent_haptics",
-      "severity": 3,
-      "note_ru": "Демо: случайная особенность для проверки интерфейса.",
-      "evidence": [],
-      "_q": "random"
-    },
-    {
-      "code": "desktop_mode",
-      "severity": 3,
-      "note_ru": "Демо: случайная особенность для проверки интерфейса.",
-      "evidence": [],
-      "_q": "random"
-    }
-  ],
+  "quirks": [],
   "quirks_checked": false,
   "special": [
     {
       "code": "flip",
-      "note_ru": null,
+      "note_ru": "Раскладушка с внешним экраном.",
       "_q": "estimated"
     }
   ],
-  "photos": [
-    {
-      "url": "/placeholder/samsung-galaxy-z-flip8/1.svg",
-      "kind": "placeholder",
-      "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
-      "width": 960,
-      "height": 1280,
-      "origin": "placeholder"
-    },
-    {
-      "url": "/placeholder/samsung-galaxy-z-flip8/2.svg",
-      "kind": "placeholder",
-      "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
-      "width": 960,
-      "height": 1280,
-      "origin": "placeholder"
-    },
-    {
-      "url": "/placeholder/samsung-galaxy-z-flip8/3.svg",
-      "kind": "placeholder",
-      "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
-      "width": 960,
-      "height": 1280,
-      "origin": "placeholder"
-    }
-  ],
+  "photos": [],
   "_meta": {
-    "created": "2026-11-20",
-    "updated": "2026-11-20",
-    "filled_by": "tools/generate_random_catalog.py"
+    "created": "2026-11-21",
+    "updated": "2026-11-21",
+    "filled_by": "Claude Opus 5.5 (сведения до 2026-06) + tools/import_catalog_data.py"
   }
 }

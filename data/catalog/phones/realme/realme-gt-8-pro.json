@@ -5,62 +5,62 @@
   "full_name": "realme GT 8 Pro",
   "aliases": [],
   "os": "Android",
-  "release_date": null,
-  "year": 2026,
+  "release_date": "2025-11",
+  "year": 2025,
   "status": "on_sale",
   "availability_ru": "official",
   "form_factor": "bar",
   "in_ml": true,
-  "chipset": "demo-soc-3600",
+  "chipset": "snapdragon-8-elite-gen-5",
   "specs": {
     "screen_in": 6.79,
     "cover_screen_in": null,
     "refresh_hz": 144,
-    "display_type": null,
-    "peak_nits": null,
+    "display_type": "AMOLED",
+    "peak_nits": 7000,
     "battery_mah": 7000,
-    "charge_w": 120.0,
-    "wireless_w": null,
-    "weight_g": 214.0,
-    "thickness_mm": null,
-    "ip_rating": null,
+    "charge_w": 120,
+    "wireless_w": 50,
+    "weight_g": 214,
+    "thickness_mm": 8.2,
+    "ip_rating": "IP69",
     "has_5g": true,
     "nfc": true,
-    "esim": true,
+    "esim": false,
     "ir_port": true,
-    "jack35": null,
-    "sd_card": null,
-    "update_years": null,
+    "jack35": false,
+    "sd_card": false,
+    "update_years": 5,
     "_q": "estimated",
     "_src": [
-      "project_seed"
+      "ai_knowledge"
     ]
   },
   "variants": [
     {
       "ram_gb": 12,
       "rom_gb": 256,
-      "price_rub": 51600,
-      "price_date": "2026-11-05",
-      "price_src": "project_seed",
+      "price_rub": 47700,
+      "price_date": "2026-11-21",
+      "price_src": "telegram_polzaskidki",
       "msrp_usd": null,
       "is_base": true,
-      "_q": "estimated",
+      "_q": "verified",
       "_src": [
-        "project_seed"
+        "telegram_polzaskidki:t.me/polzaSKIDKI/33079"
       ]
     },
     {
-      "ram_gb": 12,
+      "ram_gb": 16,
       "rom_gb": 512,
-      "price_rub": 59990,
-      "price_date": "2026-11-20",
-      "price_src": "random",
+      "price_rub": 52102,
+      "price_date": "2026-11-21",
+      "price_src": "telegram_polzaskidki",
       "msrp_usd": null,
       "is_base": false,
-      "_q": "random",
+      "_q": "verified",
       "_src": [
-        "random"
+        "telegram_polzaskidki:t.me/polzaSKIDKI/33076"
       ]
     }
   ],
@@ -68,171 +68,110 @@
     {
       "role": "main",
       "position": 0,
-      "sensor": "demo-s31",
-      "mp": 200,
+      "sensor": null,
+      "mp": 50,
       "aperture": 1.8,
-      "focal_mm": 23,
-      "fov_deg": 85,
+      "focal_mm": null,
+      "fov_deg": null,
       "optical_zoom_x": null,
       "ois": true,
       "af": "pdaf",
       "min_focus_cm": null,
-      "video_max": "4K120",
-      "processing_score": 72,
-      "processing_basis": "random",
-      "_q": "random",
+      "video_max": null,
+      "processing_score": 78,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "ai_knowledge"
       ]
     },
     {
       "role": "ultrawide",
       "position": 0,
-      "sensor": "demo-s15",
-      "mp": 48,
-      "aperture": 2.1,
-      "focal_mm": 15,
-      "fov_deg": 113,
-      "optical_zoom_x": 0.6,
-      "ois": false,
-      "af": "pdaf",
-      "min_focus_cm": 2.5,
-      "video_max": null,
-      "processing_score": 87,
-      "processing_basis": "random",
-      "_q": "random",
-      "_src": [
-        "random"
-      ]
-    },
-    {
-      "role": "tele",
-      "position": 0,
-      "sensor": "demo-s25",
-      "mp": 64,
-      "aperture": 2.0,
-      "focal_mm": 75,
-      "fov_deg": 35,
+      "sensor": null,
+      "mp": 50,
+      "aperture": 2,
+      "focal_mm": null,
+      "fov_deg": null,
       "optical_zoom_x": null,
-      "ois": true,
+      "ois": false,
       "af": "pdaf",
       "min_focus_cm": null,
       "video_max": null,
-      "processing_score": 73,
-      "processing_basis": "random",
-      "_q": "random",
+      "processing_score": 66,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "ai_knowledge"
       ]
     },
     {
       "role": "periscope",
       "position": 0,
-      "sensor": "demo-s31",
+      "sensor": null,
       "mp": 200,
-      "aperture": 3.0,
-      "focal_mm": 113,
-      "fov_deg": 19,
-      "optical_zoom_x": null,
+      "aperture": 2.6,
+      "focal_mm": null,
+      "fov_deg": null,
+      "optical_zoom_x": 3.0,
       "ois": true,
       "af": "pdaf",
       "min_focus_cm": null,
       "video_max": null,
-      "processing_score": 72,
-      "processing_basis": "random",
-      "_q": "random",
+      "processing_score": 78,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "ai_knowledge"
       ]
     },
     {
       "role": "front",
       "position": 0,
-      "sensor": "demo-s13",
+      "sensor": null,
       "mp": 32,
-      "aperture": 2.3,
-      "focal_mm": 23,
-      "fov_deg": 82,
+      "aperture": 2,
+      "focal_mm": null,
+      "fov_deg": null,
       "optical_zoom_x": null,
       "ois": false,
-      "af": "pdaf",
+      "af": "fixed",
       "min_focus_cm": null,
       "video_max": null,
-      "processing_score": 79,
-      "processing_basis": "random",
-      "_q": "random",
+      "processing_score": 58,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "ai_knowledge"
       ]
     }
   ],
   "camera_features": {
     "macro_mode": "ultrawide_af",
-    "macro_min_focus_cm": 2.5,
-    "lossless_zoom_x": 4.0,
-    "max_digital_zoom_x": 60,
+    "macro_min_focus_cm": null,
+    "lossless_zoom_x": null,
+    "max_digital_zoom_x": 120,
     "dxomark": null,
-    "_q": "random",
+    "_q": "estimated",
     "_src": [
-      "random"
+      "ai_knowledge"
     ]
   },
   "quirks": [
     {
-      "code": "clean_android",
+      "code": "excellent_battery",
       "severity": 3,
-      "note_ru": "Демо: случайная особенность для проверки интерфейса.",
+      "note_ru": "Батарея 7000 мА·ч; режим съёмки в стиле Ricoh GR.",
       "evidence": [],
-      "_q": "random"
-    },
-    {
-      "code": "loud_stereo",
-      "severity": 2,
-      "note_ru": "Демо: случайная особенность для проверки интерфейса.",
-      "evidence": [],
-      "_q": "random"
+      "_q": "estimated"
     }
   ],
   "quirks_checked": false,
   "special": [],
-  "photos": [
-    {
-      "url": "/placeholder/realme-gt-8-pro/1.svg",
-      "kind": "placeholder",
-      "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
-      "width": 960,
-      "height": 1280,
-      "origin": "placeholder"
-    },
-    {
-      "url": "/placeholder/realme-gt-8-pro/2.svg",
-      "kind": "placeholder",
-      "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
-      "width": 960,
-      "height": 1280,
-      "origin": "placeholder"
-    },
-    {
-      "url": "/placeholder/realme-gt-8-pro/3.svg",
-      "kind": "placeholder",
-      "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
-      "width": 960,
-      "height": 1280,
-      "origin": "placeholder"
-    }
-  ],
+  "photos": [],
   "_meta": {
-    "created": "2026-11-20",
-    "updated": "2026-11-20",
-    "filled_by": "tools/generate_random_catalog.py"
+    "created": "2026-11-21",
+    "updated": "2026-11-21",
+    "filled_by": "Claude Opus 5.5 (сведения до 2026-06) + tools/import_catalog_data.py"
   }
 }

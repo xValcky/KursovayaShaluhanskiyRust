@@ -5,49 +5,93 @@
   "full_name": "Google Pixel 10 Pro",
   "aliases": [],
   "os": "Android",
-  "release_date": null,
+  "release_date": "2025-08-28",
   "year": 2025,
   "status": "on_sale",
   "availability_ru": "parallel_import",
   "form_factor": "bar",
   "in_ml": true,
-  "chipset": "demo-soc-1450",
+  "chipset": "google-tensor-g5",
   "specs": {
-    "screen_in": 6.3,
+    "screen_in": 6.34,
     "cover_screen_in": null,
     "refresh_hz": 120,
-    "display_type": null,
-    "peak_nits": null,
+    "display_type": "LTPO OLED",
+    "peak_nits": 3300,
     "battery_mah": 4870,
-    "charge_w": 30.0,
-    "wireless_w": null,
-    "weight_g": 207.0,
-    "thickness_mm": null,
-    "ip_rating": null,
+    "charge_w": 30,
+    "wireless_w": 15,
+    "weight_g": 207,
+    "thickness_mm": 8.6,
+    "ip_rating": "IP68",
     "has_5g": true,
     "nfc": true,
     "esim": true,
     "ir_port": false,
-    "jack35": null,
-    "sd_card": null,
-    "update_years": null,
-    "_q": "estimated",
+    "jack35": false,
+    "sd_card": false,
+    "update_years": 7,
+    "_q": "verified",
     "_src": [
-      "project_seed"
+      "wikipedia:Pixel_10_Pro",
+      "ai_knowledge"
     ]
   },
   "variants": [
     {
       "ram_gb": 16,
       "rom_gb": 128,
-      "price_rub": 83990,
-      "price_date": "2026-08-01",
-      "price_src": "project_seed",
-      "msrp_usd": null,
+      "price_rub": 60890,
+      "price_date": "2026-11-19",
+      "price_src": "telegram_polzaskidki",
+      "msrp_usd": 999,
       "is_base": true,
+      "_q": "verified",
+      "_src": [
+        "telegram_polzaskidki:t.me/polzaSKIDKI/32978",
+        "ai_knowledge"
+      ]
+    },
+    {
+      "ram_gb": 16,
+      "rom_gb": 256,
+      "price_rub": 66990,
+      "price_date": null,
+      "price_src": "price_model",
+      "msrp_usd": 1099,
+      "is_base": false,
       "_q": "estimated",
       "_src": [
-        "project_seed"
+        "price_model",
+        "ai_knowledge"
+      ]
+    },
+    {
+      "ram_gb": 16,
+      "rom_gb": 512,
+      "price_rub": 74290,
+      "price_date": null,
+      "price_src": "price_model",
+      "msrp_usd": 1219,
+      "is_base": false,
+      "_q": "estimated",
+      "_src": [
+        "price_model",
+        "ai_knowledge"
+      ]
+    },
+    {
+      "ram_gb": 16,
+      "rom_gb": 1024,
+      "price_rub": 88290,
+      "price_date": null,
+      "price_src": "price_model",
+      "msrp_usd": 1449,
+      "is_base": false,
+      "_q": "estimated",
+      "_src": [
+        "price_model",
+        "ai_knowledge"
       ]
     }
   ],
@@ -55,116 +99,118 @@
     {
       "role": "main",
       "position": 0,
-      "sensor": "demo-s23",
+      "sensor": "samsung-isocell-gnk",
       "mp": 50,
-      "aperture": 1.8,
-      "focal_mm": 26,
-      "fov_deg": 82,
+      "aperture": 1.68,
+      "focal_mm": 25,
+      "fov_deg": null,
       "optical_zoom_x": null,
       "ois": true,
-      "af": "pdaf",
+      "af": "dual_pixel",
       "min_focus_cm": null,
-      "video_max": "4K60",
-      "processing_score": 69,
-      "processing_basis": "random",
-      "_q": "random",
+      "video_max": null,
+      "processing_score": 87,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "ai_knowledge"
       ]
     },
     {
       "role": "ultrawide",
       "position": 0,
-      "sensor": "demo-s19",
-      "mp": 50,
-      "aperture": 2.3,
-      "focal_mm": 16,
-      "fov_deg": 121,
-      "optical_zoom_x": 0.6,
+      "sensor": null,
+      "mp": 48,
+      "aperture": 1.7,
+      "focal_mm": null,
+      "fov_deg": null,
+      "optical_zoom_x": null,
       "ois": false,
       "af": "pdaf",
-      "min_focus_cm": 3,
+      "min_focus_cm": null,
       "video_max": null,
-      "processing_score": 80,
-      "processing_basis": "random",
-      "_q": "random",
+      "processing_score": 76,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "ai_knowledge"
       ]
     },
     {
-      "role": "tele",
+      "role": "periscope",
       "position": 0,
-      "sensor": "demo-s25",
-      "mp": 64,
-      "aperture": 2.0,
-      "focal_mm": 68,
-      "fov_deg": 36,
+      "sensor": null,
+      "mp": 48,
+      "aperture": 2.8,
+      "focal_mm": 113,
+      "fov_deg": null,
       "optical_zoom_x": null,
       "ois": true,
       "af": "pdaf",
-      "min_focus_cm": 12,
+      "min_focus_cm": null,
       "video_max": null,
-      "processing_score": 86,
-      "processing_basis": "random",
-      "_q": "random",
+      "processing_score": 84,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "ai_knowledge"
       ]
     },
     {
       "role": "front",
       "position": 0,
-      "sensor": "demo-s12",
-      "mp": 20,
-      "aperture": 2.1,
-      "focal_mm": 22,
-      "fov_deg": 88,
+      "sensor": null,
+      "mp": 42,
+      "aperture": 2.2,
+      "focal_mm": null,
+      "fov_deg": null,
       "optical_zoom_x": null,
       "ois": false,
-      "af": "fixed",
+      "af": "pdaf",
       "min_focus_cm": null,
       "video_max": null,
-      "processing_score": 81,
-      "processing_basis": "random",
-      "_q": "random",
+      "processing_score": 76,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "ai_knowledge"
       ]
     }
   ],
   "camera_features": {
     "macro_mode": "ultrawide_af",
-    "macro_min_focus_cm": 3,
-    "lossless_zoom_x": 2.0,
-    "max_digital_zoom_x": 30,
+    "macro_min_focus_cm": null,
+    "lossless_zoom_x": 2,
+    "max_digital_zoom_x": 100,
     "dxomark": null,
-    "_q": "random",
+    "_q": "estimated",
     "_src": [
-      "random"
+      "ai_knowledge"
     ]
   },
   "quirks": [
     {
-      "code": "overheating",
-      "severity": 2,
-      "note_ru": "Гипотеза пользователя: Pixel сильно греются (чипы Tensor). Проверить по каждой модели отдельно.",
-      "evidence": [],
-      "_q": "user_hypothesis"
-    },
-    {
-      "code": "short_updates",
-      "severity": 1,
-      "note_ru": "Демо: случайная особенность для проверки интерфейса.",
-      "evidence": [],
-      "_q": "random"
+      "code": "long_updates",
+      "severity": 3,
+      "note_ru": "7 лет обновлений Android и безопасности с начала продаж — официальная политика Google для Pixel 8 и новее.",
+      "evidence": [
+        "https://support.google.com/pixelphone/answer/4457705?hl=en"
+      ],
+      "_q": "verified"
     },
     {
       "code": "clean_android",
-      "severity": 3,
-      "note_ru": "Демо: случайная особенность для проверки интерфейса.",
+      "severity": 2,
+      "note_ru": "Почти чистый Android без лишних оболочек.",
       "evidence": [],
-      "_q": "random"
+      "_q": "estimated"
+    },
+    {
+      "code": "good_ai_assistant",
+      "severity": 2,
+      "note_ru": "Gemini, Magic Cue, Pro Res Zoom до 100×, перевод звонков; часть функций без русского языка.",
+      "evidence": [],
+      "_q": "estimated"
     }
   ],
   "quirks_checked": false,
@@ -172,41 +218,41 @@
   "photos": [
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Arri%C3%A8re_du_Google_Pixel_10_Pro_pierre_de_lune_de_256_Go.jpg/960px-Arri%C3%A8re_du_Google_Pixel_10_Pro_pierre_de_lune_de_256_Go.jpg",
-      "kind": "angle",
+      "kind": "lifestyle",
       "color_ru": null,
       "author": "Fabe56",
       "license": "CC BY-SA 4.0",
       "source_page": "https://commons.wikimedia.org/wiki/File:Arri%C3%A8re_du_Google_Pixel_10_Pro_pierre_de_lune_de_256_Go.jpg",
-      "width": null,
+      "width": 960,
       "height": null,
       "origin": "wikimedia"
     },
     {
-      "url": "/placeholder/google-pixel-10-pro/2.svg",
-      "kind": "placeholder",
+      "author": "Fabe56",
       "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
-      "width": 960,
-      "height": 1280,
-      "origin": "placeholder"
+      "height": 1275,
+      "kind": "lifestyle",
+      "license": "CC BY-SA 4.0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Avant_du_Google_Pixel_10_Pro_pierre_de_lune_de_256_Go.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Avant_du_Google_Pixel_10_Pro_pierre_de_lune_de_256_Go.jpg/960px-Avant_du_Google_Pixel_10_Pro_pierre_de_lune_de_256_Go.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
     },
     {
-      "url": "/placeholder/google-pixel-10-pro/3.svg",
-      "kind": "placeholder",
+      "author": "Fabe56",
       "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
-      "width": 960,
-      "height": 1280,
-      "origin": "placeholder"
+      "height": 1275,
+      "kind": "lifestyle",
+      "license": "CC BY-SA 4.0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Arri%C3%A8re_(sous_emballage)_du_Google_Pixel_10_Pro_pierre_de_lune_de_256_Go.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Arri%C3%A8re_%28sous_emballage%29_du_Google_Pixel_10_Pro_pierre_de_lune_de_256_Go.jpg/960px-Arri%C3%A8re_%28sous_emballage%29_du_Google_Pixel_10_Pro_pierre_de_lune_de_256_Go.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
     }
   ],
   "_meta": {
-    "created": "2026-11-20",
-    "updated": "2026-11-20",
-    "filled_by": "tools/generate_random_catalog.py"
+    "created": "2026-11-21",
+    "updated": "2026-11-21",
+    "filled_by": "Claude Opus 5.5 (сведения до 2026-06) + tools/import_catalog_data.py"
   }
 }

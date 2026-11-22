@@ -5,35 +5,35 @@
   "full_name": "Apple iPhone 14",
   "aliases": [],
   "os": "iOS",
-  "release_date": null,
+  "release_date": "2022-09",
   "year": 2022,
-  "status": "on_sale",
+  "status": "discontinued",
   "availability_ru": "parallel_import",
   "form_factor": "bar",
   "in_ml": true,
-  "chipset": "demo-soc-1050",
+  "chipset": "apple-a15-bionic",
   "specs": {
     "screen_in": 6.1,
     "cover_screen_in": null,
     "refresh_hz": 60,
-    "display_type": null,
-    "peak_nits": null,
+    "display_type": "OLED",
+    "peak_nits": 1200,
     "battery_mah": 3279,
-    "charge_w": 20.0,
-    "wireless_w": null,
-    "weight_g": 172.0,
-    "thickness_mm": null,
-    "ip_rating": null,
+    "charge_w": 20,
+    "wireless_w": 15,
+    "weight_g": 172,
+    "thickness_mm": 7.8,
+    "ip_rating": "IP68",
     "has_5g": true,
     "nfc": true,
     "esim": true,
     "ir_port": false,
-    "jack35": null,
-    "sd_card": null,
+    "jack35": false,
+    "sd_card": false,
     "update_years": null,
     "_q": "estimated",
     "_src": [
-      "project_seed"
+      "ai_knowledge"
     ]
   },
   "variants": [
@@ -43,24 +43,40 @@
       "price_rub": 44990,
       "price_date": "2026-08-01",
       "price_src": "project_seed",
-      "msrp_usd": null,
+      "msrp_usd": 799,
       "is_base": true,
       "_q": "estimated",
       "_src": [
-        "project_seed"
+        "project_seed",
+        "ai_knowledge"
       ]
     },
     {
       "ram_gb": 6,
       "rom_gb": 256,
-      "price_rub": 49990,
-      "price_date": "2026-11-20",
-      "price_src": "random",
-      "msrp_usd": null,
+      "price_rub": 50590,
+      "price_date": null,
+      "price_src": "price_model",
+      "msrp_usd": 899,
       "is_base": false,
-      "_q": "random",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "price_model",
+        "ai_knowledge"
+      ]
+    },
+    {
+      "ram_gb": 6,
+      "rom_gb": 512,
+      "price_rub": 61890,
+      "price_date": null,
+      "price_src": "price_model",
+      "msrp_usd": 1099,
+      "is_base": false,
+      "_q": "estimated",
+      "_src": [
+        "price_model",
+        "ai_knowledge"
       ]
     }
   ],
@@ -68,81 +84,61 @@
     {
       "role": "main",
       "position": 0,
-      "sensor": "demo-s09",
+      "sensor": null,
       "mp": 12,
-      "aperture": 1.7,
-      "focal_mm": 23,
-      "fov_deg": 80,
+      "aperture": 1.5,
+      "focal_mm": 26,
+      "fov_deg": null,
       "optical_zoom_x": null,
       "ois": true,
-      "af": "pdaf",
+      "af": "dual_pixel",
       "min_focus_cm": null,
-      "video_max": "4K60",
-      "processing_score": 57,
-      "processing_basis": "random",
-      "_q": "random",
+      "video_max": null,
+      "processing_score": 74,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "ai_knowledge"
       ]
     },
     {
       "role": "ultrawide",
       "position": 0,
-      "sensor": "demo-s15",
-      "mp": 48,
-      "aperture": 2.1,
-      "focal_mm": 16,
-      "fov_deg": 121,
-      "optical_zoom_x": 0.6,
+      "sensor": null,
+      "mp": 12,
+      "aperture": 2.4,
+      "focal_mm": 13,
+      "fov_deg": null,
+      "optical_zoom_x": null,
       "ois": false,
       "af": "fixed",
       "min_focus_cm": null,
       "video_max": null,
-      "processing_score": 62,
-      "processing_basis": "random",
-      "_q": "random",
+      "processing_score": 60,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
       "_src": [
-        "random"
-      ]
-    },
-    {
-      "role": "tele",
-      "position": 0,
-      "sensor": "demo-s03",
-      "mp": 8,
-      "aperture": 2.4,
-      "focal_mm": 50,
-      "fov_deg": 44,
-      "optical_zoom_x": null,
-      "ois": true,
-      "af": "pdaf",
-      "min_focus_cm": null,
-      "video_max": null,
-      "processing_score": 55,
-      "processing_basis": "random",
-      "_q": "random",
-      "_src": [
-        "random"
+        "ai_knowledge"
       ]
     },
     {
       "role": "front",
       "position": 0,
-      "sensor": "demo-s11",
-      "mp": 16,
-      "aperture": 2.0,
-      "focal_mm": 24,
-      "fov_deg": 82,
+      "sensor": null,
+      "mp": 12,
+      "aperture": 1.9,
+      "focal_mm": 23,
+      "fov_deg": null,
       "optical_zoom_x": null,
       "ois": false,
-      "af": "fixed",
+      "af": "pdaf",
       "min_focus_cm": null,
       "video_max": null,
-      "processing_score": 57,
-      "processing_basis": "random",
-      "_q": "random",
+      "processing_score": 72,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "ai_knowledge"
       ]
     }
   ],
@@ -150,75 +146,106 @@
     "macro_mode": "none",
     "macro_min_focus_cm": null,
     "lossless_zoom_x": null,
-    "max_digital_zoom_x": 30,
+    "max_digital_zoom_x": 5,
     "dxomark": null,
-    "_q": "random",
+    "_q": "estimated",
     "_src": [
-      "random"
+      "ai_knowledge"
     ]
   },
   "quirks": [
     {
       "code": "excellent_haptics",
-      "severity": 1,
-      "note_ru": "Демо: случайная особенность для проверки интерфейса.",
+      "severity": 2,
+      "note_ru": "Чёткая и приятная вибрация.",
       "evidence": [],
-      "_q": "random"
-    },
-    {
-      "code": "great_video",
-      "severity": 1,
-      "note_ru": "Демо: случайная особенность для проверки интерфейса.",
-      "evidence": [],
-      "_q": "random"
+      "_q": "estimated"
     }
   ],
   "quirks_checked": false,
   "special": [
     {
+      "code": "satellite",
+      "note_ru": "Спутниковая связь (сообщения/вызовы); в РФ не работает.",
+      "_q": "estimated"
+    },
+    {
       "code": "compact",
-      "note_ru": null,
+      "note_ru": "Компактный моноблок с экраном до 6,1″.",
       "_q": "estimated"
     }
   ],
   "photos": [
     {
-      "url": "/placeholder/apple-iphone-14/1.svg",
-      "kind": "placeholder",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Back_view_of_iPhone_14_Blue.jpg/960px-Back_view_of_iPhone_14_Blue.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "kind": "back",
       "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
+      "author": "メイド理世",
+      "license": "CC BY-SA 4.0",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Back_view_of_iPhone_14_Blue.jpg",
       "width": 960,
-      "height": 1280,
-      "origin": "placeholder"
+      "height": null,
+      "origin": "wikimedia"
     },
     {
-      "url": "/placeholder/apple-iphone-14/2.svg",
-      "kind": "placeholder",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/IPhone_14_Product_Red.jpg/960px-IPhone_14_Product_Red.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "kind": "lifestyle",
       "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
+      "author": "Hajoon0102",
+      "license": "CC BY-SA 4.0",
+      "source_page": "https://commons.wikimedia.org/wiki/File:IPhone_14_Product_Red.jpg",
       "width": 960,
-      "height": 1280,
-      "origin": "placeholder"
+      "height": null,
+      "origin": "wikimedia"
     },
     {
-      "url": "/placeholder/apple-iphone-14/3.svg",
-      "kind": "placeholder",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/IPhone_14_20240225.jpg/960px-IPhone_14_20240225.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "kind": "lifestyle",
       "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
+      "author": "メイド理世",
+      "license": "CC BY-SA 4.0",
+      "source_page": "https://commons.wikimedia.org/wiki/File:IPhone_14_20240225.jpg",
       "width": 960,
-      "height": 1280,
-      "origin": "placeholder"
+      "height": null,
+      "origin": "wikimedia"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/IPhone_14_20240225_%281%29.jpg/960px-IPhone_14_20240225_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "kind": "lifestyle",
+      "color_ru": null,
+      "author": "メイド理世",
+      "license": "CC BY-SA 4.0",
+      "source_page": "https://commons.wikimedia.org/wiki/File:IPhone_14_20240225_(1).jpg",
+      "width": 960,
+      "height": null,
+      "origin": "wikimedia"
+    },
+    {
+      "author": "KKPCW（Kyu3）",
+      "color_ru": null,
+      "height": 720,
+      "kind": "lifestyle",
+      "license": "CC BY-SA 4.0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:IPhone_14_Plus_and_iPhone_14.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/IPhone_14_Plus_and_iPhone_14.jpg/960px-IPhone_14_Plus_and_iPhone_14.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
+    },
+    {
+      "author": "Dick Thomas Johnson from Tokyo, Japan",
+      "color_ru": null,
+      "height": 720,
+      "kind": "lifestyle",
+      "license": "CC BY 2.0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Apple_Shinjuku_(52504522280).jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Apple_Shinjuku_%2852504522280%29.jpg/960px-Apple_Shinjuku_%2852504522280%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
     }
   ],
   "_meta": {
-    "created": "2026-11-20",
-    "updated": "2026-11-20",
-    "filled_by": "tools/generate_random_catalog.py"
+    "created": "2026-11-21",
+    "updated": "2026-11-21",
+    "filled_by": "Claude Opus 5.5 (сведения до 2026-06) + tools/import_catalog_data.py"
   }
 }

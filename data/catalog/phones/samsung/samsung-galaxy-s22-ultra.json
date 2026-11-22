@@ -1,0 +1,297 @@
+{
+  "slug": "samsung-galaxy-s22-ultra",
+  "brand": "samsung",
+  "name": "Galaxy S22 Ultra",
+  "full_name": "Samsung Galaxy S22 Ultra",
+  "aliases": [],
+  "os": "Android",
+  "release_date": "2022-02",
+  "year": 2022,
+  "status": "discontinued",
+  "availability_ru": "not_sold",
+  "form_factor": "bar",
+  "in_ml": false,
+  "chipset": "exynos-2200",
+  "specs": {
+    "screen_in": 6.8,
+    "cover_screen_in": null,
+    "refresh_hz": 120,
+    "display_type": "Dynamic AMOLED 2X",
+    "peak_nits": 1750,
+    "battery_mah": 5000,
+    "charge_w": 45,
+    "wireless_w": 15,
+    "weight_g": 228,
+    "thickness_mm": 8.9,
+    "ip_rating": "IP68",
+    "has_5g": true,
+    "nfc": true,
+    "esim": true,
+    "ir_port": false,
+    "jack35": false,
+    "sd_card": false,
+    "update_years": 5,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge"
+    ]
+  },
+  "variants": [
+    {
+      "ram_gb": 8,
+      "rom_gb": 128,
+      "price_rub": null,
+      "price_date": null,
+      "price_src": null,
+      "msrp_usd": 1199,
+      "is_base": false,
+      "_q": "unknown",
+      "_src": [
+        "ai_knowledge"
+      ]
+    },
+    {
+      "ram_gb": 12,
+      "rom_gb": 256,
+      "price_rub": null,
+      "price_date": null,
+      "price_src": null,
+      "msrp_usd": null,
+      "is_base": true,
+      "_q": "unknown",
+      "_src": []
+    },
+    {
+      "ram_gb": 12,
+      "rom_gb": 512,
+      "price_rub": null,
+      "price_date": null,
+      "price_src": null,
+      "msrp_usd": null,
+      "is_base": false,
+      "_q": "unknown",
+      "_src": []
+    },
+    {
+      "ram_gb": 12,
+      "rom_gb": 1024,
+      "price_rub": null,
+      "price_date": null,
+      "price_src": null,
+      "msrp_usd": null,
+      "is_base": false,
+      "_q": "unknown",
+      "_src": []
+    }
+  ],
+  "cameras": [
+    {
+      "role": "main",
+      "position": 0,
+      "sensor": "samsung-isocell-hm3",
+      "mp": 108,
+      "aperture": 1.8,
+      "focal_mm": 23,
+      "fov_deg": null,
+      "optical_zoom_x": null,
+      "ois": true,
+      "af": "pdaf",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": 78,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
+      "_src": [
+        "ai_knowledge"
+      ]
+    },
+    {
+      "role": "ultrawide",
+      "position": 0,
+      "sensor": null,
+      "mp": 12,
+      "aperture": 2.2,
+      "focal_mm": 13,
+      "fov_deg": null,
+      "optical_zoom_x": null,
+      "ois": false,
+      "af": "dual_pixel",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": 64,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
+      "_src": [
+        "ai_knowledge"
+      ]
+    },
+    {
+      "role": "tele",
+      "position": 0,
+      "sensor": null,
+      "mp": 10,
+      "aperture": 2.4,
+      "focal_mm": 70,
+      "fov_deg": null,
+      "optical_zoom_x": null,
+      "ois": true,
+      "af": "dual_pixel",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": 70,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
+      "_src": [
+        "ai_knowledge"
+      ]
+    },
+    {
+      "role": "periscope",
+      "position": 0,
+      "sensor": null,
+      "mp": 10,
+      "aperture": 4.9,
+      "focal_mm": 230,
+      "fov_deg": null,
+      "optical_zoom_x": null,
+      "ois": true,
+      "af": "dual_pixel",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": 72,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
+      "_src": [
+        "ai_knowledge"
+      ]
+    },
+    {
+      "role": "front",
+      "position": 0,
+      "sensor": null,
+      "mp": 40,
+      "aperture": 2.2,
+      "focal_mm": 26,
+      "fov_deg": null,
+      "optical_zoom_x": null,
+      "ois": false,
+      "af": "pdaf",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": 70,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
+      "_src": [
+        "ai_knowledge"
+      ]
+    }
+  ],
+  "camera_features": {
+    "macro_mode": "ultrawide_af",
+    "macro_min_focus_cm": null,
+    "lossless_zoom_x": null,
+    "max_digital_zoom_x": 100,
+    "dxomark": null,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge"
+    ]
+  },
+  "quirks": [
+    {
+      "code": "throttling",
+      "severity": 2,
+      "note_ru": "Под долгой нагрузкой сбрасывает частоты.",
+      "evidence": [],
+      "_q": "estimated"
+    },
+    {
+      "code": "desktop_mode",
+      "severity": 2,
+      "note_ru": "Режим ПК при подключении к монитору.",
+      "evidence": [],
+      "_q": "estimated"
+    }
+  ],
+  "quirks_checked": false,
+  "special": [
+    {
+      "code": "stylus",
+      "note_ru": "Встроенный стилус с местом в корпусе.",
+      "_q": "estimated"
+    }
+  ],
+  "photos": [
+    {
+      "author": "Hajoon0102",
+      "color_ru": null,
+      "height": 1280,
+      "kind": "back",
+      "license": "CC BY-SA 4.0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Back_of_the_Samsung_Galaxy_S22_Ultra.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Back_of_the_Samsung_Galaxy_S22_Ultra.jpg/960px-Back_of_the_Samsung_Galaxy_S22_Ultra.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
+    },
+    {
+      "author": "Striker9498",
+      "color_ru": null,
+      "height": 720,
+      "kind": "lifestyle",
+      "license": "CC BY-SA 3.0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:20220210_%EC%82%BC%EC%84%B1_%EA%B0%A4%EB%9F%AD%EC%8B%9Cs22_%EC%8B%9C%EB%A6%AC%EC%A6%88.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/20220210_%EC%82%BC%EC%84%B1_%EA%B0%A4%EB%9F%AD%EC%8B%9Cs22_%EC%8B%9C%EB%A6%AC%EC%A6%88.jpg/960px-20220210_%EC%82%BC%EC%84%B1_%EA%B0%A4%EB%9F%AD%EC%8B%9Cs22_%EC%8B%9C%EB%A6%AC%EC%A6%88.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
+    },
+    {
+      "author": "Striker9498",
+      "color_ru": null,
+      "height": 1280,
+      "kind": "lifestyle",
+      "license": "CC BY-SA 3.0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:20220210_%EC%82%BC%EC%84%B1_%EA%B0%A4%EB%9F%AD%EC%8B%9Cs22_%EC%9A%B8%ED%8A%B8%EB%9D%BC.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/20220210_%EC%82%BC%EC%84%B1_%EA%B0%A4%EB%9F%AD%EC%8B%9Cs22_%EC%9A%B8%ED%8A%B8%EB%9D%BC.jpg/960px-20220210_%EC%82%BC%EC%84%B1_%EA%B0%A4%EB%9F%AD%EC%8B%9Cs22_%EC%9A%B8%ED%8A%B8%EB%9D%BC.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
+    },
+    {
+      "author": "Dinkun Chen",
+      "color_ru": null,
+      "height": 1479,
+      "kind": "lifestyle",
+      "license": "CC BY-SA 4.0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:SAMSUNG_Galaxy_S22_Ultra_BLACK_(2).jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/SAMSUNG_Galaxy_S22_Ultra_BLACK_%282%29.jpg/960px-SAMSUNG_Galaxy_S22_Ultra_BLACK_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
+    },
+    {
+      "author": "Dinkun Chen",
+      "color_ru": null,
+      "height": 1360,
+      "kind": "lifestyle",
+      "license": "CC BY-SA 4.0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:SAMSUNG_Galaxy_S22_Ultra_BLACK_(3).jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/SAMSUNG_Galaxy_S22_Ultra_BLACK_%283%29.jpg/960px-SAMSUNG_Galaxy_S22_Ultra_BLACK_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
+    },
+    {
+      "author": "Dinkun Chen",
+      "color_ru": null,
+      "height": 618,
+      "kind": "lifestyle",
+      "license": "CC BY-SA 4.0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:SAMSUNG_Galaxy_S22_Ultra_BLACK_(4).jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/SAMSUNG_Galaxy_S22_Ultra_BLACK_%284%29.jpg/960px-SAMSUNG_Galaxy_S22_Ultra_BLACK_%284%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
+    }
+  ],
+  "_meta": {
+    "created": "2026-11-21",
+    "updated": "2026-11-21",
+    "filled_by": "Claude Opus 5.5 (сведения до 2026-06) + tools/import_catalog_data.py"
+  }
+}

@@ -1,0 +1,238 @@
+{
+  "slug": "oneplus-open",
+  "brand": "oneplus",
+  "name": "OnePlus Open",
+  "full_name": "OnePlus Open",
+  "aliases": [],
+  "os": "Android",
+  "release_date": "2023-10",
+  "year": 2023,
+  "status": "discontinued",
+  "availability_ru": "parallel_import",
+  "form_factor": "book_fold",
+  "in_ml": true,
+  "chipset": "snapdragon-8-gen-2",
+  "specs": {
+    "screen_in": 7.82,
+    "cover_screen_in": 6.31,
+    "refresh_hz": 120,
+    "display_type": "LTPO AMOLED",
+    "peak_nits": 2800,
+    "battery_mah": 4805,
+    "charge_w": 67,
+    "wireless_w": 0,
+    "weight_g": 239,
+    "thickness_mm": 11.7,
+    "ip_rating": "IPX4",
+    "has_5g": true,
+    "nfc": true,
+    "esim": false,
+    "ir_port": false,
+    "jack35": false,
+    "sd_card": false,
+    "update_years": 4,
+    "_q": "estimated",
+    "_src": [
+      "wikipedia:OnePlus_Open",
+      "ai_knowledge"
+    ]
+  },
+  "variants": [
+    {
+      "ram_gb": 16,
+      "rom_gb": 512,
+      "price_rub": 89990,
+      "price_date": null,
+      "price_src": "ai_knowledge",
+      "msrp_usd": 1699,
+      "is_base": true,
+      "_q": "estimated",
+      "_src": [
+        "ai_knowledge"
+      ]
+    },
+    {
+      "ram_gb": 16,
+      "rom_gb": 1024,
+      "price_rub": 100790,
+      "price_date": null,
+      "price_src": "price_model",
+      "msrp_usd": null,
+      "is_base": false,
+      "_q": "estimated",
+      "_src": [
+        "price_model"
+      ]
+    }
+  ],
+  "cameras": [
+    {
+      "role": "main",
+      "position": 0,
+      "sensor": null,
+      "mp": 48,
+      "aperture": 1.7,
+      "focal_mm": 24,
+      "fov_deg": null,
+      "optical_zoom_x": null,
+      "ois": true,
+      "af": "pdaf",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": 80,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
+      "_src": [
+        "ai_knowledge"
+      ]
+    },
+    {
+      "role": "ultrawide",
+      "position": 0,
+      "sensor": null,
+      "mp": 48,
+      "aperture": 2.2,
+      "focal_mm": 14,
+      "fov_deg": null,
+      "optical_zoom_x": null,
+      "ois": false,
+      "af": "pdaf",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": 66,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
+      "_src": [
+        "ai_knowledge"
+      ]
+    },
+    {
+      "role": "periscope",
+      "position": 0,
+      "sensor": null,
+      "mp": 64,
+      "aperture": 2.6,
+      "focal_mm": 70,
+      "fov_deg": null,
+      "optical_zoom_x": 3.0,
+      "ois": true,
+      "af": "pdaf",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": 72,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
+      "_src": [
+        "ai_knowledge"
+      ]
+    },
+    {
+      "role": "cover",
+      "position": 0,
+      "sensor": null,
+      "mp": 32,
+      "aperture": 2.4,
+      "focal_mm": null,
+      "fov_deg": null,
+      "optical_zoom_x": null,
+      "ois": false,
+      "af": "fixed",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": 60,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
+      "_src": [
+        "ai_knowledge"
+      ]
+    },
+    {
+      "role": "front",
+      "position": 0,
+      "sensor": null,
+      "mp": 20,
+      "aperture": 2.2,
+      "focal_mm": null,
+      "fov_deg": null,
+      "optical_zoom_x": null,
+      "ois": false,
+      "af": "fixed",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": 58,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
+      "_src": [
+        "ai_knowledge"
+      ]
+    }
+  ],
+  "camera_features": {
+    "macro_mode": "ultrawide_af",
+    "macro_min_focus_cm": null,
+    "lossless_zoom_x": null,
+    "max_digital_zoom_x": 120,
+    "dxomark": null,
+    "_q": "estimated",
+    "_src": [
+      "ai_knowledge"
+    ]
+  },
+  "quirks": [
+    {
+      "code": "hinge_crease",
+      "severity": 1,
+      "note_ru": "Заметная складка внутреннего экрана.",
+      "evidence": [],
+      "_q": "estimated"
+    }
+  ],
+  "quirks_checked": false,
+  "special": [
+    {
+      "code": "book_fold",
+      "note_ru": "Складывается книжкой: большой внутренний экран и внешний.",
+      "_q": "estimated"
+    }
+  ],
+  "photos": [
+    {
+      "author": "Miyako Fujimiya",
+      "color_ru": null,
+      "height": 960,
+      "kind": "open",
+      "license": "CC BY-SA 4.0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:OnePlus_Open.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/OnePlus_Open.jpg/960px-OnePlus_Open.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
+    },
+    {
+      "author": "Miyako Fujimiya",
+      "color_ru": null,
+      "height": 903,
+      "kind": "open",
+      "license": "CC BY-SA 4.0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:OnePlus_Open_case_accessory_box.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/OnePlus_Open_case_accessory_box.jpg/960px-OnePlus_Open_case_accessory_box.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
+    },
+    {
+      "author": "Miyako Fujimiya",
+      "color_ru": null,
+      "height": 960,
+      "kind": "open",
+      "license": "CC BY-SA 4.0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Tablet_main_screen_of_OnePlus_Open.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Tablet_main_screen_of_OnePlus_Open.jpg/960px-Tablet_main_screen_of_OnePlus_Open.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
+    }
+  ],
+  "_meta": {
+    "created": "2026-11-21",
+    "updated": "2026-11-21",
+    "filled_by": "Claude Opus 5.5 (сведения до 2026-06) + tools/import_catalog_data.py"
+  }
+}

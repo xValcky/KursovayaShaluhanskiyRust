@@ -5,75 +5,75 @@
   "full_name": "Samsung Galaxy S26 Ultra",
   "aliases": [],
   "os": "Android",
-  "release_date": null,
+  "release_date": "2026-03",
   "year": 2026,
   "status": "on_sale",
   "availability_ru": "parallel_import",
   "form_factor": "bar",
   "in_ml": true,
-  "chipset": "demo-soc-3500",
+  "chipset": "snapdragon-8-elite-gen-5-for-galaxy",
   "specs": {
     "screen_in": 6.9,
     "cover_screen_in": null,
     "refresh_hz": 120,
-    "display_type": null,
-    "peak_nits": null,
+    "display_type": "LTPO AMOLED",
+    "peak_nits": 2600,
     "battery_mah": 5000,
-    "charge_w": 60.0,
-    "wireless_w": null,
-    "weight_g": 214.0,
-    "thickness_mm": null,
-    "ip_rating": null,
+    "charge_w": 60,
+    "wireless_w": 25,
+    "weight_g": 214,
+    "thickness_mm": 7.9,
+    "ip_rating": "IP68",
     "has_5g": true,
     "nfc": true,
     "esim": true,
     "ir_port": false,
-    "jack35": null,
-    "sd_card": null,
-    "update_years": null,
+    "jack35": false,
+    "sd_card": false,
+    "update_years": 7,
     "_q": "estimated",
     "_src": [
-      "project_seed"
+      "ai_knowledge"
     ]
   },
   "variants": [
     {
       "ram_gb": 12,
       "rom_gb": 256,
-      "price_rub": 69000,
-      "price_date": "2026-11-05",
-      "price_src": "project_seed",
+      "price_rub": 67500,
+      "price_date": "2026-11-21",
+      "price_src": "telegram_polzaskidki",
       "msrp_usd": null,
       "is_base": true,
-      "_q": "estimated",
+      "_q": "verified",
       "_src": [
-        "project_seed"
+        "telegram_polzaskidki:t.me/polzaSKIDKI/33095"
+      ]
+    },
+    {
+      "ram_gb": 12,
+      "rom_gb": 512,
+      "price_rub": 68381,
+      "price_date": "2026-10-04",
+      "price_src": "telegram_polzaskidki",
+      "msrp_usd": null,
+      "is_base": false,
+      "_q": "verified",
+      "_src": [
+        "telegram_polzaskidki:t.me/polzaSKIDKI/30466"
       ]
     },
     {
       "ram_gb": 16,
-      "rom_gb": 512,
-      "price_rub": 83990,
-      "price_date": "2026-11-20",
-      "price_src": "random",
-      "msrp_usd": null,
-      "is_base": false,
-      "_q": "random",
-      "_src": [
-        "random"
-      ]
-    },
-    {
-      "ram_gb": 24,
       "rom_gb": 1024,
-      "price_rub": 101990,
-      "price_date": "2026-11-20",
-      "price_src": "random",
+      "price_rub": 87090,
+      "price_date": null,
+      "price_src": "price_model",
       "msrp_usd": null,
       "is_base": false,
-      "_q": "random",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "price_model"
       ]
     }
   ],
@@ -81,157 +81,224 @@
     {
       "role": "main",
       "position": 0,
-      "sensor": "demo-s31",
+      "sensor": null,
       "mp": 200,
-      "aperture": 1.7,
-      "focal_mm": 25,
-      "fov_deg": 82,
+      "aperture": 1.4,
+      "focal_mm": 24,
+      "fov_deg": null,
       "optical_zoom_x": null,
       "ois": true,
       "af": "dual_pixel",
       "min_focus_cm": null,
-      "video_max": "4K60",
-      "processing_score": 70,
-      "processing_basis": "random",
-      "_q": "random",
+      "video_max": null,
+      "processing_score": 88,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "ai_knowledge"
       ]
     },
     {
       "role": "ultrawide",
       "position": 0,
-      "sensor": "demo-s23",
+      "sensor": null,
       "mp": 50,
-      "aperture": 2.0,
-      "focal_mm": 15,
-      "fov_deg": 121,
-      "optical_zoom_x": 0.6,
+      "aperture": 1.9,
+      "focal_mm": 13,
+      "fov_deg": null,
+      "optical_zoom_x": null,
       "ois": false,
-      "af": "pdaf",
-      "min_focus_cm": 4,
+      "af": "dual_pixel",
+      "min_focus_cm": null,
       "video_max": null,
-      "processing_score": 78,
-      "processing_basis": "random",
-      "_q": "random",
+      "processing_score": 76,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "ai_knowledge"
+      ]
+    },
+    {
+      "role": "tele",
+      "position": 0,
+      "sensor": null,
+      "mp": 10,
+      "aperture": 2.4,
+      "focal_mm": 67,
+      "fov_deg": null,
+      "optical_zoom_x": null,
+      "ois": true,
+      "af": "dual_pixel",
+      "min_focus_cm": null,
+      "video_max": null,
+      "processing_score": 70,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
+      "_src": [
+        "ai_knowledge"
       ]
     },
     {
       "role": "periscope",
       "position": 0,
-      "sensor": "demo-s20",
+      "sensor": null,
       "mp": 50,
-      "aperture": 3.1,
-      "focal_mm": 119,
-      "fov_deg": 21,
+      "aperture": 2.9,
+      "focal_mm": 111,
+      "fov_deg": null,
       "optical_zoom_x": null,
       "ois": true,
-      "af": "pdaf",
+      "af": "dual_pixel",
       "min_focus_cm": null,
       "video_max": null,
-      "processing_score": 81,
-      "processing_basis": "random",
-      "_q": "random",
+      "processing_score": 84,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "ai_knowledge"
       ]
     },
     {
       "role": "front",
       "position": 0,
-      "sensor": "demo-s19",
-      "mp": 50,
-      "aperture": 2.0,
+      "sensor": null,
+      "mp": 12,
+      "aperture": 2.2,
       "focal_mm": 26,
-      "fov_deg": 79,
+      "fov_deg": null,
       "optical_zoom_x": null,
       "ois": false,
-      "af": "fixed",
+      "af": "dual_pixel",
       "min_focus_cm": null,
       "video_max": null,
-      "processing_score": 69,
-      "processing_basis": "random",
-      "_q": "random",
+      "processing_score": 75,
+      "processing_basis": "reviews_rubric",
+      "_q": "estimated",
       "_src": [
-        "random"
+        "ai_knowledge"
       ]
     }
   ],
   "camera_features": {
     "macro_mode": "ultrawide_af",
-    "macro_min_focus_cm": 4,
-    "lossless_zoom_x": 4.0,
-    "max_digital_zoom_x": 120,
+    "macro_min_focus_cm": null,
+    "lossless_zoom_x": 2,
+    "max_digital_zoom_x": 100,
     "dxomark": null,
-    "_q": "random",
+    "_q": "estimated",
     "_src": [
-      "random"
+      "ai_knowledge"
     ]
   },
   "quirks": [
     {
-      "code": "good_ai_assistant",
-      "severity": 2,
-      "note_ru": "Со слов пользователя: хороший встроенный ИИ-ассистент (Galaxy AI). Проверить список функций для модели и что работает в РФ.",
+      "code": "long_updates",
+      "severity": 3,
+      "note_ru": "7 лет обновлений по официальной политике Samsung.",
       "evidence": [],
-      "_q": "user_hypothesis"
+      "_q": "estimated"
     },
     {
-      "code": "inconsistent_colors",
-      "severity": 2,
-      "note_ru": "Демо: случайная особенность для проверки интерфейса.",
+      "code": "good_ai_assistant",
+      "severity": 3,
+      "note_ru": "Набор ИИ-функций производителя: перевод звонков, правка фото, сводки; часть зависит от региона.",
       "evidence": [],
-      "_q": "random"
+      "_q": "estimated"
+    },
+    {
+      "code": "desktop_mode",
+      "severity": 2,
+      "note_ru": "Режим ПК при подключении к монитору.",
+      "evidence": [],
+      "_q": "estimated"
+    },
+    {
+      "code": "excellent_display",
+      "severity": 2,
+      "note_ru": "Яркий и точный экран по замерам обзоров.",
+      "evidence": [],
+      "_q": "estimated"
     }
   ],
   "quirks_checked": false,
   "special": [
     {
       "code": "stylus",
-      "note_ru": "S Pen в корпусе (по правилу для Galaxy S Ultra — проверить модель).",
+      "note_ru": "Встроенный стилус с местом в корпусе.",
       "_q": "estimated"
     }
   ],
   "photos": [
     {
-      "url": "/placeholder/samsung-galaxy-s26-ultra/1.svg",
-      "kind": "placeholder",
+      "author": "Kyu3a",
       "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
-      "width": 960,
-      "height": 1280,
-      "origin": "placeholder"
+      "height": 960,
+      "kind": "front",
+      "license": "CC BY-SA 4.0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Galaxy_S26_Ultra_Privacy_display_On%E3%83%BBOFF.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Galaxy_S26_Ultra_Privacy_display_On%E3%83%BBOFF.jpg/960px-Galaxy_S26_Ultra_Privacy_display_On%E3%83%BBOFF.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
     },
     {
-      "url": "/placeholder/samsung-galaxy-s26-ultra/2.svg",
-      "kind": "placeholder",
+      "author": "Kyu3a",
       "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
-      "width": 960,
       "height": 1280,
-      "origin": "placeholder"
+      "kind": "front",
+      "license": "CC BY-SA 4.0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Galaxy_S26_Ultra_Privacy_display_OFF.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Galaxy_S26_Ultra_Privacy_display_OFF.jpg/960px-Galaxy_S26_Ultra_Privacy_display_OFF.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
     },
     {
-      "url": "/placeholder/samsung-galaxy-s26-ultra/3.svg",
-      "kind": "placeholder",
+      "author": "Kyu3a",
       "color_ru": null,
-      "author": null,
-      "license": "демо",
-      "source_page": null,
-      "width": 960,
       "height": 1280,
-      "origin": "placeholder"
+      "kind": "front",
+      "license": "CC BY-SA 4.0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Galaxy_S26_Ultra_Privacy_display_ON.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Galaxy_S26_Ultra_Privacy_display_ON.jpg/960px-Galaxy_S26_Ultra_Privacy_display_ON.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
+    },
+    {
+      "author": "เวียร์",
+      "color_ru": null,
+      "height": 1280,
+      "kind": "lifestyle",
+      "license": "CC BY 4.0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Galaxy_S26_Ultra_lavender.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Galaxy_S26_Ultra_lavender.jpg/960px-Galaxy_S26_Ultra_lavender.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
+    },
+    {
+      "author": "Kaliper1",
+      "color_ru": null,
+      "height": 720,
+      "kind": "lifestyle",
+      "license": "CC0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Night_of_October,_2026,_Indonesian_protest._(44651).jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Night_of_October%2C_2026%2C_Indonesian_protest._%2844651%29.jpg/960px-Night_of_October%2C_2026%2C_Indonesian_protest._%2844651%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
+    },
+    {
+      "author": "Kaliper1",
+      "color_ru": null,
+      "height": 720,
+      "kind": "lifestyle",
+      "license": "CC0",
+      "origin": "wikimedia",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Night_of_October,_2026,_Indonesian_protest._(36876).jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Night_of_October%2C_2026%2C_Indonesian_protest._%2836876%29.jpg/960px-Night_of_October%2C_2026%2C_Indonesian_protest._%2836876%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 960
     }
   ],
   "_meta": {
-    "created": "2026-11-20",
-    "updated": "2026-11-20",
-    "filled_by": "tools/generate_random_catalog.py"
+    "created": "2026-11-21",
+    "updated": "2026-11-21",
+    "filled_by": "Claude Opus 5.5 (сведения до 2026-06) + tools/import_catalog_data.py"
   }
 }
